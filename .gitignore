@@ -1,3 +1,12 @@
+# Intellij
+.idea
+
+# Java compilation
+out
+
+# Generated resources
+generated
+
 # Compiled class file
 *.class
 
