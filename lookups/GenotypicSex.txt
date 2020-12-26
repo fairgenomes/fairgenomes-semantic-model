@@ -1,0 +1,12 @@
+value	description	codesystem	code	iri
+UNKNOWN_KARYOTYPE	Untyped or inconclusive karyotyping	PhenoPackets	0	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#UNKNOWN_KARYOTYPE
+XX	Female	PhenoPackets	1	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XX
+XY	Male	PhenoPackets	2	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XY
+XO	Single X chromosome only	PhenoPackets	3	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XO
+XXY	Two X and one Y chromosome	PhenoPackets	4	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXY
+XXX	Three X chromosomes	PhenoPackets	5	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXX
+XXYY	Two X chromosomes and two Y chromosomes	PhenoPackets	6	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXYY
+XXXY	Three X chromosomes and one Y chromosome	PhenoPackets	7	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXY
+XXXX	Four X chromosomes	PhenoPackets	8	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXX
+XYY	One X and two Y chromosomes	PhenoPackets	9	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XYY
+OTHER_KARYOTYPE	None of the above types	PhenoPackets	10	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#OTHER_KARYOTYPE
