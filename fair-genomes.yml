@@ -1,0 +1,35 @@
+---
+name: FAIR Genomes metadata model
+description: The FAIR Genomes semantic metadata model to power reuse of NGS data in research and healthcare.
+version: 0.0
+date: 2020-12-19
+lookupGlobalOptions: lookups/NullFlavors.txt
+modules:
+    - name: Personal
+      description: This module contains information about the person, i.e. individual, subject, patient
+      elements:
+          - name: Identifier
+            description: An alphanumeric identifier assigned to a specific patient.
+            ontology: NCIT:C164337 [http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C164337]
+            values: String
+          - name: Gender
+            description: Biological sex is the quality of a biological organism based on reproductive function or organs.
+            ontology: SIO:010029 [https://semanticscience.org/resource/SIO_010029.rdf]
+            values: Lookup [lookups/Gender.txt]
+          - name: Genotypic sex
+            description: A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.
+            ontology: PATO:0020000 [http://purl.obolibrary.org/obo/PATO_0020000]
+            values: Lookup [lookups/GenotypicSex.txt]
+    - name: Clinical
+      description: This module contains the clinical information collected for a specific person
+      elements:
+          - name: Belongs to person
+            description: Link to the person for which the clinical information was collected.
+            ontology: SIO:000764 [http://semanticscience.org/resource/SIO_000764]
+            values: CrossReference [Personal]
+          - name: Age at diagnosis
+            description: The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.
+            ontology: SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]
+            values: PositiveInteger
+
+
