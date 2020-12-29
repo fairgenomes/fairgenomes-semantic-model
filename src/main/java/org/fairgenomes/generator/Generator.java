@@ -22,10 +22,11 @@ public class Generator {
         mapper.findAndRegisterModules();
         FAIRGenomes fg = mapper.readValue(inputF, FAIRGenomes.class);
 
-        System.out.println("Loading all lookups...");
+        System.out.println("Loading lookups and value types...");
         fg.loadLookupGlobalOptions();
         fg.parseElementValueTypes();
         fg.loadElementLookups();
+        fg.parseElementOntologies();
 
         System.out.println("Generating representations...");
         new ToMD(fg, new File("generated/markdown")).go();

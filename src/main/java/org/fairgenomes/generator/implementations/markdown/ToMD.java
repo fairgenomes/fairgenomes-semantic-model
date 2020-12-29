@@ -40,7 +40,7 @@ public class ToMD {
             bw.write("|---|---|---|" + RN);
 
             for (Element e : m.elements) {
-                bw.write("| " + e.name + " | " + e.ontology + " | " + e.valueTypeToString() + " |" + RN);
+                bw.write("| " + e.name + " | " + "[" + e.codeSystem + ":" + e.code + "](" + e.iri + ")" + " | " + e.valueTypeToString() + " |" + RN);
             }
         }
 

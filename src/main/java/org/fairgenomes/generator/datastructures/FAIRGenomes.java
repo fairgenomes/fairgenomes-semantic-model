@@ -79,10 +79,17 @@ public class FAIRGenomes {
                 int whiteSpaceIndex = e.ontology.indexOf(" ");
                 if(whiteSpaceIndex == -1)
                 {
-                    throw new Exception("bad ontology info for " + e.toString());
+                    throw new Exception("bad ontology info for " + e.toString() + ", no whitespace");
                 }
-                String codeAndCodeSystem = e.ontology.substring(whiteSpaceIndex);
+                String codeAndCodeSystem = e.ontology.substring(0, whiteSpaceIndex);
+                if(!codeAndCodeSystem.contains(":")){
+                    throw new Exception("bad ontology info for " + e.toString()+ ", no colon");
+                }
 
+                String[] splitCodeAndCodeSystem = codeAndCodeSystem.split(":", -1);
+                e.codeSystem = splitCodeAndCodeSystem[0];
+                e.code = splitCodeAndCodeSystem[1];
+                e.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
             }
         }
     }
