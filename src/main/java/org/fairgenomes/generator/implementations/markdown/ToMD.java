@@ -1,8 +1,8 @@
-package org.molgenis.generator.implementations.markdown;
+package org.fairgenomes.generator.implementations.markdown;
 
-import org.molgenis.generator.datastructures.Element;
-import org.molgenis.generator.datastructures.FAIRGenomes;
-import org.molgenis.generator.datastructures.Module;
+import org.fairgenomes.generator.datastructures.Element;
+import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.datastructures.Module;
 
 import java.io.BufferedWriter;
 import java.io.File;

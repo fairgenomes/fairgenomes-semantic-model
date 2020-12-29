@@ -1,38 +1,33 @@
-package org.molgenis.generator;
+package org.fairgenomes.generator;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import org.molgenis.generator.datastructures.FAIRGenomes;
-import org.molgenis.generator.implementations.markdown.ToMD;
+import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.implementations.markdown.ToMD;
 
 import java.io.*;
 
 public class Generator {
 
     private File inputF;
-   // private File outputF;
 
-    public Generator()
-    {
+    public Generator() {
         this.inputF = new File("fair-genomes.yml");
     }
 
-    public Generator(File inputF, File outputF) {
-        this.inputF = inputF;
-     //   this.outputF = outputF;
-    }
+    public void generateResources() throws Exception {
 
-    public void parse() throws Exception {
+        System.out.println("Parsing FAIR Genomes YAML...");
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         mapper.findAndRegisterModules();
         FAIRGenomes fg = mapper.readValue(inputF, FAIRGenomes.class);
+
+        System.out.println("Loading all lookups...");
         fg.loadLookupGlobalOptions();
         fg.parseElementValueTypes();
         fg.loadElementLookups();
 
-        /*
-        Generate other representations
-         */
+        System.out.println("Generating representations...");
         new ToMD(fg, new File("generated/markdown")).go();
 
     }

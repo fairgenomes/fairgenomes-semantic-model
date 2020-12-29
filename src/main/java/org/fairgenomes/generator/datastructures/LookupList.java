@@ -1,4 +1,4 @@
-package org.molgenis.generator.datastructures;
+package org.fairgenomes.generator.datastructures;
 
 import java.io.File;
 import java.util.HashMap;

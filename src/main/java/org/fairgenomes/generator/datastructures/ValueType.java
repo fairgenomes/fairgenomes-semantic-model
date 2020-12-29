@@ -1,4 +1,4 @@
-package org.molgenis.generator.datastructures;
+package org.fairgenomes.generator.datastructures;
 
 public enum ValueType {
     String, Lookup, PositiveInteger, CrossReference;

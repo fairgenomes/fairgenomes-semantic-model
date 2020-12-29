@@ -1,4 +1,4 @@
-package org.molgenis.generator.implementations.artdecor;
+package org.fairgenomes.generator.implementations.artdecor;
 
 /**
  * Mapping:
