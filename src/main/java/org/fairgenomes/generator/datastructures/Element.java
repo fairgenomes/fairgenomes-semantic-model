@@ -13,6 +13,7 @@ public class Element {
     /*
     Variables that may be loaded afterwards
      */
+    public String technicalName;
     public ValueType valueTypeEnum;
     public LookupList lookup;
     public String crossRefTo;
@@ -34,7 +35,7 @@ public class Element {
     {
         if(valueTypeEnum.equals(ValueType.Lookup))
         {
-            return lookup.fileName + " (" + lookup.lookups.size() + " choices)";
+            return lookup.srcFile.getName() + " (" + lookup.lookups.size() + " choices)";
         }else if(valueTypeEnum.equals(ValueType.CrossReference))
         {
             return crossRefTo;

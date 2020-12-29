@@ -70,8 +70,9 @@ public class FAIRGenomes {
         }
     }
 
-    /*
-    Parse and split ontology info to code, codesystem and iri
+    /**
+     * Parse and split ontology info to code, codesystem and iri
+     * @throws Exception
      */
     public void parseElementOntologies() throws Exception {
         for (Module m : modules) {
@@ -90,6 +91,19 @@ public class FAIRGenomes {
                 e.codeSystem = splitCodeAndCodeSystem[0];
                 e.code = splitCodeAndCodeSystem[1];
                 e.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+            }
+        }
+    }
+
+    /**
+     * Create technical names
+     * @return
+     */
+    public void createElementTechnicalNames() throws Exception {
+        for (Module m : modules) {
+            m.technicalName = m.name.replace(" ", "").toLowerCase();
+            for (Element e : m.elements) {
+                e.technicalName = e.name.replace(" ", "").toLowerCase();
             }
         }
     }

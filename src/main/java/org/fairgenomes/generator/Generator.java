@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.fairgenomes.generator.datastructures.FAIRGenomes;
 import org.fairgenomes.generator.implementations.markdown.ToMD;
+import org.fairgenomes.generator.implementations.molgenisemx.ToEMX;
 
 import java.io.*;
 
@@ -27,9 +28,11 @@ public class Generator {
         fg.parseElementValueTypes();
         fg.loadElementLookups();
         fg.parseElementOntologies();
+        fg.createElementTechnicalNames();
 
         System.out.println("Generating representations...");
         new ToMD(fg, new File("generated/markdown")).go();
+        new ToEMX(fg, new File("generated/molgenis-emx")).go();
 
     }
 }
