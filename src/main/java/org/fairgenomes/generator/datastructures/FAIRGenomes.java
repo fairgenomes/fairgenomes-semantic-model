@@ -19,7 +19,7 @@ public class FAIRGenomes {
     /*
     Variables loaded afterwards
      */
-    private LookupList lookupGlobalOptionsInstance;
+    public LookupList lookupGlobalOptionsInstance;
 
     /**
      * Load the lookupGlobalOptions

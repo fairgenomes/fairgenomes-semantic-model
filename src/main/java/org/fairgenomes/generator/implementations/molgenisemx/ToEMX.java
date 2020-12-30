@@ -1,9 +1,6 @@
 package org.fairgenomes.generator.implementations.molgenisemx;
 
-import org.fairgenomes.generator.datastructures.Element;
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
-import org.fairgenomes.generator.datastructures.Module;
-import org.fairgenomes.generator.datastructures.ValueType;
+import org.fairgenomes.generator.datastructures.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -13,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.HashMap;
 
 public class ToEMX {
 
@@ -84,15 +82,30 @@ public class ToEMX {
             for (Element e : m.elements) {
                 if (e.isLookup()) {
 
-                    //copy and add NF
-                    File targetFile = new File(outputFolder,m.technicalName + "_lookup_" + e.technicalName + ".tsv");
+                    /*
+                    Copy the original and add NullFlavors
+                     */
+                    String entityName = m.technicalName + "_lookup_" + e.technicalName;
+                    File targetFile = new File(outputFolder,entityName + ".tsv");
 
-                    Path copied = Paths.get(targetFile.getAbsolutePath());
-                    Path originalPath = e.lookup.srcFile.toPath();
-                    Files.copy(originalPath, copied, StandardCopyOption.REPLACE_EXISTING);
+                    Path target = Paths.get(targetFile.getAbsolutePath());
+                    Path original = e.lookup.srcFile.toPath();
+                    Files.copy(original, target, StandardCopyOption.REPLACE_EXISTING);
 
-                    // work in progress
-                    //MCMDbw.write("mcmd import -p $1_with_nf.tsv --as fair-genomes_$1 --in " + PACKAGE_NAME + RN);
+                    fw = new FileWriter(targetFile,true);
+                    bw = new BufferedWriter(fw);
+
+                    HashMap<String, Lookup> ll = fg.lookupGlobalOptionsInstance.lookups;
+                    for(String key: ll.keySet())
+                    {
+                        Lookup l = ll.get(key);
+                        bw.write(l.value + "\t" + l.description + "\t" + l.codesystem + "\t" + l.code + "\t" + l.iri + RN);
+                    }
+
+                    bw.flush();
+                    bw.close();
+
+                    MCMDbw.write("mcmd import -p "+targetFile.getName()+" --as fair-genomes_"+entityName+" --in " + PACKAGE_NAME + RN);
                 }
             }
         }
