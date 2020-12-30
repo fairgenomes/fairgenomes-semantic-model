@@ -19,7 +19,7 @@ public class FAIRGenomes {
     /*
     Variables loaded afterwards
      */
-    private LookupList lookupGlobalOptionsInstance;
+    public LookupList lookupGlobalOptionsInstance;
 
     /**
      * Load the lookupGlobalOptions
@@ -57,7 +57,7 @@ public class FAIRGenomes {
         {
             for(Element e : m.elements)
             {
-                if(e.valueTypeEnum.equals(ValueType.Lookup))
+                if(e.isLookup())
                 {
                     int whiteSpaceIndex = e.values.indexOf(" ");
                     String vt = whiteSpaceIndex > 0 ? e.values.substring(whiteSpaceIndex) : e.values;
@@ -70,26 +70,48 @@ public class FAIRGenomes {
         }
     }
 
-    /*
-    Parse and split ontology info to code, codesystem and iri
+    /**
+     * Parse and split ontology info to code, codesystem and iri
+     * @throws Exception
      */
-    public void parseElementOntologies() throws Exception {
+    public void parseOntologyReferences() throws Exception {
         for (Module m : modules) {
+            int whiteSpaceIndex = m.ontology.indexOf(" ");
+            String[] split = parseOntoInfo(whiteSpaceIndex, m.ontology);
+            m.codeSystem = split[0];
+            m.code = split[1];
+            m.iri = m.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
             for (Element e : m.elements) {
-                int whiteSpaceIndex = e.ontology.indexOf(" ");
-                if(whiteSpaceIndex == -1)
-                {
-                    throw new Exception("bad ontology info for " + e.toString() + ", no whitespace");
-                }
-                String codeAndCodeSystem = e.ontology.substring(0, whiteSpaceIndex);
-                if(!codeAndCodeSystem.contains(":")){
-                    throw new Exception("bad ontology info for " + e.toString()+ ", no colon");
-                }
-
-                String[] splitCodeAndCodeSystem = codeAndCodeSystem.split(":", -1);
-                e.codeSystem = splitCodeAndCodeSystem[0];
-                e.code = splitCodeAndCodeSystem[1];
+                whiteSpaceIndex = e.ontology.indexOf(" ");
+                split = parseOntoInfo(whiteSpaceIndex, e.ontology);
+                e.codeSystem = split[0];
+                e.code = split[1];
                 e.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+            }
+        }
+    }
+
+    private String[] parseOntoInfo(int whiteSpaceIndex, String ontoInfo) throws Exception {
+        if(whiteSpaceIndex == -1)
+        {
+            throw new Exception("bad ontology info: " + ontoInfo + ", no whitespace");
+        }
+        String codeAndCodeSystem = ontoInfo.substring(0, whiteSpaceIndex);
+        if(!codeAndCodeSystem.contains(":")){
+            throw new Exception("bad ontology info: " + ontoInfo + ", no colon");
+        }
+        return codeAndCodeSystem.split(":", -1);
+    }
+
+    /**
+     * Create technical names
+     * @return
+     */
+    public void createElementTechnicalNames() throws Exception {
+        for (Module m : modules) {
+            m.technicalName = m.name.replace(" ", "").toLowerCase();
+            for (Element e : m.elements) {
+                e.technicalName = e.name.replace(" ", "").toLowerCase();
             }
         }
     }

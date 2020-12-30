@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class LookupList {
 
-    public String fileName;
+    public File srcFile;
     public HashMap<String, Lookup> lookups;
     private static final String HEADER = "value\tdescription\tcodesystem\tcode\tiri";
 
@@ -16,7 +16,7 @@ public class LookupList {
      * @param lookupListFile
      */
     public LookupList(File lookupListFile) throws Exception {
-        this.fileName = lookupListFile.getName();
+        this.srcFile = lookupListFile;
         lookups = new HashMap<>();
 
         Scanner s = new Scanner(lookupListFile);
