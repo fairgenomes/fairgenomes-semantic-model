@@ -31,7 +31,7 @@ public class Element {
                 '}';
     }
 
-    public String valueTypeToString()
+    public String valueTypeToMarkDown()
     {
         if(valueTypeEnum.equals(ValueType.Lookup))
         {
@@ -43,6 +43,21 @@ public class Element {
         else
         {
             return valueTypeEnum.toString();
+        }
+    }
+
+    public String valueTypeToArtDecor()
+    {
+        switch(valueTypeEnum) {
+            case String: return "ST";
+            case Lookup: return "ST";
+            case PositiveInteger: return "INT";
+            case CrossReference: return "ST";
+            case Date: return "DATE";
+            case DateTime: return "DATE";
+            case Boolean: return "BOOLEAN";
+            case Float: return "FLOAT";
+            default: return "ST";
         }
     }
 

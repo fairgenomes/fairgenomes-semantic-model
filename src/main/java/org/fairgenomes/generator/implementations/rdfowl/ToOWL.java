@@ -13,6 +13,7 @@ import java.io.IOException;
 /**
  * Generate OWL file from FAIR Genomes YAML.
  * TODO: refer to original ontology IRI or make 'FAIR Genomes' IRIs? or use both?
+ * TODO: NullFlavors
  */
 public class ToOWL {
 
