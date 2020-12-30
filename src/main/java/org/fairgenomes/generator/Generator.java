@@ -5,6 +5,7 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.fairgenomes.generator.datastructures.FAIRGenomes;
 import org.fairgenomes.generator.implementations.markdown.ToMD;
 import org.fairgenomes.generator.implementations.molgenisemx.ToEMX;
+import org.fairgenomes.generator.implementations.rdfowl.ToOWL;
 
 import java.io.*;
 
@@ -33,6 +34,7 @@ public class Generator {
         System.out.println("Generating representations...");
         new ToMD(fg, new File("generated/markdown")).go();
         new ToEMX(fg, new File("generated/molgenis-emx")).go();
+        new ToOWL(fg, new File("generated/rdf-owl")).go();
 
     }
 }
