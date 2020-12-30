@@ -57,7 +57,7 @@ public class FAIRGenomes {
         {
             for(Element e : m.elements)
             {
-                if(e.valueTypeEnum.equals(ValueType.Lookup))
+                if(e.isLookup())
                 {
                     int whiteSpaceIndex = e.values.indexOf(" ");
                     String vt = whiteSpaceIndex > 0 ? e.values.substring(whiteSpaceIndex) : e.values;
@@ -83,7 +83,7 @@ public class FAIRGenomes {
             m.iri = m.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
             for (Element e : m.elements) {
                 whiteSpaceIndex = e.ontology.indexOf(" ");
-                split = parseOntoInfo(whiteSpaceIndex, m.ontology);
+                split = parseOntoInfo(whiteSpaceIndex, e.ontology);
                 e.codeSystem = split[0];
                 e.code = split[1];
                 e.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();

@@ -31,9 +31,18 @@ public class Element {
                 '}';
     }
 
+    public boolean isLookup()
+    {
+        switch(valueTypeEnum) {
+            case LookupOne: return true;
+            case LookupMultiple: return true;
+            default: return false;
+        }
+    }
+
     public String valueTypeToMarkDown()
     {
-        if(valueTypeEnum.equals(ValueType.Lookup))
+        if(isLookup())
         {
             return lookup.srcFile.getName() + " (" + lookup.lookups.size() + " choices)";
         }else if(valueTypeEnum.equals(ValueType.CrossReference))
@@ -50,7 +59,8 @@ public class Element {
     {
         switch(valueTypeEnum) {
             case String: return "ST";
-            case Lookup: return "ST";
+            case LookupOne: return "ST";
+            case LookupMultiple: return "ST";
             case PositiveInteger: return "INT";
             case CrossReference: return "ST";
             case Date: return "DATE";
@@ -58,6 +68,15 @@ public class Element {
             case Boolean: return "BOOLEAN";
             case Float: return "FLOAT";
             default: return "ST";
+        }
+    }
+
+    public String getArtDecorInputType()
+    {
+        switch(valueTypeEnum) {
+            case LookupOne: return "single-select";
+            case LookupMultiple: return "multi-select";
+            default: return "text";
         }
     }
 

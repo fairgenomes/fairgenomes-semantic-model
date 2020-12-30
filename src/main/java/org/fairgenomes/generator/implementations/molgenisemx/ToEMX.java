@@ -59,7 +59,7 @@ public class ToEMX {
          */
         for (Module m : fg.modules) {
             for (Element e : m.elements) {
-                if(e.valueTypeEnum.equals(ValueType.Lookup))
+                if(e.isLookup())
                 {
                     String fileName = m.technicalName + "_lookup_" + e.technicalName + "_attributes.tsv";
                     fw = new FileWriter(new File(outputFolder, fileName));
@@ -82,7 +82,7 @@ public class ToEMX {
          */
         for (Module m : fg.modules) {
             for (Element e : m.elements) {
-                if (e.valueTypeEnum.equals(ValueType.Lookup)) {
+                if (e.isLookup()) {
 
                     //copy and add NF
                     File targetFile = new File(outputFolder,m.technicalName + "_lookup_" + e.technicalName + ".tsv");

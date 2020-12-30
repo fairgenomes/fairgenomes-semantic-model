@@ -80,7 +80,7 @@ public class ToOWL {
                 bw.write("        <Class IRI=\"#"+moduleName+"\"/>"+ RN);
                 bw.write("    </SubClassOf>" + RN);
 
-                if(e.valueTypeEnum.equals(ValueType.Lookup))
+                if(e.isLookup())
                 {
                     for(String lookup : e.lookup.lookups.keySet())
                     {
