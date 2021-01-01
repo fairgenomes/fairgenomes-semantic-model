@@ -1,6 +1,6 @@
-package org.fairgenomes.generator.implementations.molgenisemx;
+package org.fairgenomes.transformer.implementations.molgenisemx;
 
-import org.fairgenomes.generator.datastructures.*;
+import org.fairgenomes.transformer.datastructures.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -23,10 +23,7 @@ public class ToEMX {
     public ToEMX(FAIRGenomes fg, File outputFolder) throws Exception {
         this.fg = fg;
         if (!outputFolder.exists()) {
-            throw new Exception("outputFolder " + outputFolder.getAbsolutePath() + " does not exist");
-        }
-        if (!outputFolder.isDirectory()) {
-            throw new Exception("outputFolder " + outputFolder.getAbsolutePath() + " is not a directory");
+            outputFolder.mkdirs();
         }
         this.outputFolder = outputFolder;
     }
