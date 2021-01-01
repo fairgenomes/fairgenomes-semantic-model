@@ -1,0 +1,12 @@
+value_en	description_en	codesystem	code	description_code	iri
+XX	XX	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	1
+XY	XY	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	2
+XO	XO	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	3
+XXY	XXY	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	4
+XXXY	XXXY	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	7
+XXX	XXX	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	5
+XXYY	XXYY	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	6
+XXXX	XXXX	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	8
+XYY	XYY	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	9
+OTHER_KARYOTYPE	OTHER_KARYOTYPE	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	10
+UNKNOWN_KARYOTYPE	UNKNOWN_KARYOTYPE	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	PhenoPackets	0
