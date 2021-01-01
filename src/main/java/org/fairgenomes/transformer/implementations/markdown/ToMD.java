@@ -1,8 +1,8 @@
-package org.fairgenomes.generator.implementations.markdown;
+package org.fairgenomes.transformer.implementations.markdown;
 
-import org.fairgenomes.generator.datastructures.Element;
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
-import org.fairgenomes.generator.datastructures.Module;
+import org.fairgenomes.transformer.datastructures.Element;
+import org.fairgenomes.transformer.datastructures.FAIRGenomes;
+import org.fairgenomes.transformer.datastructures.Module;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -23,10 +23,7 @@ public class ToMD {
     public ToMD(FAIRGenomes fg, File outputFolder) throws Exception {
         this.fg = fg;
         if (!outputFolder.exists()) {
-            throw new Exception("outputFolder " + outputFolder.getAbsolutePath() + " does not exist");
-        }
-        if (!outputFolder.isDirectory()) {
-            throw new Exception("outputFolder " + outputFolder.getAbsolutePath() + " is not a directory");
+            outputFolder.mkdirs();
         }
         this.outputFolder = outputFolder;
     }

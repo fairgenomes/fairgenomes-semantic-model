@@ -1,4 +1,4 @@
-package org.fairgenomes.generator.datastructures;
+package org.fairgenomes.transformer.datastructures;
 
 public class Lookup {
 

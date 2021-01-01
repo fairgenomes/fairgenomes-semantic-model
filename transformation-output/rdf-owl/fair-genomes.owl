@@ -1,0 +1,3220 @@
+<?xml version="1.0"?>
+     <Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/fairgenomes/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/fairgenomes/ontology"
+     versionIRI="http://purl.org/fairgenomes/ontology0.0">
+    <Prefix name="" IRI="http://purl.org/fairgenomes/ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Personal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identifier"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Identifier"/>
+        <Class IRI="#Personal"/>
+    </SubClassOf>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Gender"/>
+        <Class IRI="#Personal"/>
+    </SubClassOf>
+    <Declaration>
+        <Class IRI="#Intersex"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Intersex"/>
+        <Class IRI="#Gender"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gender</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Intersex</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Male"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Male"/>
+        <Class IRI="#Gender"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gender</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Male</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Female"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Female"/>
+        <Class IRI="#Gender"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gender</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Female</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Genotypic_sex"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Genotypic_sex"/>
+        <Class IRI="#Personal"/>
+    </SubClassOf>
+    <Declaration>
+        <Class IRI="#XX"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XX"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XX</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XY"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XY</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XO"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XO"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XO</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XXY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XXY"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XXY</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XXXY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XXXY"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XXXY</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XXX"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XXX"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XXX</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XXYY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XXYY"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XXYY</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XXXX"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XXXX"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XXXX</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#XYY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#XYY"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">XYY</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#OTHER_KARYOTYPE"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OTHER_KARYOTYPE"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">OTHER_KARYOTYPE</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#UNKNOWN_KARYOTYPE"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#UNKNOWN_KARYOTYPE"/>
+        <Class IRI="#Genotypic_sex"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genotypic_sex</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UNKNOWN_KARYOTYPE</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Country_of_residence"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Country_of_residence"/>
+        <Class IRI="#Personal"/>
+    </SubClassOf>
+    <Declaration>
+        <Class IRI="#Niger_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Niger_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Niger (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Papua_New_Guinea"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Papua_New_Guinea"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Papua New Guinea</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cambodia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cambodia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cambodia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Gambia_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Gambia_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Gambia (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Kazakhstan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Kazakhstan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kazakhstan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Paraguay"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Paraguay"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Paraguay</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Åland_Islands"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Åland_Islands"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Åland Islands</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Solomon_Islands"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Solomon_Islands"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Solomon Islands</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Montserrat"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Montserrat"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Montserrat</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Mali"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Mali"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mali</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Guadeloupe"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Guadeloupe"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Guadeloupe</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Panama"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Panama"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Panama</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bonaire,_Sint_Eustatius_and_Saba"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bonaire,_Sint_Eustatius_and_Saba"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bonaire, Sint Eustatius and Saba</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Argentina"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Argentina</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Seychelles"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Seychelles"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Seychelles</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Belize"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Belize"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Belize</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Zambia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Zambia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Zambia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bahrain"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bahrain"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bahrain</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Guinea-Bissau"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Guinea-Bissau"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Guinea-Bissau</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Namibia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Namibia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Namibia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Finland"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Finland"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Finland</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#North_Macedonia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#North_Macedonia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">North Macedonia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Syrian_Arab_Republic_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Syrian_Arab_Republic_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Syrian Arab Republic (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Georgia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Georgia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Georgia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saint_Kitts_and_Nevis"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saint_Kitts_and_Nevis"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saint Kitts and Nevis</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Yemen"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Yemen"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Yemen</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Eritrea"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Eritrea"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Eritrea</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Puerto_Rico"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Puerto_Rico"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Puerto Rico</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Viet_Nam"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Viet_Nam"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Viet Nam</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Aruba"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aruba"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Aruba</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Madagascar"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Madagascar"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Madagascar</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Libya"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Libya"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Libya</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Svalbard_and_Jan_Mayen"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Svalbard_and_Jan_Mayen"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Svalbard and Jan Mayen</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#South_Georgia_and_the_South_Sandwich_Islands"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#South_Georgia_and_the_South_Sandwich_Islands"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">South Georgia and the South Sandwich Islands</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Sweden"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Sweden"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sweden</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Korea_(the_Democratic_People's_Republic_of)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Korea_(the_Democratic_People's_Republic_of)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Korea (the Democratic People's Republic of)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Malawi"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Malawi"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Malawi</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Andorra"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Andorra"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Andorra</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saint_Helena,_Ascension_and_Tristan_da_Cunha"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saint_Helena,_Ascension_and_Tristan_da_Cunha"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saint Helena, Ascension and Tristan da Cunha</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Liechtenstein"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Liechtenstein"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Liechtenstein</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Russian_Federation_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Russian_Federation_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Russian Federation (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Poland"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Poland"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Poland</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bulgaria"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bulgaria"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bulgaria</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Jordan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Jordan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Jordan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#United_States_Minor_Outlying_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#United_States_Minor_Outlying_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">United States Minor Outlying Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Tunisia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Tunisia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Tunisia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Western_Sahara*"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Western_Sahara*"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Western Sahara*</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Côte_d'Ivoire"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Côte_d'Ivoire"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Côte d'Ivoire</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Tuvalu"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Tuvalu"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Tuvalu</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Kenya"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Kenya"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kenya</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#French_Polynesia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#French_Polynesia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">French Polynesia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Djibouti"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Djibouti"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Djibouti</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Lebanon"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Lebanon"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Lebanon</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Azerbaijan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Azerbaijan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Azerbaijan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cuba"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cuba"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cuba</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Mauritania"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Mauritania"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mauritania</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saint_Lucia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saint_Lucia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saint Lucia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Guernsey"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Guernsey"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Guernsey</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Congo_(the_Democratic_Republic_of_the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Congo_(the_Democratic_Republic_of_the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Congo (the Democratic Republic of the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Mayotte"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Mayotte"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mayotte</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Israel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Israel"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Israel</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#San_Marino"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#San_Marino"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">San Marino</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Australia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Australia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Australia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Tajikistan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Tajikistan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Tajikistan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Myanmar"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Myanmar"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Myanmar</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cameroon"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cameroon"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cameroon</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Gibraltar"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Gibraltar"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Gibraltar</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cyprus"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cyprus"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cyprus</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Malaysia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Malaysia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Malaysia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Iceland"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Iceland"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Iceland</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Oman"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Oman"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Oman</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Armenia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Armenia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Armenia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Gabon"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Gabon"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Gabon</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Korea_(the_Republic_of)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Korea_(the_Republic_of)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Korea (the Republic of)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Luxembourg"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Luxembourg"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Luxembourg</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Brazil"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Brazil"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Brazil</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Algeria"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Algeria"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Algeria</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cabo_Verde"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cabo_Verde"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cabo Verde</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Jersey"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Jersey"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Jersey</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Slovenia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Slovenia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Slovenia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Antigua_and_Barbuda"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Antigua_and_Barbuda"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Antigua and Barbuda</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Colombia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Colombia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Colombia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Ecuador"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ecuador"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ecuador</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Iran_(Islamic_Republic_of)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Iran_(Islamic_Republic_of)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Iran (Islamic Republic of)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#United_States_of_America_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#United_States_of_America_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">United States of America (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Vanuatu"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Vanuatu"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Vanuatu</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Eswatini"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Eswatini"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Eswatini</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Honduras"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Honduras"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Honduras</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Italy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Italy"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Italy</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Antarctica"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Antarctica"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Antarctica</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Turks_and_Caicos_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Turks_and_Caicos_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Turks and Caicos Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Nauru"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Nauru"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Nauru</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Haiti"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Haiti"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Haiti</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Afghanistan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Afghanistan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Afghanistan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Burundi"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Burundi"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Burundi</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#British_Indian_Ocean_Territory_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#British_Indian_Ocean_Territory_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">British Indian Ocean Territory (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Singapore"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Singapore"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Singapore</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#French_Guiana"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#French_Guiana"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">French Guiana</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#American_Samoa"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#American_Samoa"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">American Samoa</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Christmas_Island"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Christmas_Island"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Christmas Island</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#China"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">China</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Martinique"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Martinique"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Martinique</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Sudan_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Sudan_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sudan (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saint_Pierre_and_Miquelon"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saint_Pierre_and_Miquelon"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saint Pierre and Miquelon</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Kyrgyzstan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Kyrgyzstan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kyrgyzstan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Comoros_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Comoros_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Comoros (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#United_Kingdom_of_Great_Britain_and_Northern_Ireland_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#United_Kingdom_of_Great_Britain_and_Northern_Ireland_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">United Kingdom of Great Britain and Northern Ireland (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bhutan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bhutan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bhutan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Romania"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Romania"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Romania</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Togo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Togo"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Togo</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cocos_(Keeling)_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cocos_(Keeling)_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cocos (Keeling) Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Dominican_Republic_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Dominican_Republic_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dominican Republic (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Uzbekistan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Uzbekistan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Uzbekistan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Holy_See_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Holy_See_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Holy See (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Netherlands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Netherlands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Netherlands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Pitcairn"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Pitcairn"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Pitcairn</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Zimbabwe"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Zimbabwe"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Zimbabwe</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Montenegro"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Montenegro"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Montenegro</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Dominica"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Dominica"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dominica</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Indonesia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Indonesia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Indonesia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Benin"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Benin"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Benin</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Angola"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Angola"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Angola</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Virgin_Islands_(British)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Virgin_Islands_(British)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Virgin Islands (British)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Brunei_Darussalam"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Brunei_Darussalam"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Brunei Darussalam</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Portugal"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Portugal"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Portugal</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#New_Caledonia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#New_Caledonia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">New Caledonia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Grenada"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Grenada"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Grenada</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Moldova_(the_Republic_of)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Moldova_(the_Republic_of)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Moldova (the Republic of)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Greece"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Greece"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Greece</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Latvia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Latvia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Latvia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Mongolia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Mongolia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mongolia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Morocco"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Morocco"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Morocco</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Guatemala"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Guatemala"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Guatemala</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Guyana"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Guyana"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Guyana</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Iraq"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Iraq"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Iraq</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Chile"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Chile</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Nepal"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Nepal"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Nepal</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cayman_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cayman_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cayman Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Heard_Island_and_McDonald_Islands"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Heard_Island_and_McDonald_Islands"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Heard Island and McDonald Islands</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Isle_of_Man"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Isle_of_Man"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Isle of Man</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Ukraine"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ukraine"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ukraine</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Curaçao"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Curaçao"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Curaçao</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Ghana"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ghana"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ghana</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Anguilla"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Anguilla"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Anguilla</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#India"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#India"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">India</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Canada"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Canada</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Maldives"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Maldives"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Maldives</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Turkey"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Turkey"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Turkey</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Belgium"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Belgium"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Belgium</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Faroe_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Faroe_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Faroe Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#South_Africa"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#South_Africa"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">South Africa</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Trinidad_and_Tobago"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Trinidad_and_Tobago"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Trinidad and Tobago</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bermuda"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bermuda"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bermuda</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Jamaica"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Jamaica"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Jamaica</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Peru"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Peru"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Peru</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Turkmenistan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Turkmenistan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Turkmenistan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Venezuela_(Bolivarian_Republic_of)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Venezuela_(Bolivarian_Republic_of)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Venezuela (Bolivarian Republic of)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Germany"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Germany"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Germany</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#United_Arab_Emirates_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#United_Arab_Emirates_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">United Arab Emirates (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Fiji"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Fiji"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Fiji</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Tokelau"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Tokelau"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Tokelau</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Hong_Kong"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Hong_Kong"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Hong Kong</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Guinea"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Guinea"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Guinea</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Chad"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Chad"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Chad</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Somalia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Somalia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Somalia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Sao_Tome_and_Principe"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Sao_Tome_and_Principe"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sao Tome and Principe</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Thailand"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Thailand"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Thailand</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Cook_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cook_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cook Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Equatorial_Guinea"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Equatorial_Guinea"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Equatorial Guinea</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Kiribati"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Kiribati"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kiribati</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Costa_Rica"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Costa_Rica"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Costa Rica</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saint_Martin_(French_part)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saint_Martin_(French_part)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saint Martin (French part)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Kuwait"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Kuwait"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kuwait</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Nigeria"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Nigeria"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Nigeria</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Central_African_Republic_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Central_African_Republic_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Central African Republic (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Palestine,_State_of"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Palestine,_State_of"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Palestine, State of</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Croatia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Croatia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Croatia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Sri_Lanka"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Sri_Lanka"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sri Lanka</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Uruguay"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Uruguay"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Uruguay</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Timor-Leste"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Timor-Leste"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Timor-Leste</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Switzerland"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Switzerland"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Switzerland</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Samoa"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Samoa"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Samoa</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Spain"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Spain"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Spain</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Liberia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Liberia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Liberia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Burkina_Faso"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Burkina_Faso"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Burkina Faso</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Lao_People's_Democratic_Republic_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Lao_People's_Democratic_Republic_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Lao People's Democratic Republic (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Palau"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Palau"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Palau</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saint_Barthélemy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saint_Barthélemy"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saint Barthélemy</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Estonia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Estonia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Estonia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Wallis_and_Futuna"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Wallis_and_Futuna"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Wallis and Futuna</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Niue"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Niue"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Niue</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Austria"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Austria"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Austria</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Mozambique"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Mozambique"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mozambique</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#El_Salvador"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#El_Salvador"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">El Salvador</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Monaco"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Monaco"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Monaco</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Tanzania,_the_United_Republic_of"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Tanzania,_the_United_Republic_of"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Tanzania, the United Republic of</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Guam"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Guam"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Guam</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Lesotho"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Lesotho"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Lesotho</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Tonga"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Tonga"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Tonga</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Hungary"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Hungary"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Hungary</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Réunion"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Réunion"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Réunion</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#South_Sudan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#South_Sudan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">South Sudan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Congo_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Congo_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Congo (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Japan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Japan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Japan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Belarus"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Belarus"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Belarus</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Mauritius"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Mauritius"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mauritius</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Taiwan_(Province_of_China)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Taiwan_(Province_of_China)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Taiwan (Province of China)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bouvet_Island"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bouvet_Island"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bouvet Island</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Albania"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Albania"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Albania</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bolivia_(Plurinational_State_of)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bolivia_(Plurinational_State_of)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bolivia (Plurinational State of)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Norfolk_Island"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Norfolk_Island"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Norfolk Island</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Virgin_Islands_(U.S.)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Virgin_Islands_(U.S.)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Virgin Islands (U.S.)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#New_Zealand"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#New_Zealand"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">New Zealand</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Sint_Maarten_(Dutch_part)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Sint_Maarten_(Dutch_part)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sint Maarten (Dutch part)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Senegal"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Senegal"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Senegal</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Micronesia_(Federated_States_of)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Micronesia_(Federated_States_of)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Micronesia (Federated States of)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Ethiopia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ethiopia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ethiopia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Czechia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Czechia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Czechia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Egypt"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Egypt"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Egypt</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Falkland_Islands_(the)_[Malvinas]"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Falkland_Islands_(the)_[Malvinas]"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Falkland Islands (the) [Malvinas]</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Marshall_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Marshall_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Marshall Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Sierra_Leone"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Sierra_Leone"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Sierra Leone</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Malta"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Malta"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Malta</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saudi_Arabia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saudi_Arabia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saudi Arabia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Pakistan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Pakistan"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Pakistan</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Ireland"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ireland"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Ireland</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Qatar"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Qatar"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Qatar</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Slovakia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Slovakia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Slovakia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#France"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#France"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">France</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Lithuania"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Lithuania"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Lithuania</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Serbia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Serbia"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Serbia</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bahamas_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bahamas_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bahamas (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bosnia_and_Herzegovina"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bosnia_and_Herzegovina"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bosnia and Herzegovina</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#French_Southern_Territories_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#French_Southern_Territories_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">French Southern Territories (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Rwanda"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Rwanda"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Rwanda</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Bangladesh"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bangladesh"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bangladesh</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Barbados"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Barbados"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Barbados</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Nicaragua"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Nicaragua"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Nicaragua</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Norway"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Norway"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Norway</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Botswana"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Botswana"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Botswana</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Saint_Vincent_and_the_Grenadines"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Saint_Vincent_and_the_Grenadines"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Saint Vincent and the Grenadines</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Macao"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Macao"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Macao</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Denmark"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Denmark"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Denmark</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Mexico"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Mexico</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Northern_Mariana_Islands_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Northern_Mariana_Islands_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Northern Mariana Islands (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Uganda"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Uganda"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Uganda</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Suriname"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Suriname"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Suriname</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Philippines_(the)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Philippines_(the)"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Philippines (the)</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Greenland"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Greenland"/>
+        <Class IRI="#Country_of_residence"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Country_of_residence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Greenland</Literal>
+    </AnnotationAssertion>
+    <Declaration>
+        <Class IRI="#Clinical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Belongs_to_person"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Belongs_to_person"/>
+        <Class IRI="#Clinical"/>
+    </SubClassOf>
+    <Declaration>
+        <Class IRI="#Age_at_diagnosis"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Age_at_diagnosis"/>
+        <Class IRI="#Clinical"/>
+    </SubClassOf>
+</Ontology>

@@ -1,9 +1,9 @@
-package org.fairgenomes.generator.implementations.artdecor;
+package org.fairgenomes.transformer.implementations.artdecor;
 
-import org.fairgenomes.generator.datastructures.Element;
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
-import org.fairgenomes.generator.datastructures.Lookup;
-import org.fairgenomes.generator.datastructures.Module;
+import org.fairgenomes.transformer.datastructures.Element;
+import org.fairgenomes.transformer.datastructures.FAIRGenomes;
+import org.fairgenomes.transformer.datastructures.Lookup;
+import org.fairgenomes.transformer.datastructures.Module;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -33,10 +33,7 @@ public class ToARTDECOR {
     public ToARTDECOR(FAIRGenomes fg, File outputFolder) throws Exception {
         this.fg = fg;
         if (!outputFolder.exists()) {
-            throw new Exception("outputFolder " + outputFolder.getAbsolutePath() + " does not exist");
-        }
-        if (!outputFolder.isDirectory()) {
-            throw new Exception("outputFolder " + outputFolder.getAbsolutePath() + " is not a directory");
+            outputFolder.mkdirs();
         }
         this.outputFolder = outputFolder;
     }
