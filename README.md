@@ -9,7 +9,7 @@ The FAIR Genomes semantic metadata model is located at [fair-genomes.yml](fair-g
 ## Outputs
 
 Currently, the following transformation output formats are under development:
-- Markdown model overview at [markdown/fairgenomes-semantic-model.md](transformation-output/markdown/fairgenomes-semantic-model.md).
+- Markdown model overview at [markdown](transformation-output/markdown/fairgenomes-semantic-model.md).
 - MOLGENIS EMX database template at [molgenis-emx](transformation-output/molgenis-emx).
 - ART-DECOR codebook at [art-decor](transformation-output/art-decor).
 - RDF-OWL ontology at [rdf-owl](transformation-output/rdf-owl/fair-genomes.owl).
