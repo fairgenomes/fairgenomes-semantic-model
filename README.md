@@ -1,6 +1,8 @@
 # fairgenomes-semantic-model
 FAIR Genomes semantic metadata model in YAML format and all generated representations
 
+![FAIR Genomes NGS FAIRification flow](https://github.com/fairgenomes/fairgenomes-semantic-model/blob/master/img/FAIRificationOfNGS.png)
+
 ## The main thing
 
 See: fair-genomes.yml
