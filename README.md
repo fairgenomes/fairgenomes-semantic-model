@@ -1,20 +1,18 @@
-# fairgenomes-semantic-model
-FAIR Genomes semantic metadata model in YAML format and all generated representations
+# FAIR Genomes semantic model
 
-![FAIR Genomes NGS FAIRification flow](https://github.com/joerivandervelde/fairgenomes-semantic-model/blob/main/img/fg-ngs-fairification-flow.png)
+![FAIR Genomes NGS FAIRification flow](img/fg-ngs-fairification-flow.png)
 
-## The main thing
+## Model
 
-See: fair-genomes.yml
+The FAIR Genomes semantic metadata model is located at [fair-genomes.yml](fair-genomes.yml). The reference lookup lists are available at [lookups](lookups).
 
-Supported by lookup lists at: lookups
+## Outputs
 
-## Generated resources
-
-Links to
-- Overview at generated/markdown
-- MOLGENIS EMX at generated/emx
-- etc
+Currently, the following transformation output formats are under development:
+- Markdown model overview at [markdown/fairgenomes-semantic-model.md](transformation-output/markdown/fairgenomes-semantic-model.md).
+- MOLGENIS EMX database template at [molgenis-emx](transformation-output/molgenis-emx).
+- ART-DECOR codebook at [art-decor](transformation-output/art-decor).
+- RDF-OWL ontology at [rdf-owl](transformation-output/rdf-owl).
 
 ## Dependencies
 ```
