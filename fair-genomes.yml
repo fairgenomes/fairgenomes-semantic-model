@@ -57,6 +57,34 @@ modules:
             description: Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]
             values: LookupMultiple [lookups/Institutes.txt]
+    - name: Study
+      description: A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
+      ontology: NCIT:C63536 [http://purl.obolibrary.org/obo/NCIT_C63536]
+      elements:
+          - name: Identifier
+            description: A sample collection or study proper name that is centrally registered and unique within one framework.
+            ontology: OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]
+            values: String
+          - name: Name
+            description: A proper name that designates a study.
+            ontology: OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]
+            values: String
+          - name: Description
+            description: A textual entity describing a study aim or a sample collection.
+            ontology: OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]
+            values: Text
+          - name: Principal investigator
+            description: The principle investigtor or responsible person for a study or a sample collection.
+            ontology: OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]
+            values: String
+          - name: Contact information
+            description: An email address for the purpose of contacting a sample collection or study contact person.
+            ontology: OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]
+            values: String
+          - name: Study design
+            description: A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.
+            ontology: OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]
+            values: Text
     - name: Clinical
       description: Data obtained through patient examination or treatment.
       ontology: NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]
