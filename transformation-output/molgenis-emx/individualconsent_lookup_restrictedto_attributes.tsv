@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	individualconsent	Value (English)	String	TRUE	FALSE
+description	individualconsent	Description (English)		Text	FALSE	TRUE
+codesystem	individualconsent	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	individualconsent	The code within the code system	String	FALSE	TRUE
+iri	individualconsent	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
