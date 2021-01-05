@@ -29,7 +29,8 @@ public class Transformer {
         fg.loadLookupGlobalOptions();
         fg.parseElementValueTypes();
         fg.loadElementLookups();
-        fg.parseOntologyReferences();
+        fg.parseOntologies();
+        fg.parseReferences();
         fg.createElementTechnicalNames();
 
         System.out.println("Transforming into other representations...");

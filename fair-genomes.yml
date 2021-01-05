@@ -189,5 +189,35 @@ modules:
             description: The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.
             ontology: SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]
             values: PositiveInteger
-
-
+    - name: Material
+      description: A material entity that occupies space and possesses a rest mass.
+      ontology: AFM:0000275 [http://purl.allotrope.org/ontologies/material#AFM_0000275]
+      elements:
+          - name: Sampling time stamp
+            description: Date and time at which this sample was collected.
+            ontology: EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]
+            values: DateTime
+    - name: Sample preparation
+      description: A sample preparation for assay that preparation of nucleic acids for a sequencing assay.
+      ontology: OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]
+      elements:
+          - name: Input material
+            description: Amount of input material in ng.
+            ontology: AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]
+            values: PositiveInteger
+    - name: Sequencing
+      description: The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.
+      ontology: EDAM:topic_3168 [http://edamontology.org/topic_3168]
+      elements:
+          - name: Observed read length
+            description: The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
+            ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]
+            values: PositiveInteger
+    - name: Analysis
+      description: Apply analytical methods to existing data of a specific type.
+      ontology: EDAM:operation_2945 [http://edamontology.org/operation_2945]
+      elements:
+          - name: Physical data location
+            description: A reference to a place on the Earth, by its name or by its geographical location. 
+            ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]
+            values: LookupOne [lookups/Countries.txt]
