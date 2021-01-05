@@ -1,15 +1,8 @@
 value	description	codesystem	code	iri
-UNKNOWN_KARYOTYPE	Untyped or inconclusive karyotyping	PhenoPackets	0	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#UNKNOWN_KARYOTYPE
-XX	Female	PhenoPackets	1	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XX
-XY	Male	PhenoPackets	2	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XY
-XO	Single X chromosome only	PhenoPackets	3	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XO
-XXY	Two X and one Y chromosome	PhenoPackets	4	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXY
-XXX	Three X chromosomes	PhenoPackets	5	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXX
-XXYY	Two X chromosomes and two Y chromosomes	PhenoPackets	6	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXYY
-XXXY	Three X chromosomes and one Y chromosome	PhenoPackets	7	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXY
-XXXX	Four X chromosomes	PhenoPackets	8	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXX
-XYY	One X and two Y chromosomes	PhenoPackets	9	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XYY
-OTHER_KARYOTYPE	None of the above types	PhenoPackets	10	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#OTHER_KARYOTYPE
+Alive	Showing characteristics of life; displaying signs of life.	NCIT	C37987	http://purl.obolibrary.org/obo/NCIT_C37987
+Dead	The cessation of life.	NCIT	C28554	http://purl.obolibrary.org/obo/NCIT_C28554
+Lost in follow-up	The loss or lack of continuation of subject participation after a study has officially closed.	NCIT	C159824	http://purl.obolibrary.org/obo/NCIT_C159824
+Opted-out	A grantor's dissent to the terms of agreement offered by a grantee without an opportunity for to assent to any terms.	HL7	C3858493	http://purl.bioontology.org/ontology/HL7/C3858493
 Not available (NAVU, nullflavor)	Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).	HL7	NAVU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU
 Temporarily unavailable (NAV, nullflavor)	Information is not available at this time but it is expected that it will be available later.	HL7	NAV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV
 Not asked (NASK, nullflavor)	This information has not been sought. (e.g., patient was not asked)	HL7	NASK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK

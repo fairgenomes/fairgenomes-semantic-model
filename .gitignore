@@ -6,7 +6,7 @@
 out
 
 # Generated resources
-transformation-output
+#transformation-output
 
 # Compiled class file
 *.class

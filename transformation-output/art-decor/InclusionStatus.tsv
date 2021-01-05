@@ -1,0 +1,5 @@
+value_en	description_en	codesystem	code	description_code	iri
+Dead	Dead	An indicator that provides information on the current health status of a patient.	NCIT	C28554
+Opted-out	Opted-out	An indicator that provides information on the current health status of a patient.	HL7	C3858493
+Alive	Alive	An indicator that provides information on the current health status of a patient.	NCIT	C37987
+Lost in follow-up	Lost in follow-up	An indicator that provides information on the current health status of a patient.	NCIT	C159824

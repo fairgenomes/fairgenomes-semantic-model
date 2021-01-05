@@ -1,5 +1,5 @@
 package org.fairgenomes.transformer.datastructures;
 
 public enum ValueType {
-    String, LookupOne, LookupMultiple, PositiveInteger, CrossReference, Date, DateTime, Boolean, Float;
+    String, Text, LookupOne, LookupMany, PositiveInteger, ReferenceOne, ReferenceMany, Date, DateTime, Boolean, Float;
 }

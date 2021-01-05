@@ -1,0 +1,31 @@
+value_en	description_en	codesystem	code	description_code	iri
+general research use	general research use	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000042
+institution specific restriction	institution specific restriction	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000028
+age category research	age category research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000034
+return to database or resource	return to database or resource	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000029
+research control	research control	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000036
+genetic studies only	genetic studies only	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000016
+research specific restrictions	research specific restrictions	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000012
+population origins or ancestry research	population origins or ancestry research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000011
+genetic research	genetic research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000038
+collaboration required	collaboration required	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000020
+ancestry research	ancestry research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000033
+project specific restriction	project specific restriction	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000027
+geographical restriction	geographical restriction	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000022
+disease-specific research	disease-specific research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000007
+user specific restriction	user specific restriction	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000026
+not for profit use only	not for profit use only	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000018
+disease category research	disease category research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000040
+no general methods research	no general methods research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000015
+no restriction	no restriction	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000004
+publication required	publication required	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000019
+publication moratorium	publication moratorium	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000024
+gender category research	gender category research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000035
+biomedical research	biomedical research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000037
+ethics approval required	ethics approval required	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000021
+research use only	research use only	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000014
+time limit on use	time limit on use	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000025
+population research	population research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000032
+method development	method development	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000031
+health or medical or biomedical research	health or medical or biomedical research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000006
+drug development research	drug development research	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	DUO	0000039

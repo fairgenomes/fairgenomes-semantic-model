@@ -35,7 +35,16 @@ public class Element {
     {
         switch(valueTypeEnum) {
             case LookupOne: return true;
-            case LookupMultiple: return true;
+            case LookupMany: return true;
+            default: return false;
+        }
+    }
+
+    public boolean isReference()
+    {
+        switch(valueTypeEnum) {
+            case ReferenceOne: return true;
+            case ReferenceMany: return true;
             default: return false;
         }
     }
@@ -45,7 +54,7 @@ public class Element {
         if(isLookup())
         {
             return lookup.srcFile.getName() + " (" + lookup.lookups.size() + " choices)";
-        }else if(valueTypeEnum.equals(ValueType.CrossReference))
+        }else if(isReference())
         {
             return crossRefTo;
         }
@@ -60,9 +69,10 @@ public class Element {
         switch(valueTypeEnum) {
             case String: return "ST";
             case LookupOne: return "ST";
-            case LookupMultiple: return "ST";
+            case LookupMany: return "ST";
             case PositiveInteger: return "INT";
-            case CrossReference: return "ST";
+            case ReferenceOne: return "ST";
+            case ReferenceMany: return "ST";
             case Date: return "DATE";
             case DateTime: return "DATE";
             case Boolean: return "BOOLEAN";
@@ -75,7 +85,7 @@ public class Element {
     {
         switch(valueTypeEnum) {
             case LookupOne: return "single-select";
-            case LookupMultiple: return "multi-select";
+            case LookupMany: return "multi-select";
             default: return "text";
         }
     }
