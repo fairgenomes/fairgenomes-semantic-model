@@ -1,0 +1,31 @@
+value	description	codesystem	code	iri
+general research use	This data use limitation indicates that use is allowed for general research use for any research purpose.	DUO	0000042	http://purl.obolibrary.org/obo/DUO0000042
+disease-specific research	This data use limitation indicates that use is allowed provided it is related to the specified disease.	DUO	0000007	http://purl.obolibrary.org/obo/DUO0000007
+health or medical or biomedical research	This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.	DUO	0000006	http://purl.obolibrary.org/obo/DUO0000006
+population origins or ancestry research	This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.	DUO	0000011	http://purl.obolibrary.org/obo/DUO0000011
+genetic studies only	This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)	DUO	0000016	http://purl.obolibrary.org/obo/DUO0000016
+no general methods research	This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.	DUO	0000015	http://purl.obolibrary.org/obo/DUO0000015
+no restriction	This data use limitation indicates there is no restriction on use.	DUO	0000004	http://purl.obolibrary.org/obo/DUO0000004
+research specific restrictions	This data use limitation indicates that use is limited to studies of a certain research type.	DUO	0000012	http://purl.obolibrary.org/obo/DUO0000012
+research use only	This data use limitation indicates that use is limited to research purposes (e.g., does not include its use in clinical care).	DUO	0000014	http://purl.obolibrary.org/obo/DUO0000014
+collaboration required	This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).	DUO	0000020	http://purl.obolibrary.org/obo/DUO0000020
+ethics approval required	This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.	DUO	0000021	http://purl.obolibrary.org/obo/DUO0000021
+geographical restriction	This should be coupled with an ontology term describing the geographical location the restriction applies to.	DUO	0000022	http://purl.obolibrary.org/obo/DUO0000022
+institution specific restriction	This requirement indicates that use is limited to use within an approved institution.	DUO	0000028	http://purl.obolibrary.org/obo/DUO0000028
+not for profit use only	This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.	DUO	0000018	http://purl.obolibrary.org/obo/DUO0000018
+project specific restriction	This requirement indicates that use is limited to use within an approved project.	DUO	0000027	http://purl.obolibrary.org/obo/DUO0000027
+publication moratorium	This requirement indicates that requestor agrees not to publish results of studies until a specific date.	DUO	0000024	http://purl.obolibrary.org/obo/DUO0000024
+publication required	This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.	DUO	0000019	http://purl.obolibrary.org/obo/DUO0000019
+return to database or resource	This requirement indicates that the requestor must return derived/enriched data to the database/resource.	DUO	0000029	http://purl.obolibrary.org/obo/DUO0000029
+time limit on use	This requirement indicates that use is approved for a specific number of months.	DUO	0000025	http://purl.obolibrary.org/obo/DUO0000025
+user specific restriction	This requirement indicates that use is limited to use by approved users.	DUO	0000026	http://purl.obolibrary.org/obo/DUO0000026
+age category research	An investigation concerning specific age categories.	DUO	0000034	http://purl.obolibrary.org/obo/DUO0000034
+ancestry research	An investigation concerning ancestry or population origins.	DUO	0000033	http://purl.obolibrary.org/obo/DUO0000033
+biomedical research	An investigation concerning health, medical, or biomedical research.	DUO	0000037	http://purl.obolibrary.org/obo/DUO0000037
+disease category research	Biomedical research research concerning specific disease/s	DUO	0000040	http://purl.obolibrary.org/obo/DUO0000040
+drug development research	Biomedical research concerning drug development.	DUO	0000039	http://purl.obolibrary.org/obo/DUO0000039
+genetic research	Biomedical research concerning genetics (i.e., the study of genes, genetic variations and heredity).	DUO	0000038	http://purl.obolibrary.org/obo/DUO0000038
+gender category research	An investigation concerning specific gender categories.	DUO	0000035	http://purl.obolibrary.org/obo/DUO0000035
+method development	An investigation concerning development of methods, algorithms, software or analytical tools.	DUO	0000031	http://purl.obolibrary.org/obo/DUO0000031
+population research	An investigation concerning a specific population group.	DUO	0000032	http://purl.obolibrary.org/obo/DUO0000032
+research control	An investigation concerning use of data as reference or control material.	DUO	0000036	http://purl.obolibrary.org/obo/DUO0000036
