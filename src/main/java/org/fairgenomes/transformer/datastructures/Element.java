@@ -16,7 +16,7 @@ public class Element {
     public String technicalName;
     public ValueType valueTypeEnum;
     public LookupList lookup;
-    public String crossRefTo;
+    public String referenceTo;
     public String codeSystem;
     public String code;
     public String iri;
@@ -53,10 +53,10 @@ public class Element {
     {
         if(isLookup())
         {
-            return lookup.srcFile.getName() + " (" + lookup.lookups.size() + " choices)";
+            return lookup.srcFile.getName().replace(".txt", "") + " lookup (" + lookup.lookups.size() + " choices)";
         }else if(isReference())
         {
-            return crossRefTo;
+            return "Reference to "+ referenceTo +" module";
         }
         else
         {

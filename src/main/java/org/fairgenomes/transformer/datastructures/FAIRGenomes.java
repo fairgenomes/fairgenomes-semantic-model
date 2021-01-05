@@ -74,7 +74,7 @@ public class FAIRGenomes {
      * Parse and split ontology info to code, codesystem and iri
      * @throws Exception
      */
-    public void parseOntologyReferences() throws Exception {
+    public void parseOntologies() throws Exception {
         for (Module m : modules) {
             int whiteSpaceIndex = m.ontology.indexOf(" ");
             String[] split = parseOntoInfo(whiteSpaceIndex, m.ontology);
@@ -112,6 +112,22 @@ public class FAIRGenomes {
             m.technicalName = m.name.replace(" ", "").toLowerCase();
             for (Element e : m.elements) {
                 e.technicalName = e.name.replace(" ", "").toLowerCase();
+            }
+        }
+    }
+
+    /**
+     * Parse the references to other modules
+     * @throws Exception
+     */
+    public void parseReferences() throws Exception {
+        for (Module m : modules) {
+            for (Element e : m.elements) {
+                if(e.isReference())
+                {
+                    int whiteSpaceIndex = e.values.indexOf(" ");
+                    e.referenceTo = e.values.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+                }
             }
         }
     }
