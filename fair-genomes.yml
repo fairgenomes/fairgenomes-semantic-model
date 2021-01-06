@@ -205,6 +205,30 @@ modules:
             description: Amount of input material in ng.
             ontology: AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]
             values: PositiveInteger
+          - name: Library preparation kit
+            description: Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
+            ontology: GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]
+            values: LookupOne [lookups/NGSKits.txt]
+          - name: PCR-free
+            description: A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.
+            ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]
+            values: Boolean
+          - name: Target enrichment kit
+            description: Any of various techniques designed to select or increase a target item in a mixed sample.
+            ontology: NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]
+            values: LookupOne [lookups/NGSKits.txt]
+          - name: UMIs present
+            description: A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.
+            ontology: EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]
+            values: Boolean
+          - name: Intended insert size
+            description: In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.
+            ontology: FG:IIS [https://fair-genomes.org/IIS]
+            values: PositiveInteger
+          - name: Intended read length
+            description: The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
+            ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]
+            values: PositiveInteger
     - name: Sequencing
       description: The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.
       ontology: EDAM:topic_3168 [http://edamontology.org/topic_3168]
