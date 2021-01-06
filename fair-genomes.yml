@@ -198,13 +198,13 @@ modules:
             ontology: DC:DCMIType [http://purl.org/dc/terms/DCMIType]
             values: LookupMany [lookups/DCMITypes.txt]
           - name: Clinical diagnosis
-            description:
-            ontology:
-            values:
+            description: todo
+            ontology: todo:todo [todo]
+            values: String
           - name: Molecular diagnosis gene
             description: Causal gene
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
-            values: LookupOne [lookups/Gene.txt]
+            values: LookupOne [lookups/Genes.txt]
           - name: Molecular diagnosis other
             description: Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
@@ -239,7 +239,7 @@ modules:
             values: String
           - name: Medical history
             description: A record of a person's background regarding health, occurrence of disease events and surgical procedures.
-            ontology: NCIT_C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]
+            ontology: NCIT:C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]
             values: LookupMany [lookups/MedicalHistory.txt]
           - name: Age of onset
             description: Age of onset of clinical manifestations related to a clinical entity.
