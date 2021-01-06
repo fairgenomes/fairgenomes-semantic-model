@@ -64,7 +64,22 @@ Data obtained through patient examination or treatment. Ontology: [NCIT:C15783](
 | Element | Description | Ontology | Values |
 |---|---|---|---|
 | Belongs to person | Link to the person for which the clinical information was collected. | [IAO:0000136](http://purl.obolibrary.org/obo/IAO_0000136) | Reference to Personal module |
+| Phenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | [NCIT:C16977](http://purl.obolibrary.org/obo/NCIT_C16977) | Phenotypes lookup (15802 choices) |
+| Unobserved phenotype | Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance. | [HL7:C0442737](http://purl.bioontology.org/ontology/HL7/C0442737) | Phenotypes lookup (15802 choices) |
+| Phenotypic data available | Types of phenotypic data collected in a clinical setting that is potentially available upon request. | [DC:DCMIType](http://purl.org/dc/terms/DCMIType) | DCMITypes lookup (6 choices) |
+| Clinical diagnosis | todo | [todo:todo](todo) | String |
+| Molecular diagnosis gene | Causal gene | [NCIT:C20826](http://purl.obolibrary.org/obo/NCIT_C20826) | Genes lookup (19202 choices) |
+| Molecular diagnosis other | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | [NCIT:C20826](http://purl.obolibrary.org/obo/NCIT_C20826) | Text |
 | Age at diagnosis | The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer. | [SNOMEDCT:423493009](http://purl.bioontology.org/ontology/SNOMEDCT/423493009) | Integer |
+| Age at last screening | Age of the patient at the moment of the most recent screening. | [NCIT:C81258](http://purl.obolibrary.org/obo/NCIT_C81258) | Integer |
+| Medication | Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC). | [EDAM:data_3103](http://edamontology.org/data_3103) | Drugs lookup (5632 choices) |
+| Drug regimen | The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration. | [NCIT:C142516](http://purl.obolibrary.org/obo/NCIT_C142516) | Text |
+| Family members affected | This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband). | [HP:0032320](http://purl.obolibrary.org/obo/HP_0032320) | String |
+| Family members sequenced | A person related by descent rather than by marriage or law that was also sequenced. | [NCIT:C71384](http://purl.obolibrary.org/obo/NCIT_C71384) | String |
+| Consanguinity | Information on whether the patient is a child from two family members who are second cousins or closer. | [GSSO:007578](http://purl.obolibrary.org/obo/GSSO_007578) | String |
+| Medical history | A record of a person's background regarding health, occurrence of disease events and surgical procedures. | [NCIT:C18772](http://purl.obolibrary.org/obo/NCIT_C18772) | MedicalHistory lookup (1167 choices) |
+| Age of onset | Age of onset of clinical manifestations related to a clinical entity. | [Orphanet:C023](http://www.orpha.net/ORDO/Orphanet_C023) | Integer |
+| First contact | First contact with specialised center in context of disease or inclusion. | [LOINC:MTHU048806](http://purl.bioontology.org/ontology/LNC/MTHU048806) | Date |
 ## Module: Material
 Natural substances derived from living organisms such as cells, tissues, proteins, and DNA. Ontology: [NCIT:C43376](http://purl.obolibrary.org/obo/NCIT_C43376).
 
