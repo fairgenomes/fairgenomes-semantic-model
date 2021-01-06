@@ -10,9 +10,9 @@ Data, facts or figures about an individual; the set of relevant items would depe
 | Country of residence | Country of Residence at Enrollment. | [NCIT:C171105](http://purl.obolibrary.org/obo/NCIT_C171105) | Countries lookup (249 choices) |
 | Ethnicity | The biological quality of membership in a social group based on a common heritage. | [SIO:001014](http://semanticscience.org/resource/SIO_001014) | Countries lookup (249 choices) |
 | Country of birth | The country that a given person was born in. | [GENEPIO:0001094](http://purl.obolibrary.org/obo/GENEPIO_0001094) | Countries lookup (249 choices) |
-| Year of birth | The year in which a person was born. | [NCIT:C83164](http://purl.obolibrary.org/obo/NCIT_C83164) | PositiveInteger |
+| Year of birth | The year in which a person was born. | [NCIT:C83164](http://purl.obolibrary.org/obo/NCIT_C83164) | Integer |
 | Inclusion status | An indicator that provides information on the current health status of a patient. | [NCIT:C166244](http://purl.obolibrary.org/obo/NCIT_C166244) | InclusionStatus lookup (4 choices) |
-| Age at death | The age at which death occurred. | [NCIT:C135383](http://purl.obolibrary.org/obo/NCIT_C135383) | PositiveInteger |
+| Age at death | The age at which death occurred. | [NCIT:C135383](http://purl.obolibrary.org/obo/NCIT_C135383) | Integer |
 | Inclusion criterion | An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process. | [OBI:0500027](http://purl.obolibrary.org/obo/OBI_0500027) | Text |
 | Primary affiliated institute | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | Institutes lookup (218 choices) |
 | Data available in other institutes | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | Institutes lookup (218 choices) |
@@ -64,25 +64,42 @@ Data obtained through patient examination or treatment. Ontology: [NCIT:C15783](
 | Element | Description | Ontology | Values |
 |---|---|---|---|
 | Belongs to person | Link to the person for which the clinical information was collected. | [IAO:0000136](http://purl.obolibrary.org/obo/IAO_0000136) | Reference to Personal module |
-| Age at diagnosis | The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer. | [SNOMEDCT:423493009](http://purl.bioontology.org/ontology/SNOMEDCT/423493009) | PositiveInteger |
+| Age at diagnosis | The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer. | [SNOMEDCT:423493009](http://purl.bioontology.org/ontology/SNOMEDCT/423493009) | Integer |
 ## Module: Material
-A material entity that occupies space and possesses a rest mass. Ontology: [AFM:0000275](http://purl.allotrope.org/ontologies/material#AFM_0000275).
+Natural substances derived from living organisms such as cells, tissues, proteins, and DNA. Ontology: [NCIT:C43376](http://purl.obolibrary.org/obo/NCIT_C43376).
 
 | Element | Description | Ontology | Values |
 |---|---|---|---|
-| Sampling time stamp | Date and time at which this sample was collected. | [EFO:0000689](http://www.ebi.ac.uk/efo/EFO_0000689) | DateTime |
+| Sampling timestamp | Date and time at which this sample was collected. | [EFO:0000689](http://www.ebi.ac.uk/efo/EFO_0000689) | DateTime |
+| Registration timestamp | The act of listing or recording officially; officially qualified or enrolled. | [NCIT:C25646](http://purl.obolibrary.org/obo/NCIT_C25646) | DateTime |
+| Sampling protocol | Describes the procedure whereby biological material for an experiment is sampled. | [EFO:0005518](http://www.ebi.ac.uk/efo/EFO_0005518) | Text |
+| Deviation from protocol | A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | [NCIT:C50996](http://purl.obolibrary.org/obo/NCIT_C50996) | String |
+| Reason for deviation | The rationale for why a deviation from the sampling protocol has occurred. | [NCIT:C93529](http://purl.obolibrary.org/obo/NCIT_C93529) | String |
+| Material type | Material distinguishable as an identifiable class based on common qualities. | [NCIT:C25284](http://purl.obolibrary.org/obo/NCIT_C25284) | MaterialTypes lookup (13 choices) |
+| Anatomical source | Biological entity that constitutes the structural organization of an individual member of a biological species. | [UBERON:0001062](http://purl.obolibrary.org/obo/UBERON_0001062) | AnatomicalSources lookup (13827 choices) |
+| Storage conditions | The conditions specified for the storage of a biological material. | [NCIT:C96145](http://purl.obolibrary.org/obo/NCIT_C96145) | StorageConditions lookup (26 choices) |
+| Expiration date | The date beyond which a substance is no longer regarded as fit for use. | [NCIT:C164516](http://purl.obolibrary.org/obo/NCIT_C164516) | Date |
+| Percentage tumor cells | The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage. | [NCIT:C127771](http://purl.obolibrary.org/obo/NCIT_C127771) | Decimal |
+| Physical location | A reference to a place on the Earth, by its name or by its geographical location. | [GAZ:00000448](http://purl.obolibrary.org/obo/GAZ_00000448) | String |
+| Derived from | A material produced from or related to another. | [NCIT:C28355](http://purl.obolibrary.org/obo/NCIT_C28355) | Reference to Material module |
 ## Module: Sample preparation
 A sample preparation for assay that preparation of nucleic acids for a sequencing assay. Ontology: [OBI:0001902](http://purl.obolibrary.org/obo/OBI_0001902).
 
 | Element | Description | Ontology | Values |
 |---|---|---|---|
-| Input material | Amount of input material in ng. | [AFRL:0000010](http://purl.allotrope.org/ontologies/role#AFRL_0000010) | PositiveInteger |
+| Input material | Amount of input material in ng. | [AFRL:0000010](http://purl.allotrope.org/ontologies/role#AFRL_0000010) | Integer |
+| Library preparation kit | Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | [GENEPIO:0000081](http://purl.obolibrary.org/obo/GENEPIO_0000081) | NGSKits lookup (615 choices) |
+| PCR-free | A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample. | [NCIT:C17003](http://purl.obolibrary.org/obo/NCIT_C17003) | Boolean |
+| Target enrichment kit | Any of various techniques designed to select or increase a target item in a mixed sample. | [NCIT:C154307](http://purl.obolibrary.org/obo/NCIT_C154307) | NGSKits lookup (615 choices) |
+| UMIs present | A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule. | [EFO:0010199](http://www.ebi.ac.uk/efo/EFO_0010199) | Boolean |
+| Intended insert size | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | [FG:IIS](https://fair-genomes.org/IIS) | Integer |
+| Intended read length | The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | [NCIT:C153362](http://purl.obolibrary.org/obo/NCIT_C153362) | Integer |
 ## Module: Sequencing
 The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. Ontology: [EDAM:topic_3168](http://edamontology.org/topic_3168).
 
 | Element | Description | Ontology | Values |
 |---|---|---|---|
-| Observed read length | The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | [NCIT:C153362](http://purl.obolibrary.org/obo/NCIT_C153362) | PositiveInteger |
+| Observed read length | The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | [NCIT:C153362](http://purl.obolibrary.org/obo/NCIT_C153362) | Integer |
 ## Module: Analysis
 Apply analytical methods to existing data of a specific type. Ontology: [EDAM:operation_2945](http://edamontology.org/operation_2945).
 
