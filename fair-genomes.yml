@@ -185,10 +185,70 @@ modules:
             description: Link to the person for which the clinical information was collected.
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Personal]
+          - name: Phenotype
+            description: The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease.
+            ontology: NCIT:C16977 [http://purl.obolibrary.org/obo/NCIT_C16977]
+            values: LookupMany [lookups/Phenotypes.txt]
+          - name: Unobserved phenotype
+            description: Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance.
+            ontology: HL7:C0442737 [http://purl.bioontology.org/ontology/HL7/C0442737]
+            values: LookupMany [lookups/Phenotypes.txt]
+          - name: Phenotypic data available
+            description: Types of phenotypic data collected in a clinical setting that is potentially available upon request.
+            ontology: DC:DCMIType [http://purl.org/dc/terms/DCMIType]
+            values: LookupMany [lookups/DCMITypes.txt]
+          - name: Clinical diagnosis
+            description:
+            ontology:
+            values:
+          - name: Molecular diagnosis gene
+            description: Causal gene
+            ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
+            values: LookupOne [lookups/Gene.txt]
+          - name: Molecular diagnosis other
+            description: Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.
+            ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
+            values: Text
           - name: Age at diagnosis
             description: The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.
             ontology: SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]
             values: Integer
+          - name: Age at last screening
+            description: Age of the patient at the moment of the most recent screening.
+            ontology: NCIT:C81258 [http://purl.obolibrary.org/obo/NCIT_C81258]
+            values: Integer
+          - name: Medication
+            description: Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).
+            ontology: EDAM:data_3103 [http://edamontology.org/data_3103]
+            values: LookupMany [lookups/Drugs.txt]
+          - name: Drug regimen
+            description: The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.
+            ontology: NCIT:C142516 [http://purl.obolibrary.org/obo/NCIT_C142516]
+            values: Text
+          - name: Family members affected
+            description: This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband).
+            ontology: HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]
+            values: String
+          - name: Family members sequenced
+            description: A person related by descent rather than by marriage or law that was also sequenced.
+            ontology: NCIT:C71384 [http://purl.obolibrary.org/obo/NCIT_C71384]
+            values: String
+          - name: Consanguinity
+            description: Information on whether the patient is a child from two family members who are second cousins or closer.
+            ontology: GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]
+            values: String
+          - name: Medical history
+            description: A record of a person's background regarding health, occurrence of disease events and surgical procedures.
+            ontology: NCIT_C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]
+            values: LookupMany [lookups/MedicalHistory.txt]
+          - name: Age of onset
+            description: Age of onset of clinical manifestations related to a clinical entity.
+            ontology: Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]
+            values: Integer
+          - name: First contact
+            description: First contact with specialised center in context of disease or inclusion.
+            ontology: LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]
+            values: Date
     - name: Material
       description: Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.
       ontology: NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]
