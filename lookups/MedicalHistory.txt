@@ -1081,7 +1081,6 @@ Alcohol Use History	Alcohol Use History	NCIT	C81229	http://purl.obolibrary.org/o
 Deceased Sibling	Deceased Sibling	NCIT	C81244	http://purl.obolibrary.org/obo/NCIT_C81244
 Drug Use History	Drug Use History	NCIT	C81246	http://purl.obolibrary.org/obo/NCIT_C81246
 History and Physical Exam	History and Physical Exam	NCIT	C135566	http://purl.obolibrary.org/obo/NCIT_C135566
-Smoking History	Smoking History	NCIT	C29719	http://purl.obolibrary.org/obo/NCIT_C29719
 Tobacco Smoking History	Tobacco Smoking History	NCIT	C29719	http://purl.obolibrary.org/obo/NCIT_C29719
 Family Cancer History	Family Cancer History	NCIT	C29878	http://purl.obolibrary.org/obo/NCIT_C29878
 Transfusion History	Transfusion History	NCIT	C30142	http://purl.obolibrary.org/obo/NCIT_C30142
