@@ -99,7 +99,15 @@ The determination of complete (typically nucleotide) sequences, including those 
 
 | Element | Description | Ontology | Values |
 |---|---|---|---|
+| Sequencing date | Date the sequencing run was performed. | [GENEPIO:0000069](http://purl.obolibrary.org/obo/GENEPIO_0000069) | Date |
+| Sequencing platform | A sequencing plaform (brand) is a name of a company that produces sequencer equipment. | [GENEPIO:0000071](http://purl.obolibrary.org/obo/GENEPIO_0000071) | SequencingPlatform lookup (7 choices) |
+| Sequencing instrument model | A product name and model number of a manufacturer's genomic (dna) sequencer. | [GENEPIO:0001921](http://purl.obolibrary.org/obo/GENEPIO_0001921) | SequencingInstrumentModels lookup (39 choices) |
+| Sequencing type | Sequencing distinguishable as an identifiable class based on common qualities. | [NCIT:C25284](http://purl.obolibrary.org/obo/NCIT_C25284) | SequencingTypes lookup (35 choices) |
+| Average read depth | The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced. | [NCIT:C155320](http://purl.obolibrary.org/obo/NCIT_C155320) | Integer |
 | Observed read length | The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | [NCIT:C153362](http://purl.obolibrary.org/obo/NCIT_C153362) | Integer |
+| Observed insert size | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | [FG:IIS](https://fair-genomes.org/IIS) | Integer |
+| Percentage Q30 | Percentage of reads with a Phred quality score over 30, which indicates less than a 1/1000 chance that the base was called incorrectly. | [GENEPIO:0000089](http://purl.obolibrary.org/obo/GENEPIO_0000089) | Decimal |
+| Percentage TR20 | Percentage of the target sequence on which 20 or more unique reads were successfully mapped. | [FG:PTR20](https://fair-genomes.org/PTR20) | Decimal |
 ## Module: Analysis
 Apply analytical methods to existing data of a specific type. Ontology: [EDAM:operation_2945](http://edamontology.org/operation_2945).
 
