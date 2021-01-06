@@ -36,7 +36,7 @@ modules:
           - name: Year of birth
             description: The year in which a person was born.
             ontology: NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]
-            values: PositiveInteger
+            values: Integer
           - name: Inclusion status
             description: An indicator that provides information on the current health status of a patient.
             ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]
@@ -44,7 +44,7 @@ modules:
           - name: Age at death
             description: The age at which death occurred.
             ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]
-            values: PositiveInteger
+            values: Integer
           - name: Inclusion criterion
             description: An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.
             ontology: OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]
@@ -188,15 +188,59 @@ modules:
           - name: Age at diagnosis
             description: The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.
             ontology: SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]
-            values: PositiveInteger
+            values: Integer
     - name: Material
-      description: A material entity that occupies space and possesses a rest mass.
-      ontology: AFM:0000275 [http://purl.allotrope.org/ontologies/material#AFM_0000275]
+      description: Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.
+      ontology: NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]
       elements:
-          - name: Sampling time stamp
+          - name: Sampling timestamp
             description: Date and time at which this sample was collected.
             ontology: EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]
             values: DateTime
+          - name: Registration timestamp
+            description: The act of listing or recording officially; officially qualified or enrolled.
+            ontology: NCIT:C25646 [http://purl.obolibrary.org/obo/NCIT_C25646]
+            values: DateTime
+          - name: Sampling protocol
+            description: Describes the procedure whereby biological material for an experiment is sampled.
+            ontology: EFO:0005518 [http://www.ebi.ac.uk/efo/EFO_0005518]
+            values: Text
+          - name: Deviation from protocol
+            description: A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.
+            ontology: NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]
+            values: String
+          - name: Reason for deviation
+            description: The rationale for why a deviation from the sampling protocol has occurred.
+            ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]
+            values: String
+          - name: Material type
+            description: Material distinguishable as an identifiable class based on common qualities.
+            ontology: NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]
+            values: LookupOne [lookups/MaterialTypes.txt]
+          - name: Anatomical source
+            description: Biological entity that constitutes the structural organization of an individual member of a biological species.
+            ontology: UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]
+            values: LookupOne [lookups/AnatomicalSources.txt]
+          - name: Storage conditions
+            description: The conditions specified for the storage of a biological material.
+            ontology: NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]
+            values: LookupOne [lookups/StorageConditions.txt]
+          - name: Expiration date
+            description: The date beyond which a substance is no longer regarded as fit for use.
+            ontology: NCIT:C164516 [http://purl.obolibrary.org/obo/NCIT_C164516]
+            values: Date
+          - name: Percentage tumor cells
+            description: The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage.
+            ontology: NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]
+            values: Decimal
+          - name: Physical location
+            description: A reference to a place on the Earth, by its name or by its geographical location.
+            ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]
+            values: String
+          - name: Derived from
+            description: A material produced from or related to another.
+            ontology: NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]
+            values: ReferenceOne [Material]
     - name: Sample preparation
       description: A sample preparation for assay that preparation of nucleic acids for a sequencing assay.
       ontology: OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]
@@ -204,7 +248,7 @@ modules:
           - name: Input material
             description: Amount of input material in ng.
             ontology: AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]
-            values: PositiveInteger
+            values: Integer
           - name: Library preparation kit
             description: Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
             ontology: GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]
@@ -224,11 +268,11 @@ modules:
           - name: Intended insert size
             description: In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.
             ontology: FG:IIS [https://fair-genomes.org/IIS]
-            values: PositiveInteger
+            values: Integer
           - name: Intended read length
             description: The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
             ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]
-            values: PositiveInteger
+            values: Integer
     - name: Sequencing
       description: The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.
       ontology: EDAM:topic_3168 [http://edamontology.org/topic_3168]
@@ -236,7 +280,7 @@ modules:
           - name: Observed read length
             description: The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
             ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]
-            values: PositiveInteger
+            values: Integer
     - name: Analysis
       description: Apply analytical methods to existing data of a specific type.
       ontology: EDAM:operation_2945 [http://edamontology.org/operation_2945]
