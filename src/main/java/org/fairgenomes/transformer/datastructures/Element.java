@@ -70,13 +70,13 @@ public class Element {
             case String: return "ST";
             case LookupOne: return "ST";
             case LookupMany: return "ST";
-            case PositiveInteger: return "INT";
+            case Integer: return "INT";
             case ReferenceOne: return "ST";
             case ReferenceMany: return "ST";
             case Date: return "DATE";
             case DateTime: return "DATE";
             case Boolean: return "BOOLEAN";
-            case Float: return "FLOAT";
+            case Decimal: return "FLOAT";
             default: return "ST";
         }
     }
