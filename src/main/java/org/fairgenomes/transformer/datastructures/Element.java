@@ -68,7 +68,7 @@ public class Element {
     {
         if(isLookup())
         {
-            return lookup.srcFile.getName().replace(".txt", "") + " lookup (" + lookup.lookups.size() + " choices)";
+            return "[" + lookup.srcFile.getName().replace(".txt", "") + "](../../lookups/"+lookup.srcFile.getName()+") lookup (" + lookup.lookups.size() + " choices)";
         }else if(isReference())
         {
             return "Reference to "+ referenceTo +" module";
