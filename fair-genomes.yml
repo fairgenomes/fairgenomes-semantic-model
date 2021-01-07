@@ -202,7 +202,7 @@ modules:
             ontology: NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]
             values: LookupMany [lookups/Diseases.txt]
           - name: Molecular diagnosis gene
-            description: Causal gene
+            description: Gene affected by pathogenic variation that is causal for disease of the patient.
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
             values: LookupMany [lookups/Genes.txt]
           - name: Molecular diagnosis other
