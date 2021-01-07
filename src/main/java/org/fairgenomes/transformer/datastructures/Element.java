@@ -1,5 +1,7 @@
 package org.fairgenomes.transformer.datastructures;
 
+import org.fairgenomes.transformer.implementations.molgenisemx.ToEMX;
+
 public class Element {
 
     /*
@@ -13,6 +15,7 @@ public class Element {
     /*
     Variables that may be loaded afterwards
      */
+    public Module m;
     public String technicalName;
     public ValueType valueTypeEnum;
     public LookupList lookup;
@@ -31,6 +34,10 @@ public class Element {
                 '}';
     }
 
+    /**
+     * Helper function to determine whether this element has a lookup value type
+     * @return
+     */
     public boolean isLookup()
     {
         switch(valueTypeEnum) {
@@ -40,6 +47,10 @@ public class Element {
         }
     }
 
+    /**
+     * Helper function to determine whether this element has a reference value type
+     * @return
+     */
     public boolean isReference()
     {
         switch(valueTypeEnum) {
@@ -49,6 +60,10 @@ public class Element {
         }
     }
 
+    /**
+     * Helper function to convert the value type to Markdown
+     * @return
+     */
     public String valueTypeToMarkDown()
     {
         if(isLookup())
@@ -64,10 +79,16 @@ public class Element {
         }
     }
 
+    /**
+     * Helper function to convert the value type to ART-DECOR
+     * @return
+     */
     public String valueTypeToArtDecor()
     {
         switch(valueTypeEnum) {
             case String: return "ST";
+            case Text: return "ST";
+            case UniqueID: return "ST";
             case LookupOne: return "ST";
             case LookupMany: return "ST";
             case Integer: return "INT";
@@ -78,6 +99,49 @@ public class Element {
             case Boolean: return "BOOLEAN";
             case Decimal: return "FLOAT";
             default: return "ST";
+        }
+    }
+
+    /**
+     * Helper function to convert the value type to EMX
+     * @return
+     */
+    public String valueTypeToEMX()
+    {
+        switch(valueTypeEnum) {
+            case String: return "string";
+            case Text: return "text";
+            case UniqueID: return "string";
+            case LookupOne: return "xref";
+            case LookupMany: return "mref";
+            case Integer: return "int";
+            case ReferenceOne: return "xref";
+            case ReferenceMany: return "mref";
+            case Date: return "date";
+            case DateTime: return "datetime";
+            case Boolean: return "bool";
+            case Decimal: return "decimal";
+            default: return "string";
+        }
+    }
+
+    /**
+     * Helper function to convert a lookup or reference to EMX
+     * @return
+     */
+    public String lookupOrReferencetoEMX()
+    {
+        if(isReference())
+        {
+            return ToEMX.PACKAGE_NAME + "_" + FAIRGenomes.toTechName(referenceTo);
+        }
+        else if(isLookup())
+        {
+            return ToEMX.PACKAGE_NAME + "_" + m.technicalName + "_" + technicalName;
+        }
+        else
+        {
+            return "";
         }
     }
 

@@ -74,7 +74,7 @@ public class ToARTDECOR {
             for (Element e : m.elements) {
                 if(e.isLookup())
                 {
-                    String fileName = e.lookup.srcFile.getName().replace(".txt", ".tsv");
+                    String fileName = e.lookup.name + ".tsv";
                     fw = new FileWriter(new File(outputFolder, fileName));
                     bw = new BufferedWriter(fw);
 
