@@ -67,7 +67,7 @@ Data obtained through patient examination or treatment. Ontology: [NCIT:C15783](
 | Phenotype | The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease. | [NCIT:C16977](http://purl.obolibrary.org/obo/NCIT_C16977) | Phenotypes lookup (15802 choices) |
 | Unobserved phenotype | Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance. | [HL7:C0442737](http://purl.bioontology.org/ontology/HL7/C0442737) | Phenotypes lookup (15802 choices) |
 | Phenotypic data available | Types of phenotypic data collected in a clinical setting that is potentially available upon request. | [DC:DCMIType](http://purl.org/dc/terms/DCMIType) | DCMITypes lookup (6 choices) |
-| Clinical diagnosis | todo | [todo:todo](todo) | String |
+| Clinical diagnosis | A diagnosis made from a study of the signs and symptoms of a disease. | [NCIT:C15607](http://purl.obolibrary.org/obo/NCIT_C15607) | Diseases lookup (9700 choices) |
 | Molecular diagnosis gene | Causal gene | [NCIT:C20826](http://purl.obolibrary.org/obo/NCIT_C20826) | Genes lookup (19202 choices) |
 | Molecular diagnosis other | Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved. | [NCIT:C20826](http://purl.obolibrary.org/obo/NCIT_C20826) | Text |
 | Age at diagnosis | The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer. | [SNOMEDCT:423493009](http://purl.bioontology.org/ontology/SNOMEDCT/423493009) | Integer |
