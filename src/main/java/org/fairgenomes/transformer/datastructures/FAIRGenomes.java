@@ -64,7 +64,6 @@ public class FAIRGenomes {
                     vt = vt.replace("[", "").replace("]", "").trim();
                     LookupList ll = new LookupList(new File(vt));
                     e.lookup = ll;
-                  //  System.out.println(vt);
                 }
             }
         }
@@ -104,20 +103,20 @@ public class FAIRGenomes {
     }
 
     /**
-     * Create technical names
+     * Wrapper to create technical names
      * @return
      */
     public void createElementTechnicalNames() throws Exception {
         for (Module m : modules) {
-            m.technicalName = m.name.replace(" ", "").toLowerCase();
+            m.technicalName = toTechName(m.name);
             for (Element e : m.elements) {
-                e.technicalName = e.name.replace(" ", "").toLowerCase();
+                e.technicalName = toTechName(e.name);
             }
         }
     }
 
     /**
-     * Parse the references to other modules
+     * Parse any references to other modules or lookups
      * @throws Exception
      */
     public void parseReferences() throws Exception {
@@ -130,6 +129,28 @@ public class FAIRGenomes {
                 }
             }
         }
+    }
+
+    /**
+     * Add module pointers to the elements
+     * @throws Exception
+     */
+    public void setElementModules() throws Exception {
+        for (Module m : modules) {
+            for (Element e : m.elements) {
+                e.m = m;
+            }
+        }
+    }
+
+    /**
+     * Helper to simplify names for technical use
+     * @param in
+     * @return
+     */
+    public static String toTechName(String in)
+    {
+        return in.replace(" ", "").toLowerCase();
     }
 
     @Override

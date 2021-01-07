@@ -5,14 +5,42 @@ version: 0.0
 date: 2020-12-19
 lookupGlobalOptions: lookups/NullFlavors.txt
 modules:
+    - name: Study
+      description: A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
+      ontology: NCIT:C63536 [http://purl.obolibrary.org/obo/NCIT_C63536]
+      elements:
+          - name: Identifier
+            description: A sample collection or study proper name that is centrally registered and unique within one framework.
+            ontology: OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]
+            values: UniqueID
+          - name: Name
+            description: A proper name that designates a study.
+            ontology: OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]
+            values: String
+          - name: Description
+            description: A textual entity describing a study aim or a sample collection.
+            ontology: OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]
+            values: Text
+          - name: Principal investigator
+            description: The principle investigtor or responsible person for a study or a sample collection.
+            ontology: OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]
+            values: String
+          - name: Contact information
+            description: An email address for the purpose of contacting a sample collection or study contact person.
+            ontology: OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]
+            values: String
+          - name: Study design
+            description: A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.
+            ontology: OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]
+            values: Text
     - name: Personal
       description: Data, facts or figures about an individual; the set of relevant items would depend on the use case.
       ontology: NCIT:C90492 [http://purl.obolibrary.org/obo/NCIT_C90492]
       elements:
-          - name: Identifier
+          - name: Personal identifier
             description: An alphanumeric identifier assigned to a specific patient.
             ontology: NCIT:C164337 [http://purl.obolibrary.org/obo/NCIT_C164337]
-            values: String
+            values: UniqueID
           - name: Gender
             description: Biological sex is the quality of a biological organism based on reproductive function or organs.
             ontology: SIO:010029 [https://semanticscience.org/resource/SIO_010029.rdf]
@@ -61,45 +89,17 @@ modules:
             description: The study or studies in which this person participates.
             ontology: RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]
             values: ReferenceMany [Study]
-    - name: Study
-      description: A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
-      ontology: NCIT:C63536 [http://purl.obolibrary.org/obo/NCIT_C63536]
-      elements:
-          - name: Identifier
-            description: A sample collection or study proper name that is centrally registered and unique within one framework.
-            ontology: OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]
-            values: String
-          - name: Name
-            description: A proper name that designates a study.
-            ontology: OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]
-            values: String
-          - name: Description
-            description: A textual entity describing a study aim or a sample collection.
-            ontology: OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]
-            values: Text
-          - name: Principal investigator
-            description: The principle investigtor or responsible person for a study or a sample collection.
-            ontology: OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]
-            values: String
-          - name: Contact information
-            description: An email address for the purpose of contacting a sample collection or study contact person.
-            ontology: OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]
-            values: String
-          - name: Study design
-            description: A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.
-            ontology: OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]
-            values: Text
     - name: Informed consent form
       description: A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian.
       ontology: NCIT:C16468 [http://purl.obolibrary.org/obo/NCIT_C16468]
       elements:
-          - name: Leaflet title
-            description: A name given to the resource.
-            ontology: DC:title [http://purl.org/dc/terms/title]
-            values: String
           - name: Leaflet identifier
             description: An unambiguous reference to the resource within a given context.
             ontology: DC:identifier [http://purl.org/dc/terms/identifier]
+            values: UniqueID
+          - name: Leaflet title
+            description: A name given to the resource.
+            ontology: DC:title [http://purl.org/dc/terms/title]
             values: String
           - name: Leaflet date
             description: A point or period of time associated with an event in the lifecycle of the resource.
@@ -112,6 +112,10 @@ modules:
           - name: Consent form accepted date
             description: Date of acceptance of the resource.
             ontology: DC:dateAccepted [http://purl.org/dc/terms/dateAccepted]
+            values: Date
+          - name: Consent form valid until
+            description: Date (often a range) of validity of a resource.
+            ontology: DC:valid [http://purl.org/dc/terms/valid]
             values: Date
           - name: Consent form creator
             description: Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.
@@ -129,14 +133,22 @@ modules:
       description: Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved.
       ontology: NCIT:C16735 [http://purl.obolibrary.org/obo/NCIT_C16735]
       elements:
+        - name: Individual consent identifier
+          description: A data item consisting of a unique identification code designating an informed consent.
+          ontology: ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]
+          values: UniqueID
         - name: About subject
-          description: The person whom this individual consent applies to.
+          description: The person (subject) whom this individual consent applies.
           ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
           values: ReferenceOne [Personal]
         - name: Consent form used
           description: The informed consent form that was signed.
           ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
           values: ReferenceOne [Informed consent form]
+        - name: Consent form version
+          description: A related resource that is a version, edition, or adaptation of the described resource. Used when a patient requests adaptation or partial withdrawal of the consent.
+          ontology: DC:hasVersion [http://purl.org/dc/terms/hasVersion]
+          values: String
         - name: Collected by
           description: Indicates the person, group, or institution who performed the collection act.
           ontology: NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]
@@ -181,8 +193,12 @@ modules:
       description: Data obtained through patient examination or treatment.
       ontology: NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]
       elements:
+          - name: Clinical identifier
+            description: A character or string used to name, or characterize a clinical events reference.
+            ontology: NCIT:C87853 [http://purl.obolibrary.org/obo/NCIT_C87853]
+            values: UniqueID
           - name: Belongs to person
-            description: Link to the person for which the clinical information was collected.
+            description: Link to the person whom the clinical information is about.
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Personal]
           - name: Phenotype
@@ -202,7 +218,7 @@ modules:
             ontology: NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]
             values: LookupMany [lookups/Diseases.txt]
           - name: Molecular diagnosis gene
-            description: Causal gene
+            description: Gene affected by pathogenic variation that is causal for disease of the patient.
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
             values: LookupMany [lookups/Genes.txt]
           - name: Molecular diagnosis other
@@ -253,6 +269,14 @@ modules:
       description: Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.
       ontology: NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]
       elements:
+          - name: Material identifier
+            description: The unique identification of a material in a specific context.
+            ontology: NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]
+            values: UniqueID
+          - name: Belongs to person
+            description: Link to the person from whom the material was collected.
+            ontology: SIO:000244 [http://semanticscience.org/resource/SIO_000244]
+            values: ReferenceOne [Personal]
           - name: Sampling timestamp
             description: Date and time at which this sample was collected.
             ontology: EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]
@@ -298,14 +322,22 @@ modules:
             ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]
             values: String
           - name: Derived from
-            description: A material produced from or related to another.
+            description: A material produced from or related to another. Ideally, this would be a self-reference to Material, but is instread defined as String to prevent issues with circular dependencies in database systems.
             ontology: NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]
-            values: ReferenceOne [Material]
+            values: String
     - name: Sample preparation
       description: A sample preparation for assay that preparation of nucleic acids for a sequencing assay.
       ontology: OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]
       elements:
-          - name: Input material
+          - name: Sampleprep identifier
+            description: Any of one or more unique codes that refers to a specific protocol.
+            ontology: NCIT:C132299 [http://purl.obolibrary.org/obo/NCIT_C132299]
+            values: UniqueID
+          - name: Belongs to material
+            description: Link to the material from which this sample was prepared.
+            ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
+            values: ReferenceOne [Material]
+          - name: Input amount
             description: Amount of input material in ng.
             ontology: AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]
             values: Integer
@@ -313,7 +345,7 @@ modules:
             description: Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
             ontology: GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]
             values: LookupOne [lookups/NGSKits.txt]
-          - name: PCR-free
+          - name: PCR free
             description: A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.
             ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]
             values: Boolean
@@ -337,6 +369,14 @@ modules:
       description: The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.
       ontology: EDAM:topic_3168 [http://edamontology.org/topic_3168]
       elements:
+          - name: Sequencing identifier
+            description: A unique identifier assigned to raw data from a performed nucleic acid sequencing assay.
+            ontology: NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]
+            values: UniqueID
+          - name: Belongs to sample
+            description: Link to the prepared sample that was sequenced.
+            ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
+            values: ReferenceOne [Sample preparation]
           - name: Sequencing date
             description: Date the sequencing run was performed.
             ontology: GENEPIO:0000069 [http://purl.obolibrary.org/obo/GENEPIO_0000069]
@@ -377,6 +417,14 @@ modules:
       description: Apply analytical methods to existing data of a specific type.
       ontology: EDAM:operation_2945 [http://edamontology.org/operation_2945]
       elements:
+          - name: Analysis identifier
+            description: An assay identifier is an identifier that identifies some assay (analysis).
+            ontology: AFR:0001979 [http://purl.allotrope.org/ontologies/result#AFR_0001979]
+            values: UniqueID
+          - name: Belongs to sequencing
+            description: Link to the sequencing performed on which the analysis is based.
+            ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
+            values: ReferenceOne [Sequencing]
           - name: Physical data location
             description: A reference to a place on the Earth, by its name or by its geographical location. 
             ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]

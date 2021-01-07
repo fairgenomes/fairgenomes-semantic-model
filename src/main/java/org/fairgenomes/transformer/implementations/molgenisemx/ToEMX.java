@@ -18,7 +18,7 @@ public class ToEMX {
     FAIRGenomes fg;
     File outputFolder;
     static final String RN = "\r\n";
-    static final String PACKAGE_NAME = "fair-genomes";
+    public static final String PACKAGE_NAME = "fair-genomes";
 
     public ToEMX(FAIRGenomes fg, File outputFolder) throws Exception {
         this.fg = fg;
@@ -56,15 +56,16 @@ public class ToEMX {
             for (Element e : m.elements) {
                 if(e.isLookup())
                 {
-                    String fileName = m.technicalName + "_lookup_" + e.technicalName + "_attributes.tsv";
+                    String entityName = m.technicalName + "_" + e.technicalName;
+                    String fileName = entityName + "_attributes.tsv";
                     fw = new FileWriter(new File(outputFolder, fileName));
                     bw = new BufferedWriter(fw);
                     bw.write("name\tentity\tlabel\tdataType\tidAttribute\tnillable" + RN);
-                    bw.write("value\t" + m.technicalName + "\t" + "Value (English)" + "\t" + "String" + "\t" + "TRUE" + "\t" + "FALSE" + RN);
-                    bw.write("description\t" + m.technicalName + "\t" + "Description (English)\t" + "\t" + "Text" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
-                    bw.write("codesystem\t" + m.technicalName + "\t" + "The code system (e.g. ontology) this term belongs to" + "\t" + "String" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
-                    bw.write("code\t" + m.technicalName + "\t" + "The code within the code system" + "\t" + "String" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
-                    bw.write("iri\t" + m.technicalName + "\t" + "The Internationalized Resource Identifier for this term" + "\t" + "String" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
+                    bw.write("value\t" + entityName + "\t" + "Value (English)" + "\t" + "String" + "\t" + "TRUE" + "\t" + "FALSE" + RN);
+                    bw.write("description\t" + entityName + "\t" + "Description (English)" + "\t" + "Text" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
+                    bw.write("codesystem\t" + entityName + "\t" + "The code system (e.g. ontology) this term belongs to" + "\t" + "String" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
+                    bw.write("code\t" + entityName + "\t" + "The code within the code system" + "\t" + "String" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
+                    bw.write("iri\t" + entityName + "\t" + "The Internationalized Resource Identifier for this term" + "\t" + "String" + "\t" + "FALSE" + "\t" + "TRUE" + RN);
                     bw.flush();
                     bw.close();
                     MCMDbw.write("mcmd import -p " + fileName + " --as attributes --in " + PACKAGE_NAME + RN);
@@ -82,7 +83,7 @@ public class ToEMX {
                     /*
                     Copy the original and add NullFlavors
                      */
-                    String entityName = m.technicalName + "_lookup_" + e.technicalName;
+                    String entityName = m.technicalName + "_" + e.technicalName;
                     File targetFile = new File(outputFolder,entityName + ".tsv");
 
                     Path target = Paths.get(targetFile.getAbsolutePath());
@@ -105,6 +106,32 @@ public class ToEMX {
                     MCMDbw.write("mcmd import -p "+targetFile.getName()+" --as fair-genomes_"+entityName+" --in " + PACKAGE_NAME + RN);
                 }
             }
+        }
+
+        /*
+        Write model attributes for the modules (the actual tables that people use to enter data)
+         */
+        for (Module m : fg.modules) {
+            String entityName = m.technicalName;
+            String fileName = entityName + "_attributes.tsv";
+            fw = new FileWriter(new File(outputFolder, fileName));
+            bw = new BufferedWriter(fw);
+            bw.write("name\tlabel\tdescription\tentity\tdataType\tidAttribute\tlabelAttribute\tvisible\tnillable\trefEntity" + RN);
+
+            // todo: auto ID + label ?
+
+            for (Element e : m.elements) {
+                if(e.valueTypeEnum.equals(ValueType.UniqueID))
+                {
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+"\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"FALSE"+"\t"+e.lookupOrReferencetoEMX()+ RN);
+                }
+                else{
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+"\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"FALSE"+"\t"+"FALSE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+e.lookupOrReferencetoEMX()+ RN);
+                }
+            }
+            bw.flush();
+            bw.close();
+            MCMDbw.write("mcmd import -p " + fileName + " --as attributes --in " + PACKAGE_NAME + RN);
         }
 
 

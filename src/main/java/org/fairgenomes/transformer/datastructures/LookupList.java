@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class LookupList {
 
     public File srcFile;
+    public String name;
+    public String technicalName;
     public HashMap<String, Lookup> lookups;
     private static final String HEADER = "value\tdescription\tcodesystem\tcode\tiri";
 
@@ -17,6 +19,8 @@ public class LookupList {
      */
     public LookupList(File lookupListFile) throws Exception {
         this.srcFile = lookupListFile;
+        this.name = this.srcFile.getName().substring(0,this.srcFile.getName().indexOf("."));
+        this.technicalName = FAIRGenomes.toTechName(this.name);
         lookups = new HashMap<>();
 
         Scanner s = new Scanner(lookupListFile);

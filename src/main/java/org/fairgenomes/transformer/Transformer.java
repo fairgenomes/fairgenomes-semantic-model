@@ -30,6 +30,7 @@ public class Transformer {
         fg.parseElementValueTypes();
         fg.loadElementLookups();
         fg.parseOntologies();
+        fg.setElementModules();
         fg.parseReferences();
         fg.createElementTechnicalNames();
 

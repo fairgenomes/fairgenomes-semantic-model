@@ -32,8 +32,7 @@ public class ToMD {
     public void go() throws IOException {
         FileWriter fw = new FileWriter(new File(outputFolder, "fairgenomes-semantic-model.md"));
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write("# FAIR Genomes semantic metadata model" + RN);
-
+        bw.write("# FAIR Genomes semantic metadata model" + RN + RN);
 
         for (Module m : fg.modules) {
             bw.write("## Module: " + m.name + RN);
@@ -45,7 +44,18 @@ public class ToMD {
             for (Element e : m.elements) {
                 bw.write("| " + e.name + " | " + (e.description.length() < DESCRIPTION_LIMIT ? e.description : e.description.substring(0,DESCRIPTION_LIMIT) + "...") + " | " + "[" + e.codeSystem + ":" + e.code + "](" + e.iri + ")" + " | " + e.valueTypeToMarkDown() + " |" + RN);
             }
+            bw.write(RN);
         }
+
+        bw.write("## Null flavors" + RN);
+        bw.write("Each lookup in FAIR Genomes is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. The null flavors are:" + RN + RN);
+        bw.write("| Value | Description |" + RN);
+        bw.write("|---|---|" + RN);
+        for(String key: fg.lookupGlobalOptionsInstance.lookups.keySet())
+        {
+            bw.write("| " + key.substring(0,key.indexOf("(")-1) + " | " + fg.lookupGlobalOptionsInstance.lookups.get(key).description + " |" + RN);
+        }
+        bw.write(RN);
 
         bw.flush();
         bw.close();
