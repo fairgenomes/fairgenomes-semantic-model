@@ -198,13 +198,13 @@ modules:
             ontology: DC:DCMIType [http://purl.org/dc/terms/DCMIType]
             values: LookupMany [lookups/DCMITypes.txt]
           - name: Clinical diagnosis
-            description: todo
-            ontology: todo:todo [todo]
-            values: String
+            description: A diagnosis made from a study of the signs and symptoms of a disease.
+            ontology: NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]
+            values: LookupMany [lookups/Diseases.txt]
           - name: Molecular diagnosis gene
             description: Causal gene
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
-            values: LookupOne [lookups/Genes.txt]
+            values: LookupMany [lookups/Genes.txt]
           - name: Molecular diagnosis other
             description: Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
