@@ -78,11 +78,11 @@ modules:
             ontology: OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]
             values: Text
           - name: Primary affiliated institute
-            description: Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.
+            description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]
             values: LookupOne [lookups/Institutes.txt]
-          - name: Data available in other institutes
-            description: Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.
+          - name: Resources in other institutes
+            description: Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]
             values: LookupMany [lookups/Institutes.txt]
           - name: Participates in study
@@ -169,6 +169,10 @@ modules:
           description: An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.
           ontology: NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]
           values: String
+        - name: Allow research
+          description: Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.
+          ontology: ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]
+          values: Boolean
         - name: Restricted to
           description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
           ontology: DUO:0000010 [http://purl.obolibrary.org/obo/DUO_0000010]
@@ -178,7 +182,7 @@ modules:
           ontology: NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]
           values: Boolean
         - name: Allow reidentification
-          description: The procedure of having an identity established.
+          description: The procedure of having an identity established. Implicitly, this answers the question whether a patient would like to be recontacted for e.g. an answer to their diagnostic question.
           ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]
           values: Boolean
         - name: Allow incidental findings
@@ -265,6 +269,10 @@ modules:
             description: First contact with specialised center in context of disease or inclusion.
             ontology: LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]
             values: Date
+          - name: Functioning
+            description: Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).
+            ontology: NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]
+            values: Text
     - name: Material
       description: Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.
       ontology: NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]
@@ -318,7 +326,7 @@ modules:
             ontology: NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]
             values: Decimal
           - name: Physical location
-            description: A reference to a place on the Earth, by its name or by its geographical location.
+            description: A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).
             ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]
             values: String
           - name: Derived from
@@ -430,9 +438,9 @@ modules:
             ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
             values: ReferenceOne [Sequencing]
           - name: Physical data location
-            description: A reference to a place on the Earth, by its name or by its geographical location. 
+            description: A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).
             ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]
-            values: LookupOne [lookups/Countries.txt]
+            values: String
           - name: Abstract data location
             description: To maintain data by placing the data, or a copy of the data, onto an electronically accessible device for preservation (either in plain-text or encrypted format).
             ontology: NCIT:C142494 [http://purl.obolibrary.org/obo/NCIT_C142494]
