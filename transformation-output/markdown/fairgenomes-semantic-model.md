@@ -27,8 +27,8 @@ Data, facts or figures about an individual; the set of relevant items would depe
 | Inclusion status | An indicator that provides information on the current health status of a patient. | [NCIT:C166244](http://purl.obolibrary.org/obo/NCIT_C166244) | [InclusionStatus](../../lookups/InclusionStatus.txt) lookup (4 choices) |
 | Age at death | The age at which death occurred. | [NCIT:C135383](http://purl.obolibrary.org/obo/NCIT_C135383) | Integer |
 | Inclusion criterion | An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process. | [OBI:0500027](http://purl.obolibrary.org/obo/OBI_0500027) | Text |
-| Primary affiliated institute | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
-| Data available in other institutes | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
+| Primary affiliated institute | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
+| Resources in other institutes | Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
 | Participates in study | The study or studies in which this person participates. | [RO:0000056](http://purl.obolibrary.org/obo/RO_0000056) | Reference to Study module |
 
 ## Module: Informed consent form
@@ -60,9 +60,10 @@ Consent by a patient to a surgical or medical procedure or participation in a cl
 | Valid from | Date (often a range) of validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
 | Valid until | Date (often a range) of validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
 | Represented by | An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research. | [NCIT:C51828](http://purl.obolibrary.org/obo/NCIT_C51828) | String |
+| Allow research | Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient. | [ICO:0000064](http://purl.obolibrary.org/obo/ICO_0000064) | Boolean |
 | Restricted to | E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location. | [DUO:0000010](http://purl.obolibrary.org/obo/DUO_0000010) | [DataUseRestrictions](../../lookups/DataUseRestrictions.txt) lookup (30 choices) |
 | Allow linkage | A study in which data from different sources are "linked". Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone. | [NCIT:C15424](http://purl.obolibrary.org/obo/NCIT_C15424) | Boolean |
-| Allow reidentification | The procedure of having an identity established. | [NCIT:C25737](http://purl.obolibrary.org/obo/NCIT_C25737) | Boolean |
+| Allow reidentification | The procedure of having an identity established. Implicitly, this answers the question whether a patient would like to be recontacted for e.g. an answer to their diagnostic question. | [NCIT:C25737](http://purl.obolibrary.org/obo/NCIT_C25737) | Boolean |
 | Allow incidental findings | A planned process for a subject agrees not to be informed about any incidental finding. | [ICO:0000178](http://purl.obolibrary.org/obo/ICO_0000178) | Boolean |
 | Recontact method | A document part that prescribes a method of contact in the future. | [ICO:0000009](http://purl.obolibrary.org/obo/ICO_0000009) | Text |
 
@@ -89,6 +90,7 @@ Data obtained through patient examination or treatment. Ontology: [NCIT:C15783](
 | Medical history | A record of a person's background regarding health, occurrence of disease events and surgical procedures. | [NCIT:C18772](http://purl.obolibrary.org/obo/NCIT_C18772) | [MedicalHistory](../../lookups/MedicalHistory.txt) lookup (1167 choices) |
 | Age of onset | Age of onset of clinical manifestations related to a clinical entity. | [Orphanet:C023](http://www.orpha.net/ORDO/Orphanet_C023) | Integer |
 | First contact | First contact with specialised center in context of disease or inclusion. | [LOINC:MTHU048806](http://purl.bioontology.org/ontology/LNC/MTHU048806) | Date |
+| Functioning | Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF). | [NCIT:C21007](http://purl.obolibrary.org/obo/NCIT_C21007) | Text |
 
 ## Module: Material
 Natural substances derived from living organisms such as cells, tissues, proteins, and DNA. Ontology: [NCIT:C43376](http://purl.obolibrary.org/obo/NCIT_C43376).
@@ -107,7 +109,7 @@ Natural substances derived from living organisms such as cells, tissues, protein
 | Storage conditions | The conditions specified for the storage of a biological material. | [NCIT:C96145](http://purl.obolibrary.org/obo/NCIT_C96145) | [StorageConditions](../../lookups/StorageConditions.txt) lookup (26 choices) |
 | Expiration date | The date beyond which a substance is no longer regarded as fit for use. | [NCIT:C164516](http://purl.obolibrary.org/obo/NCIT_C164516) | Date |
 | Percentage tumor cells | The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage. | [NCIT:C127771](http://purl.obolibrary.org/obo/NCIT_C127771) | Decimal |
-| Physical location | A reference to a place on the Earth, by its name or by its geographical location. | [GAZ:00000448](http://purl.obolibrary.org/obo/GAZ_00000448) | String |
+| Physical location | A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent). | [GAZ:00000448](http://purl.obolibrary.org/obo/GAZ_00000448) | String |
 | Derived from | A material produced from or related to another. Ideally, this would be a self-reference to Material, but is instread defined as String to prevent issues with circular dependencies in database systems. | [NCIT:C28355](http://purl.obolibrary.org/obo/NCIT_C28355) | String |
 
 ## Module: Sample preparation
