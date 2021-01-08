@@ -1,6 +1,6 @@
 # FAIR Genomes semantic model
 
-![FAIR Genomes NGS FAIRification flow](img/fg-ngs-fairification-flow.png)
+![FAIR Genomes NGS FAIRification flow](misc/fg-ngs-fairification-flow.png)
 
 ## Model
 
