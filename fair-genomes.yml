@@ -73,10 +73,10 @@ modules:
             description: The age at which death occurred.
             ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]
             values: Integer
-          - name: Inclusion criterion
+          - name: Inclusion criteria
             description: An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.
             ontology: OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]
-            values: Text
+            values: LookupMany [lookups/InclusionCriteria.txt]
           - name: Primary affiliated institute
             description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688.rdf]

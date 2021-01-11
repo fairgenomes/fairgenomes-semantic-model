@@ -28,4 +28,13 @@ public class Module {
                 ", elements=" + elements +
                 '}';
     }
+
+    /**
+     * Helper function to convert name into a Markdown anchor
+     * @return
+     */
+    public String toMarkdownAnchor()
+    {
+        return "#module-" + name.replace(" ", "-").toLowerCase();
+    }
 }
