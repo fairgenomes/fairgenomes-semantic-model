@@ -248,11 +248,11 @@ modules:
           - name: Family members affected
             description: This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband).
             ontology: HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]
-            values: String
+            values: LookupMany [lookups/FamilyMembers.txt]
           - name: Family members sequenced
             description: A person related by descent rather than by marriage or law that was also sequenced.
             ontology: NCIT:C71384 [http://purl.obolibrary.org/obo/NCIT_C71384]
-            values: String
+            values: LookupMany [lookups/FamilyMembers.txt]
           - name: Consanguinity
             description: Information on whether the patient is a child from two family members who are second cousins or closer.
             ontology: GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]

@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	clinical_familymembersaffected	Value (English)	String	TRUE	FALSE
+description	clinical_familymembersaffected	Description (English)	Text	FALSE	TRUE
+codesystem	clinical_familymembersaffected	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	clinical_familymembersaffected	The code within the code system	String	FALSE	TRUE
+iri	clinical_familymembersaffected	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
