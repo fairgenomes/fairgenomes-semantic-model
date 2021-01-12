@@ -17,7 +17,7 @@ public class ToEMX {
 
     FAIRGenomes fg;
     File outputFolder;
-    static final String RN = "\r\n";
+    static final String RN = "\n";
     public static final String PACKAGE_NAME = "fair-genomes";
 
     public ToEMX(FAIRGenomes fg, File outputFolder) throws Exception {
@@ -118,8 +118,6 @@ public class ToEMX {
             bw = new BufferedWriter(fw);
             bw.write("name\tlabel\tdescription\tentity\tdataType\tidAttribute\tlabelAttribute\tvisible\tnillable\trefEntity" + RN);
 
-            // todo: auto ID + label ?
-
             for (Element e : m.elements) {
                 if(e.valueTypeEnum.equals(ValueType.UniqueID))
                 {
@@ -133,6 +131,22 @@ public class ToEMX {
             bw.close();
             MCMDbw.write("mcmd import -p " + fileName + " --as attributes --in " + PACKAGE_NAME + RN);
         }
+
+        /*
+        Landing page
+         */
+        MCMDbw.write("mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv" + RN);
+        String[] imgs = new String[]{"analysis", "lookups", "clinical", "informedconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo"};
+        for(String img : imgs)
+        {
+            MCMDbw.write("mcmd add logo -p ../../misc/molgenis/img/"+img+".png" + RN);
+        }
+
+        /*
+        Demo permissions
+         */
+        MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + RN);
+        MCMDbw.write("mcmd give anonymous view sys_md" + RN);
 
 
         /*
