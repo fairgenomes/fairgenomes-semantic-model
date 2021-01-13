@@ -1,0 +1,74 @@
+key_	content
+home	"<div class=""jumbotron jumbotron-fluid"">
+<div class=""container"">
+	<h1 class=""display-4"" style=""color: #353535;font-size: 8.5em; ""><img src=""/logo/fair_genomes_logo_notext.png"" style=""height: 100px;""/>FAIR Genomes</h1>
+	<h4>Version 0.2 public demo. This is a prototype for evaluation purposes only. Do not import any sensitive data.</h4>
+	<p class=""lead"">
+		<i>A national guideline to promote optimal (re)use of NGS data in research and healthcare</i>.<br/>
+	</p>
+	<table style=""table-layout: fixed; width: 700px; height: 800px;"">
+		<tr>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_study""><img alt=""study"" src=""/logo/study.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_study"" role=""button"">Study</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_personal""><img alt=""personal"" src=""/logo/personal.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_personal"" role=""button"">Personal</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_informedconsentform""><img alt=""informedconsentform"" src=""/logo/informedconsentform.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_informedconsentform"" role=""button"">Inf. Consent Form</a>
+			</td>
+		</tr>
+		<tr>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_material""><img alt=""material"" src=""/logo/material.png"" style=""width: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_material"" role=""button"">Material</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_clinical""><img alt=""clinical"" src=""/logo/clinical.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_clinical"" role=""button"">Clinical</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_individualconsent""><img alt=""individualconsent"" src=""/logo/individualconsent.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_individualconsent"" role=""button"">Individual Consent</a>
+			</td>
+		</tr>
+		<tr>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_samplepreparation""><img alt=""samplepreparation"" src=""/logo/samplepreparation.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_samplepreparation"" role=""button"">Sample preparation</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_sequencing""><img alt=""sequencing"" src=""/logo/sequencing.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_sequencing"" role=""button"">Sequencing</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/dataexplorer?entity=fair-genomes_analysis""><img alt=""analysis"" src=""/logo/analysis.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-primary btn-lg"" href=""/menu/main/dataexplorer?entity=fair-genomes_analysis"" role=""button"">Analysis</a>
+			</td>
+		</tr>
+		<tr>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""/menu/main/navigator/fair-genomes""><img alt=""lookups"" src=""/logo/lookups.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-warning btn-lg"" href=""/menu/main/navigator/fair-genomes"" role=""button"">Lookups</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""https://www.zonmw.nl/nl/onderzoek-resultaten/geneesmiddelen/programmas/project-detail/personalised-medicine/fair-genomes-a-national-guideline-to-promote-optimal-reuse-of-ngs-data-in-research-and-healthcare""><img alt=""info"" src=""/logo/info.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-warning btn-lg"" href=""https://www.zonmw.nl/nl/onderzoek-resultaten/geneesmiddelen/programmas/project-detail/personalised-medicine/fair-genomes-a-national-guideline-to-promote-optimal-reuse-of-ngs-data-in-research-and-healthcare"" role=""button"">Information</a>
+			</td>
+			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
+				<p><a href=""https://github.com/fairgenomes""><img alt=""contribute"" src=""/logo/contribute.png"" style=""height: 100px;""/></a></p>
+				<a class=""btn btn-warning btn-lg"" href=""https://github.com/fairgenomes"" role=""button"">Contribute</a>
+			</td>
+		</tr>
+	</table>
+	<br/>
+	<br/>
+	<br/>
+	<p style=""font-size:10px"">
+		Figure credits: Iconathon, Adrien Coquet, Creative Stall, Anthony Bossard, Eucalyp, Sumit Saengthong, Wichai Wi, Line Icons Pro, Yu-Hsuan Chen and Anita Erica from <a href=""https://thenounproject.com/"">Noun Project</a>.
+	</p>
+</div>
+</div>"

@@ -1,6 +1,6 @@
 # FAIR Genomes semantic metadata model
 
-The FAIR Genomes semantic metadata model to power reuse of NGS data in research and healthcare. Version 0.0, 2020-12-19. This model consists of __9 modules__ that contain __107 metadata elements__ in total.
+The FAIR Genomes semantic metadata model to power reuse of NGS data in research and healthcare. Version 0.2, 2021-01-13. This model consists of __9 modules__ that contain __107 metadata elements__ in total.
 
 ## Module overview
 
@@ -100,8 +100,8 @@ Data obtained through patient examination or treatment. Ontology: [NCIT:C15783](
 | Age at last screening | Age of the patient at the moment of the most recent screening. | [NCIT:C81258](http://purl.obolibrary.org/obo/NCIT_C81258) | Integer |
 | Medication | Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC). | [EDAM:data_3103](http://edamontology.org/data_3103) | [Drugs](../../lookups/Drugs.txt) lookup (5632 choices) |
 | Drug regimen | The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration. | [NCIT:C142516](http://purl.obolibrary.org/obo/NCIT_C142516) | Text |
-| Family members affected | This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband). | [HP:0032320](http://purl.obolibrary.org/obo/HP_0032320) | String |
-| Family members sequenced | A person related by descent rather than by marriage or law that was also sequenced. | [NCIT:C71384](http://purl.obolibrary.org/obo/NCIT_C71384) | String |
+| Family members affected | This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband). | [HP:0032320](http://purl.obolibrary.org/obo/HP_0032320) | [FamilyMembers](../../lookups/FamilyMembers.txt) lookup (41 choices) |
+| Family members sequenced | A person related by descent rather than by marriage or law that was also sequenced. | [NCIT:C71384](http://purl.obolibrary.org/obo/NCIT_C71384) | [FamilyMembers](../../lookups/FamilyMembers.txt) lookup (41 choices) |
 | Consanguinity | Information on whether the patient is a child from two family members who are second cousins or closer. | [GSSO:007578](http://purl.obolibrary.org/obo/GSSO_007578) | String |
 | Medical history | A record of a person's background regarding health, occurrence of disease events and surgical procedures. | [NCIT:C18772](http://purl.obolibrary.org/obo/NCIT_C18772) | [MedicalHistory](../../lookups/MedicalHistory.txt) lookup (1167 choices) |
 | Age of onset | Age of onset of clinical manifestations related to a clinical entity. | [Orphanet:C023](http://www.orpha.net/ORDO/Orphanet_C023) | Integer |
