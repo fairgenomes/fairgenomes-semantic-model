@@ -1,8 +1,8 @@
 ---
 name: FAIR Genomes metadata model
 description: The FAIR Genomes semantic metadata model to power reuse of NGS data in research and healthcare.
-version: 0.0
-date: 2020-12-19
+version: 0.2
+date: 2021-01-13
 lookupGlobalOptions: lookups/NullFlavors.txt
 modules:
     - name: Study
