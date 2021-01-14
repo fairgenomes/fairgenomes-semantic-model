@@ -135,7 +135,7 @@ public class ToEMX {
         /*
         Landing page
          */
-        MCMDbw.write("mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv" + RN);
+        MCMDbw.write("mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_existing" + RN);
         String[] imgs = new String[]{"analysis", "lookups", "clinical", "informedconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo"};
         for(String img : imgs)
         {
