@@ -10,11 +10,11 @@ import org.fairgenomes.transformer.implementations.rdfowl.ToOWL;
 
 import java.io.*;
 
-public class Transformer {
+public class TransformFGToAllFormats {
 
     private File inputF;
 
-    public Transformer() {
+    public TransformFGToAllFormats() {
         this.inputF = new File("fair-genomes.yml");
     }
 
@@ -36,10 +36,10 @@ public class Transformer {
 
         System.out.println("Transforming into other representations...");
         File outputs = new File("transformation-output");
-        new ToMD(fg, new File(outputs, "markdown")).go();
-        new ToEMX(fg, new File(outputs, "molgenis-emx")).go();
-        new ToOWL(fg, new File(outputs, "rdf-owl")).go();
-        new ToARTDECOR(fg, new File(outputs, "art-decor")).go();
+        new ToMD(fg, new File(outputs, "markdown")).start();
+        new ToEMX(fg, new File(outputs, "molgenis-emx")).start();
+        new ToOWL(fg, new File(outputs, "rdf-owl")).start();
+        new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
 
 
     }
