@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	informedconsentform_consentformrestrictedto	Value (English)	String	TRUE	FALSE
+description	informedconsentform_consentformrestrictedto	Description (English)	Text	FALSE	TRUE
+codesystem	informedconsentform_consentformrestrictedto	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	informedconsentform_consentformrestrictedto	The code within the code system	String	FALSE	TRUE
+iri	informedconsentform_consentformrestrictedto	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

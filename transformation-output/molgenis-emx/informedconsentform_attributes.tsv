@@ -1,0 +1,10 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+leafletidentifier	Leaflet identifier	An unambiguous reference to the resource within a given context.	informedconsentform	string	TRUE	TRUE	TRUE	FALSE	
+leaflettitle	Leaflet title	A name given to the resource.	informedconsentform	string	FALSE	FALSE	TRUE	TRUE	
+leafletdate	Leaflet date	A point or period of time associated with an event in the lifecycle of the resource.	informedconsentform	date	FALSE	FALSE	TRUE	TRUE	
+leafletversion	Leaflet version	A related resource that is a version, edition, or adaptation of the described resource.	informedconsentform	string	FALSE	FALSE	TRUE	TRUE	
+consentformaccepteddate	Consent form accepted date	Date of acceptance of the resource.	informedconsentform	date	FALSE	FALSE	TRUE	TRUE	
+consentformvaliduntil	Consent form valid until	Date (often a range) of validity of a resource.	informedconsentform	date	FALSE	FALSE	TRUE	TRUE	
+consentformcreator	Consent form creator	Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.	informedconsentform	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_informedconsentform_consentformcreator
+consentformversion	Consent form version	A related resource that is a version, edition, or adaptation of the described resource.	informedconsentform	string	FALSE	FALSE	TRUE	TRUE	
+consentformrestrictedto	Consent form restricted to	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	informedconsentform	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_informedconsentform_consentformrestrictedto

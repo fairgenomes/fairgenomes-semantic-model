@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	clinical_moleculardiagnosisgene	Value (English)	String	TRUE	FALSE
+description	clinical_moleculardiagnosisgene	Description (English)	Text	FALSE	TRUE
+codesystem	clinical_moleculardiagnosisgene	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	clinical_moleculardiagnosisgene	The code within the code system	String	FALSE	TRUE
+iri	clinical_moleculardiagnosisgene	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

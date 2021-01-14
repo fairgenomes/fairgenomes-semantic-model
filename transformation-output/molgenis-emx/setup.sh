@@ -68,7 +68,7 @@ mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p samplepreparation_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv
+mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_existing
 mcmd add logo -p ../../misc/molgenis/img/analysis.png
 mcmd add logo -p ../../misc/molgenis/img/lookups.png
 mcmd add logo -p ../../misc/molgenis/img/clinical.png

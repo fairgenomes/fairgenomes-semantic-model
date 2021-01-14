@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	clinical_medication	Value (English)	String	TRUE	FALSE
+description	clinical_medication	Description (English)	Text	FALSE	TRUE
+codesystem	clinical_medication	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	clinical_medication	The code within the code system	String	FALSE	TRUE
+iri	clinical_medication	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	samplepreparation_librarypreparationkit	Value (English)	String	TRUE	FALSE
+description	samplepreparation_librarypreparationkit	Description (English)	Text	FALSE	TRUE
+codesystem	samplepreparation_librarypreparationkit	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	samplepreparation_librarypreparationkit	The code within the code system	String	FALSE	TRUE
+iri	samplepreparation_librarypreparationkit	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

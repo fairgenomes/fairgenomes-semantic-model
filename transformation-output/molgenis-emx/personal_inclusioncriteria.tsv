@@ -1,0 +1,28 @@
+value	description	codesystem	code	iri
+Health status	Health status	MIABIS-2.0-22	inclusion-criteria#Health status	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Health status
+Hospital patient	Hospital patient	MIABIS-2.0-22	inclusion-criteria#Hospital patient	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Hospital patient
+Use of medication	Use of medication	MIABIS-2.0-22	inclusion-criteria#Use of medication	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Use of medication
+Gravidity	Gravidity	MIABIS-2.0-22	inclusion-criteria#Gravidity	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Gravidity
+Age group	Age group	MIABIS-2.0-22	inclusion-criteria#Age group	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Age group
+Familial status	Familial status	MIABIS-2.0-22	inclusion-criteria#Familial status	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Familial status
+Sex	Sex	MIABIS-2.0-22	inclusion-criteria#Sex	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Sex
+Country of residence	Country of residence	MIABIS-2.0-22	inclusion-criteria#Country of residence	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Country of residence
+Ethnic origin	Ethnic origin	MIABIS-2.0-22	inclusion-criteria#Ethnic origin	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Ethnic origin
+Population representative sampling	Population representative sampling	MIABIS-2.0-22	inclusion-criteria#Population representative sampling	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Population representative sampling
+Lifestyle/Exposure	Lifestyle/Exposure	MIABIS-2.0-22	inclusion-criteria#Lifestyle/Exposure	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Lifestyle/Exposure
+Not available (NAVU, nullflavor)	Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).	HL7	NAVU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU
+Temporarily unavailable (NAV, nullflavor)	Information is not available at this time but it is expected that it will be available later.	HL7	NAV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV
+Not asked (NASK, nullflavor)	This information has not been sought. (e.g., patient was not asked)	HL7	NASK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK
+Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	DER	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER
+Unknown (UNK, nullflavor)	A proper value is applicable, but not known.	HL7	UNK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK
+Trace (TRC, nullflavor)	The content is greater than zero, but too small to be quantified.	HL7	TRC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC
+Other (OTH, nullflavor)	The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).	HL7	OTH	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH
+Masked (MSK, nullflavor)	There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.	HL7	MSK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK
+Negative infinity (NINF, nullflavor)	Negative infinity of numbers.	HL7	NINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF
+Sufficient quantity (QS, nullflavor)	The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.	HL7	QS	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS
+Un-encoded (UNC, nullflavor)	The actual value has not yet been encoded within the approved value domain.	HL7	UNC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC
+Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	INV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV
+NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	NI	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI
+Not applicable (NA, nullflavor)	Known to have no proper value (e.g., last menstrual period for a male).	HL7	NA	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA
+Positive infinity (PINF, nullflavor)	Positive infinity of numbers.	HL7	PINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF
+Asked but unknown (ASKU, nullflavor)	Information was sought but not found (e.g., patient was asked but didn't know)	HL7	ASKU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU

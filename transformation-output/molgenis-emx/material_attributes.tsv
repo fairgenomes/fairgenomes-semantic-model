@@ -1,0 +1,15 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+materialidentifier	Material identifier	The unique identification of a material in a specific context.	material	string	TRUE	TRUE	TRUE	FALSE	
+belongstoperson	Belongs to person	Link to the person from whom the material was collected.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal
+samplingtimestamp	Sampling timestamp	Date and time at which this sample was collected.	material	datetime	FALSE	FALSE	TRUE	TRUE	
+registrationtimestamp	Registration timestamp	The act of listing or recording officially; officially qualified or enrolled.	material	datetime	FALSE	FALSE	TRUE	TRUE	
+samplingprotocol	Sampling protocol	Describes the procedure whereby biological material for an experiment is sampled.	material	text	FALSE	FALSE	TRUE	TRUE	
+deviationfromprotocol	Deviation from protocol	A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.	material	string	FALSE	FALSE	TRUE	TRUE	
+reasonfordeviation	Reason for deviation	The rationale for why a deviation from the sampling protocol has occurred.	material	string	FALSE	FALSE	TRUE	TRUE	
+materialtype	Material type	Material distinguishable as an identifiable class based on common qualities.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_materialtype
+anatomicalsource	Anatomical source	Biological entity that constitutes the structural organization of an individual member of a biological species.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_anatomicalsource
+storageconditions	Storage conditions	The conditions specified for the storage of a biological material.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_storageconditions
+expirationdate	Expiration date	The date beyond which a substance is no longer regarded as fit for use.	material	date	FALSE	FALSE	TRUE	TRUE	
+percentagetumorcells	Percentage tumor cells	The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage.	material	decimal	FALSE	FALSE	TRUE	TRUE	
+physicallocation	Physical location	A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).	material	string	FALSE	FALSE	TRUE	TRUE	
+derivedfrom	Derived from	A material produced from or related to another. Ideally, this would be a self-reference to Material, but is instread defined as String to prevent issues with circular dependencies in database systems.	material	string	FALSE	FALSE	TRUE	TRUE	

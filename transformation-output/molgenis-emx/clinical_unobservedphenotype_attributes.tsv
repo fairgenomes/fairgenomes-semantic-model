@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	clinical_unobservedphenotype	Value (English)	String	TRUE	FALSE
+description	clinical_unobservedphenotype	Description (English)	Text	FALSE	TRUE
+codesystem	clinical_unobservedphenotype	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	clinical_unobservedphenotype	The code within the code system	String	FALSE	TRUE
+iri	clinical_unobservedphenotype	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

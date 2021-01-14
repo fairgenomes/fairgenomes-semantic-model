@@ -1,6 +1,0 @@
-name	entity	label	dataType	idAttribute	nillable
-value	informedconsentform	Value (English)	String	TRUE	FALSE
-description	informedconsentform	Description (English)		Text	FALSE	TRUE
-codesystem	informedconsentform	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	informedconsentform	The code within the code system	String	FALSE	TRUE
-iri	informedconsentform	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

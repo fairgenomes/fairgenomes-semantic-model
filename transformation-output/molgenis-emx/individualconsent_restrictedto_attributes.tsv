@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	individualconsent_restrictedto	Value (English)	String	TRUE	FALSE
+description	individualconsent_restrictedto	Description (English)	Text	FALSE	TRUE
+codesystem	individualconsent_restrictedto	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	individualconsent_restrictedto	The code within the code system	String	FALSE	TRUE
+iri	individualconsent_restrictedto	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
