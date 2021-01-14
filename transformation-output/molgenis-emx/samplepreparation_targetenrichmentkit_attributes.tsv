@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	samplepreparation_targetenrichmentkit	Value (English)	String	TRUE	FALSE
+description	samplepreparation_targetenrichmentkit	Description (English)	Text	FALSE	TRUE
+codesystem	samplepreparation_targetenrichmentkit	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	samplepreparation_targetenrichmentkit	The code within the code system	String	FALSE	TRUE
+iri	samplepreparation_targetenrichmentkit	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

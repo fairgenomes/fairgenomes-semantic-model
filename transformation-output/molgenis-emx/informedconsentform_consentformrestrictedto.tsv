@@ -1,0 +1,47 @@
+value	description	codesystem	code	iri
+general research use	This data use limitation indicates that use is allowed for general research use for any research purpose.	DUO	0000042	http://purl.obolibrary.org/obo/DUO0000042
+disease-specific research	This data use limitation indicates that use is allowed provided it is related to the specified disease.	DUO	0000007	http://purl.obolibrary.org/obo/DUO0000007
+health or medical or biomedical research	This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.	DUO	0000006	http://purl.obolibrary.org/obo/DUO0000006
+population origins or ancestry research	This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.	DUO	0000011	http://purl.obolibrary.org/obo/DUO0000011
+genetic studies only	This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)	DUO	0000016	http://purl.obolibrary.org/obo/DUO0000016
+no general methods research	This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.	DUO	0000015	http://purl.obolibrary.org/obo/DUO0000015
+no restriction	This data use limitation indicates there is no restriction on use.	DUO	0000004	http://purl.obolibrary.org/obo/DUO0000004
+research specific restrictions	This data use limitation indicates that use is limited to studies of a certain research type.	DUO	0000012	http://purl.obolibrary.org/obo/DUO0000012
+research use only	This data use limitation indicates that use is limited to research purposes (e.g., does not include its use in clinical care).	DUO	0000014	http://purl.obolibrary.org/obo/DUO0000014
+collaboration required	This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).	DUO	0000020	http://purl.obolibrary.org/obo/DUO0000020
+ethics approval required	This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.	DUO	0000021	http://purl.obolibrary.org/obo/DUO0000021
+geographical restriction	This should be coupled with an ontology term describing the geographical location the restriction applies to.	DUO	0000022	http://purl.obolibrary.org/obo/DUO0000022
+institution specific restriction	This requirement indicates that use is limited to use within an approved institution.	DUO	0000028	http://purl.obolibrary.org/obo/DUO0000028
+not for profit use only	This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.	DUO	0000018	http://purl.obolibrary.org/obo/DUO0000018
+project specific restriction	This requirement indicates that use is limited to use within an approved project.	DUO	0000027	http://purl.obolibrary.org/obo/DUO0000027
+publication moratorium	This requirement indicates that requestor agrees not to publish results of studies until a specific date.	DUO	0000024	http://purl.obolibrary.org/obo/DUO0000024
+publication required	This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.	DUO	0000019	http://purl.obolibrary.org/obo/DUO0000019
+return to database or resource	This requirement indicates that the requestor must return derived/enriched data to the database/resource.	DUO	0000029	http://purl.obolibrary.org/obo/DUO0000029
+time limit on use	This requirement indicates that use is approved for a specific number of months.	DUO	0000025	http://purl.obolibrary.org/obo/DUO0000025
+user specific restriction	This requirement indicates that use is limited to use by approved users.	DUO	0000026	http://purl.obolibrary.org/obo/DUO0000026
+age category research	An investigation concerning specific age categories.	DUO	0000034	http://purl.obolibrary.org/obo/DUO0000034
+ancestry research	An investigation concerning ancestry or population origins.	DUO	0000033	http://purl.obolibrary.org/obo/DUO0000033
+biomedical research	An investigation concerning health, medical, or biomedical research.	DUO	0000037	http://purl.obolibrary.org/obo/DUO0000037
+disease category research	Biomedical research research concerning specific disease/s	DUO	0000040	http://purl.obolibrary.org/obo/DUO0000040
+drug development research	Biomedical research concerning drug development.	DUO	0000039	http://purl.obolibrary.org/obo/DUO0000039
+genetic research	Biomedical research concerning genetics (i.e., the study of genes, genetic variations and heredity).	DUO	0000038	http://purl.obolibrary.org/obo/DUO0000038
+gender category research	An investigation concerning specific gender categories.	DUO	0000035	http://purl.obolibrary.org/obo/DUO0000035
+method development	An investigation concerning development of methods, algorithms, software or analytical tools.	DUO	0000031	http://purl.obolibrary.org/obo/DUO0000031
+population research	An investigation concerning a specific population group.	DUO	0000032	http://purl.obolibrary.org/obo/DUO0000032
+research control	An investigation concerning use of data as reference or control material.	DUO	0000036	http://purl.obolibrary.org/obo/DUO0000036
+Not available (NAVU, nullflavor)	Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).	HL7	NAVU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU
+Temporarily unavailable (NAV, nullflavor)	Information is not available at this time but it is expected that it will be available later.	HL7	NAV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV
+Not asked (NASK, nullflavor)	This information has not been sought. (e.g., patient was not asked)	HL7	NASK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK
+Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	DER	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER
+Unknown (UNK, nullflavor)	A proper value is applicable, but not known.	HL7	UNK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK
+Trace (TRC, nullflavor)	The content is greater than zero, but too small to be quantified.	HL7	TRC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC
+Other (OTH, nullflavor)	The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).	HL7	OTH	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH
+Masked (MSK, nullflavor)	There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.	HL7	MSK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK
+Negative infinity (NINF, nullflavor)	Negative infinity of numbers.	HL7	NINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF
+Sufficient quantity (QS, nullflavor)	The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.	HL7	QS	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS
+Un-encoded (UNC, nullflavor)	The actual value has not yet been encoded within the approved value domain.	HL7	UNC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC
+Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	INV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV
+NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	NI	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI
+Not applicable (NA, nullflavor)	Known to have no proper value (e.g., last menstrual period for a male).	HL7	NA	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA
+Positive infinity (PINF, nullflavor)	Positive infinity of numbers.	HL7	PINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF
+Asked but unknown (ASKU, nullflavor)	Information was sought but not found (e.g., patient was asked but didn't know)	HL7	ASKU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU

@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	personal_countryofbirth	Value (English)	String	TRUE	FALSE
+description	personal_countryofbirth	Description (English)	Text	FALSE	TRUE
+codesystem	personal_countryofbirth	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	personal_countryofbirth	The code within the code system	String	FALSE	TRUE
+iri	personal_countryofbirth	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

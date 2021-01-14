@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	material_materialtype	Value (English)	String	TRUE	FALSE
+description	material_materialtype	Description (English)	Text	FALSE	TRUE
+codesystem	material_materialtype	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	material_materialtype	The code within the code system	String	FALSE	TRUE
+iri	material_materialtype	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
