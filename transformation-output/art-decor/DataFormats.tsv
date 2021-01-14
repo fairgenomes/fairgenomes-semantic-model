@@ -1,0 +1,583 @@
+value_en	description_en	codesystem	code	description_code	iri
+cdsxml	cdsxml	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2184
+BioXSD (XML)	BioXSD (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2352
+Phylip tree distance format	Phylip tree distance format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1445
+BioPAX	BioPAX	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3156
+Sequence profile format	Sequence profile format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2069
+Nexus format	Nexus format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1912
+SBGN-ML	SBGN-ML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3692
+SBML	SBML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2585
+selex	selex	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2000
+pure dna	pure dna	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1215
+GenBank format	GenBank format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1936
+Mass spectrometry data format	Mass spectrometry data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3245
+BioPAX Manchester OWL Syntax format	BioPAX Manchester OWL Syntax format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000056
+ambiguous	ambiguous	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2097
+PRIDE XML	PRIDE XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3684
+Ontology format	Ontology format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2195
+SDF	SDF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3814
+ebwt	ebwt	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3484
+affymetrix	affymetrix	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1639
+Binary format	Binary format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2333
+FieldML	FieldML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000075
+pepXML	pepXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3655
+BCF	BCF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3020
+GML	GML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3822
+raw	raw	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1957
+unambiguous pure rna sequence	unambiguous pure rna sequence	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1216
+Phylip distance matrix	Phylip distance matrix	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1423
+AB1	AB1	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3000
+netCDF	netCDF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3650
+cdt	cdt	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000493
+Sequence feature table format (text)	Sequence feature table format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2206
+FASTA-like (text)	FASTA-like (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2200
+mzML	mzML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3244
+mega	mega	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1991
+Pcons report format	Pcons report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1551
+BioC	BioC	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3782
+bedstrict	bedstrict	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3584
+ABI	ABI	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1628
+OBO format	OBO format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2196
+plain text file format	plain text file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000043
+SBOL	SBOL	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3725
+cel	cel	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1638
+mega variant	mega variant	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2923
+Sequence trace format	Sequence trace format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2057
+SFF	SFF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3284
+rcc	rcc	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3580
+ZTR	ZTR	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3018
+Chemical formula format	Chemical formula format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2035
+Nucleic acid features (restriction sites) format	Nucleic acid features (restriction sites) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2158
+BED	BED	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3003
+InterPro protein view report format	InterPro protein view report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1342
+GFF3-seq	GFF3-seq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1939
+xlsx	xlsx	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3620
+dhf	dhf	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1336
+ACE	ACE	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3001
+Thermo RAW	Thermo RAW	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3712
+CATH domain report format	CATH domain report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3100
+FASTA-like	FASTA-like	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2546
+BEL	BEL	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3691
+GPML	GPML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3657
+SMILES	SMILES	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1196
+scores format	scores format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1999
+.fastq	.fastq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1930
+Sequence cluster format	Sequence cluster format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2170
+rda	rda	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000684
+CT	CT	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3309
+SBRML	SBRML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3155
+Phylogenetic discrete states format	Phylogenetic discrete states format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2038
+xpm	xpm	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3599
+PMML	PMML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3726
+EMBOSS simple format	EMBOSS simple format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2001
+uniprotkb-like format	uniprotkb-like format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2547
+qualillumina	qualillumina	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3609
+LocARNA PP	LocARNA PP	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3728
+unambiguous pure nucleotide	unambiguous pure nucleotide	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1211
+completely unambiguous	completely unambiguous	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2566
+GPR	GPR	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3829
+spML	spML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3250
+CHP	CHP	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1644
+MEME Dirichlet prior	MEME Dirichlet prior	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1350
+FASTQ	FASTQ	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1930
+latex	latex	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3817
+mzTab	mzTab	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3681
+UniProtKB RDF	UniProtKB RDF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3771
+FASTG	FASTG	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3823
+qualsolid	qualsolid	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3610
+SED-ML	SED-ML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3685
+hssp	hssp	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1455
+FASTA	FASTA	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1929
+arff	arff	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3581
+Turtle	Turtle	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3255
+EMBOSS repeat	EMBOSS repeat	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1297
+Sequence motif format	Sequence motif format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2068
+Protein structure report (quality evaluation) format	Protein structure report (quality evaluation) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2065
+markx10	markx10	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1987
+pptx	pptx	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3838
+HMMER Dirichlet prior	HMMER Dirichlet prior	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1349
+SIF	SIF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000049
+Sequence assembly format (text)	Sequence assembly format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2561
+GTrack	GTrack	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3164
+pbm	pbm	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3601
+STRING entry format (XML)	STRING entry format (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2304
+Phylogenetic tree report (invariants) format	Phylogenetic tree report (invariants) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2040
+Vienna local RNA secondary structure format	Vienna local RNA secondary structure format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1458
+Query language	Query language	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3787
+CRAM	CRAM	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3462
+Textual format	Textual format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2330
+xsd	xsd	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3804
+InChI	InChI	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1197
+BedGraph	BedGraph	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000072
+JSON	JSON	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3464
+Sequence-profile alignment format	Sequence-profile alignment format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2014
+rgb	rgb	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3600
+JASPAR format	JASPAR format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1367
+PDB	PDB	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1476
+pcd	pcd	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3594
+Alignment format (text)	Alignment format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2554
+sif	sif	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3619
+JSON-LD	JSON-LD	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3749
+findkm	findkm	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1582
+PDF	PDF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3508
+CHP binary format	CHP binary format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_1100122
+SDF format	SDF format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000381
+GenBank-like format	GenBank-like format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2559
+RNA secondary structure format	RNA secondary structure format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2076
+OBO	OBO	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2549
+markx0 variant	markx0 variant	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2922
+afg	afg	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3582
+PubTator format	PubTator format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3783
+pcx	pcx	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3595
+rast	rast	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3605
+.sam	.sam	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2573
+AGP	AGP	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3693
+Map format	Map format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2060
+qual454	qual454	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3611
+PED	PED	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3286
+consensusXML	consensusXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3832
+.wig	.wig	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3005
+BIOM format	BIOM format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3746
+mira	mira	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1629
+unpure	unpure	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2095
+GTF	GTF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2306
+unambiguous pure protein	unambiguous pure protein	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1218
+FASTA search results format	FASTA search results format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1332
+fitch program	fitch program	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1934
+affymetrix-exp	affymetrix-exp	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1641
+UniProtKB format	UniProtKB format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1963
+Microarray experiment data format	Microarray experiment data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2056
+EPS	EPS	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3466
+idXML	idXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3764
+Medline Display Format	Medline Display Format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1735
+OWL/XML	OWL/XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3262
+PSI MI XML (MIF)	PSI MI XML (MIF)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3158
+genePred	genePred	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3011
+Tab delimited file format	Tab delimited file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000046
+Pileup	Pileup	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3015
+jackknifernon	jackknifernon	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1970
+mzXML	mzXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3654
+3D-1D scoring matrix format	3D-1D scoring matrix format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2064
+tabix	tabix	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3616
+dna	dna	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1212
+Phylip character frequencies format	Phylip character frequencies format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1432
+ig	ig	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1942
+Image format	Image format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3547
+Gemini SQLite format	Gemini SQLite format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3622
+meganon	meganon	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1992
+PHYLIP format	PHYLIP format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1997
+im	im	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3593
+gtr	gtr	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000569
+PubAnnotation format	PubAnnotation format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3781
+MHTML	MHTML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3556
+bgzip	bgzip	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3615
+cls	cls	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000498
+codata	codata	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1925
+FASTA format	FASTA format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1929
+mmCIF	mmCIF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1477
+nmrML	nmrML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3825
+NCBI format	NCBI format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1972
+MAF	MAF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3008
+genpept	genpept	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1937
+KRSS2 Syntax	KRSS2 Syntax	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3254
+GVF	GVF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3019
+PubMed citation	PubMed citation	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1734
+strider format	strider format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1962
+BLC	BLC	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3313
+MAP	MAP	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3285
+MAT	MAT	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3626
+RNAML	RNAML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3311
+DICOM format	DICOM format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3548
+InterPro match table format	InterPro match table format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1343
+PHD	PHD	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1633
+CEL binary format	CEL binary format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000084
+pdbatomnuc	pdbatomnuc	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1951
+Tabix index file format	Tabix index file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3700
+pdbml	pdbml	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1478
+GelML	GelML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3249
+pgm	pgm	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3602
+PSI MI TAB (MITAB)	PSI MI TAB (MITAB)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3242
+GEO Matrix Series format	GEO Matrix Series format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_1100126
+ELAND format	ELAND format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3818
+EMBL feature location	EMBL feature location	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1248
+Data index format	Data index format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3326
+SPSS	SPSS	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3555
+pdbseqresnuc	pdbseqresnuc	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1952
+Nucleic acid features (primers) format	Nucleic acid features (primers) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2061
+srs format	srs format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2002
+Dot-bracket format	Dot-bracket format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1457
+X!Tandem XML	X!Tandem XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3711
+GenBank-HTML	GenBank-HTML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2532
+restover format	restover format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1319
+Phylogenetic tree report (cliques) format	Phylogenetic tree report (cliques) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2039
+VisML	VisML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3821
+HMMER format	HMMER format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1370
+EMBL-HTML	EMBL-HTML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2311
+Chemical data format	Chemical data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2030
+PSI-PAR	PSI-PAR	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3243
+UniProtKB XML	UniProtKB XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3770
+FCS3.0	FCS3.0	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000062
+qual	qual	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3607
+dbGaP format	dbGaP format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3729
+BDML	BDML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3690
+Raw sequence format	Raw sequence format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2571
+LAV	LAV	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3014
+EMBOSS sequence pattern	EMBOSS sequence pattern	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1357
+Sequence range format	Sequence range format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2078
+BioNLP Shared Task format	BioNLP Shared Task format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3785
+.mysql	.mysql	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000084
+bmp	bmp	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3592
+EMBL format	EMBL format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1927
+Raw NMR data format	Raw NMR data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3824
+TreeBASE format	TreeBASE format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1436
+Phylogenetic tree format	Phylogenetic tree format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2006
+XQuery	XQuery	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3789
+EMBL-like (text)	EMBL-like (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2181
+newick	newick	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1910
+TreeCon format	TreeCon format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1911
+TreeCon-seq	TreeCon-seq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2005
+EMBL-like format	EMBL-like format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2543
+Mascot .dat file	Mascot .dat file	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3713
+ENCODE broad peak format	ENCODE broad peak format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3614
+mf	mf	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1198
+PED/MAP	PED/MAP	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3288
+Protein family report format	Protein family report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2052
+FASTA-HTML	FASTA-HTML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2310
+Biodiversity data format	Biodiversity data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3706
+Rnw	Rnw	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000363
+Protein domain classification format	Protein domain classification format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3097
+Sequence cluster format (nucleic acid)	Sequence cluster format (nucleic acid)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2172
+smarts	smarts	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1200
+Hidden Markov model format	Hidden Markov model format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2072
+mzIdentML	mzIdentML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3247
+rna	rna	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1213
+pgSnp	pgSnp	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3012
+XGMML	XGMML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000051
+gpr format	gpr format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000566
+DSV	DSV	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3751
+Raw microarray data format	Raw microarray data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3828
+KNIME datatable format	KNIME datatable format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3765
+Graph format	Graph format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3617
+FASTQ-illumina	FASTQ-illumina	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1931
+BSML	BSML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3487
+SQL	SQL	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3788
+OWL Functional Syntax	OWL Functional Syntax	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3252
+Raw CATH domain classification format	Raw CATH domain classification format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3099
+TSV	TSV	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3475
+ClustalW dendrogram	ClustalW dendrogram	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1424
+BCML	BCML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3689
+Primer3 primer	Primer3 primer	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1627
+tiff	tiff	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3591
+acedb	acedb	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1923
+markx3	markx3	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1989
+BLAST results	BLAST results	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1333
+Phylip tree format	Phylip tree format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1435
+SRF	SRF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3017
+OME-TIFF	OME-TIFF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3727
+OWL-XML	OWL-XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000038
+markx0	markx0	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1985
+markx1	markx1	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1986
+markx2	markx2	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1988
+R data frame	R data frame	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000409
+Enzyme kinetics report format	Enzyme kinetics report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2027
+dta	dta	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3652
+pkl	pkl	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3653
+BLAST XML results format	BLAST XML results format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3331
+Format	Format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1915
+Phylogenetic tree report (tree distances) format	Phylogenetic tree report (tree distances) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2049
+binary format	binary format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2333
+REBASE restriction sites	REBASE restriction sites	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1320
+hennig86	hennig86	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1941
+Protein secondary structure format	Protein secondary structure format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2077
+OWL format	OWL format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2197
+ENCODE narrow peak format	ENCODE narrow peak format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3613
+Sequence record format (text)	Sequence record format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2551
+Annotated text format	Annotated text format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3780
+GCT/Res format	GCT/Res format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3709
+CSV	CSV	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3752
+BPMAP	BPMAP	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_1100035
+GFF2	GFF2	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1974
+GFF2-seq	GFF2-seq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1938
+GFF3	GFF3	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1975
+MGF	MGF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3651
+Biological pathway or network report format	Biological pathway or network report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3166
+dasdna	dasdna	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1968
+SAMPLE file format	SAMPLE file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3813
+pure protein	pure protein	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1219
+debug-seq	debug-seq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1969
+Phylip tree raw	Phylip tree raw	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1425
+EXP	EXP	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1631
+GenBank-like format (text)	GenBank-like format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2205
+PO	PO	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3330
+CDF binary format	CDF binary format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_1100054
+PS	PS	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3696
+csfasta	csfasta	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3589
+RDF/XML	RDF/XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3261
+pmc	pmc	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1739
+PNG	PNG	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3603
+HMMER profile alignment (sequences versus HMMs)	HMMER profile alignment (sequences versus HMMs)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1421
+Tertiary structure format	Tertiary structure format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2033
+ISA-TAB	ISA-TAB	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3687
+aaindex	aaindex	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1504
+nii	nii	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3549
+EBI Application Result XML	EBI Application Result XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3157
+unambiguous pure	unambiguous pure	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1206
+geneseq	geneseq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2186
+mas5 format	mas5 format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000615
+protein	protein	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1208
+phyloXML	phyloXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3159
+mzData	mzData	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3834
+Cytoscape input file format	Cytoscape input file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3477
+Linked data format	Linked data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3748
+RSF	RSF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3485
+Sequence distance matrix format	Sequence distance matrix format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2067
+mhd	mhd	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3550
+meme-motif	meme-motif	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1360
+Biological pathway or network format	Biological pathway or network format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2013
+MCPD	MCPD	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3777
+Alignment format (pair only)	Alignment format (pair only)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2920
+ARB	ARB	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3830
+dbid	dbid	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1926
+Sequence feature table format (XML)	Sequence feature table format (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2553
+Relaxed PHYLIP Interleaved	Relaxed PHYLIP Interleaved	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3819
+ProQ report format	ProQ report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1552
+Ensembl variation file format	Ensembl variation file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3499
+Phylip continuous quantitative characters	Phylip continuous quantitative characters	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1430
+imzML metadata file	imzML metadata file	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3682
+completely unambiguous pure rna sequence	completely unambiguous pure rna sequence	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2570
+ARR	ARR	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_1100014
+featureXML	featureXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3833
+pdbseqres	pdbseqres	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1953
+SVG	SVG	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3604
+N-Triples	N-Triples	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3256
+Individual genetic data format	Individual genetic data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3287
+BioPAX RDF/XML format	BioPAX RDF/XML format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000055
+Staden format	Staden format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1960
+Taverna workflow format	Taverna workflow format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1665
+bigBed	bigBed	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3004
+SBtab	SBtab	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3688
+PlasMapper TextMap	PlasMapper TextMap	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1861
+XMFA	XMFA	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3811
+A2M	A2M	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3281
+T-Coffee format	T-Coffee format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2004
+SS	SS	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3310
+mega-seq	mega-seq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1946
+Bibliographic reference format	Bibliographic reference format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2848
+Data File Standard for Flow Cytometry	Data File Standard for Flow Cytometry	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000061
+Sequence feature annotation format	Sequence feature annotation format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1920
+ibd	ibd	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3839
+PDBML	PDBML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1478
+lhf	lhf	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1337
+chrominfo	chrominfo	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3587
+ppm	ppm	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3596
+docx	docx	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3506
+SEQUEST .out file	SEQUEST .out file	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3758
+consensus	consensus	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1209
+Pearson format	Pearson format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1954
+.maf	.maf	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3008
+ABCD format	ABCD format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3708
+jackknifer	jackknifer	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1944
+Alignment format	Alignment format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1921
+CiteXplore-core	CiteXplore-core	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1736
+PHYLIP sequential	PHYLIP sequential	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1998
+insdxml	insdxml	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2185
+Alignment format (XML)	Alignment format (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2555
+Sequence annotation track format	Sequence annotation track format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2919
+GCG MSF	GCG MSF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1947
+Dirichlet distribution format	Dirichlet distribution format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2074
+SBMLR format	SBMLR format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000378
+YAML	YAML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3750
+GCDML	GCDML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3163
+completely unambiguous pure protein	completely unambiguous pure protein	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2607
+ClustalW format	ClustalW format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1982
+quicktandem	quicktandem	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1295
+Staden experiment format	Staden experiment format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1928
+ASCII format	ASCII format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000042
+mase format	mase format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1945
+MAGE-TAB	MAGE-TAB	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3162
+protXML	protXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3747
+PSL	PSL	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3007
+nexus-seq	nexus-seq	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1949
+Mol2	Mol2	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3816
+IDAT	IDAT	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3578
+srspair	srspair	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2003
+ASN.1 sequence format	ASN.1 sequence format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1966
+InChIKey	InChIKey	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1199
+TraML	TraML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3246
+CellML	CellML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3240
+Article format	Article format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2020
+MaxQuant APL peaklist format	MaxQuant APL peaklist format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3714
+NeXML	NeXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3160
+hdf5	hdf5	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3590
+psd	psd	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3597
+Sanger inverted repeats	Sanger inverted repeats	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1296
+giFASTA format	giFASTA format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1940
+xbm	xbm	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3598
+nrrd	nrrd	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3551
+mspcrunch	mspcrunch	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1334
+Text mining report format	Text mining report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2021
+prosite-profile	prosite-profile	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1366
+pure	pure	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2094
+BED format	BED format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3003
+ebwtl	ebwtl	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3491
+nbrf/pir	nbrf/pir	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1948
+Sequence cluster format (protein)	Sequence cluster format (protein)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2171
+BLAST XML v2 results format	BLAST XML v2 results format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3836
+WIFF format	WIFF format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3710
+bedgraph	bedgraph	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3583
+PDB database entry format	PDB database entry format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1475
+EMBL format (XML)	EMBL format (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2204
+Phylogenetic tree format (text)	Phylogenetic tree format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2556
+GCG	GCG	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1935
+unambiguous sequence	unambiguous sequence	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2096
+pair	pair	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1996
+pure nucleotide	pure nucleotide	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1210
+restrict format	restrict format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1318
+.sql	.sql	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000085
+Sequence quality report format (text)	Sequence quality report format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3606
+HMMER emission and transition	HMMER emission and transition	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1351
+EMBLXML	EMBLXML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2183
+est2genome format	est2genome format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1316
+FASTQ-like format	FASTQ-like format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2545
+HMMER3	HMMER3	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3329
+GSuite	GSuite	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3775
+lma	lma	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000596
+dssp	dssp	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1454
+HMMER2	HMMER2	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3328
+UniProt-like (text)	UniProt-like (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2187
+R file format	R file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3554
+qcML	qcML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3683
+.mgf	.mgf	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000083
+GDE	GDE	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3312
+BioJSON (BioXSD)	BioJSON (BioXSD)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3772
+proBED	proBED	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3827
+.csv	.csv	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000082
+.nib	.nib	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3010
+HMM emission and transition counts format	HMM emission and transition counts format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2075
+gct	gct	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000548
+SRA format	SRA format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3698
+axt	axt	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3013
+OSCAR format	OSCAR format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1741
+CopasiML	CopasiML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3239
+CEL ASCII format	CEL ASCII format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000059
+Phylip discrete states format	Phylip discrete states format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1433
+Sequence record format	Sequence record format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1919
+RDF format	RDF format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2376
+BioJSON (Jalview)	BioJSON (Jalview)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3774
+GEN	GEN	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3812
+Gene annotation format	Gene annotation format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2031
+VCF	VCF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3016
+tab delimited file format	tab delimited file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000046
+snpeffdb	snpeffdb	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3624
+qualsolexa	qualsolexa	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3608
+Amino acid index format	Amino acid index format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2017
+HMMER profile alignment (HMM versus sequences)	HMMER profile alignment (HMM versus sequences)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1422
+BioYAML	BioYAML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3773
+Document format	Document format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3507
+Sequence variation annotation format	Sequence variation annotation format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2921
+GFF	GFF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2305
+RDF-XML	RDF-XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000007
+customtrack	customtrack	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3588
+FASTQ-like format (text)	FASTQ-like format (text)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2182
+Phylogenetic character data format	Phylogenetic character data format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2036
+VDB	VDB	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3699
+Sequence assembly format	Sequence assembly format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2055
+TreeFam format	TreeFam format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1437
+BTrack	BTrack	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3776
+MSF	MSF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3702
+DIALIGN format	DIALIGN format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1392
+nucleotide	nucleotide	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1207
+unambiguous pure dna	unambiguous pure dna	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1214
+nexusnon	nexusnon	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1973
+Format (by type of data)	Format (by type of data)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2350
+Open Annotation format	Open Annotation format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3784
+Protein interaction format	Protein interaction format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2054
+Phylip cliques format	Phylip cliques format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1434
+.raw files	.raw files	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000682
+Relaxed PHYLIP Sequential	Relaxed PHYLIP Sequential	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3820
+Experiment annotation format	Experiment annotation format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3167
+2bit	2bit	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3009
+MEME background Markov model	MEME background Markov model	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1369
+completely unambiguous pure nucleotide	completely unambiguous pure nucleotide	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2568
+bigWig	bigWig	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3006
+daf	daf	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1393
+TIDE TXT	TIDE TXT	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3835
+HTML	HTML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2331
+completely unambiguous pure	completely unambiguous pure	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2567
+dat	dat	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1637
+pure rna	pure rna	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1217
+Cytoband format	Cytoband format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3235
+html	html	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2331
+OBO-XML	OBO-XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2550
+Plain text file format	Plain text file format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000043
+taverna workflow format	taverna workflow format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1665
+MathML 2.0	MathML 2.0	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000074
+FASTQ-sanger	FASTQ-sanger	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1932
+EMBL-like (XML)	EMBL-like (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2558
+GIF	GIF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3467
+CAF	CAF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1630
+InterPro hits format	InterPro hits format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1341
+CiteXplore-all	CiteXplore-all	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1737
+Molfile	Molfile	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3815
+Phylogenetic tree format (XML)	Phylogenetic tree format (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2557
+FASTA-aln	FASTA-aln	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1984
+WIG	WIG	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3005
+igstrict	igstrict	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1943
+Workflow format	Workflow format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2032
+xgmml	xgmml	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3618
+refseqp	refseqp	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1958
+Notation3	Notation3	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3257
+proBAM	proBAM	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3826
+OWL2-XML	OWL2-XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000039
+K-mer countgraph	K-mer countgraph	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3665
+COMBINE OMEX	COMBINE OMEX	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3686
+GCG format variant	GCG format variant	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3486
+SAM	SAM	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2573
+plain text format (unformatted)	plain text format (unformatted)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1964
+JPG	JPG	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3579
+OBO Flat File Format	OBO Flat File Format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2549
+SPARQL	SPARQL	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3790
+Matrix format	Matrix format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3033
+HET group dictionary entry format	HET group dictionary entry format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1705
+dcf	dcf	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000518
+mzQuantML	mzQuantML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3248
+Sequence feature table format	Sequence feature table format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2548
+pdbatom	pdbatom	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1950
+medline	medline	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2194
+CDF ASCII format	CDF ASCII format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000057
+DASGFF	DASGFF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1978
+prosite-pattern	prosite-pattern	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1356
+Protein report format	Protein report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2062
+KGML	KGML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000249
+gxl format	gxl format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_0000570
+SQLite format	SQLite format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3621
+Database hits (sequence) format	Database hits (sequence) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2066
+debug	debug	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1983
+Sequence-MEME profile alignment	Sequence-MEME profile alignment	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1419
+debug-feat	debug-feat	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1979
+Phylip format variant	Phylip format variant	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2924
+match	match	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1990
+Gene expression report format	Gene expression report format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2058
+MAGE-ML	MAGE-ML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3161
+Manchester OWL Syntax	Manchester OWL Syntax	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3253
+DAS format	DAS format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1967
+BAI	BAI	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3327
+Stockholm format	Stockholm format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1961
+ENCODE peak format	ENCODE peak format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3612
+BAM	BAM	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2572
+Smith-Waterman format	Smith-Waterman format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1335
+iHOP format	iHOP format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1740
+Sequence features (repeats) format	Sequence features (repeats) format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2155
+completely unambiguous pure dna	completely unambiguous pure dna	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2569
+Sequin format	Sequin format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3701
+BAR	BAR	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	SWO	SWO_3000058
+XML	XML	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2332
+bed12	bed12	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3586
+SCF	SCF	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1632
+Sequence record format (XML)	Sequence record format (XML)	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2552
+Raw SCOP domain classification format	Raw SCOP domain classification format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3098
+HMMER-aln	HMMER-aln	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1391
+FASTQ-solexa	FASTQ-solexa	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_1933
+bed6	bed6	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3585
+Phylogenetic continuous quantitative character format	Phylogenetic continuous quantitative character format	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_2037
+xls	xls	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	EDAM	format_3468
