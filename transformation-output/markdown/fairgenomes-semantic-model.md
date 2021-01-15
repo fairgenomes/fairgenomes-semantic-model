@@ -60,7 +60,7 @@ A document explaining all the relevant information to assist an individual in un
 | Consent form valid until | Date (often a range) of validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
 | Consent form creator | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
 | Consent form version | A related resource that is a version, edition, or adaptation of the described resource. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
-| Consent form restricted to | E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location. | [DUO:0000010](http://purl.obolibrary.org/obo/DUO_0000010) | [DataUseRestrictions](../../lookups/DataUseRestrictions.txt) lookup (30 choices) |
+| Consent form restricted to | E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location. | [DUO:0000001](http://purl.obolibrary.org/obo/DUO_0000001) | [DataUseRestrictions](../../lookups/DataUseRestrictions.txt) lookup (30 choices) |
 
 ## Module: Individual consent
 Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved. Ontology: [NCIT:C16735](http://purl.obolibrary.org/obo/NCIT_C16735).

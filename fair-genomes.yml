@@ -127,7 +127,7 @@ modules:
             values: String
           - name: Consent form restricted to
             description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
-            ontology: DUO:0000010 [http://purl.obolibrary.org/obo/DUO_0000010]
+            ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
             values: LookupMany [lookups/DataUseRestrictions.txt]
     - name: Individual consent
       description: Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved.
