@@ -15,9 +15,9 @@ import java.io.IOException;
  * TODO: refer to original ontology IRI or make 'FAIR Genomes' IRIs? or use both?
  * TODO: NullFlavors
  */
-public class ToRDFXML extends GenericTransformer {
+public class ToOWLXML extends GenericTransformer {
 
-    public ToRDFXML(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToOWLXML(FAIRGenomes fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 
