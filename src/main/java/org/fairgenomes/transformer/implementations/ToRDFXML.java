@@ -1,9 +1,9 @@
-package org.fairgenomes.transformer.implementations.rdfowl;
+package org.fairgenomes.transformer.implementations;
 
 import org.fairgenomes.transformer.datastructures.Element;
 import org.fairgenomes.transformer.datastructures.FAIRGenomes;
 import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.implementations.GenericTransformer;
+import org.fairgenomes.transformer.datastructures.GenericTransformer;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -15,9 +15,9 @@ import java.io.IOException;
  * TODO: refer to original ontology IRI or make 'FAIR Genomes' IRIs? or use both?
  * TODO: NullFlavors
  */
-public class ToOWL extends GenericTransformer {
+public class ToRDFXML extends GenericTransformer {
 
-    public ToOWL(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToRDFXML(FAIRGenomes fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 

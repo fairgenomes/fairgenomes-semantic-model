@@ -1,4 +1,4 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.transformer.datastructures;
 
 import org.fairgenomes.transformer.datastructures.FAIRGenomes;
 

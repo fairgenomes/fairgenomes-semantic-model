@@ -1,6 +1,6 @@
 package org.fairgenomes.transformer.datastructures;
 
-import org.fairgenomes.transformer.implementations.molgenisemx.ToEMX;
+import org.fairgenomes.transformer.implementations.ToMOLGENISEMX;
 
 public class Element {
 
@@ -133,11 +133,11 @@ public class Element {
     {
         if(isReference())
         {
-            return ToEMX.PACKAGE_NAME + "_" + FAIRGenomes.toTechName(referenceTo);
+            return ToMOLGENISEMX.PACKAGE_NAME + "_" + FAIRGenomes.toTechName(referenceTo);
         }
         else if(isLookup())
         {
-            return ToEMX.PACKAGE_NAME + "_" + m.technicalName + "_" + technicalName;
+            return ToMOLGENISEMX.PACKAGE_NAME + "_" + m.technicalName + "_" + technicalName;
         }
         else
         {

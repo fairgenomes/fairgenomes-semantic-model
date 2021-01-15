@@ -1,10 +1,10 @@
-package org.fairgenomes.transformer.implementations.artdecor;
+package org.fairgenomes.transformer.implementations;
 
 import org.fairgenomes.transformer.datastructures.Element;
 import org.fairgenomes.transformer.datastructures.FAIRGenomes;
 import org.fairgenomes.transformer.datastructures.Lookup;
 import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.implementations.GenericTransformer;
+import org.fairgenomes.transformer.datastructures.GenericTransformer;
 
 import java.io.BufferedWriter;
 import java.io.File;

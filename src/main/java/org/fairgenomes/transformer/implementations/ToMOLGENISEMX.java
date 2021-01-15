@@ -1,7 +1,7 @@
-package org.fairgenomes.transformer.implementations.molgenisemx;
+package org.fairgenomes.transformer.implementations;
 
 import org.fairgenomes.transformer.datastructures.*;
-import org.fairgenomes.transformer.implementations.GenericTransformer;
+import org.fairgenomes.transformer.datastructures.GenericTransformer;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -16,11 +16,11 @@ import java.util.HashMap;
 /**
  * Transform to MOLGENIS-EMX database template ready for import
  */
-public class ToEMX extends GenericTransformer {
+public class ToMOLGENISEMX extends GenericTransformer {
 
     public static final String PACKAGE_NAME = "fair-genomes";
 
-    public ToEMX(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToMOLGENISEMX(FAIRGenomes fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 

@@ -3,11 +3,11 @@ package org.fairgenomes.transformer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.fairgenomes.transformer.datastructures.FAIRGenomes;
-import org.fairgenomes.transformer.implementations.artdecor.ToARTDECOR;
-import org.fairgenomes.transformer.implementations.markdown.ToMD;
-import org.fairgenomes.transformer.implementations.molgenisemx.ToEMX;
-import org.fairgenomes.transformer.implementations.rdfowl.ToOWL;
-import org.fairgenomes.transformer.implementations.rdfowl.ToTTL;
+import org.fairgenomes.transformer.implementations.ToARTDECOR;
+import org.fairgenomes.transformer.implementations.ToMarkdown;
+import org.fairgenomes.transformer.implementations.ToMOLGENISEMX;
+import org.fairgenomes.transformer.implementations.ToRDFXML;
+import org.fairgenomes.transformer.implementations.ToRDFTTL;
 
 import java.io.*;
 
@@ -37,10 +37,10 @@ public class TransformFGToAllFormats {
 
         System.out.println("Transforming into other representations...");
         File outputs = new File("transformation-output");
-        new ToMD(fg, new File(outputs, "markdown")).start();
-        new ToEMX(fg, new File(outputs, "molgenis-emx")).start();
-        new ToOWL(fg, new File(outputs, "rdf-xml")).start();
-        new ToTTL(fg, new File(outputs, "rdf-ttl")).start();
+        new ToMarkdown(fg, new File(outputs, "markdown")).start();
+        new ToMOLGENISEMX(fg, new File(outputs, "molgenis-emx")).start();
+        new ToRDFXML(fg, new File(outputs, "rdf-xml")).start();
+        new ToRDFTTL(fg, new File(outputs, "rdf-ttl")).start();
         new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
 
 

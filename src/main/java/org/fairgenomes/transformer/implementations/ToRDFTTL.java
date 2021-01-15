@@ -1,18 +1,18 @@
-package org.fairgenomes.transformer.implementations.rdfowl;
+package org.fairgenomes.transformer.implementations;
 
 import org.fairgenomes.transformer.datastructures.Element;
 import org.fairgenomes.transformer.datastructures.FAIRGenomes;
 import org.fairgenomes.transformer.datastructures.Lookup;
 import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.implementations.GenericTransformer;
+import org.fairgenomes.transformer.datastructures.GenericTransformer;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 
-public class ToTTL extends GenericTransformer {
+public class ToRDFTTL extends GenericTransformer {
 
-    public ToTTL(FAIRGenomes fg, File outputFolder) {
+    public ToRDFTTL(FAIRGenomes fg, File outputFolder) {
         super(fg, outputFolder);
     }
 
