@@ -7,6 +7,7 @@ import org.fairgenomes.transformer.implementations.artdecor.ToARTDECOR;
 import org.fairgenomes.transformer.implementations.markdown.ToMD;
 import org.fairgenomes.transformer.implementations.molgenisemx.ToEMX;
 import org.fairgenomes.transformer.implementations.rdfowl.ToOWL;
+import org.fairgenomes.transformer.implementations.rdfowl.ToTTL;
 
 import java.io.*;
 
@@ -38,7 +39,8 @@ public class TransformFGToAllFormats {
         File outputs = new File("transformation-output");
         new ToMD(fg, new File(outputs, "markdown")).start();
         new ToEMX(fg, new File(outputs, "molgenis-emx")).start();
-        new ToOWL(fg, new File(outputs, "rdf-owl")).start();
+        new ToOWL(fg, new File(outputs, "rdf-xml")).start();
+        new ToTTL(fg, new File(outputs, "rdf-ttl")).start();
         new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
 
 

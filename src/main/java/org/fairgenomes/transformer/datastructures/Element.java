@@ -154,4 +154,27 @@ public class Element {
         }
     }
 
+    /**
+     * Helper function to convert the value type to RDF
+     * @return
+     */
+    public String valueTypeToRDF()
+    {
+        switch(valueTypeEnum) {
+            case String: return "string";
+            case Text: return "string";
+            case UniqueID: return "string";
+            case LookupOne: return "string";
+            case LookupMany: return "lisr";
+            case Integer: return "integer";
+            case ReferenceOne: return "string";
+            case ReferenceMany: return "list";
+            case Date: return "date";
+            case DateTime: return "datetime";
+            case Boolean: return "boolean";
+            case Decimal: return "decimal";
+            default: return "string";
+        }
+    }
+
 }
