@@ -41,7 +41,7 @@ public class ToTTL extends GenericTransformer {
 
         for (Module m : fg.modules) {
             String moduleName = m.name.replace(" ", "_");
-            bw.write("fg:" + moduleName + " a " + "rdfs:Class ;" + LE);
+            bw.write("fg:" + moduleName + " a " + "owl:Class ;" + LE);
             bw.write("\trdfs:isDefinedBy <" + m.iri + "> ; " + LE);
             bw.write("\trdfs:label \"" + m.name + "\" ; " + LE);
             bw.write("\tdc:description \"" + m.description + "\" ;" + LE);
@@ -49,7 +49,7 @@ public class ToTTL extends GenericTransformer {
             for(Element e : m.elements)
             {
                 String elementName = moduleName + "_" + e.name.replace(" ","");
-                bw.write("\tfg:" + elementName + " a " + "rdfs:Property ;" + LE);
+                bw.write("\tfg:" + elementName + " a " + "owl:DatatypeProperty ;" + LE);
                 bw.write("\t\trdfs:domain fg:"+moduleName+" ; " + LE);
                 bw.write("\t\trdfs:isDefinedBy <" + e.iri + "> ; " + LE);
                 bw.write("\t\tdc:description \"" + e.description + "\" ;" + LE);
