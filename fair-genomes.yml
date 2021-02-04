@@ -1,8 +1,8 @@
 ---
 name: FAIR Genomes metadata model
 description: The FAIR Genomes semantic metadata model to power reuse of NGS data in research and healthcare.
-version: 0.2
-date: 2021-01-13
+version: 0.3-SNAPSHOT
+date: 2021-02-04
 lookupGlobalOptions: lookups/NullFlavors.txt
 modules:
     - name: Study
@@ -33,6 +33,14 @@ modules:
             description: A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.
             ontology: OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]
             values: Text
+          - name: Start date
+            description: The date on which a study began.
+            ontology: NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]
+            values: Date
+          - name: Completion date
+            description: The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date.
+            ontology: NCIT:C142702 [http://purl.obolibrary.org/obo/NCIT_C142702]
+            values: Date
     - name: Personal
       description: Data, facts or figures about an individual; the set of relevant items would depend on the use case.
       ontology: NCIT:C90492 [http://purl.obolibrary.org/obo/NCIT_C90492]
@@ -175,7 +183,7 @@ modules:
           values: Boolean
         - name: Restricted to
           description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
-          ontology: DUO:0000010 [http://purl.obolibrary.org/obo/DUO_0000010]
+          ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
           values: LookupMany [lookups/DataUseRestrictions.txt]
         - name: Allow linkage
           description: A study in which data from different sources are "linked". Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.
@@ -273,6 +281,10 @@ modules:
             description: Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).
             ontology: NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]
             values: Text
+          - name: Belongs to material
+            description: This diagnosis c.q. clinical examination is based on one or more sampled materials.
+            ontology: SIO:000641 [http://semanticscience.org/resource/SIO_000641]
+            values: ReferenceMany [Material]
     - name: Material
       description: Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.
       ontology: NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]
@@ -285,6 +297,10 @@ modules:
             description: Link to the person from whom the material was collected.
             ontology: SIO:000244 [http://semanticscience.org/resource/SIO_000244]
             values: ReferenceOne [Personal]
+          - name: Belongs to diagnosis
+            description: This material is part of a diagnosis c.q. clinical examination. There can be multiple diagnoses when a non-tumor material is reused as reference.
+            ontology: SIO:000068 [http://semanticscience.org/resource/SIO_000068]
+            values: ReferenceMany [Clinical]
           - name: Sampling timestamp
             description: Date and time at which this sample was collected.
             ontology: EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]
@@ -313,6 +329,10 @@ modules:
             description: Biological entity that constitutes the structural organization of an individual member of a biological species.
             ontology: UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]
             values: LookupOne [lookups/AnatomicalSources.txt]
+          - name: Source type
+            description: A coded value specifying the type of tissue from which the biospecimen is derived.
+            ontology: NCIT:C164617 [http://purl.obolibrary.org/obo/NCIT_C164617]
+            values: LookupOne [lookups/SourceTypes.txt]
           - name: Storage conditions
             description: The conditions specified for the storage of a biological material.
             ontology: NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]
@@ -342,7 +362,7 @@ modules:
             ontology: NCIT:C132299 [http://purl.obolibrary.org/obo/NCIT_C132299]
             values: UniqueID
           - name: Belongs to material
-            description: Link to the material from which this sample was prepared.
+            description: Link to the source material from which this sample was prepared.
             ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
             values: ReferenceOne [Material]
           - name: Input amount
@@ -367,7 +387,7 @@ modules:
             values: Boolean
           - name: Intended insert size
             description: In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.
-            ontology: FG:IIS [https://fair-genomes.org/IIS]
+            ontology: FG:IntendedInsertSize [https://fair-genomes.org/IntendedInsertSize]
             values: Integer
           - name: Intended read length
             description: The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
@@ -382,7 +402,7 @@ modules:
             ontology: NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]
             values: UniqueID
           - name: Belongs to sample
-            description: Link to the prepared sample that was sequenced.
+            description: Link to the prepared sample i.e. source that was sequenced.
             ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
             values: ReferenceOne [Sample preparation]
           - name: Sequencing date
@@ -411,7 +431,7 @@ modules:
             values: Integer
           - name: Observed insert size
             description: In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.
-            ontology: FG:IIS [https://fair-genomes.org/OIS]
+            ontology: FG:ObservedInsertSize [https://fair-genomes.org/ObservedInsertSize]
             values: Integer
           - name: Percentage Q30
             description: Percentage of reads with a Phred quality score over 30, which indicates less than a 1/1000 chance that the base was called incorrectly.
@@ -419,7 +439,7 @@ modules:
             values: Decimal
           - name: Percentage TR20
             description: Percentage of the target sequence on which 20 or more unique reads were successfully mapped.
-            ontology: FG:PTR20 [https://fair-genomes.org/PTR20]
+            ontology: FG:PercentageTR20 [https://fair-genomes.org/PercentageTR20]
             values: Decimal
           - name: Other quality metrics
             description: Other NGS quality control metrics, including but not limited to (i) sequencer metrics such as yield, error rate, density (K/mm2), cluster PF (%) and phas/prephas (%), (ii) alignment metrics such as QM insert size, GC content, QM duplicated reads (%), QM error rate, uniformity/evenness of coverage and maternal cell contamination, and (iii) variant call metrics such as number of SNVs/CNVs/SVs called, number of missense/nonsense variants, common variants (%), unique variants (%), gender match and trio inheritance check.
@@ -434,7 +454,7 @@ modules:
             ontology: AFR:0001979 [http://purl.allotrope.org/ontologies/result#AFR_0001979]
             values: UniqueID
           - name: Belongs to sequencing
-            description: Link to the sequencing performed on which the analysis is based.
+            description: Link to the sequencing performed i.e. source on which the analysis is based.
             ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
             values: ReferenceOne [Sequencing]
           - name: Physical data location
