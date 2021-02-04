@@ -11,7 +11,7 @@ public class FAIRGenomes {
      */
     public String name;
     public String description;
-    public Double version;
+    public String version;
     public LocalDate date;
     public File lookupGlobalOptions;
     public List<Module> modules;
