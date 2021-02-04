@@ -43,6 +43,8 @@ public class Element {
         switch(valueTypeEnum) {
             case LookupOne: return true;
             case LookupMany: return true;
+            case LookupOne_NoGlobals: return true;
+            case LookupMany_NoGlobals: return true;
             default: return false;
         }
     }
@@ -91,6 +93,8 @@ public class Element {
             case UniqueID: return "ST";
             case LookupOne: return "ST";
             case LookupMany: return "ST";
+            case LookupOne_NoGlobals: return "ST";
+            case LookupMany_NoGlobals: return "ST";
             case Integer: return "INT";
             case ReferenceOne: return "ST";
             case ReferenceMany: return "ST";
@@ -114,6 +118,8 @@ public class Element {
             case UniqueID: return "string";
             case LookupOne: return "xref";
             case LookupMany: return "mref";
+            case LookupOne_NoGlobals: return "xref";
+            case LookupMany_NoGlobals: return "mref";
             case Integer: return "int";
             case ReferenceOne: return "xref";
             case ReferenceMany: return "mref";
@@ -150,6 +156,8 @@ public class Element {
         switch(valueTypeEnum) {
             case LookupOne: return "single-select";
             case LookupMany: return "multi-select";
+            case LookupOne_NoGlobals: return "single-select";
+            case LookupMany_NoGlobals: return "multi-select";
             default: return "text";
         }
     }
@@ -165,7 +173,9 @@ public class Element {
             case Text: return "string";
             case UniqueID: return "string";
             case LookupOne: return "string";
-            case LookupMany: return "lisr";
+            case LookupMany: return "list";
+            case LookupOne_NoGlobals: return "string";
+            case LookupMany_NoGlobals: return "list";
             case Integer: return "integer";
             case ReferenceOne: return "string";
             case ReferenceMany: return "list";

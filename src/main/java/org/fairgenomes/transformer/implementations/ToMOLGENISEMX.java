@@ -86,6 +86,14 @@ public class ToMOLGENISEMX extends GenericTransformer {
                     Path original = e.lookup.srcFile.toPath();
                     Files.copy(original, target, StandardCopyOption.REPLACE_EXISTING);
 
+                    /*
+                    If NoGlobals, do not write the global lookup options to the output
+                     */
+                    if(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals))
+                    {
+                        continue;
+                    }
+
                     fw = new FileWriter(targetFile,true);
                     bw = new BufferedWriter(fw);
 

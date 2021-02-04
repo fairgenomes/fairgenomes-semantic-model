@@ -148,7 +148,7 @@ modules:
         - name: Consent form used
           description: The informed consent form that was signed.
           ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
-          values: ReferenceOne [Informed consent form]
+          values: ReferenceOne [Leaflet and consent form]
         - name: Collected by
           description: Indicates the person, group, or institution who performed the collection act.
           ontology: NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]
@@ -180,11 +180,11 @@ modules:
         - name: Allow recontacting
           description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
           ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]
-          values: LookupMany [lookups/Recontacting.txt]
+          values: LookupMany_NoGlobals [lookups/Recontacting.txt]
         - name: Restricted to
           description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
           ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
-          values: LookupMany [lookups/DataUseRestrictions.txt]
+          values: LookupMany_NoGlobals [lookups/DataUseRestrictions.txt]
         - name: Restriction specification
           description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
           ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
@@ -272,7 +272,8 @@ modules:
           - name: Belongs to material
             description: This diagnosis c.q. clinical examination is based on one or more sampled materials.
             ontology: SIO:000641 [http://semanticscience.org/resource/SIO_000641]
-            values: ReferenceMany [Material]
+            values: String
+          # values: ReferenceMany [Material]
     - name: Material
       description: Natural substances derived from living organisms such as cells, tissues, proteins, and DNA.
       ontology: NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]
@@ -341,6 +342,7 @@ modules:
             description: A material produced from or related to another. Ideally, this would be a self-reference to Material, but is instread defined as String to prevent issues with circular dependencies in database systems.
             ontology: NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]
             values: String
+          # values: ReferenceOne [Material]
     - name: Sample preparation
       description: A sample preparation for assay that preparation of nucleic acids for a sequencing assay.
       ontology: OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]
