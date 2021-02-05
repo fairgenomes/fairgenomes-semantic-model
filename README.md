@@ -1,18 +1,22 @@
-# FAIR Genomes semantic model
+# FAIR Genomes semantic schema
 
 ![FAIR Genomes NGS FAIRification flow](misc/fg-ngs-fairification-flow.png)
 
-## Model
+## Explore
 
-The FAIR Genomes semantic metadata model is located at [fair-genomes.yml](fair-genomes.yml). The reference lookup lists are available at [lookups](lookups).
+Discover the full schema at the [Markdown overview](transformation-output/markdown/fairgenomes-semantic-model.md). 
 
-## Outputs
+## Source
+
+The source of the schema is located at [fair-genomes.yml](fair-genomes.yml). The reference lookup lists are available at [lookups](lookups).
+
+## Technical outputs
 
 Currently, the following transformation output formats are under development:
-- Markdown model overview at [markdown](transformation-output/markdown/fairgenomes-semantic-model.md).
 - MOLGENIS EMX database template at [molgenis-emx](transformation-output/molgenis-emx).
 - ART-DECOR codebook at [art-decor](transformation-output/art-decor).
-- RDF-OWL ontology at [rdf-owl](transformation-output/rdf-owl/fair-genomes.owl).
+- OWL-XML ontology at [owl-xml](transformation-output/owl-xml/fair-genomes.owl).
+- RDF-TTL triples at [rdf-ttl](transformation-output/rdf-ttl/fair-genomes.ttl).
 
 ## Dependencies
 ```
