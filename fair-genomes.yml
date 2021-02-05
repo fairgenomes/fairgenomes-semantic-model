@@ -1,8 +1,8 @@
 ---
-name: FAIR Genomes metadata model
-description: The FAIR Genomes semantic metadata model to power reuse of NGS data in research and healthcare.
+name: FAIR Genomes metadata schema
+description: The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.
 version: 0.3-SNAPSHOT
-date: 2021-02-04
+date: 2021-02-05
 lookupGlobalOptions: lookups/NullFlavors.txt
 modules:
     - name: Study
@@ -137,58 +137,58 @@ modules:
       description: Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved.
       ontology: NCIT:C16735 [http://purl.obolibrary.org/obo/NCIT_C16735]
       elements:
-        - name: Individual consent identifier
-          description: A data item consisting of a unique identification code designating an informed consent.
-          ontology: ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]
-          values: UniqueID
-        - name: Personal identifier
-          description: The person (subject) whom this individual consent applies.
-          ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
-          values: ReferenceOne [Personal]
-        - name: Consent form used
-          description: The informed consent form that was signed.
-          ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
-          values: ReferenceOne [Leaflet and consent form]
-        - name: Collected by
-          description: Indicates the person, group, or institution who performed the collection act.
-          ontology: NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]
-          values: LookupOne [lookups/Institutes.txt]
-        - name: Signing date
-          description: A date specification that designates when an informed consent form was signed.
-          ontology: ICO:0000036 [http://purl.obolibrary.org/obo/ICO_0000036]
-          values: Date
-        - name: Valid from
-          description: Starting date of the validity of a resource.
-          ontology: DC:valid [http://purl.org/dc/terms/valid]
-          values: Date
-        - name: Valid until
-          description: End date of the validity of a resource.
-          ontology: DC:valid [http://purl.org/dc/terms/valid]
-          values: Date
-        - name: Represented by
-          description: An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.
-          ontology: NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]
-          values: String
-        - name: Allow research
-          description: Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.
-          ontology: ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]
-          values: Boolean
-        - name: Allow linkage
-          description: A study in which data from different sources are "linked". Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.
-          ontology: NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]
-          values: Boolean
-        - name: Allow recontacting
-          description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
-          ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]
-          values: LookupMany_NoGlobals [lookups/Recontacting.txt]
-        - name: Restricted to
-          description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
-          ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
-          values: LookupMany_NoGlobals [lookups/DataUseRestrictions.txt]
-        - name: Restriction specification
-          description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
-          ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
-          values: Text
+          - name: Individual consent identifier
+            description: A data item consisting of a unique identification code designating an informed consent.
+            ontology: ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]
+            values: UniqueID
+          - name: Personal identifier
+            description: The person (subject) whom this individual consent applies.
+            ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
+            values: ReferenceOne [Personal]
+          - name: Consent form used
+            description: The informed consent form that was signed.
+            ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
+            values: ReferenceOne [Leaflet and consent form]
+          - name: Collected by
+            description: Indicates the person, group, or institution who performed the collection act.
+            ontology: NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]
+            values: LookupOne [lookups/Institutes.txt]
+          - name: Signing date
+            description: A date specification that designates when an informed consent form was signed.
+            ontology: ICO:0000036 [http://purl.obolibrary.org/obo/ICO_0000036]
+            values: Date
+          - name: Valid from
+            description: Starting date of the validity of a resource.
+            ontology: DC:valid [http://purl.org/dc/terms/valid]
+            values: Date
+          - name: Valid until
+            description: End date of the validity of a resource.
+            ontology: DC:valid [http://purl.org/dc/terms/valid]
+            values: Date
+          - name: Represented by
+            description: An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.
+            ontology: NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]
+            values: String
+          - name: Allow research
+            description: Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.
+            ontology: ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]
+            values: Boolean
+          - name: Allow linkage
+            description: A study in which data from different sources are "linked". Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.
+            ontology: NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]
+            values: Boolean
+          - name: Allow recontacting
+            description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
+            ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]
+            values: LookupMany_NoGlobals [lookups/Recontacting.txt]
+          - name: Restricted to
+            description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
+            ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
+            values: LookupMany_NoGlobals [lookups/DataUseRestrictions.txt]
+          - name: Restriction specification
+            description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
+            ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
+            values: Text
     - name: Clinical
       description: Data obtained through patient examination or treatment.
       ontology: NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]
@@ -270,7 +270,7 @@ modules:
             ontology: NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]
             values: Text
           - name: Belongs to material
-            description: This diagnosis c.q. clinical examination is based on one or more sampled materials.
+            description: This diagnosis c.q. clinical examination is based on one or more sampled materials. [WORK IN PROGRESS. This field should be proper ReferenceMany to Material, but this is technically problematic due to circular dependencies.]
             ontology: SIO:000641 [http://semanticscience.org/resource/SIO_000641]
             values: String
           # values: ReferenceMany [Material]
@@ -339,7 +339,7 @@ modules:
             ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]
             values: String
           - name: Derived from
-            description: A material produced from or related to another. Ideally, this would be a self-reference to Material, but is instread defined as String to prevent issues with circular dependencies in database systems.
+            description: A material produced from or related to another. [WORK IN PROGRESS. This field should be proper ReferenceOne to Material, but this is technically problematic due to circular dependencies.]
             ontology: NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]
             values: String
           # values: ReferenceOne [Material]
