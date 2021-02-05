@@ -31,7 +31,7 @@ public class ToMarkdown extends GenericTransformer {
 
         FileWriter fw = new FileWriter(new File(outputFolder, "fairgenomes-semantic-model.md"));
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write("# FAIR Genomes semantic metadata model" + LE + LE);
+        bw.write("# FAIR Genomes semantic metadata schema" + LE + LE);
         bw.write(fg.description + " Version "+fg.version + ", "+fg.date+". This model consists of __" + fg.modules.size() + " modules__ that contain __" + totalNrOfElements + " metadata elements__ in total." + LE + LE);
 
         bw.write("## Module overview" + LE + LE);
