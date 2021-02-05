@@ -5,3 +5,5 @@ description	Description	A textual entity describing a study aim or a sample coll
 principalinvestigator	Principal investigator	The principle investigtor or responsible person for a study or a sample collection.	study	string	FALSE	FALSE	TRUE	TRUE	
 contactinformation	Contact information	An email address for the purpose of contacting a sample collection or study contact person.	study	string	FALSE	FALSE	TRUE	TRUE	
 studydesign	Study design	A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.	study	text	FALSE	FALSE	TRUE	TRUE	
+startdate	Start date	The date on which a study began.	study	date	FALSE	FALSE	TRUE	TRUE	
+completiondate	Completion date	The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date.	study	date	FALSE	FALSE	TRUE	TRUE	

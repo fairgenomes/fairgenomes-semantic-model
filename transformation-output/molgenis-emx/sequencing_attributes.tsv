@@ -1,6 +1,6 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
 sequencingidentifier	Sequencing identifier	A unique identifier assigned to raw data from a performed nucleic acid sequencing assay.	sequencing	string	TRUE	TRUE	TRUE	FALSE	
-belongstosample	Belongs to sample	Link to the prepared sample that was sequenced.	sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_samplepreparation
+belongstosample	Belongs to sample	Link to the prepared sample i.e. source that was sequenced.	sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_samplepreparation
 sequencingdate	Sequencing date	Date the sequencing run was performed.	sequencing	date	FALSE	FALSE	TRUE	TRUE	
 sequencingplatform	Sequencing platform	A sequencing plaform (brand) is a name of a company that produces sequencer equipment.	sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_sequencing_sequencingplatform
 sequencinginstrumentmodel	Sequencing instrument model	A product name and model number of a manufacturer's genomic (dna) sequencer.	sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_sequencing_sequencinginstrumentmodel

@@ -1,16 +1,14 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
 individualconsentidentifier	Individual consent identifier	A data item consisting of a unique identification code designating an informed consent.	individualconsent	string	TRUE	TRUE	TRUE	FALSE	
-aboutsubject	About subject	The person (subject) whom this individual consent applies.	individualconsent	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal
-consentformused	Consent form used	The informed consent form that was signed.	individualconsent	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_informedconsentform
-consentformversion	Consent form version	A related resource that is a version, edition, or adaptation of the described resource. Used when a patient requests adaptation or partial withdrawal of the consent.	individualconsent	string	FALSE	FALSE	TRUE	TRUE	
-collectedby	Collected by	Indicates the person, group, or institution who performed the collection act.	individualconsent	string	FALSE	FALSE	TRUE	TRUE	
+personalidentifier	Personal identifier	The person (subject) whom this individual consent applies.	individualconsent	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal
+consentformused	Consent form used	The informed consent form that was signed.	individualconsent	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_leafletandconsentform
+collectedby	Collected by	Indicates the person, group, or institution who performed the collection act.	individualconsent	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_individualconsent_collectedby
 signingdate	Signing date	A date specification that designates when an informed consent form was signed.	individualconsent	date	FALSE	FALSE	TRUE	TRUE	
-validfrom	Valid from	Date (often a range) of validity of a resource.	individualconsent	date	FALSE	FALSE	TRUE	TRUE	
-validuntil	Valid until	Date (often a range) of validity of a resource.	individualconsent	date	FALSE	FALSE	TRUE	TRUE	
+validfrom	Valid from	Starting date of the validity of a resource.	individualconsent	date	FALSE	FALSE	TRUE	TRUE	
+validuntil	Valid until	End date of the validity of a resource.	individualconsent	date	FALSE	FALSE	TRUE	TRUE	
 representedby	Represented by	An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.	individualconsent	string	FALSE	FALSE	TRUE	TRUE	
 allowresearch	Allow research	Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.	individualconsent	bool	FALSE	FALSE	TRUE	TRUE	
-restrictedto	Restricted to	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	individualconsent	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_individualconsent_restrictedto
 allowlinkage	Allow linkage	A study in which data from different sources are "linked". Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.	individualconsent	bool	FALSE	FALSE	TRUE	TRUE	
-allowreidentification	Allow reidentification	The procedure of having an identity established. Implicitly, this answers the question whether a patient would like to be recontacted for e.g. an answer to their diagnostic question.	individualconsent	bool	FALSE	FALSE	TRUE	TRUE	
-allowincidentalfindings	Allow incidental findings	A planned process for a subject agrees not to be informed about any incidental finding.	individualconsent	bool	FALSE	FALSE	TRUE	TRUE	
-recontactmethod	Recontact method	A document part that prescribes a method of contact in the future.	individualconsent	text	FALSE	FALSE	TRUE	TRUE	
+allowrecontacting	Allow recontacting	The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.	individualconsent	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_individualconsent_allowrecontacting
+restrictedto	Restricted to	E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.	individualconsent	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_individualconsent_restrictedto
+restrictionspecification	Restriction specification	Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.	individualconsent	text	FALSE	FALSE	TRUE	TRUE	

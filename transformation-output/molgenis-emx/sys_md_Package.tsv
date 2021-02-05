@@ -1,2 +1,2 @@
 id	label	description
-fair-genomes	FAIR Genomes metadata model	The FAIR Genomes semantic metadata model to power reuse of NGS data in research and healthcare. Version 0.2 (2021-01-13)
+fair-genomes	FAIR Genomes metadata schema	The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.3-SNAPSHOT (2021-02-05)

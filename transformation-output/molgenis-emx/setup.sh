@@ -8,8 +8,9 @@ mcmd import -p personal_inclusionstatus_attributes.tsv --as attributes --in fair
 mcmd import -p personal_inclusioncriteria_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_primaryaffiliatedinstitute_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_resourcesinotherinstitutes_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p informedconsentform_consentformcreator_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p informedconsentform_consentformrestrictedto_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p leafletandconsentform_consentformcreator_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_collectedby_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_allowrecontacting_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p individualconsent_restrictedto_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_phenotype_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_unobservedphenotype_attributes.tsv --as attributes --in fair-genomes
@@ -22,6 +23,7 @@ mcmd import -p clinical_familymemberssequenced_attributes.tsv --as attributes --
 mcmd import -p clinical_medicalhistory_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_materialtype_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_anatomicalsource_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p material_sourcetype_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_storageconditions_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p samplepreparation_librarypreparationkit_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p samplepreparation_targetenrichmentkit_attributes.tsv --as attributes --in fair-genomes
@@ -38,8 +40,9 @@ mcmd import -p personal_inclusionstatus.tsv --as fair-genomes_personal_inclusion
 mcmd import -p personal_inclusioncriteria.tsv --as fair-genomes_personal_inclusioncriteria --in fair-genomes
 mcmd import -p personal_primaryaffiliatedinstitute.tsv --as fair-genomes_personal_primaryaffiliatedinstitute --in fair-genomes
 mcmd import -p personal_resourcesinotherinstitutes.tsv --as fair-genomes_personal_resourcesinotherinstitutes --in fair-genomes
-mcmd import -p informedconsentform_consentformcreator.tsv --as fair-genomes_informedconsentform_consentformcreator --in fair-genomes
-mcmd import -p informedconsentform_consentformrestrictedto.tsv --as fair-genomes_informedconsentform_consentformrestrictedto --in fair-genomes
+mcmd import -p leafletandconsentform_consentformcreator.tsv --as fair-genomes_leafletandconsentform_consentformcreator --in fair-genomes
+mcmd import -p individualconsent_collectedby.tsv --as fair-genomes_individualconsent_collectedby --in fair-genomes
+mcmd import -p individualconsent_allowrecontacting.tsv --as fair-genomes_individualconsent_allowrecontacting --in fair-genomes
 mcmd import -p individualconsent_restrictedto.tsv --as fair-genomes_individualconsent_restrictedto --in fair-genomes
 mcmd import -p clinical_phenotype.tsv --as fair-genomes_clinical_phenotype --in fair-genomes
 mcmd import -p clinical_unobservedphenotype.tsv --as fair-genomes_clinical_unobservedphenotype --in fair-genomes
@@ -52,6 +55,7 @@ mcmd import -p clinical_familymemberssequenced.tsv --as fair-genomes_clinical_fa
 mcmd import -p clinical_medicalhistory.tsv --as fair-genomes_clinical_medicalhistory --in fair-genomes
 mcmd import -p material_materialtype.tsv --as fair-genomes_material_materialtype --in fair-genomes
 mcmd import -p material_anatomicalsource.tsv --as fair-genomes_material_anatomicalsource --in fair-genomes
+mcmd import -p material_sourcetype.tsv --as fair-genomes_material_sourcetype --in fair-genomes
 mcmd import -p material_storageconditions.tsv --as fair-genomes_material_storageconditions --in fair-genomes
 mcmd import -p samplepreparation_librarypreparationkit.tsv --as fair-genomes_samplepreparation_librarypreparationkit --in fair-genomes
 mcmd import -p samplepreparation_targetenrichmentkit.tsv --as fair-genomes_samplepreparation_targetenrichmentkit --in fair-genomes
@@ -61,7 +65,7 @@ mcmd import -p sequencing_sequencingtype.tsv --as fair-genomes_sequencing_sequen
 mcmd import -p analysis_dataformatsstored.tsv --as fair-genomes_analysis_dataformatsstored --in fair-genomes
 mcmd import -p study_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p informedconsentform_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p leafletandconsentform_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p individualconsent_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_attributes.tsv --as attributes --in fair-genomes
@@ -72,7 +76,7 @@ mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_exi
 mcmd add logo -p ../../misc/molgenis/img/analysis.png
 mcmd add logo -p ../../misc/molgenis/img/lookups.png
 mcmd add logo -p ../../misc/molgenis/img/clinical.png
-mcmd add logo -p ../../misc/molgenis/img/informedconsentform.png
+mcmd add logo -p ../../misc/molgenis/img/leafletandconsentform.png
 mcmd add logo -p ../../misc/molgenis/img/individualconsent.png
 mcmd add logo -p ../../misc/molgenis/img/contribute.png
 mcmd add logo -p ../../misc/molgenis/img/info.png
