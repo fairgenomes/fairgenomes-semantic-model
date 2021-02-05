@@ -18,3 +18,4 @@ medicalhistory	Medical history	A record of a person's background regarding healt
 ageofonset	Age of onset	Age of onset of clinical manifestations related to a clinical entity.	clinical	int	FALSE	FALSE	TRUE	TRUE	
 firstcontact	First contact	First contact with specialised center in context of disease or inclusion.	clinical	date	FALSE	FALSE	TRUE	TRUE	
 functioning	Functioning	Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).	clinical	text	FALSE	FALSE	TRUE	TRUE	
+belongstomaterial	Belongs to material	This diagnosis c.q. clinical examination is based on one or more sampled materials. [WORK IN PROGRESS. This field should be proper ReferenceMany to Material, but this is technically problematic due to circular dependencies.]	clinical	string	FALSE	FALSE	TRUE	TRUE	

@@ -1,6 +1,6 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
 analysisidentifier	Analysis identifier	An assay identifier is an identifier that identifies some assay (analysis).	analysis	string	TRUE	TRUE	TRUE	FALSE	
-belongstosequencing	Belongs to sequencing	Link to the sequencing performed on which the analysis is based.	analysis	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_sequencing
+belongstosequencing	Belongs to sequencing	Link to the sequencing performed i.e. source on which the analysis is based.	analysis	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_sequencing
 physicaldatalocation	Physical data location	A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).	analysis	string	FALSE	FALSE	TRUE	TRUE	
 abstractdatalocation	Abstract data location	To maintain data by placing the data, or a copy of the data, onto an electronically accessible device for preservation (either in plain-text or encrypted format).	analysis	string	FALSE	FALSE	TRUE	TRUE	
 dataformatsstored	Data formats stored	A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.	analysis	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_analysis_dataformatsstored
