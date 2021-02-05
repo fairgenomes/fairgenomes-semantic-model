@@ -86,8 +86,10 @@ public class ToMOLGENISEMX extends GenericTransformer {
                     Path original = e.lookup.srcFile.toPath();
                     Files.copy(original, target, StandardCopyOption.REPLACE_EXISTING);
 
+                    MCMDbw.write("mcmd import -p "+targetFile.getName()+" --as fair-genomes_"+entityName+" --in " + PACKAGE_NAME + LE);
+
                     /*
-                    If NoGlobals, do not write the global lookup options to the output
+                    If NoGlobals, do not add the global lookup options to the output
                      */
                     if(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals))
                     {
@@ -107,7 +109,6 @@ public class ToMOLGENISEMX extends GenericTransformer {
                     bw.flush();
                     bw.close();
 
-                    MCMDbw.write("mcmd import -p "+targetFile.getName()+" --as fair-genomes_"+entityName+" --in " + PACKAGE_NAME + LE);
                 }
             }
         }
@@ -140,7 +141,7 @@ public class ToMOLGENISEMX extends GenericTransformer {
         Landing page
          */
         MCMDbw.write("mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_existing" + LE);
-        String[] imgs = new String[]{"analysis", "lookups", "clinical", "informedconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo"};
+        String[] imgs = new String[]{"analysis", "lookups", "clinical", "leafletandconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo"};
         for(String img : imgs)
         {
             MCMDbw.write("mcmd add logo -p ../../misc/molgenis/img/"+img+".png" + LE);
