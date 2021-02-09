@@ -1,6 +1,6 @@
 # FAIR Genomes compatibility with CDE
 
-Compatibility mapping of the FAIR Genomes semantic metadata model to Common Data Elements (CDE) by the European Commission's Joint Research Centre (JRC). The latest version of the CDE can be found [here](http://www.erare.eu/sites/default/files/SetCommonData-EU%20RD%20Platform_CDS%20_final.pdf).
+Compatibility mapping of the FAIR Genomes semantic metadata model to Common Data Elements (CDE) by the European Commission's Joint Research Centre (JRC). The latest version of the CDE can be found [here](https://eu-rd-platform.jrc.ec.europa.eu/sites/default/files/CDS/EU_RD_Platform_CDS_Final.pdf).
 
 | CDE Element no. | CDE Element name | FAIR Genomes equivalent | Remarks |
 |---|---|---|---|
