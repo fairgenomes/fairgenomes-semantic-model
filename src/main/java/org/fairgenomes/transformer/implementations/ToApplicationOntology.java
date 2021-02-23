@@ -1,6 +1,5 @@
 package org.fairgenomes.transformer.implementations;
 
-import org.eclipse.rdf4j.model.Statement;
 import org.eclipse.rdf4j.model.vocabulary.OWL;
 import org.eclipse.rdf4j.model.vocabulary.RDFS;
 import org.fairgenomes.transformer.datastructures.Element;
@@ -8,44 +7,30 @@ import org.fairgenomes.transformer.datastructures.FAIRGenomes;
 import org.fairgenomes.transformer.datastructures.Lookup;
 import org.fairgenomes.transformer.datastructures.Module;
 import org.fairgenomes.transformer.datastructures.GenericTransformer;
-
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-
+import java.io.*;
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.IRI;
-import org.eclipse.rdf4j.model.impl.LinkedHashModel;
 import static org.eclipse.rdf4j.model.util.Values.iri;
-import org.eclipse.rdf4j.model.vocabulary.OWL;
 import org.eclipse.rdf4j.model.vocabulary.RDF;
-import org.eclipse.rdf4j.model.vocabulary.RDFS;
 import org.eclipse.rdf4j.model.vocabulary.DC;
 import static org.eclipse.rdf4j.model.util.Values.literal;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
 import org.eclipse.rdf4j.model.util.ModelBuilder;
-import org.eclipse.rdf4j.rio.WriterConfig;
-import org.eclipse.rdf4j.rio.helpers.BasicWriterSettings;
 
-public class ToRDFTTL extends GenericTransformer {
+public class ToApplicationOntology extends GenericTransformer {
 
-    public ToRDFTTL(FAIRGenomes fg, File outputFolder) {
+    public ToApplicationOntology(FAIRGenomes fg, File outputFolder) {
         super(fg, outputFolder);
     }
 
     @Override
-    public void start() throws Exception {
+    public void start() throws Exception, IOException {
         // Replace this later with w3id or purl
         String baseUrl = "https://github.com/fairgenomes/fairgenomes-semantic-model/";
         ModelBuilder builder = new ModelBuilder();
 
         FileWriter fw = new FileWriter(new File(outputFolder, "fair-genomes.ttl"));
-
-        /*
-        Writer header
-         */
-        BufferedWriter bw = new BufferedWriter(fw);
 
         builder.setNamespace("fg", "https://fair-genomes.org/");
         builder.setNamespace("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
@@ -53,6 +38,9 @@ public class ToRDFTTL extends GenericTransformer {
         builder.setNamespace("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
         builder.setNamespace("owl", "http://www.w3.org/2002/07/owl#");
         builder.setNamespace("xsd", "http://www.w3.org/2001/XMLSchema#");
+        builder.setNamespace("obo", "http://purl.obolibrary.org/obo/");
+        builder.setNamespace("sio", "https://semanticscience.org/resource/");
+        builder.setNamespace("ordo", "http://www.orpha.net/ORDO/");
 
         for (Module m : fg.modules) {
             String moduleName = cleanLabel(m.name);
@@ -98,10 +86,12 @@ public class ToRDFTTL extends GenericTransformer {
             }
         }
         Model model = builder.build();
-        Rio.write(model, System.out, RDFFormat.TURTLE);
-        bw.flush();
-        bw.close();
-
+        try {
+            Rio.write(model, fw, RDFFormat.TURTLE);
+        }
+        finally {
+            fw.close();
+        }
     }
 
     private String cleanLabel(String label) {
