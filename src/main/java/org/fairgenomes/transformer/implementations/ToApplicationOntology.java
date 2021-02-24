@@ -29,8 +29,8 @@ public class ToApplicationOntology extends GenericTransformer {
         // Replace this later with w3id or purl
         String baseUrl = "https://github.com/fairgenomes/fairgenomes-semantic-model/";
         ModelBuilder builder = new ModelBuilder();
-
         FileWriter fw = new FileWriter(new File(outputFolder, "fair-genomes.ttl"));
+        RDFFormat applicationOntologyFormat = RDFFormat.TURTLE;
 
         builder.setNamespace("fg", "https://fair-genomes.org/");
         builder.setNamespace("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
@@ -87,7 +87,7 @@ public class ToApplicationOntology extends GenericTransformer {
         }
         Model model = builder.build();
         try {
-            Rio.write(model, fw, RDFFormat.TURTLE);
+            Rio.write(model, fw, applicationOntologyFormat);
         }
         finally {
             fw.close();
