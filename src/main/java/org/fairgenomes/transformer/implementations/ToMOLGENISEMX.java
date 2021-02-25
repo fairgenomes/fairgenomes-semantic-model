@@ -1,7 +1,7 @@
 package org.fairgenomes.transformer.implementations;
 
+import org.fairgenomes.transformer.datastructures.Module;
 import org.fairgenomes.transformer.datastructures.*;
-import org.fairgenomes.transformer.datastructures.GenericTransformer;
 
 import java.io.BufferedWriter;
 import java.io.File;
