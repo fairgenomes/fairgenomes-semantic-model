@@ -3,13 +3,9 @@ package org.fairgenomes.transformer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.fairgenomes.transformer.datastructures.FAIRGenomes;
-import org.fairgenomes.transformer.implementations.ToARTDECOR;
-import org.fairgenomes.transformer.implementations.ToMarkdown;
-import org.fairgenomes.transformer.implementations.ToMOLGENISEMX;
-import org.fairgenomes.transformer.implementations.ToOWLXML;
-import org.fairgenomes.transformer.implementations.ToRDFTTL;
+import org.fairgenomes.transformer.implementations.*;
 
-import java.io.*;
+import java.io.File;
 
 public class TransformFGToAllFormats {
 
@@ -41,6 +37,7 @@ public class TransformFGToAllFormats {
         new ToMOLGENISEMX(fg, new File(outputs, "molgenis-emx")).start();
         new ToOWLXML(fg, new File(outputs, "owl-xml")).start();
         new ToRDFTTL(fg, new File(outputs, "rdf-ttl")).start();
+        new ToPALGACodeBook(fg, new File(outputs, "palga-codebook")).start();
         new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
 
 
