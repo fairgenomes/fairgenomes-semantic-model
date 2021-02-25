@@ -36,7 +36,7 @@ public class TransformFGToAllFormats {
         new ToMarkdown(fg, new File(outputs, "markdown")).start();
         new ToMOLGENISEMX(fg, new File(outputs, "molgenis-emx")).start();
         new ToOWLXML(fg, new File(outputs, "owl-xml")).start();
-        new ToRDFTTL(fg, new File(outputs, "rdf-ttl")).start();
+        new ToApplicationOntology(fg, new File(outputs, "rdf-ttl")).start();
         new ToPALGACodeBook(fg, new File(outputs, "palga-codebook")).start();
         new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
 
