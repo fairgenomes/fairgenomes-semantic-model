@@ -101,7 +101,7 @@ public class Element {
             case Date: return "DATE";
             case DateTime: return "DATE";
             case Boolean: return "BOOLEAN";
-            case Decimal: return "FLOAT";
+            case Decimal: return "DECIMAL";
             default: return "ST";
         }
     }
