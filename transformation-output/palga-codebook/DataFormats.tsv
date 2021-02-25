@@ -1,0 +1,599 @@
+value_en	description_en	codesystem	code	description_code
+cdsxml	cdsxml	EDAM	format_2184	cdsxml
+BioXSD (XML)	BioXSD (XML)	EDAM	format_2352	BioXSD (XML)
+Phylip tree distance format	Phylip tree distance format	EDAM	format_1445	Phylip tree distance format
+BioPAX	BioPAX	EDAM	format_3156	BioPAX
+Sequence profile format	Sequence profile format	EDAM	format_2069	Sequence profile format
+Nexus format	Nexus format	EDAM	format_1912	Nexus format
+SBGN-ML	SBGN-ML	EDAM	format_3692	SBGN-ML
+SBML	SBML	EDAM	format_2585	SBML
+selex	selex	EDAM	format_2000	selex
+pure dna	pure dna	EDAM	format_1215	pure dna
+GenBank format	GenBank format	EDAM	format_1936	GenBank format
+Mass spectrometry data format	Mass spectrometry data format	EDAM	format_3245	Mass spectrometry data format
+BioPAX Manchester OWL Syntax format	BioPAX Manchester OWL Syntax format	SWO	SWO_3000056	BioPAX Manchester OWL Syntax format
+ambiguous	ambiguous	EDAM	format_2097	ambiguous
+PRIDE XML	PRIDE XML	EDAM	format_3684	PRIDE XML
+Ontology format	Ontology format	EDAM	format_2195	Ontology format
+SDF	SDF	EDAM	format_3814	SDF
+ebwt	ebwt	EDAM	format_3484	ebwt
+affymetrix	affymetrix	EDAM	format_1639	affymetrix
+Binary format	Binary format	EDAM	format_2333	Binary format
+FieldML	FieldML	SWO	SWO_3000075	FieldML
+pepXML	pepXML	EDAM	format_3655	pepXML
+BCF	BCF	EDAM	format_3020	BCF
+GML	GML	EDAM	format_3822	GML
+raw	raw	EDAM	format_1957	raw
+unambiguous pure rna sequence	unambiguous pure rna sequence	EDAM	format_1216	unambiguous pure rna sequence
+Phylip distance matrix	Phylip distance matrix	EDAM	format_1423	Phylip distance matrix
+AB1	AB1	EDAM	format_3000	AB1
+netCDF	netCDF	EDAM	format_3650	netCDF
+cdt	cdt	SWO	SWO_0000493	cdt
+Sequence feature table format (text)	Sequence feature table format (text)	EDAM	format_2206	Sequence feature table format (text)
+FASTA-like (text)	FASTA-like (text)	EDAM	format_2200	FASTA-like (text)
+mzML	mzML	EDAM	format_3244	mzML
+mega	mega	EDAM	format_1991	mega
+Pcons report format	Pcons report format	EDAM	format_1551	Pcons report format
+BioC	BioC	EDAM	format_3782	BioC
+bedstrict	bedstrict	EDAM	format_3584	bedstrict
+ABI	ABI	EDAM	format_1628	ABI
+OBO format	OBO format	EDAM	format_2196	OBO format
+plain text file format	plain text file format	SWO	SWO_3000043	plain text file format
+SBOL	SBOL	EDAM	format_3725	SBOL
+cel	cel	EDAM	format_1638	cel
+mega variant	mega variant	EDAM	format_2923	mega variant
+Sequence trace format	Sequence trace format	EDAM	format_2057	Sequence trace format
+SFF	SFF	EDAM	format_3284	SFF
+rcc	rcc	EDAM	format_3580	rcc
+ZTR	ZTR	EDAM	format_3018	ZTR
+Chemical formula format	Chemical formula format	EDAM	format_2035	Chemical formula format
+Nucleic acid features (restriction sites) format	Nucleic acid features (restriction sites) format	EDAM	format_2158	Nucleic acid features (restriction sites) format
+BED	BED	EDAM	format_3003	BED
+InterPro protein view report format	InterPro protein view report format	EDAM	format_1342	InterPro protein view report format
+GFF3-seq	GFF3-seq	EDAM	format_1939	GFF3-seq
+xlsx	xlsx	EDAM	format_3620	xlsx
+dhf	dhf	EDAM	format_1336	dhf
+ACE	ACE	EDAM	format_3001	ACE
+Thermo RAW	Thermo RAW	EDAM	format_3712	Thermo RAW
+CATH domain report format	CATH domain report format	EDAM	format_3100	CATH domain report format
+FASTA-like	FASTA-like	EDAM	format_2546	FASTA-like
+BEL	BEL	EDAM	format_3691	BEL
+GPML	GPML	EDAM	format_3657	GPML
+SMILES	SMILES	EDAM	format_1196	SMILES
+scores format	scores format	EDAM	format_1999	scores format
+.fastq	.fastq	EDAM	format_1930	.fastq
+Sequence cluster format	Sequence cluster format	EDAM	format_2170	Sequence cluster format
+rda	rda	SWO	SWO_0000684	rda
+CT	CT	EDAM	format_3309	CT
+SBRML	SBRML	EDAM	format_3155	SBRML
+Phylogenetic discrete states format	Phylogenetic discrete states format	EDAM	format_2038	Phylogenetic discrete states format
+xpm	xpm	EDAM	format_3599	xpm
+PMML	PMML	EDAM	format_3726	PMML
+EMBOSS simple format	EMBOSS simple format	EDAM	format_2001	EMBOSS simple format
+uniprotkb-like format	uniprotkb-like format	EDAM	format_2547	uniprotkb-like format
+qualillumina	qualillumina	EDAM	format_3609	qualillumina
+LocARNA PP	LocARNA PP	EDAM	format_3728	LocARNA PP
+unambiguous pure nucleotide	unambiguous pure nucleotide	EDAM	format_1211	unambiguous pure nucleotide
+completely unambiguous	completely unambiguous	EDAM	format_2566	completely unambiguous
+GPR	GPR	EDAM	format_3829	GPR
+spML	spML	EDAM	format_3250	spML
+CHP	CHP	EDAM	format_1644	CHP
+MEME Dirichlet prior	MEME Dirichlet prior	EDAM	format_1350	MEME Dirichlet prior
+FASTQ	FASTQ	EDAM	format_1930	FASTQ
+latex	latex	EDAM	format_3817	latex
+mzTab	mzTab	EDAM	format_3681	mzTab
+UniProtKB RDF	UniProtKB RDF	EDAM	format_3771	UniProtKB RDF
+FASTG	FASTG	EDAM	format_3823	FASTG
+qualsolid	qualsolid	EDAM	format_3610	qualsolid
+SED-ML	SED-ML	EDAM	format_3685	SED-ML
+hssp	hssp	EDAM	format_1455	hssp
+FASTA	FASTA	EDAM	format_1929	FASTA
+arff	arff	EDAM	format_3581	arff
+Turtle	Turtle	EDAM	format_3255	Turtle
+EMBOSS repeat	EMBOSS repeat	EDAM	format_1297	EMBOSS repeat
+Sequence motif format	Sequence motif format	EDAM	format_2068	Sequence motif format
+Protein structure report (quality evaluation) format	Protein structure report (quality evaluation) format	EDAM	format_2065	Protein structure report (quality evaluation) format
+markx10	markx10	EDAM	format_1987	markx10
+pptx	pptx	EDAM	format_3838	pptx
+HMMER Dirichlet prior	HMMER Dirichlet prior	EDAM	format_1349	HMMER Dirichlet prior
+SIF	SIF	SWO	SWO_3000049	SIF
+Sequence assembly format (text)	Sequence assembly format (text)	EDAM	format_2561	Sequence assembly format (text)
+GTrack	GTrack	EDAM	format_3164	GTrack
+pbm	pbm	EDAM	format_3601	pbm
+STRING entry format (XML)	STRING entry format (XML)	EDAM	format_2304	STRING entry format (XML)
+Phylogenetic tree report (invariants) format	Phylogenetic tree report (invariants) format	EDAM	format_2040	Phylogenetic tree report (invariants) format
+Vienna local RNA secondary structure format	Vienna local RNA secondary structure format	EDAM	format_1458	Vienna local RNA secondary structure format
+Query language	Query language	EDAM	format_3787	Query language
+CRAM	CRAM	EDAM	format_3462	CRAM
+Textual format	Textual format	EDAM	format_2330	Textual format
+xsd	xsd	EDAM	format_3804	xsd
+InChI	InChI	EDAM	format_1197	InChI
+BedGraph	BedGraph	SWO	SWO_3000072	BedGraph
+JSON	JSON	EDAM	format_3464	JSON
+Sequence-profile alignment format	Sequence-profile alignment format	EDAM	format_2014	Sequence-profile alignment format
+rgb	rgb	EDAM	format_3600	rgb
+JASPAR format	JASPAR format	EDAM	format_1367	JASPAR format
+PDB	PDB	EDAM	format_1476	PDB
+pcd	pcd	EDAM	format_3594	pcd
+Alignment format (text)	Alignment format (text)	EDAM	format_2554	Alignment format (text)
+sif	sif	EDAM	format_3619	sif
+JSON-LD	JSON-LD	EDAM	format_3749	JSON-LD
+findkm	findkm	EDAM	format_1582	findkm
+PDF	PDF	EDAM	format_3508	PDF
+CHP binary format	CHP binary format	SWO	SWO_1100122	CHP binary format
+SDF format	SDF format	SWO	SWO_0000381	SDF format
+GenBank-like format	GenBank-like format	EDAM	format_2559	GenBank-like format
+RNA secondary structure format	RNA secondary structure format	EDAM	format_2076	RNA secondary structure format
+OBO	OBO	EDAM	format_2549	OBO
+markx0 variant	markx0 variant	EDAM	format_2922	markx0 variant
+afg	afg	EDAM	format_3582	afg
+PubTator format	PubTator format	EDAM	format_3783	PubTator format
+pcx	pcx	EDAM	format_3595	pcx
+rast	rast	EDAM	format_3605	rast
+.sam	.sam	EDAM	format_2573	.sam
+AGP	AGP	EDAM	format_3693	AGP
+Map format	Map format	EDAM	format_2060	Map format
+qual454	qual454	EDAM	format_3611	qual454
+PED	PED	EDAM	format_3286	PED
+consensusXML	consensusXML	EDAM	format_3832	consensusXML
+.wig	.wig	EDAM	format_3005	.wig
+BIOM format	BIOM format	EDAM	format_3746	BIOM format
+mira	mira	EDAM	format_1629	mira
+unpure	unpure	EDAM	format_2095	unpure
+GTF	GTF	EDAM	format_2306	GTF
+unambiguous pure protein	unambiguous pure protein	EDAM	format_1218	unambiguous pure protein
+FASTA search results format	FASTA search results format	EDAM	format_1332	FASTA search results format
+fitch program	fitch program	EDAM	format_1934	fitch program
+affymetrix-exp	affymetrix-exp	EDAM	format_1641	affymetrix-exp
+UniProtKB format	UniProtKB format	EDAM	format_1963	UniProtKB format
+Microarray experiment data format	Microarray experiment data format	EDAM	format_2056	Microarray experiment data format
+EPS	EPS	EDAM	format_3466	EPS
+idXML	idXML	EDAM	format_3764	idXML
+Medline Display Format	Medline Display Format	EDAM	format_1735	Medline Display Format
+OWL/XML	OWL/XML	EDAM	format_3262	OWL/XML
+PSI MI XML (MIF)	PSI MI XML (MIF)	EDAM	format_3158	PSI MI XML (MIF)
+genePred	genePred	EDAM	format_3011	genePred
+Tab delimited file format	Tab delimited file format	SWO	SWO_3000046	Tab delimited file format
+Pileup	Pileup	EDAM	format_3015	Pileup
+jackknifernon	jackknifernon	EDAM	format_1970	jackknifernon
+mzXML	mzXML	EDAM	format_3654	mzXML
+3D-1D scoring matrix format	3D-1D scoring matrix format	EDAM	format_2064	3D-1D scoring matrix format
+tabix	tabix	EDAM	format_3616	tabix
+dna	dna	EDAM	format_1212	dna
+Phylip character frequencies format	Phylip character frequencies format	EDAM	format_1432	Phylip character frequencies format
+ig	ig	EDAM	format_1942	ig
+Image format	Image format	EDAM	format_3547	Image format
+Gemini SQLite format	Gemini SQLite format	EDAM	format_3622	Gemini SQLite format
+meganon	meganon	EDAM	format_1992	meganon
+PHYLIP format	PHYLIP format	EDAM	format_1997	PHYLIP format
+im	im	EDAM	format_3593	im
+gtr	gtr	SWO	SWO_0000569	gtr
+PubAnnotation format	PubAnnotation format	EDAM	format_3781	PubAnnotation format
+MHTML	MHTML	EDAM	format_3556	MHTML
+bgzip	bgzip	EDAM	format_3615	bgzip
+cls	cls	SWO	SWO_0000498	cls
+codata	codata	EDAM	format_1925	codata
+FASTA format	FASTA format	EDAM	format_1929	FASTA format
+mmCIF	mmCIF	EDAM	format_1477	mmCIF
+nmrML	nmrML	EDAM	format_3825	nmrML
+NCBI format	NCBI format	EDAM	format_1972	NCBI format
+MAF	MAF	EDAM	format_3008	MAF
+genpept	genpept	EDAM	format_1937	genpept
+KRSS2 Syntax	KRSS2 Syntax	EDAM	format_3254	KRSS2 Syntax
+GVF	GVF	EDAM	format_3019	GVF
+PubMed citation	PubMed citation	EDAM	format_1734	PubMed citation
+strider format	strider format	EDAM	format_1962	strider format
+BLC	BLC	EDAM	format_3313	BLC
+MAP	MAP	EDAM	format_3285	MAP
+MAT	MAT	EDAM	format_3626	MAT
+RNAML	RNAML	EDAM	format_3311	RNAML
+DICOM format	DICOM format	EDAM	format_3548	DICOM format
+InterPro match table format	InterPro match table format	EDAM	format_1343	InterPro match table format
+PHD	PHD	EDAM	format_1633	PHD
+CEL binary format	CEL binary format	SWO	SWO_0000084	CEL binary format
+pdbatomnuc	pdbatomnuc	EDAM	format_1951	pdbatomnuc
+Tabix index file format	Tabix index file format	EDAM	format_3700	Tabix index file format
+pdbml	pdbml	EDAM	format_1478	pdbml
+GelML	GelML	EDAM	format_3249	GelML
+pgm	pgm	EDAM	format_3602	pgm
+PSI MI TAB (MITAB)	PSI MI TAB (MITAB)	EDAM	format_3242	PSI MI TAB (MITAB)
+GEO Matrix Series format	GEO Matrix Series format	SWO	SWO_1100126	GEO Matrix Series format
+ELAND format	ELAND format	EDAM	format_3818	ELAND format
+EMBL feature location	EMBL feature location	EDAM	format_1248	EMBL feature location
+Data index format	Data index format	EDAM	format_3326	Data index format
+SPSS	SPSS	EDAM	format_3555	SPSS
+pdbseqresnuc	pdbseqresnuc	EDAM	format_1952	pdbseqresnuc
+Nucleic acid features (primers) format	Nucleic acid features (primers) format	EDAM	format_2061	Nucleic acid features (primers) format
+srs format	srs format	EDAM	format_2002	srs format
+Dot-bracket format	Dot-bracket format	EDAM	format_1457	Dot-bracket format
+X!Tandem XML	X!Tandem XML	EDAM	format_3711	X!Tandem XML
+GenBank-HTML	GenBank-HTML	EDAM	format_2532	GenBank-HTML
+restover format	restover format	EDAM	format_1319	restover format
+Phylogenetic tree report (cliques) format	Phylogenetic tree report (cliques) format	EDAM	format_2039	Phylogenetic tree report (cliques) format
+VisML	VisML	EDAM	format_3821	VisML
+HMMER format	HMMER format	EDAM	format_1370	HMMER format
+EMBL-HTML	EMBL-HTML	EDAM	format_2311	EMBL-HTML
+Chemical data format	Chemical data format	EDAM	format_2030	Chemical data format
+PSI-PAR	PSI-PAR	EDAM	format_3243	PSI-PAR
+UniProtKB XML	UniProtKB XML	EDAM	format_3770	UniProtKB XML
+FCS3.0	FCS3.0	SWO	SWO_3000062	FCS3.0
+qual	qual	EDAM	format_3607	qual
+dbGaP format	dbGaP format	EDAM	format_3729	dbGaP format
+BDML	BDML	EDAM	format_3690	BDML
+Raw sequence format	Raw sequence format	EDAM	format_2571	Raw sequence format
+LAV	LAV	EDAM	format_3014	LAV
+EMBOSS sequence pattern	EMBOSS sequence pattern	EDAM	format_1357	EMBOSS sequence pattern
+Sequence range format	Sequence range format	EDAM	format_2078	Sequence range format
+BioNLP Shared Task format	BioNLP Shared Task format	EDAM	format_3785	BioNLP Shared Task format
+.mysql	.mysql	SWO	SWO_3000084	.mysql
+bmp	bmp	EDAM	format_3592	bmp
+EMBL format	EMBL format	EDAM	format_1927	EMBL format
+Raw NMR data format	Raw NMR data format	EDAM	format_3824	Raw NMR data format
+TreeBASE format	TreeBASE format	EDAM	format_1436	TreeBASE format
+Phylogenetic tree format	Phylogenetic tree format	EDAM	format_2006	Phylogenetic tree format
+XQuery	XQuery	EDAM	format_3789	XQuery
+EMBL-like (text)	EMBL-like (text)	EDAM	format_2181	EMBL-like (text)
+newick	newick	EDAM	format_1910	newick
+TreeCon format	TreeCon format	EDAM	format_1911	TreeCon format
+TreeCon-seq	TreeCon-seq	EDAM	format_2005	TreeCon-seq
+EMBL-like format	EMBL-like format	EDAM	format_2543	EMBL-like format
+Mascot .dat file	Mascot .dat file	EDAM	format_3713	Mascot .dat file
+ENCODE broad peak format	ENCODE broad peak format	EDAM	format_3614	ENCODE broad peak format
+mf	mf	EDAM	format_1198	mf
+PED/MAP	PED/MAP	EDAM	format_3288	PED/MAP
+Protein family report format	Protein family report format	EDAM	format_2052	Protein family report format
+FASTA-HTML	FASTA-HTML	EDAM	format_2310	FASTA-HTML
+Biodiversity data format	Biodiversity data format	EDAM	format_3706	Biodiversity data format
+Rnw	Rnw	SWO	SWO_0000363	Rnw
+Protein domain classification format	Protein domain classification format	EDAM	format_3097	Protein domain classification format
+Sequence cluster format (nucleic acid)	Sequence cluster format (nucleic acid)	EDAM	format_2172	Sequence cluster format (nucleic acid)
+smarts	smarts	EDAM	format_1200	smarts
+Hidden Markov model format	Hidden Markov model format	EDAM	format_2072	Hidden Markov model format
+mzIdentML	mzIdentML	EDAM	format_3247	mzIdentML
+rna	rna	EDAM	format_1213	rna
+pgSnp	pgSnp	EDAM	format_3012	pgSnp
+XGMML	XGMML	SWO	SWO_3000051	XGMML
+gpr format	gpr format	SWO	SWO_0000566	gpr format
+DSV	DSV	EDAM	format_3751	DSV
+Raw microarray data format	Raw microarray data format	EDAM	format_3828	Raw microarray data format
+KNIME datatable format	KNIME datatable format	EDAM	format_3765	KNIME datatable format
+Graph format	Graph format	EDAM	format_3617	Graph format
+FASTQ-illumina	FASTQ-illumina	EDAM	format_1931	FASTQ-illumina
+BSML	BSML	EDAM	format_3487	BSML
+SQL	SQL	EDAM	format_3788	SQL
+OWL Functional Syntax	OWL Functional Syntax	EDAM	format_3252	OWL Functional Syntax
+Raw CATH domain classification format	Raw CATH domain classification format	EDAM	format_3099	Raw CATH domain classification format
+TSV	TSV	EDAM	format_3475	TSV
+ClustalW dendrogram	ClustalW dendrogram	EDAM	format_1424	ClustalW dendrogram
+BCML	BCML	EDAM	format_3689	BCML
+Primer3 primer	Primer3 primer	EDAM	format_1627	Primer3 primer
+tiff	tiff	EDAM	format_3591	tiff
+acedb	acedb	EDAM	format_1923	acedb
+markx3	markx3	EDAM	format_1989	markx3
+BLAST results	BLAST results	EDAM	format_1333	BLAST results
+Phylip tree format	Phylip tree format	EDAM	format_1435	Phylip tree format
+SRF	SRF	EDAM	format_3017	SRF
+OME-TIFF	OME-TIFF	EDAM	format_3727	OME-TIFF
+OWL-XML	OWL-XML	SWO	SWO_3000038	OWL-XML
+markx0	markx0	EDAM	format_1985	markx0
+markx1	markx1	EDAM	format_1986	markx1
+markx2	markx2	EDAM	format_1988	markx2
+R data frame	R data frame	SWO	SWO_0000409	R data frame
+Enzyme kinetics report format	Enzyme kinetics report format	EDAM	format_2027	Enzyme kinetics report format
+dta	dta	EDAM	format_3652	dta
+pkl	pkl	EDAM	format_3653	pkl
+BLAST XML results format	BLAST XML results format	EDAM	format_3331	BLAST XML results format
+Format	Format	EDAM	format_1915	Format
+Phylogenetic tree report (tree distances) format	Phylogenetic tree report (tree distances) format	EDAM	format_2049	Phylogenetic tree report (tree distances) format
+binary format	binary format	EDAM	format_2333	binary format
+REBASE restriction sites	REBASE restriction sites	EDAM	format_1320	REBASE restriction sites
+hennig86	hennig86	EDAM	format_1941	hennig86
+Protein secondary structure format	Protein secondary structure format	EDAM	format_2077	Protein secondary structure format
+OWL format	OWL format	EDAM	format_2197	OWL format
+ENCODE narrow peak format	ENCODE narrow peak format	EDAM	format_3613	ENCODE narrow peak format
+Sequence record format (text)	Sequence record format (text)	EDAM	format_2551	Sequence record format (text)
+Annotated text format	Annotated text format	EDAM	format_3780	Annotated text format
+GCT/Res format	GCT/Res format	EDAM	format_3709	GCT/Res format
+CSV	CSV	EDAM	format_3752	CSV
+BPMAP	BPMAP	SWO	SWO_1100035	BPMAP
+GFF2	GFF2	EDAM	format_1974	GFF2
+GFF2-seq	GFF2-seq	EDAM	format_1938	GFF2-seq
+GFF3	GFF3	EDAM	format_1975	GFF3
+MGF	MGF	EDAM	format_3651	MGF
+Biological pathway or network report format	Biological pathway or network report format	EDAM	format_3166	Biological pathway or network report format
+dasdna	dasdna	EDAM	format_1968	dasdna
+SAMPLE file format	SAMPLE file format	EDAM	format_3813	SAMPLE file format
+pure protein	pure protein	EDAM	format_1219	pure protein
+debug-seq	debug-seq	EDAM	format_1969	debug-seq
+Phylip tree raw	Phylip tree raw	EDAM	format_1425	Phylip tree raw
+EXP	EXP	EDAM	format_1631	EXP
+GenBank-like format (text)	GenBank-like format (text)	EDAM	format_2205	GenBank-like format (text)
+PO	PO	EDAM	format_3330	PO
+CDF binary format	CDF binary format	SWO	SWO_1100054	CDF binary format
+PS	PS	EDAM	format_3696	PS
+csfasta	csfasta	EDAM	format_3589	csfasta
+RDF/XML	RDF/XML	EDAM	format_3261	RDF/XML
+pmc	pmc	EDAM	format_1739	pmc
+PNG	PNG	EDAM	format_3603	PNG
+HMMER profile alignment (sequences versus HMMs)	HMMER profile alignment (sequences versus HMMs)	EDAM	format_1421	HMMER profile alignment (sequences versus HMMs)
+Tertiary structure format	Tertiary structure format	EDAM	format_2033	Tertiary structure format
+ISA-TAB	ISA-TAB	EDAM	format_3687	ISA-TAB
+aaindex	aaindex	EDAM	format_1504	aaindex
+nii	nii	EDAM	format_3549	nii
+EBI Application Result XML	EBI Application Result XML	EDAM	format_3157	EBI Application Result XML
+unambiguous pure	unambiguous pure	EDAM	format_1206	unambiguous pure
+geneseq	geneseq	EDAM	format_2186	geneseq
+mas5 format	mas5 format	SWO	SWO_0000615	mas5 format
+protein	protein	EDAM	format_1208	protein
+phyloXML	phyloXML	EDAM	format_3159	phyloXML
+mzData	mzData	EDAM	format_3834	mzData
+Cytoscape input file format	Cytoscape input file format	EDAM	format_3477	Cytoscape input file format
+Linked data format	Linked data format	EDAM	format_3748	Linked data format
+RSF	RSF	EDAM	format_3485	RSF
+Sequence distance matrix format	Sequence distance matrix format	EDAM	format_2067	Sequence distance matrix format
+mhd	mhd	EDAM	format_3550	mhd
+meme-motif	meme-motif	EDAM	format_1360	meme-motif
+Biological pathway or network format	Biological pathway or network format	EDAM	format_2013	Biological pathway or network format
+MCPD	MCPD	EDAM	format_3777	MCPD
+Alignment format (pair only)	Alignment format (pair only)	EDAM	format_2920	Alignment format (pair only)
+ARB	ARB	EDAM	format_3830	ARB
+dbid	dbid	EDAM	format_1926	dbid
+Sequence feature table format (XML)	Sequence feature table format (XML)	EDAM	format_2553	Sequence feature table format (XML)
+Relaxed PHYLIP Interleaved	Relaxed PHYLIP Interleaved	EDAM	format_3819	Relaxed PHYLIP Interleaved
+ProQ report format	ProQ report format	EDAM	format_1552	ProQ report format
+Ensembl variation file format	Ensembl variation file format	EDAM	format_3499	Ensembl variation file format
+Phylip continuous quantitative characters	Phylip continuous quantitative characters	EDAM	format_1430	Phylip continuous quantitative characters
+imzML metadata file	imzML metadata file	EDAM	format_3682	imzML metadata file
+completely unambiguous pure rna sequence	completely unambiguous pure rna sequence	EDAM	format_2570	completely unambiguous pure rna sequence
+ARR	ARR	SWO	SWO_1100014	ARR
+featureXML	featureXML	EDAM	format_3833	featureXML
+pdbseqres	pdbseqres	EDAM	format_1953	pdbseqres
+SVG	SVG	EDAM	format_3604	SVG
+N-Triples	N-Triples	EDAM	format_3256	N-Triples
+Individual genetic data format	Individual genetic data format	EDAM	format_3287	Individual genetic data format
+BioPAX RDF/XML format	BioPAX RDF/XML format	SWO	SWO_3000055	BioPAX RDF/XML format
+Staden format	Staden format	EDAM	format_1960	Staden format
+Taverna workflow format	Taverna workflow format	EDAM	format_1665	Taverna workflow format
+bigBed	bigBed	EDAM	format_3004	bigBed
+SBtab	SBtab	EDAM	format_3688	SBtab
+PlasMapper TextMap	PlasMapper TextMap	EDAM	format_1861	PlasMapper TextMap
+XMFA	XMFA	EDAM	format_3811	XMFA
+A2M	A2M	EDAM	format_3281	A2M
+T-Coffee format	T-Coffee format	EDAM	format_2004	T-Coffee format
+SS	SS	EDAM	format_3310	SS
+mega-seq	mega-seq	EDAM	format_1946	mega-seq
+Bibliographic reference format	Bibliographic reference format	EDAM	format_2848	Bibliographic reference format
+Data File Standard for Flow Cytometry	Data File Standard for Flow Cytometry	SWO	SWO_3000061	Data File Standard for Flow Cytometry
+Sequence feature annotation format	Sequence feature annotation format	EDAM	format_1920	Sequence feature annotation format
+ibd	ibd	EDAM	format_3839	ibd
+PDBML	PDBML	EDAM	format_1478	PDBML
+lhf	lhf	EDAM	format_1337	lhf
+chrominfo	chrominfo	EDAM	format_3587	chrominfo
+ppm	ppm	EDAM	format_3596	ppm
+docx	docx	EDAM	format_3506	docx
+SEQUEST .out file	SEQUEST .out file	EDAM	format_3758	SEQUEST .out file
+consensus	consensus	EDAM	format_1209	consensus
+Pearson format	Pearson format	EDAM	format_1954	Pearson format
+.maf	.maf	EDAM	format_3008	.maf
+ABCD format	ABCD format	EDAM	format_3708	ABCD format
+jackknifer	jackknifer	EDAM	format_1944	jackknifer
+Alignment format	Alignment format	EDAM	format_1921	Alignment format
+CiteXplore-core	CiteXplore-core	EDAM	format_1736	CiteXplore-core
+PHYLIP sequential	PHYLIP sequential	EDAM	format_1998	PHYLIP sequential
+insdxml	insdxml	EDAM	format_2185	insdxml
+Alignment format (XML)	Alignment format (XML)	EDAM	format_2555	Alignment format (XML)
+Sequence annotation track format	Sequence annotation track format	EDAM	format_2919	Sequence annotation track format
+GCG MSF	GCG MSF	EDAM	format_1947	GCG MSF
+Dirichlet distribution format	Dirichlet distribution format	EDAM	format_2074	Dirichlet distribution format
+SBMLR format	SBMLR format	SWO	SWO_0000378	SBMLR format
+YAML	YAML	EDAM	format_3750	YAML
+GCDML	GCDML	EDAM	format_3163	GCDML
+completely unambiguous pure protein	completely unambiguous pure protein	EDAM	format_2607	completely unambiguous pure protein
+ClustalW format	ClustalW format	EDAM	format_1982	ClustalW format
+quicktandem	quicktandem	EDAM	format_1295	quicktandem
+Staden experiment format	Staden experiment format	EDAM	format_1928	Staden experiment format
+ASCII format	ASCII format	SWO	SWO_3000042	ASCII format
+mase format	mase format	EDAM	format_1945	mase format
+MAGE-TAB	MAGE-TAB	EDAM	format_3162	MAGE-TAB
+protXML	protXML	EDAM	format_3747	protXML
+PSL	PSL	EDAM	format_3007	PSL
+nexus-seq	nexus-seq	EDAM	format_1949	nexus-seq
+Mol2	Mol2	EDAM	format_3816	Mol2
+IDAT	IDAT	EDAM	format_3578	IDAT
+srspair	srspair	EDAM	format_2003	srspair
+ASN.1 sequence format	ASN.1 sequence format	EDAM	format_1966	ASN.1 sequence format
+InChIKey	InChIKey	EDAM	format_1199	InChIKey
+TraML	TraML	EDAM	format_3246	TraML
+CellML	CellML	EDAM	format_3240	CellML
+Article format	Article format	EDAM	format_2020	Article format
+MaxQuant APL peaklist format	MaxQuant APL peaklist format	EDAM	format_3714	MaxQuant APL peaklist format
+NeXML	NeXML	EDAM	format_3160	NeXML
+hdf5	hdf5	EDAM	format_3590	hdf5
+psd	psd	EDAM	format_3597	psd
+Sanger inverted repeats	Sanger inverted repeats	EDAM	format_1296	Sanger inverted repeats
+giFASTA format	giFASTA format	EDAM	format_1940	giFASTA format
+xbm	xbm	EDAM	format_3598	xbm
+nrrd	nrrd	EDAM	format_3551	nrrd
+mspcrunch	mspcrunch	EDAM	format_1334	mspcrunch
+Text mining report format	Text mining report format	EDAM	format_2021	Text mining report format
+prosite-profile	prosite-profile	EDAM	format_1366	prosite-profile
+pure	pure	EDAM	format_2094	pure
+BED format	BED format	EDAM	format_3003	BED format
+ebwtl	ebwtl	EDAM	format_3491	ebwtl
+nbrf/pir	nbrf/pir	EDAM	format_1948	nbrf/pir
+Sequence cluster format (protein)	Sequence cluster format (protein)	EDAM	format_2171	Sequence cluster format (protein)
+BLAST XML v2 results format	BLAST XML v2 results format	EDAM	format_3836	BLAST XML v2 results format
+WIFF format	WIFF format	EDAM	format_3710	WIFF format
+bedgraph	bedgraph	EDAM	format_3583	bedgraph
+PDB database entry format	PDB database entry format	EDAM	format_1475	PDB database entry format
+EMBL format (XML)	EMBL format (XML)	EDAM	format_2204	EMBL format (XML)
+Phylogenetic tree format (text)	Phylogenetic tree format (text)	EDAM	format_2556	Phylogenetic tree format (text)
+GCG	GCG	EDAM	format_1935	GCG
+unambiguous sequence	unambiguous sequence	EDAM	format_2096	unambiguous sequence
+pair	pair	EDAM	format_1996	pair
+pure nucleotide	pure nucleotide	EDAM	format_1210	pure nucleotide
+restrict format	restrict format	EDAM	format_1318	restrict format
+.sql	.sql	SWO	SWO_3000085	.sql
+Sequence quality report format (text)	Sequence quality report format (text)	EDAM	format_3606	Sequence quality report format (text)
+HMMER emission and transition	HMMER emission and transition	EDAM	format_1351	HMMER emission and transition
+EMBLXML	EMBLXML	EDAM	format_2183	EMBLXML
+est2genome format	est2genome format	EDAM	format_1316	est2genome format
+FASTQ-like format	FASTQ-like format	EDAM	format_2545	FASTQ-like format
+HMMER3	HMMER3	EDAM	format_3329	HMMER3
+GSuite	GSuite	EDAM	format_3775	GSuite
+lma	lma	SWO	SWO_0000596	lma
+dssp	dssp	EDAM	format_1454	dssp
+HMMER2	HMMER2	EDAM	format_3328	HMMER2
+UniProt-like (text)	UniProt-like (text)	EDAM	format_2187	UniProt-like (text)
+R file format	R file format	EDAM	format_3554	R file format
+qcML	qcML	EDAM	format_3683	qcML
+.mgf	.mgf	SWO	SWO_3000083	.mgf
+GDE	GDE	EDAM	format_3312	GDE
+BioJSON (BioXSD)	BioJSON (BioXSD)	EDAM	format_3772	BioJSON (BioXSD)
+proBED	proBED	EDAM	format_3827	proBED
+.csv	.csv	SWO	SWO_3000082	.csv
+.nib	.nib	EDAM	format_3010	.nib
+HMM emission and transition counts format	HMM emission and transition counts format	EDAM	format_2075	HMM emission and transition counts format
+gct	gct	SWO	SWO_0000548	gct
+SRA format	SRA format	EDAM	format_3698	SRA format
+axt	axt	EDAM	format_3013	axt
+OSCAR format	OSCAR format	EDAM	format_1741	OSCAR format
+CopasiML	CopasiML	EDAM	format_3239	CopasiML
+CEL ASCII format	CEL ASCII format	SWO	SWO_3000059	CEL ASCII format
+Phylip discrete states format	Phylip discrete states format	EDAM	format_1433	Phylip discrete states format
+Sequence record format	Sequence record format	EDAM	format_1919	Sequence record format
+RDF format	RDF format	EDAM	format_2376	RDF format
+BioJSON (Jalview)	BioJSON (Jalview)	EDAM	format_3774	BioJSON (Jalview)
+GEN	GEN	EDAM	format_3812	GEN
+Gene annotation format	Gene annotation format	EDAM	format_2031	Gene annotation format
+VCF	VCF	EDAM	format_3016	VCF
+tab delimited file format	tab delimited file format	SWO	SWO_3000046	tab delimited file format
+snpeffdb	snpeffdb	EDAM	format_3624	snpeffdb
+qualsolexa	qualsolexa	EDAM	format_3608	qualsolexa
+Amino acid index format	Amino acid index format	EDAM	format_2017	Amino acid index format
+HMMER profile alignment (HMM versus sequences)	HMMER profile alignment (HMM versus sequences)	EDAM	format_1422	HMMER profile alignment (HMM versus sequences)
+BioYAML	BioYAML	EDAM	format_3773	BioYAML
+Document format	Document format	EDAM	format_3507	Document format
+Sequence variation annotation format	Sequence variation annotation format	EDAM	format_2921	Sequence variation annotation format
+GFF	GFF	EDAM	format_2305	GFF
+RDF-XML	RDF-XML	SWO	SWO_3000007	RDF-XML
+customtrack	customtrack	EDAM	format_3588	customtrack
+FASTQ-like format (text)	FASTQ-like format (text)	EDAM	format_2182	FASTQ-like format (text)
+Phylogenetic character data format	Phylogenetic character data format	EDAM	format_2036	Phylogenetic character data format
+VDB	VDB	EDAM	format_3699	VDB
+Sequence assembly format	Sequence assembly format	EDAM	format_2055	Sequence assembly format
+TreeFam format	TreeFam format	EDAM	format_1437	TreeFam format
+BTrack	BTrack	EDAM	format_3776	BTrack
+MSF	MSF	EDAM	format_3702	MSF
+DIALIGN format	DIALIGN format	EDAM	format_1392	DIALIGN format
+nucleotide	nucleotide	EDAM	format_1207	nucleotide
+unambiguous pure dna	unambiguous pure dna	EDAM	format_1214	unambiguous pure dna
+nexusnon	nexusnon	EDAM	format_1973	nexusnon
+Format (by type of data)	Format (by type of data)	EDAM	format_2350	Format (by type of data)
+Open Annotation format	Open Annotation format	EDAM	format_3784	Open Annotation format
+Protein interaction format	Protein interaction format	EDAM	format_2054	Protein interaction format
+Phylip cliques format	Phylip cliques format	EDAM	format_1434	Phylip cliques format
+.raw files	.raw files	SWO	SWO_0000682	.raw files
+Relaxed PHYLIP Sequential	Relaxed PHYLIP Sequential	EDAM	format_3820	Relaxed PHYLIP Sequential
+Experiment annotation format	Experiment annotation format	EDAM	format_3167	Experiment annotation format
+2bit	2bit	EDAM	format_3009	2bit
+MEME background Markov model	MEME background Markov model	EDAM	format_1369	MEME background Markov model
+completely unambiguous pure nucleotide	completely unambiguous pure nucleotide	EDAM	format_2568	completely unambiguous pure nucleotide
+bigWig	bigWig	EDAM	format_3006	bigWig
+daf	daf	EDAM	format_1393	daf
+TIDE TXT	TIDE TXT	EDAM	format_3835	TIDE TXT
+HTML	HTML	EDAM	format_2331	HTML
+completely unambiguous pure	completely unambiguous pure	EDAM	format_2567	completely unambiguous pure
+dat	dat	EDAM	format_1637	dat
+pure rna	pure rna	EDAM	format_1217	pure rna
+Cytoband format	Cytoband format	EDAM	format_3235	Cytoband format
+html	html	EDAM	format_2331	html
+OBO-XML	OBO-XML	EDAM	format_2550	OBO-XML
+Plain text file format	Plain text file format	SWO	SWO_3000043	Plain text file format
+taverna workflow format	taverna workflow format	EDAM	format_1665	taverna workflow format
+MathML 2.0	MathML 2.0	SWO	SWO_3000074	MathML 2.0
+FASTQ-sanger	FASTQ-sanger	EDAM	format_1932	FASTQ-sanger
+EMBL-like (XML)	EMBL-like (XML)	EDAM	format_2558	EMBL-like (XML)
+GIF	GIF	EDAM	format_3467	GIF
+CAF	CAF	EDAM	format_1630	CAF
+InterPro hits format	InterPro hits format	EDAM	format_1341	InterPro hits format
+CiteXplore-all	CiteXplore-all	EDAM	format_1737	CiteXplore-all
+Molfile	Molfile	EDAM	format_3815	Molfile
+Phylogenetic tree format (XML)	Phylogenetic tree format (XML)	EDAM	format_2557	Phylogenetic tree format (XML)
+FASTA-aln	FASTA-aln	EDAM	format_1984	FASTA-aln
+WIG	WIG	EDAM	format_3005	WIG
+igstrict	igstrict	EDAM	format_1943	igstrict
+Workflow format	Workflow format	EDAM	format_2032	Workflow format
+xgmml	xgmml	EDAM	format_3618	xgmml
+refseqp	refseqp	EDAM	format_1958	refseqp
+Notation3	Notation3	EDAM	format_3257	Notation3
+proBAM	proBAM	EDAM	format_3826	proBAM
+OWL2-XML	OWL2-XML	SWO	SWO_3000039	OWL2-XML
+K-mer countgraph	K-mer countgraph	EDAM	format_3665	K-mer countgraph
+COMBINE OMEX	COMBINE OMEX	EDAM	format_3686	COMBINE OMEX
+GCG format variant	GCG format variant	EDAM	format_3486	GCG format variant
+SAM	SAM	EDAM	format_2573	SAM
+plain text format (unformatted)	plain text format (unformatted)	EDAM	format_1964	plain text format (unformatted)
+JPG	JPG	EDAM	format_3579	JPG
+OBO Flat File Format	OBO Flat File Format	EDAM	format_2549	OBO Flat File Format
+SPARQL	SPARQL	EDAM	format_3790	SPARQL
+Matrix format	Matrix format	EDAM	format_3033	Matrix format
+HET group dictionary entry format	HET group dictionary entry format	EDAM	format_1705	HET group dictionary entry format
+dcf	dcf	SWO	SWO_0000518	dcf
+mzQuantML	mzQuantML	EDAM	format_3248	mzQuantML
+Sequence feature table format	Sequence feature table format	EDAM	format_2548	Sequence feature table format
+pdbatom	pdbatom	EDAM	format_1950	pdbatom
+medline	medline	EDAM	format_2194	medline
+CDF ASCII format	CDF ASCII format	SWO	SWO_3000057	CDF ASCII format
+DASGFF	DASGFF	EDAM	format_1978	DASGFF
+prosite-pattern	prosite-pattern	EDAM	format_1356	prosite-pattern
+Protein report format	Protein report format	EDAM	format_2062	Protein report format
+KGML	KGML	SWO	SWO_0000249	KGML
+gxl format	gxl format	SWO	SWO_0000570	gxl format
+SQLite format	SQLite format	EDAM	format_3621	SQLite format
+Database hits (sequence) format	Database hits (sequence) format	EDAM	format_2066	Database hits (sequence) format
+debug	debug	EDAM	format_1983	debug
+Sequence-MEME profile alignment	Sequence-MEME profile alignment	EDAM	format_1419	Sequence-MEME profile alignment
+debug-feat	debug-feat	EDAM	format_1979	debug-feat
+Phylip format variant	Phylip format variant	EDAM	format_2924	Phylip format variant
+match	match	EDAM	format_1990	match
+Gene expression report format	Gene expression report format	EDAM	format_2058	Gene expression report format
+MAGE-ML	MAGE-ML	EDAM	format_3161	MAGE-ML
+Manchester OWL Syntax	Manchester OWL Syntax	EDAM	format_3253	Manchester OWL Syntax
+DAS format	DAS format	EDAM	format_1967	DAS format
+BAI	BAI	EDAM	format_3327	BAI
+Stockholm format	Stockholm format	EDAM	format_1961	Stockholm format
+ENCODE peak format	ENCODE peak format	EDAM	format_3612	ENCODE peak format
+BAM	BAM	EDAM	format_2572	BAM
+Smith-Waterman format	Smith-Waterman format	EDAM	format_1335	Smith-Waterman format
+iHOP format	iHOP format	EDAM	format_1740	iHOP format
+Sequence features (repeats) format	Sequence features (repeats) format	EDAM	format_2155	Sequence features (repeats) format
+completely unambiguous pure dna	completely unambiguous pure dna	EDAM	format_2569	completely unambiguous pure dna
+Sequin format	Sequin format	EDAM	format_3701	Sequin format
+BAR	BAR	SWO	SWO_3000058	BAR
+XML	XML	EDAM	format_2332	XML
+bed12	bed12	EDAM	format_3586	bed12
+SCF	SCF	EDAM	format_1632	SCF
+Sequence record format (XML)	Sequence record format (XML)	EDAM	format_2552	Sequence record format (XML)
+Raw SCOP domain classification format	Raw SCOP domain classification format	EDAM	format_3098	Raw SCOP domain classification format
+HMMER-aln	HMMER-aln	EDAM	format_1391	HMMER-aln
+FASTQ-solexa	FASTQ-solexa	EDAM	format_1933	FASTQ-solexa
+bed6	bed6	EDAM	format_3585	bed6
+Phylogenetic continuous quantitative character format	Phylogenetic continuous quantitative character format	EDAM	format_2037	Phylogenetic continuous quantitative character format
+xls	xls	EDAM	format_3468	xls
+Not available (NAVU, nullflavor)	Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).	HL7	NAVU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU
+Temporarily unavailable (NAV, nullflavor)	Information is not available at this time but it is expected that it will be available later.	HL7	NAV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV
+Not asked (NASK, nullflavor)	This information has not been sought. (e.g., patient was not asked)	HL7	NASK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK
+Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	DER	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER
+Unknown (UNK, nullflavor)	A proper value is applicable, but not known.	HL7	UNK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK
+Trace (TRC, nullflavor)	The content is greater than zero, but too small to be quantified.	HL7	TRC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC
+Other (OTH, nullflavor)	The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).	HL7	OTH	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH
+Masked (MSK, nullflavor)	There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.	HL7	MSK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK
+Negative infinity (NINF, nullflavor)	Negative infinity of numbers.	HL7	NINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF
+Sufficient quantity (QS, nullflavor)	The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.	HL7	QS	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS
+Un-encoded (UNC, nullflavor)	The actual value has not yet been encoded within the approved value domain.	HL7	UNC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC
+Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	INV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV
+NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	NI	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI
+Not applicable (NA, nullflavor)	Known to have no proper value (e.g., last menstrual period for a male).	HL7	NA	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA
+Positive infinity (PINF, nullflavor)	Positive infinity of numbers.	HL7	PINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF
+Asked but unknown (ASKU, nullflavor)	Information was sought but not found (e.g., patient was asked but didn't know)	HL7	ASKU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU

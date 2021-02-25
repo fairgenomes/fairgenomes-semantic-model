@@ -1,12 +1,12 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
 materialidentifier	Material identifier	The unique identification of a material in a specific context.	material	string	TRUE	TRUE	TRUE	FALSE	
-belongstoperson	Belongs to person	Link to the person from whom the material was collected.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal
+collectedfromperson	Collected from person	Link to the person from whom the material was collected.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal
 belongstodiagnosis	Belongs to diagnosis	This material is part of a diagnosis c.q. clinical examination. There can be multiple diagnoses when a non-tumor material is reused as reference.	material	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_clinical
 samplingtimestamp	Sampling timestamp	Date and time at which this sample was collected.	material	datetime	FALSE	FALSE	TRUE	TRUE	
 registrationtimestamp	Registration timestamp	The act of listing or recording officially; officially qualified or enrolled.	material	datetime	FALSE	FALSE	TRUE	TRUE	
 samplingprotocol	Sampling protocol	Describes the procedure whereby biological material for an experiment is sampled.	material	text	FALSE	FALSE	TRUE	TRUE	
-deviationfromprotocol	Deviation from protocol	A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.	material	string	FALSE	FALSE	TRUE	TRUE	
-reasonfordeviation	Reason for deviation	The rationale for why a deviation from the sampling protocol has occurred.	material	string	FALSE	FALSE	TRUE	TRUE	
+samplingprotocoldeviation	Sampling protocol deviation	A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.	material	string	FALSE	FALSE	TRUE	TRUE	
+reasonforsamplingprotocoldeviation	Reason for sampling protocol deviation	The rationale for why a deviation from the sampling protocol has occurred.	material	string	FALSE	FALSE	TRUE	TRUE	
 materialtype	Material type	Material distinguishable as an identifiable class based on common qualities.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_materialtype
 anatomicalsource	Anatomical source	Biological entity that constitutes the structural organization of an individual member of a biological species.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_anatomicalsource
 sourcetype	Source type	A coded value specifying the type of tissue from which the biospecimen is derived.	material	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_material_sourcetype
