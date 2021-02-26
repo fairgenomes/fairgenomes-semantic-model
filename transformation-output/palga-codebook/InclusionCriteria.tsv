@@ -1,15 +1,15 @@
 value_en	description_en	codesystem	code	description_code
-Population representative sampling	Population representative sampling	MIABIS-2.0-22	inclusion-criteria#Population representative sampling	Population representative sampling
-Country of residence	Country of residence	MIABIS-2.0-22	inclusion-criteria#Country of residence	Country of residence
-Ethnic origin	Ethnic origin	MIABIS-2.0-22	inclusion-criteria#Ethnic origin	Ethnic origin
-Health status	Health status	MIABIS-2.0-22	inclusion-criteria#Health status	Health status
-Use of medication	Use of medication	MIABIS-2.0-22	inclusion-criteria#Use of medication	Use of medication
-Age group	Age group	MIABIS-2.0-22	inclusion-criteria#Age group	Age group
-Lifestyle/Exposure	Lifestyle/Exposure	MIABIS-2.0-22	inclusion-criteria#Lifestyle/Exposure	Lifestyle/Exposure
-Sex	Sex	MIABIS-2.0-22	inclusion-criteria#Sex	Sex
-Hospital patient	Hospital patient	MIABIS-2.0-22	inclusion-criteria#Hospital patient	Hospital patient
-Gravidity	Gravidity	MIABIS-2.0-22	inclusion-criteria#Gravidity	Gravidity
-Familial status	Familial status	MIABIS-2.0-22	inclusion-criteria#Familial status	Familial status
+Population representative sampling	Population representative sampling	MIABIS-2.0-22	inclusion-criteria:Population_representative_sampling	Population representative sampling
+Country of residence	Country of residence	MIABIS-2.0-22	inclusion-criteria:Country_of_residence	Country of residence
+Ethnic origin	Ethnic origin	MIABIS-2.0-22	inclusion-criteria:Ethnic_origin	Ethnic origin
+Health status	Health status	MIABIS-2.0-22	inclusion-criteria:Health_status	Health status
+Use of medication	Use of medication	MIABIS-2.0-22	inclusion-criteria:Use_of_medication	Use of medication
+Age group	Age group	MIABIS-2.0-22	inclusion-criteria:Age_group	Age group
+Lifestyle/Exposure	Lifestyle/Exposure	MIABIS-2.0-22	inclusion-criteria:Lifestyle/Exposure	Lifestyle/Exposure
+Sex	Sex	MIABIS-2.0-22	inclusion-criteria:Sex	Sex
+Hospital patient	Hospital patient	MIABIS-2.0-22	inclusion-criteria:Hospital_patient	Hospital patient
+Gravidity	Gravidity	MIABIS-2.0-22	inclusion-criteria:Gravidity	Gravidity
+Familial status	Familial status	MIABIS-2.0-22	inclusion-criteria:Familial_status	Familial status
 Not available (NAVU, nullflavor)	Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).	HL7	NAVU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU
 Temporarily unavailable (NAV, nullflavor)	Information is not available at this time but it is expected that it will be available later.	HL7	NAV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV
 Not asked (NASK, nullflavor)	This information has not been sought. (e.g., patient was not asked)	HL7	NASK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK
