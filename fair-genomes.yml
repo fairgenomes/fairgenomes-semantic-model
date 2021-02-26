@@ -2,7 +2,7 @@
 name: FAIR Genomes metadata schema
 description: The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.
 version: 0.3-SNAPSHOT
-date: 2021-02-05
+date: 2021-02-25
 lookupGlobalOptions: lookups/NullFlavors.txt
 modules:
     - name: Study
@@ -141,7 +141,7 @@ modules:
             description: A data item consisting of a unique identification code designating an informed consent.
             ontology: ICO:0000044 [http://purl.obolibrary.org/obo/ICO_0000044]
             values: UniqueID
-          - name: Personal identifier
+          - name: Person consenting
             description: The person (subject) whom this individual consent applies.
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Personal]
@@ -174,7 +174,7 @@ modules:
             ontology: ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]
             values: Boolean
           - name: Allow linkage
-            description: A study in which data from different sources are "linked". Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.
+            description: A study in which data from different sources are linked. Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.
             ontology: NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]
             values: Boolean
           - name: Allow recontacting
@@ -235,7 +235,7 @@ modules:
             values: Integer
           - name: Medication
             description: Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).
-            ontology: EDAM:data_3103 [http://edamontology.org/data_3103]
+            ontology: NCIT:C459 [http://purl.obolibrary.org/obo/NCIT_C459]
             values: LookupMany [lookups/Drugs.txt]
           - name: Drug regimen
             description: The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.
@@ -269,7 +269,7 @@ modules:
             description: Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).
             ontology: NCIT:C21007 [http://purl.obolibrary.org/obo/NCIT_C21007]
             values: Text
-          - name: Belongs to material
+          - name: Material used in diagnosis
             description: This diagnosis c.q. clinical examination is based on one or more sampled materials. [WORK IN PROGRESS. This field should be proper ReferenceMany to Material, but this is technically problematic due to circular dependencies.]
             ontology: SIO:000641 [http://semanticscience.org/resource/SIO_000641]
             values: String
@@ -282,7 +282,7 @@ modules:
             description: The unique identification of a material in a specific context.
             ontology: NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]
             values: UniqueID
-          - name: Belongs to person
+          - name: Collected from person
             description: Link to the person from whom the material was collected.
             ontology: SIO:000244 [http://semanticscience.org/resource/SIO_000244]
             values: ReferenceOne [Personal]
@@ -302,11 +302,11 @@ modules:
             description: Describes the procedure whereby biological material for an experiment is sampled.
             ontology: EFO:0005518 [http://www.ebi.ac.uk/efo/EFO_0005518]
             values: Text
-          - name: Deviation from protocol
+          - name: Sampling protocol deviation
             description: A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.
             ontology: NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]
             values: String
-          - name: Reason for deviation
+          - name: Reason for sampling protocol deviation
             description: The rationale for why a deviation from the sampling protocol has occurred.
             ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]
             values: String
@@ -467,11 +467,11 @@ modules:
             description: A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis.
             ontology: EDAM:data_2531 [http://edamontology.org/data_2531]
             values: Text
-          - name: Deviation from protocol
+          - name: Bioinformatic protocol deviation
             description: A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.
             ontology: NCIT:C50996 [http://purl.obolibrary.org/obo/NCIT_C50996]
             values: String
-          - name: Reason for deviation
+          - name: Reason for bioinformatic protocol deviation
             description: The rationale for why a deviation from the bioinformatic protocol has occurred.
             ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]
             values: String

@@ -1,12 +1,12 @@
 value	description	codesystem	code	iri
-Health status	Health status	MIABIS-2.0-22	inclusion-criteria#Health status	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Health status
-Hospital patient	Hospital patient	MIABIS-2.0-22	inclusion-criteria#Hospital patient	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Hospital patient
-Use of medication	Use of medication	MIABIS-2.0-22	inclusion-criteria#Use of medication	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Use of medication
-Gravidity	Gravidity	MIABIS-2.0-22	inclusion-criteria#Gravidity	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Gravidity
-Age group	Age group	MIABIS-2.0-22	inclusion-criteria#Age group	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Age group
-Familial status	Familial status	MIABIS-2.0-22	inclusion-criteria#Familial status	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Familial status
-Sex	Sex	MIABIS-2.0-22	inclusion-criteria#Sex	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Sex
-Country of residence	Country of residence	MIABIS-2.0-22	inclusion-criteria#Country of residence	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Country of residence
-Ethnic origin	Ethnic origin	MIABIS-2.0-22	inclusion-criteria#Ethnic origin	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Ethnic origin
-Population representative sampling	Population representative sampling	MIABIS-2.0-22	inclusion-criteria#Population representative sampling	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Population representative sampling
-Lifestyle/Exposure	Lifestyle/Exposure	MIABIS-2.0-22	inclusion-criteria#Lifestyle/Exposure	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria#Lifestyle/Exposure
+Health status	Health status	MIABIS-2.0-22	inclusion-criteria:Health_status	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Health_status
+Hospital patient	Hospital patient	MIABIS-2.0-22	inclusion-criteria:Hospital_patient	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Hospital_patient
+Use of medication	Use of medication	MIABIS-2.0-22	inclusion-criteria:Use_of_medication	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Use_of_medication
+Gravidity	Gravidity	MIABIS-2.0-22	inclusion-criteria:Gravidity	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Gravidity
+Age group	Age group	MIABIS-2.0-22	inclusion-criteria:Age_group	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Age_group
+Familial status	Familial status	MIABIS-2.0-22	inclusion-criteria:Familial_status	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Familial_status
+Sex	Sex	MIABIS-2.0-22	inclusion-criteria:Sex	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Sex
+Country of residence	Country of residence	MIABIS-2.0-22	inclusion-criteria:Country_of_residence	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Country_of_residence
+Ethnic origin	Ethnic origin	MIABIS-2.0-22	inclusion-criteria:Ethnic_origin	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Ethnic_origin
+Population representative sampling	Population representative sampling	MIABIS-2.0-22	inclusion-criteria:Population_representative_sampling	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Population_representative_sampling
+Lifestyle/Exposure	Lifestyle/Exposure	MIABIS-2.0-22	inclusion-criteria:Lifestyle/Exposure	https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Lifestyle/Exposure

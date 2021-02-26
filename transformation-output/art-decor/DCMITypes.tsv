@@ -1,7 +1,0 @@
-value_en	description_en	codesystem	code	description_code	iri
-Moving Image	Moving Image	Types of phenotypic data collected in a clinical setting that is potentially available upon request.	DC	MovingImage
-Still Image	Still Image	Types of phenotypic data collected in a clinical setting that is potentially available upon request.	DC	StillImage
-Dataset	Dataset	Types of phenotypic data collected in a clinical setting that is potentially available upon request.	DC	Dataset
-Sound	Sound	Types of phenotypic data collected in a clinical setting that is potentially available upon request.	DC	Sound
-Text	Text	Types of phenotypic data collected in a clinical setting that is potentially available upon request.	DC	Text
-Physical Object	Physical Object	Types of phenotypic data collected in a clinical setting that is potentially available upon request.	DC	PhysicalObject

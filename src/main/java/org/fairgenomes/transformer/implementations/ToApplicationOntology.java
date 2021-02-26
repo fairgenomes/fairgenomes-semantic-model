@@ -2,12 +2,11 @@ package org.fairgenomes.transformer.implementations;
 
 import org.eclipse.rdf4j.model.vocabulary.OWL;
 import org.eclipse.rdf4j.model.vocabulary.RDFS;
-import org.fairgenomes.transformer.datastructures.Element;
-import org.fairgenomes.transformer.datastructures.FAIRGenomes;
-import org.fairgenomes.transformer.datastructures.Lookup;
-import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.datastructures.GenericTransformer;
+import org.fairgenomes.transformer.datastructures.*;
+
 import java.io.*;
+import java.util.HashMap;
+
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.IRI;
 import static org.eclipse.rdf4j.model.util.Values.iri;
@@ -17,6 +16,7 @@ import static org.eclipse.rdf4j.model.util.Values.literal;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
 import org.eclipse.rdf4j.model.util.ModelBuilder;
+import org.fairgenomes.transformer.datastructures.Module;
 
 public class ToApplicationOntology extends GenericTransformer {
 
@@ -80,6 +80,33 @@ public class ToApplicationOntology extends GenericTransformer {
                         //bw.write("\t\t\trdf:type " + elementName + LE);
 
                     }
+
+                    /*
+                    If NoGlobals are not selected, add the global lookup options
+                    FIXME: remove code dup by merging hashmaps
+                     */
+                    if(!(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals)))
+                    {
+                        HashMap<String, Lookup> ll = fg.lookupGlobalOptionsInstance.lookups;
+                        for(String key: ll.keySet())
+                        {
+                            Lookup l = ll.get(key);
+
+                            IRI lookupInstance = iri(baseUrl, cleanLabel(moduleName));
+                            // We need to check this annotation
+                            builder.add(lookupInstance, RDF.TYPE, moduleName);
+                            builder.add(lookupInstance, RDFS.LABEL, literal(l.value));
+                            builder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
+                            try {
+                                builder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
+                            } catch (Exception exp) {
+                                System.out.println("Error in IRI = " + l.iri);
+                            }
+
+                        }
+                    }
+
+
                 } else {
                     builder.add(moduleProperty, RDF.TYPE, OWL.DATATYPEPROPERTY);
                 }
