@@ -10,17 +10,66 @@ Discover the full schema at the [Markdown overview](transformation-output/markdo
 
 The source of the schema is located at [fair-genomes.yml](fair-genomes.yml). The reference lookup lists are available at [lookups](lookups).
 
-## Technical outputs
+## Outputs
 
-Currently, the following transformation output formats are under development:
-- MOLGENIS EMX database template at [molgenis-emx](transformation-output/molgenis-emx).
-- ART-DECOR codebook at [art-decor](transformation-output/art-decor).
-- OWL-XML ontology at [owl-xml](transformation-output/owl-xml/fair-genomes.owl).
-- RDF-TTL triples at [rdf-ttl](transformation-output/rdf-ttl/fair-genomes.ttl).
+Currently, the following transformation output formats are available:
+- MOLGENIS database setup at [molgenis-emx](transformation-output/molgenis-emx).
+- Application ontology at [rdf-ttl](transformation-output/rdf-ttl).
+- Human-readable overview at [markdown](transformation-output/markdown).
+- PALGA Codebook at [palga-codebook](transformation-output/palga-codebook).
+- ART-DECOR at [art-decor](transformation-output/art-decor).
 
-## Dependencies
+## EDC support
+
+The ART-DECOR XML is uploaded to [NICTIZ](https://decor.nictiz.nl/art-decor/decor-datasets--fairgenomes) made available for [iCRF Generator](https://github.com/aderidder/iCRFGenerator).
+FAIR Genomes interoperable case report forms can be created by iCRF Generator in these EDC formats:
+
+- Castor - Step
+- Castor - Report
+- Castor - Survey
+- REDCap
+- OpenClinica 3
+
+## Technical notes
+
+### Converting to RDF formats
+The FAIR Genomes application ontology [Turtle file](transformation-output/rdf-ttl) can be converted to other RDF serialization formats including OWL-XML, RDF-XML, RDF-JSON, JSON-LD, N-Triples, TriG, TriX, Thrift, Manchester syntax and Functional syntax using [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0).
+
+For example, conversion to OWL-XML can be accomplished by running: 
 ```
-org.yaml:snakeyaml:1.27
-com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.0
-com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.0
+java -jar ont-converter.jar -i /path/to/fairgenomes-semantic-model/transformation-output/rdf-ttl/fair-genomes.ttl -if TURTLE -o fair-genomes.owl -of OWL_XML
 ```
+
+Please be aware that TTL format is highly efficient. Other RDF formats typically consume more disk space. Conversions using the FAIR Genomes TTL of 25-02-2021 as a reference results in these relative file size differences:
+
+| Format | Difference |
+|---|---|
+| TTL | 0% (reference) |
+| OWL-XML | +660% |
+| RDF-XML | +107% |
+| RDF-JSON | +176% |
+| JSON-LD | +13% |
+| N-Triples | +357% |
+| TriG | -1% |
+| TriX | +696% |
+| Thrift | +284% |
+| Manchester | +435% |
+| Functional | +300% |
+
+### ART-DECOR validation
+
+The ART-DECOR XML is validated using [Saxon](http://saxon.sourceforge.net), requiring these resources:
+```
+http://art-decor.org/ADAR/rv/DECOR.sch
+https://github.com/Schematron/stf/blob/master/iso-schematron-xslt2/iso_svrl_for_xslt2.xsl
+https://github.com/Schematron/stf/blob/master/iso-schematron-xslt2/iso_schematron_skeleton_for_saxon.xsl
+```
+The Schematron must first be converted to XSLT:
+```
+java -jar saxon-he-10.3.jar -o:DECOR.xsl -s:DECOR.sch iso_svrl_for_xslt2.xsl
+```
+The XML can then be validated as follows:
+```
+java -jar saxon-he-10.3.jar -o:warnings.xml -s:/path/to/fairgenomes-semantic-model/transformation-output/art-decor/fair-genomes_en-US.xml DECOR.xsl
+```
+Finally, check `warnings.xml` for any errors or warnings.
