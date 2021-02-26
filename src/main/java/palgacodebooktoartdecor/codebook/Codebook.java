@@ -225,7 +225,7 @@ class Codebook {
      * @param valueMap the parameter map
      */
     private void setEffectiveDate(Map<String, String> valueMap){
-        if(valueMap.containsKey("effectiveDate")) {
+        if(valueMap.containsKey("effectivedate")) {
             try {
                 effectiveDateAsDate = parseFormat.parse(valueMap.get("effectivedate"));
                 effectiveDate = outFormat.format(effectiveDateAsDate);
