@@ -21,9 +21,6 @@ package palgacodebooktoartdecor.codebook;
 
 import palgacodebooktoartdecor.artdecor.ArtDecorConcept;
 import palgacodebooktoartdecor.artdecor.ArtDecorValueSet;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Row;
 import palgacodebooktoartdecor.settings.IdentifierManager;
 import palgacodebooktoartdecor.settings.Statics;
@@ -38,7 +35,6 @@ import java.util.regex.Pattern;
  * Representation of a concept as read in the excel (a row from the Excel)
  */
 class Concept {
-    private static final Logger logger = LogManager.getLogger(Concept.class.getName());
 
     private String effectiveDate;
     private String id;
@@ -109,21 +105,21 @@ class Concept {
     private boolean isValidEntry(String codeListEntryCodesystem, String codeListEntryCode, String codeListEntryDescription_code, String codelist_ref){
         boolean isValidEntry=true;
         if(Statics.mayBeTypo(codesystem)){
-            logger.log(Level.WARN, "codebook version: {}; Codelist Entry: Codesystem found: {} in sheet {}. Did you mean {}?", versionLabel, codesystem, codelist_ref, Statics.getTypoValue(codesystem));
+            System.out.println("codebook version: "+versionLabel+"; Codelist Entry: Codesystem found: "+codesystem+" in sheet "+codelist_ref+". Did you mean "+Statics.getTypoValue(codesystem)+"?");
             isValidEntry = false;
         }
 
         // first check whether one of the mandatory fields is empty
         if(codeListEntryCode.equalsIgnoreCase("")){
-            logger.log(Level.ERROR, "codebook version: {}; Codelist Entry: Mandatory code missing in codelist {} for concept {}", versionLabel, codelist_ref, id);
+            System.out.println("codebook version: "+versionLabel+"; Codelist Entry: Mandatory code missing in codelist "+codelist_ref+" for concept " + id);
             isValidEntry = false;
         }
         if(codeListEntryCodesystem.equalsIgnoreCase("")){
-            logger.log(Level.ERROR, "codebook version: {}; Codelist Entry: Mandatory codesystem missing in codelist {} for concept {}", versionLabel, codelist_ref, id);
+            System.out.println("codebook version: "+versionLabel+"; Codelist Entry: Mandatory codesystem missing in codelist "+codelist_ref+" for concept " + id);
             isValidEntry = false;
         }
         if(codeListEntryDescription_code.equalsIgnoreCase("")){
-            logger.log(Level.ERROR, "codebook version: {}; Codelist Entry: Mandatory code description missing in codelist {} for concept {}", versionLabel, codelist_ref, id);
+            System.out.println("codebook version: "+versionLabel+"; Codelist Entry: Mandatory code description missing in codelist "+codelist_ref+" for concept " + id);
             isValidEntry = false;
         }
         return isValidEntry;

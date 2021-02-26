@@ -20,9 +20,6 @@
 package palgacodebooktoartdecor.codebook;
 
 import palgacodebooktoartdecor.artdecor.ArtDecorDataset;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -43,7 +40,6 @@ import java.util.*;
  * Class for the Excel Codebook
  */
 class Codebook {
-    private static final Logger logger = LogManager.getLogger(Codebook.class.getName());
     private static final SimpleDateFormat parseFormat = new SimpleDateFormat("yyyy-MM-dd");
     private static final SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd'T'kk:mm:ss");
     private Date effectiveDateAsDate;
@@ -235,7 +231,7 @@ class Codebook {
                 effectiveDate = outFormat.format(effectiveDateAsDate);
 
             } catch (ParseException e) {
-                logger.log(Level.ERROR, "codebook version: {}; Severe Error: The effective date is not in the correct format {}", datasetVersionLabel, valueMap.get("effectivedate"));
+                System.out.println("codebook version: "+datasetVersionLabel+"; Severe Error: The effective date is not in the correct format " + valueMap.get("effectivedate"));
                 try{
                     effectiveDateAsDate = parseFormat.parse("1900-01-01");
                     effectiveDate = outFormat.format(effectiveDateAsDate);
@@ -245,7 +241,7 @@ class Codebook {
             }
         }
         else{
-            logger.log(Level.WARN, "codebook version: {}; Warning: The Effectivedate is not available in the INFO sheet (yyyy-mm-dd). Setting it to today... ", datasetVersionLabel);
+            System.out.println("codebook version: "+datasetVersionLabel+"; Warning: The Effectivedate is not available in the INFO sheet (yyyy-mm-dd). Setting it to today... ");
             effectiveDateAsDate = new Date();
             effectiveDate = outFormat.format(effectiveDateAsDate);
         }
@@ -293,22 +289,22 @@ class Codebook {
     private boolean isValidEntry(String id, String codesystem, String code, String description_code){
         boolean isValid=true;
         if(conceptMap.containsKey(id)){
-            logger.log(Level.ERROR, "codebook version: {}; Concept: The identifier in the codebook must be unique {}", datasetVersionLabel, id);
+            System.out.println("codebook version: "+datasetVersionLabel+"; Concept: The identifier in the codebook must be unique "+ id);
             isValid = false;
         }
         if(Statics.mayBeTypo(codesystem)){
-            logger.log(Level.WARN, "codebook version: {}; Concept: Codesystem found: {} for {}. Did you mean {}?", datasetVersionLabel, codesystem, id, Statics.getTypoValue(codesystem));
+            System.out.println("codebook version: "+datasetVersionLabel+"; Concept: Codesystem found: "+codesystem+" for "+id+". Did you mean "+Statics.getTypoValue(codesystem)+"?");
         }
         if(code.equalsIgnoreCase("")){
-            logger.log(Level.ERROR, "codebook version: {}; Concept: Mandatory code missing for concept {}", datasetVersionLabel, id);
+            System.out.println("codebook version: "+datasetVersionLabel+"; Concept: Mandatory code missing for concept "+ id);
             isValid = false;
         }
         if(codesystem.equalsIgnoreCase("")){
-            logger.log(Level.ERROR, "codebook version: {}; Concept: Mandatory codesystem missing for concept {}", datasetVersionLabel, id);
+            System.out.println("codebook version: "+datasetVersionLabel+"; Concept: Mandatory codesystem missing for concept "+ id);
             isValid = false;
         }
         if(description_code.equalsIgnoreCase("")){
-            logger.log(Level.ERROR, "codebook version: {}; Concept: Mandatory code description missing for concept {}", datasetVersionLabel, id);
+            System.out.println("codebook version: "+datasetVersionLabel+"; Concept: Mandatory code description missing for concept "+ id);
             isValid = false;
         }
         return isValid;
@@ -445,7 +441,7 @@ class Codebook {
                 }
             }
         } catch (NullPointerException e){
-            logger.log(Level.ERROR, "codebook version: {}; Severe Error: Issue adding codelist, ref = {}", datasetVersionLabel, codelist_ref);
+            System.out.println("codebook version: "+datasetVersionLabel+"; Severe Error: Issue adding codelist, ref = "+codelist_ref );
         }
     }
 
@@ -465,7 +461,7 @@ class Codebook {
         try {
             return Double.parseDouble(datasetVersionLabel);
         } catch (Exception e){
-            logger.log(Level.ERROR, "Only numbers are supported as version labels, found: " + datasetVersionLabel);
+            System.out.println("Only numbers are supported as version labels, found: " + datasetVersionLabel);
             return 0;
         }
     }

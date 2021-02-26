@@ -19,8 +19,6 @@
 
 package palgacodebooktoartdecor.utils;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -33,7 +31,6 @@ import java.util.List;
  * Functions for apache poi usage
  */
 public class ExcelUtils {
-    private static final Logger logger = LogManager.getLogger(ExcelUtils.class.getName());
 
     /**
      * checks whether a row is empty
@@ -81,7 +78,7 @@ public class ExcelUtils {
         }
         else{
             // if the header isn't found something is wrong with our codebook
-            logger.error("Problem finding {} in the header of sheet {}", columnName, row.getSheet().getSheetName());
+            //logger.error("Problem finding {} in the header of sheet {}", columnName, row.getSheet().getSheetName());
         }
         return StringUtils.prepareValueForXML(cellValue);
     }
@@ -120,7 +117,7 @@ public class ExcelUtils {
             workbook.write(fileOut);
             fileOut.close();
         } catch (IOException e) {
-            logger.error("Problem creating {}. The file has NOT been created.", fileName);
+            //logger.error("Problem creating {}. The file has NOT been created.", fileName);
         }
     }
 

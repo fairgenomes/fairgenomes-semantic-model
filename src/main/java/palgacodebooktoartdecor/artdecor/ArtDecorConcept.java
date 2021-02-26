@@ -19,9 +19,6 @@
 
 package palgacodebooktoartdecor.artdecor;
 
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import palgacodebooktoartdecor.settings.Statics;
 
 import java.util.*;
@@ -30,7 +27,6 @@ import java.util.*;
  * Concept in ART-DECOR
  */
 public class ArtDecorConcept {
-    private static final Logger logger = LogManager.getLogger(ArtDecorConcept.class.getName());
 
     private String statusCode;
     private String effectiveDate;
@@ -249,43 +245,43 @@ public class ArtDecorConcept {
             else{
                 if (valueDomainType.equalsIgnoreCase("code")) {
                     if (xmlConceptTypeStatus.equalsIgnoreCase("NEW") && xmlConceptListTypeStatus.equalsIgnoreCase("NEW")) {
-                        logger.log(Level.DEBUG, "{}: New Concept, New options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: New Concept, New options", artdecorConceptId);
                         newConceptNewOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("NEW") && xmlConceptListTypeStatus.equalsIgnoreCase("SAME")) {
-                        logger.log(Level.DEBUG, "{}: New Concept, Same options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: New Concept, Same options", artdecorConceptId);
                         newConceptSameOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("NEW") && xmlConceptListTypeStatus.equalsIgnoreCase("CHANGED")) {
-                        logger.log(Level.DEBUG, "{}: New Concept, Changed options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: New Concept, Changed options", artdecorConceptId);
                         newConceptChangedOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("SAME") && xmlConceptListTypeStatus.equalsIgnoreCase("NEW")) {
-                        logger.log(Level.DEBUG, "{}: Same Concept, New options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Same Concept, New options", artdecorConceptId);
                         sameConceptNewOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("SAME") && xmlConceptListTypeStatus.equalsIgnoreCase("SAME")) {
-                        logger.log(Level.DEBUG, "{}: Same Concept, Same options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Same Concept, Same options", artdecorConceptId);
                         sameConceptSameOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("SAME") && xmlConceptListTypeStatus.equalsIgnoreCase("CHANGED")) {
-                        logger.log(Level.DEBUG, "{}: Same Concept, Changed options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Same Concept, Changed options", artdecorConceptId);
                         sameConceptChangedOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("CHANGED") && xmlConceptListTypeStatus.equalsIgnoreCase("NEW")) {
-                        logger.log(Level.DEBUG, "{}: Changed Concept, New options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Changed Concept, New options", artdecorConceptId);
                         changedConceptNewOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("CHANGED") && xmlConceptListTypeStatus.equalsIgnoreCase("SAME")) {
-                        logger.log(Level.DEBUG, "{}: Changed Concept, Same options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Changed Concept, Same options", artdecorConceptId);
                         changedConceptSameOptions(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("CHANGED") && xmlConceptListTypeStatus.equalsIgnoreCase("CHANGED")) {
-                        logger.log(Level.DEBUG, "{}: Changed Concept, Changed options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Changed Concept, Changed options", artdecorConceptId);
                         changedConceptChangedOptions(stringBuilder);
                     }
 
                 } else {
                     if (xmlConceptTypeStatus.equalsIgnoreCase("NEW")) {
-                        logger.log(Level.DEBUG, "{}: New Concept, No options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: New Concept, No options", artdecorConceptId);
                         newConceptNoValueDomain(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("SAME")) {
-                        logger.log(Level.DEBUG, "{}: Same Concept, No options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Same Concept, No options", artdecorConceptId);
                         sameConceptNoValueDomain(stringBuilder);
                     } else if (xmlConceptTypeStatus.equalsIgnoreCase("CHANGED")) {
-                        logger.log(Level.DEBUG, "{}: Changed Concept, No options", artdecorConceptId);
+                        //logger.log(Level.DEBUG, "{}: Changed Concept, No options", artdecorConceptId);
                         changedConceptNoValueDomain(stringBuilder);
                     }
                 }

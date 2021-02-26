@@ -19,9 +19,6 @@
 
 package palgacodebooktoartdecor.codebook;
 
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import palgacodebooktoartdecor.settings.RunParameters;
 
@@ -35,7 +32,6 @@ import java.util.*;
  * builds the codebooks and provides access to them
  */
 public class CodebookManager {
-    private static final Logger logger = LogManager.getLogger(CodebookManager.class.getName());
 //    private Map<Integer, Codebook> codebookMap = new TreeMap<>();
     private Map<Double, Codebook> codebookMap = new TreeMap<>();
 
@@ -59,8 +55,7 @@ public class CodebookManager {
                 String fileName = file.getFileName().toString();
                 // if the file is a proper excel file, create a codebook for it
                 if(fileName.endsWith(".xlsx") && !(fileName.startsWith("~"))) {
-                    logger.log(Level.INFO, "Reading codebook: {}", file.getFileName());
-//                    System.out.println(file.getFileName());
+                   // System.out.println("Reading codebook: " + file.getFileName());
                     Codebook codebook = Codebook.readExcel(file, runParameters);
                     codebookManager.addCodebook(codebook);
                 }
