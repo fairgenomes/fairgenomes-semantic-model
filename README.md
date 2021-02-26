@@ -30,9 +30,7 @@ FAIR Genomes interoperable case report forms can be created by iCRF Generator in
 - REDCap
 - OpenClinica 3
 
-## Technical notes
-
-### Converting to RDF formats
+## RDF formats
 The FAIR Genomes application ontology [Turtle file](transformation-output/rdf-ttl) can be converted to other RDF serialization formats including OWL-XML, RDF-XML, RDF-JSON, JSON-LD, N-Triples, TriG, TriX, Thrift, Manchester syntax and Functional syntax using [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0).
 
 For example, conversion to OWL-XML can be accomplished by running: 
@@ -40,7 +38,7 @@ For example, conversion to OWL-XML can be accomplished by running:
 java -jar ont-converter.jar -i /path/to/fairgenomes-semantic-model/transformation-output/rdf-ttl/fair-genomes.ttl -if TURTLE -o fair-genomes.owl -of OWL_XML
 ```
 
-Please be aware that TTL format is highly efficient. Other RDF formats typically consume more disk space. Conversions using the FAIR Genomes TTL of 25-02-2021 as a reference results in these relative file size differences:
+Please be aware that the original TTL format is highly efficient. Other RDF formats typically consume more disk space. Conversions using the FAIR Genomes TTL of 25-02-2021 as a reference results in the following relative file size differences:
 
 | Format | Difference |
 |---|---|
@@ -55,6 +53,8 @@ Please be aware that TTL format is highly efficient. Other RDF formats typically
 | Thrift | +284% |
 | Manchester | +435% |
 | Functional | +300% |
+
+## Technical notes
 
 ### ART-DECOR validation
 
@@ -72,4 +72,4 @@ The XML can then be validated as follows:
 ```
 java -jar saxon-he-10.3.jar -o:warnings.xml -s:/path/to/fairgenomes-semantic-model/transformation-output/art-decor/fair-genomes_en-US.xml DECOR.xsl
 ```
-Finally, check `warnings.xml` for any errors or warnings.
+Finally, `warnings.xml` is inspected for any errors or warnings.
