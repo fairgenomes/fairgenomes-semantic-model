@@ -4,6 +4,7 @@
 
 # Java compilation
 out
+target
 
 # Generated resources
 #transformation-output
