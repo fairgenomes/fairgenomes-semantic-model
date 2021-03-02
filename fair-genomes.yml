@@ -49,10 +49,10 @@ modules:
             description: An alphanumeric identifier assigned to a specific patient.
             ontology: NCIT:C164337 [http://purl.obolibrary.org/obo/NCIT_C164337]
             values: UniqueID
-          - name: Gender
-            description: Biological sex is the quality of a biological organism based on reproductive function or organs.
-            ontology: SIO:010029 [https://semanticscience.org/resource/SIO_010029]
-            values: LookupOne [lookups/Gender.txt]
+          - name: Phenotypic sex
+            description: An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics.
+            ontology: PATO:0001894 [http://purl.obolibrary.org/obo/PATO_0001894]
+            values: LookupOne [lookups/PhenotypicSex.txt]
           - name: Genotypic sex
             description: A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.
             ontology: PATO:0020000 [http://purl.obolibrary.org/obo/PATO_0020000]
