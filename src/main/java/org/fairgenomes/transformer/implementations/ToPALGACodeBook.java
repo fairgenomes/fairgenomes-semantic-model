@@ -71,19 +71,6 @@ public class ToPALGACodeBook extends GenericTransformer {
                         bw.write(l.value + "\t" + l.description + "\t" + l.codesystem + "\t" + l.code + "\t" + l.value + LE);
                     }
 
-                    /*
-                    If NoGlobals are not selected, add the global lookup options
-                     */
-                    if(!(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals)))
-                    {
-                        HashMap<String, Lookup> ll = fg.lookupGlobalOptionsInstance.lookups;
-                        for(String key: ll.keySet())
-                        {
-                            Lookup l = ll.get(key);
-                            bw.write(l.value + "\t" + l.description + "\t" + l.codesystem + "\t" + l.code + "\t" + l.iri + LE);
-                        }
-                    }
-
                     bw.flush();
                     bw.close();
 

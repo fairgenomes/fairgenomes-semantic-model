@@ -23,6 +23,8 @@ public class Element {
     public String codeSystem;
     public String code;
     public String iri;
+    public String type;
+    public int nrOfLookupsWithoutGlobals;
 
     @Override
     public String toString() {
@@ -70,7 +72,7 @@ public class Element {
     {
         if(isLookup())
         {
-            return "[" + lookup.srcFile.getName().replace(".txt", "") + "](../../lookups/"+lookup.srcFile.getName()+") lookup (" + lookup.lookups.size() + " choices)";
+            return "[" + lookup.srcFile.getName().replace(".txt", "") + "](../../lookups/"+lookup.srcFile.getName()+") lookup (" + nrOfLookupsWithoutGlobals + " choices" +(type == null ? "" : " [of type]("+type+")") +")";
         }else if(isReference())
         {
             return "Reference to instances of "+ referenceTo;

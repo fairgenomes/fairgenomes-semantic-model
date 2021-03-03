@@ -36,17 +36,17 @@ Data, facts or figures about an individual; the set of relevant items would depe
 | Element | Description | Ontology | Values |
 |---|---|---|---|
 | Personal identifier | An alphanumeric identifier assigned to a specific patient. | [NCIT:C164337](http://purl.obolibrary.org/obo/NCIT_C164337) | UniqueID |
-| Gender | Biological sex is the quality of a biological organism based on reproductive function or organs. | [SIO:010029](https://semanticscience.org/resource/SIO_010029.rdf) | [Gender](../../lookups/Gender.txt) lookup (3 choices) |
-| Genotypic sex | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | [PATO:0020000](http://purl.obolibrary.org/obo/PATO_0020000) | [GenotypicSex](../../lookups/GenotypicSex.txt) lookup (11 choices) |
-| Country of residence | Country of Residence at Enrollment. | [NCIT:C171105](http://purl.obolibrary.org/obo/NCIT_C171105) | [Countries](../../lookups/Countries.txt) lookup (249 choices) |
-| Ethnicity | The biological quality of membership in a social group based on a common heritage. | [SIO:001014](http://semanticscience.org/resource/SIO_001014) | [Countries](../../lookups/Countries.txt) lookup (249 choices) |
-| Country of birth | The country that a given person was born in. | [GENEPIO:0001094](http://purl.obolibrary.org/obo/GENEPIO_0001094) | [Countries](../../lookups/Countries.txt) lookup (249 choices) |
+| Phenotypic sex | An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics. | [PATO:0001894](http://purl.obolibrary.org/obo/PATO_0001894) | [PhenotypicSex](../../lookups/PhenotypicSex.txt) lookup (4 choices [of type](http://purl.obolibrary.org/obo/PATO_0001894)) |
+| Genotypic sex | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | [PATO:0020000](http://purl.obolibrary.org/obo/PATO_0020000) | [GenotypicSex](../../lookups/GenotypicSex.txt) lookup (11 choices [of type](http://purl.obolibrary.org/obo/PATO_0020000)) |
+| Country of residence | Country of Residence at Enrollment. | [NCIT:C171105](http://purl.obolibrary.org/obo/NCIT_C171105) | [Countries](../../lookups/Countries.txt) lookup (249 choices [of type](http://semanticscience.org/resource/SIO_000664)) |
+| Ethnicity | The biological quality of membership in a social group based on a common heritage. | [SIO:001014](http://semanticscience.org/resource/SIO_001014) | [Countries](../../lookups/Countries.txt) lookup (249 choices [of type](http://semanticscience.org/resource/SIO_000664)) |
+| Country of birth | The country that a given person was born in. | [GENEPIO:0001094](http://purl.obolibrary.org/obo/GENEPIO_0001094) | [Countries](../../lookups/Countries.txt) lookup (249 choices [of type](http://semanticscience.org/resource/SIO_000664)) |
 | Year of birth | The year in which a person was born. | [NCIT:C83164](http://purl.obolibrary.org/obo/NCIT_C83164) | Integer |
 | Inclusion status | An indicator that provides information on the current health status of a patient. | [NCIT:C166244](http://purl.obolibrary.org/obo/NCIT_C166244) | [InclusionStatus](../../lookups/InclusionStatus.txt) lookup (4 choices) |
 | Age at death | The age at which death occurred. | [NCIT:C135383](http://purl.obolibrary.org/obo/NCIT_C135383) | Integer |
 | Inclusion criteria | An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process. | [OBI:0500027](http://purl.obolibrary.org/obo/OBI_0500027) | [InclusionCriteria](../../lookups/InclusionCriteria.txt) lookup (11 choices) |
-| Primary affiliated institute | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
-| Resources in other institutes | Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
+| Primary affiliated institute | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person. | [SIO:000688](https://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
+| Resources in other institutes | Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals. | [SIO:000688](https://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
 | Participates in study | The study or studies in which this person participates. | [RO:0000056](http://purl.obolibrary.org/obo/RO_0000056) | Reference to instances of Study |
 
 ## Module: Leaflet and consent form
@@ -57,7 +57,7 @@ A document explaining all the relevant information to assist an individual in un
 | Consent form identifier | An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value. | [DC:identifier](http://purl.org/dc/terms/identifier) | UniqueID |
 | Consent form accepted date | Date of acceptance of the resource. | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | Date |
 | Consent form valid until | End date of the validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
-| Consent form creator | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688.rdf) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
+| Consent form creator | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices) |
 | Consent form version | A related resource that is a version, edition, or adaptation of the described resource. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
 | Leaflet title | A name given to the resource. | [DC:title](http://purl.org/dc/terms/title) | String |
 | Leaflet date | A point or period of time associated with an event in the lifecycle of the resource. | [DC:date](http://purl.org/dc/terms/date) | Date |
@@ -184,20 +184,20 @@ Each lookup in FAIR Genomes is supplemented with so-called 'null flavors' from H
 
 | Value | Description | Ontology |
 |---|---|---|
-| Not available | Information is not available at this time (with no expectation regarding whether it will or will not be available in the future). | [HL7:NAVU](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU) |
+| NoInformation | The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value. | [HL7:NI](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI) |
+| Invalid | The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable. | [HL7:INV](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV) |
+| Derived | An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression . | [HL7:DER](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER) |
+| Other | The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system). | [HL7:OTH](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH) |
+| Negative infinity | Negative infinity of numbers. | [HL7:NINF](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF) |
+| Positive infinity | Positive infinity of numbers. | [HL7:PINF](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF) |
+| Un-encoded | The actual value has not yet been encoded within the approved value domain. | [HL7:UNC](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC) |
+| Masked | There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information. | [HL7:MSK](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK) |
+| Not applicable | Known to have no proper value (e.g., last menstrual period for a male). | [HL7:NA](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA) |
+| Unknown | A proper value is applicable, but not known. | [HL7:UNK](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK) |
+| Asked but unknown | Information was sought but not found (e.g., patient was asked but didn't know) | [HL7:ASKU](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU) |
 | Temporarily unavailable | Information is not available at this time but it is expected that it will be available later. | [HL7:NAV](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV) |
 | Not asked | This information has not been sought. (e.g., patient was not asked) | [HL7:NASK](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK) |
-| Derived | An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression . | [HL7:DER](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER) |
-| Unknown | A proper value is applicable, but not known. | [HL7:UNK](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK) |
-| Trace | The content is greater than zero, but too small to be quantified. | [HL7:TRC](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC) |
-| Other | The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system). | [HL7:OTH](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH) |
-| Masked | There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information. | [HL7:MSK](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK) |
-| Negative infinity | Negative infinity of numbers. | [HL7:NINF](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF) |
+| Not available | Information is not available at this time (with no expectation regarding whether it will or will not be available in the future). | [HL7:NAVU](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU) |
 | Sufficient quantity | The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water. | [HL7:QS](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS) |
-| Un-encoded | The actual value has not yet been encoded within the approved value domain. | [HL7:UNC](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC) |
-| Invalid | The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable. | [HL7:INV](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV) |
-| NoInformation | The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value. | [HL7:NI](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI) |
-| Not applicable | Known to have no proper value (e.g., last menstrual period for a male). | [HL7:NA](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA) |
-| Positive infinity | Positive infinity of numbers. | [HL7:PINF](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF) |
-| Asked but unknown | Information was sought but not found (e.g., patient was asked but didn't know) | [HL7:ASKU](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU) |
+| Trace | The content is greater than zero, but too small to be quantified. | [HL7:TRC](http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC) |
 

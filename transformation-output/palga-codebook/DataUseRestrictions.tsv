@@ -1,31 +1,31 @@
 value_en	description_en	codesystem	code	description_code
 general research use	This data use limitation indicates that use is allowed for general research use for any research purpose.	DUO	0000042	general research use
-institution specific restriction	This requirement indicates that use is limited to use within an approved institution.	DUO	0000028	institution specific restriction
-age category research	An investigation concerning specific age categories.	DUO	0000034	age category research
-return to database or resource	This requirement indicates that the requestor must return derived/enriched data to the database/resource.	DUO	0000029	return to database or resource
-research control	An investigation concerning use of data as reference or control material.	DUO	0000036	research control
-genetic studies only	This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)	DUO	0000016	genetic studies only
-research specific restrictions	This data use limitation indicates that use is limited to studies of a certain research type.	DUO	0000012	research specific restrictions
-population origins or ancestry research	This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.	DUO	0000011	population origins or ancestry research
-genetic research	Biomedical research concerning genetics (i.e., the study of genes, genetic variations and heredity).	DUO	0000038	genetic research
-collaboration required	This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).	DUO	0000020	collaboration required
-ancestry research	An investigation concerning ancestry or population origins.	DUO	0000033	ancestry research
-project specific restriction	This requirement indicates that use is limited to use within an approved project.	DUO	0000027	project specific restriction
-geographical restriction	This should be coupled with an ontology term describing the geographical location the restriction applies to.	DUO	0000022	geographical restriction
 disease-specific research	This data use limitation indicates that use is allowed provided it is related to the specified disease.	DUO	0000007	disease-specific research
-user specific restriction	This requirement indicates that use is limited to use by approved users.	DUO	0000026	user specific restriction
-not for profit use only	This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.	DUO	0000018	not for profit use only
-disease category research	Biomedical research research concerning specific disease/s	DUO	0000040	disease category research
+health or medical or biomedical research	This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.	DUO	0000006	health or medical or biomedical research
+population origins or ancestry research	This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.	DUO	0000011	population origins or ancestry research
+genetic studies only	This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)	DUO	0000016	genetic studies only
 no general methods research	This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.	DUO	0000015	no general methods research
 no restriction	This data use limitation indicates there is no restriction on use.	DUO	0000004	no restriction
-publication required	This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.	DUO	0000019	publication required
-publication moratorium	This requirement indicates that requestor agrees not to publish results of studies until a specific date.	DUO	0000024	publication moratorium
-gender category research	An investigation concerning specific gender categories.	DUO	0000035	gender category research
-biomedical research	An investigation concerning health, medical, or biomedical research.	DUO	0000037	biomedical research
-ethics approval required	This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.	DUO	0000021	ethics approval required
+research specific restrictions	This data use limitation indicates that use is limited to studies of a certain research type.	DUO	0000012	research specific restrictions
 research use only	This data use limitation indicates that use is limited to research purposes (e.g., does not include its use in clinical care).	DUO	0000014	research use only
+collaboration required	This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).	DUO	0000020	collaboration required
+ethics approval required	This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.	DUO	0000021	ethics approval required
+geographical restriction	This should be coupled with an ontology term describing the geographical location the restriction applies to.	DUO	0000022	geographical restriction
+institution specific restriction	This requirement indicates that use is limited to use within an approved institution.	DUO	0000028	institution specific restriction
+not for profit use only	This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.	DUO	0000018	not for profit use only
+project specific restriction	This requirement indicates that use is limited to use within an approved project.	DUO	0000027	project specific restriction
+publication moratorium	This requirement indicates that requestor agrees not to publish results of studies until a specific date.	DUO	0000024	publication moratorium
+publication required	This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.	DUO	0000019	publication required
+return to database or resource	This requirement indicates that the requestor must return derived/enriched data to the database/resource.	DUO	0000029	return to database or resource
 time limit on use	This requirement indicates that use is approved for a specific number of months.	DUO	0000025	time limit on use
-population research	An investigation concerning a specific population group.	DUO	0000032	population research
-method development	An investigation concerning development of methods, algorithms, software or analytical tools.	DUO	0000031	method development
-health or medical or biomedical research	This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.	DUO	0000006	health or medical or biomedical research
+user specific restriction	This requirement indicates that use is limited to use by approved users.	DUO	0000026	user specific restriction
+age category research	An investigation concerning specific age categories.	DUO	0000034	age category research
+ancestry research	An investigation concerning ancestry or population origins.	DUO	0000033	ancestry research
+biomedical research	An investigation concerning health, medical, or biomedical research.	DUO	0000037	biomedical research
+disease category research	Biomedical research research concerning specific disease/s	DUO	0000040	disease category research
 drug development research	Biomedical research concerning drug development.	DUO	0000039	drug development research
+genetic research	Biomedical research concerning genetics (i.e., the study of genes, genetic variations and heredity).	DUO	0000038	genetic research
+gender category research	An investigation concerning specific gender categories.	DUO	0000035	gender category research
+method development	An investigation concerning development of methods, algorithms, software or analytical tools.	DUO	0000031	method development
+population research	An investigation concerning a specific population group.	DUO	0000032	population research
+research control	An investigation concerning use of data as reference or control material.	DUO	0000036	research control

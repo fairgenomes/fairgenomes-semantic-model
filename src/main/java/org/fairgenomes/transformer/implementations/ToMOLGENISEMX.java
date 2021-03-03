@@ -76,38 +76,24 @@ public class ToMOLGENISEMX extends GenericTransformer {
             for (Element e : m.elements) {
                 if (e.isLookup()) {
 
-                    /*
-                    Copy the original and add NullFlavors
-                     */
                     String entityName = m.technicalName + "_" + e.technicalName;
-                    File targetFile = new File(outputFolder,entityName + ".tsv");
+                    File targetFile = new File(outputFolder, entityName + ".tsv");
 
-                    Path target = Paths.get(targetFile.getAbsolutePath());
-                    Path original = e.lookup.srcFile.toPath();
-                    Files.copy(original, target, StandardCopyOption.REPLACE_EXISTING);
-
-                    MCMDbw.write("mcmd import -p "+targetFile.getName()+" --as fair-genomes_"+entityName+" --in " + PACKAGE_NAME + LE);
-
-                    /*
-                    If NoGlobals, do not add the global lookup options to the output
-                     */
-                    if(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals))
-                    {
-                        continue;
-                    }
-
-                    fw = new FileWriter(targetFile,true);
+                    fw = new FileWriter(targetFile);
                     bw = new BufferedWriter(fw);
 
-                    HashMap<String, Lookup> ll = fg.lookupGlobalOptionsInstance.lookups;
-                    for(String key: ll.keySet())
-                    {
+                    bw.write("value\tdescription\tcodesystem\tcode\tiri" + LE);
+
+                    HashMap<String, Lookup> ll = e.lookup.lookups;
+                    for (String key : ll.keySet()) {
                         Lookup l = ll.get(key);
                         bw.write(l.value + "\t" + l.description + "\t" + l.codesystem + "\t" + l.code + "\t" + l.iri + LE);
                     }
 
                     bw.flush();
                     bw.close();
+
+                    MCMDbw.write("mcmd import -p " + targetFile.getName() + " --as fair-genomes_" + entityName + " --in " + PACKAGE_NAME + LE);
 
                 }
             }

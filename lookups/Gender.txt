@@ -1,4 +1,0 @@
-value	description	codesystem	code	iri
-Male	Male is a biological sex of an individual with male sexual organs.	SIO	010048	https://semanticscience.org/resource/SIO_010048.rdf
-Intersex	Intersex is a biological sex characterised by birth with genitalia and/or secondary sexual characteristics of indeterminate sex, or which combine features of both sexes.	SIO	001405	https://semanticscience.org/resource/SIO_001405.rdf
-Female	Female is a biological sex of an individual with female sexual organs.	SIO	010052	https://semanticscience.org/resource/SIO_010052.rdf

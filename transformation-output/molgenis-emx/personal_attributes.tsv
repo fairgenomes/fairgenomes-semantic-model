@@ -1,6 +1,6 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
 personalidentifier	Personal identifier	An alphanumeric identifier assigned to a specific patient.	personal	string	TRUE	TRUE	TRUE	FALSE	
-gender	Gender	Biological sex is the quality of a biological organism based on reproductive function or organs.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_gender
+phenotypicsex	Phenotypic sex	An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_phenotypicsex
 genotypicsex	Genotypic sex	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_genotypicsex
 countryofresidence	Country of residence	Country of Residence at Enrollment.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofresidence
 ethnicity	Ethnicity	The biological quality of membership in a social group based on a common heritage.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_ethnicity

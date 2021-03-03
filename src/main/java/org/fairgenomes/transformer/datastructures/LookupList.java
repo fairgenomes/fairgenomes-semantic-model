@@ -2,6 +2,7 @@ package org.fairgenomes.transformer.datastructures;
 
 import java.io.File;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 public class LookupList {
@@ -9,7 +10,7 @@ public class LookupList {
     public File srcFile;
     public String name;
     public String technicalName;
-    public HashMap<String, Lookup> lookups;
+    public LinkedHashMap<String, Lookup> lookups; // LinkedHashMap preserves order so that global options are last
     private static final String HEADER = "value\tdescription\tcodesystem\tcode\tiri";
 
     /**
@@ -21,7 +22,7 @@ public class LookupList {
         this.srcFile = lookupListFile;
         this.name = this.srcFile.getName().substring(0,this.srcFile.getName().indexOf("."));
         this.technicalName = FAIRGenomes.toTechName(this.name);
-        lookups = new HashMap<>();
+        lookups = new LinkedHashMap<>();
 
         Scanner s = new Scanner(lookupListFile);
         boolean firstLine = true;
