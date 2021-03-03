@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	personal_phenotypicsex	Value (English)	String	TRUE	FALSE
+description	personal_phenotypicsex	Description (English)	Text	FALSE	TRUE
+codesystem	personal_phenotypicsex	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	personal_phenotypicsex	The code within the code system	String	FALSE	TRUE
+iri	personal_phenotypicsex	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
