@@ -30,6 +30,7 @@ public class ToApplicationOntology extends GenericTransformer {
         String baseUrl = "https://github.com/fairgenomes/fairgenomes-semantic-model/";
         ModelBuilder builder = new ModelBuilder();
         FileWriter fw = new FileWriter(new File(outputFolder, "fair-genomes.ttl"));
+        BufferedWriter bw = new BufferedWriter(fw);
         RDFFormat applicationOntologyFormat = RDFFormat.TURTLE;
 
         builder.setNamespace("fg", "https://fair-genomes.org/");
@@ -71,42 +72,11 @@ public class ToApplicationOntology extends GenericTransformer {
                         builder.add(lookupInstance, RDF.TYPE, moduleName);
                         builder.add(lookupInstance, RDFS.LABEL, literal(l.value));
                         builder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
-                        try {
-                            builder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
-                        } catch (Exception exp) {
-                            System.out.println("Error in IRI = " + l.iri);
-                        }
+                        builder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
                         // We need to check this annotation
                         //bw.write("\t\t\trdf:type " + elementName + LE);
 
                     }
-
-                    /*
-                    If NoGlobals are not selected, add the global lookup options
-                    FIXME: remove code dup by merging hashmaps
-                     */
-                    if(!(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals)))
-                    {
-                        HashMap<String, Lookup> ll = fg.lookupGlobalOptionsInstance.lookups;
-                        for(String key: ll.keySet())
-                        {
-                            Lookup l = ll.get(key);
-
-                            IRI lookupInstance = iri(baseUrl, cleanLabel(moduleName));
-                            // We need to check this annotation
-                            builder.add(lookupInstance, RDF.TYPE, moduleName);
-                            builder.add(lookupInstance, RDFS.LABEL, literal(l.value));
-                            builder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
-                            try {
-                                builder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
-                            } catch (Exception exp) {
-                                System.out.println("Error in IRI = " + l.iri);
-                            }
-
-                        }
-                    }
-
-
                 } else {
                     builder.add(moduleProperty, RDF.TYPE, OWL.DATATYPEPROPERTY);
                 }
@@ -114,10 +84,11 @@ public class ToApplicationOntology extends GenericTransformer {
         }
         Model model = builder.build();
         try {
-            Rio.write(model, fw, applicationOntologyFormat);
+            Rio.write(model, bw, applicationOntologyFormat);
         }
         finally {
-            fw.close();
+            bw.flush();
+            bw.close();
         }
     }
 
