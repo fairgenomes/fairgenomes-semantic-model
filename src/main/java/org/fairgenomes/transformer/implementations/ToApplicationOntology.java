@@ -51,10 +51,10 @@ public class ToApplicationOntology extends GenericTransformer {
             builder.add(moduleClass, RDFS.LABEL, literal(m.name));
             builder.add(moduleClass, DC.DESCRIPTION, literal(m.description));
 
-            for(Element e : m.elements)
-            {
+            for(Element e : m.elements) {
                 String elementName = moduleName + "_" + cleanLabel(e.name);
                 IRI moduleProperty = iri(baseUrl, cleanLabel(elementName));
+                builder.add(moduleProperty, RDF.TYPE, e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY);
                 builder.add(moduleProperty, RDFS.LABEL, literal(e.name));
                 builder.add(moduleProperty, RDFS.DOMAIN, moduleClass);
                 builder.add(moduleProperty, RDFS.ISDEFINEDBY, iri(e.iri));
@@ -62,39 +62,38 @@ public class ToApplicationOntology extends GenericTransformer {
                 // We need to check this annotation
                 //bw.write("\t\trdfs:Datatype xsd:" + e.valueTypeToRDF() + " ;" + LE);
 
-                if(e.isLookup()) {
-                    builder.add(moduleProperty, RDF.TYPE, OWL.OBJECTPROPERTY);
+                if(e.isLookup()){
                     for (String lookup : e.lookup.lookups.keySet()) {
-
                         Lookup l = e.lookup.lookups.get(lookup);
-                        IRI lookupInstance = iri(baseUrl, cleanLabel(moduleName));
-                        // We need to check this annotation
-                        builder.add(lookupInstance, RDF.TYPE, moduleName);
+                        String lookupName = elementName + "_" + cleanLabel(l.value);
+                        IRI lookupInstance = iri(baseUrl, cleanLabel(lookupName));
+                        builder.add(lookupInstance, RDF.TYPE, (e.type != null ? e.type : moduleProperty));
                         builder.add(lookupInstance, RDFS.LABEL, literal(l.value));
+                        builder.add(lookupInstance, RDFS.DOMAIN, moduleProperty);
                         builder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
                         builder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
                         // We need to check this annotation
                         //bw.write("\t\t\trdf:type " + elementName + LE);
 
                     }
-                } else {
-                    builder.add(moduleProperty, RDF.TYPE, OWL.DATATYPEPROPERTY);
                 }
             }
         }
         Model model = builder.build();
-        try {
-            Rio.write(model, bw, applicationOntologyFormat);
-        }
-        finally {
-            bw.flush();
-            bw.close();
-        }
+        Rio.write(model, bw, applicationOntologyFormat);
+        bw.flush();
+        bw.close();
     }
 
     private String cleanLabel(String label) {
         label = label.trim();
         label = label.replace(" ", "_");
+        label = label.replace("[","");
+        label = label.replace("]","");
+        label = label.replace("|","_");
+        label = label.replace("<","lt");
+        label = label.replace(">","gt");
+        label = label.replace("%","pc");
         return label;
     }
 }
