@@ -52,23 +52,23 @@ modules:
           - name: Phenotypic sex
             description: An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics.
             ontology: PATO:0001894 [http://purl.obolibrary.org/obo/PATO_0001894]
-            values: LookupOne [lookups/PhenotypicSex.txt]
+            values: LookupOne [lookups/PhenotypicSex.txt], ofType [http://purl.obolibrary.org/obo/PATO_0001894]
           - name: Genotypic sex
             description: A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.
             ontology: PATO:0020000 [http://purl.obolibrary.org/obo/PATO_0020000]
-            values: LookupOne [lookups/GenotypicSex.txt]
+            values: LookupOne [lookups/GenotypicSex.txt], ofType [http://purl.obolibrary.org/obo/PATO_0020000]
           - name: Country of residence
             description: Country of Residence at Enrollment.
             ontology: NCIT:C171105 [http://purl.obolibrary.org/obo/NCIT_C171105]
-            values: LookupOne [lookups/Countries.txt]
+            values: LookupOne [lookups/Countries.txt], ofType [http://semanticscience.org/resource/SIO_000664]
           - name: Ethnicity
             description: The biological quality of membership in a social group based on a common heritage.
             ontology: SIO:001014 [http://semanticscience.org/resource/SIO_001014]
-            values: LookupMany [lookups/Countries.txt]
+            values: LookupMany [lookups/Countries.txt], ofType [http://semanticscience.org/resource/SIO_000664]
           - name: Country of birth
             description: The country that a given person was born in.
             ontology: GENEPIO:0001094 [http://purl.obolibrary.org/obo/GENEPIO_0001094]
-            values: LookupOne [lookups/Countries.txt]
+            values: LookupOne [lookups/Countries.txt], ofType [http://semanticscience.org/resource/SIO_000664]
           - name: Year of birth
             description: The year in which a person was born.
             ontology: NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]
