@@ -2,6 +2,7 @@ package org.fairgenomes.transformer.datastructures;
 
 import java.io.File;
 import java.time.LocalDate;
+import java.util.HashMap;
 import java.util.List;
 
 public class FAIRGenomes {
@@ -60,10 +61,20 @@ public class FAIRGenomes {
                 if(e.isLookup())
                 {
                     int whiteSpaceIndex = e.values.indexOf(" ");
-                    String vt = whiteSpaceIndex > 0 ? e.values.substring(whiteSpaceIndex) : e.values;
+                    int commaIndex = e.values.indexOf(",");
+                    String vt = whiteSpaceIndex > 0 ? e.values.substring(whiteSpaceIndex, commaIndex > 0 ? commaIndex : e.values.length()) : e.values;
+                    e.type = commaIndex > 0 ? e.values.substring(commaIndex).replace(", ofType [", "").replace("]", "").trim() : null;
                     vt = vt.replace("[", "").replace("]", "").trim();
                     LookupList ll = new LookupList(new File(vt));
                     e.lookup = ll;
+                    e.nrOfLookupsWithoutGlobals = ll.lookups.size();
+
+                    /*
+                    Add the global lookups unless NoGlobals is specified
+                    */
+                    if(!(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals))) {
+                        e.lookup.lookups.putAll(lookupGlobalOptionsInstance.lookups);
+                    }
                 }
             }
         }
