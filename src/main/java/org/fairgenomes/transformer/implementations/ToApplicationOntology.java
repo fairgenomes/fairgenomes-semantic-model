@@ -53,7 +53,7 @@ public class ToApplicationOntology extends GenericTransformer {
             for(Element e : m.elements)
             {
                 String elementName = moduleName + "_" + cleanLabel(e.name);
-                IRI moduleProperty = iri(baseUrl, cleanLabel(moduleName));
+                IRI moduleProperty = iri(baseUrl, cleanLabel(elementName));
                 builder.add(moduleProperty, RDFS.LABEL, literal(e.name));
                 builder.add(moduleProperty, RDFS.DOMAIN, moduleClass);
                 builder.add(moduleProperty, RDFS.ISDEFINEDBY, iri(e.iri));
