@@ -76,6 +76,23 @@ public class FAIRGenomes {
                         e.lookup.lookups.putAll(lookupGlobalOptionsInstance.lookups);
                     }
                 }
+                else if(e.isReference())
+                {
+                    boolean found = false;
+                    for(Module mm : modules)
+                    {
+                        if(mm.name.equals(e.referenceTo))
+                        {
+                            e.type = m.iri;
+                            found = true;
+                            break;
+                        }
+                    }
+                    if(!found)
+                    {
+                        throw new Exception("Unable to find module reference '"+e.referenceTo+"' for setting value type");
+                    }
+                }
             }
         }
     }
