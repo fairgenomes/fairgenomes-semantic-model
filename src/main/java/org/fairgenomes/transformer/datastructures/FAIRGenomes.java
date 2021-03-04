@@ -2,7 +2,6 @@ package org.fairgenomes.transformer.datastructures;
 
 import java.io.File;
 import java.time.LocalDate;
-import java.util.HashMap;
 import java.util.List;
 
 public class FAIRGenomes {
@@ -15,6 +14,9 @@ public class FAIRGenomes {
     public String version;
     public LocalDate date;
     public File lookupGlobalOptions;
+    public List<Author> authors;
+    public Copyright copyright;
+    public License license;
     public List<Module> modules;
 
     /*
