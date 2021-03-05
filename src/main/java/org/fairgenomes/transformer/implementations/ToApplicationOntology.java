@@ -5,7 +5,10 @@ import org.eclipse.rdf4j.model.vocabulary.RDFS;
 import org.fairgenomes.transformer.datastructures.*;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.IRI;
@@ -26,23 +29,37 @@ public class ToApplicationOntology extends GenericTransformer {
 
     @Override
     public void start() throws Exception, IOException {
+
         // Replace this later with w3id or purl
         String baseUrl = "https://github.com/fairgenomes/fairgenomes-semantic-model/";
+
+        // Start of each file name
+        String baseFileName = "fair-genomes";
+
+        // All prefixes and namespaces
+        Map<String, String> prefixToNamespace = new HashMap<>();
+        prefixToNamespace.put("fg", "https://fair-genomes.org/");
+        prefixToNamespace.put("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
+        prefixToNamespace.put("dc", "http://purl.org/dc/elements/1.1/");
+        prefixToNamespace.put("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+        prefixToNamespace.put("owl", "http://www.w3.org/2002/07/owl#");
+        prefixToNamespace.put("xsd", "http://www.w3.org/2001/XMLSchema#");
+        prefixToNamespace.put("obo", "http://purl.obolibrary.org/obo/");
+        prefixToNamespace.put("sio", "https://semanticscience.org/resource/");
+        prefixToNamespace.put("ordo", "http://www.orpha.net/ORDO/");
+
+        // Main model builder
         ModelBuilder builder = new ModelBuilder();
-        FileWriter fw = new FileWriter(new File(outputFolder, "fair-genomes.ttl"));
+        Map<String, ModelBuilder> lookupBuilders = new HashMap<String, ModelBuilder>(); // group builders together that refer to the same lookup, i.e. Country
+        FileWriter fw = new FileWriter(new File(outputFolder, baseFileName+".ttl"));
         BufferedWriter bw = new BufferedWriter(fw);
         RDFFormat applicationOntologyFormat = RDFFormat.TURTLE;
+        for(String prefix : prefixToNamespace.keySet())
+        {
+            builder.setNamespace(prefix, prefixToNamespace.get(prefix));
+        }
 
-        builder.setNamespace("fg", "https://fair-genomes.org/");
-        builder.setNamespace("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
-        builder.setNamespace("dc", "http://purl.org/dc/elements/1.1/");
-        builder.setNamespace("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
-        builder.setNamespace("owl", "http://www.w3.org/2002/07/owl#");
-        builder.setNamespace("xsd", "http://www.w3.org/2001/XMLSchema#");
-        builder.setNamespace("obo", "http://purl.obolibrary.org/obo/");
-        builder.setNamespace("sio", "https://semanticscience.org/resource/");
-        builder.setNamespace("ordo", "http://www.orpha.net/ORDO/");
-
+        // Add modules to builder as moduleClasses
         for (Module m : fg.modules) {
             String moduleName = cleanLabel(m.name);
             IRI moduleClass = iri(baseUrl, cleanLabel(moduleName));
@@ -51,38 +68,71 @@ public class ToApplicationOntology extends GenericTransformer {
             builder.add(moduleClass, RDFS.LABEL, literal(m.name));
             builder.add(moduleClass, DC.DESCRIPTION, literal(m.description));
 
+            // Add elements to builder as moduleProperties
             for(Element e : m.elements) {
                 String elementName = moduleName + "_" + cleanLabel(e.name);
                 IRI moduleProperty = iri(baseUrl, cleanLabel(elementName));
                 builder.add(moduleProperty, RDF.TYPE, e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY);
                 builder.add(moduleProperty, RDFS.LABEL, literal(e.name));
                 builder.add(moduleProperty, RDFS.DOMAIN, moduleClass);
+                builder.add(moduleProperty, RDFS.RANGE, (e.type != null ? iri(e.type) : moduleProperty)); //TODO: remove nullcheck when model is fully annotated
                 builder.add(moduleProperty, RDFS.ISDEFINEDBY, iri(e.iri));
                 builder.add(moduleProperty, DC.DESCRIPTION, literal(e.description));
-                // We need to check this annotation
+                // We need to check this annotation // TODO value type annotation
                 //bw.write("\t\trdfs:Datatype xsd:" + e.valueTypeToRDF() + " ;" + LE);
 
                 if(e.isLookup()){
+
+                    // Group together elements with the same lookup list
+                    if(!lookupBuilders.containsKey(e.lookup.name))
+                    {
+                        ModelBuilder lookupBuilder = new ModelBuilder();
+                        lookupBuilders.put(e.lookup.name, lookupBuilder);
+                    }
+
+                    // Lookup builder
+                    ModelBuilder lookupBuilder = lookupBuilders.get(e.lookup.name);
+                    for(String prefix : prefixToNamespace.keySet())
+                    {
+                        lookupBuilder.setNamespace(prefix, prefixToNamespace.get(prefix));
+                    }
+
+                    // Add each lookup option to builder
                     for (String lookup : e.lookup.lookups.keySet()) {
                         Lookup l = e.lookup.lookups.get(lookup);
                         String lookupName = elementName + "_" + cleanLabel(l.value);
                         IRI lookupInstance = iri(baseUrl, cleanLabel(lookupName));
-                        builder.add(lookupInstance, RDF.TYPE, (e.type != null ? e.type : moduleProperty));
-                        builder.add(lookupInstance, RDFS.LABEL, literal(l.value));
-                        builder.add(lookupInstance, RDFS.DOMAIN, moduleProperty);
-                        builder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
-                        builder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
-                        // We need to check this annotation
+                        lookupBuilder.add(lookupInstance, RDF.TYPE, (e.type != null ? iri(e.type) : moduleProperty)); //TODO: remove nullcheck when model is fully annotated
+                        lookupBuilder.add(lookupInstance, RDFS.LABEL, literal(l.value));
+                        lookupBuilder.add(lookupInstance, RDFS.DOMAIN, moduleProperty);
+                        lookupBuilder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
+                        lookupBuilder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
+                        // We need to check this annotation // TODO value type annotation
                         //bw.write("\t\t\trdf:type " + elementName + LE);
 
                     }
+
                 }
             }
         }
+
+        // Write main model
         Model model = builder.build();
         Rio.write(model, bw, applicationOntologyFormat);
         bw.flush();
         bw.close();
+
+        // Write lookups as separate TTL files
+        for(String key : lookupBuilders.keySet())
+        {
+            FileWriter fwL = new FileWriter(new File(outputFolder, baseFileName+"-"+key.toLowerCase()+".ttl"));
+            BufferedWriter bwL = new BufferedWriter(fwL);
+            Model lookupModel = lookupBuilders.get(key).build();
+            Rio.write(lookupModel, bwL, applicationOntologyFormat);
+            bwL.flush();
+            bwL.close();
+        }
+
     }
 
     private String cleanLabel(String label) {
