@@ -25,10 +25,10 @@ public class TransformFGToAllFormats {
         System.out.println("Loading lookups and value types...");
         fg.loadLookupGlobalOptions();
         fg.parseElementValueTypes();
-        fg.loadElementLookups();
         fg.parseOntologies();
-        fg.setElementModules();
         fg.parseReferences();
+        fg.loadElementLookups();
+        fg.setElementModules();
         fg.createElementTechnicalNames();
 
         System.out.println("Transforming into other representations...");

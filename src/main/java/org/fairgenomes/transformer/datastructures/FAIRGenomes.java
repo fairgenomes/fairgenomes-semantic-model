@@ -2,7 +2,6 @@ package org.fairgenomes.transformer.datastructures;
 
 import java.io.File;
 import java.time.LocalDate;
-import java.util.HashMap;
 import java.util.List;
 
 public class FAIRGenomes {
@@ -15,6 +14,9 @@ public class FAIRGenomes {
     public String version;
     public LocalDate date;
     public File lookupGlobalOptions;
+    public List<Author> authors;
+    public Copyright copyright;
+    public License license;
     public List<Module> modules;
 
     /*
@@ -74,6 +76,28 @@ public class FAIRGenomes {
                     */
                     if(!(e.valueTypeEnum.equals(ValueType.LookupOne_NoGlobals) || e.valueTypeEnum.equals(ValueType.LookupMany_NoGlobals))) {
                         e.lookup.lookups.putAll(lookupGlobalOptionsInstance.lookups);
+                    }
+                }
+                else if(e.isReference())
+                {
+                    boolean found = false;
+                    for(Module mm : modules)
+                    {
+                        if(mm.name.equals(e.referenceTo))
+                        {
+                            // instances of reference fields (i.e. foreign keys) are typed as the module IRI they refer to
+                            // this is not part of any output formats, since these references do not exist yet!
+                            // this instance type is different from the field type, i.e.
+                            // 'Belongs to sequencing' has type NCIT_C25683 (Source), while instances refer to the
+                            // Sequencing module, and are therefore types as EDAM:topic_3168 (Sequencing)
+                            e.type = m.iri;
+                            found = true;
+                            break;
+                        }
+                    }
+                    if(!found)
+                    {
+                        throw new Exception("Unable to find module reference '"+e.referenceTo+"' for setting value type");
                     }
                 }
             }

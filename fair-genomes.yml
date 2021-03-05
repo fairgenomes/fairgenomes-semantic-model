@@ -4,6 +4,46 @@ description: The FAIR Genomes semantic metadata schema to power reuse of NGS dat
 version: 0.3-SNAPSHOT
 date: 2021-02-25
 lookupGlobalOptions: lookups/NullFlavors.txt
+authors:
+    - name: K. Joeri van der Velde
+      email: k.j.van.der.velde@umcg.nl
+      orcid: 0000-0002-0934-8375
+    - name: Gurnoor Singh
+      email: gurnoor1990@gmail.com
+      orcid: 0000-0003-1615-4197
+    - name: Rajaram Kaliyaperumal
+      email: R.Kaliyaperumal@lumc.nl
+      orcid: 0000-0002-1215-167X
+    - name: XiaoFeng Liao
+      email: XiaoFeng.Liao@radboudumc.nl
+      orcid: 0000-0002-4706-1084
+    - name: Esther van Enckevort
+      email: e.j.van.enckevort@rug.nl
+      orcid: 0000-0002-2440-3993
+    - name: Jeroen A.M. Beliën
+      email: jam.belien@amsterdamumc.nl
+      orcid: 0000-0002-7160-5942
+    - name: Daphne Stemkens
+      email: d.stemkens@vsop.nl
+      orcid: 0000-0003-1301-5204
+    - name: Peter A.C. 't Hoen
+      email: peter-bram.thoen@radboudumc.nl
+      orcid: 0000-0003-4450-3112
+    - name: Mariëlle E. van Gijn
+      email: m.e.van.gijn@umcg.nl
+      orcid: 0000-0002-1073-0539
+    - name: Morris A. Swertz
+      email: m.a.swertz@umcg.nl
+      orcid: 0000-0002-0979-3401
+    - name: FAIR Genomes Consortium
+      email: consortium@fairgenomes.org
+      orcid: n/a
+copyright:
+      holder: University Medical Center Groningen
+      years: 2019-2021
+license:
+      name: Attribution 4.0 International (CC BY 4.0)
+      url: https://creativecommons.org/licenses/by/4.0/
 modules:
     - name: Study
       description: A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it.
