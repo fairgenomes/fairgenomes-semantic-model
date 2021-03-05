@@ -1,0 +1,30 @@
+@prefix fg: <https://fair-genomes.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_additional_sampling>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
+  rdfs:label "For additional sampling";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
+  dc:description "Willingness to be contacted to collect additional material or data from the patient.";
+  rdfs:isDefinedBy obo:NCIT_C25662 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_incidental_findings>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
+  rdfs:label "For incidental findings";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
+  dc:description "Willingness to be contacted when new knowledge regarding incidental findings becomes available to benefit the patient.";
+  rdfs:isDefinedBy obo:ICO_0000178 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_diagnostic_question>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
+  rdfs:label "For diagnostic question";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
+  dc:description "Willingness to be contacted when new knowledge regarding the diagnostic question becomes available to benefit the patient.";
+  rdfs:isDefinedBy obo:NCIT_C15220 .

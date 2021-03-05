@@ -1,0 +1,366 @@
+@prefix fg: <https://fair-genomes.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Next_Generation_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Next Generation Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Next Generation Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C101293 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Whole_Genome_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Whole Genome Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Whole Genome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C101294 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Whole_Exome_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Whole Exome Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Whole Exome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C101295 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Large-Scale_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Large-Scale Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Large-Scale Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19645 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_454_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "454 Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "454 Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146809 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_ABI_SOLiD_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "ABI SOLiD Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "ABI SOLiD Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146811 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_BGISEQ-500_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "BGISEQ-500 Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "BGISEQ-500 Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146812 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Capillary_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Capillary Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Capillary Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146814 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Complete_Genomics_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Complete Genomics Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Complete Genomics Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146815 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Helicos_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Helicos Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Helicos Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146816 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Illumina_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Illumina Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Illumina Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146817 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Oxford_Nanopore_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Oxford Nanopore Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Oxford Nanopore Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146818 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_SMRT_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "SMRT Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "SMRT Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146819 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Immune_Repertoire_Deep_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Immune Repertoire Deep Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Immune Repertoire Deep Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C158249 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Targeted_Transcriptome_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Targeted Transcriptome Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Targeted Transcriptome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C158252 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Targeted_Genome_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Targeted Genome Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Targeted Genome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C158253 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_mRNA_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "mRNA Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "mRNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C129432 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Next_Generation_Targeted_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Next Generation Targeted Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Next Generation Targeted Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C130177 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Sequence-based_Typing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Sequence-based Typing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Sequence-based Typing";
+  rdfs:isDefinedBy obo:NCIT_C130180 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Dideoxy_Chain_Termination_DNA_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Dideoxy Chain Termination DNA Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Dideoxy Chain Termination DNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19641 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Shotgun_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Shotgun Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Shotgun Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19646 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Whole-Genome_Shotgun_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Whole-Genome Shotgun Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Whole-Genome Shotgun Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19653 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Radioactive_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Radioactive Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Radioactive Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19658 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Paired-End_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Paired-End Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Paired-End Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150423 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Second-strand_Library_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Second-strand Library Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Second-strand Library Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150426 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Unstranded_Library_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Unstranded Library Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Unstranded Library Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150427 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_First-strand_Library_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "First-strand Library Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "First-strand Library Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150428 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Whole_Transcriptome_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Whole Transcriptome Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Whole Transcriptome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C124261 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Population_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Population Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Population Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C135457 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Pyrosequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Pyrosequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Pyrosequencing";
+  rdfs:isDefinedBy obo:NCIT_C99481 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Ion_Semiconductor_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Ion Semiconductor Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Ion Semiconductor Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C125894 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Nucleic_Acid_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Nucleic Acid Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Nucleic Acid Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C18881 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_DNA_Resequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "DNA Resequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "DNA Resequencing";
+  rdfs:isDefinedBy obo:NCIT_C41254 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_DNA_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "DNA Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "DNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C153598 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_MicroRNA_Sequencing>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "MicroRNA Sequencing";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "MicroRNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C156057 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_NoInformation_(NI,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "NoInformation (NI, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Invalid_(INV,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Invalid (INV, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Derived_(DER,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Derived (DER, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Other_(OTH,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Other (OTH, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Negative_infinity_(NINF,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Positive_infinity_(PINF,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Un-encoded_(UNC,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Masked_(MSK,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Masked (MSK, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Not_applicable_(NA,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Not applicable (NA, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Unknown_(UNK,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Unknown (UNK, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Asked_but_unknown_(ASKU,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Temporarily_unavailable_(NAV,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Not_asked_(NASK,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Not asked (NASK, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Not_available_(NAVU,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Not available (NAVU, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Sufficient_quantity_(QS,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type_Trace_(TRC,_nullflavor)>
+  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  rdfs:label "Trace (TRC, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .
