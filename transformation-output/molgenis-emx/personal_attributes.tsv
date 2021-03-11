@@ -8,7 +8,6 @@ countryofbirth	Country of birth	The country that a given person was born in.	per
 yearofbirth	Year of birth	The year in which a person was born.	personal	int	FALSE	FALSE	TRUE	TRUE	
 inclusionstatus	Inclusion status	An indicator that provides information on the current health status of a patient.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_inclusionstatus
 ageatdeath	Age at death	The age at which death occurred.	personal	int	FALSE	FALSE	TRUE	TRUE	
-inclusioncriteria	Inclusion criteria	An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_inclusioncriteria
 primaryaffiliatedinstitute	Primary affiliated institute	The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_primaryaffiliatedinstitute
 resourcesinotherinstitutes	Resources in other institutes	Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_resourcesinotherinstitutes
 participatesinstudy	Participates in study	The study or studies in which this person participates.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_study

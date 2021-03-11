@@ -2,6 +2,7 @@ name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillab
 identifier	Identifier	A sample collection or study proper name that is centrally registered and unique within one framework.	study	string	TRUE	TRUE	TRUE	FALSE	
 name	Name	A proper name that designates a study.	study	string	FALSE	FALSE	TRUE	TRUE	
 description	Description	A textual entity describing a study aim or a sample collection.	study	text	FALSE	FALSE	TRUE	TRUE	
+inclusioncriteria	Inclusion criteria	An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.	study	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_study_inclusioncriteria
 principalinvestigator	Principal investigator	The principle investigtor or responsible person for a study or a sample collection.	study	string	FALSE	FALSE	TRUE	TRUE	
 contactinformation	Contact information	An email address for the purpose of contacting a sample collection or study contact person.	study	string	FALSE	FALSE	TRUE	TRUE	
 studydesign	Study design	A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.	study	text	FALSE	FALSE	TRUE	TRUE	

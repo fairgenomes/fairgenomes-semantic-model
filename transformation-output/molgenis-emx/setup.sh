@@ -1,11 +1,11 @@
 mcmd import -p sys_md_Package.tsv
+mcmd import -p study_inclusioncriteria_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_phenotypicsex_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_genotypicsex_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_countryofresidence_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_ethnicity_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_countryofbirth_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_inclusionstatus_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p personal_inclusioncriteria_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_primaryaffiliatedinstitute_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_resourcesinotherinstitutes_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p leafletandconsentform_consentformcreator_attributes.tsv --as attributes --in fair-genomes
@@ -31,13 +31,13 @@ mcmd import -p sequencing_sequencingplatform_attributes.tsv --as attributes --in
 mcmd import -p sequencing_sequencinginstrumentmodel_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_sequencingtype_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_dataformatsstored_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p study_inclusioncriteria.tsv --as fair-genomes_study_inclusioncriteria --in fair-genomes
 mcmd import -p personal_phenotypicsex.tsv --as fair-genomes_personal_phenotypicsex --in fair-genomes
 mcmd import -p personal_genotypicsex.tsv --as fair-genomes_personal_genotypicsex --in fair-genomes
 mcmd import -p personal_countryofresidence.tsv --as fair-genomes_personal_countryofresidence --in fair-genomes
 mcmd import -p personal_ethnicity.tsv --as fair-genomes_personal_ethnicity --in fair-genomes
 mcmd import -p personal_countryofbirth.tsv --as fair-genomes_personal_countryofbirth --in fair-genomes
 mcmd import -p personal_inclusionstatus.tsv --as fair-genomes_personal_inclusionstatus --in fair-genomes
-mcmd import -p personal_inclusioncriteria.tsv --as fair-genomes_personal_inclusioncriteria --in fair-genomes
 mcmd import -p personal_primaryaffiliatedinstitute.tsv --as fair-genomes_personal_primaryaffiliatedinstitute --in fair-genomes
 mcmd import -p personal_resourcesinotherinstitutes.tsv --as fair-genomes_personal_resourcesinotherinstitutes --in fair-genomes
 mcmd import -p leafletandconsentform_consentformcreator.tsv --as fair-genomes_leafletandconsentform_consentformcreator --in fair-genomes
