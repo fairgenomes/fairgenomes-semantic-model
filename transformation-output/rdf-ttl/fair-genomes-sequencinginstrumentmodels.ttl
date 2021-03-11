@@ -1,393 +1,393 @@
 @prefix fg: <https://fair-genomes.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sio: <https://semanticscience.org/resource/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ordo: <http://www.orpha.net/ORDO/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_454_Genome_Sequence_20>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "454 Genome Sequence 20";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "454 Genome Sequence 20";
   rdfs:isDefinedBy obo:OBI_0000689 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_AB_SOLiD_System>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "AB SOLiD System";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "AB SOLiD System";
   rdfs:isDefinedBy obo:OBI_0000696 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_454_Genome_Sequencer_FLX>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "454 Genome Sequencer FLX";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "454 Genome Sequencer FLX";
   rdfs:isDefinedBy obo:OBI_0000702 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_Genome_Analyzer_II>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina Genome Analyzer II";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina Genome Analyzer II";
   rdfs:isDefinedBy obo:OBI_0000703 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_HeliScope_Single_Molecule_Sequencer>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "HeliScope Single Molecule Sequencer";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "HeliScope Single Molecule Sequencer";
   rdfs:isDefinedBy obo:OBI_0000717 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Genome_Analyzer_IIx>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Genome Analyzer IIx";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Genome Analyzer IIx";
   rdfs:isDefinedBy obo:OBI_0002000 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_2000>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq 2000";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq 2000";
   rdfs:isDefinedBy obo:OBI_0002001 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_2500>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq 2500";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq 2500";
   rdfs:isDefinedBy obo:OBI_0002002 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_MiSeq>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "MiSeq";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "MiSeq";
   rdfs:isDefinedBy obo:OBI_0002003 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_3_Plus_System>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD 3 Plus System";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD 3 Plus System";
   rdfs:isDefinedBy obo:OBI_0002007 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_PacBio_RS_II>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "PacBio RS II";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "PacBio RS II";
   rdfs:isDefinedBy obo:OBI_0002012 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_NextSeq_500>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "NextSeq 500";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "NextSeq 500";
   rdfs:isDefinedBy obo:OBI_0002021 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_1000>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq 1000";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq 1000";
   rdfs:isDefinedBy obo:OBI_0002022 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_4_System>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD 4 System";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD 4 System";
   rdfs:isDefinedBy obo:OBI_0002024 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Genome_Analyzer_IIe>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Genome Analyzer IIe";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Genome Analyzer IIe";
   rdfs:isDefinedBy obo:OBI_0002027 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_3000>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq 3000";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq 3000";
   rdfs:isDefinedBy obo:OBI_0002048 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_4000>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq 4000";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq 4000";
   rdfs:isDefinedBy obo:OBI_0002049 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_4hq_System>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD 4hq System";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD 4hq System";
   rdfs:isDefinedBy obo:GENEPIO_0001928 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_5500>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD 5500";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD 5500";
   rdfs:isDefinedBy obo:GENEPIO_0001929 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_5500xl>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD 5500xl";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD 5500xl";
   rdfs:isDefinedBy obo:GENEPIO_0001930 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_PI_System>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD PI System";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD PI System";
   rdfs:isDefinedBy obo:GENEPIO_0001931 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_System_2.0>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD System 2.0";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD System 2.0";
   rdfs:isDefinedBy obo:GENEPIO_0001932 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_SOLiD_System_3.0>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "SOLiD System 3.0";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "SOLiD System 3.0";
   rdfs:isDefinedBy obo:GENEPIO_0001933 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Ion_Torrent_PGM>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Ion Torrent PGM";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Ion Torrent PGM";
   rdfs:isDefinedBy obo:GENEPIO_0001935 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_454_Genome_Sequencer_FLX_Titanium>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "454 Genome Sequencer FLX Titanium";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "454 Genome Sequencer FLX Titanium";
   rdfs:isDefinedBy obo:GENEPIO_0001936 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_454_Genome_Sequencer>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "454 Genome Sequencer";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "454 Genome Sequencer";
   rdfs:isDefinedBy obo:GENEPIO_0001937 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_454_Genome_Sequencer_Junior>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "454 Genome Sequencer Junior";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "454 Genome Sequencer Junior";
   rdfs:isDefinedBy obo:GENEPIO_0001938 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_Sequencer>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq Sequencer";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq Sequencer";
   rdfs:isDefinedBy obo:GENEPIO_0001939 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_X_Five>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq X Five";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq X Five";
   rdfs:isDefinedBy fg:SIM1 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_HiSeq_X_Ten>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina HiSeq X Ten";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina HiSeq X Ten";
   rdfs:isDefinedBy fg:SIM2 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_MiniSeq>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina MiniSeq";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina MiniSeq";
   rdfs:isDefinedBy fg:SIM3 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_iSeq_100>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina iSeq 100";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina iSeq 100";
   rdfs:isDefinedBy fg:SIM4 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_NextSeq_550>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina NextSeq 550";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina NextSeq 550";
   rdfs:isDefinedBy fg:SIM5 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_NextSeq_2000>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina NextSeq 2000";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina NextSeq 2000";
   rdfs:isDefinedBy fg:SIM6 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_NovaSeq_6000>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina NovaSeq 6000";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina NovaSeq 6000";
   rdfs:isDefinedBy fg:SIM7 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_NextSeq_1000>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina NextSeq 1000";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina NextSeq 1000";
   rdfs:isDefinedBy fg:SIM8 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_NextSeq_550Dx>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina NextSeq 550Dx";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina NextSeq 550Dx";
   rdfs:isDefinedBy fg:SIM9 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_MiSeqDx>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina MiSeqDx";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina MiSeqDx";
   rdfs:isDefinedBy fg:SIM10 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Illumina_MiSeq_FGx>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Illumina MiSeq FGx";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Illumina MiSeq FGx";
   rdfs:isDefinedBy fg:SIM11 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_NoInformation_(NI,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "NoInformation (NI, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Invalid_(INV,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Invalid (INV, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Derived_(DER,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Derived (DER, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Other_(OTH,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Other (OTH, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Negative_infinity_(NINF,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Negative infinity (NINF, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Positive_infinity_(PINF,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Positive infinity (PINF, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Un-encoded_(UNC,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Un-encoded (UNC, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Masked_(MSK,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Masked (MSK, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Not_applicable_(NA,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Not applicable (NA, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Unknown_(UNK,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Unknown (UNK, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Asked_but_unknown_(ASKU,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Temporarily_unavailable_(NAV,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Not_asked_(NASK,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Not asked (NASK, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Not_available_(NAVU,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Not available (NAVU, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Sufficient_quantity_(QS,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model_Trace_(TRC,_nullflavor)>
-  a <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
+  a "http://purl.obolibrary.org/obo/GENEPIO_0001921";
   rdfs:label "Trace (TRC, nullflavor)";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   dc:description "The content is greater than zero, but too small to be quantified.";

@@ -1,0 +1,149 @@
+@prefix fg: <https://fair-genomes.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Normal>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Normal";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "The area within a sample that is represented by non-tumor tissue.";
+  rdfs:isDefinedBy obo:NCIT_C166238 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Organoid>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Organoid";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "A three dimensional mass comprised of a cultured cell or tissue sample that resembles an in vivo tissue or organ. Organoids are grown in vitro from a combination of cells or tissue fragments cultured in medium containing a variety of biochemical factors.";
+  rdfs:isDefinedBy obo:NCIT_C172259 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Tumor>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Tumor";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "A tumor sample, or entire tumor that is removed for microscopic examination.";
+  rdfs:isDefinedBy obo:NCIT_C18009 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Tumoroid>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Tumoroid";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "A three dimensional mass comprised of a cultured tumor cell or tumor sample that resembles an in vivo tumor. Tumoroid are grown in vitro from a combination of cells or tissue fragments cultured in medium containing a variety of biochemical factors.";
+  rdfs:isDefinedBy fg:Tumoroid .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_NoInformation_(NI,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "NoInformation (NI, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Invalid_(INV,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Invalid (INV, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Derived_(DER,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Derived (DER, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Other_(OTH,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Other (OTH, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Negative_infinity_(NINF,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Positive_infinity_(PINF,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Un-encoded_(UNC,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Masked_(MSK,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Masked (MSK, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Not_applicable_(NA,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Not applicable (NA, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Unknown_(UNK,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Unknown (UNK, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Asked_but_unknown_(ASKU,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Temporarily_unavailable_(NAV,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Not_asked_(NASK,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Not asked (NASK, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Not_available_(NAVU,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Not available (NAVU, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Sufficient_quantity_(QS,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state_Trace_(TRC,_nullflavor)>
+  a "http://purl.obolibrary.org/obo/NCIT_C164617";
+  rdfs:label "Trace (TRC, nullflavor)";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>;
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

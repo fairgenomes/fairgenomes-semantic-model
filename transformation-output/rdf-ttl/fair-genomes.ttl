@@ -16,21 +16,18 @@
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Identifier> a owl:DatatypeProperty;
   rdfs:label "Identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Identifier>;
   rdfs:isDefinedBy obo:OMIABIS_0000006;
   dc:description "A sample collection or study proper name that is centrally registered and unique within one framework." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Name> a owl:DatatypeProperty;
   rdfs:label "Name";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Name>;
   rdfs:isDefinedBy obo:OMIABIS_0000037;
   dc:description "A proper name that designates a study." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Description> a owl:DatatypeProperty;
   rdfs:label "Description";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Description>;
   rdfs:isDefinedBy obo:OMIABIS_0000036;
   dc:description "A textual entity describing a study aim or a sample collection." .
 
@@ -38,7 +35,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Principal investigator";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Principal_investigator>;
   rdfs:isDefinedBy obo:OMIABIS_0000100;
   dc:description "The principle investigtor or responsible person for a study or a sample collection." .
 
@@ -46,21 +42,18 @@
   a owl:DatatypeProperty;
   rdfs:label "Contact information";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Contact_information>;
   rdfs:isDefinedBy obo:OMIABIS_0000035;
   dc:description "An email address for the purpose of contacting a sample collection or study contact person." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Study_design> a owl:DatatypeProperty;
   rdfs:label "Study design";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Study_design>;
   rdfs:isDefinedBy obo:OBI_0500000;
   dc:description "A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Start_date> a owl:DatatypeProperty;
   rdfs:label "Start date";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Start_date>;
   rdfs:isDefinedBy obo:NCIT_C69208;
   dc:description "The date on which a study began." .
 
@@ -68,7 +61,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Completion date";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Completion_date>;
   rdfs:isDefinedBy obo:NCIT_C142702;
   dc:description "The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date." .
 
@@ -81,7 +73,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Personal identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Personal_identifier>;
   rdfs:isDefinedBy obo:NCIT_C164337;
   dc:description "An alphanumeric identifier assigned to a specific patient." .
 
@@ -89,46 +80,45 @@
   a owl:ObjectProperty;
   rdfs:label "Phenotypic sex";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range obo:PATO_0001894;
   rdfs:isDefinedBy obo:PATO_0001894;
-  dc:description "An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics." .
+  dc:description "An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics.";
+  rdfs:range obo:PATO_0001894 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Genotypic_sex>
   a owl:ObjectProperty;
   rdfs:label "Genotypic sex";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range obo:PATO_0020000;
   rdfs:isDefinedBy obo:PATO_0020000;
-  dc:description "A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes." .
+  dc:description "A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.";
+  rdfs:range obo:PATO_0020000 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Country_of_residence>
   a owl:ObjectProperty;
   rdfs:label "Country of residence";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <http://semanticscience.org/resource/SIO_000664>;
   rdfs:isDefinedBy obo:NCIT_C171105;
-  dc:description "Country of Residence at Enrollment." .
+  dc:description "Country of Residence at Enrollment.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000664> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Ethnicity> a owl:ObjectProperty;
   rdfs:label "Ethnicity";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <http://semanticscience.org/resource/SIO_000664>;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_001014>;
-  dc:description "The biological quality of membership in a social group based on a common heritage." .
+  dc:description "The biological quality of membership in a social group based on a common heritage.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000664> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Country_of_birth>
   a owl:ObjectProperty;
   rdfs:label "Country of birth";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <http://semanticscience.org/resource/SIO_000664>;
   rdfs:isDefinedBy obo:GENEPIO_0001094;
-  dc:description "The country that a given person was born in." .
+  dc:description "The country that a given person was born in.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000664> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Year_of_birth>
   a owl:DatatypeProperty;
   rdfs:label "Year of birth";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Year_of_birth>;
   rdfs:isDefinedBy obo:NCIT_C83164;
   dc:description "The year in which a person was born." .
 
@@ -136,15 +126,14 @@
   a owl:ObjectProperty;
   rdfs:label "Inclusion status";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status>;
   rdfs:isDefinedBy obo:NCIT_C166244;
-  dc:description "An indicator that provides information on the current health status of a patient." .
+  dc:description "An indicator that provides information on the current health status of a patient.";
+  rdfs:range obo:NCIT_C19332 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Age_at_death>
   a owl:DatatypeProperty;
   rdfs:label "Age at death";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Age_at_death>;
   rdfs:isDefinedBy obo:NCIT_C135383;
   dc:description "The age at which death occurred." .
 
@@ -152,31 +141,30 @@
   a owl:ObjectProperty;
   rdfs:label "Inclusion criteria";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_criteria>;
   rdfs:isDefinedBy obo:OBI_0500027;
-  dc:description "An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process." .
+  dc:description "An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.";
+  rdfs:range obo:NCIT_C47953 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Primary_affiliated_institute>
   a owl:ObjectProperty;
   rdfs:label "Primary affiliated institute";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Primary_affiliated_institute>;
   rdfs:isDefinedBy sio:SIO_000688;
-  dc:description "The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person." .
+  dc:description "The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Resources_in_other_institutes>
   a owl:ObjectProperty;
   rdfs:label "Resources in other institutes";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Resources_in_other_institutes>;
   rdfs:isDefinedBy sio:SIO_000688;
-  dc:description "Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals." .
+  dc:description "Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Participates_in_study>
   a owl:ObjectProperty;
   rdfs:label "Participates in study";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:range obo:NCIT_C90492;
   rdfs:isDefinedBy obo:RO_0000056;
   dc:description "The study or studies in which this person participates." .
 
@@ -190,7 +178,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Consent form identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Consent_form_identifier>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/identifier>;
   dc:description "An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value." .
 
@@ -198,7 +185,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Consent form accepted date";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Consent_form_accepted_date>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/dateAccepted>;
   dc:description "Date of acceptance of the resource." .
 
@@ -206,7 +192,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Consent form valid until";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Consent_form_valid_until>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/valid>;
   dc:description "End date of the validity of a resource." .
 
@@ -214,15 +199,14 @@
   a owl:ObjectProperty;
   rdfs:label "Consent form creator";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Consent_form_creator>;
   rdfs:isDefinedBy sio:SIO_000688;
-  dc:description "Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective." .
+  dc:description "Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Consent_form_version>
   a owl:DatatypeProperty;
   rdfs:label "Consent form version";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Consent_form_version>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/hasVersion>;
   dc:description "A related resource that is a version, edition, or adaptation of the described resource." .
 
@@ -230,7 +214,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Leaflet title";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Leaflet_title>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/title>;
   dc:description "A name given to the resource." .
 
@@ -238,7 +221,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Leaflet date";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Leaflet_date>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/date>;
   dc:description "A point or period of time associated with an event in the lifecycle of the resource." .
 
@@ -246,7 +228,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Leaflet version";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Leaflet_and_consent_form_Leaflet_version>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/hasVersion>;
   dc:description "A related resource that is a version, edition, or adaptation of the described resource." .
 
@@ -259,7 +240,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Individual consent identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Individual_consent_identifier>;
   rdfs:isDefinedBy obo:ICO_0000044;
   dc:description "A data item consisting of a unique identification code designating an informed consent." .
 
@@ -267,7 +247,6 @@
   a owl:ObjectProperty;
   rdfs:label "Person consenting";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range obo:NCIT_C16735;
   rdfs:isDefinedBy obo:IAO_0000136;
   dc:description "The person (subject) whom this individual consent applies." .
 
@@ -275,7 +254,6 @@
   a owl:ObjectProperty;
   rdfs:label "Consent form used";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range obo:NCIT_C16735;
   rdfs:isDefinedBy obo:IAO_0000136;
   dc:description "The informed consent form that was signed." .
 
@@ -283,15 +261,14 @@
   a owl:ObjectProperty;
   rdfs:label "Collected by";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Collected_by>;
   rdfs:isDefinedBy obo:NCIT_C45262;
-  dc:description "Indicates the person, group, or institution who performed the collection act." .
+  dc:description "Indicates the person, group, or institution who performed the collection act.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Signing_date>
   a owl:DatatypeProperty;
   rdfs:label "Signing date";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Signing_date>;
   rdfs:isDefinedBy obo:ICO_0000036;
   dc:description "A date specification that designates when an informed consent form was signed." .
 
@@ -299,7 +276,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Valid from";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Valid_from>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/valid>;
   dc:description "Starting date of the validity of a resource." .
 
@@ -307,7 +283,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Valid until";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Valid_until>;
   rdfs:isDefinedBy <http://purl.org/dc/terms/valid>;
   dc:description "End date of the validity of a resource." .
 
@@ -315,7 +290,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Represented by";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Represented_by>;
   rdfs:isDefinedBy obo:NCIT_C51828;
   dc:description "An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research." .
 
@@ -323,7 +297,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Allow research";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_research>;
   rdfs:isDefinedBy obo:ICO_0000064;
   dc:description "Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient." .
 
@@ -331,7 +304,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Allow linkage";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_linkage>;
   rdfs:isDefinedBy obo:NCIT_C15424;
   dc:description "A study in which data from different sources are linked. Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone." .
 
@@ -339,36 +311,34 @@
   a owl:ObjectProperty;
   rdfs:label "Allow recontacting";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
   rdfs:isDefinedBy obo:NCIT_C25737;
-  dc:description "The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances." .
+  dc:description "The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.";
+  rdfs:range obo:NCIT_C47953 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>
   a owl:ObjectProperty;
   rdfs:label "Restricted to";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   rdfs:isDefinedBy obo:DUO_0000001;
-  dc:description "E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location." .
+  dc:description "E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.";
+  rdfs:range obo:NCIT_C53452 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restriction_specification>
   a owl:DatatypeProperty;
   rdfs:label "Restriction specification";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restriction_specification>;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000090>;
   dc:description "Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical> a owl:Class;
-  rdfs:isDefinedBy obo:NCIT_C15783;
+  rdfs:isDefinedBy obo:NCIT_C25398;
   rdfs:label "Clinical";
-  dc:description "Data obtained through patient examination or treatment." .
+  dc:description "Relating to the examination and treatment of patients dependent on direct observation." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Clinical_identifier>
   a owl:DatatypeProperty;
   rdfs:label "Clinical identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Clinical_identifier>;
   rdfs:isDefinedBy obo:NCIT_C87853;
   dc:description "A character or string used to name, or characterize a clinical events reference." .
 
@@ -376,54 +346,52 @@
   a owl:ObjectProperty;
   rdfs:label "Belongs to person";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range obo:NCIT_C15783;
   rdfs:isDefinedBy obo:IAO_0000136;
   dc:description "Link to the person whom the clinical information is about." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotype> a owl:ObjectProperty;
   rdfs:label "Phenotype";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotype>;
   rdfs:isDefinedBy obo:NCIT_C16977;
-  dc:description "The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease." .
+  dc:description "The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease.";
+  rdfs:range obo:NCIT_C16977 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Unobserved_phenotype>
   a owl:ObjectProperty;
   rdfs:label "Unobserved phenotype";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Unobserved_phenotype>;
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/HL7/C0442737>;
-  dc:description "Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance." .
+  dc:description "Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance.";
+  rdfs:range obo:NCIT_C16977 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>
   a owl:ObjectProperty;
   rdfs:label "Phenotypic data available";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
-  rdfs:isDefinedBy <http://purl.org/dc/terms/DCMIType>;
-  dc:description "Types of phenotypic data collected in a clinical setting that is potentially available upon request." .
+  rdfs:isDefinedBy obo:NCIT_C15783;
+  dc:description "Types of phenotypic data collected in a clinical setting that is potentially available upon request.";
+  rdfs:range <http://purl.org/dc/terms/DCMIType> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Clinical_diagnosis>
   a owl:ObjectProperty;
   rdfs:label "Clinical diagnosis";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Clinical_diagnosis>;
   rdfs:isDefinedBy obo:NCIT_C15607;
-  dc:description "A diagnosis made from a study of the signs and symptoms of a disease." .
+  dc:description "A diagnosis made from a study of the signs and symptoms of a disease.";
+  rdfs:range <http://semanticscience.org/resource/SIO_010299> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Molecular_diagnosis_gene>
   a owl:ObjectProperty;
   rdfs:label "Molecular diagnosis gene";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Molecular_diagnosis_gene>;
   rdfs:isDefinedBy obo:NCIT_C20826;
-  dc:description "Gene affected by pathogenic variation that is causal for disease of the patient." .
+  dc:description "Gene affected by pathogenic variation that is causal for disease of the patient.";
+  rdfs:range obo:NCIT_C16612 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Molecular_diagnosis_other>
   a owl:DatatypeProperty;
   rdfs:label "Molecular diagnosis other";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Molecular_diagnosis_other>;
   rdfs:isDefinedBy obo:NCIT_C20826;
   dc:description "Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved." .
 
@@ -431,7 +399,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Age at diagnosis";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Age_at_diagnosis>;
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/423493009>;
   dc:description "The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer." .
 
@@ -439,7 +406,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Age at last screening";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Age_at_last_screening>;
   rdfs:isDefinedBy obo:NCIT_C81258;
   dc:description "Age of the patient at the moment of the most recent screening." .
 
@@ -447,15 +413,14 @@
     owl:ObjectProperty;
   rdfs:label "Medication";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Medication>;
   rdfs:isDefinedBy obo:NCIT_C459;
-  dc:description "Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC)." .
+  dc:description "Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).";
+  rdfs:range <http://edamontology.org/data_3103> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Drug_regimen>
   a owl:DatatypeProperty;
   rdfs:label "Drug regimen";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Drug_regimen>;
   rdfs:isDefinedBy obo:NCIT_C142516;
   dc:description "The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration." .
 
@@ -463,23 +428,22 @@
   a owl:ObjectProperty;
   rdfs:label "Family members affected";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected>;
   rdfs:isDefinedBy obo:HP_0032320;
-  dc:description "This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband)." .
+  dc:description "This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband).";
+  rdfs:range obo:NCIT_C41256 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced>
   a owl:ObjectProperty;
   rdfs:label "Family members sequenced";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced>;
   rdfs:isDefinedBy obo:NCIT_C71384;
-  dc:description "A person related by descent rather than by marriage or law that was also sequenced." .
+  dc:description "A person related by descent rather than by marriage or law that was also sequenced.";
+  rdfs:range obo:NCIT_C41256 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Consanguinity>
   a owl:DatatypeProperty;
   rdfs:label "Consanguinity";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Consanguinity>;
   rdfs:isDefinedBy obo:GSSO_007578;
   dc:description "Information on whether the patient is a child from two family members who are second cousins or closer." .
 
@@ -487,15 +451,14 @@
   a owl:ObjectProperty;
   rdfs:label "Medical history";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Medical_history>;
   rdfs:isDefinedBy obo:NCIT_C18772;
-  dc:description "A record of a person's background regarding health, occurrence of disease events and surgical procedures." .
+  dc:description "A record of a person's background regarding health, occurrence of disease events and surgical procedures.";
+  rdfs:range <http://scdontology.h3abionet.org/ontology/SCDO_1000093> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Age_of_onset>
   a owl:DatatypeProperty;
   rdfs:label "Age of onset";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Age_of_onset>;
   rdfs:isDefinedBy ordo:Orphanet_C023;
   dc:description "Age of onset of clinical manifestations related to a clinical entity." .
 
@@ -503,7 +466,6 @@
   a owl:DatatypeProperty;
   rdfs:label "First contact";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_First_contact>;
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/MTHU048806>;
   dc:description "First contact with specialised center in context of disease or inclusion." .
 
@@ -511,7 +473,6 @@
     owl:DatatypeProperty;
   rdfs:label "Functioning";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Functioning>;
   rdfs:isDefinedBy obo:NCIT_C21007;
   dc:description "Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF)." .
 
@@ -519,7 +480,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Material used in diagnosis";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Material_used_in_diagnosis>;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000641>;
   dc:description "This diagnosis c.q. clinical examination is based on one or more sampled materials. [WORK IN PROGRESS. This field should be proper ReferenceMany to Material, but this is technically problematic due to circular dependencies.]" .
 
@@ -532,7 +492,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Material identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Material_identifier>;
   rdfs:isDefinedBy obo:NCIT_C93400;
   dc:description "The unique identification of a material in a specific context." .
 
@@ -540,7 +499,6 @@
   a owl:ObjectProperty;
   rdfs:label "Collected from person";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range obo:NCIT_C43376;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000244>;
   dc:description "Link to the person from whom the material was collected." .
 
@@ -548,7 +506,6 @@
   a owl:ObjectProperty;
   rdfs:label "Belongs to diagnosis";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range obo:NCIT_C43376;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000068>;
   dc:description "This material is part of a diagnosis c.q. clinical examination. There can be multiple diagnoses when a non-tumor material is reused as reference." .
 
@@ -556,7 +513,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Sampling timestamp";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Sampling_timestamp>;
   rdfs:isDefinedBy <http://www.ebi.ac.uk/efo/EFO_0000689>;
   dc:description "Date and time at which this sample was collected." .
 
@@ -564,7 +520,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Registration timestamp";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Registration_timestamp>;
   rdfs:isDefinedBy obo:NCIT_C25646;
   dc:description "The act of listing or recording officially; officially qualified or enrolled." .
 
@@ -572,7 +527,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Sampling protocol";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Sampling_protocol>;
   rdfs:isDefinedBy <http://www.ebi.ac.uk/efo/EFO_0005518>;
   dc:description "Describes the procedure whereby biological material for an experiment is sampled." .
 
@@ -580,7 +534,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Sampling protocol deviation";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Sampling_protocol_deviation>;
   rdfs:isDefinedBy obo:NCIT_C50996;
   dc:description "A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor." .
 
@@ -588,47 +541,45 @@
   a owl:DatatypeProperty;
   rdfs:label "Reason for sampling protocol deviation";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Reason_for_sampling_protocol_deviation>;
   rdfs:isDefinedBy obo:NCIT_C93529;
   dc:description "The rationale for why a deviation from the sampling protocol has occurred." .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Material_type>
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Biospecimen_type>
   a owl:ObjectProperty;
-  rdfs:label "Material type";
+  rdfs:label "Biospecimen type";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Material_type>;
-  rdfs:isDefinedBy obo:NCIT_C25284;
-  dc:description "Material distinguishable as an identifiable class based on common qualities." .
+  rdfs:isDefinedBy obo:NCIT_C70713;
+  dc:description "The type of a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. This includes particular types of cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory substances.";
+  rdfs:range obo:NCIT_C70713 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Anatomical_source>
   a owl:ObjectProperty;
   rdfs:label "Anatomical source";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Anatomical_source>;
   rdfs:isDefinedBy obo:UBERON_0001062;
-  dc:description "Biological entity that constitutes the structural organization of an individual member of a biological species." .
+  dc:description "Biological entity that constitutes the structural organization of an individual member of a biological species.";
+  rdfs:range obo:UBERON_0001062 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Source_type> a
-    owl:ObjectProperty;
-  rdfs:label "Source type";
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Pathological_state>
+  a owl:ObjectProperty;
+  rdfs:label "Pathological state";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Source_type>;
-  rdfs:isDefinedBy obo:NCIT_C164617;
-  dc:description "A coded value specifying the type of tissue from which the biospecimen is derived." .
+  rdfs:isDefinedBy obo:NCIT_C25687;
+  dc:description "A coded value specifying the pathological state of the tissue from which the biospecimen is derived.";
+  rdfs:range obo:NCIT_C164617 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Storage_conditions>
   a owl:ObjectProperty;
   rdfs:label "Storage conditions";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Storage_conditions>;
   rdfs:isDefinedBy obo:NCIT_C96145;
-  dc:description "The conditions specified for the storage of a biological material." .
+  dc:description "The conditions specified for the storage of a biological material.";
+  rdfs:range obo:NCIT_C96145 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Expiration_date>
   a owl:DatatypeProperty;
   rdfs:label "Expiration date";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Expiration_date>;
   rdfs:isDefinedBy obo:NCIT_C164516;
   dc:description "The date beyond which a substance is no longer regarded as fit for use." .
 
@@ -636,7 +587,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Percentage tumor cells";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Percentage_tumor_cells>;
   rdfs:isDefinedBy obo:NCIT_C127771;
   dc:description "The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage." .
 
@@ -644,7 +594,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Physical location";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Physical_location>;
   rdfs:isDefinedBy obo:GAZ_00000448;
   dc:description "A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent)." .
 
@@ -652,7 +601,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Derived from";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Material>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Material_Derived_from>;
   rdfs:isDefinedBy obo:NCIT_C28355;
   dc:description "A material produced from or related to another. [WORK IN PROGRESS. This field should be proper ReferenceOne to Material, but this is technically problematic due to circular dependencies.]" .
 
@@ -665,7 +613,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Sampleprep identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_Sampleprep_identifier>;
   rdfs:isDefinedBy obo:NCIT_C132299;
   dc:description "Any of one or more unique codes that refers to a specific protocol." .
 
@@ -673,7 +620,6 @@
   a owl:ObjectProperty;
   rdfs:label "Belongs to material";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range obo:OBI_0001902;
   rdfs:isDefinedBy obo:NCIT_C25683;
   dc:description "Link to the source material from which this sample was prepared." .
 
@@ -681,7 +627,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Input amount";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_Input_amount>;
   rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/role#AFRL_0000010>;
   dc:description "Amount of input material in ng." .
 
@@ -689,15 +634,14 @@
   a owl:ObjectProperty;
   rdfs:label "Library preparation kit";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_Library_preparation_kit>;
-  rdfs:isDefinedBy obo:GENEPIO_0000081;
-  dc:description "Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications." .
+  rdfs:isDefinedBy obo:GENEPIO_0000085;
+  dc:description "Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.";
+  rdfs:range obo:GENEPIO_0000085 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_PCR_free>
   a owl:DatatypeProperty;
   rdfs:label "PCR free";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_PCR_free>;
   rdfs:isDefinedBy obo:NCIT_C17003;
   dc:description "A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample." .
 
@@ -705,15 +649,14 @@
   a owl:ObjectProperty;
   rdfs:label "Target enrichment kit";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_Target_enrichment_kit>;
-  rdfs:isDefinedBy obo:NCIT_C154307;
-  dc:description "Any of various techniques designed to select or increase a target item in a mixed sample." .
+  rdfs:isDefinedBy obo:GENEPIO_0000081;
+  dc:description "Any of various techniques designed to select or increase a target item in a mixed sample.";
+  rdfs:range obo:GENEPIO_0000081 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_UMIs_present>
   a owl:DatatypeProperty;
   rdfs:label "UMIs present";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_UMIs_present>;
   rdfs:isDefinedBy <http://www.ebi.ac.uk/efo/EFO_0010199>;
   dc:description "A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule." .
 
@@ -721,7 +664,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Intended insert size";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_Intended_insert_size>;
   rdfs:isDefinedBy fg:IntendedInsertSize;
   dc:description "In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance." .
 
@@ -729,7 +671,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Intended read length";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_Intended_read_length>;
   rdfs:isDefinedBy obo:NCIT_C153362;
   dc:description "The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process." .
 
@@ -742,7 +683,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Sequencing identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_identifier>;
   rdfs:isDefinedBy obo:NCIT_C171337;
   dc:description "A unique identifier assigned to raw data from a performed nucleic acid sequencing assay." .
 
@@ -750,7 +690,6 @@
   a owl:ObjectProperty;
   rdfs:label "Belongs to sample";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <http://edamontology.org/topic_3168>;
   rdfs:isDefinedBy obo:NCIT_C25683;
   dc:description "Link to the prepared sample i.e. source that was sequenced." .
 
@@ -758,7 +697,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Sequencing date";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_date>;
   rdfs:isDefinedBy obo:GENEPIO_0000069;
   dc:description "Date the sequencing run was performed." .
 
@@ -766,31 +704,30 @@
   a owl:ObjectProperty;
   rdfs:label "Sequencing platform";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_platform>;
   rdfs:isDefinedBy obo:GENEPIO_0000071;
-  dc:description "A sequencing plaform (brand) is a name of a company that produces sequencer equipment." .
+  dc:description "A sequencing plaform (brand) is a name of a company that produces sequencer equipment.";
+  rdfs:range obo:GENEPIO_0000071 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>
   a owl:ObjectProperty;
   rdfs:label "Sequencing instrument model";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_instrument_model>;
   rdfs:isDefinedBy obo:GENEPIO_0001921;
-  dc:description "A product name and model number of a manufacturer's genomic (dna) sequencer." .
+  dc:description "A product name and model number of a manufacturer's genomic (dna) sequencer.";
+  rdfs:range obo:GENEPIO_0001921 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>
   a owl:ObjectProperty;
   rdfs:label "Sequencing type";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Sequencing_type>;
   rdfs:isDefinedBy obo:NCIT_C25284;
-  dc:description "Sequencing distinguishable as an identifiable class based on common qualities." .
+  dc:description "Sequencing distinguishable as an identifiable class based on common qualities.";
+  rdfs:range obo:NCIT_C17565 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Average_read_depth>
   a owl:DatatypeProperty;
   rdfs:label "Average read depth";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Average_read_depth>;
   rdfs:isDefinedBy obo:NCIT_C155320;
   dc:description "The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced." .
 
@@ -798,7 +735,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Observed read length";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Observed_read_length>;
   rdfs:isDefinedBy obo:NCIT_C153362;
   dc:description "The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process." .
 
@@ -806,7 +742,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Observed insert size";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Observed_insert_size>;
   rdfs:isDefinedBy fg:ObservedInsertSize;
   dc:description "In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance." .
 
@@ -814,7 +749,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Percentage Q30";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Percentage_Q30>;
   rdfs:isDefinedBy obo:GENEPIO_0000089;
   dc:description "Percentage of reads with a Phred quality score over 30, which indicates less than a 1/1000 chance that the base was called incorrectly." .
 
@@ -822,7 +756,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Percentage TR20";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Percentage_TR20>;
   rdfs:isDefinedBy fg:PercentageTR20;
   dc:description "Percentage of the target sequence on which 20 or more unique reads were successfully mapped." .
 
@@ -830,7 +763,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Other quality metrics";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Other_quality_metrics>;
   rdfs:isDefinedBy <http://edamontology.org/data_3914>;
   dc:description "Other NGS quality control metrics, including but not limited to (i) sequencer metrics such as yield, error rate, density (K/mm2), cluster PF (%) and phas/prephas (%), (ii) alignment metrics such as QM insert size, GC content, QM duplicated reads (%), QM error rate, uniformity/evenness of coverage and maternal cell contamination, and (iii) variant call metrics such as number of SNVs/CNVs/SVs called, number of missense/nonsense variants, common variants (%), unique variants (%), gender match and trio inheritance check." .
 
@@ -843,7 +775,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Analysis identifier";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Analysis_identifier>;
   rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/result#AFR_0001979>;
   dc:description "An assay identifier is an identifier that identifies some assay (analysis)." .
 
@@ -851,7 +782,6 @@
   a owl:ObjectProperty;
   rdfs:label "Belongs to sequencing";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <http://edamontology.org/operation_2945>;
   rdfs:isDefinedBy obo:NCIT_C25683;
   dc:description "Link to the sequencing performed i.e. source on which the analysis is based." .
 
@@ -859,7 +789,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Physical data location";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Physical_data_location>;
   rdfs:isDefinedBy obo:GAZ_00000448;
   dc:description "A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent)." .
 
@@ -867,7 +796,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Abstract data location";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Abstract_data_location>;
   rdfs:isDefinedBy obo:NCIT_C142494;
   dc:description "To maintain data by placing the data, or a copy of the data, onto an electronically accessible device for preservation (either in plain-text or encrypted format)." .
 
@@ -875,15 +803,14 @@
   a owl:ObjectProperty;
   rdfs:label "Data formats stored";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored>;
   rdfs:isDefinedBy <http://edamontology.org/format_1915>;
-  dc:description "A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere." .
+  dc:description "A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.";
+  rdfs:range <http://edamontology.org/format_1915> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Algorithms_used>
   a owl:DatatypeProperty;
   rdfs:label "Algorithms used";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Algorithms_used>;
   rdfs:isDefinedBy obo:NCIT_C16275;
   dc:description "A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer." .
 
@@ -891,7 +818,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Bioinformatic protocol used";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Bioinformatic_protocol_used>;
   rdfs:isDefinedBy <http://edamontology.org/data_2531>;
   dc:description "A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis." .
 
@@ -899,7 +825,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Bioinformatic protocol deviation";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Bioinformatic_protocol_deviation>;
   rdfs:isDefinedBy obo:NCIT_C50996;
   dc:description "A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor." .
 
@@ -907,7 +832,6 @@
   a owl:DatatypeProperty;
   rdfs:label "Reason for bioinformatic protocol deviation";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Reason_for_bioinformatic_protocol_deviation>;
   rdfs:isDefinedBy obo:NCIT_C93529;
   dc:description "The rationale for why a deviation from the bioinformatic protocol has occurred." .
 
@@ -915,6 +839,5 @@
   a owl:DatatypeProperty;
   rdfs:label "WGS guideline followed";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis>;
-  rdfs:range <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_WGS_guideline_followed>;
   rdfs:isDefinedBy obo:NCIT_C17564;
   dc:description "Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels." .

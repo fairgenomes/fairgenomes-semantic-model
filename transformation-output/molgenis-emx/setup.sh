@@ -21,9 +21,9 @@ mcmd import -p clinical_medication_attributes.tsv --as attributes --in fair-geno
 mcmd import -p clinical_familymembersaffected_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_familymemberssequenced_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_medicalhistory_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p material_materialtype_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p material_biospecimentype_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_anatomicalsource_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p material_sourcetype_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p material_pathologicalstate_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_storageconditions_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p samplepreparation_librarypreparationkit_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p samplepreparation_targetenrichmentkit_attributes.tsv --as attributes --in fair-genomes
@@ -53,9 +53,9 @@ mcmd import -p clinical_medication.tsv --as fair-genomes_clinical_medication --i
 mcmd import -p clinical_familymembersaffected.tsv --as fair-genomes_clinical_familymembersaffected --in fair-genomes
 mcmd import -p clinical_familymemberssequenced.tsv --as fair-genomes_clinical_familymemberssequenced --in fair-genomes
 mcmd import -p clinical_medicalhistory.tsv --as fair-genomes_clinical_medicalhistory --in fair-genomes
-mcmd import -p material_materialtype.tsv --as fair-genomes_material_materialtype --in fair-genomes
+mcmd import -p material_biospecimentype.tsv --as fair-genomes_material_biospecimentype --in fair-genomes
 mcmd import -p material_anatomicalsource.tsv --as fair-genomes_material_anatomicalsource --in fair-genomes
-mcmd import -p material_sourcetype.tsv --as fair-genomes_material_sourcetype --in fair-genomes
+mcmd import -p material_pathologicalstate.tsv --as fair-genomes_material_pathologicalstate --in fair-genomes
 mcmd import -p material_storageconditions.tsv --as fair-genomes_material_storageconditions --in fair-genomes
 mcmd import -p samplepreparation_librarypreparationkit.tsv --as fair-genomes_samplepreparation_librarypreparationkit --in fair-genomes
 mcmd import -p samplepreparation_targetenrichmentkit.tsv --as fair-genomes_samplepreparation_targetenrichmentkit --in fair-genomes
