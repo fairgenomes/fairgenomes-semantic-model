@@ -350,22 +350,22 @@ modules:
             description: The rationale for why a deviation from the sampling protocol has occurred.
             ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]
             values: String
-          - name: Material type
-            description: Material distinguishable as an identifiable class based on common qualities.
-            ontology: NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]
-            values: LookupOne [lookups/MaterialTypes.txt]
+          - name: Biospecimen type
+            description: The type of a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. This includes particular types of cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory substances.
+            ontology: NCIT:C70713 [http://purl.obolibrary.org/obo/NCIT_C70713]
+            values: LookupOne [lookups/MaterialTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C70713]
           - name: Anatomical source
             description: Biological entity that constitutes the structural organization of an individual member of a biological species.
             ontology: UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]
-            values: LookupOne [lookups/AnatomicalSources.txt]
-          - name: Source type
-            description: A coded value specifying the type of tissue from which the biospecimen is derived.
-            ontology: NCIT:C164617 [http://purl.obolibrary.org/obo/NCIT_C164617]
-            values: LookupOne [lookups/SourceTypes.txt]
+            values: LookupOne [lookups/AnatomicalSources.txt], ofType [http://purl.obolibrary.org/obo/UBERON_0001062]
+          - name: Pathological state
+            description: A coded value specifying the pathological state of the tissue from which the biospecimen is derived.
+            ontology: NCIT:C25687 [http://purl.obolibrary.org/obo/NCIT_C25687]
+            values: LookupOne [lookups/PathologicalState.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C164617]
           - name: Storage conditions
             description: The conditions specified for the storage of a biological material.
             ontology: NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]
-            values: LookupOne [lookups/StorageConditions.txt]
+            values: LookupOne [lookups/StorageConditions.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C96145]
           - name: Expiration date
             description: The date beyond which a substance is no longer regarded as fit for use.
             ontology: NCIT:C164516 [http://purl.obolibrary.org/obo/NCIT_C164516]
@@ -401,16 +401,16 @@ modules:
             values: Integer
           - name: Library preparation kit
             description: Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
-            ontology: GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]
-            values: LookupOne [lookups/NGSKits.txt]
+            ontology: GENEPIO:0000085 [http://purl.obolibrary.org/obo/GENEPIO_0000085]
+            values: LookupOne [lookups/NGSKits.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000085]
           - name: PCR free
             description: A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.
             ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]
             values: Boolean
           - name: Target enrichment kit
             description: Any of various techniques designed to select or increase a target item in a mixed sample.
-            ontology: NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]
-            values: LookupOne [lookups/NGSKits.txt]
+            ontology: GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]
+            values: LookupOne [lookups/NGSKits.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000081]
           - name: UMIs present
             description: A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.
             ontology: EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]
@@ -442,15 +442,15 @@ modules:
           - name: Sequencing platform
             description: A sequencing plaform (brand) is a name of a company that produces sequencer equipment.
             ontology: GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]
-            values: LookupOne [lookups/SequencingPlatform.txt]
+            values: LookupOne [lookups/SequencingPlatform.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000071]
           - name: Sequencing instrument model
             description: A product name and model number of a manufacturer's genomic (dna) sequencer.
             ontology: GENEPIO:0001921 [http://purl.obolibrary.org/obo/GENEPIO_0001921]
-            values: LookupOne [lookups/SequencingInstrumentModels.txt]
+            values: LookupOne [lookups/SequencingInstrumentModels.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0001921]
           - name: Sequencing type
             description: Sequencing distinguishable as an identifiable class based on common qualities.
             ontology: NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]
-            values: LookupOne [lookups/SequencingTypes.txt]
+            values: LookupOne [lookups/SequencingTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C17565]
           - name: Average read depth
             description: The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
             ontology: NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]
@@ -498,7 +498,7 @@ modules:
           - name: Data formats stored
             description: A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.
             ontology: EDAM:format_1915 [http://edamontology.org/format_1915]
-            values: LookupMany [lookups/DataFormats.txt]
+            values: LookupMany [lookups/DataFormats.txt], ofType [http://edamontology.org/format_1915]
           - name: Algorithms used
             description: A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer.
             ontology: NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]
