@@ -6,8 +6,8 @@ The FAIR Genomes semantic metadata schema to power reuse of NGS data in research
 
 | Name | Description | Ontology | Nr. of elements |
 |---|---|---|---|
-| [Study](#module-study) | A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. | [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536) | 8 |
-| [Personal](#module-personal) | Data, facts or figures about an individual; the set of relevant items would depend on the use case. | [NCIT:C90492](http://purl.obolibrary.org/obo/NCIT_C90492) | 13 |
+| [Study](#module-study) | A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. | [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536) | 9 |
+| [Personal](#module-personal) | Data, facts or figures about an individual; the set of relevant items would depend on the use case. | [NCIT:C90492](http://purl.obolibrary.org/obo/NCIT_C90492) | 12 |
 | [Leaflet and consent form](#module-leaflet-and-consent-form) | A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian. | [NCIT:C16468](http://purl.obolibrary.org/obo/NCIT_C16468) | 8 |
 | [Individual consent](#module-individual-consent) | Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved. | [NCIT:C16735](http://purl.obolibrary.org/obo/NCIT_C16735) | 13 |
 | [Clinical](#module-clinical) | Relating to the examination and treatment of patients dependent on direct observation. | [NCIT:C25398](http://purl.obolibrary.org/obo/NCIT_C25398) | 20 |
@@ -24,6 +24,7 @@ A detailed examination, analysis, or critical inspection of a subject designed t
 | Identifier | A sample collection or study proper name that is centrally registered and unique within one framework. | [OMIABIS:0000006](http://purl.obolibrary.org/obo/OMIABIS_0000006) | UniqueID |
 | Name | A proper name that designates a study. | [OMIABIS:0000037](http://purl.obolibrary.org/obo/OMIABIS_0000037) | String |
 | Description | A textual entity describing a study aim or a sample collection. | [OMIABIS:0000036](http://purl.obolibrary.org/obo/OMIABIS_0000036) | Text |
+| Inclusion criteria | An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process. | [OBI:0500027](http://purl.obolibrary.org/obo/OBI_0500027) | [InclusionCriteria](../../lookups/InclusionCriteria.txt) lookup (11 choices [of type](http://purl.obolibrary.org/obo/NCIT_C47953)) |
 | Principal investigator | The principle investigtor or responsible person for a study or a sample collection. | [OMIABIS:0000100](http://purl.obolibrary.org/obo/OMIABIS_0000100) | String |
 | Contact information | An email address for the purpose of contacting a sample collection or study contact person. | [OMIABIS:0000035](http://purl.obolibrary.org/obo/OMIABIS_0000035) | String |
 | Study design | A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution. | [OBI:0500000](http://purl.obolibrary.org/obo/OBI_0500000) | Text |
@@ -44,7 +45,6 @@ Data, facts or figures about an individual; the set of relevant items would depe
 | Year of birth | The year in which a person was born. | [NCIT:C83164](http://purl.obolibrary.org/obo/NCIT_C83164) | Integer |
 | Inclusion status | An indicator that provides information on the current health status of a patient. | [NCIT:C166244](http://purl.obolibrary.org/obo/NCIT_C166244) | [InclusionStatus](../../lookups/InclusionStatus.txt) lookup (4 choices [of type](http://purl.obolibrary.org/obo/NCIT_C19332)) |
 | Age at death | The age at which death occurred. | [NCIT:C135383](http://purl.obolibrary.org/obo/NCIT_C135383) | Integer |
-| Inclusion criteria | An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process. | [OBI:0500027](http://purl.obolibrary.org/obo/OBI_0500027) | [InclusionCriteria](../../lookups/InclusionCriteria.txt) lookup (11 choices [of type](http://purl.obolibrary.org/obo/NCIT_C47953)) |
 | Primary affiliated institute | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person. | [SIO:000688](https://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Resources in other institutes | Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals. | [SIO:000688](https://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Participates in study | The study or studies in which this person participates. | [RO:0000056](http://purl.obolibrary.org/obo/RO_0000056) | Reference to instances of Study |

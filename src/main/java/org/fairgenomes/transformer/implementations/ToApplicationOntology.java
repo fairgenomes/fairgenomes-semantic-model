@@ -104,7 +104,6 @@ public class ToApplicationOntology extends GenericTransformer {
                         IRI lookupInstance = iri(baseUrl, cleanLabel(lookupName));
                         lookupBuilder.add(lookupInstance, RDF.TYPE, e.type);
                         lookupBuilder.add(lookupInstance, RDFS.LABEL, literal(l.value));
-                        lookupBuilder.add(lookupInstance, RDFS.DOMAIN, moduleProperty);
                         lookupBuilder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
                         lookupBuilder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
                         // We need to check this annotation // TODO value type annotation

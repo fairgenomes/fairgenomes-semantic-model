@@ -11,153 +11,131 @@
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Dataset>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Dataset";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "Data encoded in a defined structure. Examples include lists, tables, and databases. A dataset may be useful for direct machine processing.";
   rdfs:isDefinedBy <http://purl.org/dc/dcmitype/Dataset> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Moving_Image>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Moving Image";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "A series of visual representations imparting an impression of motion when shown in succession. Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation.";
   rdfs:isDefinedBy <http://purl.org/dc/dcmitype/MovingImage> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Physical_Object>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Physical Object";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "An inanimate, three-dimensional object or substance. Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types.";
   rdfs:isDefinedBy <http://purl.org/dc/dcmitype/PhysicalObject> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Sound>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Sound";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "A resource primarily intended to be heard. Examples include a music playback file format, an audio compact disc, and recorded speech or sounds.";
   rdfs:isDefinedBy <http://purl.org/dc/dcmitype/Sound> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Still_Image>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Still Image";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "A static visual representation. Examples include photographs, paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials.";
   rdfs:isDefinedBy <http://purl.org/dc/dcmitype/StillImage> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Text>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Text";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text.";
   rdfs:isDefinedBy <http://purl.org/dc/dcmitype/Text> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_NoInformation_(NI,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "NoInformation (NI, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Invalid_(INV,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Invalid (INV, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Derived_(DER,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Derived (DER, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Other_(OTH,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Other (OTH, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Negative_infinity_(NINF,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Negative infinity (NINF, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Positive_infinity_(PINF,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Positive infinity (PINF, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Un-encoded_(UNC,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Un-encoded (UNC, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Masked_(MSK,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Masked (MSK, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Not_applicable_(NA,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Not applicable (NA, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Unknown_(UNK,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Unknown (UNK, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Asked_but_unknown_(ASKU,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Temporarily_unavailable_(NAV,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Not_asked_(NASK,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Not asked (NASK, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Not_available_(NAVU,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Not available (NAVU, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Sufficient_quantity_(QS,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Sufficient quantity (QS, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available_Trace_(TRC,_nullflavor)>
   a "http://purl.org/dc/terms/DCMIType";
   rdfs:label "Trace (TRC, nullflavor)";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Phenotypic_data_available>;
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

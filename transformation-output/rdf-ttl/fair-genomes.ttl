@@ -31,6 +31,14 @@
   rdfs:isDefinedBy obo:OMIABIS_0000036;
   dc:description "A textual entity describing a study aim or a sample collection." .
 
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Inclusion_criteria>
+  a owl:ObjectProperty;
+  rdfs:label "Inclusion criteria";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Study>;
+  rdfs:isDefinedBy obo:OBI_0500027;
+  dc:description "An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.";
+  rdfs:range obo:NCIT_C47953 .
+
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Study_Principal_investigator>
   a owl:DatatypeProperty;
   rdfs:label "Principal investigator";
@@ -136,14 +144,6 @@
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
   rdfs:isDefinedBy obo:NCIT_C135383;
   dc:description "The age at which death occurred." .
-
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_criteria>
-  a owl:ObjectProperty;
-  rdfs:label "Inclusion criteria";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal>;
-  rdfs:isDefinedBy obo:OBI_0500027;
-  dc:description "An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.";
-  rdfs:range obo:NCIT_C47953 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Primary_affiliated_institute>
   a owl:ObjectProperty;

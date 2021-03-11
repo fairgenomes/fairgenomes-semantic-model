@@ -11,209 +11,179 @@
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_general_research_use>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "general research use";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use is allowed for general research use for any research purpose.";
   rdfs:isDefinedBy obo:DUO_0000042 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_disease-specific_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "disease-specific research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use is allowed provided it is related to the specified disease.";
   rdfs:isDefinedBy obo:DUO_0000007 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_health_or_medical_or_biomedical_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "health or medical or biomedical research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.";
   rdfs:isDefinedBy obo:DUO_0000006 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_population_origins_or_ancestry_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "population origins or ancestry research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.";
   rdfs:isDefinedBy obo:DUO_0000011 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_genetic_studies_only>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "genetic studies only";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)";
   rdfs:isDefinedBy obo:DUO_0000016 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_no_general_methods_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "no general methods research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.";
   rdfs:isDefinedBy obo:DUO_0000015 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_no_restriction>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "no restriction";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates there is no restriction on use.";
   rdfs:isDefinedBy obo:DUO_0000004 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_research_specific_restrictions>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "research specific restrictions";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use is limited to studies of a certain research type.";
   rdfs:isDefinedBy obo:DUO_0000012 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_research_use_only>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "research use only";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This data use limitation indicates that use is limited to research purposes (e.g., does not include its use in clinical care).";
   rdfs:isDefinedBy obo:DUO_0000014 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_collaboration_required>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "collaboration required";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).";
   rdfs:isDefinedBy obo:DUO_0000020 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_ethics_approval_required>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "ethics approval required";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.";
   rdfs:isDefinedBy obo:DUO_0000021 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_geographical_restriction>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "geographical restriction";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This should be coupled with an ontology term describing the geographical location the restriction applies to.";
   rdfs:isDefinedBy obo:DUO_0000022 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_institution_specific_restriction>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "institution specific restriction";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that use is limited to use within an approved institution.";
   rdfs:isDefinedBy obo:DUO_0000028 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_not_for_profit_use_only>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "not for profit use only";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.";
   rdfs:isDefinedBy obo:DUO_0000018 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_project_specific_restriction>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "project specific restriction";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that use is limited to use within an approved project.";
   rdfs:isDefinedBy obo:DUO_0000027 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_publication_moratorium>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "publication moratorium";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that requestor agrees not to publish results of studies until a specific date.";
   rdfs:isDefinedBy obo:DUO_0000024 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_publication_required>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "publication required";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.";
   rdfs:isDefinedBy obo:DUO_0000019 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_return_to_database_or_resource>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "return to database or resource";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that the requestor must return derived/enriched data to the database/resource.";
   rdfs:isDefinedBy obo:DUO_0000029 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_time_limit_on_use>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "time limit on use";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that use is approved for a specific number of months.";
   rdfs:isDefinedBy obo:DUO_0000025 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_user_specific_restriction>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "user specific restriction";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "This requirement indicates that use is limited to use by approved users.";
   rdfs:isDefinedBy obo:DUO_0000026 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_age_category_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "age category research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "An investigation concerning specific age categories.";
   rdfs:isDefinedBy obo:DUO_0000034 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_ancestry_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "ancestry research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "An investigation concerning ancestry or population origins.";
   rdfs:isDefinedBy obo:DUO_0000033 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_biomedical_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "biomedical research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "An investigation concerning health, medical, or biomedical research.";
   rdfs:isDefinedBy obo:DUO_0000037 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_disease_category_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "disease category research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "Biomedical research research concerning specific disease/s";
   rdfs:isDefinedBy obo:DUO_0000040 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_drug_development_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "drug development research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "Biomedical research concerning drug development.";
   rdfs:isDefinedBy obo:DUO_0000039 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_genetic_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "genetic research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "Biomedical research concerning genetics (i.e., the study of genes, genetic variations and heredity).";
   rdfs:isDefinedBy obo:DUO_0000038 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_gender_category_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "gender category research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "An investigation concerning specific gender categories.";
   rdfs:isDefinedBy obo:DUO_0000035 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_method_development>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "method development";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "An investigation concerning development of methods, algorithms, software or analytical tools.";
   rdfs:isDefinedBy obo:DUO_0000031 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_population_research>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "population research";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "An investigation concerning a specific population group.";
   rdfs:isDefinedBy obo:DUO_0000032 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to_research_control>
   a "http://purl.obolibrary.org/obo/NCIT_C53452";
   rdfs:label "research control";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>;
   dc:description "An investigation concerning use of data as reference or control material.";
   rdfs:isDefinedBy obo:DUO_0000036 .
