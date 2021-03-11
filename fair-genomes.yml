@@ -61,6 +61,10 @@ modules:
             description: A textual entity describing a study aim or a sample collection.
             ontology: OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]
             values: Text
+          - name: Inclusion criteria
+            description: An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.
+            ontology: OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]
+            values: LookupMany [lookups/InclusionCriteria.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C47953]
           - name: Principal investigator
             description: The principle investigtor or responsible person for a study or a sample collection.
             ontology: OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]
@@ -121,10 +125,6 @@ modules:
             description: The age at which death occurred.
             ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]
             values: Integer
-          - name: Inclusion criteria
-            description: An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.
-            ontology: OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]
-            values: LookupMany [lookups/InclusionCriteria.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C47953]
           - name: Primary affiliated institute
             description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688]
