@@ -116,7 +116,7 @@ modules:
           - name: Inclusion status
             description: An indicator that provides information on the current health status of a patient.
             ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]
-            values: LookupOne [lookups/InclusionStatus.txt]
+            values: LookupOne [lookups/InclusionStatus.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C19332]
           - name: Age at death
             description: The age at which death occurred.
             ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]
@@ -124,15 +124,15 @@ modules:
           - name: Inclusion criteria
             description: An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.
             ontology: OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]
-            values: LookupMany [lookups/InclusionCriteria.txt]
+            values: LookupMany [lookups/InclusionCriteria.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C47953]
           - name: Primary affiliated institute
             description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688]
-            values: LookupOne [lookups/Institutes.txt]
+            values: LookupOne [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Resources in other institutes
             description: Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688]
-            values: LookupMany [lookups/Institutes.txt]
+            values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Participates in study
             description: The study or studies in which this person participates.
             ontology: RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]
@@ -156,7 +156,7 @@ modules:
           - name: Consent form creator
             description: Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688]
-            values: LookupOne [lookups/Institutes.txt]
+            values: LookupOne [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Consent form version
             description: A related resource that is a version, edition, or adaptation of the described resource.
             ontology: DC:hasVersion [http://purl.org/dc/terms/hasVersion]
@@ -192,7 +192,7 @@ modules:
           - name: Collected by
             description: Indicates the person, group, or institution who performed the collection act.
             ontology: NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]
-            values: LookupOne [lookups/Institutes.txt]
+            values: LookupOne [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Signing date
             description: A date specification that designates when an informed consent form was signed.
             ontology: ICO:0000036 [http://purl.obolibrary.org/obo/ICO_0000036]
@@ -220,18 +220,18 @@ modules:
           - name: Allow recontacting
             description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
             ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]
-            values: LookupMany_NoGlobals [lookups/Recontacting.txt]
+            values: LookupMany_NoGlobals [lookups/Recontacting.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C47953]
           - name: Restricted to
             description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
             ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
-            values: LookupMany_NoGlobals [lookups/DataUseRestrictions.txt]
+            values: LookupMany_NoGlobals [lookups/DataUseRestrictions.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C53452]
           - name: Restriction specification
             description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
             ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
             values: Text
     - name: Clinical
-      description: Data obtained through patient examination or treatment.
-      ontology: NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]
+      description: Relating to the examination and treatment of patients dependent on direct observation.
+      ontology: NCIT:C25398 [http://purl.obolibrary.org/obo/NCIT_C25398]
       elements:
           - name: Clinical identifier
             description: A character or string used to name, or characterize a clinical events reference.
@@ -244,23 +244,23 @@ modules:
           - name: Phenotype
             description: The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease.
             ontology: NCIT:C16977 [http://purl.obolibrary.org/obo/NCIT_C16977]
-            values: LookupMany [lookups/Phenotypes.txt]
+            values: LookupMany [lookups/Phenotypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C16977]
           - name: Unobserved phenotype
             description: Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance.
             ontology: HL7:C0442737 [http://purl.bioontology.org/ontology/HL7/C0442737]
-            values: LookupMany [lookups/Phenotypes.txt]
+            values: LookupMany [lookups/Phenotypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C16977]
           - name: Phenotypic data available
             description: Types of phenotypic data collected in a clinical setting that is potentially available upon request.
-            ontology: DC:DCMIType [http://purl.org/dc/terms/DCMIType]
-            values: LookupMany [lookups/DCMITypes.txt]
+            ontology: NCIT:C15783 [http://purl.obolibrary.org/obo/NCIT_C15783]
+            values: LookupMany [lookups/DCMITypes.txt], ofType [http://purl.org/dc/terms/DCMIType]
           - name: Clinical diagnosis
             description: A diagnosis made from a study of the signs and symptoms of a disease.
             ontology: NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]
-            values: LookupMany [lookups/Diseases.txt]
+            values: LookupMany [lookups/Diseases.txt], ofType [http://semanticscience.org/resource/SIO_010299]
           - name: Molecular diagnosis gene
             description: Gene affected by pathogenic variation that is causal for disease of the patient.
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
-            values: LookupMany [lookups/Genes.txt]
+            values: LookupMany [lookups/Genes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C16612]
           - name: Molecular diagnosis other
             description: Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
@@ -276,7 +276,7 @@ modules:
           - name: Medication
             description: Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).
             ontology: NCIT:C459 [http://purl.obolibrary.org/obo/NCIT_C459]
-            values: LookupMany [lookups/Drugs.txt]
+            values: LookupMany [lookups/Drugs.txt], ofType [http://edamontology.org/data_3103]
           - name: Drug regimen
             description: The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.
             ontology: NCIT:C142516 [http://purl.obolibrary.org/obo/NCIT_C142516]
@@ -284,11 +284,11 @@ modules:
           - name: Family members affected
             description: This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband).
             ontology: HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]
-            values: LookupMany [lookups/FamilyMembers.txt]
+            values: LookupMany [lookups/FamilyMembers.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C41256]
           - name: Family members sequenced
             description: A person related by descent rather than by marriage or law that was also sequenced.
             ontology: NCIT:C71384 [http://purl.obolibrary.org/obo/NCIT_C71384]
-            values: LookupMany [lookups/FamilyMembers.txt]
+            values: LookupMany [lookups/FamilyMembers.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C41256]
           - name: Consanguinity
             description: Information on whether the patient is a child from two family members who are second cousins or closer.
             ontology: GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]
@@ -296,7 +296,7 @@ modules:
           - name: Medical history
             description: A record of a person's background regarding health, occurrence of disease events and surgical procedures.
             ontology: NCIT:C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]
-            values: LookupMany [lookups/MedicalHistory.txt]
+            values: LookupMany [lookups/MedicalHistory.txt], ofType [http://scdontology.h3abionet.org/ontology/SCDO_1000093]
           - name: Age of onset
             description: Age of onset of clinical manifestations related to a clinical entity.
             ontology: Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]
@@ -350,22 +350,22 @@ modules:
             description: The rationale for why a deviation from the sampling protocol has occurred.
             ontology: NCIT:C93529 [http://purl.obolibrary.org/obo/NCIT_C93529]
             values: String
-          - name: Material type
-            description: Material distinguishable as an identifiable class based on common qualities.
-            ontology: NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]
-            values: LookupOne [lookups/MaterialTypes.txt]
+          - name: Biospecimen type
+            description: The type of a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. This includes particular types of cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory substances.
+            ontology: NCIT:C70713 [http://purl.obolibrary.org/obo/NCIT_C70713]
+            values: LookupOne [lookups/MaterialTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C70713]
           - name: Anatomical source
             description: Biological entity that constitutes the structural organization of an individual member of a biological species.
             ontology: UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]
-            values: LookupOne [lookups/AnatomicalSources.txt]
-          - name: Source type
-            description: A coded value specifying the type of tissue from which the biospecimen is derived.
-            ontology: NCIT:C164617 [http://purl.obolibrary.org/obo/NCIT_C164617]
-            values: LookupOne [lookups/SourceTypes.txt]
+            values: LookupOne [lookups/AnatomicalSources.txt], ofType [http://purl.obolibrary.org/obo/UBERON_0001062]
+          - name: Pathological state
+            description: A coded value specifying the pathological state of the tissue from which the biospecimen is derived.
+            ontology: NCIT:C25687 [http://purl.obolibrary.org/obo/NCIT_C25687]
+            values: LookupOne [lookups/PathologicalState.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C164617]
           - name: Storage conditions
             description: The conditions specified for the storage of a biological material.
             ontology: NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]
-            values: LookupOne [lookups/StorageConditions.txt]
+            values: LookupOne [lookups/StorageConditions.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C96145]
           - name: Expiration date
             description: The date beyond which a substance is no longer regarded as fit for use.
             ontology: NCIT:C164516 [http://purl.obolibrary.org/obo/NCIT_C164516]
@@ -401,16 +401,16 @@ modules:
             values: Integer
           - name: Library preparation kit
             description: Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
-            ontology: GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]
-            values: LookupOne [lookups/NGSKits.txt]
+            ontology: GENEPIO:0000085 [http://purl.obolibrary.org/obo/GENEPIO_0000085]
+            values: LookupOne [lookups/NGSKits.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000085]
           - name: PCR free
             description: A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.
             ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]
             values: Boolean
           - name: Target enrichment kit
             description: Any of various techniques designed to select or increase a target item in a mixed sample.
-            ontology: NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]
-            values: LookupOne [lookups/NGSKits.txt]
+            ontology: GENEPIO:0000081 [http://purl.obolibrary.org/obo/GENEPIO_0000081]
+            values: LookupOne [lookups/NGSKits.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000081]
           - name: UMIs present
             description: A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.
             ontology: EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]
@@ -442,15 +442,15 @@ modules:
           - name: Sequencing platform
             description: A sequencing plaform (brand) is a name of a company that produces sequencer equipment.
             ontology: GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]
-            values: LookupOne [lookups/SequencingPlatform.txt]
+            values: LookupOne [lookups/SequencingPlatform.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000071]
           - name: Sequencing instrument model
             description: A product name and model number of a manufacturer's genomic (dna) sequencer.
             ontology: GENEPIO:0001921 [http://purl.obolibrary.org/obo/GENEPIO_0001921]
-            values: LookupOne [lookups/SequencingInstrumentModels.txt]
+            values: LookupOne [lookups/SequencingInstrumentModels.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0001921]
           - name: Sequencing type
             description: Sequencing distinguishable as an identifiable class based on common qualities.
             ontology: NCIT:C25284 [http://purl.obolibrary.org/obo/NCIT_C25284]
-            values: LookupOne [lookups/SequencingTypes.txt]
+            values: LookupOne [lookups/SequencingTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C17565]
           - name: Average read depth
             description: The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
             ontology: NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]
@@ -498,7 +498,7 @@ modules:
           - name: Data formats stored
             description: A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.
             ontology: EDAM:format_1915 [http://edamontology.org/format_1915]
-            values: LookupMany [lookups/DataFormats.txt]
+            values: LookupMany [lookups/DataFormats.txt], ofType [http://edamontology.org/format_1915]
           - name: Algorithms used
             description: A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer.
             ontology: NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]

@@ -75,13 +75,13 @@ public class ToApplicationOntology extends GenericTransformer {
                 builder.add(moduleProperty, RDF.TYPE, e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY);
                 builder.add(moduleProperty, RDFS.LABEL, literal(e.name));
                 builder.add(moduleProperty, RDFS.DOMAIN, moduleClass);
-                builder.add(moduleProperty, RDFS.RANGE, (e.type != null ? iri(e.type) : moduleProperty)); //TODO: remove nullcheck when model is fully annotated
                 builder.add(moduleProperty, RDFS.ISDEFINEDBY, iri(e.iri));
                 builder.add(moduleProperty, DC.DESCRIPTION, literal(e.description));
                 // We need to check this annotation // TODO value type annotation
                 //bw.write("\t\trdfs:Datatype xsd:" + e.valueTypeToRDF() + " ;" + LE);
 
                 if(e.isLookup()){
+                    builder.add(moduleProperty, RDFS.RANGE, iri(e.type));
 
                     // Group together elements with the same lookup list
                     if(!lookupBuilders.containsKey(e.lookup.name))
@@ -102,7 +102,7 @@ public class ToApplicationOntology extends GenericTransformer {
                         Lookup l = e.lookup.lookups.get(lookup);
                         String lookupName = elementName + "_" + cleanLabel(l.value);
                         IRI lookupInstance = iri(baseUrl, cleanLabel(lookupName));
-                        lookupBuilder.add(lookupInstance, RDF.TYPE, (e.type != null ? iri(e.type) : moduleProperty)); //TODO: remove nullcheck when model is fully annotated
+                        lookupBuilder.add(lookupInstance, RDF.TYPE, e.type);
                         lookupBuilder.add(lookupInstance, RDFS.LABEL, literal(l.value));
                         lookupBuilder.add(lookupInstance, RDFS.DOMAIN, moduleProperty);
                         lookupBuilder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
