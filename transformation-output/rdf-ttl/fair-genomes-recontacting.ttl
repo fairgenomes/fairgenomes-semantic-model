@@ -11,20 +11,17 @@
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_additional_sampling>
   a "http://purl.obolibrary.org/obo/NCIT_C47953";
   rdfs:label "For additional sampling";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
   dc:description "Willingness to be contacted to collect additional material or data from the patient.";
   rdfs:isDefinedBy obo:NCIT_C25662 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_incidental_findings>
   a "http://purl.obolibrary.org/obo/NCIT_C47953";
   rdfs:label "For incidental findings";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
   dc:description "Willingness to be contacted when new knowledge regarding incidental findings becomes available to benefit the patient.";
   rdfs:isDefinedBy obo:ICO_0000178 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_diagnostic_question>
   a "http://purl.obolibrary.org/obo/NCIT_C47953";
   rdfs:label "For diagnostic question";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting>;
   dc:description "Willingness to be contacted when new knowledge regarding the diagnostic question becomes available to benefit the patient.";
   rdfs:isDefinedBy obo:NCIT_C15220 .
