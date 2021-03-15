@@ -40,7 +40,7 @@ public class ToMOLGENISEMX extends GenericTransformer {
         FileWriter fw = new FileWriter(new File(outputFolder, "sys_md_Package.tsv"));
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write("id\tlabel\tdescription" + LE);
-        bw.write(PACKAGE_NAME + "\t" + fg.name + "\t" + fg.description + (fg.description.endsWith(".")?"":".") + " Version " + fg.version + " (" + fg.date + ")" + LE);
+        bw.write(PACKAGE_NAME + "\t" + fg.name + "\t" + fg.description + (fg.description.endsWith(".")?"":".") + " Version " + fg.version +  "-" + fg.releaseType + " (" + fg.date + ")" + LE);
         bw.flush();
         bw.close();
         MCMDbw.write("mcmd import -p sys_md_Package.tsv" + LE);
