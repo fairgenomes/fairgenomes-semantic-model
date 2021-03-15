@@ -28,7 +28,7 @@ public class ToPALGACodeBook extends GenericTransformer {
          */
         FileWriter fw = new FileWriter(new File(outputFolder, "INFO.tsv"));
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write("version" + "\t" + "0" + LE); //FIXME only supports numbers, so fg.version doesn't always work
+        bw.write("version" + "\t" + fg.version + LE);
         bw.write("effectivedate" + "\t" + fg.date + LE);
         bw.write("DatasetName_en" + "\t" + fg.name + LE);
         bw.write("DatasetDescription_en" + "\t" + fg.description + LE);
@@ -43,9 +43,9 @@ public class ToPALGACodeBook extends GenericTransformer {
         bw.write("id\tdescription_en\tcodesystem\tcode\tdata_type\tdescription_code\tcodelist_ref\tinput_type\tproperties\tparent\tcomments" + LE);
 
         for (Module m : fg.modules) {
-            bw.write(m.name + "\t" + m.name + "\t" + m.codeSystem + "\t" + m.code + "\t" + "ST" + "\t" + m.description + "\t" + "" + "\t" + "multi-select" + "\t" + "{url="+m.iri+"}" + "\t" + "" + "\t" + m.description + LE); //if root, 'FAIR-Genomes' as parent
+            bw.write(m.name + "\t" + m.description + "\t" + m.codeSystem + "\t" + m.code + "\t" + "ST" + "\t" + m.name + "\t" + "" + "\t" + "multi-select" + "\t" + "{url="+m.iri+"}" + "\t" + "" + "\t" + "" + LE);
             for (Element e : m.elements) {
-                bw.write(e.name + "\t" + e.name + "\t" + e.codeSystem + "\t" + e.code + "\t" + e.valueTypeToArtDecor() + "\t" + e.description + "\t" + (e.isLookup()? e.lookup.srcFile.getName().replace(".txt", "") : "") + "\t" + e.getArtDecorInputType() + "\t" + "{url="+e.iri+"}" + "\t" + m.name + "\t" + e.description + LE);
+                bw.write(e.name + "\t" + e.description + "\t" + e.codeSystem + "\t" + e.code + "\t" + e.valueTypeToArtDecor() + "\t" + e.name + "\t" + (e.isLookup()? e.lookup.srcFile.getName().replace(".txt", "") : "") + "\t" + e.getArtDecorInputType() + "\t" + "{url="+e.iri+"}" + "\t" + m.name + "\t" + "" + LE);
             }
         }
         bw.flush();
@@ -68,7 +68,7 @@ public class ToPALGACodeBook extends GenericTransformer {
                     for(String key : map.keySet())
                     {
                         Lookup l = map.get(key);
-                        bw.write(l.value + "\t" + l.description + "\t" + l.codesystem + "\t" + l.code + "\t" + l.value + LE);
+                        bw.write(l.value + "\t" + l.description + "\t" + l.codesystem + "\t" + l.iri + "\t" + l.value + LE);
                     }
 
                     bw.flush();
