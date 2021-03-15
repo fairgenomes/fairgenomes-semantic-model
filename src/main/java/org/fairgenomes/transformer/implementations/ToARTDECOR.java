@@ -1,5 +1,6 @@
 package org.fairgenomes.transformer.implementations;
 
+import org.fairgenomes.transformer.datastructures.Author;
 import org.fairgenomes.transformer.datastructures.FAIRGenomes;
 import org.fairgenomes.transformer.datastructures.GenericTransformer;
 import palgacodebooktoartdecor.codebook.CodebookManager;
@@ -23,8 +24,8 @@ public class ToARTDECOR extends GenericTransformer {
                 "2.16.840.1.113883.2.4.3.11.60.120",                              // projectId
                 "FG",                                                             // projectPrefix
                 "true",                                                           // experimental
-                "fairgenomes;consortium@fairgenomes.org;FAIR Genomes Consortium", // authorString
-                "The FAIR Genomes Consortium;2019-2021;author",                   // copyrightString
+                getAuthors(),                                                     // authorString
+                fg.copyright.holder + ";"+fg.copyright.years+";author",           // copyrightString
                 "draft");                                                         // statusCode
         File output = new File(outputFolder, "fair-genomes_en-US.xml");
         IdentifierManager.createIdentifierManager(runParameters);
@@ -33,5 +34,14 @@ public class ToARTDECOR extends GenericTransformer {
         CodebookToArtDecorConvertor codebookToArtDecorConvertor = new CodebookToArtDecorConvertor(codebookManager, runParameters);
         codebookToArtDecorConvertor.transformCodebooks();
         codebookToArtDecorConvertor.writeOutput(output.getAbsolutePath());
+    }
+
+    private String getAuthors(){
+        StringBuilder sb = new StringBuilder();
+        for(Author a : fg.authors)
+        {
+            sb.append(a.orcid + ";" + a.email + ";" + a.name + "\n");
+        }
+        return sb.toString();
     }
 }
