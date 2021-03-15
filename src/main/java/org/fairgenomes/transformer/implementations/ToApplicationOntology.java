@@ -59,6 +59,9 @@ public class ToApplicationOntology extends GenericTransformer {
             builder.setNamespace(prefix, prefixToNamespace.get(prefix));
         }
 
+        // TODO
+        // add FAIR Genomes project information, version, authors, copyright, license, etc!
+
         // Add modules to builder as moduleClasses
         for (Module m : fg.modules) {
             String moduleName = cleanLabel(m.name);
