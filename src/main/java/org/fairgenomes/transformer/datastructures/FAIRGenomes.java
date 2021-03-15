@@ -12,6 +12,7 @@ public class FAIRGenomes {
     public String name;
     public String description;
     public String version;
+    public ReleaseType releaseType;
     public LocalDate date;
     public File lookupGlobalOptions;
     public List<Author> authors;
