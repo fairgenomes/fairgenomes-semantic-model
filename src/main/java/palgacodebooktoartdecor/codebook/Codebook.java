@@ -108,7 +108,7 @@ class Codebook {
         Set<String> languageList = runParameters.getLanguages();
         for(String language:languageList) {
             String datasetDescription = valueMap.get("DatasetDescription_"+language);
-            String datasetName  = valueMap.get("DatasetDescription_"+language);
+            String datasetName  = valueMap.get("DatasetName_"+language);
             codebook.addLanguageSetting(language, datasetDescription, datasetName);
         }
     }
@@ -132,7 +132,7 @@ class Codebook {
         Set<String> languageList = runParameters.getLanguages();
         for(String language:languageList) {
             String datasetDescription = valueMap.get("DatasetDescription_"+language);
-            String datasetName  = valueMap.get("DatasetDescription_"+language);
+            String datasetName  = valueMap.get("DatasetName_"+language);
             codebook.addLanguageSetting(language, datasetDescription, datasetName);
         }
     }
@@ -334,7 +334,8 @@ class Codebook {
             Set<String> languages = runParameters.getLanguages();
             for (String language : languages) {
                 String languageDescription = ExcelUtils.getValue(row, "description_" + language, headerList);
-                concept.addLanguageConcept(language, languageDescription);
+                String name = id; // FIXME: might not match language or be readable ID, but better than re-using description as name
+                concept.addLanguageConcept(language, name, languageDescription);
             }
 
             conceptMap.put(id, concept);
@@ -364,7 +365,8 @@ class Codebook {
             Set<String> languages = runParameters.getLanguages();
             for (String language : languages) {
                 String languageDescription = row[tsvIndexHeaderList.get("description_" + language)];
-                concept.addLanguageConcept(language, languageDescription);
+                String name = id; // FIXME: might not match language or be readable ID, but better than re-using description as name
+                concept.addLanguageConcept(language, name, languageDescription);
             }
             conceptMap.put(id, concept);
             // if the codebook item has a codelist add it as well

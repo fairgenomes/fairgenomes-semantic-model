@@ -278,9 +278,6 @@ public class RunParameters {
         LanguageParameters(String projectDescription, String projectName){
             this.projectDescription = projectDescription;
             this.projectName = projectName;
-            System.out.println("LanguageParameters: projectDescription " + projectDescription);
-            System.out.println("LanguageParameters: projectName " + projectName);
-
         }
 
         /**

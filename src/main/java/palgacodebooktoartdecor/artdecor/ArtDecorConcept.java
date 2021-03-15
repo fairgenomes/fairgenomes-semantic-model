@@ -185,8 +185,8 @@ public class ArtDecorConcept {
      * @param language    the language for which to add the description
      * @param description the description in the language
      */
-    public void addLanguageConcept(String language, String description){
-        languageConceptList.add(new LanguageConcept(language, description));
+    public void addLanguageConcept(String language, String name, String description){
+        languageConceptList.add(new LanguageConcept(language, name, description));
     }
 
     /**
@@ -438,7 +438,7 @@ public class ArtDecorConcept {
     private void addNewHeader(StringBuilder stringBuilder){
         // name and desc both use the description since we don't have anything better at the moment
         for(LanguageConcept languageConcept:languageConceptList){
-            stringBuilder.append("<name language=\""+ languageConcept.language+"\">"+languageConcept.description+"</name>\n");
+            stringBuilder.append("<name language=\""+ languageConcept.language+"\">"+languageConcept.name+"</name>\n");
         }
 
         for(LanguageConcept languageConcept:languageConceptList){
@@ -492,10 +492,12 @@ public class ArtDecorConcept {
      */
     private static class LanguageConcept{
         private String language;
+        private String name;
         private String description;
 
-        LanguageConcept(String language, String description){
+        LanguageConcept(String language, String name, String description){
             this.description = description;
+            this.name = name;
             this.language = Statics.getArtDecorLanguage(language);
         }
     }

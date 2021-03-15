@@ -232,7 +232,7 @@ class Concept {
         artDecorConcept.setPropertyMap(propertiesMap);
         //System.out.println("languageConceptMap.values() = " + languageConceptMap.values().toString());
         for(LanguageConcept languageConcept:languageConceptMap.values()){
-            artDecorConcept.addLanguageConcept(languageConcept.language, languageConcept.description);
+            artDecorConcept.addLanguageConcept(languageConcept.language, languageConcept.name, languageConcept.description);
         }
         return artDecorConcept;
     }
@@ -274,8 +274,8 @@ class Concept {
      * @param language            the language
      * @param languageDescription project description in that language
      */
-    void addLanguageConcept(String language, String languageDescription){
-        LanguageConcept languageConcept = new LanguageConcept(language, languageDescription);
+    void addLanguageConcept(String language, String name, String languageDescription){
+        LanguageConcept languageConcept = new LanguageConcept(language, name, languageDescription);
         languageConceptMap.put(language, languageConcept);
     }
 
@@ -307,10 +307,12 @@ class Concept {
      */
     private static class LanguageConcept{
         private String language;
+        private String name;
         private String description;
 
-        LanguageConcept(String language, String description){
+        LanguageConcept(String language, String name, String description){
             this.description = description;
+            this.name = name;
             this.language = language;
         }
     }
