@@ -169,7 +169,7 @@ modules:
           - name: Consent form creator
             description: Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.
             ontology: SIO:000688 [https://semanticscience.org/resource/SIO_000688]
-            values: LookupOne [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
+            values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Consent form version
             description: A related resource that is a version, edition, or adaptation of the described resource.
             ontology: DC:hasVersion [http://purl.org/dc/terms/hasVersion]
