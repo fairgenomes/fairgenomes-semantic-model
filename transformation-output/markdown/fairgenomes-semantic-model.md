@@ -54,14 +54,14 @@ A document explaining all the relevant information to assist an individual in un
 
 | Element | Description | Ontology | Values |
 |---|---|---|---|
+| Leaflet title | A name given to the resource. | [DC:title](http://purl.org/dc/terms/title) | String |
+| Leaflet date | A point or period of time associated with an event in the lifecycle of the resource. | [DC:date](http://purl.org/dc/terms/date) | Date |
+| Leaflet version | A related resource that is a version, edition, or adaptation of the described resource. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
 | Consent form identifier | An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value. | [DC:identifier](http://purl.org/dc/terms/identifier) | UniqueID |
 | Consent form accepted date | Date of acceptance of the resource. | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | Date |
 | Consent form valid until | End date of the validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
 | Consent form creator | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Consent form version | A related resource that is a version, edition, or adaptation of the described resource. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
-| Leaflet title | A name given to the resource. | [DC:title](http://purl.org/dc/terms/title) | String |
-| Leaflet date | A point or period of time associated with an event in the lifecycle of the resource. | [DC:date](http://purl.org/dc/terms/date) | Date |
-| Leaflet version | A related resource that is a version, edition, or adaptation of the described resource. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
 
 ## Module: Individual consent
 Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved. Ontology: [NCIT:C16735](http://purl.obolibrary.org/obo/NCIT_C16735).
