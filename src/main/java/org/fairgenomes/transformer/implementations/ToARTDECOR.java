@@ -22,7 +22,7 @@ public class ToARTDECOR extends GenericTransformer {
         RunParameters runParameters = new RunParameters(
                 "transformation-output/palga-codebook",                           // codebookDirectory
                 "2.16.840.1.113883.2.4.3.11.60.120",                              // projectId
-                "FG",                                                             // projectPrefix
+                "fairgenomes",                                                    // projectPrefix
                 "true",                                                           // experimental
                 getAuthors(),                                                     // authorString
                 fg.copyright.holder + ";"+fg.copyright.years+";author",           // copyrightString
