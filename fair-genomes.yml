@@ -210,10 +210,18 @@ modules:
             description: An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.
             ontology: NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]
             values:  LookupOne_NoGlobals [lookups/RepresentedBy.txt], ofType [http://purl.obolibrary.org/obo/BFO_0000023]
-          - name: Allow research
-            description: Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.
-            ontology: ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]
-            values: Boolean
+          - name: Data use permissions
+            description: A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used.
+            ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
+            values: LookupOne_NoGlobals [lookups/DataUsePermissions.txt], ofType [http://purl.obolibrary.org/obo/DUO_0000001]
+          - name: Data use modifiers
+            description: Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
+            ontology: DUO:0000017 [http://purl.obolibrary.org/obo/DUO_0000017]
+            values: LookupMany_NoGlobals [lookups/DataUseModifiers.txt], ofType [http://purl.obolibrary.org/obo/DUO_0000017]
+          - name: Modifiers specification
+            description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
+            ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
+            values: Text
           - name: Allow linkage
             description: A study in which data from different sources are linked. Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.
             ontology: NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]
@@ -222,14 +230,6 @@ modules:
             description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
             ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]
             values: LookupMany_NoGlobals [lookups/Recontacting.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C47953]
-          - name: Restricted to
-            description: E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
-            ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
-            values: LookupMany_NoGlobals [lookups/DataUseRestrictions.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C53452]
-          - name: Restriction specification
-            description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
-            ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
-            values: Text
     - name: Clinical
       description: Relating to the examination and treatment of patients dependent on direct observation.
       ontology: NCIT:C25398 [http://purl.obolibrary.org/obo/NCIT_C25398]
