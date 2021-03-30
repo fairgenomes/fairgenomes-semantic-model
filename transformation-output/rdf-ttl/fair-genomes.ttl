@@ -287,18 +287,35 @@
   dc:description "End date of the validity of a resource." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Represented_by>
-  a owl:DatatypeProperty;
+  a owl:ObjectProperty;
   rdfs:label "Represented by";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
   rdfs:isDefinedBy obo:NCIT_C51828;
-  dc:description "An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research." .
+  dc:description "An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.";
+  rdfs:range obo:BFO_0000023 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_research>
-  a owl:DatatypeProperty;
-  rdfs:label "Allow research";
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_permissions>
+  a owl:ObjectProperty;
+  rdfs:label "Data use permissions";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:isDefinedBy obo:ICO_0000064;
-  dc:description "Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient." .
+  rdfs:isDefinedBy obo:DUO_0000001;
+  dc:description "A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used.";
+  rdfs:range obo:DUO_0000001 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers>
+  a owl:ObjectProperty;
+  rdfs:label "Data use modifiers";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
+  rdfs:isDefinedBy obo:DUO_0000017;
+  dc:description "Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.";
+  rdfs:range obo:DUO_0000017 .
+
+<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Modifiers_specification>
+  a owl:DatatypeProperty;
+  rdfs:label "Modifiers specification";
+  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
+  rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000090>;
+  dc:description "Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_linkage>
   a owl:DatatypeProperty;
@@ -314,21 +331,6 @@
   rdfs:isDefinedBy obo:NCIT_C25737;
   dc:description "The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.";
   rdfs:range obo:NCIT_C47953 .
-
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restricted_to>
-  a owl:ObjectProperty;
-  rdfs:label "Restricted to";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:isDefinedBy obo:DUO_0000001;
-  dc:description "E.g. a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.";
-  rdfs:range obo:NCIT_C53452 .
-
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Restriction_specification>
-  a owl:DatatypeProperty;
-  rdfs:label "Restriction specification";
-  rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent>;
-  rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000090>;
-  dc:description "Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical> a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C25398;

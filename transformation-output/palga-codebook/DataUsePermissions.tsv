@@ -1,0 +1,6 @@
+value_en	description_en	codesystem	code	description_code
+general research use	This data use limitation indicates that use is allowed for general research use for any research purpose.	DUO	http://purl.obolibrary.org/obo/DUO_0000042	general research use
+health or medical or biomedical research	This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.	DUO	http://purl.obolibrary.org/obo/DUO_0000006	health or medical or biomedical research
+disease-specific research	This data use limitation indicates that use is allowed provided it is related to the specified disease.	DUO	http://purl.obolibrary.org/obo/DUO_0000007	disease-specific research
+no restriction	This data use limitation indicates there is no restriction on use.	DUO	http://purl.obolibrary.org/obo/DUO_0000004	no restriction
+population origins or ancestry research only	This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.	DUO	http://purl.obolibrary.org/obo/DUO_0000011	population origins or ancestry research only

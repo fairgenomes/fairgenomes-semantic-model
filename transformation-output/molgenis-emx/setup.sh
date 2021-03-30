@@ -10,8 +10,10 @@ mcmd import -p personal_primaryaffiliatedinstitute_attributes.tsv --as attribute
 mcmd import -p personal_resourcesinotherinstitutes_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p leafletandconsentform_consentformcreator_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p individualconsent_collectedby_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_representedby_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_datausepermissions_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p individualconsent_datausemodifiers_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p individualconsent_allowrecontacting_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p individualconsent_restrictedto_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_phenotype_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_unobservedphenotype_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p clinical_phenotypicdataavailable_attributes.tsv --as attributes --in fair-genomes
@@ -42,8 +44,10 @@ mcmd import -p personal_primaryaffiliatedinstitute.tsv --as fair-genomes_persona
 mcmd import -p personal_resourcesinotherinstitutes.tsv --as fair-genomes_personal_resourcesinotherinstitutes --in fair-genomes
 mcmd import -p leafletandconsentform_consentformcreator.tsv --as fair-genomes_leafletandconsentform_consentformcreator --in fair-genomes
 mcmd import -p individualconsent_collectedby.tsv --as fair-genomes_individualconsent_collectedby --in fair-genomes
+mcmd import -p individualconsent_representedby.tsv --as fair-genomes_individualconsent_representedby --in fair-genomes
+mcmd import -p individualconsent_datausepermissions.tsv --as fair-genomes_individualconsent_datausepermissions --in fair-genomes
+mcmd import -p individualconsent_datausemodifiers.tsv --as fair-genomes_individualconsent_datausemodifiers --in fair-genomes
 mcmd import -p individualconsent_allowrecontacting.tsv --as fair-genomes_individualconsent_allowrecontacting --in fair-genomes
-mcmd import -p individualconsent_restrictedto.tsv --as fair-genomes_individualconsent_restrictedto --in fair-genomes
 mcmd import -p clinical_phenotype.tsv --as fair-genomes_clinical_phenotype --in fair-genomes
 mcmd import -p clinical_unobservedphenotype.tsv --as fair-genomes_clinical_unobservedphenotype --in fair-genomes
 mcmd import -p clinical_phenotypicdataavailable.tsv --as fair-genomes_clinical_phenotypicdataavailable --in fair-genomes

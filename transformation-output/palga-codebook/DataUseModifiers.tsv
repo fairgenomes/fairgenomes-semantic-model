@@ -1,0 +1,19 @@
+value_en	description_en	codesystem	code	description_code
+clinical care use	This data use modifier indicates that use is allowed for clinical use and care.	DUO	http://purl.obolibrary.org/obo/DUO_0000043	clinical care use
+collaboration required	This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).	DUO	http://purl.obolibrary.org/obo/DUO_0000020	collaboration required
+ethics approval required	This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.	DUO	http://purl.obolibrary.org/obo/DUO_0000021	ethics approval required
+genetic studies only	This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)	DUO	http://purl.obolibrary.org/obo/DUO_0000016	genetic studies only
+geographical restriction	This should be coupled with an ontology term describing the geographical location the restriction applies to.	DUO	http://purl.obolibrary.org/obo/DUO_0000022	geographical restriction
+institution specific restriction	This requirement indicates that use is limited to use within an approved institution.	DUO	http://purl.obolibrary.org/obo/DUO_0000028	institution specific restriction
+no general methods research	This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.	DUO	http://purl.obolibrary.org/obo/DUO_0000015	no general methods research
+not for profit, non commercial use only	This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.	DUO	http://purl.obolibrary.org/obo/DUO_0000018	not for profit, non commercial use only
+non-commercial use only	This indicates that data can be used by commercial organisations for research purposes, but not commercial purposes.	DUO	http://purl.obolibrary.org/obo/DUO_0000046	non-commercial use only
+not for profit organisation use only	This data use modifier indicates that use of the data is limited to not-for-profit organizations.	DUO	http://purl.obolibrary.org/obo/DUO_0000045	not for profit organisation use only
+population origins or ancestry research prohibited	This data use modifier indicates use for purposes of population, origin, or ancestry research is prohibited.	DUO	http://purl.obolibrary.org/obo/DUO_0000044	population origins or ancestry research prohibited
+project specific restriction	This data use modifier indicates that use is limited to use within an approved project.	DUO	http://purl.obolibrary.org/obo/DUO_0000027	project specific restriction
+publication moratorium	This requirement indicates that requestor agrees not to publish results of studies until a specific date.	DUO	http://purl.obolibrary.org/obo/DUO_0000024	publication moratorium
+publication required	This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.	DUO	http://purl.obolibrary.org/obo/DUO_0000019	publication required
+research specific restrictions	This data use limitation indicates that use is limited to studies of a certain research type.	DUO	http://purl.obolibrary.org/obo/DUO_0000012	research specific restrictions
+return to database or resource	This requirement indicates that the requestor must return derived/enriched data to the database/resource.	DUO	http://purl.obolibrary.org/obo/DUO_0000029	return to database or resource
+time limit on use	This requirement indicates that use is approved for a specific number of months.	DUO	http://purl.obolibrary.org/obo/DUO_0000025	time limit on use
+user specific restriction	This requirement indicates that use is limited to use by approved users.	DUO	http://purl.obolibrary.org/obo/DUO_0000026	user specific restriction
