@@ -209,7 +209,7 @@ modules:
           - name: Represented by
             description: An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.
             ontology: NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]
-            values: String
+            values:  LookupOne_NoGlobals [lookups/RepresentedBy.txt], ofType [http://purl.obolibrary.org/obo/BFO_0000023]
           - name: Allow research
             description: Barring any restrictions, allow research investigations that requires an informed consent process to take place that make use of material or data from the patient.
             ontology: ICO:0000064 [http://purl.obolibrary.org/obo/ICO_0000064]
