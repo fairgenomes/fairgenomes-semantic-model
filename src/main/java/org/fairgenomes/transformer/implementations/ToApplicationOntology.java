@@ -27,14 +27,14 @@ public class ToApplicationOntology extends GenericTransformer {
         super(fg, outputFolder);
     }
 
+    // Start of each file name
+    public static final String baseFileName = "fair-genomes";
+
     @Override
     public void start() throws Exception, IOException {
 
         // Replace this later with w3id or purl
         String baseUrl = "https://github.com/fairgenomes/fairgenomes-semantic-model/";
-
-        // Start of each file name
-        String baseFileName = "fair-genomes";
 
         // All prefixes and namespaces
         Map<String, String> prefixToNamespace = new HashMap<>();
