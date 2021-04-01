@@ -1,117 +1,117 @@
 @prefix fg: <https://fair-genomes.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sio: <https://semanticscience.org/resource/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ordo: <http://www.orpha.net/ORDO/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_clinical_care_use>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "clinical care use";
   dc:description "This data use modifier indicates that use is allowed for clinical use and care.";
   rdfs:isDefinedBy obo:DUO_0000043 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_collaboration_required>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "collaboration required";
   dc:description "This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).";
   rdfs:isDefinedBy obo:DUO_0000020 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_ethics_approval_required>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "ethics approval required";
   dc:description "This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.";
   rdfs:isDefinedBy obo:DUO_0000021 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_genetic_studies_only>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "genetic studies only";
   dc:description "This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)";
   rdfs:isDefinedBy obo:DUO_0000016 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_geographical_restriction>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "geographical restriction";
   dc:description "This should be coupled with an ontology term describing the geographical location the restriction applies to.";
   rdfs:isDefinedBy obo:DUO_0000022 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_institution_specific_restriction>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "institution specific restriction";
   dc:description "This requirement indicates that use is limited to use within an approved institution.";
   rdfs:isDefinedBy obo:DUO_0000028 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_no_general_methods_research>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "no general methods research";
   dc:description "This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.";
   rdfs:isDefinedBy obo:DUO_0000015 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_not_for_profit,_non_commercial_use_only>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "not for profit, non commercial use only";
   dc:description "This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.";
   rdfs:isDefinedBy obo:DUO_0000018 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_non-commercial_use_only>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "non-commercial use only";
   dc:description "This indicates that data can be used by commercial organisations for research purposes, but not commercial purposes.";
   rdfs:isDefinedBy obo:DUO_0000046 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_not_for_profit_organisation_use_only>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "not for profit organisation use only";
   dc:description "This data use modifier indicates that use of the data is limited to not-for-profit organizations.";
   rdfs:isDefinedBy obo:DUO_0000045 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_population_origins_or_ancestry_research_prohibited>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "population origins or ancestry research prohibited";
   dc:description "This data use modifier indicates use for purposes of population, origin, or ancestry research is prohibited.";
   rdfs:isDefinedBy obo:DUO_0000044 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_project_specific_restriction>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "project specific restriction";
   dc:description "This data use modifier indicates that use is limited to use within an approved project.";
   rdfs:isDefinedBy obo:DUO_0000027 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_publication_moratorium>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "publication moratorium";
   dc:description "This requirement indicates that requestor agrees not to publish results of studies until a specific date.";
   rdfs:isDefinedBy obo:DUO_0000024 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_publication_required>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "publication required";
   dc:description "This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.";
   rdfs:isDefinedBy obo:DUO_0000019 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_research_specific_restrictions>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "research specific restrictions";
   dc:description "This data use limitation indicates that use is limited to studies of a certain research type.";
   rdfs:isDefinedBy obo:DUO_0000012 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_return_to_database_or_resource>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "return to database or resource";
   dc:description "This requirement indicates that the requestor must return derived/enriched data to the database/resource.";
   rdfs:isDefinedBy obo:DUO_0000029 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_time_limit_on_use>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "time limit on use";
   dc:description "This requirement indicates that use is approved for a specific number of months.";
   rdfs:isDefinedBy obo:DUO_0000025 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_modifiers_user_specific_restriction>
-  a "http://purl.obolibrary.org/obo/DUO_0000017";
+  a obo:DUO_0000017;
   rdfs:label "user specific restriction";
   dc:description "This requirement indicates that use is limited to use by approved users.";
   rdfs:isDefinedBy obo:DUO_0000026 .

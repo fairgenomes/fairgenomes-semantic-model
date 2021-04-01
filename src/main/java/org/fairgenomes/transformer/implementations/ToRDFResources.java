@@ -1,0 +1,147 @@
+package org.fairgenomes.transformer.implementations;
+
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.util.ModelBuilder;
+import org.eclipse.rdf4j.model.vocabulary.OWL;
+import org.eclipse.rdf4j.model.vocabulary.RDFS;
+import org.fairgenomes.transformer.datastructures.*;
+import org.fairgenomes.transformer.datastructures.Module;
+import org.fairgenomes.transformer.implementations.ToApplicationOntology;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.HashSet;
+
+import static org.eclipse.rdf4j.model.util.Values.iri;
+
+/**
+ * Maintains the RDF fragments that make up the specific FAIR Genomes ontology
+ */
+public class ToRDFResources extends GenericTransformer {
+
+    public static final String baseURL = "https://w3id.org/fair-genomes/";
+    public static final String resourceURL = baseURL + "resource/";
+    public static final String ontologyURL = baseURL + "ontology/";
+
+    private HashSet<String> uniqueTerms;
+    private HashSet<String> uniqueLookups;
+
+    public ToRDFResources(FAIRGenomes fg, File outputFolder)
+    {
+        super(fg, outputFolder);
+        uniqueTerms = new HashSet<>();
+        uniqueLookups = new HashSet<>();
+    }
+
+    @Override
+    public void start() throws Exception {
+
+        for (Module m : fg.modules) {
+
+            if(m.ontology.startsWith("FG:")){
+                throw new Exception("Not implemented yet!");
+            }
+
+                for(Element e : m.elements) {
+
+                if(e.ontology.startsWith("FG:")){
+
+                    String term = e.codeSystem + "_" + e.code;
+                    if(uniqueTerms.contains(term))
+                    {
+                        throw new Exception("Term already in use: " + term);
+                    }
+                    uniqueTerms.add(term);
+                    FileWriter fw = new FileWriter(new File(outputFolder, term + ".rdf"));
+                    BufferedWriter bw = new BufferedWriter(fw);
+                    IRI type = e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY;
+                    String srcTTL = ToApplicationOntology.baseFileName + ".ttl";
+                    bw.write(toRDF(e.codeSystem, e.code, type, e.name, e.description, iri(m.iri), m.description, srcTTL));
+                    bw.flush();
+                    bw.close();
+                }
+
+                if(e.isLookup()) {
+
+                    // Do not iterate over the same lookup list twice
+                    if(uniqueLookups.contains(e.lookup.name))
+                    {
+                        continue;
+                    }
+
+                    for (String lookup : e.lookup.lookups.keySet()) {
+                         Lookup l = e.lookup.lookups.get(lookup);
+
+                         if(l.codesystem.equals("FG"))
+                         {
+                             String term = l.codesystem + "_" + l.code;
+                             if(uniqueTerms.contains(term))
+                             {
+                                 throw new Exception("Term already in use: " + term + " for " + l.value);
+                             }
+                             uniqueTerms.add(term);
+                             FileWriter fw = new FileWriter(new File(outputFolder, term + ".rdf"));
+                             BufferedWriter bw = new BufferedWriter(fw);
+                             IRI type = iri(e.type);
+                             String srcTTL = ToApplicationOntology.baseFileName + "-" + e.lookup.name.toLowerCase() + ".ttl";
+                             bw.write(toRDF(l.codesystem, l.code, type, l.value, l.description, null, null, srcTTL));
+                             bw.flush();
+                             bw.close();
+                         }
+                    }
+
+                    uniqueLookups.add(e.lookup.name);
+                }
+            }
+        }
+    }
+
+
+    private String toRDF(String prefix, String code, IRI type, String label, String description, IRI belongsToIRI, String belongsToDescription, String srcTTL)
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>" + LE);
+   //     sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://github.com/fairgenomes/fairgenomes-semantic-model/blob/main/misc/semanticscience.org/resource.xsl\" ?>" + LE + LE);
+        sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://semanticscience.org/resource/resource.xsl\" ?>" + LE + LE);
+
+
+        sb.append("<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"" + LE);
+        sb.append("  xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"" + LE);
+        sb.append("  xmlns:dc=\"http://purl.org/dc/terms/\"" + LE);
+        sb.append("  xmlns:ns0=\"http://purl.org/dc/elements/1.1/\"" + LE);
+        sb.append("  xmlns:owl=\"http://www.w3.org/2002/07/owl#\">" + LE + LE);
+
+        if(belongsToIRI != null) {
+            sb.append("  <rdf:Description rdf:about=\"" + belongsToIRI + "\">" + LE);
+            sb.append("    <rdfs:label xml:lang=\"en\">" + belongsToDescription + "</rdfs:label>" + LE);
+            sb.append("  </rdf:Description>" + LE + LE);
+        }
+
+        sb.append("  <rdf:Description rdf:about=\"" + resourceURL + prefix + "_" + code + "\">" + LE);
+        sb.append("    <rdf:type rdf:resource=\"" + type + "\"/>" + LE);
+        sb.append("    <rdfs:label xml:lang=\"en\">"+label+"</rdfs:label>" + LE);
+        sb.append("    <rdfs:isDefinedBy rdf:resource=\"" + ontologyURL + srcTTL + "\"/>" + LE);
+        if(belongsToIRI != null){sb.append("    <rdfs:domain rdf:resource=\"" + belongsToIRI + "\"/>" + LE);}
+        sb.append("    <dc:description xml:lang=\"en\">" + description + "</dc:description>" + LE);
+        sb.append("    <dc:identifier>"+ prefix + ":" + code +"</dc:identifier>" + LE);
+        sb.append("    <ns0:identifier>"+ prefix + "_" + code +"</ns0:identifier>" + LE);
+        sb.append("  </rdf:Description>" + LE + LE);
+
+        sb.append("  <rdf:Description rdf:about=\"" + resourceURL + prefix + "_" + code+".rdf\">" + LE);
+        sb.append("    <rdf:type rdf:resource=\"http://www.w3.org/2002/07/owl#Ontology\"/>" + LE);
+        sb.append("    <rdfs:label>Summary document for " + prefix + "_" + code+"</rdfs:label>" + LE);
+        sb.append("    <owl:imports rdf:resource=\"" + ontologyURL + srcTTL + "\"/>" + LE);
+        sb.append("    <dc:subject rdf:resource=\"" + resourceURL + prefix + "_" + code + "\"/>" + LE);
+        sb.append("  </rdf:Description>" + LE + LE);
+
+        sb.append("</rdf:RDF>" + LE);
+
+        return sb.toString();
+    }
+
+
+}
+
+

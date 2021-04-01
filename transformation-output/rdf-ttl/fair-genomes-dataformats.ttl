@@ -1,3597 +1,3597 @@
 @prefix fg: <https://fair-genomes.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sio: <https://semanticscience.org/resource/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ordo: <http://www.orpha.net/ORDO/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_xsd>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "xsd";
   dc:description "xsd";
   rdfs:isDefinedBy <http://edamontology.org/format_3804> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_XMFA>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "XMFA";
   dc:description "XMFA";
   rdfs:isDefinedBy <http://edamontology.org/format_3811> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GEN>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GEN";
   dc:description "GEN";
   rdfs:isDefinedBy <http://edamontology.org/format_3812> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SAMPLE_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SAMPLE file format";
   dc:description "SAMPLE file format";
   rdfs:isDefinedBy <http://edamontology.org/format_3813> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SDF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SDF";
   dc:description "SDF";
   rdfs:isDefinedBy <http://edamontology.org/format_3814> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Molfile>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Molfile";
   dc:description "Molfile";
   rdfs:isDefinedBy <http://edamontology.org/format_3815> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Mol2>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Mol2";
   dc:description "Mol2";
   rdfs:isDefinedBy <http://edamontology.org/format_3816> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_latex>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "latex";
   dc:description "latex";
   rdfs:isDefinedBy <http://edamontology.org/format_3817> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ELAND_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ELAND format";
   dc:description "ELAND format";
   rdfs:isDefinedBy <http://edamontology.org/format_3818> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Relaxed_PHYLIP_Interleaved>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Relaxed PHYLIP Interleaved";
   dc:description "Relaxed PHYLIP Interleaved";
   rdfs:isDefinedBy <http://edamontology.org/format_3819> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Relaxed_PHYLIP_Sequential>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Relaxed PHYLIP Sequential";
   dc:description "Relaxed PHYLIP Sequential";
   rdfs:isDefinedBy <http://edamontology.org/format_3820> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_VisML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "VisML";
   dc:description "VisML";
   rdfs:isDefinedBy <http://edamontology.org/format_3821> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GML";
   dc:description "GML";
   rdfs:isDefinedBy <http://edamontology.org/format_3822> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTG>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTG";
   dc:description "FASTG";
   rdfs:isDefinedBy <http://edamontology.org/format_3823> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Raw_NMR_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Raw NMR data format";
   dc:description "Raw NMR data format";
   rdfs:isDefinedBy <http://edamontology.org/format_3824> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_nmrML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "nmrML";
   dc:description "nmrML";
   rdfs:isDefinedBy <http://edamontology.org/format_3825> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_proBAM>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "proBAM";
   dc:description "proBAM";
   rdfs:isDefinedBy <http://edamontology.org/format_3826> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_proBED>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "proBED";
   dc:description "proBED";
   rdfs:isDefinedBy <http://edamontology.org/format_3827> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Raw_microarray_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Raw microarray data format";
   dc:description "Raw microarray data format";
   rdfs:isDefinedBy <http://edamontology.org/format_3828> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GPR>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GPR";
   dc:description "GPR";
   rdfs:isDefinedBy <http://edamontology.org/format_3829> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ARB>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ARB";
   dc:description "ARB";
   rdfs:isDefinedBy <http://edamontology.org/format_3830> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_consensusXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "consensusXML";
   dc:description "consensusXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3832> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_featureXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "featureXML";
   dc:description "featureXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3833> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mzData>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mzData";
   dc:description "mzData";
   rdfs:isDefinedBy <http://edamontology.org/format_3834> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_TIDE_TXT>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "TIDE TXT";
   dc:description "TIDE TXT";
   rdfs:isDefinedBy <http://edamontology.org/format_3835> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BLAST_XML_v2_results_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BLAST XML v2 results format";
   dc:description "BLAST XML v2 results format";
   rdfs:isDefinedBy <http://edamontology.org/format_3836> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pptx>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pptx";
   dc:description "pptx";
   rdfs:isDefinedBy <http://edamontology.org/format_3838> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ibd>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ibd";
   dc:description "ibd";
   rdfs:isDefinedBy <http://edamontology.org/format_3839> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SMILES>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SMILES";
   dc:description "SMILES";
   rdfs:isDefinedBy <http://edamontology.org/format_1196> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_InChI>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "InChI";
   dc:description "InChI";
   rdfs:isDefinedBy <http://edamontology.org/format_1197> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mf>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mf";
   dc:description "mf";
   rdfs:isDefinedBy <http://edamontology.org/format_1198> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_InChIKey>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "InChIKey";
   dc:description "InChIKey";
   rdfs:isDefinedBy <http://edamontology.org/format_1199> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_smarts>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "smarts";
   dc:description "smarts";
   rdfs:isDefinedBy <http://edamontology.org/format_1200> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_unambiguous_pure>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "unambiguous pure";
   dc:description "unambiguous pure";
   rdfs:isDefinedBy <http://edamontology.org/format_1206> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_nucleotide>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "nucleotide";
   dc:description "nucleotide";
   rdfs:isDefinedBy <http://edamontology.org/format_1207> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_protein>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "protein";
   dc:description "protein";
   rdfs:isDefinedBy <http://edamontology.org/format_1208> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_consensus>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "consensus";
   dc:description "consensus";
   rdfs:isDefinedBy <http://edamontology.org/format_1209> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pure_nucleotide>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pure nucleotide";
   dc:description "pure nucleotide";
   rdfs:isDefinedBy <http://edamontology.org/format_1210> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_unambiguous_pure_nucleotide>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "unambiguous pure nucleotide";
   dc:description "unambiguous pure nucleotide";
   rdfs:isDefinedBy <http://edamontology.org/format_1211> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dna>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dna";
   dc:description "dna";
   rdfs:isDefinedBy <http://edamontology.org/format_1212> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_rna>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "rna";
   dc:description "rna";
   rdfs:isDefinedBy <http://edamontology.org/format_1213> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_unambiguous_pure_dna>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "unambiguous pure dna";
   dc:description "unambiguous pure dna";
   rdfs:isDefinedBy <http://edamontology.org/format_1214> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pure_dna>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pure dna";
   dc:description "pure dna";
   rdfs:isDefinedBy <http://edamontology.org/format_1215> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_unambiguous_pure_rna_sequence>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "unambiguous pure rna sequence";
   dc:description "unambiguous pure rna sequence";
   rdfs:isDefinedBy <http://edamontology.org/format_1216> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pure_rna>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pure rna";
   dc:description "pure rna";
   rdfs:isDefinedBy <http://edamontology.org/format_1217> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_unambiguous_pure_protein>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "unambiguous pure protein";
   dc:description "unambiguous pure protein";
   rdfs:isDefinedBy <http://edamontology.org/format_1218> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pure_protein>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pure protein";
   dc:description "pure protein";
   rdfs:isDefinedBy <http://edamontology.org/format_1219> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBL_feature_location>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBL feature location";
   dc:description "EMBL feature location";
   rdfs:isDefinedBy <http://edamontology.org/format_1248> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_quicktandem>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "quicktandem";
   dc:description "quicktandem";
   rdfs:isDefinedBy <http://edamontology.org/format_1295> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sanger_inverted_repeats>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sanger inverted repeats";
   dc:description "Sanger inverted repeats";
   rdfs:isDefinedBy <http://edamontology.org/format_1296> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBOSS_repeat>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBOSS repeat";
   dc:description "EMBOSS repeat";
   rdfs:isDefinedBy <http://edamontology.org/format_1297> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_est2genome_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "est2genome format";
   dc:description "est2genome format";
   rdfs:isDefinedBy <http://edamontology.org/format_1316> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_restrict_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "restrict format";
   dc:description "restrict format";
   rdfs:isDefinedBy <http://edamontology.org/format_1318> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_restover_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "restover format";
   dc:description "restover format";
   rdfs:isDefinedBy <http://edamontology.org/format_1319> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_REBASE_restriction_sites>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "REBASE restriction sites";
   dc:description "REBASE restriction sites";
   rdfs:isDefinedBy <http://edamontology.org/format_1320> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTA_search_results_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTA search results format";
   dc:description "FASTA search results format";
   rdfs:isDefinedBy <http://edamontology.org/format_1332> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BLAST_results>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BLAST results";
   dc:description "BLAST results";
   rdfs:isDefinedBy <http://edamontology.org/format_1333> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mspcrunch>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mspcrunch";
   dc:description "mspcrunch";
   rdfs:isDefinedBy <http://edamontology.org/format_1334> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Smith-Waterman_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Smith-Waterman format";
   dc:description "Smith-Waterman format";
   rdfs:isDefinedBy <http://edamontology.org/format_1335> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dhf>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dhf";
   dc:description "dhf";
   rdfs:isDefinedBy <http://edamontology.org/format_1336> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_lhf>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "lhf";
   dc:description "lhf";
   rdfs:isDefinedBy <http://edamontology.org/format_1337> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_InterPro_hits_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "InterPro hits format";
   dc:description "InterPro hits format";
   rdfs:isDefinedBy <http://edamontology.org/format_1341> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_InterPro_protein_view_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "InterPro protein view report format";
   dc:description "InterPro protein view report format";
   rdfs:isDefinedBy <http://edamontology.org/format_1342> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_InterPro_match_table_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "InterPro match table format";
   dc:description "InterPro match table format";
   rdfs:isDefinedBy <http://edamontology.org/format_1343> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER_Dirichlet_prior>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER Dirichlet prior";
   dc:description "HMMER Dirichlet prior";
   rdfs:isDefinedBy <http://edamontology.org/format_1349> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MEME_Dirichlet_prior>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MEME Dirichlet prior";
   dc:description "MEME Dirichlet prior";
   rdfs:isDefinedBy <http://edamontology.org/format_1350> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER_emission_and_transition>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER emission and transition";
   dc:description "HMMER emission and transition";
   rdfs:isDefinedBy <http://edamontology.org/format_1351> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_prosite-pattern>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "prosite-pattern";
   dc:description "prosite-pattern";
   rdfs:isDefinedBy <http://edamontology.org/format_1356> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBOSS_sequence_pattern>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBOSS sequence pattern";
   dc:description "EMBOSS sequence pattern";
   rdfs:isDefinedBy <http://edamontology.org/format_1357> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_meme-motif>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "meme-motif";
   dc:description "meme-motif";
   rdfs:isDefinedBy <http://edamontology.org/format_1360> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_prosite-profile>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "prosite-profile";
   dc:description "prosite-profile";
   rdfs:isDefinedBy <http://edamontology.org/format_1366> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_JASPAR_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "JASPAR format";
   dc:description "JASPAR format";
   rdfs:isDefinedBy <http://edamontology.org/format_1367> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MEME_background_Markov_model>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MEME background Markov model";
   dc:description "MEME background Markov model";
   rdfs:isDefinedBy <http://edamontology.org/format_1369> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER format";
   dc:description "HMMER format";
   rdfs:isDefinedBy <http://edamontology.org/format_1370> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER-aln>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER-aln";
   dc:description "HMMER-aln";
   rdfs:isDefinedBy <http://edamontology.org/format_1391> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_DIALIGN_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "DIALIGN format";
   dc:description "DIALIGN format";
   rdfs:isDefinedBy <http://edamontology.org/format_1392> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_daf>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "daf";
   dc:description "daf";
   rdfs:isDefinedBy <http://edamontology.org/format_1393> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence-MEME_profile_alignment>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence-MEME profile alignment";
   dc:description "Sequence-MEME profile alignment";
   rdfs:isDefinedBy <http://edamontology.org/format_1419> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER_profile_alignment_(sequences_versus_HMMs)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER profile alignment (sequences versus HMMs)";
   dc:description "HMMER profile alignment (sequences versus HMMs)";
   rdfs:isDefinedBy <http://edamontology.org/format_1421> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER_profile_alignment_(HMM_versus_sequences)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER profile alignment (HMM versus sequences)";
   dc:description "HMMER profile alignment (HMM versus sequences)";
   rdfs:isDefinedBy <http://edamontology.org/format_1422> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_distance_matrix>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip distance matrix";
   dc:description "Phylip distance matrix";
   rdfs:isDefinedBy <http://edamontology.org/format_1423> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ClustalW_dendrogram>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ClustalW dendrogram";
   dc:description "ClustalW dendrogram";
   rdfs:isDefinedBy <http://edamontology.org/format_1424> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_tree_raw>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip tree raw";
   dc:description "Phylip tree raw";
   rdfs:isDefinedBy <http://edamontology.org/format_1425> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_continuous_quantitative_characters>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip continuous quantitative characters";
   dc:description "Phylip continuous quantitative characters";
   rdfs:isDefinedBy <http://edamontology.org/format_1430> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_character_frequencies_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip character frequencies format";
   dc:description "Phylip character frequencies format";
   rdfs:isDefinedBy <http://edamontology.org/format_1432> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_discrete_states_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip discrete states format";
   dc:description "Phylip discrete states format";
   rdfs:isDefinedBy <http://edamontology.org/format_1433> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_cliques_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip cliques format";
   dc:description "Phylip cliques format";
   rdfs:isDefinedBy <http://edamontology.org/format_1434> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_tree_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip tree format";
   dc:description "Phylip tree format";
   rdfs:isDefinedBy <http://edamontology.org/format_1435> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_TreeBASE_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "TreeBASE format";
   dc:description "TreeBASE format";
   rdfs:isDefinedBy <http://edamontology.org/format_1436> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_TreeFam_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "TreeFam format";
   dc:description "TreeFam format";
   rdfs:isDefinedBy <http://edamontology.org/format_1437> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_tree_distance_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip tree distance format";
   dc:description "Phylip tree distance format";
   rdfs:isDefinedBy <http://edamontology.org/format_1445> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dssp>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dssp";
   dc:description "dssp";
   rdfs:isDefinedBy <http://edamontology.org/format_1454> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_hssp>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "hssp";
   dc:description "hssp";
   rdfs:isDefinedBy <http://edamontology.org/format_1455> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Dot-bracket_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Dot-bracket format";
   dc:description "Dot-bracket format";
   rdfs:isDefinedBy <http://edamontology.org/format_1457> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Vienna_local_RNA_secondary_structure_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Vienna local RNA secondary structure format";
   dc:description "Vienna local RNA secondary structure format";
   rdfs:isDefinedBy <http://edamontology.org/format_1458> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PDB_database_entry_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PDB database entry format";
   dc:description "PDB database entry format";
   rdfs:isDefinedBy <http://edamontology.org/format_1475> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PDB>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PDB";
   dc:description "PDB";
   rdfs:isDefinedBy <http://edamontology.org/format_1476> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mmCIF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mmCIF";
   dc:description "mmCIF";
   rdfs:isDefinedBy <http://edamontology.org/format_1477> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_aaindex>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "aaindex";
   dc:description "aaindex";
   rdfs:isDefinedBy <http://edamontology.org/format_1504> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Pcons_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Pcons report format";
   dc:description "Pcons report format";
   rdfs:isDefinedBy <http://edamontology.org/format_1551> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ProQ_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ProQ report format";
   dc:description "ProQ report format";
   rdfs:isDefinedBy <http://edamontology.org/format_1552> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_findkm>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "findkm";
   dc:description "findkm";
   rdfs:isDefinedBy <http://edamontology.org/format_1582> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Primer3_primer>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Primer3 primer";
   dc:description "Primer3 primer";
   rdfs:isDefinedBy <http://edamontology.org/format_1627> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ABI>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ABI";
   dc:description "ABI";
   rdfs:isDefinedBy <http://edamontology.org/format_1628> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mira>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mira";
   dc:description "mira";
   rdfs:isDefinedBy <http://edamontology.org/format_1629> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CAF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CAF";
   dc:description "CAF";
   rdfs:isDefinedBy <http://edamontology.org/format_1630> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EXP>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EXP";
   dc:description "EXP";
   rdfs:isDefinedBy <http://edamontology.org/format_1631> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SCF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SCF";
   dc:description "SCF";
   rdfs:isDefinedBy <http://edamontology.org/format_1632> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PHD>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PHD";
   dc:description "PHD";
   rdfs:isDefinedBy <http://edamontology.org/format_1633> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dat>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dat";
   dc:description "dat";
   rdfs:isDefinedBy <http://edamontology.org/format_1637> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_cel>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "cel";
   dc:description "cel";
   rdfs:isDefinedBy <http://edamontology.org/format_1638> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_affymetrix>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "affymetrix";
   dc:description "affymetrix";
   rdfs:isDefinedBy <http://edamontology.org/format_1639> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_affymetrix-exp>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "affymetrix-exp";
   dc:description "affymetrix-exp";
   rdfs:isDefinedBy <http://edamontology.org/format_1641> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CHP>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CHP";
   dc:description "CHP";
   rdfs:isDefinedBy <http://edamontology.org/format_1644> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HET_group_dictionary_entry_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HET group dictionary entry format";
   dc:description "HET group dictionary entry format";
   rdfs:isDefinedBy <http://edamontology.org/format_1705> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PubMed_citation>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PubMed citation";
   dc:description "PubMed citation";
   rdfs:isDefinedBy <http://edamontology.org/format_1734> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Medline_Display_Format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Medline Display Format";
   dc:description "Medline Display Format";
   rdfs:isDefinedBy <http://edamontology.org/format_1735> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CiteXplore-core>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CiteXplore-core";
   dc:description "CiteXplore-core";
   rdfs:isDefinedBy <http://edamontology.org/format_1736> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CiteXplore-all>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CiteXplore-all";
   dc:description "CiteXplore-all";
   rdfs:isDefinedBy <http://edamontology.org/format_1737> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pmc>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pmc";
   dc:description "pmc";
   rdfs:isDefinedBy <http://edamontology.org/format_1739> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_iHOP_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "iHOP format";
   dc:description "iHOP format";
   rdfs:isDefinedBy <http://edamontology.org/format_1740> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OSCAR_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OSCAR format";
   dc:description "OSCAR format";
   rdfs:isDefinedBy <http://edamontology.org/format_1741> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PlasMapper_TextMap>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PlasMapper TextMap";
   dc:description "PlasMapper TextMap";
   rdfs:isDefinedBy <http://edamontology.org/format_1861> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_newick>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "newick";
   dc:description "newick";
   rdfs:isDefinedBy <http://edamontology.org/format_1910> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_TreeCon_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "TreeCon format";
   dc:description "TreeCon format";
   rdfs:isDefinedBy <http://edamontology.org/format_1911> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Format";
   dc:description "Format";
   rdfs:isDefinedBy <http://edamontology.org/format_1915> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_record_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence record format";
   dc:description "Sequence record format";
   rdfs:isDefinedBy <http://edamontology.org/format_1919> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_feature_annotation_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence feature annotation format";
   dc:description "Sequence feature annotation format";
   rdfs:isDefinedBy <http://edamontology.org/format_1920> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_acedb>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "acedb";
   dc:description "acedb";
   rdfs:isDefinedBy <http://edamontology.org/format_1923> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_codata>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "codata";
   dc:description "codata";
   rdfs:isDefinedBy <http://edamontology.org/format_1925> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dbid>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dbid";
   dc:description "dbid";
   rdfs:isDefinedBy <http://edamontology.org/format_1926> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBL_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBL format";
   dc:description "EMBL format";
   rdfs:isDefinedBy <http://edamontology.org/format_1927> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Staden_experiment_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Staden experiment format";
   dc:description "Staden experiment format";
   rdfs:isDefinedBy <http://edamontology.org/format_1928> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTA>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTA";
   dc:description "FASTA";
   rdfs:isDefinedBy <http://edamontology.org/format_1929> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTA_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTA format";
   dc:description "FASTA format";
   rdfs:isDefinedBy <http://edamontology.org/format_1929> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTQ-illumina>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTQ-illumina";
   dc:description "FASTQ-illumina";
   rdfs:isDefinedBy <http://edamontology.org/format_1931> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTQ-sanger>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTQ-sanger";
   dc:description "FASTQ-sanger";
   rdfs:isDefinedBy <http://edamontology.org/format_1932> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTQ-solexa>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTQ-solexa";
   dc:description "FASTQ-solexa";
   rdfs:isDefinedBy <http://edamontology.org/format_1933> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_fitch_program>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "fitch program";
   dc:description "fitch program";
   rdfs:isDefinedBy <http://edamontology.org/format_1934> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GCG>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GCG";
   dc:description "GCG";
   rdfs:isDefinedBy <http://edamontology.org/format_1935> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GenBank_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GenBank format";
   dc:description "GenBank format";
   rdfs:isDefinedBy <http://edamontology.org/format_1936> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_genpept>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "genpept";
   dc:description "genpept";
   rdfs:isDefinedBy <http://edamontology.org/format_1937> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GFF2-seq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GFF2-seq";
   dc:description "GFF2-seq";
   rdfs:isDefinedBy <http://edamontology.org/format_1938> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GFF3-seq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GFF3-seq";
   dc:description "GFF3-seq";
   rdfs:isDefinedBy <http://edamontology.org/format_1939> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_giFASTA_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "giFASTA format";
   dc:description "giFASTA format";
   rdfs:isDefinedBy <http://edamontology.org/format_1940> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_hennig86>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "hennig86";
   dc:description "hennig86";
   rdfs:isDefinedBy <http://edamontology.org/format_1941> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ig>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ig";
   dc:description "ig";
   rdfs:isDefinedBy <http://edamontology.org/format_1942> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_igstrict>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "igstrict";
   dc:description "igstrict";
   rdfs:isDefinedBy <http://edamontology.org/format_1943> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_jackknifer>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "jackknifer";
   dc:description "jackknifer";
   rdfs:isDefinedBy <http://edamontology.org/format_1944> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mase_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mase format";
   dc:description "mase format";
   rdfs:isDefinedBy <http://edamontology.org/format_1945> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mega-seq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mega-seq";
   dc:description "mega-seq";
   rdfs:isDefinedBy <http://edamontology.org/format_1946> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GCG_MSF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GCG MSF";
   dc:description "GCG MSF";
   rdfs:isDefinedBy <http://edamontology.org/format_1947> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_nbrf/pir>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "nbrf/pir";
   dc:description "nbrf/pir";
   rdfs:isDefinedBy <http://edamontology.org/format_1948> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_nexus-seq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "nexus-seq";
   dc:description "nexus-seq";
   rdfs:isDefinedBy <http://edamontology.org/format_1949> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pdbatom>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pdbatom";
   dc:description "pdbatom";
   rdfs:isDefinedBy <http://edamontology.org/format_1950> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pdbatomnuc>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pdbatomnuc";
   dc:description "pdbatomnuc";
   rdfs:isDefinedBy <http://edamontology.org/format_1951> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pdbseqresnuc>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pdbseqresnuc";
   dc:description "pdbseqresnuc";
   rdfs:isDefinedBy <http://edamontology.org/format_1952> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pdbseqres>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pdbseqres";
   dc:description "pdbseqres";
   rdfs:isDefinedBy <http://edamontology.org/format_1953> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Pearson_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Pearson format";
   dc:description "Pearson format";
   rdfs:isDefinedBy <http://edamontology.org/format_1954> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_raw>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "raw";
   dc:description "raw";
   rdfs:isDefinedBy <http://edamontology.org/format_1957> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_refseqp>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "refseqp";
   dc:description "refseqp";
   rdfs:isDefinedBy <http://edamontology.org/format_1958> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Staden_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Staden format";
   dc:description "Staden format";
   rdfs:isDefinedBy <http://edamontology.org/format_1960> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Stockholm_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Stockholm format";
   dc:description "Stockholm format";
   rdfs:isDefinedBy <http://edamontology.org/format_1961> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_strider_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "strider format";
   dc:description "strider format";
   rdfs:isDefinedBy <http://edamontology.org/format_1962> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_UniProtKB_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "UniProtKB format";
   dc:description "UniProtKB format";
   rdfs:isDefinedBy <http://edamontology.org/format_1963> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_plain_text_format_(unformatted)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "plain text format (unformatted)";
   dc:description "plain text format (unformatted)";
   rdfs:isDefinedBy <http://edamontology.org/format_1964> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ASN.1_sequence_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ASN.1 sequence format";
   dc:description "ASN.1 sequence format";
   rdfs:isDefinedBy <http://edamontology.org/format_1966> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_DAS_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "DAS format";
   dc:description "DAS format";
   rdfs:isDefinedBy <http://edamontology.org/format_1967> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dasdna>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dasdna";
   dc:description "dasdna";
   rdfs:isDefinedBy <http://edamontology.org/format_1968> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_debug-seq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "debug-seq";
   dc:description "debug-seq";
   rdfs:isDefinedBy <http://edamontology.org/format_1969> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_jackknifernon>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "jackknifernon";
   dc:description "jackknifernon";
   rdfs:isDefinedBy <http://edamontology.org/format_1970> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_NCBI_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "NCBI format";
   dc:description "NCBI format";
   rdfs:isDefinedBy <http://edamontology.org/format_1972> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_nexusnon>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "nexusnon";
   dc:description "nexusnon";
   rdfs:isDefinedBy <http://edamontology.org/format_1973> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GFF2>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GFF2";
   dc:description "GFF2";
   rdfs:isDefinedBy <http://edamontology.org/format_1974> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GFF3>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GFF3";
   dc:description "GFF3";
   rdfs:isDefinedBy <http://edamontology.org/format_1975> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_DASGFF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "DASGFF";
   dc:description "DASGFF";
   rdfs:isDefinedBy <http://edamontology.org/format_1978> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_debug-feat>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "debug-feat";
   dc:description "debug-feat";
   rdfs:isDefinedBy <http://edamontology.org/format_1979> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ClustalW_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ClustalW format";
   dc:description "ClustalW format";
   rdfs:isDefinedBy <http://edamontology.org/format_1982> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_debug>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "debug";
   dc:description "debug";
   rdfs:isDefinedBy <http://edamontology.org/format_1983> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTA-aln>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTA-aln";
   dc:description "FASTA-aln";
   rdfs:isDefinedBy <http://edamontology.org/format_1984> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_markx0>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "markx0";
   dc:description "markx0";
   rdfs:isDefinedBy <http://edamontology.org/format_1985> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_markx1>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "markx1";
   dc:description "markx1";
   rdfs:isDefinedBy <http://edamontology.org/format_1986> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_markx10>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "markx10";
   dc:description "markx10";
   rdfs:isDefinedBy <http://edamontology.org/format_1987> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_markx2>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "markx2";
   dc:description "markx2";
   rdfs:isDefinedBy <http://edamontology.org/format_1988> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_markx3>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "markx3";
   dc:description "markx3";
   rdfs:isDefinedBy <http://edamontology.org/format_1989> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_match>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "match";
   dc:description "match";
   rdfs:isDefinedBy <http://edamontology.org/format_1990> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mega>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mega";
   dc:description "mega";
   rdfs:isDefinedBy <http://edamontology.org/format_1991> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_meganon>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "meganon";
   dc:description "meganon";
   rdfs:isDefinedBy <http://edamontology.org/format_1992> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pair>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pair";
   dc:description "pair";
   rdfs:isDefinedBy <http://edamontology.org/format_1996> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PHYLIP_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PHYLIP format";
   dc:description "PHYLIP format";
   rdfs:isDefinedBy <http://edamontology.org/format_1997> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PHYLIP_sequential>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PHYLIP sequential";
   dc:description "PHYLIP sequential";
   rdfs:isDefinedBy <http://edamontology.org/format_1998> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_scores_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "scores format";
   dc:description "scores format";
   rdfs:isDefinedBy <http://edamontology.org/format_1999> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_selex>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "selex";
   dc:description "selex";
   rdfs:isDefinedBy <http://edamontology.org/format_2000> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBOSS_simple_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBOSS simple format";
   dc:description "EMBOSS simple format";
   rdfs:isDefinedBy <http://edamontology.org/format_2001> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_srs_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "srs format";
   dc:description "srs format";
   rdfs:isDefinedBy <http://edamontology.org/format_2002> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_srspair>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "srspair";
   dc:description "srspair";
   rdfs:isDefinedBy <http://edamontology.org/format_2003> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_T-Coffee_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "T-Coffee format";
   dc:description "T-Coffee format";
   rdfs:isDefinedBy <http://edamontology.org/format_2004> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_TreeCon-seq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "TreeCon-seq";
   dc:description "TreeCon-seq";
   rdfs:isDefinedBy <http://edamontology.org/format_2005> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_tree_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic tree format";
   dc:description "Phylogenetic tree format";
   rdfs:isDefinedBy <http://edamontology.org/format_2006> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Biological_pathway_or_network_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Biological pathway or network format";
   dc:description "Biological pathway or network format";
   rdfs:isDefinedBy <http://edamontology.org/format_2013> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence-profile_alignment_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence-profile alignment format";
   dc:description "Sequence-profile alignment format";
   rdfs:isDefinedBy <http://edamontology.org/format_2014> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Amino_acid_index_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Amino acid index format";
   dc:description "Amino acid index format";
   rdfs:isDefinedBy <http://edamontology.org/format_2017> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Article_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Article format";
   dc:description "Article format";
   rdfs:isDefinedBy <http://edamontology.org/format_2020> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Text_mining_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Text mining report format";
   dc:description "Text mining report format";
   rdfs:isDefinedBy <http://edamontology.org/format_2021> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Enzyme_kinetics_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Enzyme kinetics report format";
   dc:description "Enzyme kinetics report format";
   rdfs:isDefinedBy <http://edamontology.org/format_2027> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Chemical_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Chemical data format";
   dc:description "Chemical data format";
   rdfs:isDefinedBy <http://edamontology.org/format_2030> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Gene_annotation_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Gene annotation format";
   dc:description "Gene annotation format";
   rdfs:isDefinedBy <http://edamontology.org/format_2031> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Workflow_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Workflow format";
   dc:description "Workflow format";
   rdfs:isDefinedBy <http://edamontology.org/format_2032> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Tertiary_structure_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Tertiary structure format";
   dc:description "Tertiary structure format";
   rdfs:isDefinedBy <http://edamontology.org/format_2033> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Chemical_formula_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Chemical formula format";
   dc:description "Chemical formula format";
   rdfs:isDefinedBy <http://edamontology.org/format_2035> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_character_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic character data format";
   dc:description "Phylogenetic character data format";
   rdfs:isDefinedBy <http://edamontology.org/format_2036> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_continuous_quantitative_character_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic continuous quantitative character format";
   dc:description "Phylogenetic continuous quantitative character format";
   rdfs:isDefinedBy <http://edamontology.org/format_2037> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_discrete_states_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic discrete states format";
   dc:description "Phylogenetic discrete states format";
   rdfs:isDefinedBy <http://edamontology.org/format_2038> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_tree_report_(cliques)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic tree report (cliques) format";
   dc:description "Phylogenetic tree report (cliques) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2039> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_tree_report_(invariants)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic tree report (invariants) format";
   dc:description "Phylogenetic tree report (invariants) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2040> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_tree_report_(tree_distances)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic tree report (tree distances) format";
   dc:description "Phylogenetic tree report (tree distances) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2049> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Protein_family_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Protein family report format";
   dc:description "Protein family report format";
   rdfs:isDefinedBy <http://edamontology.org/format_2052> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Protein_interaction_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Protein interaction format";
   dc:description "Protein interaction format";
   rdfs:isDefinedBy <http://edamontology.org/format_2054> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_assembly_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence assembly format";
   dc:description "Sequence assembly format";
   rdfs:isDefinedBy <http://edamontology.org/format_2055> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Microarray_experiment_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Microarray experiment data format";
   dc:description "Microarray experiment data format";
   rdfs:isDefinedBy <http://edamontology.org/format_2056> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_trace_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence trace format";
   dc:description "Sequence trace format";
   rdfs:isDefinedBy <http://edamontology.org/format_2057> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Gene_expression_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Gene expression report format";
   dc:description "Gene expression report format";
   rdfs:isDefinedBy <http://edamontology.org/format_2058> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Map_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Map format";
   dc:description "Map format";
   rdfs:isDefinedBy <http://edamontology.org/format_2060> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Nucleic_acid_features_(primers)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Nucleic acid features (primers) format";
   dc:description "Nucleic acid features (primers) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2061> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Protein_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Protein report format";
   dc:description "Protein report format";
   rdfs:isDefinedBy <http://edamontology.org/format_2062> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_3D-1D_scoring_matrix_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "3D-1D scoring matrix format";
   dc:description "3D-1D scoring matrix format";
   rdfs:isDefinedBy <http://edamontology.org/format_2064> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Protein_structure_report_(quality_evaluation)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Protein structure report (quality evaluation) format";
   dc:description "Protein structure report (quality evaluation) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2065> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Database_hits_(sequence)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Database hits (sequence) format";
   dc:description "Database hits (sequence) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2066> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_distance_matrix_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence distance matrix format";
   dc:description "Sequence distance matrix format";
   rdfs:isDefinedBy <http://edamontology.org/format_2067> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_motif_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence motif format";
   dc:description "Sequence motif format";
   rdfs:isDefinedBy <http://edamontology.org/format_2068> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_profile_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence profile format";
   dc:description "Sequence profile format";
   rdfs:isDefinedBy <http://edamontology.org/format_2069> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Hidden_Markov_model_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Hidden Markov model format";
   dc:description "Hidden Markov model format";
   rdfs:isDefinedBy <http://edamontology.org/format_2072> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Dirichlet_distribution_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Dirichlet distribution format";
   dc:description "Dirichlet distribution format";
   rdfs:isDefinedBy <http://edamontology.org/format_2074> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMM_emission_and_transition_counts_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMM emission and transition counts format";
   dc:description "HMM emission and transition counts format";
   rdfs:isDefinedBy <http://edamontology.org/format_2075> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_RNA_secondary_structure_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "RNA secondary structure format";
   dc:description "RNA secondary structure format";
   rdfs:isDefinedBy <http://edamontology.org/format_2076> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Protein_secondary_structure_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Protein secondary structure format";
   dc:description "Protein secondary structure format";
   rdfs:isDefinedBy <http://edamontology.org/format_2077> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_range_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence range format";
   dc:description "Sequence range format";
   rdfs:isDefinedBy <http://edamontology.org/format_2078> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pure>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pure";
   dc:description "pure";
   rdfs:isDefinedBy <http://edamontology.org/format_2094> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_unpure>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "unpure";
   dc:description "unpure";
   rdfs:isDefinedBy <http://edamontology.org/format_2095> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_unambiguous_sequence>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "unambiguous sequence";
   dc:description "unambiguous sequence";
   rdfs:isDefinedBy <http://edamontology.org/format_2096> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ambiguous>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ambiguous";
   dc:description "ambiguous";
   rdfs:isDefinedBy <http://edamontology.org/format_2097> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_features_(repeats)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence features (repeats) format";
   dc:description "Sequence features (repeats) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2155> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Nucleic_acid_features_(restriction_sites)_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Nucleic acid features (restriction sites) format";
   dc:description "Nucleic acid features (restriction sites) format";
   rdfs:isDefinedBy <http://edamontology.org/format_2158> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_cluster_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence cluster format";
   dc:description "Sequence cluster format";
   rdfs:isDefinedBy <http://edamontology.org/format_2170> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_cluster_format_(protein)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence cluster format (protein)";
   dc:description "Sequence cluster format (protein)";
   rdfs:isDefinedBy <http://edamontology.org/format_2171> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_cluster_format_(nucleic_acid)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence cluster format (nucleic acid)";
   dc:description "Sequence cluster format (nucleic acid)";
   rdfs:isDefinedBy <http://edamontology.org/format_2172> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBL-like_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBL-like (text)";
   dc:description "EMBL-like (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2181> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTQ-like_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTQ-like format (text)";
   dc:description "FASTQ-like format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2182> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBLXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBLXML";
   dc:description "EMBLXML";
   rdfs:isDefinedBy <http://edamontology.org/format_2183> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_cdsxml>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "cdsxml";
   dc:description "cdsxml";
   rdfs:isDefinedBy <http://edamontology.org/format_2184> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_insdxml>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "insdxml";
   dc:description "insdxml";
   rdfs:isDefinedBy <http://edamontology.org/format_2185> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_geneseq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "geneseq";
   dc:description "geneseq";
   rdfs:isDefinedBy <http://edamontology.org/format_2186> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_UniProt-like_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "UniProt-like (text)";
   dc:description "UniProt-like (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2187> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_medline>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "medline";
   dc:description "medline";
   rdfs:isDefinedBy <http://edamontology.org/format_2194> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Ontology_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Ontology format";
   dc:description "Ontology format";
   rdfs:isDefinedBy <http://edamontology.org/format_2195> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OBO_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OBO format";
   dc:description "OBO format";
   rdfs:isDefinedBy <http://edamontology.org/format_2196> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OWL_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OWL format";
   dc:description "OWL format";
   rdfs:isDefinedBy <http://edamontology.org/format_2197> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTA-like_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTA-like (text)";
   dc:description "FASTA-like (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2200> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBL_format_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBL format (XML)";
   dc:description "EMBL format (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2204> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GenBank-like_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GenBank-like format (text)";
   dc:description "GenBank-like format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2205> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_feature_table_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence feature table format (text)";
   dc:description "Sequence feature table format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2206> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_STRING_entry_format_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "STRING entry format (XML)";
   dc:description "STRING entry format (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2304> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GFF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GFF";
   dc:description "GFF";
   rdfs:isDefinedBy <http://edamontology.org/format_2305> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GTF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GTF";
   dc:description "GTF";
   rdfs:isDefinedBy <http://edamontology.org/format_2306> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTA-HTML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTA-HTML";
   dc:description "FASTA-HTML";
   rdfs:isDefinedBy <http://edamontology.org/format_2310> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBL-HTML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBL-HTML";
   dc:description "EMBL-HTML";
   rdfs:isDefinedBy <http://edamontology.org/format_2311> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Textual_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Textual format";
   dc:description "Textual format";
   rdfs:isDefinedBy <http://edamontology.org/format_2330> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "XML";
   dc:description "XML";
   rdfs:isDefinedBy <http://edamontology.org/format_2332> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Binary_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Binary format";
   dc:description "Binary format";
   rdfs:isDefinedBy <http://edamontology.org/format_2333> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_binary_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "binary format";
   dc:description "binary format";
   rdfs:isDefinedBy <http://edamontology.org/format_2333> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Format_(by_type_of_data)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Format (by type of data)";
   dc:description "Format (by type of data)";
   rdfs:isDefinedBy <http://edamontology.org/format_2350> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioXSD_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioXSD (XML)";
   dc:description "BioXSD (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2352> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_RDF_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "RDF format";
   dc:description "RDF format";
   rdfs:isDefinedBy <http://edamontology.org/format_2376> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GenBank-HTML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GenBank-HTML";
   dc:description "GenBank-HTML";
   rdfs:isDefinedBy <http://edamontology.org/format_2532> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBL-like_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBL-like format";
   dc:description "EMBL-like format";
   rdfs:isDefinedBy <http://edamontology.org/format_2543> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTQ-like_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTQ-like format";
   dc:description "FASTQ-like format";
   rdfs:isDefinedBy <http://edamontology.org/format_2545> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTA-like>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTA-like";
   dc:description "FASTA-like";
   rdfs:isDefinedBy <http://edamontology.org/format_2546> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_uniprotkb-like_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "uniprotkb-like format";
   dc:description "uniprotkb-like format";
   rdfs:isDefinedBy <http://edamontology.org/format_2547> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_feature_table_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence feature table format";
   dc:description "Sequence feature table format";
   rdfs:isDefinedBy <http://edamontology.org/format_2548> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OBO_Flat_File_Format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OBO Flat File Format";
   dc:description "OBO Flat File Format";
   rdfs:isDefinedBy <http://edamontology.org/format_2549> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OBO>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OBO";
   dc:description "OBO";
   rdfs:isDefinedBy <http://edamontology.org/format_2549> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OBO-XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OBO-XML";
   dc:description "OBO-XML";
   rdfs:isDefinedBy <http://edamontology.org/format_2550> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_record_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence record format (text)";
   dc:description "Sequence record format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2551> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_record_format_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence record format (XML)";
   dc:description "Sequence record format (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2552> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_feature_table_format_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence feature table format (XML)";
   dc:description "Sequence feature table format (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2553> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Alignment_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Alignment format (text)";
   dc:description "Alignment format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2554> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Alignment_format_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Alignment format (XML)";
   dc:description "Alignment format (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2555> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_tree_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic tree format (text)";
   dc:description "Phylogenetic tree format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2556> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylogenetic_tree_format_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylogenetic tree format (XML)";
   dc:description "Phylogenetic tree format (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2557> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EMBL-like_(XML)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EMBL-like (XML)";
   dc:description "EMBL-like (XML)";
   rdfs:isDefinedBy <http://edamontology.org/format_2558> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GenBank-like_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GenBank-like format";
   dc:description "GenBank-like format";
   rdfs:isDefinedBy <http://edamontology.org/format_2559> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_assembly_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence assembly format (text)";
   dc:description "Sequence assembly format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_2561> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_completely_unambiguous>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "completely unambiguous";
   dc:description "completely unambiguous";
   rdfs:isDefinedBy <http://edamontology.org/format_2566> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_completely_unambiguous_pure>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "completely unambiguous pure";
   dc:description "completely unambiguous pure";
   rdfs:isDefinedBy <http://edamontology.org/format_2567> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_completely_unambiguous_pure_nucleotide>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "completely unambiguous pure nucleotide";
   dc:description "completely unambiguous pure nucleotide";
   rdfs:isDefinedBy <http://edamontology.org/format_2568> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_completely_unambiguous_pure_dna>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "completely unambiguous pure dna";
   dc:description "completely unambiguous pure dna";
   rdfs:isDefinedBy <http://edamontology.org/format_2569> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_completely_unambiguous_pure_rna_sequence>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "completely unambiguous pure rna sequence";
   dc:description "completely unambiguous pure rna sequence";
   rdfs:isDefinedBy <http://edamontology.org/format_2570> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Raw_sequence_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Raw sequence format";
   dc:description "Raw sequence format";
   rdfs:isDefinedBy <http://edamontology.org/format_2571> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SBML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SBML";
   dc:description "SBML";
   rdfs:isDefinedBy <http://edamontology.org/format_2585> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_completely_unambiguous_pure_protein>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "completely unambiguous pure protein";
   dc:description "completely unambiguous pure protein";
   rdfs:isDefinedBy <http://edamontology.org/format_2607> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Bibliographic_reference_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Bibliographic reference format";
   dc:description "Bibliographic reference format";
   rdfs:isDefinedBy <http://edamontology.org/format_2848> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_annotation_track_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence annotation track format";
   dc:description "Sequence annotation track format";
   rdfs:isDefinedBy <http://edamontology.org/format_2919> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Alignment_format_(pair_only)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Alignment format (pair only)";
   dc:description "Alignment format (pair only)";
   rdfs:isDefinedBy <http://edamontology.org/format_2920> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_variation_annotation_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence variation annotation format";
   dc:description "Sequence variation annotation format";
   rdfs:isDefinedBy <http://edamontology.org/format_2921> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_markx0_variant>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "markx0 variant";
   dc:description "markx0 variant";
   rdfs:isDefinedBy <http://edamontology.org/format_2922> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mega_variant>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mega variant";
   dc:description "mega variant";
   rdfs:isDefinedBy <http://edamontology.org/format_2923> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Phylip_format_variant>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Phylip format variant";
   dc:description "Phylip format variant";
   rdfs:isDefinedBy <http://edamontology.org/format_2924> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_AB1>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "AB1";
   dc:description "AB1";
   rdfs:isDefinedBy <http://edamontology.org/format_3000> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ACE>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ACE";
   dc:description "ACE";
   rdfs:isDefinedBy <http://edamontology.org/format_3001> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BED>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BED";
   dc:description "BED";
   rdfs:isDefinedBy <http://edamontology.org/format_3003> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BED_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BED format";
   dc:description "BED format";
   rdfs:isDefinedBy <http://edamontology.org/format_3003> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bigBed>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bigBed";
   dc:description "bigBed";
   rdfs:isDefinedBy <http://edamontology.org/format_3004> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bigWig>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bigWig";
   dc:description "bigWig";
   rdfs:isDefinedBy <http://edamontology.org/format_3006> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PSL>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PSL";
   dc:description "PSL";
   rdfs:isDefinedBy <http://edamontology.org/format_3007> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_2bit>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "2bit";
   dc:description "2bit";
   rdfs:isDefinedBy <http://edamontology.org/format_3009> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.nib>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".nib";
   dc:description ".nib";
   rdfs:isDefinedBy <http://edamontology.org/format_3010> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_genePred>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "genePred";
   dc:description "genePred";
   rdfs:isDefinedBy <http://edamontology.org/format_3011> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pgSnp>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pgSnp";
   dc:description "pgSnp";
   rdfs:isDefinedBy <http://edamontology.org/format_3012> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_axt>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "axt";
   dc:description "axt";
   rdfs:isDefinedBy <http://edamontology.org/format_3013> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_LAV>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "LAV";
   dc:description "LAV";
   rdfs:isDefinedBy <http://edamontology.org/format_3014> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Pileup>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Pileup";
   dc:description "Pileup";
   rdfs:isDefinedBy <http://edamontology.org/format_3015> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SRF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SRF";
   dc:description "SRF";
   rdfs:isDefinedBy <http://edamontology.org/format_3017> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ZTR>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ZTR";
   dc:description "ZTR";
   rdfs:isDefinedBy <http://edamontology.org/format_3018> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GVF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GVF";
   dc:description "GVF";
   rdfs:isDefinedBy <http://edamontology.org/format_3019> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BCF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BCF";
   dc:description "BCF";
   rdfs:isDefinedBy <http://edamontology.org/format_3020> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Matrix_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Matrix format";
   dc:description "Matrix format";
   rdfs:isDefinedBy <http://edamontology.org/format_3033> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Protein_domain_classification_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Protein domain classification format";
   dc:description "Protein domain classification format";
   rdfs:isDefinedBy <http://edamontology.org/format_3097> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Raw_SCOP_domain_classification_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Raw SCOP domain classification format";
   dc:description "Raw SCOP domain classification format";
   rdfs:isDefinedBy <http://edamontology.org/format_3098> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Raw_CATH_domain_classification_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Raw CATH domain classification format";
   dc:description "Raw CATH domain classification format";
   rdfs:isDefinedBy <http://edamontology.org/format_3099> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CATH_domain_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CATH domain report format";
   dc:description "CATH domain report format";
   rdfs:isDefinedBy <http://edamontology.org/format_3100> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SBRML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SBRML";
   dc:description "SBRML";
   rdfs:isDefinedBy <http://edamontology.org/format_3155> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioPAX>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioPAX";
   dc:description "BioPAX";
   rdfs:isDefinedBy <http://edamontology.org/format_3156> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EBI_Application_Result_XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EBI Application Result XML";
   dc:description "EBI Application Result XML";
   rdfs:isDefinedBy <http://edamontology.org/format_3157> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PSI_MI_XML_(MIF)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PSI MI XML (MIF)";
   dc:description "PSI MI XML (MIF)";
   rdfs:isDefinedBy <http://edamontology.org/format_3158> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_phyloXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "phyloXML";
   dc:description "phyloXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3159> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_NeXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "NeXML";
   dc:description "NeXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3160> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MAGE-ML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MAGE-ML";
   dc:description "MAGE-ML";
   rdfs:isDefinedBy <http://edamontology.org/format_3161> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MAGE-TAB>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MAGE-TAB";
   dc:description "MAGE-TAB";
   rdfs:isDefinedBy <http://edamontology.org/format_3162> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GCDML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GCDML";
   dc:description "GCDML";
   rdfs:isDefinedBy <http://edamontology.org/format_3163> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GTrack>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GTrack";
   dc:description "GTrack";
   rdfs:isDefinedBy <http://edamontology.org/format_3164> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Biological_pathway_or_network_report_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Biological pathway or network report format";
   dc:description "Biological pathway or network report format";
   rdfs:isDefinedBy <http://edamontology.org/format_3166> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Experiment_annotation_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Experiment annotation format";
   dc:description "Experiment annotation format";
   rdfs:isDefinedBy <http://edamontology.org/format_3167> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Cytoband_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Cytoband format";
   dc:description "Cytoband format";
   rdfs:isDefinedBy <http://edamontology.org/format_3235> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CopasiML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CopasiML";
   dc:description "CopasiML";
   rdfs:isDefinedBy <http://edamontology.org/format_3239> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CellML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CellML";
   dc:description "CellML";
   rdfs:isDefinedBy <http://edamontology.org/format_3240> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PSI_MI_TAB_(MITAB)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PSI MI TAB (MITAB)";
   dc:description "PSI MI TAB (MITAB)";
   rdfs:isDefinedBy <http://edamontology.org/format_3242> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PSI-PAR>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PSI-PAR";
   dc:description "PSI-PAR";
   rdfs:isDefinedBy <http://edamontology.org/format_3243> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mzML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mzML";
   dc:description "mzML";
   rdfs:isDefinedBy <http://edamontology.org/format_3244> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Mass_spectrometry_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Mass spectrometry data format";
   dc:description "Mass spectrometry data format";
   rdfs:isDefinedBy <http://edamontology.org/format_3245> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_TraML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "TraML";
   dc:description "TraML";
   rdfs:isDefinedBy <http://edamontology.org/format_3246> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mzIdentML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mzIdentML";
   dc:description "mzIdentML";
   rdfs:isDefinedBy <http://edamontology.org/format_3247> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mzQuantML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mzQuantML";
   dc:description "mzQuantML";
   rdfs:isDefinedBy <http://edamontology.org/format_3248> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GelML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GelML";
   dc:description "GelML";
   rdfs:isDefinedBy <http://edamontology.org/format_3249> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_spML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "spML";
   dc:description "spML";
   rdfs:isDefinedBy <http://edamontology.org/format_3250> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OWL_Functional_Syntax>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OWL Functional Syntax";
   dc:description "OWL Functional Syntax";
   rdfs:isDefinedBy <http://edamontology.org/format_3252> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Manchester_OWL_Syntax>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Manchester OWL Syntax";
   dc:description "Manchester OWL Syntax";
   rdfs:isDefinedBy <http://edamontology.org/format_3253> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_KRSS2_Syntax>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "KRSS2 Syntax";
   dc:description "KRSS2 Syntax";
   rdfs:isDefinedBy <http://edamontology.org/format_3254> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Turtle>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Turtle";
   dc:description "Turtle";
   rdfs:isDefinedBy <http://edamontology.org/format_3255> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_N-Triples>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "N-Triples";
   dc:description "N-Triples";
   rdfs:isDefinedBy <http://edamontology.org/format_3256> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Notation3>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Notation3";
   dc:description "Notation3";
   rdfs:isDefinedBy <http://edamontology.org/format_3257> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_RDF/XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "RDF/XML";
   dc:description "RDF/XML";
   rdfs:isDefinedBy <http://edamontology.org/format_3261> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OWL/XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OWL/XML";
   dc:description "OWL/XML";
   rdfs:isDefinedBy <http://edamontology.org/format_3262> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_A2M>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "A2M";
   dc:description "A2M";
   rdfs:isDefinedBy <http://edamontology.org/format_3281> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SFF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SFF";
   dc:description "SFF";
   rdfs:isDefinedBy <http://edamontology.org/format_3284> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MAP>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MAP";
   dc:description "MAP";
   rdfs:isDefinedBy <http://edamontology.org/format_3285> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PED>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PED";
   dc:description "PED";
   rdfs:isDefinedBy <http://edamontology.org/format_3286> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Individual_genetic_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Individual genetic data format";
   dc:description "Individual genetic data format";
   rdfs:isDefinedBy <http://edamontology.org/format_3287> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PED/MAP>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PED/MAP";
   dc:description "PED/MAP";
   rdfs:isDefinedBy <http://edamontology.org/format_3288> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CT>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CT";
   dc:description "CT";
   rdfs:isDefinedBy <http://edamontology.org/format_3309> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SS>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SS";
   dc:description "SS";
   rdfs:isDefinedBy <http://edamontology.org/format_3310> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_RNAML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "RNAML";
   dc:description "RNAML";
   rdfs:isDefinedBy <http://edamontology.org/format_3311> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GDE>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GDE";
   dc:description "GDE";
   rdfs:isDefinedBy <http://edamontology.org/format_3312> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BLC>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BLC";
   dc:description "BLC";
   rdfs:isDefinedBy <http://edamontology.org/format_3313> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Data_index_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Data index format";
   dc:description "Data index format";
   rdfs:isDefinedBy <http://edamontology.org/format_3326> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BAI>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BAI";
   dc:description "BAI";
   rdfs:isDefinedBy <http://edamontology.org/format_3327> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER2>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER2";
   dc:description "HMMER2";
   rdfs:isDefinedBy <http://edamontology.org/format_3328> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HMMER3>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HMMER3";
   dc:description "HMMER3";
   rdfs:isDefinedBy <http://edamontology.org/format_3329> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PO>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PO";
   dc:description "PO";
   rdfs:isDefinedBy <http://edamontology.org/format_3330> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BLAST_XML_results_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BLAST XML results format";
   dc:description "BLAST XML results format";
   rdfs:isDefinedBy <http://edamontology.org/format_3331> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CRAM>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CRAM";
   dc:description "CRAM";
   rdfs:isDefinedBy <http://edamontology.org/format_3462> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_JSON>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "JSON";
   dc:description "JSON";
   rdfs:isDefinedBy <http://edamontology.org/format_3464> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_EPS>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "EPS";
   dc:description "EPS";
   rdfs:isDefinedBy <http://edamontology.org/format_3466> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GIF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GIF";
   dc:description "GIF";
   rdfs:isDefinedBy <http://edamontology.org/format_3467> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_xls>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "xls";
   dc:description "xls";
   rdfs:isDefinedBy <http://edamontology.org/format_3468> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_TSV>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "TSV";
   dc:description "TSV";
   rdfs:isDefinedBy <http://edamontology.org/format_3475> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Cytoscape_input_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Cytoscape input file format";
   dc:description "Cytoscape input file format";
   rdfs:isDefinedBy <http://edamontology.org/format_3477> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ebwt>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ebwt";
   dc:description "ebwt";
   rdfs:isDefinedBy <http://edamontology.org/format_3484> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_RSF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "RSF";
   dc:description "RSF";
   rdfs:isDefinedBy <http://edamontology.org/format_3485> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GCG_format_variant>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GCG format variant";
   dc:description "GCG format variant";
   rdfs:isDefinedBy <http://edamontology.org/format_3486> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BSML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BSML";
   dc:description "BSML";
   rdfs:isDefinedBy <http://edamontology.org/format_3487> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ebwtl>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ebwtl";
   dc:description "ebwtl";
   rdfs:isDefinedBy <http://edamontology.org/format_3491> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Ensembl_variation_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Ensembl variation file format";
   dc:description "Ensembl variation file format";
   rdfs:isDefinedBy <http://edamontology.org/format_3499> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_docx>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "docx";
   dc:description "docx";
   rdfs:isDefinedBy <http://edamontology.org/format_3506> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Document_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Document format";
   dc:description "Document format";
   rdfs:isDefinedBy <http://edamontology.org/format_3507> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PDF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PDF";
   dc:description "PDF";
   rdfs:isDefinedBy <http://edamontology.org/format_3508> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Image_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Image format";
   dc:description "Image format";
   rdfs:isDefinedBy <http://edamontology.org/format_3547> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_DICOM_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "DICOM format";
   dc:description "DICOM format";
   rdfs:isDefinedBy <http://edamontology.org/format_3548> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_nii>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "nii";
   dc:description "nii";
   rdfs:isDefinedBy <http://edamontology.org/format_3549> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mhd>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mhd";
   dc:description "mhd";
   rdfs:isDefinedBy <http://edamontology.org/format_3550> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_nrrd>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "nrrd";
   dc:description "nrrd";
   rdfs:isDefinedBy <http://edamontology.org/format_3551> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_R_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "R file format";
   dc:description "R file format";
   rdfs:isDefinedBy <http://edamontology.org/format_3554> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SPSS>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SPSS";
   dc:description "SPSS";
   rdfs:isDefinedBy <http://edamontology.org/format_3555> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MHTML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MHTML";
   dc:description "MHTML";
   rdfs:isDefinedBy <http://edamontology.org/format_3556> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_IDAT>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "IDAT";
   dc:description "IDAT";
   rdfs:isDefinedBy <http://edamontology.org/format_3578> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_JPG>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "JPG";
   dc:description "JPG";
   rdfs:isDefinedBy <http://edamontology.org/format_3579> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_rcc>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "rcc";
   dc:description "rcc";
   rdfs:isDefinedBy <http://edamontology.org/format_3580> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_arff>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "arff";
   dc:description "arff";
   rdfs:isDefinedBy <http://edamontology.org/format_3581> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_afg>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "afg";
   dc:description "afg";
   rdfs:isDefinedBy <http://edamontology.org/format_3582> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bedgraph>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bedgraph";
   dc:description "bedgraph";
   rdfs:isDefinedBy <http://edamontology.org/format_3583> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bedstrict>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bedstrict";
   dc:description "bedstrict";
   rdfs:isDefinedBy <http://edamontology.org/format_3584> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bed6>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bed6";
   dc:description "bed6";
   rdfs:isDefinedBy <http://edamontology.org/format_3585> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bed12>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bed12";
   dc:description "bed12";
   rdfs:isDefinedBy <http://edamontology.org/format_3586> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_chrominfo>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "chrominfo";
   dc:description "chrominfo";
   rdfs:isDefinedBy <http://edamontology.org/format_3587> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_customtrack>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "customtrack";
   dc:description "customtrack";
   rdfs:isDefinedBy <http://edamontology.org/format_3588> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_csfasta>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "csfasta";
   dc:description "csfasta";
   rdfs:isDefinedBy <http://edamontology.org/format_3589> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_hdf5>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "hdf5";
   dc:description "hdf5";
   rdfs:isDefinedBy <http://edamontology.org/format_3590> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_tiff>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "tiff";
   dc:description "tiff";
   rdfs:isDefinedBy <http://edamontology.org/format_3591> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bmp>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bmp";
   dc:description "bmp";
   rdfs:isDefinedBy <http://edamontology.org/format_3592> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_im>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "im";
   dc:description "im";
   rdfs:isDefinedBy <http://edamontology.org/format_3593> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pcd>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pcd";
   dc:description "pcd";
   rdfs:isDefinedBy <http://edamontology.org/format_3594> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pcx>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pcx";
   dc:description "pcx";
   rdfs:isDefinedBy <http://edamontology.org/format_3595> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ppm>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ppm";
   dc:description "ppm";
   rdfs:isDefinedBy <http://edamontology.org/format_3596> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_psd>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "psd";
   dc:description "psd";
   rdfs:isDefinedBy <http://edamontology.org/format_3597> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_xbm>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "xbm";
   dc:description "xbm";
   rdfs:isDefinedBy <http://edamontology.org/format_3598> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_xpm>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "xpm";
   dc:description "xpm";
   rdfs:isDefinedBy <http://edamontology.org/format_3599> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_rgb>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "rgb";
   dc:description "rgb";
   rdfs:isDefinedBy <http://edamontology.org/format_3600> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pbm>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pbm";
   dc:description "pbm";
   rdfs:isDefinedBy <http://edamontology.org/format_3601> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pgm>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pgm";
   dc:description "pgm";
   rdfs:isDefinedBy <http://edamontology.org/format_3602> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PNG>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PNG";
   dc:description "PNG";
   rdfs:isDefinedBy <http://edamontology.org/format_3603> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SVG>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SVG";
   dc:description "SVG";
   rdfs:isDefinedBy <http://edamontology.org/format_3604> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_rast>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "rast";
   dc:description "rast";
   rdfs:isDefinedBy <http://edamontology.org/format_3605> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequence_quality_report_format_(text)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequence quality report format (text)";
   dc:description "Sequence quality report format (text)";
   rdfs:isDefinedBy <http://edamontology.org/format_3606> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_qual>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "qual";
   dc:description "qual";
   rdfs:isDefinedBy <http://edamontology.org/format_3607> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_qualsolexa>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "qualsolexa";
   dc:description "qualsolexa";
   rdfs:isDefinedBy <http://edamontology.org/format_3608> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_qualillumina>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "qualillumina";
   dc:description "qualillumina";
   rdfs:isDefinedBy <http://edamontology.org/format_3609> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_qualsolid>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "qualsolid";
   dc:description "qualsolid";
   rdfs:isDefinedBy <http://edamontology.org/format_3610> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_qual454>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "qual454";
   dc:description "qual454";
   rdfs:isDefinedBy <http://edamontology.org/format_3611> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ENCODE_peak_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ENCODE peak format";
   dc:description "ENCODE peak format";
   rdfs:isDefinedBy <http://edamontology.org/format_3612> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ENCODE_narrow_peak_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ENCODE narrow peak format";
   dc:description "ENCODE narrow peak format";
   rdfs:isDefinedBy <http://edamontology.org/format_3613> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ENCODE_broad_peak_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ENCODE broad peak format";
   dc:description "ENCODE broad peak format";
   rdfs:isDefinedBy <http://edamontology.org/format_3614> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_bgzip>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "bgzip";
   dc:description "bgzip";
   rdfs:isDefinedBy <http://edamontology.org/format_3615> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_tabix>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "tabix";
   dc:description "tabix";
   rdfs:isDefinedBy <http://edamontology.org/format_3616> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Graph_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Graph format";
   dc:description "Graph format";
   rdfs:isDefinedBy <http://edamontology.org/format_3617> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_xgmml>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "xgmml";
   dc:description "xgmml";
   rdfs:isDefinedBy <http://edamontology.org/format_3618> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_sif>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "sif";
   dc:description "sif";
   rdfs:isDefinedBy <http://edamontology.org/format_3619> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_xlsx>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "xlsx";
   dc:description "xlsx";
   rdfs:isDefinedBy <http://edamontology.org/format_3620> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SQLite_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SQLite format";
   dc:description "SQLite format";
   rdfs:isDefinedBy <http://edamontology.org/format_3621> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Gemini_SQLite_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Gemini SQLite format";
   dc:description "Gemini SQLite format";
   rdfs:isDefinedBy <http://edamontology.org/format_3622> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_snpeffdb>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "snpeffdb";
   dc:description "snpeffdb";
   rdfs:isDefinedBy <http://edamontology.org/format_3624> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MAT>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MAT";
   dc:description "MAT";
   rdfs:isDefinedBy <http://edamontology.org/format_3626> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_netCDF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "netCDF";
   dc:description "netCDF";
   rdfs:isDefinedBy <http://edamontology.org/format_3650> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MGF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MGF";
   dc:description "MGF";
   rdfs:isDefinedBy <http://edamontology.org/format_3651> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dta>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dta";
   dc:description "dta";
   rdfs:isDefinedBy <http://edamontology.org/format_3652> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pkl>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pkl";
   dc:description "pkl";
   rdfs:isDefinedBy <http://edamontology.org/format_3653> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mzXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mzXML";
   dc:description "mzXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3654> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pepXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pepXML";
   dc:description "pepXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3655> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GPML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GPML";
   dc:description "GPML";
   rdfs:isDefinedBy <http://edamontology.org/format_3657> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_K-mer_countgraph>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "K-mer countgraph";
   dc:description "K-mer countgraph";
   rdfs:isDefinedBy <http://edamontology.org/format_3665> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mzTab>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mzTab";
   dc:description "mzTab";
   rdfs:isDefinedBy <http://edamontology.org/format_3681> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_imzML_metadata_file>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "imzML metadata file";
   dc:description "imzML metadata file";
   rdfs:isDefinedBy <http://edamontology.org/format_3682> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_qcML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "qcML";
   dc:description "qcML";
   rdfs:isDefinedBy <http://edamontology.org/format_3683> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PRIDE_XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PRIDE XML";
   dc:description "PRIDE XML";
   rdfs:isDefinedBy <http://edamontology.org/format_3684> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SED-ML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SED-ML";
   dc:description "SED-ML";
   rdfs:isDefinedBy <http://edamontology.org/format_3685> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_COMBINE_OMEX>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "COMBINE OMEX";
   dc:description "COMBINE OMEX";
   rdfs:isDefinedBy <http://edamontology.org/format_3686> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ISA-TAB>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ISA-TAB";
   dc:description "ISA-TAB";
   rdfs:isDefinedBy <http://edamontology.org/format_3687> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SBtab>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SBtab";
   dc:description "SBtab";
   rdfs:isDefinedBy <http://edamontology.org/format_3688> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BCML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BCML";
   dc:description "BCML";
   rdfs:isDefinedBy <http://edamontology.org/format_3689> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BDML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BDML";
   dc:description "BDML";
   rdfs:isDefinedBy <http://edamontology.org/format_3690> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BEL>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BEL";
   dc:description "BEL";
   rdfs:isDefinedBy <http://edamontology.org/format_3691> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SBGN-ML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SBGN-ML";
   dc:description "SBGN-ML";
   rdfs:isDefinedBy <http://edamontology.org/format_3692> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_AGP>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "AGP";
   dc:description "AGP";
   rdfs:isDefinedBy <http://edamontology.org/format_3693> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PS>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PS";
   dc:description "PS";
   rdfs:isDefinedBy <http://edamontology.org/format_3696> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SRA_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SRA format";
   dc:description "SRA format";
   rdfs:isDefinedBy <http://edamontology.org/format_3698> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_VDB>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "VDB";
   dc:description "VDB";
   rdfs:isDefinedBy <http://edamontology.org/format_3699> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Tabix_index_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Tabix index file format";
   dc:description "Tabix index file format";
   rdfs:isDefinedBy <http://edamontology.org/format_3700> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sequin_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sequin format";
   dc:description "Sequin format";
   rdfs:isDefinedBy <http://edamontology.org/format_3701> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MSF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MSF";
   dc:description "MSF";
   rdfs:isDefinedBy <http://edamontology.org/format_3702> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Biodiversity_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Biodiversity data format";
   dc:description "Biodiversity data format";
   rdfs:isDefinedBy <http://edamontology.org/format_3706> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ABCD_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ABCD format";
   dc:description "ABCD format";
   rdfs:isDefinedBy <http://edamontology.org/format_3708> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GCT/Res_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GCT/Res format";
   dc:description "GCT/Res format";
   rdfs:isDefinedBy <http://edamontology.org/format_3709> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_WIFF_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "WIFF format";
   dc:description "WIFF format";
   rdfs:isDefinedBy <http://edamontology.org/format_3710> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_X!Tandem_XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "X!Tandem XML";
   dc:description "X!Tandem XML";
   rdfs:isDefinedBy <http://edamontology.org/format_3711> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Thermo_RAW>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Thermo RAW";
   dc:description "Thermo RAW";
   rdfs:isDefinedBy <http://edamontology.org/format_3712> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Mascot_.dat_file>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Mascot .dat file";
   dc:description "Mascot .dat file";
   rdfs:isDefinedBy <http://edamontology.org/format_3713> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MaxQuant_APL_peaklist_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MaxQuant APL peaklist format";
   dc:description "MaxQuant APL peaklist format";
   rdfs:isDefinedBy <http://edamontology.org/format_3714> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SBOL>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SBOL";
   dc:description "SBOL";
   rdfs:isDefinedBy <http://edamontology.org/format_3725> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PMML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PMML";
   dc:description "PMML";
   rdfs:isDefinedBy <http://edamontology.org/format_3726> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OME-TIFF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OME-TIFF";
   dc:description "OME-TIFF";
   rdfs:isDefinedBy <http://edamontology.org/format_3727> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_LocARNA_PP>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "LocARNA PP";
   dc:description "LocARNA PP";
   rdfs:isDefinedBy <http://edamontology.org/format_3728> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dbGaP_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dbGaP format";
   dc:description "dbGaP format";
   rdfs:isDefinedBy <http://edamontology.org/format_3729> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BIOM_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BIOM format";
   dc:description "BIOM format";
   rdfs:isDefinedBy <http://edamontology.org/format_3746> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_protXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "protXML";
   dc:description "protXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3747> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Linked_data_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Linked data format";
   dc:description "Linked data format";
   rdfs:isDefinedBy <http://edamontology.org/format_3748> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_JSON-LD>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "JSON-LD";
   dc:description "JSON-LD";
   rdfs:isDefinedBy <http://edamontology.org/format_3749> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_YAML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "YAML";
   dc:description "YAML";
   rdfs:isDefinedBy <http://edamontology.org/format_3750> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_DSV>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "DSV";
   dc:description "DSV";
   rdfs:isDefinedBy <http://edamontology.org/format_3751> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CSV>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CSV";
   dc:description "CSV";
   rdfs:isDefinedBy <http://edamontology.org/format_3752> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SEQUEST_.out_file>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SEQUEST .out file";
   dc:description "SEQUEST .out file";
   rdfs:isDefinedBy <http://edamontology.org/format_3758> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_idXML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "idXML";
   dc:description "idXML";
   rdfs:isDefinedBy <http://edamontology.org/format_3764> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_KNIME_datatable_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "KNIME datatable format";
   dc:description "KNIME datatable format";
   rdfs:isDefinedBy <http://edamontology.org/format_3765> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_UniProtKB_XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "UniProtKB XML";
   dc:description "UniProtKB XML";
   rdfs:isDefinedBy <http://edamontology.org/format_3770> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_UniProtKB_RDF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "UniProtKB RDF";
   dc:description "UniProtKB RDF";
   rdfs:isDefinedBy <http://edamontology.org/format_3771> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioJSON_(BioXSD)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioJSON (BioXSD)";
   dc:description "BioJSON (BioXSD)";
   rdfs:isDefinedBy <http://edamontology.org/format_3772> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioYAML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioYAML";
   dc:description "BioYAML";
   rdfs:isDefinedBy <http://edamontology.org/format_3773> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioJSON_(Jalview)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioJSON (Jalview)";
   dc:description "BioJSON (Jalview)";
   rdfs:isDefinedBy <http://edamontology.org/format_3774> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GSuite>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GSuite";
   dc:description "GSuite";
   rdfs:isDefinedBy <http://edamontology.org/format_3775> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BTrack>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BTrack";
   dc:description "BTrack";
   rdfs:isDefinedBy <http://edamontology.org/format_3776> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MCPD>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MCPD";
   dc:description "MCPD";
   rdfs:isDefinedBy <http://edamontology.org/format_3777> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Annotated_text_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Annotated text format";
   dc:description "Annotated text format";
   rdfs:isDefinedBy <http://edamontology.org/format_3780> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PubAnnotation_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PubAnnotation format";
   dc:description "PubAnnotation format";
   rdfs:isDefinedBy <http://edamontology.org/format_3781> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioC>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioC";
   dc:description "BioC";
   rdfs:isDefinedBy <http://edamontology.org/format_3782> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PubTator_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PubTator format";
   dc:description "PubTator format";
   rdfs:isDefinedBy <http://edamontology.org/format_3783> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Open_Annotation_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Open Annotation format";
   dc:description "Open Annotation format";
   rdfs:isDefinedBy <http://edamontology.org/format_3784> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioNLP_Shared_Task_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioNLP Shared Task format";
   dc:description "BioNLP Shared Task format";
   rdfs:isDefinedBy <http://edamontology.org/format_3785> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Query_language>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Query language";
   dc:description "Query language";
   rdfs:isDefinedBy <http://edamontology.org/format_3787> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SQL>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SQL";
   dc:description "SQL";
   rdfs:isDefinedBy <http://edamontology.org/format_3788> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_XQuery>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "XQuery";
   dc:description "XQuery";
   rdfs:isDefinedBy <http://edamontology.org/format_3789> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SPARQL>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SPARQL";
   dc:description "SPARQL";
   rdfs:isDefinedBy <http://edamontology.org/format_3790> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CDF_ASCII_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CDF ASCII format";
   dc:description "CDF ASCII format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000057> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BAR>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BAR";
   dc:description "BAR";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000058> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CEL_ASCII_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CEL ASCII format";
   dc:description "CEL ASCII format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000059> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Data_File_Standard_for_Flow_Cytometry>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Data File Standard for Flow Cytometry";
   dc:description "Data File Standard for Flow Cytometry";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000061> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FCS3.0>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FCS3.0";
   dc:description "FCS3.0";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000062> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BedGraph>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BedGraph";
   dc:description "BedGraph";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000072> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MathML_2.0>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MathML 2.0";
   dc:description "MathML 2.0";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000074> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FieldML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FieldML";
   dc:description "FieldML";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000075> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.mgf>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".mgf";
   dc:description ".mgf";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000083> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_pdbml>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "pdbml";
   dc:description "pdbml";
   rdfs:isDefinedBy <http://edamontology.org/format_1478> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_PDBML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "PDBML";
   dc:description "PDBML";
   rdfs:isDefinedBy <http://edamontology.org/format_1478> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_taverna_workflow_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "taverna workflow format";
   dc:description "taverna workflow format";
   rdfs:isDefinedBy <http://edamontology.org/format_1665> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Taverna_workflow_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Taverna workflow format";
   dc:description "Taverna workflow format";
   rdfs:isDefinedBy <http://edamontology.org/format_1665> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Nexus_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Nexus format";
   dc:description "Nexus format";
   rdfs:isDefinedBy <http://edamontology.org/format_1912> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Alignment_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Alignment format";
   dc:description "Alignment format";
   rdfs:isDefinedBy <http://edamontology.org/format_1921> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.fastq>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".fastq";
   dc:description ".fastq";
   rdfs:isDefinedBy <http://edamontology.org/format_1930> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_FASTQ>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "FASTQ";
   dc:description "FASTQ";
   rdfs:isDefinedBy <http://edamontology.org/format_1930> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_html>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "html";
   dc:description "html";
   rdfs:isDefinedBy <http://edamontology.org/format_2331> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_HTML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "HTML";
   dc:description "HTML";
   rdfs:isDefinedBy <http://edamontology.org/format_2331> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BAM>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BAM";
   dc:description "BAM";
   rdfs:isDefinedBy <http://edamontology.org/format_2572> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.sam>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".sam";
   dc:description ".sam";
   rdfs:isDefinedBy <http://edamontology.org/format_2573> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SAM>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SAM";
   dc:description "SAM";
   rdfs:isDefinedBy <http://edamontology.org/format_2573> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.wig>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".wig";
   dc:description ".wig";
   rdfs:isDefinedBy <http://edamontology.org/format_3005> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_WIG>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "WIG";
   dc:description "WIG";
   rdfs:isDefinedBy <http://edamontology.org/format_3005> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.maf>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".maf";
   dc:description ".maf";
   rdfs:isDefinedBy <http://edamontology.org/format_3008> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_MAF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "MAF";
   dc:description "MAF";
   rdfs:isDefinedBy <http://edamontology.org/format_3008> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_VCF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "VCF";
   dc:description "VCF";
   rdfs:isDefinedBy <http://edamontology.org/format_3016> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_RDF-XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "RDF-XML";
   dc:description "RDF-XML";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000007> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OWL-XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OWL-XML";
   dc:description "OWL-XML";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000038> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_OWL2-XML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "OWL2-XML";
   dc:description "OWL2-XML";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000039> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ASCII_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ASCII format";
   dc:description "ASCII format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000042> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Plain_text_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Plain text file format";
   dc:description "Plain text file format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000043> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_plain_text_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "plain text file format";
   dc:description "plain text file format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000043> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Tab_delimited_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Tab delimited file format";
   dc:description "Tab delimited file format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000046> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_tab_delimited_file_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "tab delimited file format";
   dc:description "tab delimited file format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000046> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SIF>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SIF";
   dc:description "SIF";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000049> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_XGMML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "XGMML";
   dc:description "XGMML";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000051> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioPAX_RDF/XML_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioPAX RDF/XML format";
   dc:description "BioPAX RDF/XML format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000055> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BioPAX_Manchester_OWL_Syntax_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BioPAX Manchester OWL Syntax format";
   dc:description "BioPAX Manchester OWL Syntax format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000056> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.csv>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".csv";
   dc:description ".csv";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000082> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.mysql>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".mysql";
   dc:description ".mysql";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000084> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.sql>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".sql";
   dc:description ".sql";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/data/SWO_3000085> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CEL_binary_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CEL binary format";
   dc:description "CEL binary format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000084> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_KGML>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "KGML";
   dc:description "KGML";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000249> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Rnw>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Rnw";
   dc:description "Rnw";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000363> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SBMLR_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SBMLR format";
   dc:description "SBMLR format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000378> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_SDF_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "SDF format";
   dc:description "SDF format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000381> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_R_data_frame>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "R data frame";
   dc:description "R data frame";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000409> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_cdt>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "cdt";
   dc:description "cdt";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000493> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_cls>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "cls";
   dc:description "cls";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000498> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_dcf>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "dcf";
   dc:description "dcf";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000518> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_gct>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "gct";
   dc:description "gct";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000548> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_gpr_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "gpr format";
   dc:description "gpr format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000566> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_gtr>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "gtr";
   dc:description "gtr";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000569> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_gxl_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "gxl format";
   dc:description "gxl format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000570> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_lma>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "lma";
   dc:description "lma";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000596> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_mas5_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "mas5 format";
   dc:description "mas5 format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000615> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_.raw_files>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label ".raw files";
   dc:description ".raw files";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000682> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_rda>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "rda";
   dc:description "rda";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_0000684> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_ARR>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "ARR";
   dc:description "ARR";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_1100014> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_BPMAP>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "BPMAP";
   dc:description "BPMAP";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_1100035> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CDF_binary_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CDF binary format";
   dc:description "CDF binary format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_1100054> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_CHP_binary_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "CHP binary format";
   dc:description "CHP binary format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_1100122> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_GEO_Matrix_Series_format>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "GEO Matrix Series format";
   dc:description "GEO Matrix Series format";
   rdfs:isDefinedBy <http://www.ebi.ac.uk/swo/SWO_1100126> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_NoInformation_(NI,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Invalid_(INV,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Derived_(DER,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Other_(OTH,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Negative_infinity_(NINF,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Positive_infinity_(PINF,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Un-encoded_(UNC,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Masked_(MSK,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Not_applicable_(NA,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Unknown_(UNK,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Asked_but_unknown_(ASKU,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Temporarily_unavailable_(NAV,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Not_asked_(NASK,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Not_available_(NAVU,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Sufficient_quantity_(QS,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Analysis_Data_formats_stored_Trace_(TRC,_nullflavor)>
-  a "http://edamontology.org/format_1915";
+  a <http://edamontology.org/format_1915>;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

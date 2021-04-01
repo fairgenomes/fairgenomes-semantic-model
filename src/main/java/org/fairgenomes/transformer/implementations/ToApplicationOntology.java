@@ -27,14 +27,14 @@ public class ToApplicationOntology extends GenericTransformer {
         super(fg, outputFolder);
     }
 
+    // Start of each file name
+    public static final String baseFileName = "fair-genomes";
+
     @Override
     public void start() throws Exception, IOException {
 
         // Replace this later with w3id or purl
         String baseUrl = "https://github.com/fairgenomes/fairgenomes-semantic-model/";
-
-        // Start of each file name
-        String baseFileName = "fair-genomes";
 
         // All prefixes and namespaces
         Map<String, String> prefixToNamespace = new HashMap<>();
@@ -105,7 +105,7 @@ public class ToApplicationOntology extends GenericTransformer {
                         Lookup l = e.lookup.lookups.get(lookup);
                         String lookupName = elementName + "_" + cleanLabel(l.value);
                         IRI lookupInstance = iri(baseUrl, cleanLabel(lookupName));
-                        lookupBuilder.add(lookupInstance, RDF.TYPE, e.type);
+                        lookupBuilder.add(lookupInstance, RDF.TYPE, iri(e.type));
                         lookupBuilder.add(lookupInstance, RDFS.LABEL, literal(l.value));
                         lookupBuilder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
                         lookupBuilder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));

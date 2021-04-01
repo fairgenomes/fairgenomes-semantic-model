@@ -33,7 +33,7 @@ public class LookupList {
                 String firstLineStr = s.nextLine();
                 if(!firstLineStr.equals(HEADER))
                 {
-                    System.out.println("Bad lookup file header: " + firstLineStr + "must be: " + HEADER);
+                    throw new Exception("At "+srcFile +", bad lookup file header: " + firstLineStr + "must be: " + HEADER);
                 }
                 firstLine = false;
                 continue;
