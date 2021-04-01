@@ -103,8 +103,8 @@ public class ToRDFResources extends GenericTransformer {
     {
         StringBuilder sb = new StringBuilder();
         sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>" + LE);
-   //     sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://github.com/fairgenomes/fairgenomes-semantic-model/blob/main/misc/semanticscience.org/resource.xsl\" ?>" + LE + LE);
-        sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://semanticscience.org/resource/resource.xsl\" ?>" + LE + LE);
+        sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://raw.githubusercontent.com/fairgenomes/fairgenomes-semantic-model/main/misc/semanticscience.org/resource.xsl\" ?>" + LE + LE);
+   //     sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://semanticscience.org/resource/resource.xsl\" ?>" + LE + LE);
 
 
         sb.append("<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"" + LE);
