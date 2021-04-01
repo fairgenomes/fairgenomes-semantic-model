@@ -105,7 +105,7 @@ public class ToApplicationOntology extends GenericTransformer {
                         Lookup l = e.lookup.lookups.get(lookup);
                         String lookupName = elementName + "_" + cleanLabel(l.value);
                         IRI lookupInstance = iri(baseUrl, cleanLabel(lookupName));
-                        lookupBuilder.add(lookupInstance, RDF.TYPE, e.type);
+                        lookupBuilder.add(lookupInstance, RDF.TYPE, iri(e.type));
                         lookupBuilder.add(lookupInstance, RDFS.LABEL, literal(l.value));
                         lookupBuilder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
                         lookupBuilder.add(lookupInstance, RDFS.ISDEFINEDBY, iri(l.iri));
