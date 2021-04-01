@@ -666,7 +666,7 @@
   a owl:DatatypeProperty;
   rdfs:label "Intended insert size";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation>;
-  rdfs:isDefinedBy fg:IntendedInsertSize;
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000001>;
   dc:description "In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sample_preparation_Intended_read_length>
@@ -744,7 +744,7 @@
   a owl:DatatypeProperty;
   rdfs:label "Observed insert size";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:isDefinedBy fg:ObservedInsertSize;
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000002>;
   dc:description "In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Percentage_Q30>
@@ -758,7 +758,7 @@
   a owl:DatatypeProperty;
   rdfs:label "Percentage TR20";
   rdfs:domain <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing>;
-  rdfs:isDefinedBy fg:PercentageTR20;
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000003>;
   dc:description "Percentage of the target sequence on which 20 or more unique reads were successfully mapped." .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Sequencing_Other_quality_metrics>

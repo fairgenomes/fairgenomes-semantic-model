@@ -1,693 +1,693 @@
 @prefix fg: <https://fair-genomes.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sio: <https://semanticscience.org/resource/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ordo: <http://www.orpha.net/ORDO/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Daughter>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Daughter";
   dc:description "A female progeny with genetic makeup inherited from the parent.";
   rdfs:isDefinedBy obo:NCIT_C150887 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Son>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Son";
   dc:description "A male progeny with genetic makeup inherited from the parent.";
   rdfs:isDefinedBy obo:NCIT_C150888 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Maternal_Grandfather>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Grandfather";
   dc:description "A male relative who is the biological father of the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96577 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Paternal_Grandfather>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Grandfather";
   dc:description "A male relative who is the biological father of the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96583 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Paternal_Grandmother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Grandmother";
   dc:description "A female relative who is the biological mother of the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96584 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Maternal_Grandmother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Grandmother";
   dc:description "A female relative who is the biological mother of the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96578 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Maternal_Cousin>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Cousin";
   dc:description "A relative who is the offspring of a sibling of the biological mother and thus sharing a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96576 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Paternal_Cousin>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Cousin";
   dc:description "A relative who is the offspring of a sibling of the biological father and thus sharing a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96582 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Paternal_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Aunt";
   dc:description "A female relative who is a sibling of the biological father, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96581 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Maternal_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Aunt";
   dc:description "A female relative who is a sibling of the biological mother, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96575 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Father>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Father";
   dc:description "A male who contributes to the genetic makeup of his offspring through the fertilization of an ovum by his sperm.";
   rdfs:isDefinedBy obo:NCIT_C96572 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Mother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Mother";
   dc:description "A female who contributes to the genetic makeup of her offspring from the fertilization of her ovum.";
   rdfs:isDefinedBy obo:NCIT_C96580 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Half-brother_with_Father_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-brother with Father as Common Parent";
   dc:description "A male sibling who shares the genetic makeup inherited from only the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96655 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Half-sister_with_Father_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-sister with Father as Common Parent";
   dc:description "A female sibling who shares the genetic makeup inherited from only the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96657 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Half-brother_with_Mother_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-brother with Mother as Common Parent";
   dc:description "A male sibling who shares the genetic makeup inherited from only the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96656 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Half-sister_with_Mother_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-sister with Mother as Common Parent";
   dc:description "A female sibling who shares the genetic makeup inherited from only the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96658 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Fraternal_Twin_Brother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Fraternal Twin Brother";
   dc:description "A male full sibling that developed from a separately fertilized ova during the same pregnancy.";
   rdfs:isDefinedBy obo:NCIT_C165796 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Fraternal_Twin_Sister>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Fraternal Twin Sister";
   dc:description "A female full sibling that developed from a separately fertilized ova during the same pregnancy.";
   rdfs:isDefinedBy obo:NCIT_C165797 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Identical_Twin_Brother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Identical Twin Brother";
   dc:description "A male full sibling that developed from a shared ovum.";
   rdfs:isDefinedBy obo:NCIT_C165848 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Identical_Twin_Sister>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Identical Twin Sister";
   dc:description "A female full sibling that developed from a shared ovum.";
   rdfs:isDefinedBy obo:NCIT_C165849 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Full_Brother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Full Brother";
   dc:description "A male who shares with his sibling the genetic makeup inherited from both of the biological parents.";
   rdfs:isDefinedBy obo:NCIT_C111201 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Full_Sister>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Full Sister";
   dc:description "A female who shares with her sibling the genetic makeup inherited from both of the biological parents.";
   rdfs:isDefinedBy obo:NCIT_C111202 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Grandson>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Grandson";
   dc:description "A male grandchild.";
   rdfs:isDefinedBy obo:NCIT_C71398 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Granddaughter>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Granddaughter";
   dc:description "A female grandchild.";
   rdfs:isDefinedBy obo:NCIT_C71399 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Maternal_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Uncle";
   dc:description "A male relative who is a sibling of the biological mother, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96579 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Biological_Paternal_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Uncle";
   dc:description "A male relative who is a sibling of the biological father, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96585 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Niece>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Niece";
   dc:description "A daughter of your brother or sister.";
   rdfs:isDefinedBy obo:NCIT_C71408 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Nephew>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Nephew";
   dc:description "A son of your brother or sister.";
   rdfs:isDefinedBy obo:NCIT_C71409 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Ancestor>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Ancestor";
   dc:description "Someone from whom you are descended (but usually more remote than a grandparent).";
   rdfs:isDefinedBy obo:NCIT_C42609 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Maternal_First_Cousin_Once_Removed>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal First Cousin Once Removed";
   dc:description "A child of one's first cousin who is related by lineage through the mother's side of the family.";
   rdfs:isDefinedBy obo:NCIT_C165851 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Paternal_First_Cousin_Once_Removed>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal First Cousin Once Removed";
   dc:description "A child of one's first cousin who is related by lineage through the father's side of the family.";
   rdfs:isDefinedBy obo:NCIT_C165852 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Descendent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Descendent";
   dc:description "Someone deriving or descending from an ancestor.";
   rdfs:isDefinedBy obo:NCIT_C42674 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Great_Grandchild>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Great Grandchild";
   dc:description "A child of one's grandchild.";
   rdfs:isDefinedBy obo:NCIT_C165847 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Maternal_Great_Grandparent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal Great Grandparent";
   dc:description "A parent of one's maternal grandparent.";
   rdfs:isDefinedBy obo:NCIT_C166127 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Paternal_Great_Grandparent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal Great Grandparent";
   dc:description "A parent of one's paternal grandparent.";
   rdfs:isDefinedBy obo:NCIT_C166128 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Great_Nephew>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Great Nephew";
   dc:description "A male child of one's niece or nephew.";
   rdfs:isDefinedBy obo:NCIT_C165798 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Great_Niece>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Great Niece";
   dc:description "A female child of one's niece or nephew.";
   rdfs:isDefinedBy obo:NCIT_C165846 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Maternal_Great_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal Great Aunt";
   dc:description "The aunt of one's mother.";
   rdfs:isDefinedBy obo:NCIT_C165853 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Maternal_Great_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal Great Uncle";
   dc:description "The uncle of one's mother.";
   rdfs:isDefinedBy obo:NCIT_C165854 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Paternal_Great_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal Great Aunt";
   dc:description "The aunt of one's father.";
   rdfs:isDefinedBy obo:NCIT_C165856 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Paternal_Great_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal Great Uncle";
   dc:description "The uncle of one's father.";
   rdfs:isDefinedBy obo:NCIT_C165857 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_NoInformation_(NI,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Invalid_(INV,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Derived_(DER,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Other_(OTH,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Negative_infinity_(NINF,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Positive_infinity_(PINF,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Un-encoded_(UNC,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Masked_(MSK,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Not_applicable_(NA,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Unknown_(UNK,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Asked_but_unknown_(ASKU,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Temporarily_unavailable_(NAV,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Not_asked_(NASK,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Not_available_(NAVU,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Sufficient_quantity_(QS,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_affected_Trace_(TRC,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Daughter>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Daughter";
   dc:description "A female progeny with genetic makeup inherited from the parent.";
   rdfs:isDefinedBy obo:NCIT_C150887 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Son>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Son";
   dc:description "A male progeny with genetic makeup inherited from the parent.";
   rdfs:isDefinedBy obo:NCIT_C150888 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Maternal_Grandfather>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Grandfather";
   dc:description "A male relative who is the biological father of the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96577 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Paternal_Grandfather>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Grandfather";
   dc:description "A male relative who is the biological father of the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96583 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Paternal_Grandmother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Grandmother";
   dc:description "A female relative who is the biological mother of the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96584 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Maternal_Grandmother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Grandmother";
   dc:description "A female relative who is the biological mother of the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96578 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Maternal_Cousin>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Cousin";
   dc:description "A relative who is the offspring of a sibling of the biological mother and thus sharing a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96576 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Paternal_Cousin>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Cousin";
   dc:description "A relative who is the offspring of a sibling of the biological father and thus sharing a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96582 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Paternal_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Aunt";
   dc:description "A female relative who is a sibling of the biological father, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96581 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Maternal_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Aunt";
   dc:description "A female relative who is a sibling of the biological mother, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96575 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Father>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Father";
   dc:description "A male who contributes to the genetic makeup of his offspring through the fertilization of an ovum by his sperm.";
   rdfs:isDefinedBy obo:NCIT_C96572 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Mother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Mother";
   dc:description "A female who contributes to the genetic makeup of her offspring from the fertilization of her ovum.";
   rdfs:isDefinedBy obo:NCIT_C96580 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Half-brother_with_Father_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-brother with Father as Common Parent";
   dc:description "A male sibling who shares the genetic makeup inherited from only the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96655 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Half-sister_with_Father_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-sister with Father as Common Parent";
   dc:description "A female sibling who shares the genetic makeup inherited from only the biological father.";
   rdfs:isDefinedBy obo:NCIT_C96657 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Half-brother_with_Mother_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-brother with Mother as Common Parent";
   dc:description "A male sibling who shares the genetic makeup inherited from only the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96656 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Half-sister_with_Mother_as_Common_Parent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Half-sister with Mother as Common Parent";
   dc:description "A female sibling who shares the genetic makeup inherited from only the biological mother.";
   rdfs:isDefinedBy obo:NCIT_C96658 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Fraternal_Twin_Brother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Fraternal Twin Brother";
   dc:description "A male full sibling that developed from a separately fertilized ova during the same pregnancy.";
   rdfs:isDefinedBy obo:NCIT_C165796 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Fraternal_Twin_Sister>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Fraternal Twin Sister";
   dc:description "A female full sibling that developed from a separately fertilized ova during the same pregnancy.";
   rdfs:isDefinedBy obo:NCIT_C165797 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Identical_Twin_Brother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Identical Twin Brother";
   dc:description "A male full sibling that developed from a shared ovum.";
   rdfs:isDefinedBy obo:NCIT_C165848 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Identical_Twin_Sister>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Identical Twin Sister";
   dc:description "A female full sibling that developed from a shared ovum.";
   rdfs:isDefinedBy obo:NCIT_C165849 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Full_Brother>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Full Brother";
   dc:description "A male who shares with his sibling the genetic makeup inherited from both of the biological parents.";
   rdfs:isDefinedBy obo:NCIT_C111201 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Full_Sister>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Full Sister";
   dc:description "A female who shares with her sibling the genetic makeup inherited from both of the biological parents.";
   rdfs:isDefinedBy obo:NCIT_C111202 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Grandson>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Grandson";
   dc:description "A male grandchild.";
   rdfs:isDefinedBy obo:NCIT_C71398 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Granddaughter>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Granddaughter";
   dc:description "A female grandchild.";
   rdfs:isDefinedBy obo:NCIT_C71399 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Maternal_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Maternal Uncle";
   dc:description "A male relative who is a sibling of the biological mother, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96579 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Biological_Paternal_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Biological Paternal Uncle";
   dc:description "A male relative who is a sibling of the biological father, and who both share a common ancestor.";
   rdfs:isDefinedBy obo:NCIT_C96585 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Niece>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Niece";
   dc:description "A daughter of your brother or sister.";
   rdfs:isDefinedBy obo:NCIT_C71408 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Nephew>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Nephew";
   dc:description "A son of your brother or sister.";
   rdfs:isDefinedBy obo:NCIT_C71409 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Ancestor>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Ancestor";
   dc:description "Someone from whom you are descended (but usually more remote than a grandparent).";
   rdfs:isDefinedBy obo:NCIT_C42609 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Maternal_First_Cousin_Once_Removed>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal First Cousin Once Removed";
   dc:description "A child of one's first cousin who is related by lineage through the mother's side of the family.";
   rdfs:isDefinedBy obo:NCIT_C165851 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Paternal_First_Cousin_Once_Removed>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal First Cousin Once Removed";
   dc:description "A child of one's first cousin who is related by lineage through the father's side of the family.";
   rdfs:isDefinedBy obo:NCIT_C165852 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Descendent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Descendent";
   dc:description "Someone deriving or descending from an ancestor.";
   rdfs:isDefinedBy obo:NCIT_C42674 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Great_Grandchild>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Great Grandchild";
   dc:description "A child of one's grandchild.";
   rdfs:isDefinedBy obo:NCIT_C165847 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Maternal_Great_Grandparent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal Great Grandparent";
   dc:description "A parent of one's maternal grandparent.";
   rdfs:isDefinedBy obo:NCIT_C166127 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Paternal_Great_Grandparent>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal Great Grandparent";
   dc:description "A parent of one's paternal grandparent.";
   rdfs:isDefinedBy obo:NCIT_C166128 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Great_Nephew>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Great Nephew";
   dc:description "A male child of one's niece or nephew.";
   rdfs:isDefinedBy obo:NCIT_C165798 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Great_Niece>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Great Niece";
   dc:description "A female child of one's niece or nephew.";
   rdfs:isDefinedBy obo:NCIT_C165846 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Maternal_Great_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal Great Aunt";
   dc:description "The aunt of one's mother.";
   rdfs:isDefinedBy obo:NCIT_C165853 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Maternal_Great_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Maternal Great Uncle";
   dc:description "The uncle of one's mother.";
   rdfs:isDefinedBy obo:NCIT_C165854 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Paternal_Great_Aunt>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal Great Aunt";
   dc:description "The aunt of one's father.";
   rdfs:isDefinedBy obo:NCIT_C165856 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Paternal_Great_Uncle>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Paternal Great Uncle";
   dc:description "The uncle of one's father.";
   rdfs:isDefinedBy obo:NCIT_C165857 .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_NoInformation_(NI,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Invalid_(INV,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Derived_(DER,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Other_(OTH,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Negative_infinity_(NINF,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Positive_infinity_(PINF,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Un-encoded_(UNC,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Masked_(MSK,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Not_applicable_(NA,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Unknown_(UNK,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Asked_but_unknown_(ASKU,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Temporarily_unavailable_(NAV,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Not_asked_(NASK,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Not_available_(NAVU,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Sufficient_quantity_(QS,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://github.com/fairgenomes/fairgenomes-semantic-model/Clinical_Family_members_sequenced_Trace_(TRC,_nullflavor)>
-  a "http://purl.obolibrary.org/obo/NCIT_C41256";
+  a obo:NCIT_C41256;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

@@ -27,17 +27,17 @@ Ion Torrent PGM	Ion Torrent PGM	GENEPIO	0001935	http://purl.obolibrary.org/obo/G
 454 Genome Sequencer	454 Genome Sequencer	GENEPIO	0001937	http://purl.obolibrary.org/obo/GENEPIO_0001937
 454 Genome Sequencer Junior	454 Genome Sequencer Junior	GENEPIO	0001938	http://purl.obolibrary.org/obo/GENEPIO_0001938
 Illumina HiSeq Sequencer	Illumina HiSeq Sequencer	GENEPIO	0001939	http://purl.obolibrary.org/obo/GENEPIO_0001939
-Illumina HiSeq X Five	Illumina HiSeq X Five	FG	SIM1	https://fair-genomes.org/SIM1
-Illumina HiSeq X Ten	Illumina HiSeq X Ten	FG	SIM2	https://fair-genomes.org/SIM2
-Illumina MiniSeq	Illumina MiniSeq	FG	SIM3	https://fair-genomes.org/SIM3
-Illumina iSeq 100	Illumina iSeq 100	FG	SIM4	https://fair-genomes.org/SIM4
-Illumina NextSeq 550	Illumina NextSeq 550	FG	SIM5	https://fair-genomes.org/SIM5
-Illumina NextSeq 2000	Illumina NextSeq 2000	FG	SIM6	https://fair-genomes.org/SIM6
-Illumina NovaSeq 6000	Illumina NovaSeq 6000	FG	SIM7	https://fair-genomes.org/SIM7
-Illumina NextSeq 1000	Illumina NextSeq 1000	FG	SIM8	https://fair-genomes.org/SIM8
-Illumina NextSeq 550Dx	Illumina NextSeq 550Dx	FG	SIM9	https://fair-genomes.org/SIM9
-Illumina MiSeqDx	Illumina MiSeqDx	FG	SIM10	https://fair-genomes.org/SIM10
-Illumina MiSeq FGx	Illumina MiSeq FGx	FG	SIM11	https://fair-genomes.org/SIM11
+Illumina HiSeq X Five	Illumina HiSeq X Five	FG	0000004	https://w3id.org/fair-genomes/resource/FG_0000004
+Illumina HiSeq X Ten	Illumina HiSeq X Ten	FG	0000005	https://w3id.org/fair-genomes/resource/FG_0000005
+Illumina MiniSeq	Illumina MiniSeq	FG	0000006	https://w3id.org/fair-genomes/resource/FG_0000006
+Illumina iSeq 100	Illumina iSeq 100	FG	0000007	https://w3id.org/fair-genomes/resource/FG_0000007
+Illumina NextSeq 550	Illumina NextSeq 550	FG	0000008	https://w3id.org/fair-genomes/resource/FG_0000008
+Illumina NextSeq 2000	Illumina NextSeq 2000	FG	0000009	https://w3id.org/fair-genomes/resource/FG_0000009
+Illumina NovaSeq 6000	Illumina NovaSeq 6000	FG	0000010	https://w3id.org/fair-genomes/resource/FG_0000010
+Illumina NextSeq 1000	Illumina NextSeq 1000	FG	0000011	https://w3id.org/fair-genomes/resource/FG_0000011
+Illumina NextSeq 550Dx	Illumina NextSeq 550Dx	FG	0000012	https://w3id.org/fair-genomes/resource/FG_0000012
+Illumina MiSeqDx	Illumina MiSeqDx	FG	0000013	https://w3id.org/fair-genomes/resource/FG_0000013
+Illumina MiSeq FGx	Illumina MiSeq FGx	FG	0000014	https://w3id.org/fair-genomes/resource/FG_0000014
 NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	NI	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI
 Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	INV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV
 Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	DER	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER
