@@ -39,6 +39,7 @@ public class TransformFGToAllFormats {
         new ToPALGACodeBook(fg, new File(outputs, "palga-codebook")).start();
         new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
         new ToRDFResources(fg, new File(outputs, "rdf-resources")).start();
+        new ToLaTeXTables(fg, new File(outputs, "latex")).start();
 
 
     }

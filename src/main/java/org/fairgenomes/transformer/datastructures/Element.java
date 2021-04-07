@@ -84,6 +84,25 @@ public class Element {
     }
 
     /**
+     * Helper function to convert the value type to LaTeX
+     * @return
+     */
+    public String valueTypeToLaTeX()
+    {
+        if(isLookup())
+        {
+            return lookup.srcFile.getName().replace(".txt", "") + " lookup (" + nrOfLookupsWithoutGlobals + " choices)";
+        }else if(isReference())
+        {
+            return "Reference to "+ referenceTo;
+        }
+        else
+        {
+            return valueTypeEnum.toString();
+        }
+    }
+
+    /**
      * Helper function to convert the value type to ART-DECOR
      * @return
      */
