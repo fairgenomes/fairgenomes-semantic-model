@@ -27,7 +27,7 @@ public class ToLaTeXTables extends GenericTransformer {
         }
         int tableNr = 1;
 
-        FileWriter fw = new FileWriter(new File(outputFolder, "fairgenomes.tex"));
+        FileWriter fw = new FileWriter(new File(outputFolder, "fair-genomes.tex"));
         BufferedWriter bw = new BufferedWriter(fw);
 
         /**
@@ -55,7 +55,7 @@ public class ToLaTeXTables extends GenericTransformer {
         }
         bw.write("\\hline" + LE);
         bw.write("\\end{tabular}" + LE);
-        bw.write("\\caption[Module overview]{\\label{table:table" + (tableNr++) + "} Module overview.}" + LE);
+        bw.write("\\caption[Module overview]{\\label{table:table" + (tableNr++) + "} FAIR Genomes v"+fg.version + "-" + fg.releaseType + " overview of all modules.}" + LE);
         bw.write("\\end{table}" + LE);
         bw.write(LE);
 
@@ -88,9 +88,9 @@ public class ToLaTeXTables extends GenericTransformer {
          */
         FileWriter fw2 = new FileWriter(new File(outputFolder, "toPDF.sh"));
         BufferedWriter bw2 = new BufferedWriter(fw2);
-        bw2.write("latex fairgenomes.tex" + LE);
-        bw2.write("dvips fairgenomes.dvi" + LE);
-        bw2.write("ps2pdf fairgenomes.ps" + LE);
+        bw2.write("latex fair-genomes.tex" + LE);
+        bw2.write("dvips fair-genomes.dvi" + LE);
+        bw2.write("ps2pdf fair-genomes.ps" + LE);
         bw2.flush();
         bw2.close();
 
