@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/fairgenomes/fairgenomes-semantic-model/main/misc/semanticscience.org/resource.xsl" ?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:ns0="http://purl.org/dc/elements/1.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+  <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000270">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0000085"/>
+    <rdfs:label xml:lang="en">SureSelectXT2 Custom 0.5-2.9Mb, 96, RO by Agilent Technologies</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-ngskits.ttl"/>
+    <dc:description xml:lang="en">SureSelectXT2 Custom 0.5-2.9Mb, 96, RO by Agilent Technologies sourced from https://www.biocompare.com, accessed May 2020.</dc:description>
+    <dc:identifier>FG:0000270</dc:identifier>
+    <ns0:identifier>FG_0000270</ns0:identifier>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000270.rdf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label>Summary document for FG_0000270</rdfs:label>
+    <owl:imports rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-ngskits.ttl"/>
+    <dc:subject rdf:resource="https://w3id.org/fair-genomes/resource/FG_0000270"/>
+  </rdf:Description>
+
+</rdf:RDF>
