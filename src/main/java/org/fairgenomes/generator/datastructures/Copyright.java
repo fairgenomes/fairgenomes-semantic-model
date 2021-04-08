@@ -1,4 +1,4 @@
-package org.fairgenomes.transformer.datastructures;
+package org.fairgenomes.generator.datastructures;
 
 public class Copyright {
     public String holder;

@@ -1,7 +1,8 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.generator.implementations;
 
-import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.datastructures.*;
+import org.fairgenomes.generator.AbstractGenerator;
+import org.fairgenomes.generator.datastructures.Module;
+import org.fairgenomes.generator.datastructures.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,9 +10,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * Transform to LaTeX tables
+ * Generate LaTeX tables
  */
-public class ToLaTeXTables extends GenericTransformer {
+public class ToLaTeXTables extends AbstractGenerator {
 
     static final int DESCRIPTION_LIMIT = 1000;
 

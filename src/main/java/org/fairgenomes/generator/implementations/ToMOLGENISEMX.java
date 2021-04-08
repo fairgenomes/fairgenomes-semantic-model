@@ -1,22 +1,19 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.generator.implementations;
 
-import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.datastructures.*;
+import org.fairgenomes.generator.AbstractGenerator;
+import org.fairgenomes.generator.datastructures.Module;
+import org.fairgenomes.generator.datastructures.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 import java.util.HashMap;
 
 /**
- * Transform to MOLGENIS-EMX database template ready for import
+ * Generate MOLGENIS-EMX database template ready for import
  */
-public class ToMOLGENISEMX extends GenericTransformer {
+public class ToMOLGENISEMX extends AbstractGenerator {
 
     public static final String PACKAGE_NAME = "fair-genomes";
 
