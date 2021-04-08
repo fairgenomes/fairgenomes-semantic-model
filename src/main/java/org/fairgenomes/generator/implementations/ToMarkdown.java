@@ -1,10 +1,10 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.generator.implementations;
 
-import org.fairgenomes.transformer.datastructures.Element;
-import org.fairgenomes.transformer.datastructures.FAIRGenomes;
-import org.fairgenomes.transformer.datastructures.Lookup;
-import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.datastructures.GenericTransformer;
+import org.fairgenomes.generator.AbstractGenerator;
+import org.fairgenomes.generator.datastructures.Element;
+import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.datastructures.Lookup;
+import org.fairgenomes.generator.datastructures.Module;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -12,9 +12,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * Transform to Markdown documentation of the model
+ * Generate Markdown documentation of the model
  */
-public class ToMarkdown extends GenericTransformer {
+public class ToMarkdown extends AbstractGenerator {
 
     static final int DESCRIPTION_LIMIT = 1000;
 

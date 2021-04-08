@@ -4,7 +4,7 @@
 
 ## Explore
 
-Discover the full schema at the [Markdown overview](transformation-output/markdown/fairgenomes-semantic-model.md). 
+Discover the full schema at the [Markdown overview](generated/markdown/fairgenomes-semantic-model.md). 
 
 ## Source
 
@@ -12,14 +12,14 @@ The source of the schema is located at [fair-genomes.yml](fair-genomes.yml). The
 
 ## Outputs
 
-Representations of the schema for specific systems/users are derived automatically from the schema. The following transformation outputs are available:
-- MOLGENIS database setup at [molgenis-emx](transformation-output/molgenis-emx).
-- Application ontology at [ontology](transformation-output/ontology).
-- Human-readable overview at [markdown](transformation-output/markdown).
-- PALGA Codebook at [palga-codebook](transformation-output/palga-codebook).
-- ART-DECOR at [art-decor](transformation-output/art-decor).
-- LaTeX/PDF at [latex](transformation-output/latex).
-- Resources for new terms at [resource](transformation-output/resource).
+Representations of the schema for specific systems/users are derived automatically from the schema. The following generated outputs are available:
+- MOLGENIS database setup at [molgenis-emx](generated/molgenis-emx).
+- Application ontology at [ontology](generated/ontology).
+- Human-readable overview at [markdown](generated/markdown).
+- PALGA Codebook at [palga-codebook](generated/palga-codebook).
+- ART-DECOR at [art-decor](generated/art-decor).
+- LaTeX/PDF at [latex](generated/latex).
+- Resources for new terms at [resource](generated/resource).
 
 ## EDC support
 
@@ -33,11 +33,11 @@ FAIR Genomes interoperable case report forms can be created by iCRF Generator in
 - OpenClinica 3
 
 ## RDF formats
-The FAIR Genomes application ontology [Turtle file](transformation-output/rdf-ttl) can be converted to other RDF serialization formats including OWL-XML, RDF-XML, RDF-JSON, JSON-LD, N-Triples, TriG, TriX, Thrift, Manchester syntax and Functional syntax using [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0).
+The FAIR Genomes application ontology [Turtle file](generated/ontology) can be converted to other RDF serialization formats including OWL-XML, RDF-XML, RDF-JSON, JSON-LD, N-Triples, TriG, TriX, Thrift, Manchester syntax and Functional syntax using [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0).
 
 For example, conversion to OWL-XML can be accomplished by running: 
 ```
-java -jar ont-converter.jar -i /path/to/fairgenomes-semantic-model/transformation-output/rdf-ttl/fair-genomes.ttl -if TURTLE -o fair-genomes.owl -of OWL_XML
+java -jar ont-converter.jar -i /path/to/fairgenomes-semantic-model/generated/ontology/fair-genomes.ttl -if TURTLE -o fair-genomes.owl -of OWL_XML
 ```
 
 Please be aware that the original TTL format is highly efficient. Other RDF formats typically consume more disk space. Conversions using the FAIR Genomes TTL of 25-02-2021 as a reference results in the following relative file size differences:
@@ -72,6 +72,6 @@ java -jar saxon-he-10.3.jar -o:DECOR.xsl -s:DECOR.sch iso_svrl_for_xslt2.xsl
 ```
 The XML can then be validated as follows:
 ```
-java -jar saxon-he-10.3.jar -o:warnings.xml -s:/path/to/fairgenomes-semantic-model/transformation-output/art-decor/fair-genomes_en-US.xml DECOR.xsl
+java -jar saxon-he-10.3.jar -o:warnings.xml -s:/path/to/fairgenomes-semantic-model/generated/art-decor/fair-genomes_en-US.xml DECOR.xsl
 ```
 Finally, `warnings.xml` is inspected for any errors or warnings.

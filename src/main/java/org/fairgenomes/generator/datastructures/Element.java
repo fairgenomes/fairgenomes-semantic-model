@@ -1,6 +1,6 @@
-package org.fairgenomes.transformer.datastructures;
+package org.fairgenomes.generator.datastructures;
 
-import org.fairgenomes.transformer.implementations.ToMOLGENISEMX;
+import org.fairgenomes.generator.implementations.ToMOLGENISEMX;
 
 public class Element {
 

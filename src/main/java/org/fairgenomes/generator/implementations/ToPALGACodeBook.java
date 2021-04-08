@@ -1,7 +1,8 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.generator.implementations;
 
-import org.fairgenomes.transformer.datastructures.*;
-import org.fairgenomes.transformer.datastructures.Module;
+import org.fairgenomes.generator.AbstractGenerator;
+import org.fairgenomes.generator.datastructures.*;
+import org.fairgenomes.generator.datastructures.Module;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -11,10 +12,10 @@ import java.util.HashMap;
 
 /**
  *
- * Write PALGA Codebooks in TSV format
+ * Generate PALGA Codebooks in TSV format
  *
  */
-public class ToPALGACodeBook extends GenericTransformer {
+public class ToPALGACodeBook extends AbstractGenerator {
 
     public ToPALGACodeBook(FAIRGenomes fg, File outputFolder) throws Exception {
        super(fg, outputFolder);

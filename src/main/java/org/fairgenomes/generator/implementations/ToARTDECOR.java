@@ -1,8 +1,8 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.generator.implementations;
 
-import org.fairgenomes.transformer.datastructures.Author;
-import org.fairgenomes.transformer.datastructures.FAIRGenomes;
-import org.fairgenomes.transformer.datastructures.GenericTransformer;
+import org.fairgenomes.generator.AbstractGenerator;
+import org.fairgenomes.generator.datastructures.Author;
+import org.fairgenomes.generator.datastructures.FAIRGenomes;
 import palgacodebooktoartdecor.codebook.CodebookManager;
 import palgacodebooktoartdecor.codebook.CodebookToArtDecorConvertor;
 import palgacodebooktoartdecor.settings.IdentifierManager;
@@ -10,7 +10,7 @@ import palgacodebooktoartdecor.settings.RunParameters;
 
 import java.io.File;
 
-public class ToARTDECOR extends GenericTransformer {
+public class ToARTDECOR extends AbstractGenerator {
 
     public ToARTDECOR(FAIRGenomes fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
@@ -20,7 +20,7 @@ public class ToARTDECOR extends GenericTransformer {
     public void start() throws Exception {
 
         RunParameters runParameters = new RunParameters(
-                "transformation-output/palga-codebook",                           // codebookDirectory
+                "generated/palga-codebook",                           // codebookDirectory
                 "2.16.840.1.113883.2.4.3.11.60.120",                              // projectId
                 "fairgenomes",                                                    // projectPrefix
                 "true",                                                           // experimental

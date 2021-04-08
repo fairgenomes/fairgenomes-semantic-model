@@ -1,4 +1,4 @@
-package org.fairgenomes.transformer.datastructures;
+package org.fairgenomes.generator.datastructures;
 
 public enum ReleaseType {
     SNAPSHOT, Minor, Major

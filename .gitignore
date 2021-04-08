@@ -7,7 +7,7 @@ out
 target
 
 # Generated resources
-#transformation-output
+#generated
 
 # Compiled class file
 *.class

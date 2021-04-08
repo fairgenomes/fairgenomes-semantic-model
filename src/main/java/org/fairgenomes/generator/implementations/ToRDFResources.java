@@ -1,17 +1,14 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.generator.implementations;
 
 import org.eclipse.rdf4j.model.IRI;
-import org.eclipse.rdf4j.model.util.ModelBuilder;
 import org.eclipse.rdf4j.model.vocabulary.OWL;
-import org.eclipse.rdf4j.model.vocabulary.RDFS;
-import org.fairgenomes.transformer.datastructures.*;
-import org.fairgenomes.transformer.datastructures.Module;
-import org.fairgenomes.transformer.implementations.ToApplicationOntology;
+import org.fairgenomes.generator.AbstractGenerator;
+import org.fairgenomes.generator.datastructures.*;
+import org.fairgenomes.generator.datastructures.Module;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.HashSet;
 
 import static org.eclipse.rdf4j.model.util.Values.iri;
@@ -19,7 +16,7 @@ import static org.eclipse.rdf4j.model.util.Values.iri;
 /**
  * Maintains the RDF fragments that make up the specific FAIR Genomes ontology
  */
-public class ToRDFResources extends GenericTransformer {
+public class ToRDFResources extends AbstractGenerator {
 
     public static final String baseURL = "https://w3id.org/fair-genomes/";
     public static final String resourceURL = baseURL + "resource/";

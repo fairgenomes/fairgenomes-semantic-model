@@ -1,7 +1,6 @@
-package org.fairgenomes.transformer.datastructures;
+package org.fairgenomes.generator.datastructures;
 
 import java.io.File;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Scanner;
 

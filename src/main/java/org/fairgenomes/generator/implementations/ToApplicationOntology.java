@@ -1,13 +1,12 @@
-package org.fairgenomes.transformer.implementations;
+package org.fairgenomes.generator.implementations;
 
 import org.eclipse.rdf4j.model.vocabulary.OWL;
 import org.eclipse.rdf4j.model.vocabulary.RDFS;
-import org.fairgenomes.transformer.datastructures.*;
+import org.fairgenomes.generator.AbstractGenerator;
+import org.fairgenomes.generator.datastructures.*;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.eclipse.rdf4j.model.Model;
@@ -19,9 +18,9 @@ import static org.eclipse.rdf4j.model.util.Values.literal;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
 import org.eclipse.rdf4j.model.util.ModelBuilder;
-import org.fairgenomes.transformer.datastructures.Module;
+import org.fairgenomes.generator.datastructures.Module;
 
-public class ToApplicationOntology extends GenericTransformer {
+public class ToApplicationOntology extends AbstractGenerator {
 
     public ToApplicationOntology(FAIRGenomes fg, File outputFolder) {
         super(fg, outputFolder);
