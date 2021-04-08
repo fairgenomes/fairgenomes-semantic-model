@@ -33,7 +33,7 @@ public class TransformFGToAllFormats {
         fg.createElementTechnicalNames();
 
         System.out.println("Transforming into other representations...");
-        File outputs = new File("transformation-output");
+        File outputs = new File("generated");
         FileUtils.cleanDirectory(outputs);
         new ToMarkdown(fg, new File(outputs, "markdown")).start();
         new ToMOLGENISEMX(fg, new File(outputs, "molgenis-emx")).start();
