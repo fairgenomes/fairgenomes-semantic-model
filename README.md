@@ -12,12 +12,14 @@ The source of the schema is located at [fair-genomes.yml](fair-genomes.yml). The
 
 ## Outputs
 
-Currently, the following transformation output formats are available:
+Representations of the schema for specific systems/users are derived automatically from the schema. The following transformation outputs are available:
 - MOLGENIS database setup at [molgenis-emx](transformation-output/molgenis-emx).
-- Application ontology at [rdf-ttl](transformation-output/rdf-ttl).
+- Application ontology at [ontology](transformation-output/ontology).
 - Human-readable overview at [markdown](transformation-output/markdown).
 - PALGA Codebook at [palga-codebook](transformation-output/palga-codebook).
 - ART-DECOR at [art-decor](transformation-output/art-decor).
+- LaTeX/PDF at [latex](transformation-output/latex).
+- Resources for new terms at [resource](transformation-output/resource).
 
 ## EDC support
 
