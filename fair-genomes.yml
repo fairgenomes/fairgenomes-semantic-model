@@ -37,8 +37,8 @@ authors:
       email: m.a.swertz@umcg.nl
       orcid: 0000-0002-0979-3401
     - name: FAIR Genomes Consortium
-      email: consortium@fairgenomes.org
-      orcid: n/a
+      email:
+      orcid:
 copyright:
       holder: University Medical Center Groningen
       years: 2019-2021
