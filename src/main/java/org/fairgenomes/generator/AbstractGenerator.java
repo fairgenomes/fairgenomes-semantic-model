@@ -12,6 +12,7 @@ public abstract class AbstractGenerator {
     public FAIRGenomes fg;
     public File outputFolder;
     public static final String LE = "\n"; // using Unix line endings is the safer option
+    public static final String baseIRI = "https://w3id.org/fair-genomes/";
 
     public AbstractGenerator(FAIRGenomes fg, File outputFolder) {
         this.fg = fg;

@@ -18,9 +18,8 @@ import static org.eclipse.rdf4j.model.util.Values.iri;
  */
 public class ToRDFResources extends AbstractGenerator {
 
-    public static final String baseURL = "https://w3id.org/fair-genomes/";
-    public static final String resourceURL = baseURL + "resource/";
-    public static final String ontologyURL = baseURL + "ontology/";
+    public static final String resourceURL = baseIRI + "resource/";
+    public static final String ontologyURL = baseIRI + "ontology/";
 
     private HashSet<String> uniqueTerms;
     private HashSet<String> uniqueLookups;

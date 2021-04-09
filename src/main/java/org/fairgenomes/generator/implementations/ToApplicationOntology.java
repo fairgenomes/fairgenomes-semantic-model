@@ -1,7 +1,6 @@
 package org.fairgenomes.generator.implementations;
 
-import org.eclipse.rdf4j.model.vocabulary.OWL;
-import org.eclipse.rdf4j.model.vocabulary.RDFS;
+import org.eclipse.rdf4j.model.vocabulary.*;
 import org.fairgenomes.generator.AbstractGenerator;
 import org.fairgenomes.generator.datastructures.*;
 
@@ -12,8 +11,6 @@ import java.util.Map;
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.IRI;
 import static org.eclipse.rdf4j.model.util.Values.iri;
-import org.eclipse.rdf4j.model.vocabulary.RDF;
-import org.eclipse.rdf4j.model.vocabulary.DC;
 import static org.eclipse.rdf4j.model.util.Values.literal;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
@@ -32,12 +29,9 @@ public class ToApplicationOntology extends AbstractGenerator {
     @Override
     public void start() throws Exception, IOException {
 
-        // Replace this later with w3id or purl
-        String baseUrl = "https://github.com/fairgenomes/fairgenomes-semantic-model/";
-
         // All prefixes and namespaces
         Map<String, String> prefixToNamespace = new HashMap<>();
-        prefixToNamespace.put("fg", "https://fair-genomes.org/");
+        prefixToNamespace.put("fg", baseIRI);
         prefixToNamespace.put("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
         prefixToNamespace.put("dc", "http://purl.org/dc/elements/1.1/");
         prefixToNamespace.put("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
@@ -58,13 +52,28 @@ public class ToApplicationOntology extends AbstractGenerator {
             builder.setNamespace(prefix, prefixToNamespace.get(prefix));
         }
 
-        // TODO
-        // add FAIR Genomes project information, version, authors, copyright, license, etc!
+        // add FAIR Genomes project information, version, authors, copyright, license, etc
+        IRI root = iri(baseIRI);
+        builder.add(root, DC.TITLE, fg.name);
+        builder.add(root, DC.DESCRIPTION, fg.description);
+        builder.add(root, DC.DATE, fg.date);
+        builder.add(root, DC.LANGUAGE, "en");
+        builder.add(root, DC.RIGHTS, fg.copyright.holder + " ("+fg.copyright.years+")");
+        builder.add(root, DCTERMS.LICENSE, fg.license.name);
+        builder.add(root, DCTERMS.LICENSE_DOCUMENT, iri(fg.license.url));
+        for(Author a : fg.authors)
+        {
+            builder.add(root, DC.CREATOR, a.name + (a.email != null ? " <"+a.email+">" : ""));
+            if(a.orcid != null)
+            {
+                builder.add(root, DC.CREATOR, iri("https://orcid.org/" + a.orcid));
+            }
+        }
 
         // Add modules to builder as moduleClasses
         for (Module m : fg.modules) {
             String moduleName = cleanLabel(m.name);
-            IRI moduleClass = iri(baseUrl, cleanLabel(moduleName));
+            IRI moduleClass = iri(baseIRI, cleanLabel(moduleName));
             builder.add(moduleClass, RDF.TYPE, OWL.CLASS);
             builder.add(moduleClass, RDFS.ISDEFINEDBY, iri(m.iri));
             builder.add(moduleClass, RDFS.LABEL, literal(m.name));
@@ -73,7 +82,7 @@ public class ToApplicationOntology extends AbstractGenerator {
             // Add elements to builder as moduleProperties
             for(Element e : m.elements) {
                 String elementName = moduleName + "_" + cleanLabel(e.name);
-                IRI moduleProperty = iri(baseUrl, cleanLabel(elementName));
+                IRI moduleProperty = iri(baseIRI, cleanLabel(elementName));
                 builder.add(moduleProperty, RDF.TYPE, e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY);
                 builder.add(moduleProperty, RDFS.LABEL, literal(e.name));
                 builder.add(moduleProperty, RDFS.DOMAIN, moduleClass);
@@ -103,7 +112,7 @@ public class ToApplicationOntology extends AbstractGenerator {
                     for (String lookup : e.lookup.lookups.keySet()) {
                         Lookup l = e.lookup.lookups.get(lookup);
                         String lookupName = elementName + "_" + cleanLabel(l.value);
-                        IRI lookupInstance = iri(baseUrl, cleanLabel(lookupName));
+                        IRI lookupInstance = iri(baseIRI, cleanLabel(lookupName));
                         lookupBuilder.add(lookupInstance, RDF.TYPE, iri(e.type));
                         lookupBuilder.add(lookupInstance, RDFS.LABEL, literal(l.value));
                         lookupBuilder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
