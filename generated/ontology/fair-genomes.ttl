@@ -8,9 +8,11 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/fair-genomes/> dc:title "FAIR Genomes metadata schema";
+<https://w3id.org/fair-genomes/> a owl:Ontology;
+  dc:title "FAIR Genomes metadata schema";
   dc:description "The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.";
   dc:date "2021-02-25";
+  owl:versionInfo "0.3-SNAPSHOT";
   dc:language "en";
   dc:rights "University Medical Center Groningen (2019-2021)";
   <http://purl.org/dc/terms/license> "Attribution 4.0 International (CC BY 4.0)";

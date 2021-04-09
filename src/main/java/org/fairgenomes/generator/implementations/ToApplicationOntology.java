@@ -54,9 +54,11 @@ public class ToApplicationOntology extends AbstractGenerator {
 
         // add FAIR Genomes project information, version, authors, copyright, license, etc
         IRI root = iri(baseIRI);
+        builder.add(root, RDF.TYPE, OWL.ONTOLOGY);
         builder.add(root, DC.TITLE, fg.name);
         builder.add(root, DC.DESCRIPTION, fg.description);
         builder.add(root, DC.DATE, fg.date);
+        builder.add(root, OWL.VERSIONINFO, fg.version + "-" + fg.releaseType);
         builder.add(root, DC.LANGUAGE, "en");
         builder.add(root, DC.RIGHTS, fg.copyright.holder + " ("+fg.copyright.years+")");
         builder.add(root, DCTERMS.LICENSE, fg.license.name);
