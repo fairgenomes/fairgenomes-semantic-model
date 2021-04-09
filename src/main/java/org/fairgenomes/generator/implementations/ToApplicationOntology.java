@@ -23,8 +23,8 @@ public class ToApplicationOntology extends AbstractGenerator {
         super(fg, outputFolder);
     }
 
-    // Start of each file name
     public static final String baseFileName = "fair-genomes";
+    public static final String fgAppOnto = "https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/";
 
     @Override
     public void start() throws Exception, IOException {
@@ -60,7 +60,8 @@ public class ToApplicationOntology extends AbstractGenerator {
         builder.add(root, DC.DATE, fg.date);
         builder.add(root, OWL.VERSIONINFO, fg.version + "-" + fg.releaseType);
         builder.add(root, DC.LANGUAGE, "en");
-        builder.add(root, DC.RIGHTS, fg.copyright.holder + " ("+fg.copyright.years+")");
+        builder.add(root, DC.RIGHTS, "Copyright: " + fg.copyright.holder + " ("+fg.copyright.years+")");
+        builder.add(root, DC.PUBLISHER, iri("https://github.com/fairgenomes/fairgenomes-semantic-model"));
         builder.add(root, DCTERMS.LICENSE, fg.license.name);
         builder.add(root, DCTERMS.LICENSE_DOCUMENT, iri(fg.license.url));
         for(Author a : fg.authors)
@@ -126,6 +127,12 @@ public class ToApplicationOntology extends AbstractGenerator {
 
                 }
             }
+        }
+
+        // Add to main ontology as imports
+        for(String key : lookupBuilders.keySet())
+        {
+            builder.add(root, OWL.IMPORTS, iri(fgAppOnto + baseFileName+"-"+key.toLowerCase()+".ttl"));
         }
 
         // Write main model

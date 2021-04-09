@@ -14,7 +14,8 @@
   dc:date "2021-02-25";
   owl:versionInfo "0.3-SNAPSHOT";
   dc:language "en";
-  dc:rights "University Medical Center Groningen (2019-2021)";
+  dc:rights "Copyright: University Medical Center Groningen (2019-2021)";
+  dc:publisher <https://github.com/fairgenomes/fairgenomes-semantic-model>;
   <http://purl.org/dc/terms/license> "Attribution 4.0 International (CC BY 4.0)";
   <http://purl.org/dc/terms/LicenseDocument> <https://creativecommons.org/licenses/by/4.0/>;
   dc:creator "K. Joeri van der Velde <k.j.van.der.velde@umcg.nl>", <https://orcid.org/0000-0002-0934-8375>,
@@ -26,7 +27,33 @@
     "Daphne Stemkens <d.stemkens@vsop.nl>", <https://orcid.org/0000-0003-1301-5204>, "Peter A.C. 't Hoen <peter-bram.thoen@radboudumc.nl>",
     <https://orcid.org/0000-0003-4450-3112>, "Mariëlle E. van Gijn <m.e.van.gijn@umcg.nl>",
     <https://orcid.org/0000-0002-1073-0539>, "Morris A. Swertz <m.a.swertz@umcg.nl>",
-    <https://orcid.org/0000-0002-0979-3401>, "FAIR Genomes Consortium" .
+    <https://orcid.org/0000-0002-0979-3401>, "FAIR Genomes Consortium";
+  owl:imports <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-drugs.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-inclusioncriteria.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-familymembers.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-datausemodifiers.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-countries.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-medicalhistory.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-institutes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencingplatform.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencinginstrumentmodels.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-representedby.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-datausepermissions.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dataformats.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-phenotypicsex.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dcmitypes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-inclusionstatus.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-pathologicalstate.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-recontacting.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-phenotypes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genotypicsex.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-diseases.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-anatomicalsources.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-storageconditions.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ngskits.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencingtypes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-materialtypes.ttl> .
 
 fg:Study a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C63536;
