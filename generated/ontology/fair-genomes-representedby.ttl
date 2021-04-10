@@ -1,4 +1,4 @@
-@prefix fg: <https://fair-genomes.org/> .
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,14 +8,12 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Represented_by_legal_guardian_role>
-  a obo:BFO_0000023;
+fg:Individual_consent_Represented_by_legal_guardian_role a obo:BFO_0000023;
   rdfs:label "legal guardian role";
   dc:description "A role that inheres in an individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.";
   rdfs:isDefinedBy obo:ICO_0000081 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Represented_by_legal_representative_role>
-  a obo:BFO_0000023;
+fg:Individual_consent_Represented_by_legal_representative_role a obo:BFO_0000023;
   rdfs:label "legal representative role";
   dc:description "A deontic role, which may be realized in an Act of Consent, where the bearer of the legal representative role consents on behalf of a person who lacks the capability to provide consent.";
   rdfs:isDefinedBy obo:ICO_0000187 .

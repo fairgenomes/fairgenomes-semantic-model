@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/fairgenomes/fairgenomes-semantic-model/main/misc/semanticscience.org/resource.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="https://fairgenomes.github.io/fairgenomes-semantic-model/misc/semanticscience.org/resource.xsl" ?>
 
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -14,13 +14,6 @@
     <dc:description xml:lang="en">SureSelectXT2 Reagent Kit, HSQ,480,Auto by Agilent Technologies sourced from https://www.biocompare.com, accessed May 2020.</dc:description>
     <dc:identifier>FG:0000233</dc:identifier>
     <ns0:identifier>FG_0000233</ns0:identifier>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000233.rdf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <rdfs:label>Summary document for FG_0000233</rdfs:label>
-    <owl:imports rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-ngskits.ttl"/>
-    <dc:subject rdf:resource="https://w3id.org/fair-genomes/resource/FG_0000233"/>
   </rdf:Description>
 
 </rdf:RDF>

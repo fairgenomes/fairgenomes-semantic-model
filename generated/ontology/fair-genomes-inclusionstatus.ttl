@@ -1,4 +1,4 @@
-@prefix fg: <https://fair-genomes.org/> .
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,121 +8,117 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Alive>
-  a obo:NCIT_C19332;
+fg:Personal_Inclusion_status_Alive a obo:NCIT_C19332;
   rdfs:label "Alive";
   dc:description "Showing characteristics of life; displaying signs of life.";
   rdfs:isDefinedBy obo:NCIT_C37987 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Dead>
-  a obo:NCIT_C19332;
+fg:Personal_Inclusion_status_Dead a obo:NCIT_C19332;
   rdfs:label "Dead";
   dc:description "The cessation of life.";
   rdfs:isDefinedBy obo:NCIT_C28554 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Lost_in_follow-up>
-  a obo:NCIT_C19332;
+fg:Personal_Inclusion_status_Lost_in_follow-up a obo:NCIT_C19332;
   rdfs:label "Lost in follow-up";
   dc:description "The loss or lack of continuation of subject participation after a study has officially closed.";
   rdfs:isDefinedBy obo:NCIT_C159824 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Opted-out>
-  a obo:NCIT_C19332;
+fg:Personal_Inclusion_status_Opted-out a obo:NCIT_C19332;
   rdfs:label "Opted-out";
   dc:description "A grantor's dissent to the terms of agreement offered by a grantee without an opportunity for to assent to any terms.";
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/HL7/C3858493> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_NoInformation_(NI,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_NoInformation_(NI,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Invalid_(INV,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Invalid_(INV,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Derived_(DER,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Derived_(DER,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Other_(OTH,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Other_(OTH,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Negative_infinity_(NINF,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Negative_infinity_(NINF,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Positive_infinity_(PINF,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Positive_infinity_(PINF,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Un-encoded_(UNC,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Un-encoded_(UNC,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Masked_(MSK,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Masked_(MSK,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Not_applicable_(NA,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Not_applicable_(NA,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Unknown_(UNK,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Unknown_(UNK,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Asked_but_unknown_(ASKU,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Asked_but_unknown_(ASKU,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Temporarily_unavailable_(NAV,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Temporarily_unavailable_(NAV,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Not_asked_(NASK,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Not_asked_(NASK,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Not_available_(NAVU,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Not_available_(NAVU,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Sufficient_quantity_(QS,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Sufficient_quantity_(QS,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Personal_Inclusion_status_Trace_(TRC,_nullflavor)>
+<https://w3id.org/fair-genomes/ontology/Personal_Inclusion_status_Trace_(TRC,_nullflavor)>
   a obo:NCIT_C19332;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";

@@ -18,10 +18,6 @@ import static org.eclipse.rdf4j.model.util.Values.iri;
  */
 public class ToRDFResources extends AbstractGenerator {
 
-    public static final String baseURL = "https://w3id.org/fair-genomes/";
-    public static final String resourceURL = baseURL + "resource/";
-    public static final String ontologyURL = baseURL + "ontology/";
-
     private HashSet<String> uniqueTerms;
     private HashSet<String> uniqueLookups;
 
@@ -100,10 +96,7 @@ public class ToRDFResources extends AbstractGenerator {
     {
         StringBuilder sb = new StringBuilder();
         sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>" + LE);
-        sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://raw.githubusercontent.com/fairgenomes/fairgenomes-semantic-model/main/misc/semanticscience.org/resource.xsl\" ?>" + LE + LE);
-   //     sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://semanticscience.org/resource/resource.xsl\" ?>" + LE + LE);
-
-
+        sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://fairgenomes.github.io/fairgenomes-semantic-model/misc/semanticscience.org/resource.xsl\" ?>" + LE + LE);
         sb.append("<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"" + LE);
         sb.append("  xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"" + LE);
         sb.append("  xmlns:dc=\"http://purl.org/dc/terms/\"" + LE);
@@ -124,13 +117,6 @@ public class ToRDFResources extends AbstractGenerator {
         sb.append("    <dc:description xml:lang=\"en\">" + description + "</dc:description>" + LE);
         sb.append("    <dc:identifier>"+ prefix + ":" + code +"</dc:identifier>" + LE);
         sb.append("    <ns0:identifier>"+ prefix + "_" + code +"</ns0:identifier>" + LE);
-        sb.append("  </rdf:Description>" + LE + LE);
-
-        sb.append("  <rdf:Description rdf:about=\"" + resourceURL + prefix + "_" + code+".rdf\">" + LE);
-        sb.append("    <rdf:type rdf:resource=\"http://www.w3.org/2002/07/owl#Ontology\"/>" + LE);
-        sb.append("    <rdfs:label>Summary document for " + prefix + "_" + code+"</rdfs:label>" + LE);
-        sb.append("    <owl:imports rdf:resource=\"" + ontologyURL + srcTTL + "\"/>" + LE);
-        sb.append("    <dc:subject rdf:resource=\"" + resourceURL + prefix + "_" + code + "\"/>" + LE);
         sb.append("  </rdf:Description>" + LE + LE);
 
         sb.append("</rdf:RDF>" + LE);

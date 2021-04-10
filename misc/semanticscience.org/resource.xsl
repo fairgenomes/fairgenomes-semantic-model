@@ -226,11 +226,9 @@
   <td>
 
  <xsl:for-each select="//rdf:Description">
-  <xsl:if test="./rdf:type/@rdf:resource = 'http://www.w3.org/2002/07/owl#Ontology'">   
    <xsl:call-template name="makelink">
-    <xsl:with-param name="url" select="./owl:imports/@rdf:resource"/>
+    <xsl:with-param name="url" select="./rdfs:isDefinedBy/@rdf:resource"/>
    </xsl:call-template>
-  </xsl:if>
  </xsl:for-each>
 
   </td>
