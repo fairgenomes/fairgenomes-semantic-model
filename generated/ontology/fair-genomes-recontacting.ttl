@@ -1,4 +1,4 @@
-@prefix fg: <https://fair-genomes.org/> .
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,20 +8,17 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_additional_sampling>
-  a obo:NCIT_C47953;
+fg:Individual_consent_Allow_recontacting_For_additional_sampling a obo:NCIT_C47953;
   rdfs:label "For additional sampling";
   dc:description "Willingness to be contacted to collect additional material or data from the patient.";
   rdfs:isDefinedBy obo:NCIT_C25662 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_incidental_findings>
-  a obo:NCIT_C47953;
+fg:Individual_consent_Allow_recontacting_For_incidental_findings a obo:NCIT_C47953;
   rdfs:label "For incidental findings";
   dc:description "Willingness to be contacted when new knowledge regarding incidental findings becomes available to benefit the patient.";
   rdfs:isDefinedBy obo:ICO_0000178 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Allow_recontacting_For_diagnostic_question>
-  a obo:NCIT_C47953;
+fg:Individual_consent_Allow_recontacting_For_diagnostic_question a obo:NCIT_C47953;
   rdfs:label "For diagnostic question";
   dc:description "Willingness to be contacted when new knowledge regarding the diagnostic question becomes available to benefit the patient.";
   rdfs:isDefinedBy obo:NCIT_C15220 .

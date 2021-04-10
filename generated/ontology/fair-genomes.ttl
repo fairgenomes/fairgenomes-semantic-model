@@ -1,4 +1,4 @@
-@prefix fg: <https://w3id.org/fair-genomes/> .
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sio: <https://semanticscience.org/resource/> .
@@ -8,13 +8,13 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/fair-genomes/> a owl:Ontology;
+<https://w3id.org/fair-genomes/ontology/> a owl:Ontology;
   dc:title "FAIR Genomes metadata schema";
   dc:description "The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.";
   dc:date "2021-02-25";
   owl:versionInfo "0.3-SNAPSHOT";
   dc:language "en";
-  dc:rights "Copyright: University Medical Center Groningen (2019-2021)";
+  dc:rights "This ontology is distributed under a Attribution 4.0 International (CC BY 4.0) License - https://creativecommons.org/licenses/by/4.0/. Copyright: University Medical Center Groningen (2019-2021).";
   dc:publisher <https://github.com/fairgenomes/fairgenomes-semantic-model>;
   <http://purl.org/dc/terms/license> "Attribution 4.0 International (CC BY 4.0)";
   <http://purl.org/dc/terms/LicenseDocument> <https://creativecommons.org/licenses/by/4.0/>;
@@ -28,7 +28,7 @@
     <https://orcid.org/0000-0003-4450-3112>, "Mariëlle E. van Gijn <m.e.van.gijn@umcg.nl>",
     <https://orcid.org/0000-0002-1073-0539>, "Morris A. Swertz <m.a.swertz@umcg.nl>",
     <https://orcid.org/0000-0002-0979-3401>, "FAIR Genomes Consortium";
-  owl:imports <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-drugs.ttl>,
+  dc:contributor <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-drugs.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-inclusioncriteria.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-familymembers.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-datausemodifiers.ttl>,

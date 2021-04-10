@@ -1,4 +1,4 @@
-@prefix fg: <https://fair-genomes.org/> .
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,31 +8,28 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_permissions_general_research_use>
-  a obo:DUO_0000001;
+fg:Individual_consent_Data_use_permissions_general_research_use a obo:DUO_0000001;
   rdfs:label "general research use";
   dc:description "This data use limitation indicates that use is allowed for general research use for any research purpose.";
   rdfs:isDefinedBy obo:DUO_0000042 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_permissions_health_or_medical_or_biomedical_research>
+fg:Individual_consent_Data_use_permissions_health_or_medical_or_biomedical_research
   a obo:DUO_0000001;
   rdfs:label "health or medical or biomedical research";
   dc:description "This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.";
   rdfs:isDefinedBy obo:DUO_0000006 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_permissions_disease-specific_research>
-  a obo:DUO_0000001;
+fg:Individual_consent_Data_use_permissions_disease-specific_research a obo:DUO_0000001;
   rdfs:label "disease-specific research";
   dc:description "This data use limitation indicates that use is allowed provided it is related to the specified disease.";
   rdfs:isDefinedBy obo:DUO_0000007 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_permissions_no_restriction>
-  a obo:DUO_0000001;
+fg:Individual_consent_Data_use_permissions_no_restriction a obo:DUO_0000001;
   rdfs:label "no restriction";
   dc:description "This data use limitation indicates there is no restriction on use.";
   rdfs:isDefinedBy obo:DUO_0000004 .
 
-<https://github.com/fairgenomes/fairgenomes-semantic-model/Individual_consent_Data_use_permissions_population_origins_or_ancestry_research_only>
+fg:Individual_consent_Data_use_permissions_population_origins_or_ancestry_research_only
   a obo:DUO_0000001;
   rdfs:label "population origins or ancestry research only";
   dc:description "This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.";
