@@ -24,14 +24,14 @@ public class ToApplicationOntology extends AbstractGenerator {
     }
 
     public static final String baseFileName = "fair-genomes";
-    public static final String fgAppOnto = "https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/";
+    public static final String ontologyServer = "https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/";
 
     @Override
     public void start() throws Exception, IOException {
 
         // All prefixes and namespaces
         Map<String, String> prefixToNamespace = new HashMap<>();
-        prefixToNamespace.put("fg", baseIRI);
+        prefixToNamespace.put("fg", ontologyURL);
         prefixToNamespace.put("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
         prefixToNamespace.put("dc", "http://purl.org/dc/elements/1.1/");
         prefixToNamespace.put("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
@@ -53,14 +53,14 @@ public class ToApplicationOntology extends AbstractGenerator {
         }
 
         // add FAIR Genomes project information, version, authors, copyright, license, etc
-        IRI root = iri(baseIRI);
+        IRI root = iri(ontologyURL);
         builder.add(root, RDF.TYPE, OWL.ONTOLOGY);
         builder.add(root, DC.TITLE, fg.name);
         builder.add(root, DC.DESCRIPTION, fg.description);
         builder.add(root, DC.DATE, fg.date);
         builder.add(root, OWL.VERSIONINFO, fg.version + "-" + fg.releaseType);
         builder.add(root, DC.LANGUAGE, "en");
-        builder.add(root, DC.RIGHTS, "Copyright: " + fg.copyright.holder + " ("+fg.copyright.years+")");
+        builder.add(root, DC.RIGHTS, "This ontology is distributed under a " + fg.license.name+" License - " + fg.license.url + ". Copyright: " + fg.copyright.holder + " ("+fg.copyright.years+").");
         builder.add(root, DC.PUBLISHER, iri("https://github.com/fairgenomes/fairgenomes-semantic-model"));
         builder.add(root, DCTERMS.LICENSE, fg.license.name);
         builder.add(root, DCTERMS.LICENSE_DOCUMENT, iri(fg.license.url));
@@ -76,7 +76,7 @@ public class ToApplicationOntology extends AbstractGenerator {
         // Add modules to builder as moduleClasses
         for (Module m : fg.modules) {
             String moduleName = cleanLabel(m.name);
-            IRI moduleClass = iri(baseIRI, cleanLabel(moduleName));
+            IRI moduleClass = iri(ontologyURL, cleanLabel(moduleName));
             builder.add(moduleClass, RDF.TYPE, OWL.CLASS);
             builder.add(moduleClass, RDFS.ISDEFINEDBY, iri(m.iri));
             builder.add(moduleClass, RDFS.LABEL, literal(m.name));
@@ -85,7 +85,7 @@ public class ToApplicationOntology extends AbstractGenerator {
             // Add elements to builder as moduleProperties
             for(Element e : m.elements) {
                 String elementName = moduleName + "_" + cleanLabel(e.name);
-                IRI moduleProperty = iri(baseIRI, cleanLabel(elementName));
+                IRI moduleProperty = iri(ontologyURL, cleanLabel(elementName));
                 builder.add(moduleProperty, RDF.TYPE, e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY);
                 builder.add(moduleProperty, RDFS.LABEL, literal(e.name));
                 builder.add(moduleProperty, RDFS.DOMAIN, moduleClass);
@@ -115,7 +115,7 @@ public class ToApplicationOntology extends AbstractGenerator {
                     for (String lookup : e.lookup.lookups.keySet()) {
                         Lookup l = e.lookup.lookups.get(lookup);
                         String lookupName = elementName + "_" + cleanLabel(l.value);
-                        IRI lookupInstance = iri(baseIRI, cleanLabel(lookupName));
+                        IRI lookupInstance = iri(ontologyURL, cleanLabel(lookupName));
                         lookupBuilder.add(lookupInstance, RDF.TYPE, iri(e.type));
                         lookupBuilder.add(lookupInstance, RDFS.LABEL, literal(l.value));
                         lookupBuilder.add(lookupInstance, DC.DESCRIPTION, literal(l.description));
@@ -129,10 +129,15 @@ public class ToApplicationOntology extends AbstractGenerator {
             }
         }
 
-        // Add to main ontology as imports
+        // FIXME
+        // Add links to lookup TTLs
+        // ideally we would use 'OWL:IMPORTS' but this breaks LODE, probably because
+        // OWLAPI always attempts to import any TTL file which cannot be disabled
+        // using non-resolvable locations or empty TTL files as workarounds does not work
+        // so instead, as a hack, we abuse the DC.CONTRIBUTOR field to represent this information
         for(String key : lookupBuilders.keySet())
         {
-            builder.add(root, OWL.IMPORTS, iri(fgAppOnto + baseFileName+"-"+key.toLowerCase()+".ttl"));
+            builder.add(root, DC.CONTRIBUTOR, iri(ontologyServer + baseFileName+"-"+key.toLowerCase()+".ttl"));
         }
 
         // Write main model
