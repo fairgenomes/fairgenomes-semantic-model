@@ -1097,11 +1097,6 @@ fg:Clinical_Medical_history_Gynecological_Surgical_Procedure a <http://scdontolo
   dc:description "Gynecological Surgical Procedure";
   rdfs:isDefinedBy obo:NCIT_C15332 .
 
-fg:Clinical_Medical_history_gynecological_surgical_procedure a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "gynecological surgical procedure";
-  dc:description "gynecological surgical procedure";
-  rdfs:isDefinedBy obo:NCIT_C15332 .
-
 fg:Clinical_Medical_history_Cardiovascular_Surgical_Procedure a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Cardiovascular Surgical Procedure";
   dc:description "Cardiovascular Surgical Procedure";
@@ -1243,11 +1238,6 @@ fg:Clinical_Medical_history_Surgical_Procedure_by_Method a <http://scdontology.h
   dc:description "Surgical Procedure by Method";
   rdfs:isDefinedBy obo:NCIT_C49165 .
 
-fg:Clinical_Medical_history_surgical_procedure_by_method a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "surgical procedure by method";
-  dc:description "surgical procedure by method";
-  rdfs:isDefinedBy obo:NCIT_C49165 .
-
 fg:Clinical_Medical_history_Endoscopic_Surgery a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Endoscopic Surgery";
   dc:description "Endoscopic Surgery";
@@ -1316,11 +1306,6 @@ fg:Clinical_Medical_history_Septal_Defect_Repair a <http://scdontology.h3abionet
 fg:Clinical_Medical_history_Surgical_Procedure_by_Type a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Surgical Procedure by Type";
   dc:description "Surgical Procedure by Type";
-  rdfs:isDefinedBy obo:NCIT_C161601 .
-
-fg:Clinical_Medical_history_surgical_procedure_by_type a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "surgical procedure by type";
-  dc:description "surgical procedure by type";
   rdfs:isDefinedBy obo:NCIT_C161601 .
 
 fg:Clinical_Medical_history_Resection a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
@@ -1511,11 +1496,6 @@ fg:Clinical_Medical_history_Augmentation_Mammoplasty a <http://scdontology.h3abi
   dc:description "Augmentation Mammoplasty";
   rdfs:isDefinedBy obo:NCIT_C107225 .
 
-fg:Clinical_Medical_history_augmentation_mammaplasty a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "augmentation mammaplasty";
-  dc:description "augmentation mammaplasty";
-  rdfs:isDefinedBy obo:NCIT_C107225 .
-
 fg:Clinical_Medical_history_Pedicle_TRAM_Flap_Procedure a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Pedicle TRAM Flap Procedure";
   dc:description "Pedicle TRAM Flap Procedure";
@@ -1526,19 +1506,9 @@ fg:Clinical_Medical_history_Mastectomy a <http://scdontology.h3abionet.org/ontol
   dc:description "Mastectomy";
   rdfs:isDefinedBy obo:NCIT_C15277 .
 
-fg:Clinical_Medical_history_mastectomy a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "mastectomy";
-  dc:description "mastectomy";
-  rdfs:isDefinedBy obo:NCIT_C15277 .
-
 fg:Clinical_Medical_history_Mammoplasty a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Mammoplasty";
   dc:description "Mammoplasty";
-  rdfs:isDefinedBy obo:NCIT_C15354 .
-
-fg:Clinical_Medical_history_mammaplasty a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "mammaplasty";
-  dc:description "mammaplasty";
   rdfs:isDefinedBy obo:NCIT_C15354 .
 
 fg:Clinical_Medical_history_Axillary_Lymph_Node_Dissection a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
@@ -2636,11 +2606,6 @@ fg:Clinical_Medical_history_Breast_Surgery a <http://scdontology.h3abionet.org/o
   dc:description "Breast Surgery";
   rdfs:isDefinedBy obo:NCIT_C157802 .
 
-fg:Clinical_Medical_history_breast_surgical_procedure a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "breast surgical procedure";
-  dc:description "breast surgical procedure";
-  rdfs:isDefinedBy obo:NCIT_C157802 .
-
 fg:Clinical_Medical_history_Endobronchial_Cryotherapy a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Endobronchial Cryotherapy";
   dc:description "Endobronchial Cryotherapy";
@@ -3061,11 +3026,6 @@ fg:Clinical_Medical_history_Transverse_Colectomy a <http://scdontology.h3abionet
 fg:Clinical_Medical_history_Reduction_Mammoplasty a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Reduction Mammoplasty";
   dc:description "Reduction Mammoplasty";
-  rdfs:isDefinedBy obo:NCIT_C51615 .
-
-fg:Clinical_Medical_history_reduction_mammaplasty a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "reduction mammaplasty";
-  dc:description "reduction mammaplasty";
   rdfs:isDefinedBy obo:NCIT_C51615 .
 
 fg:Clinical_Medical_history_Right_Reduction_Mammoplasty a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
@@ -3869,11 +3829,6 @@ fg:Clinical_Medical_history_Urogenital_Surgical_Procedure a <http://scdontology.
   dc:description "Urogenital Surgical Procedure";
   rdfs:isDefinedBy obo:NCIT_C15333 .
 
-fg:Clinical_Medical_history_urogenital_surgical_procedure a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "urogenital surgical procedure";
-  dc:description "urogenital surgical procedure";
-  rdfs:isDefinedBy obo:NCIT_C15333 .
-
 fg:Clinical_Medical_history_Surgical_Incision a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Surgical Incision";
   dc:description "Surgical Incision";
@@ -4405,11 +4360,6 @@ fg:Clinical_Medical_history_Surgical_Procedure_by_Site_or_System a <http://scdon
   dc:description "Surgical Procedure by Site or System";
   rdfs:isDefinedBy obo:NCIT_C49163 .
 
-fg:Clinical_Medical_history_surgical_procedure_by_site_or_system a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "surgical procedure by site or system";
-  dc:description "surgical procedure by site or system";
-  rdfs:isDefinedBy obo:NCIT_C49163 .
-
 fg:Clinical_Medical_history_Intestine_Resection a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Intestine Resection";
   dc:description "Intestine Resection";
@@ -4804,11 +4754,6 @@ fg:Clinical_Medical_history_Urologic_Surgical_Procedure a <http://scdontology.h3
   dc:description "Urologic Surgical Procedure";
   rdfs:isDefinedBy obo:NCIT_C15334 .
 
-fg:Clinical_Medical_history_urological_surgical_procedure a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "urological surgical procedure";
-  dc:description "urological surgical procedure";
-  rdfs:isDefinedBy obo:NCIT_C15334 .
-
 fg:Clinical_Medical_history_Cesarean_Section a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Cesarean Section";
   dc:description "Cesarean Section";
@@ -4945,11 +4890,6 @@ fg:Clinical_Medical_history_Plastic_Surgery_Procedure a <http://scdontology.h3ab
   dc:description "Plastic Surgery Procedure";
   rdfs:isDefinedBy obo:NCIT_C39766 .
 
-fg:Clinical_Medical_history_plastic_surgery_procedure a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "plastic surgery procedure";
-  dc:description "plastic surgery procedure";
-  rdfs:isDefinedBy obo:NCIT_C39766 .
-
 fg:Clinical_Medical_history_Partial_Hysterectomy a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Partial Hysterectomy";
   dc:description "Partial Hysterectomy";
@@ -4968,11 +4908,6 @@ fg:Clinical_Medical_history_Angioplasty a <http://scdontology.h3abionet.org/onto
 fg:Clinical_Medical_history_Subcutaneous_Mastectomy a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
   rdfs:label "Subcutaneous Mastectomy";
   dc:description "Subcutaneous Mastectomy";
-  rdfs:isDefinedBy obo:NCIT_C89773 .
-
-fg:Clinical_Medical_history_subcutaneous_mastectomy a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;
-  rdfs:label "subcutaneous mastectomy";
-  dc:description "subcutaneous mastectomy";
   rdfs:isDefinedBy obo:NCIT_C89773 .
 
 fg:Clinical_Medical_history_Transurethral_Needle_Ablation_of_the_Prostate a <http://scdontology.h3abionet.org/ontology/SCDO_1000093>;

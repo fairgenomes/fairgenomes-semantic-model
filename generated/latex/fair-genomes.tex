@@ -6,7 +6,7 @@
 \textbf{FAIR Genomes semantic metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.3-SNAPSHOT, 2021-02-25. This model consists of 9 modules that contain 109 metadata elements in total.
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.3-SNAPSHOT, 2021-02-25. This model consists of 9 modules that contain 110 metadata elements in total.
 
 \begin{table}[htb]
 \begin{tabular}{lll}
@@ -20,7 +20,7 @@ Clinical & NCIT:C25398 & 20 \\
 Material & NCIT:C43376 & 16 \\
 Sample preparation & OBI:0001902 & 9 \\
 Sequencing & EDAM:topic\_3168 & 12 \\
-Analysis & EDAM:operation\_2945 & 10 \\
+Analysis & EDAM:operation\_2945 & 11 \\
 \hline
 \end{tabular}
 \caption[Module overview]{\label{table:table1} FAIR Genomes v0.3-SNAPSHOT overview of all modules.}
@@ -52,7 +52,7 @@ Personal identifier & NCIT:C164337 & UniqueID \\
 Phenotypic sex & PATO:0001894 & PhenotypicSex lookup (4 choices) \\
 Genotypic sex & PATO:0020000 & GenotypicSex lookup (11 choices) \\
 Country of residence & NCIT:C171105 & Countries lookup (249 choices) \\
-Ethnicity & SIO:001014 & Countries lookup (249 choices) \\
+Ancestry & HANCESTRO:0004 & Ancestry lookup (305 choices) \\
 Country of birth & GENEPIO:0001094 & Countries lookup (249 choices) \\
 Year of birth & NCIT:C83164 & Integer \\
 Inclusion status & NCIT:C166244 & InclusionStatus lookup (4 choices) \\
@@ -123,7 +123,7 @@ Drug regimen & NCIT:C142516 & Text \\
 Family members affected & HP:0032320 & FamilyMembers lookup (41 choices) \\
 Family members sequenced & NCIT:C71384 & FamilyMembers lookup (41 choices) \\
 Consanguinity & GSSO:007578 & String \\
-Medical history & NCIT:C18772 & MedicalHistory lookup (1167 choices) \\
+Medical history & NCIT:C18772 & MedicalHistory lookup (1154 choices) \\
 Age of onset & Orphanet:C023 & Integer \\
 First contact & LOINC:MTHU048806 & Date \\
 Functioning & NCIT:C21007 & Text \\
@@ -207,6 +207,7 @@ Physical data location & GAZ:00000448 & String \\
 Abstract data location & NCIT:C142494 & String \\
 Data formats stored & EDAM:format\_1915 & DataFormats lookup (582 choices) \\
 Algorithms used & NCIT:C16275 & Text \\
+Reference genome used & EDAM:data\_2340 & GenomeAccessions lookup (29 choices) \\
 Bioinformatic protocol used & EDAM:data\_2531 & Text \\
 Bioinformatic protocol deviation & NCIT:C50996 & String \\
 Reason for bioinformatic protocol deviation & NCIT:C93529 & String \\
