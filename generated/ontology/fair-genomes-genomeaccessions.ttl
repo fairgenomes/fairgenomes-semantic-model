@@ -1,0 +1,250 @@
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+fg:Analysis_Reference_genome_used_GRCh37 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37";
+  dc:description "Genome Reference Consortium Human Build 37 (GRCh37)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p1 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p1";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 1 (GRCh37.p1)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCA_000001405.2> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p2 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p2";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 2 (GRCh37.p2)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.14> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p3 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p3";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 3 (GRCh37.p3)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCA_000001405.4> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p4 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p4";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 4 (GRCh37.p4)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCA_000001405.5> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p5 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p5";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 5 (GRCh37.p5)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.17> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p6 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p6";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 6 (GRCh37.p6)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCA_000001405.7> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p7 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p7";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 7 (GRCh37.p7)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCA_000001405.8> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p8 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p8";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 8 (GRCh37.p8)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCA_000001405.9> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p9 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p9";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 9 (GRCh37.p9)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.21> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p10 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p10";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 10 (GRCh37.p10)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.22> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p11 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p11";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 11 (GRCh37.p11)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.23> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p12 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p12";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 12 (GRCh37.p12)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.24> .
+
+fg:Analysis_Reference_genome_used_GRCh37.p13 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh37.p13";
+  dc:description "Genome Reference Consortium Human Build 37 patch release 13 (GRCh37.p13)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.25> .
+
+fg:Analysis_Reference_genome_used_hs38d1 a <http://edamontology.org/data_2787>;
+  rdfs:label "hs38d1";
+  dc:description "Decoy version 1 for GRCh38";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCA_000786075.2> .
+
+fg:Analysis_Reference_genome_used_GRCh38 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38";
+  dc:description "Genome Reference Consortium Human Build 38";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p1 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p1";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 1 (GRCh38.p1)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.27> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p2 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p2";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 3 (GRCh38.p2)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.28> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p3 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p3";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 3 (GRCh38.p3)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.29> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p4 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p4";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 4 (GRCh38.p4)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.30> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p5 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p5";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 5 (GRCh38.p5)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.31> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p6 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p6";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 6 (GRCh38.p6)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.32> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p7 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p7";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 7 (GRCh38.p7)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.33> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p8 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p8";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 8 (GRCh38.p8)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.34> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p9 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p9";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 9 (GRCh38.p9)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.35> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p10 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p10";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 10 (GRCh38.p10)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.36> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p11 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p11";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 11 (GRCh38.p11)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.37> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p12 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p12";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 12 (GRCh38.p12)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.38> .
+
+fg:Analysis_Reference_genome_used_GRCh38.p13 a <http://edamontology.org/data_2787>;
+  rdfs:label "GRCh38.p13";
+  dc:description "Genome Reference Consortium Human Build 38 patch release 13 (GRCh38.p13)";
+  rdfs:isDefinedBy <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.39> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_NoInformation_(NI,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "NoInformation (NI, nullflavor)";
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Invalid_(INV,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Invalid (INV, nullflavor)";
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Derived_(DER,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Derived (DER, nullflavor)";
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Other_(OTH,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Other (OTH, nullflavor)";
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Negative_infinity_(NINF,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Positive_infinity_(PINF,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Un-encoded_(UNC,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Masked_(MSK,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Masked (MSK, nullflavor)";
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Not_applicable_(NA,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Not applicable (NA, nullflavor)";
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Unknown_(UNK,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Unknown (UNK, nullflavor)";
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Asked_but_unknown_(ASKU,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Temporarily_unavailable_(NAV,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Not_asked_(NASK,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Not asked (NASK, nullflavor)";
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Not_available_(NAVU,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Not available (NAVU, nullflavor)";
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Sufficient_quantity_(QS,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://w3id.org/fair-genomes/ontology/Analysis_Reference_genome_used_Trace_(TRC,_nullflavor)>
+  a <http://edamontology.org/data_2787>;
+  rdfs:label "Trace (TRC, nullflavor)";
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	personal_ancestry	Value (English)	String	TRUE	FALSE
+description	personal_ancestry	Description (English)	Text	FALSE	TRUE
+codesystem	personal_ancestry	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	personal_ancestry	The code within the code system	String	FALSE	TRUE
+iri	personal_ancestry	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

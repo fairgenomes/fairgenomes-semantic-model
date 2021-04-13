@@ -1,6 +1,6 @@
 # FAIR Genomes semantic metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.3-SNAPSHOT, 2021-02-25. This model consists of __9 modules__ that contain __109 metadata elements__ in total.
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.3-SNAPSHOT, 2021-02-25. This model consists of __9 modules__ that contain __110 metadata elements__ in total.
 
 ## Module overview
 
@@ -14,7 +14,7 @@ The FAIR Genomes semantic metadata schema to power reuse of NGS data in research
 | [Material](#module-material) | Natural substances derived from living organisms such as cells, tissues, proteins, and DNA. | [NCIT:C43376](http://purl.obolibrary.org/obo/NCIT_C43376) | 16 |
 | [Sample preparation](#module-sample-preparation) | A sample preparation for assay that preparation of nucleic acids for a sequencing assay. | [OBI:0001902](http://purl.obolibrary.org/obo/OBI_0001902) | 9 |
 | [Sequencing](#module-sequencing) | The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. | [EDAM:topic_3168](http://edamontology.org/topic_3168) | 12 |
-| [Analysis](#module-analysis) | Apply analytical methods to existing data of a specific type. | [EDAM:operation_2945](http://edamontology.org/operation_2945) | 10 |
+| [Analysis](#module-analysis) | Apply analytical methods to existing data of a specific type. | [EDAM:operation_2945](http://edamontology.org/operation_2945) | 11 |
 
 ## Module: Study
 A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. Ontology: [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536).
@@ -40,7 +40,7 @@ Data, facts or figures about an individual; the set of relevant items would depe
 | Phenotypic sex | An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics. | [PATO:0001894](http://purl.obolibrary.org/obo/PATO_0001894) | [PhenotypicSex](../../lookups/PhenotypicSex.txt) lookup (4 choices [of type](http://purl.obolibrary.org/obo/PATO_0001894)) |
 | Genotypic sex | A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. | [PATO:0020000](http://purl.obolibrary.org/obo/PATO_0020000) | [GenotypicSex](../../lookups/GenotypicSex.txt) lookup (11 choices [of type](http://purl.obolibrary.org/obo/PATO_0020000)) |
 | Country of residence | Country of Residence at Enrollment. | [NCIT:C171105](http://purl.obolibrary.org/obo/NCIT_C171105) | [Countries](../../lookups/Countries.txt) lookup (249 choices [of type](http://semanticscience.org/resource/SIO_000664)) |
-| Ethnicity | The biological quality of membership in a social group based on a common heritage. | [SIO:001014](http://semanticscience.org/resource/SIO_001014) | [Countries](../../lookups/Countries.txt) lookup (249 choices [of type](http://semanticscience.org/resource/SIO_000664)) |
+| Ancestry | Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data. | [HANCESTRO:0004](http://purl.obolibrary.org/obo/HANCESTRO_0004) | [Ancestry](../../lookups/Ancestry.txt) lookup (305 choices [of type](http://purl.obolibrary.org/obo/HANCESTRO_0004)) |
 | Country of birth | The country that a given person was born in. | [GENEPIO:0001094](http://purl.obolibrary.org/obo/GENEPIO_0001094) | [Countries](../../lookups/Countries.txt) lookup (249 choices [of type](http://semanticscience.org/resource/SIO_000664)) |
 | Year of birth | The year in which a person was born. | [NCIT:C83164](http://purl.obolibrary.org/obo/NCIT_C83164) | Integer |
 | Inclusion status | An indicator that provides information on the current health status of a patient. | [NCIT:C166244](http://purl.obolibrary.org/obo/NCIT_C166244) | [InclusionStatus](../../lookups/InclusionStatus.txt) lookup (4 choices [of type](http://purl.obolibrary.org/obo/NCIT_C19332)) |
@@ -102,7 +102,7 @@ Relating to the examination and treatment of patients dependent on direct observ
 | Family members affected | This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband). | [HP:0032320](http://purl.obolibrary.org/obo/HP_0032320) | [FamilyMembers](../../lookups/FamilyMembers.txt) lookup (41 choices [of type](http://purl.obolibrary.org/obo/NCIT_C41256)) |
 | Family members sequenced | A person related by descent rather than by marriage or law that was also sequenced. | [NCIT:C71384](http://purl.obolibrary.org/obo/NCIT_C71384) | [FamilyMembers](../../lookups/FamilyMembers.txt) lookup (41 choices [of type](http://purl.obolibrary.org/obo/NCIT_C41256)) |
 | Consanguinity | Information on whether the patient is a child from two family members who are second cousins or closer. | [GSSO:007578](http://purl.obolibrary.org/obo/GSSO_007578) | String |
-| Medical history | A record of a person's background regarding health, occurrence of disease events and surgical procedures. | [NCIT:C18772](http://purl.obolibrary.org/obo/NCIT_C18772) | [MedicalHistory](../../lookups/MedicalHistory.txt) lookup (1167 choices [of type](http://scdontology.h3abionet.org/ontology/SCDO_1000093)) |
+| Medical history | A record of a person's background regarding health, occurrence of disease events and surgical procedures. | [NCIT:C18772](http://purl.obolibrary.org/obo/NCIT_C18772) | [MedicalHistory](../../lookups/MedicalHistory.txt) lookup (1154 choices [of type](http://scdontology.h3abionet.org/ontology/SCDO_1000093)) |
 | Age of onset | Age of onset of clinical manifestations related to a clinical entity. | [Orphanet:C023](http://www.orpha.net/ORDO/Orphanet_C023) | Integer |
 | First contact | First contact with specialised center in context of disease or inclusion. | [LOINC:MTHU048806](http://purl.bioontology.org/ontology/LNC/MTHU048806) | Date |
 | Functioning | Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF). | [NCIT:C21007](http://purl.obolibrary.org/obo/NCIT_C21007) | Text |
@@ -174,6 +174,7 @@ Apply analytical methods to existing data of a specific type. Ontology: [EDAM:op
 | Abstract data location | To maintain data by placing the data, or a copy of the data, onto an electronically accessible device for preservation (either in plain-text or encrypted format). | [NCIT:C142494](http://purl.obolibrary.org/obo/NCIT_C142494) | String |
 | Data formats stored | A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere. | [EDAM:format_1915](http://edamontology.org/format_1915) | [DataFormats](../../lookups/DataFormats.txt) lookup (582 choices [of type](http://edamontology.org/format_1915)) |
 | Algorithms used | A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer. | [NCIT:C16275](http://purl.obolibrary.org/obo/NCIT_C16275) | Text |
+| Reference genome used | An identifier of a build of a particular genome. | [EDAM:data_2340](http://edamontology.org/data_2340) | [GenomeAccessions](../../lookups/GenomeAccessions.txt) lookup (29 choices [of type](http://edamontology.org/data_2787)) |
 | Bioinformatic protocol used | A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis. | [EDAM:data_2531](http://edamontology.org/data_2531) | Text |
 | Bioinformatic protocol deviation | A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | [NCIT:C50996](http://purl.obolibrary.org/obo/NCIT_C50996) | String |
 | Reason for bioinformatic protocol deviation | The rationale for why a deviation from the bioinformatic protocol has occurred. | [NCIT:C93529](http://purl.obolibrary.org/obo/NCIT_C93529) | String |

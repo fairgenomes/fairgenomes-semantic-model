@@ -1,0 +1,1631 @@
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+fg:Personal_Ancestry_Punjabi_Sikh a obo:HANCESTRO_0004;
+  rdfs:label "Punjabi Sikh";
+  dc:description "Punjabi Sikh";
+  rdfs:isDefinedBy obo:HANCESTRO_0589 .
+
+fg:Personal_Ancestry_European_American a obo:HANCESTRO_0004;
+  rdfs:label "European American";
+  dc:description "European American";
+  rdfs:isDefinedBy obo:HANCESTRO_0590 .
+
+fg:Personal_Ancestry_Esan a obo:HANCESTRO_0004;
+  rdfs:label "Esan";
+  dc:description "Esan";
+  rdfs:isDefinedBy obo:HANCESTRO_0591 .
+
+fg:Personal_Ancestry_Luhya a obo:HANCESTRO_0004;
+  rdfs:label "Luhya";
+  dc:description "Luhya";
+  rdfs:isDefinedBy obo:HANCESTRO_0592 .
+
+fg:Personal_Ancestry_Maasai a obo:HANCESTRO_0004;
+  rdfs:label "Maasai";
+  dc:description "Maasai";
+  rdfs:isDefinedBy obo:HANCESTRO_0593 .
+
+fg:Personal_Ancestry_Mende a obo:HANCESTRO_0004;
+  rdfs:label "Mende";
+  dc:description "Mende";
+  rdfs:isDefinedBy obo:HANCESTRO_0594 .
+
+fg:Personal_Ancestry_ancestry_category a obo:HANCESTRO_0004;
+  rdfs:label "ancestry category";
+  dc:description "ancestry category";
+  rdfs:isDefinedBy obo:HANCESTRO_0004 .
+
+fg:Personal_Ancestry_European a obo:HANCESTRO_0004;
+  rdfs:label "European";
+  dc:description "European";
+  rdfs:isDefinedBy obo:HANCESTRO_0005 .
+
+fg:Personal_Ancestry_South_Asian a obo:HANCESTRO_0004;
+  rdfs:label "South Asian";
+  dc:description "South Asian";
+  rdfs:isDefinedBy obo:HANCESTRO_0006 .
+
+fg:Personal_Ancestry_South_East_Asian a obo:HANCESTRO_0004;
+  rdfs:label "South East Asian";
+  dc:description "South East Asian";
+  rdfs:isDefinedBy obo:HANCESTRO_0007 .
+
+fg:Personal_Ancestry_Asian a obo:HANCESTRO_0004;
+  rdfs:label "Asian";
+  dc:description "Asian";
+  rdfs:isDefinedBy obo:HANCESTRO_0008 .
+
+fg:Personal_Ancestry_East_Asian a obo:HANCESTRO_0004;
+  rdfs:label "East Asian";
+  dc:description "East Asian";
+  rdfs:isDefinedBy obo:HANCESTRO_0009 .
+
+fg:Personal_Ancestry_African a obo:HANCESTRO_0004;
+  rdfs:label "African";
+  dc:description "African";
+  rdfs:isDefinedBy obo:HANCESTRO_0010 .
+
+fg:Personal_Ancestry_Sub-Saharan_African a obo:HANCESTRO_0004;
+  rdfs:label "Sub-Saharan African";
+  dc:description "Sub-Saharan African";
+  rdfs:isDefinedBy obo:HANCESTRO_0011 .
+
+fg:Personal_Ancestry_Native_American a obo:HANCESTRO_0004;
+  rdfs:label "Native American";
+  dc:description "Native American";
+  rdfs:isDefinedBy obo:HANCESTRO_0013 .
+
+fg:Personal_Ancestry_Hispanic_or_Latin_American a obo:HANCESTRO_0004;
+  rdfs:label "Hispanic or Latin American";
+  dc:description "Hispanic or Latin American";
+  rdfs:isDefinedBy obo:HANCESTRO_0014 .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Greater_Middle_Eastern__(Middle_Eastern,_North_African_or_Persian)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Greater Middle Eastern  (Middle Eastern, North African or Persian)";
+  dc:description "Greater Middle Eastern  (Middle Eastern, North African or Persian)";
+  rdfs:isDefinedBy obo:HANCESTRO_0015 .
+
+fg:Personal_Ancestry_African_American_or_Afro-Caribbean a obo:HANCESTRO_0004;
+  rdfs:label "African American or Afro-Caribbean";
+  dc:description "African American or Afro-Caribbean";
+  rdfs:isDefinedBy obo:HANCESTRO_0016 .
+
+fg:Personal_Ancestry_Oceanian a obo:HANCESTRO_0004;
+  rdfs:label "Oceanian";
+  dc:description "Oceanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0017 .
+
+fg:Personal_Ancestry_uncategorised_population a obo:HANCESTRO_0004;
+  rdfs:label "uncategorised population";
+  dc:description "uncategorised population";
+  rdfs:isDefinedBy obo:HANCESTRO_0018 .
+
+fg:Personal_Ancestry_Japanese a obo:HANCESTRO_0004;
+  rdfs:label "Japanese";
+  dc:description "Japanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0019 .
+
+fg:Personal_Ancestry_Taiwanese a obo:HANCESTRO_0004;
+  rdfs:label "Taiwanese";
+  dc:description "Taiwanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0020 .
+
+fg:Personal_Ancestry_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Chinese";
+  dc:description "Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0021 .
+
+fg:Personal_Ancestry_Korean a obo:HANCESTRO_0004;
+  rdfs:label "Korean";
+  dc:description "Korean";
+  rdfs:isDefinedBy obo:HANCESTRO_0022 .
+
+fg:Personal_Ancestry_Mongolian a obo:HANCESTRO_0004;
+  rdfs:label "Mongolian";
+  dc:description "Mongolian";
+  rdfs:isDefinedBy obo:HANCESTRO_0023 .
+
+fg:Personal_Ancestry_Macanese a obo:HANCESTRO_0004;
+  rdfs:label "Macanese";
+  dc:description "Macanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0024 .
+
+fg:Personal_Ancestry_Singaporean_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Singaporean Chinese";
+  dc:description "Singaporean Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0025 .
+
+fg:Personal_Ancestry_Hong_Kong_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Hong Kong Chinese";
+  dc:description "Hong Kong Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0026 .
+
+fg:Personal_Ancestry_Han_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Han Chinese";
+  dc:description "Han Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0027 .
+
+fg:Personal_Ancestry_Central_Asian a obo:HANCESTRO_0004;
+  rdfs:label "Central Asian";
+  dc:description "Central Asian";
+  rdfs:isDefinedBy obo:HANCESTRO_0286 .
+
+fg:Personal_Ancestry_genetically_isolated_population a obo:HANCESTRO_0004;
+  rdfs:label "genetically isolated population";
+  dc:description "genetically isolated population";
+  rdfs:isDefinedBy obo:HANCESTRO_0290 .
+
+fg:Personal_Ancestry_Italian a obo:HANCESTRO_0004;
+  rdfs:label "Italian";
+  dc:description "Italian";
+  rdfs:isDefinedBy obo:HANCESTRO_0307 .
+
+fg:Personal_Ancestry_Sardinian a obo:HANCESTRO_0004;
+  rdfs:label "Sardinian";
+  dc:description "Sardinian";
+  rdfs:isDefinedBy obo:HANCESTRO_0309 .
+
+fg:Personal_Ancestry_Val_Borbera a obo:HANCESTRO_0004;
+  rdfs:label "Val Borbera";
+  dc:description "Val Borbera";
+  rdfs:isDefinedBy obo:HANCESTRO_0310 .
+
+fg:Personal_Ancestry_Friuli_Venezia_Giulia a obo:HANCESTRO_0004;
+  rdfs:label "Friuli Venezia Giulia";
+  dc:description "Friuli Venezia Giulia";
+  rdfs:isDefinedBy obo:HANCESTRO_0311 .
+
+fg:Personal_Ancestry_Carlantino a obo:HANCESTRO_0004;
+  rdfs:label "Carlantino";
+  dc:description "Carlantino";
+  rdfs:isDefinedBy obo:HANCESTRO_0312 .
+
+fg:Personal_Ancestry_Old_Order_Amish a obo:HANCESTRO_0004;
+  rdfs:label "Old Order Amish";
+  dc:description "Old Order Amish";
+  rdfs:isDefinedBy obo:HANCESTRO_0313 .
+
+fg:Personal_Ancestry_Sorbian a obo:HANCESTRO_0004;
+  rdfs:label "Sorbian";
+  dc:description "Sorbian";
+  rdfs:isDefinedBy obo:HANCESTRO_0314 .
+
+fg:Personal_Ancestry_Hutterite a obo:HANCESTRO_0004;
+  rdfs:label "Hutterite";
+  dc:description "Hutterite";
+  rdfs:isDefinedBy obo:HANCESTRO_0315 .
+
+fg:Personal_Ancestry_Amish a obo:HANCESTRO_0004;
+  rdfs:label "Amish";
+  dc:description "Amish";
+  rdfs:isDefinedBy obo:HANCESTRO_0316 .
+
+fg:Personal_Ancestry_Erasmus_Rucphen a obo:HANCESTRO_0004;
+  rdfs:label "Erasmus Rucphen";
+  dc:description "Erasmus Rucphen";
+  rdfs:isDefinedBy obo:HANCESTRO_0317 .
+
+fg:Personal_Ancestry_Orcadian a obo:HANCESTRO_0004;
+  rdfs:label "Orcadian";
+  dc:description "Orcadian";
+  rdfs:isDefinedBy obo:HANCESTRO_0318 .
+
+fg:Personal_Ancestry_Korculan a obo:HANCESTRO_0004;
+  rdfs:label "Korculan";
+  dc:description "Korculan";
+  rdfs:isDefinedBy obo:HANCESTRO_0319 .
+
+fg:Personal_Ancestry_Dutch a obo:HANCESTRO_0004;
+  rdfs:label "Dutch";
+  dc:description "Dutch";
+  rdfs:isDefinedBy obo:HANCESTRO_0320 .
+
+fg:Personal_Ancestry_Finnish a obo:HANCESTRO_0004;
+  rdfs:label "Finnish";
+  dc:description "Finnish";
+  rdfs:isDefinedBy obo:HANCESTRO_0321 .
+
+fg:Personal_Ancestry_Finnish_founder a obo:HANCESTRO_0004;
+  rdfs:label "Finnish founder";
+  dc:description "Finnish founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0322 .
+
+fg:Personal_Ancestry_Dutch_founder a obo:HANCESTRO_0004;
+  rdfs:label "Dutch founder";
+  dc:description "Dutch founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0323 .
+
+fg:Personal_Ancestry_Ashkenazi_Jew a obo:HANCESTRO_0004;
+  rdfs:label "Ashkenazi Jew";
+  dc:description "Ashkenazi Jew";
+  rdfs:isDefinedBy obo:HANCESTRO_0324 .
+
+fg:Personal_Ancestry_Sudanese a obo:HANCESTRO_0004;
+  rdfs:label "Sudanese";
+  dc:description "Sudanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0331 .
+
+fg:Personal_Ancestry_Sahrawi a obo:HANCESTRO_0004;
+  rdfs:label "Sahrawi";
+  dc:description "Sahrawi";
+  rdfs:isDefinedBy obo:HANCESTRO_0332 .
+
+fg:Personal_Ancestry_Anguillan a obo:HANCESTRO_0004;
+  rdfs:label "Anguillan";
+  dc:description "Anguillan";
+  rdfs:isDefinedBy obo:HANCESTRO_0333 .
+
+fg:Personal_Ancestry_Antiguan_or_Barbudan a obo:HANCESTRO_0004;
+  rdfs:label "Antiguan or Barbudan";
+  dc:description "Antiguan or Barbudan";
+  rdfs:isDefinedBy obo:HANCESTRO_0334 .
+
+fg:Personal_Ancestry_Barbadian a obo:HANCESTRO_0004;
+  rdfs:label "Barbadian";
+  dc:description "Barbadian";
+  rdfs:isDefinedBy obo:HANCESTRO_0335 .
+
+fg:Personal_Ancestry_Haitian a obo:HANCESTRO_0004;
+  rdfs:label "Haitian";
+  dc:description "Haitian";
+  rdfs:isDefinedBy obo:HANCESTRO_0336 .
+
+fg:Personal_Ancestry_Jamaican a obo:HANCESTRO_0004;
+  rdfs:label "Jamaican";
+  dc:description "Jamaican";
+  rdfs:isDefinedBy obo:HANCESTRO_0337 .
+
+fg:Personal_Ancestry_Tajikistani a obo:HANCESTRO_0004;
+  rdfs:label "Tajikistani";
+  dc:description "Tajikistani";
+  rdfs:isDefinedBy obo:HANCESTRO_0338 .
+
+fg:Personal_Ancestry_Turkmen a obo:HANCESTRO_0004;
+  rdfs:label "Turkmen";
+  dc:description "Turkmen";
+  rdfs:isDefinedBy obo:HANCESTRO_0339 .
+
+fg:Personal_Ancestry_Uzbekistani a obo:HANCESTRO_0004;
+  rdfs:label "Uzbekistani";
+  dc:description "Uzbekistani";
+  rdfs:isDefinedBy obo:HANCESTRO_0340 .
+
+fg:Personal_Ancestry_Afghan a obo:HANCESTRO_0004;
+  rdfs:label "Afghan";
+  dc:description "Afghan";
+  rdfs:isDefinedBy obo:HANCESTRO_0341 .
+
+fg:Personal_Ancestry_Kazakhstani a obo:HANCESTRO_0004;
+  rdfs:label "Kazakhstani";
+  dc:description "Kazakhstani";
+  rdfs:isDefinedBy obo:HANCESTRO_0342 .
+
+fg:Personal_Ancestry_Kyrgyzstani a obo:HANCESTRO_0004;
+  rdfs:label "Kyrgyzstani";
+  dc:description "Kyrgyzstani";
+  rdfs:isDefinedBy obo:HANCESTRO_0343 .
+
+fg:Personal_Ancestry_Albanian a obo:HANCESTRO_0004;
+  rdfs:label "Albanian";
+  dc:description "Albanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0344 .
+
+fg:Personal_Ancestry_Andorran a obo:HANCESTRO_0004;
+  rdfs:label "Andorran";
+  dc:description "Andorran";
+  rdfs:isDefinedBy obo:HANCESTRO_0345 .
+
+fg:Personal_Ancestry_Australian a obo:HANCESTRO_0004;
+  rdfs:label "Australian";
+  dc:description "Australian";
+  rdfs:isDefinedBy obo:HANCESTRO_0346 .
+
+fg:Personal_Ancestry_Austrian a obo:HANCESTRO_0004;
+  rdfs:label "Austrian";
+  dc:description "Austrian";
+  rdfs:isDefinedBy obo:HANCESTRO_0347 .
+
+fg:Personal_Ancestry_Belarusian a obo:HANCESTRO_0004;
+  rdfs:label "Belarusian";
+  dc:description "Belarusian";
+  rdfs:isDefinedBy obo:HANCESTRO_0348 .
+
+fg:Personal_Ancestry_Belgian a obo:HANCESTRO_0004;
+  rdfs:label "Belgian";
+  dc:description "Belgian";
+  rdfs:isDefinedBy obo:HANCESTRO_0349 .
+
+fg:Personal_Ancestry_Bermudian a obo:HANCESTRO_0004;
+  rdfs:label "Bermudian";
+  dc:description "Bermudian";
+  rdfs:isDefinedBy obo:HANCESTRO_0350 .
+
+fg:Personal_Ancestry_Bosnian_or_Herzegovinian a obo:HANCESTRO_0004;
+  rdfs:label "Bosnian or Herzegovinian";
+  dc:description "Bosnian or Herzegovinian";
+  rdfs:isDefinedBy obo:HANCESTRO_0351 .
+
+fg:Personal_Ancestry_Brazilian a obo:HANCESTRO_0004;
+  rdfs:label "Brazilian";
+  dc:description "Brazilian";
+  rdfs:isDefinedBy obo:HANCESTRO_0352 .
+
+fg:Personal_Ancestry_Bulgarian a obo:HANCESTRO_0004;
+  rdfs:label "Bulgarian";
+  dc:description "Bulgarian";
+  rdfs:isDefinedBy obo:HANCESTRO_0353 .
+
+fg:Personal_Ancestry_Canadian a obo:HANCESTRO_0004;
+  rdfs:label "Canadian";
+  dc:description "Canadian";
+  rdfs:isDefinedBy obo:HANCESTRO_0354 .
+
+fg:Personal_Ancestry_Channel_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Channel Islander";
+  dc:description "Channel Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0355 .
+
+fg:Personal_Ancestry_Chilean a obo:HANCESTRO_0004;
+  rdfs:label "Chilean";
+  dc:description "Chilean";
+  rdfs:isDefinedBy obo:HANCESTRO_0356 .
+
+fg:Personal_Ancestry_Croatian a obo:HANCESTRO_0004;
+  rdfs:label "Croatian";
+  dc:description "Croatian";
+  rdfs:isDefinedBy obo:HANCESTRO_0357 .
+
+fg:Personal_Ancestry_Czech a obo:HANCESTRO_0004;
+  rdfs:label "Czech";
+  dc:description "Czech";
+  rdfs:isDefinedBy obo:HANCESTRO_0358 .
+
+fg:Personal_Ancestry_Danish a obo:HANCESTRO_0004;
+  rdfs:label "Danish";
+  dc:description "Danish";
+  rdfs:isDefinedBy obo:HANCESTRO_0359 .
+
+fg:Personal_Ancestry_Estonian a obo:HANCESTRO_0004;
+  rdfs:label "Estonian";
+  dc:description "Estonian";
+  rdfs:isDefinedBy obo:HANCESTRO_0360 .
+
+fg:Personal_Ancestry_Faroese a obo:HANCESTRO_0004;
+  rdfs:label "Faroese";
+  dc:description "Faroese";
+  rdfs:isDefinedBy obo:HANCESTRO_0361 .
+
+fg:Personal_Ancestry_Falkland_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Falkland Islander";
+  dc:description "Falkland Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0362 .
+
+fg:Personal_Ancestry_French a obo:HANCESTRO_0004;
+  rdfs:label "French";
+  dc:description "French";
+  rdfs:isDefinedBy obo:HANCESTRO_0363 .
+
+fg:Personal_Ancestry_German a obo:HANCESTRO_0004;
+  rdfs:label "German";
+  dc:description "German";
+  rdfs:isDefinedBy obo:HANCESTRO_0364 .
+
+fg:Personal_Ancestry_Gibraltarian a obo:HANCESTRO_0004;
+  rdfs:label "Gibraltarian";
+  dc:description "Gibraltarian";
+  rdfs:isDefinedBy obo:HANCESTRO_0365 .
+
+fg:Personal_Ancestry_Greek a obo:HANCESTRO_0004;
+  rdfs:label "Greek";
+  dc:description "Greek";
+  rdfs:isDefinedBy obo:HANCESTRO_0366 .
+
+fg:Personal_Ancestry_Greenlander a obo:HANCESTRO_0004;
+  rdfs:label "Greenlander";
+  dc:description "Greenlander";
+  rdfs:isDefinedBy obo:HANCESTRO_0367 .
+
+fg:Personal_Ancestry_Hungrian a obo:HANCESTRO_0004;
+  rdfs:label "Hungrian";
+  dc:description "Hungrian";
+  rdfs:isDefinedBy obo:HANCESTRO_0368 .
+
+fg:Personal_Ancestry_Icelandic a obo:HANCESTRO_0004;
+  rdfs:label "Icelandic";
+  dc:description "Icelandic";
+  rdfs:isDefinedBy obo:HANCESTRO_0369 .
+
+fg:Personal_Ancestry_Manx a obo:HANCESTRO_0004;
+  rdfs:label "Manx";
+  dc:description "Manx";
+  rdfs:isDefinedBy obo:HANCESTRO_0370 .
+
+fg:Personal_Ancestry_Latvian a obo:HANCESTRO_0004;
+  rdfs:label "Latvian";
+  dc:description "Latvian";
+  rdfs:isDefinedBy obo:HANCESTRO_0371 .
+
+fg:Personal_Ancestry_Liechtensteiner a obo:HANCESTRO_0004;
+  rdfs:label "Liechtensteiner";
+  dc:description "Liechtensteiner";
+  rdfs:isDefinedBy obo:HANCESTRO_0372 .
+
+fg:Personal_Ancestry_Lithuanian a obo:HANCESTRO_0004;
+  rdfs:label "Lithuanian";
+  dc:description "Lithuanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0373 .
+
+fg:Personal_Ancestry_Luxembourgish a obo:HANCESTRO_0004;
+  rdfs:label "Luxembourgish";
+  dc:description "Luxembourgish";
+  rdfs:isDefinedBy obo:HANCESTRO_0374 .
+
+fg:Personal_Ancestry_Maltese a obo:HANCESTRO_0004;
+  rdfs:label "Maltese";
+  dc:description "Maltese";
+  rdfs:isDefinedBy obo:HANCESTRO_0375 .
+
+fg:Personal_Ancestry_Monegasque a obo:HANCESTRO_0004;
+  rdfs:label "Monegasque";
+  dc:description "Monegasque";
+  rdfs:isDefinedBy obo:HANCESTRO_0376 .
+
+fg:Personal_Ancestry_Montenegrin a obo:HANCESTRO_0004;
+  rdfs:label "Montenegrin";
+  dc:description "Montenegrin";
+  rdfs:isDefinedBy obo:HANCESTRO_0377 .
+
+fg:Personal_Ancestry_New_Zealandish a obo:HANCESTRO_0004;
+  rdfs:label "New Zealandish";
+  dc:description "New Zealandish";
+  rdfs:isDefinedBy obo:HANCESTRO_0378 .
+
+fg:Personal_Ancestry_Norfolk_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Norfolk Islander";
+  dc:description "Norfolk Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0379 .
+
+fg:Personal_Ancestry_Norwegian a obo:HANCESTRO_0004;
+  rdfs:label "Norwegian";
+  dc:description "Norwegian";
+  rdfs:isDefinedBy obo:HANCESTRO_0380 .
+
+fg:Personal_Ancestry_Polish a obo:HANCESTRO_0004;
+  rdfs:label "Polish";
+  dc:description "Polish";
+  rdfs:isDefinedBy obo:HANCESTRO_0381 .
+
+fg:Personal_Ancestry_Portugese a obo:HANCESTRO_0004;
+  rdfs:label "Portugese";
+  dc:description "Portugese";
+  rdfs:isDefinedBy obo:HANCESTRO_0382 .
+
+fg:Personal_Ancestry_Irish a obo:HANCESTRO_0004;
+  rdfs:label "Irish";
+  dc:description "Irish";
+  rdfs:isDefinedBy obo:HANCESTRO_0383 .
+
+fg:Personal_Ancestry_Moldovan a obo:HANCESTRO_0004;
+  rdfs:label "Moldovan";
+  dc:description "Moldovan";
+  rdfs:isDefinedBy obo:HANCESTRO_0384 .
+
+fg:Personal_Ancestry_Romanian a obo:HANCESTRO_0004;
+  rdfs:label "Romanian";
+  dc:description "Romanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0385 .
+
+fg:Personal_Ancestry_Russian a obo:HANCESTRO_0004;
+  rdfs:label "Russian";
+  dc:description "Russian";
+  rdfs:isDefinedBy obo:HANCESTRO_0386 .
+
+fg:Personal_Ancestry_Saint-Pierrais_or_Miquelonnais a obo:HANCESTRO_0004;
+  rdfs:label "Saint-Pierrais or Miquelonnais";
+  dc:description "Saint-Pierrais or Miquelonnais";
+  rdfs:isDefinedBy obo:HANCESTRO_0387 .
+
+fg:Personal_Ancestry_Sammarinese a obo:HANCESTRO_0004;
+  rdfs:label "Sammarinese";
+  dc:description "Sammarinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0388 .
+
+fg:Personal_Ancestry_Serb a obo:HANCESTRO_0004;
+  rdfs:label "Serb";
+  dc:description "Serb";
+  rdfs:isDefinedBy obo:HANCESTRO_0389 .
+
+fg:Personal_Ancestry_Slovak a obo:HANCESTRO_0004;
+  rdfs:label "Slovak";
+  dc:description "Slovak";
+  rdfs:isDefinedBy obo:HANCESTRO_0390 .
+
+fg:Personal_Ancestry_Slovene a obo:HANCESTRO_0004;
+  rdfs:label "Slovene";
+  dc:description "Slovene";
+  rdfs:isDefinedBy obo:HANCESTRO_0391 .
+
+fg:Personal_Ancestry_Spanish a obo:HANCESTRO_0004;
+  rdfs:label "Spanish";
+  dc:description "Spanish";
+  rdfs:isDefinedBy obo:HANCESTRO_0392 .
+
+fg:Personal_Ancestry_Swedish a obo:HANCESTRO_0004;
+  rdfs:label "Swedish";
+  dc:description "Swedish";
+  rdfs:isDefinedBy obo:HANCESTRO_0393 .
+
+fg:Personal_Ancestry_Swiss a obo:HANCESTRO_0004;
+  rdfs:label "Swiss";
+  dc:description "Swiss";
+  rdfs:isDefinedBy obo:HANCESTRO_0394 .
+
+fg:Personal_Ancestry_Macedonian a obo:HANCESTRO_0004;
+  rdfs:label "Macedonian";
+  dc:description "Macedonian";
+  rdfs:isDefinedBy obo:HANCESTRO_0395 .
+
+fg:Personal_Ancestry_Ukrainian a obo:HANCESTRO_0004;
+  rdfs:label "Ukrainian";
+  dc:description "Ukrainian";
+  rdfs:isDefinedBy obo:HANCESTRO_0396 .
+
+fg:Personal_Ancestry_Argentine a obo:HANCESTRO_0004;
+  rdfs:label "Argentine";
+  dc:description "Argentine";
+  rdfs:isDefinedBy obo:HANCESTRO_0397 .
+
+fg:Personal_Ancestry_Bahamian a obo:HANCESTRO_0004;
+  rdfs:label "Bahamian";
+  dc:description "Bahamian";
+  rdfs:isDefinedBy obo:HANCESTRO_0398 .
+
+fg:Personal_Ancestry_Belizean a obo:HANCESTRO_0004;
+  rdfs:label "Belizean";
+  dc:description "Belizean";
+  rdfs:isDefinedBy obo:HANCESTRO_0399 .
+
+fg:Personal_Ancestry_Bolivian a obo:HANCESTRO_0004;
+  rdfs:label "Bolivian";
+  dc:description "Bolivian";
+  rdfs:isDefinedBy obo:HANCESTRO_0400 .
+
+fg:Personal_Ancestry_British_Virgin_Islander a obo:HANCESTRO_0004;
+  rdfs:label "British Virgin Islander";
+  dc:description "British Virgin Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0401 .
+
+fg:Personal_Ancestry_Caymanian a obo:HANCESTRO_0004;
+  rdfs:label "Caymanian";
+  dc:description "Caymanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0402 .
+
+fg:Personal_Ancestry_Colombian a obo:HANCESTRO_0004;
+  rdfs:label "Colombian";
+  dc:description "Colombian";
+  rdfs:isDefinedBy obo:HANCESTRO_0403 .
+
+fg:Personal_Ancestry_Costa_Rican a obo:HANCESTRO_0004;
+  rdfs:label "Costa Rican";
+  dc:description "Costa Rican";
+  rdfs:isDefinedBy obo:HANCESTRO_0404 .
+
+fg:Personal_Ancestry_Cuban a obo:HANCESTRO_0004;
+  rdfs:label "Cuban";
+  dc:description "Cuban";
+  rdfs:isDefinedBy obo:HANCESTRO_0405 .
+
+fg:Personal_Ancestry_Dominican a obo:HANCESTRO_0004;
+  rdfs:label "Dominican";
+  dc:description "Dominican";
+  rdfs:isDefinedBy obo:HANCESTRO_0406 .
+
+fg:Personal_Ancestry_Ecuadorian a obo:HANCESTRO_0004;
+  rdfs:label "Ecuadorian";
+  dc:description "Ecuadorian";
+  rdfs:isDefinedBy obo:HANCESTRO_0407 .
+
+fg:Personal_Ancestry_Salvadoran a obo:HANCESTRO_0004;
+  rdfs:label "Salvadoran";
+  dc:description "Salvadoran";
+  rdfs:isDefinedBy obo:HANCESTRO_0408 .
+
+fg:Personal_Ancestry_French_Guianese a obo:HANCESTRO_0004;
+  rdfs:label "French Guianese";
+  dc:description "French Guianese";
+  rdfs:isDefinedBy obo:HANCESTRO_0409 .
+
+fg:Personal_Ancestry_Grenadian a obo:HANCESTRO_0004;
+  rdfs:label "Grenadian";
+  dc:description "Grenadian";
+  rdfs:isDefinedBy obo:HANCESTRO_0410 .
+
+fg:Personal_Ancestry_Guatemalan a obo:HANCESTRO_0004;
+  rdfs:label "Guatemalan";
+  dc:description "Guatemalan";
+  rdfs:isDefinedBy obo:HANCESTRO_0411 .
+
+fg:Personal_Ancestry_Guyanese a obo:HANCESTRO_0004;
+  rdfs:label "Guyanese";
+  dc:description "Guyanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0412 .
+
+fg:Personal_Ancestry_Honduran a obo:HANCESTRO_0004;
+  rdfs:label "Honduran";
+  dc:description "Honduran";
+  rdfs:isDefinedBy obo:HANCESTRO_0413 .
+
+fg:Personal_Ancestry_Martinican a obo:HANCESTRO_0004;
+  rdfs:label "Martinican";
+  dc:description "Martinican";
+  rdfs:isDefinedBy obo:HANCESTRO_0414 .
+
+fg:Personal_Ancestry_Mexican a obo:HANCESTRO_0004;
+  rdfs:label "Mexican";
+  dc:description "Mexican";
+  rdfs:isDefinedBy obo:HANCESTRO_0415 .
+
+fg:Personal_Ancestry_Montserratian a obo:HANCESTRO_0004;
+  rdfs:label "Montserratian";
+  dc:description "Montserratian";
+  rdfs:isDefinedBy obo:HANCESTRO_0416 .
+
+fg:Personal_Ancestry_Nicaraguan a obo:HANCESTRO_0004;
+  rdfs:label "Nicaraguan";
+  dc:description "Nicaraguan";
+  rdfs:isDefinedBy obo:HANCESTRO_0417 .
+
+fg:Personal_Ancestry_Panamanian a obo:HANCESTRO_0004;
+  rdfs:label "Panamanian";
+  dc:description "Panamanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0418 .
+
+fg:Personal_Ancestry_Paraguayan a obo:HANCESTRO_0004;
+  rdfs:label "Paraguayan";
+  dc:description "Paraguayan";
+  rdfs:isDefinedBy obo:HANCESTRO_0419 .
+
+fg:Personal_Ancestry_Peruvian a obo:HANCESTRO_0004;
+  rdfs:label "Peruvian";
+  dc:description "Peruvian";
+  rdfs:isDefinedBy obo:HANCESTRO_0420 .
+
+fg:Personal_Ancestry_Puerto_Rican a obo:HANCESTRO_0004;
+  rdfs:label "Puerto Rican";
+  dc:description "Puerto Rican";
+  rdfs:isDefinedBy obo:HANCESTRO_0421 .
+
+fg:Personal_Ancestry_Kittitian_or_Nevisian a obo:HANCESTRO_0004;
+  rdfs:label "Kittitian or Nevisian";
+  dc:description "Kittitian or Nevisian";
+  rdfs:isDefinedBy obo:HANCESTRO_0422 .
+
+fg:Personal_Ancestry_Saint_Lucian a obo:HANCESTRO_0004;
+  rdfs:label "Saint Lucian";
+  dc:description "Saint Lucian";
+  rdfs:isDefinedBy obo:HANCESTRO_0423 .
+
+fg:Personal_Ancestry_Saint_Vincentian a obo:HANCESTRO_0004;
+  rdfs:label "Saint Vincentian";
+  dc:description "Saint Vincentian";
+  rdfs:isDefinedBy obo:HANCESTRO_0424 .
+
+fg:Personal_Ancestry_Surinamese a obo:HANCESTRO_0004;
+  rdfs:label "Surinamese";
+  dc:description "Surinamese";
+  rdfs:isDefinedBy obo:HANCESTRO_0425 .
+
+fg:Personal_Ancestry_Trinidadian_or_Tobagonian a obo:HANCESTRO_0004;
+  rdfs:label "Trinidadian or Tobagonian";
+  dc:description "Trinidadian or Tobagonian";
+  rdfs:isDefinedBy obo:HANCESTRO_0426 .
+
+fg:Personal_Ancestry_Turks_and_Caicos_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Turks and Caicos Islander";
+  dc:description "Turks and Caicos Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0427 .
+
+fg:Personal_Ancestry_Virgin_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Virgin Islander";
+  dc:description "Virgin Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0428 .
+
+fg:Personal_Ancestry_Uruguayan a obo:HANCESTRO_0004;
+  rdfs:label "Uruguayan";
+  dc:description "Uruguayan";
+  rdfs:isDefinedBy obo:HANCESTRO_0429 .
+
+fg:Personal_Ancestry_Venezuelan a obo:HANCESTRO_0004;
+  rdfs:label "Venezuelan";
+  dc:description "Venezuelan";
+  rdfs:isDefinedBy obo:HANCESTRO_0430 .
+
+fg:Personal_Ancestry_Algerian a obo:HANCESTRO_0004;
+  rdfs:label "Algerian";
+  dc:description "Algerian";
+  rdfs:isDefinedBy obo:HANCESTRO_0431 .
+
+fg:Personal_Ancestry_Armenian a obo:HANCESTRO_0004;
+  rdfs:label "Armenian";
+  dc:description "Armenian";
+  rdfs:isDefinedBy obo:HANCESTRO_0432 .
+
+fg:Personal_Ancestry_Azerbaijani a obo:HANCESTRO_0004;
+  rdfs:label "Azerbaijani";
+  dc:description "Azerbaijani";
+  rdfs:isDefinedBy obo:HANCESTRO_0433 .
+
+fg:Personal_Ancestry_Bahraini a obo:HANCESTRO_0004;
+  rdfs:label "Bahraini";
+  dc:description "Bahraini";
+  rdfs:isDefinedBy obo:HANCESTRO_0434 .
+
+fg:Personal_Ancestry_Cypriote a obo:HANCESTRO_0004;
+  rdfs:label "Cypriote";
+  dc:description "Cypriote";
+  rdfs:isDefinedBy obo:HANCESTRO_0435 .
+
+fg:Personal_Ancestry_Egyptian a obo:HANCESTRO_0004;
+  rdfs:label "Egyptian";
+  dc:description "Egyptian";
+  rdfs:isDefinedBy obo:HANCESTRO_0436 .
+
+fg:Personal_Ancestry_Georgian a obo:HANCESTRO_0004;
+  rdfs:label "Georgian";
+  dc:description "Georgian";
+  rdfs:isDefinedBy obo:HANCESTRO_0437 .
+
+fg:Personal_Ancestry_Iranian a obo:HANCESTRO_0004;
+  rdfs:label "Iranian";
+  dc:description "Iranian";
+  rdfs:isDefinedBy obo:HANCESTRO_0438 .
+
+fg:Personal_Ancestry_Iraqi a obo:HANCESTRO_0004;
+  rdfs:label "Iraqi";
+  dc:description "Iraqi";
+  rdfs:isDefinedBy obo:HANCESTRO_0439 .
+
+fg:Personal_Ancestry_Israeli a obo:HANCESTRO_0004;
+  rdfs:label "Israeli";
+  dc:description "Israeli";
+  rdfs:isDefinedBy obo:HANCESTRO_0440 .
+
+fg:Personal_Ancestry_Jordanian a obo:HANCESTRO_0004;
+  rdfs:label "Jordanian";
+  dc:description "Jordanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0441 .
+
+fg:Personal_Ancestry_Kuwaiti a obo:HANCESTRO_0004;
+  rdfs:label "Kuwaiti";
+  dc:description "Kuwaiti";
+  rdfs:isDefinedBy obo:HANCESTRO_0442 .
+
+fg:Personal_Ancestry_Lebanese a obo:HANCESTRO_0004;
+  rdfs:label "Lebanese";
+  dc:description "Lebanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0443 .
+
+fg:Personal_Ancestry_Libyan a obo:HANCESTRO_0004;
+  rdfs:label "Libyan";
+  dc:description "Libyan";
+  rdfs:isDefinedBy obo:HANCESTRO_0444 .
+
+fg:Personal_Ancestry_Moroccan a obo:HANCESTRO_0004;
+  rdfs:label "Moroccan";
+  dc:description "Moroccan";
+  rdfs:isDefinedBy obo:HANCESTRO_0445 .
+
+fg:Personal_Ancestry_Palestinian a obo:HANCESTRO_0004;
+  rdfs:label "Palestinian";
+  dc:description "Palestinian";
+  rdfs:isDefinedBy obo:HANCESTRO_0446 .
+
+fg:Personal_Ancestry_Omani a obo:HANCESTRO_0004;
+  rdfs:label "Omani";
+  dc:description "Omani";
+  rdfs:isDefinedBy obo:HANCESTRO_0447 .
+
+fg:Personal_Ancestry_Qatari a obo:HANCESTRO_0004;
+  rdfs:label "Qatari";
+  dc:description "Qatari";
+  rdfs:isDefinedBy obo:HANCESTRO_0448 .
+
+fg:Personal_Ancestry_Saudi a obo:HANCESTRO_0004;
+  rdfs:label "Saudi";
+  dc:description "Saudi";
+  rdfs:isDefinedBy obo:HANCESTRO_0449 .
+
+fg:Personal_Ancestry_Tunisian a obo:HANCESTRO_0004;
+  rdfs:label "Tunisian";
+  dc:description "Tunisian";
+  rdfs:isDefinedBy obo:HANCESTRO_0450 .
+
+fg:Personal_Ancestry_Turkish a obo:HANCESTRO_0004;
+  rdfs:label "Turkish";
+  dc:description "Turkish";
+  rdfs:isDefinedBy obo:HANCESTRO_0451 .
+
+fg:Personal_Ancestry_Emirati a obo:HANCESTRO_0004;
+  rdfs:label "Emirati";
+  dc:description "Emirati";
+  rdfs:isDefinedBy obo:HANCESTRO_0452 .
+
+fg:Personal_Ancestry_Yemeni a obo:HANCESTRO_0004;
+  rdfs:label "Yemeni";
+  dc:description "Yemeni";
+  rdfs:isDefinedBy obo:HANCESTRO_0453 .
+
+fg:Personal_Ancestry_Aruban a obo:HANCESTRO_0004;
+  rdfs:label "Aruban";
+  dc:description "Aruban";
+  rdfs:isDefinedBy obo:HANCESTRO_0454 .
+
+fg:Personal_Ancestry_Christmas_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Christmas Islander";
+  dc:description "Christmas Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0455 .
+
+fg:Personal_Ancestry_Cocos_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Cocos Islander";
+  dc:description "Cocos Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0456 .
+
+fg:Personal_Ancestry_Curacaoan a obo:HANCESTRO_0004;
+  rdfs:label "Curacaoan";
+  dc:description "Curacaoan";
+  rdfs:isDefinedBy obo:HANCESTRO_0457 .
+
+fg:Personal_Ancestry_Kosovar a obo:HANCESTRO_0004;
+  rdfs:label "Kosovar";
+  dc:description "Kosovar";
+  rdfs:isDefinedBy obo:HANCESTRO_0458 .
+
+fg:Personal_Ancestry_Northern_Mariana_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Northern Mariana Islander";
+  dc:description "Northern Mariana Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0459 .
+
+fg:Personal_Ancestry_South_Sudanese a obo:HANCESTRO_0004;
+  rdfs:label "South Sudanese";
+  dc:description "South Sudanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0460 .
+
+fg:Personal_Ancestry_Syrian a obo:HANCESTRO_0004;
+  rdfs:label "Syrian";
+  dc:description "Syrian";
+  rdfs:isDefinedBy obo:HANCESTRO_0461 .
+
+fg:Personal_Ancestry_British a obo:HANCESTRO_0004;
+  rdfs:label "British";
+  dc:description "British";
+  rdfs:isDefinedBy obo:HANCESTRO_0462 .
+
+fg:Personal_Ancestry_American a obo:HANCESTRO_0004;
+  rdfs:label "American";
+  dc:description "American";
+  rdfs:isDefinedBy obo:HANCESTRO_0463 .
+
+fg:Personal_Ancestry_American_Samoan a obo:HANCESTRO_0004;
+  rdfs:label "American Samoan";
+  dc:description "American Samoan";
+  rdfs:isDefinedBy obo:HANCESTRO_0464 .
+
+fg:Personal_Ancestry_Cook_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Cook Islander";
+  dc:description "Cook Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0465 .
+
+fg:Personal_Ancestry_Fijian a obo:HANCESTRO_0004;
+  rdfs:label "Fijian";
+  dc:description "Fijian";
+  rdfs:isDefinedBy obo:HANCESTRO_0466 .
+
+fg:Personal_Ancestry_French_Polynesian a obo:HANCESTRO_0004;
+  rdfs:label "French Polynesian";
+  dc:description "French Polynesian";
+  rdfs:isDefinedBy obo:HANCESTRO_0467 .
+
+fg:Personal_Ancestry_Guamanian a obo:HANCESTRO_0004;
+  rdfs:label "Guamanian";
+  dc:description "Guamanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0468 .
+
+fg:Personal_Ancestry_I-Kiribati a obo:HANCESTRO_0004;
+  rdfs:label "I-Kiribati";
+  dc:description "I-Kiribati";
+  rdfs:isDefinedBy obo:HANCESTRO_0469 .
+
+fg:Personal_Ancestry_Marshallese a obo:HANCESTRO_0004;
+  rdfs:label "Marshallese";
+  dc:description "Marshallese";
+  rdfs:isDefinedBy obo:HANCESTRO_0470 .
+
+fg:Personal_Ancestry_Micronesian a obo:HANCESTRO_0004;
+  rdfs:label "Micronesian";
+  dc:description "Micronesian";
+  rdfs:isDefinedBy obo:HANCESTRO_0471 .
+
+fg:Personal_Ancestry_Nauruan a obo:HANCESTRO_0004;
+  rdfs:label "Nauruan";
+  dc:description "Nauruan";
+  rdfs:isDefinedBy obo:HANCESTRO_0472 .
+
+fg:Personal_Ancestry_New_Caledonian a obo:HANCESTRO_0004;
+  rdfs:label "New Caledonian";
+  dc:description "New Caledonian";
+  rdfs:isDefinedBy obo:HANCESTRO_0473 .
+
+fg:Personal_Ancestry_Niuean a obo:HANCESTRO_0004;
+  rdfs:label "Niuean";
+  dc:description "Niuean";
+  rdfs:isDefinedBy obo:HANCESTRO_0474 .
+
+fg:Personal_Ancestry_Palauan a obo:HANCESTRO_0004;
+  rdfs:label "Palauan";
+  dc:description "Palauan";
+  rdfs:isDefinedBy obo:HANCESTRO_0475 .
+
+fg:Personal_Ancestry_Papua_New_Guinean a obo:HANCESTRO_0004;
+  rdfs:label "Papua New Guinean";
+  dc:description "Papua New Guinean";
+  rdfs:isDefinedBy obo:HANCESTRO_0476 .
+
+fg:Personal_Ancestry_Pitcairn_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Pitcairn Islander";
+  dc:description "Pitcairn Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0477 .
+
+fg:Personal_Ancestry_Samoan a obo:HANCESTRO_0004;
+  rdfs:label "Samoan";
+  dc:description "Samoan";
+  rdfs:isDefinedBy obo:HANCESTRO_0478 .
+
+fg:Personal_Ancestry_Solomon_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Solomon Islander";
+  dc:description "Solomon Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0479 .
+
+fg:Personal_Ancestry_Tokelauan a obo:HANCESTRO_0004;
+  rdfs:label "Tokelauan";
+  dc:description "Tokelauan";
+  rdfs:isDefinedBy obo:HANCESTRO_0480 .
+
+fg:Personal_Ancestry_Tongan a obo:HANCESTRO_0004;
+  rdfs:label "Tongan";
+  dc:description "Tongan";
+  rdfs:isDefinedBy obo:HANCESTRO_0481 .
+
+fg:Personal_Ancestry_Tuvaluan a obo:HANCESTRO_0004;
+  rdfs:label "Tuvaluan";
+  dc:description "Tuvaluan";
+  rdfs:isDefinedBy obo:HANCESTRO_0482 .
+
+fg:Personal_Ancestry_Ni-Vanuato a obo:HANCESTRO_0004;
+  rdfs:label "Ni-Vanuato";
+  dc:description "Ni-Vanuato";
+  rdfs:isDefinedBy obo:HANCESTRO_0483 .
+
+fg:Personal_Ancestry_Wallis_and_Futuna_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Wallis and Futuna Islander";
+  dc:description "Wallis and Futuna Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0484 .
+
+fg:Personal_Ancestry_Bangladeshi a obo:HANCESTRO_0004;
+  rdfs:label "Bangladeshi";
+  dc:description "Bangladeshi";
+  rdfs:isDefinedBy obo:HANCESTRO_0485 .
+
+fg:Personal_Ancestry_Bhutanese a obo:HANCESTRO_0004;
+  rdfs:label "Bhutanese";
+  dc:description "Bhutanese";
+  rdfs:isDefinedBy obo:HANCESTRO_0486 .
+
+fg:Personal_Ancestry_Indian a obo:HANCESTRO_0004;
+  rdfs:label "Indian";
+  dc:description "Indian";
+  rdfs:isDefinedBy obo:HANCESTRO_0487 .
+
+fg:Personal_Ancestry_Maldivian a obo:HANCESTRO_0004;
+  rdfs:label "Maldivian";
+  dc:description "Maldivian";
+  rdfs:isDefinedBy obo:HANCESTRO_0488 .
+
+fg:Personal_Ancestry_Nepalese a obo:HANCESTRO_0004;
+  rdfs:label "Nepalese";
+  dc:description "Nepalese";
+  rdfs:isDefinedBy obo:HANCESTRO_0489 .
+
+fg:Personal_Ancestry_Pakistani a obo:HANCESTRO_0004;
+  rdfs:label "Pakistani";
+  dc:description "Pakistani";
+  rdfs:isDefinedBy obo:HANCESTRO_0490 .
+
+fg:Personal_Ancestry_Sri_Lankan a obo:HANCESTRO_0004;
+  rdfs:label "Sri Lankan";
+  dc:description "Sri Lankan";
+  rdfs:isDefinedBy obo:HANCESTRO_0491 .
+
+fg:Personal_Ancestry_Bruneian a obo:HANCESTRO_0004;
+  rdfs:label "Bruneian";
+  dc:description "Bruneian";
+  rdfs:isDefinedBy obo:HANCESTRO_0492 .
+
+fg:Personal_Ancestry_Cambodian a obo:HANCESTRO_0004;
+  rdfs:label "Cambodian";
+  dc:description "Cambodian";
+  rdfs:isDefinedBy obo:HANCESTRO_0493 .
+
+fg:Personal_Ancestry_Indonesian a obo:HANCESTRO_0004;
+  rdfs:label "Indonesian";
+  dc:description "Indonesian";
+  rdfs:isDefinedBy obo:HANCESTRO_0494 .
+
+fg:Personal_Ancestry_Lao a obo:HANCESTRO_0004;
+  rdfs:label "Lao";
+  dc:description "Lao";
+  rdfs:isDefinedBy obo:HANCESTRO_0495 .
+
+fg:Personal_Ancestry_Malaysian a obo:HANCESTRO_0004;
+  rdfs:label "Malaysian";
+  dc:description "Malaysian";
+  rdfs:isDefinedBy obo:HANCESTRO_0496 .
+
+fg:Personal_Ancestry_Burmese a obo:HANCESTRO_0004;
+  rdfs:label "Burmese";
+  dc:description "Burmese";
+  rdfs:isDefinedBy obo:HANCESTRO_0497 .
+
+fg:Personal_Ancestry_Filipino a obo:HANCESTRO_0004;
+  rdfs:label "Filipino";
+  dc:description "Filipino";
+  rdfs:isDefinedBy obo:HANCESTRO_0498 .
+
+fg:Personal_Ancestry_Thai a obo:HANCESTRO_0004;
+  rdfs:label "Thai";
+  dc:description "Thai";
+  rdfs:isDefinedBy obo:HANCESTRO_0500 .
+
+fg:Personal_Ancestry_Timorese a obo:HANCESTRO_0004;
+  rdfs:label "Timorese";
+  dc:description "Timorese";
+  rdfs:isDefinedBy obo:HANCESTRO_0501 .
+
+fg:Personal_Ancestry_Vietnamese a obo:HANCESTRO_0004;
+  rdfs:label "Vietnamese";
+  dc:description "Vietnamese";
+  rdfs:isDefinedBy obo:HANCESTRO_0502 .
+
+fg:Personal_Ancestry_Cameroonian a obo:HANCESTRO_0004;
+  rdfs:label "Cameroonian";
+  dc:description "Cameroonian";
+  rdfs:isDefinedBy obo:HANCESTRO_0503 .
+
+fg:Personal_Ancestry_Cape_Verdean a obo:HANCESTRO_0004;
+  rdfs:label "Cape Verdean";
+  dc:description "Cape Verdean";
+  rdfs:isDefinedBy obo:HANCESTRO_0504 .
+
+fg:Personal_Ancestry_Chadian a obo:HANCESTRO_0004;
+  rdfs:label "Chadian";
+  dc:description "Chadian";
+  rdfs:isDefinedBy obo:HANCESTRO_0505 .
+
+fg:Personal_Ancestry_Ethiopian a obo:HANCESTRO_0004;
+  rdfs:label "Ethiopian";
+  dc:description "Ethiopian";
+  rdfs:isDefinedBy obo:HANCESTRO_0506 .
+
+fg:Personal_Ancestry_Kenyan a obo:HANCESTRO_0004;
+  rdfs:label "Kenyan";
+  dc:description "Kenyan";
+  rdfs:isDefinedBy obo:HANCESTRO_0507 .
+
+fg:Personal_Ancestry_Liberian a obo:HANCESTRO_0004;
+  rdfs:label "Liberian";
+  dc:description "Liberian";
+  rdfs:isDefinedBy obo:HANCESTRO_0508 .
+
+fg:Personal_Ancestry_Malagasy a obo:HANCESTRO_0004;
+  rdfs:label "Malagasy";
+  dc:description "Malagasy";
+  rdfs:isDefinedBy obo:HANCESTRO_0509 .
+
+fg:Personal_Ancestry_Mauritanian a obo:HANCESTRO_0004;
+  rdfs:label "Mauritanian";
+  dc:description "Mauritanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0510 .
+
+fg:Personal_Ancestry_Mauritian a obo:HANCESTRO_0004;
+  rdfs:label "Mauritian";
+  dc:description "Mauritian";
+  rdfs:isDefinedBy obo:HANCESTRO_0511 .
+
+fg:Personal_Ancestry_Mahoran a obo:HANCESTRO_0004;
+  rdfs:label "Mahoran";
+  dc:description "Mahoran";
+  rdfs:isDefinedBy obo:HANCESTRO_0512 .
+
+fg:Personal_Ancestry_Namibian a obo:HANCESTRO_0004;
+  rdfs:label "Namibian";
+  dc:description "Namibian";
+  rdfs:isDefinedBy obo:HANCESTRO_0513 .
+
+fg:Personal_Ancestry_Sao_Tomean a obo:HANCESTRO_0004;
+  rdfs:label "Sao Tomean";
+  dc:description "Sao Tomean";
+  rdfs:isDefinedBy obo:HANCESTRO_0514 .
+
+fg:Personal_Ancestry_Senegalese a obo:HANCESTRO_0004;
+  rdfs:label "Senegalese";
+  dc:description "Senegalese";
+  rdfs:isDefinedBy obo:HANCESTRO_0515 .
+
+fg:Personal_Ancestry_Seychellois a obo:HANCESTRO_0004;
+  rdfs:label "Seychellois";
+  dc:description "Seychellois";
+  rdfs:isDefinedBy obo:HANCESTRO_0516 .
+
+fg:Personal_Ancestry_Sierra_Leonean a obo:HANCESTRO_0004;
+  rdfs:label "Sierra Leonean";
+  dc:description "Sierra Leonean";
+  rdfs:isDefinedBy obo:HANCESTRO_0517 .
+
+fg:Personal_Ancestry_Somali a obo:HANCESTRO_0004;
+  rdfs:label "Somali";
+  dc:description "Somali";
+  rdfs:isDefinedBy obo:HANCESTRO_0518 .
+
+fg:Personal_Ancestry_South_African a obo:HANCESTRO_0004;
+  rdfs:label "South African";
+  dc:description "South African";
+  rdfs:isDefinedBy obo:HANCESTRO_0519 .
+
+fg:Personal_Ancestry_St._Helenian a obo:HANCESTRO_0004;
+  rdfs:label "St. Helenian";
+  dc:description "St. Helenian";
+  rdfs:isDefinedBy obo:HANCESTRO_0520 .
+
+fg:Personal_Ancestry_Ugandan a obo:HANCESTRO_0004;
+  rdfs:label "Ugandan";
+  dc:description "Ugandan";
+  rdfs:isDefinedBy obo:HANCESTRO_0521 .
+
+fg:Personal_Ancestry_Angolan a obo:HANCESTRO_0004;
+  rdfs:label "Angolan";
+  dc:description "Angolan";
+  rdfs:isDefinedBy obo:HANCESTRO_0522 .
+
+fg:Personal_Ancestry_Beninese a obo:HANCESTRO_0004;
+  rdfs:label "Beninese";
+  dc:description "Beninese";
+  rdfs:isDefinedBy obo:HANCESTRO_0523 .
+
+fg:Personal_Ancestry_Motswana a obo:HANCESTRO_0004;
+  rdfs:label "Motswana";
+  dc:description "Motswana";
+  rdfs:isDefinedBy obo:HANCESTRO_0524 .
+
+fg:Personal_Ancestry_Burkinabe a obo:HANCESTRO_0004;
+  rdfs:label "Burkinabe";
+  dc:description "Burkinabe";
+  rdfs:isDefinedBy obo:HANCESTRO_0525 .
+
+fg:Personal_Ancestry_Burundian a obo:HANCESTRO_0004;
+  rdfs:label "Burundian";
+  dc:description "Burundian";
+  rdfs:isDefinedBy obo:HANCESTRO_0526 .
+
+fg:Personal_Ancestry_Central_African a obo:HANCESTRO_0004;
+  rdfs:label "Central African";
+  dc:description "Central African";
+  rdfs:isDefinedBy obo:HANCESTRO_0527 .
+
+fg:Personal_Ancestry_Comoran a obo:HANCESTRO_0004;
+  rdfs:label "Comoran";
+  dc:description "Comoran";
+  rdfs:isDefinedBy obo:HANCESTRO_0528 .
+
+fg:Personal_Ancestry_Congolese a obo:HANCESTRO_0004;
+  rdfs:label "Congolese";
+  dc:description "Congolese";
+  rdfs:isDefinedBy obo:HANCESTRO_0529 .
+
+fg:Personal_Ancestry_Ivoirian a obo:HANCESTRO_0004;
+  rdfs:label "Ivoirian";
+  dc:description "Ivoirian";
+  rdfs:isDefinedBy obo:HANCESTRO_0530 .
+
+fg:Personal_Ancestry_Djiboutian a obo:HANCESTRO_0004;
+  rdfs:label "Djiboutian";
+  dc:description "Djiboutian";
+  rdfs:isDefinedBy obo:HANCESTRO_0531 .
+
+fg:Personal_Ancestry_Equatorial_Guinean a obo:HANCESTRO_0004;
+  rdfs:label "Equatorial Guinean";
+  dc:description "Equatorial Guinean";
+  rdfs:isDefinedBy obo:HANCESTRO_0532 .
+
+fg:Personal_Ancestry_Eritrean a obo:HANCESTRO_0004;
+  rdfs:label "Eritrean";
+  dc:description "Eritrean";
+  rdfs:isDefinedBy obo:HANCESTRO_0533 .
+
+fg:Personal_Ancestry_Gabonese a obo:HANCESTRO_0004;
+  rdfs:label "Gabonese";
+  dc:description "Gabonese";
+  rdfs:isDefinedBy obo:HANCESTRO_0534 .
+
+fg:Personal_Ancestry_Gambian a obo:HANCESTRO_0004;
+  rdfs:label "Gambian";
+  dc:description "Gambian";
+  rdfs:isDefinedBy obo:HANCESTRO_0535 .
+
+fg:Personal_Ancestry_Ghanaian a obo:HANCESTRO_0004;
+  rdfs:label "Ghanaian";
+  dc:description "Ghanaian";
+  rdfs:isDefinedBy obo:HANCESTRO_0536 .
+
+fg:Personal_Ancestry_Guinean a obo:HANCESTRO_0004;
+  rdfs:label "Guinean";
+  dc:description "Guinean";
+  rdfs:isDefinedBy obo:HANCESTRO_0537 .
+
+fg:Personal_Ancestry_Bissau-Guinean a obo:HANCESTRO_0004;
+  rdfs:label "Bissau-Guinean";
+  dc:description "Bissau-Guinean";
+  rdfs:isDefinedBy obo:HANCESTRO_0538 .
+
+fg:Personal_Ancestry_Mosotho a obo:HANCESTRO_0004;
+  rdfs:label "Mosotho";
+  dc:description "Mosotho";
+  rdfs:isDefinedBy obo:HANCESTRO_0539 .
+
+fg:Personal_Ancestry_Malawian a obo:HANCESTRO_0004;
+  rdfs:label "Malawian";
+  dc:description "Malawian";
+  rdfs:isDefinedBy obo:HANCESTRO_0540 .
+
+fg:Personal_Ancestry_Malian a obo:HANCESTRO_0004;
+  rdfs:label "Malian";
+  dc:description "Malian";
+  rdfs:isDefinedBy obo:HANCESTRO_0541 .
+
+fg:Personal_Ancestry_Mozambican a obo:HANCESTRO_0004;
+  rdfs:label "Mozambican";
+  dc:description "Mozambican";
+  rdfs:isDefinedBy obo:HANCESTRO_0542 .
+
+fg:Personal_Ancestry_Nigerien a obo:HANCESTRO_0004;
+  rdfs:label "Nigerien";
+  dc:description "Nigerien";
+  rdfs:isDefinedBy obo:HANCESTRO_0543 .
+
+fg:Personal_Ancestry_Nigerian a obo:HANCESTRO_0004;
+  rdfs:label "Nigerian";
+  dc:description "Nigerian";
+  rdfs:isDefinedBy obo:HANCESTRO_0544 .
+
+fg:Personal_Ancestry_Rwandan a obo:HANCESTRO_0004;
+  rdfs:label "Rwandan";
+  dc:description "Rwandan";
+  rdfs:isDefinedBy obo:HANCESTRO_0545 .
+
+fg:Personal_Ancestry_Swazi a obo:HANCESTRO_0004;
+  rdfs:label "Swazi";
+  dc:description "Swazi";
+  rdfs:isDefinedBy obo:HANCESTRO_0546 .
+
+fg:Personal_Ancestry_Togolese a obo:HANCESTRO_0004;
+  rdfs:label "Togolese";
+  dc:description "Togolese";
+  rdfs:isDefinedBy obo:HANCESTRO_0547 .
+
+fg:Personal_Ancestry_Tanzanian a obo:HANCESTRO_0004;
+  rdfs:label "Tanzanian";
+  dc:description "Tanzanian";
+  rdfs:isDefinedBy obo:HANCESTRO_0548 .
+
+fg:Personal_Ancestry_Zambian a obo:HANCESTRO_0004;
+  rdfs:label "Zambian";
+  dc:description "Zambian";
+  rdfs:isDefinedBy obo:HANCESTRO_0549 .
+
+fg:Personal_Ancestry_Zimbabweian a obo:HANCESTRO_0004;
+  rdfs:label "Zimbabweian";
+  dc:description "Zimbabweian";
+  rdfs:isDefinedBy obo:HANCESTRO_0550 .
+
+fg:Personal_Ancestry_genetically_homogenous_Irish a obo:HANCESTRO_0004;
+  rdfs:label "genetically homogenous Irish";
+  dc:description "genetically homogenous Irish";
+  rdfs:isDefinedBy obo:HANCESTRO_0551 .
+
+fg:Personal_Ancestry_Aboriginal_Australian a obo:HANCESTRO_0004;
+  rdfs:label "Aboriginal Australian";
+  dc:description "Aboriginal Australian";
+  rdfs:isDefinedBy obo:HANCESTRO_0552 .
+
+fg:Personal_Ancestry_Silk_Road_founder a obo:HANCESTRO_0004;
+  rdfs:label "Silk Road founder";
+  dc:description "Silk Road founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0554 .
+
+fg:Personal_Ancestry_Arab_Israeli_founder a obo:HANCESTRO_0004;
+  rdfs:label "Arab Israeli founder";
+  dc:description "Arab Israeli founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0555 .
+
+fg:Personal_Ancestry_Cilento a obo:HANCESTRO_0004;
+  rdfs:label "Cilento";
+  dc:description "Cilento";
+  rdfs:isDefinedBy obo:HANCESTRO_0556 .
+
+fg:Personal_Ancestry_Costa_Rican_founder a obo:HANCESTRO_0004;
+  rdfs:label "Costa Rican founder";
+  dc:description "Costa Rican founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0557 .
+
+fg:Personal_Ancestry_French_Canadian_founder a obo:HANCESTRO_0004;
+  rdfs:label "French Canadian founder";
+  dc:description "French Canadian founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0558 .
+
+fg:Personal_Ancestry_Italian_founder a obo:HANCESTRO_0004;
+  rdfs:label "Italian founder";
+  dc:description "Italian founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0559 .
+
+fg:Personal_Ancestry_Northern_Finnish_founder a obo:HANCESTRO_0004;
+  rdfs:label "Northern Finnish founder";
+  dc:description "Northern Finnish founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0560 .
+
+fg:Personal_Ancestry_Romanian_founder a obo:HANCESTRO_0004;
+  rdfs:label "Romanian founder";
+  dc:description "Romanian founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0561 .
+
+fg:Personal_Ancestry_South_Tyrolean a obo:HANCESTRO_0004;
+  rdfs:label "South Tyrolean";
+  dc:description "South Tyrolean";
+  rdfs:isDefinedBy obo:HANCESTRO_0563 .
+
+fg:Personal_Ancestry_Vis_founder a obo:HANCESTRO_0004;
+  rdfs:label "Vis founder";
+  dc:description "Vis founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0564 .
+
+fg:Personal_Ancestry_Split_founder a obo:HANCESTRO_0004;
+  rdfs:label "Split founder";
+  dc:description "Split founder";
+  rdfs:isDefinedBy obo:HANCESTRO_0565 .
+
+fg:Personal_Ancestry_undefined_ancestry_population a obo:HANCESTRO_0004;
+  rdfs:label "undefined ancestry population";
+  dc:description "undefined ancestry population";
+  rdfs:isDefinedBy obo:HANCESTRO_0566 .
+
+fg:Personal_Ancestry_Afro-Caribbean a obo:HANCESTRO_0004;
+  rdfs:label "Afro-Caribbean";
+  dc:description "Afro-Caribbean";
+  rdfs:isDefinedBy obo:HANCESTRO_0567 .
+
+fg:Personal_Ancestry_African_American a obo:HANCESTRO_0004;
+  rdfs:label "African American";
+  dc:description "African American";
+  rdfs:isDefinedBy obo:HANCESTRO_0568 .
+
+fg:Personal_Ancestry_Talana a obo:HANCESTRO_0004;
+  rdfs:label "Talana";
+  dc:description "Talana";
+  rdfs:isDefinedBy obo:HANCESTRO_0569 .
+
+fg:Personal_Ancestry_Pima_Indian a obo:HANCESTRO_0004;
+  rdfs:label "Pima Indian";
+  dc:description "Pima Indian";
+  rdfs:isDefinedBy obo:HANCESTRO_0570 .
+
+fg:Personal_Ancestry_Plains_American_Indian a obo:HANCESTRO_0004;
+  rdfs:label "Plains American Indian";
+  dc:description "Plains American Indian";
+  rdfs:isDefinedBy obo:HANCESTRO_0571 .
+
+fg:Personal_Ancestry_Kosraen a obo:HANCESTRO_0004;
+  rdfs:label "Kosraen";
+  dc:description "Kosraen";
+  rdfs:isDefinedBy obo:HANCESTRO_0572 .
+
+fg:Personal_Ancestry_Native_Hawaiian a obo:HANCESTRO_0004;
+  rdfs:label "Native Hawaiian";
+  dc:description "Native Hawaiian";
+  rdfs:isDefinedBy obo:HANCESTRO_0573 .
+
+fg:Personal_Ancestry_Pacific_Islander a obo:HANCESTRO_0004;
+  rdfs:label "Pacific Islander";
+  dc:description "Pacific Islander";
+  rdfs:isDefinedBy obo:HANCESTRO_0574 .
+
+fg:Personal_Ancestry_Yoruban a obo:HANCESTRO_0004;
+  rdfs:label "Yoruban";
+  dc:description "Yoruban";
+  rdfs:isDefinedBy obo:HANCESTRO_0575 .
+
+fg:Personal_Ancestry_West_African a obo:HANCESTRO_0004;
+  rdfs:label "West African";
+  dc:description "West African";
+  rdfs:isDefinedBy obo:HANCESTRO_0576 .
+
+fg:Personal_Ancestry_Dai_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Dai Chinese";
+  dc:description "Dai Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0577 .
+
+fg:Personal_Ancestry_Hui_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Hui Chinese";
+  dc:description "Hui Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0578 .
+
+fg:Personal_Ancestry_Jingpo_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Jingpo Chinese";
+  dc:description "Jingpo Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0579 .
+
+fg:Personal_Ancestry_Malaysian_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Malaysian Chinese";
+  dc:description "Malaysian Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0580 .
+
+fg:Personal_Ancestry_Uygur_Chinese a obo:HANCESTRO_0004;
+  rdfs:label "Uygur Chinese";
+  dc:description "Uygur Chinese";
+  rdfs:isDefinedBy obo:HANCESTRO_0581 .
+
+fg:Personal_Ancestry_Tibetan a obo:HANCESTRO_0004;
+  rdfs:label "Tibetan";
+  dc:description "Tibetan";
+  rdfs:isDefinedBy obo:HANCESTRO_0582 .
+
+fg:Personal_Ancestry_Taiwanese_Han a obo:HANCESTRO_0004;
+  rdfs:label "Taiwanese Han";
+  dc:description "Taiwanese Han";
+  rdfs:isDefinedBy obo:HANCESTRO_0583 .
+
+fg:Personal_Ancestry_Sri_Lankan_Sinhalese a obo:HANCESTRO_0004;
+  rdfs:label "Sri Lankan Sinhalese";
+  dc:description "Sri Lankan Sinhalese";
+  rdfs:isDefinedBy obo:HANCESTRO_0584 .
+
+fg:Personal_Ancestry_Tatar a obo:HANCESTRO_0004;
+  rdfs:label "Tatar";
+  dc:description "Tatar";
+  rdfs:isDefinedBy obo:HANCESTRO_0585 .
+
+fg:Personal_Ancestry_Bashkir a obo:HANCESTRO_0004;
+  rdfs:label "Bashkir";
+  dc:description "Bashkir";
+  rdfs:isDefinedBy obo:HANCESTRO_0586 .
+
+fg:Personal_Ancestry_Martu_Australian_Aboriginal a obo:HANCESTRO_0004;
+  rdfs:label "Martu Australian Aboriginal";
+  dc:description "Martu Australian Aboriginal";
+  rdfs:isDefinedBy obo:HANCESTRO_0587 .
+
+fg:Personal_Ancestry_Jewish_Israeli a obo:HANCESTRO_0004;
+  rdfs:label "Jewish Israeli";
+  dc:description "Jewish Israeli";
+  rdfs:isDefinedBy obo:HANCESTRO_0588 .
+
+fg:Personal_Ancestry_Eskimo a obo:HANCESTRO_0004;
+  rdfs:label "Eskimo";
+  dc:description "Eskimo";
+  rdfs:isDefinedBy obo:HANCESTRO_0595 .
+
+fg:Personal_Ancestry_Arab a obo:HANCESTRO_0004;
+  rdfs:label "Arab";
+  dc:description "Arab";
+  rdfs:isDefinedBy obo:HANCESTRO_0596 .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_NoInformation_(NI,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "NoInformation (NI, nullflavor)";
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Invalid_(INV,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Invalid (INV, nullflavor)";
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Derived_(DER,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Derived (DER, nullflavor)";
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Other_(OTH,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Other (OTH, nullflavor)";
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Negative_infinity_(NINF,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Positive_infinity_(PINF,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Un-encoded_(UNC,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Masked_(MSK,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Masked (MSK, nullflavor)";
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Not_applicable_(NA,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Not applicable (NA, nullflavor)";
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Unknown_(UNK,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Unknown (UNK, nullflavor)";
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Asked_but_unknown_(ASKU,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Temporarily_unavailable_(NAV,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Not_asked_(NASK,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Not asked (NASK, nullflavor)";
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Not_available_(NAVU,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Not available (NAVU, nullflavor)";
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Sufficient_quantity_(QS,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Ancestry_Trace_(TRC,_nullflavor)>
+  a obo:HANCESTRO_0004;
+  rdfs:label "Trace (TRC, nullflavor)";
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

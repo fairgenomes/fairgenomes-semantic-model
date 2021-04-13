@@ -106,10 +106,10 @@ modules:
             description: Country of Residence at Enrollment.
             ontology: NCIT:C171105 [http://purl.obolibrary.org/obo/NCIT_C171105]
             values: LookupOne [lookups/Countries.txt], ofType [http://semanticscience.org/resource/SIO_000664]
-          - name: Ethnicity
-            description: The biological quality of membership in a social group based on a common heritage.
-            ontology: SIO:001014 [http://semanticscience.org/resource/SIO_001014]
-            values: LookupMany [lookups/Countries.txt], ofType [http://semanticscience.org/resource/SIO_000664]
+          - name: Ancestry
+            description: Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.
+            ontology: HANCESTRO:0004 [http://purl.obolibrary.org/obo/HANCESTRO_0004]
+            values: LookupMany [lookups/Ancestry.txt], ofType [http://purl.obolibrary.org/obo/HANCESTRO_0004]
           - name: Country of birth
             description: The country that a given person was born in.
             ontology: GENEPIO:0001094 [http://purl.obolibrary.org/obo/GENEPIO_0001094]
@@ -504,6 +504,10 @@ modules:
             description: A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer.
             ontology: NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]
             values: Text
+          - name: Reference genome used
+            description: An identifier of a build of a particular genome.
+            ontology: EDAM:data_2340 [http://edamontology.org/data_2340]
+            values: LookupOne [lookups/GenomeAccessions.txt], ofType [http://edamontology.org/data_2787]
           - name: Bioinformatic protocol used
             description: A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis.
             ontology: EDAM:data_2531 [http://edamontology.org/data_2531]

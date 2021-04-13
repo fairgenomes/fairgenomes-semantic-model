@@ -42,7 +42,9 @@
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-datausepermissions.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dataformats.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-phenotypicsex.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genomeaccessions.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dcmitypes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ancestry.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-inclusionstatus.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-pathologicalstate.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-recontacting.ttl>,
@@ -147,12 +149,12 @@ fg:Personal_Country_of_residence a owl:ObjectProperty;
   dc:description "Country of Residence at Enrollment.";
   rdfs:range <http://semanticscience.org/resource/SIO_000664> .
 
-fg:Personal_Ethnicity a owl:ObjectProperty;
-  rdfs:label "Ethnicity";
+fg:Personal_Ancestry a owl:ObjectProperty;
+  rdfs:label "Ancestry";
   rdfs:domain fg:Personal;
-  rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_001014>;
-  dc:description "The biological quality of membership in a social group based on a common heritage.";
-  rdfs:range <http://semanticscience.org/resource/SIO_000664> .
+  rdfs:isDefinedBy obo:HANCESTRO_0004;
+  dc:description "Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.";
+  rdfs:range obo:HANCESTRO_0004 .
 
 fg:Personal_Country_of_birth a owl:ObjectProperty;
   rdfs:label "Country of birth";
@@ -763,6 +765,13 @@ fg:Analysis_Algorithms_used a owl:DatatypeProperty;
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy obo:NCIT_C16275;
   dc:description "A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer." .
+
+fg:Analysis_Reference_genome_used a owl:ObjectProperty;
+  rdfs:label "Reference genome used";
+  rdfs:domain fg:Analysis;
+  rdfs:isDefinedBy <http://edamontology.org/data_2340>;
+  dc:description "An identifier of a build of a particular genome.";
+  rdfs:range <http://edamontology.org/data_2787> .
 
 fg:Analysis_Bioinformatic_protocol_used a owl:DatatypeProperty;
   rdfs:label "Bioinformatic protocol used";

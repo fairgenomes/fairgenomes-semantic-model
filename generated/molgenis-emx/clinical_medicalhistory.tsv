@@ -215,7 +215,6 @@ Explantation	Explantation	NCIT	C101248	http://purl.obolibrary.org/obo/NCIT_C1012
 Cervical Cerclage	Cervical Cerclage	NCIT	C102763	http://purl.obolibrary.org/obo/NCIT_C102763
 Surgical Procedure	Surgical Procedure	NCIT	C15329	http://purl.obolibrary.org/obo/NCIT_C15329
 Gynecological Surgical Procedure	Gynecological Surgical Procedure	NCIT	C15332	http://purl.obolibrary.org/obo/NCIT_C15332
-gynecological surgical procedure	gynecological surgical procedure	NCIT	C15332	http://purl.obolibrary.org/obo/NCIT_C15332
 Cardiovascular Surgical Procedure	Cardiovascular Surgical Procedure	NCIT	C49803	http://purl.obolibrary.org/obo/NCIT_C49803
 Surgical Wound Closure	Surgical Wound Closure	NCIT	C63340	http://purl.obolibrary.org/obo/NCIT_C63340
 Therapeutic Surgical Procedure	Therapeutic Surgical Procedure	NCIT	C64982	http://purl.obolibrary.org/obo/NCIT_C64982
@@ -244,7 +243,6 @@ Digestive System Surgery	Digestive System Surgery	NCIT	C15330	http://purl.obolib
 Transurethral Resection	Transurethral Resection	NCIT	C15705	http://purl.obolibrary.org/obo/NCIT_C15705
 Abdominal Surgical Procedure	Abdominal Surgical Procedure	NCIT	C16120	http://purl.obolibrary.org/obo/NCIT_C16120
 Surgical Procedure by Method	Surgical Procedure by Method	NCIT	C49165	http://purl.obolibrary.org/obo/NCIT_C49165
-surgical procedure by method	surgical procedure by method	NCIT	C49165	http://purl.obolibrary.org/obo/NCIT_C49165
 Endoscopic Surgery	Endoscopic Surgery	NCIT	C62734	http://purl.obolibrary.org/obo/NCIT_C62734
 Ischemia Procedure	Ischemia Procedure	NCIT	C131331	http://purl.obolibrary.org/obo/NCIT_C131331
 Joint Replacement	Joint Replacement	NCIT	C131579	http://purl.obolibrary.org/obo/NCIT_C131579
@@ -259,7 +257,6 @@ Complete Excision	Complete Excision	NCIT	C51934	http://purl.obolibrary.org/obo/N
 Fluorescence-Guided Surgery	Fluorescence-Guided Surgery	NCIT	C61012	http://purl.obolibrary.org/obo/NCIT_C61012
 Septal Defect Repair	Septal Defect Repair	NCIT	C148075	http://purl.obolibrary.org/obo/NCIT_C148075
 Surgical Procedure by Type	Surgical Procedure by Type	NCIT	C161601	http://purl.obolibrary.org/obo/NCIT_C161601
-surgical procedure by type	surgical procedure by type	NCIT	C161601	http://purl.obolibrary.org/obo/NCIT_C161601
 Resection	Resection	NCIT	C158758	http://purl.obolibrary.org/obo/NCIT_C158758
 Lymphovenous Bypass	Lymphovenous Bypass	NCIT	C159300	http://purl.obolibrary.org/obo/NCIT_C159300
 Nephroureterectomy with Cuff of Bladder	Nephroureterectomy with Cuff of Bladder	NCIT	C159437	http://purl.obolibrary.org/obo/NCIT_C159437
@@ -297,12 +294,9 @@ Total Skin-Sparing Mastectomy	Total Skin-Sparing Mastectomy	NCIT	C106320	http://
 Skin-Sparing Mastectomy	Skin-Sparing Mastectomy	NCIT	C107211	http://purl.obolibrary.org/obo/NCIT_C107211
 Oncoplastic Partial Mastectomy/Lumpectomy with Oncoplastic Closure	Oncoplastic Partial Mastectomy/Lumpectomy with Oncoplastic Closure	NCIT	C107212	http://purl.obolibrary.org/obo/NCIT_C107212
 Augmentation Mammoplasty	Augmentation Mammoplasty	NCIT	C107225	http://purl.obolibrary.org/obo/NCIT_C107225
-augmentation mammaplasty	augmentation mammaplasty	NCIT	C107225	http://purl.obolibrary.org/obo/NCIT_C107225
 Pedicle TRAM Flap Procedure	Pedicle TRAM Flap Procedure	NCIT	C107383	http://purl.obolibrary.org/obo/NCIT_C107383
 Mastectomy	Mastectomy	NCIT	C15277	http://purl.obolibrary.org/obo/NCIT_C15277
-mastectomy	mastectomy	NCIT	C15277	http://purl.obolibrary.org/obo/NCIT_C15277
 Mammoplasty	Mammoplasty	NCIT	C15354	http://purl.obolibrary.org/obo/NCIT_C15354
-mammaplasty	mammaplasty	NCIT	C15354	http://purl.obolibrary.org/obo/NCIT_C15354
 Axillary Lymph Node Dissection	Axillary Lymph Node Dissection	NCIT	C15677	http://purl.obolibrary.org/obo/NCIT_C15677
 Gastrostomy	Gastrostomy	NCIT	C52006	http://purl.obolibrary.org/obo/NCIT_C52006
 Tissue Flap Breast Reconstruction	Tissue Flap Breast Reconstruction	NCIT	C93317	http://purl.obolibrary.org/obo/NCIT_C93317
@@ -521,7 +515,6 @@ Open Radical Nephrectomy	Open Radical Nephrectomy	NCIT	C165187	http://purl.oboli
 Open Radical Prostatectomy	Open Radical Prostatectomy	NCIT	C165188	http://purl.obolibrary.org/obo/NCIT_C165188
 TRAM Flap Procedure	TRAM Flap Procedure	NCIT	C160624	http://purl.obolibrary.org/obo/NCIT_C160624
 Breast Surgery	Breast Surgery	NCIT	C157802	http://purl.obolibrary.org/obo/NCIT_C157802
-breast surgical procedure	breast surgical procedure	NCIT	C157802	http://purl.obolibrary.org/obo/NCIT_C157802
 Endobronchial Cryotherapy	Endobronchial Cryotherapy	NCIT	C162557	http://purl.obolibrary.org/obo/NCIT_C162557
 Bilateral Mastectomy	Bilateral Mastectomy	NCIT	C168521	http://purl.obolibrary.org/obo/NCIT_C168521
 Aesthetic Primary Post-Nonreconstructive Mastectomy Flat Closure	Aesthetic Primary Post-Nonreconstructive Mastectomy Flat Closure	NCIT	C168665	http://purl.obolibrary.org/obo/NCIT_C168665
@@ -606,7 +599,6 @@ Terminal Ileum Resection	Terminal Ileum Resection	NCIT	C51610	http://purl.obolib
 Rectosigmoidectomy	Rectosigmoidectomy	NCIT	C51611	http://purl.obolibrary.org/obo/NCIT_C51611
 Transverse Colectomy	Transverse Colectomy	NCIT	C51612	http://purl.obolibrary.org/obo/NCIT_C51612
 Reduction Mammoplasty	Reduction Mammoplasty	NCIT	C51615	http://purl.obolibrary.org/obo/NCIT_C51615
-reduction mammaplasty	reduction mammaplasty	NCIT	C51615	http://purl.obolibrary.org/obo/NCIT_C51615
 Right Reduction Mammoplasty	Right Reduction Mammoplasty	NCIT	C51616	http://purl.obolibrary.org/obo/NCIT_C51616
 Left Reduction Mammoplasty	Left Reduction Mammoplasty	NCIT	C51617	http://purl.obolibrary.org/obo/NCIT_C51617
 Pericardial Window Procedure	Pericardial Window Procedure	NCIT	C51618	http://purl.obolibrary.org/obo/NCIT_C51618
@@ -767,7 +759,6 @@ Superficial Incision	Superficial Incision	NCIT	C112020	http://purl.obolibrary.or
 Deep Incision	Deep Incision	NCIT	C112021	http://purl.obolibrary.org/obo/NCIT_C112021
 Cauterization	Cauterization	NCIT	C15199	http://purl.obolibrary.org/obo/NCIT_C15199
 Urogenital Surgical Procedure	Urogenital Surgical Procedure	NCIT	C15333	http://purl.obolibrary.org/obo/NCIT_C15333
-urogenital surgical procedure	urogenital surgical procedure	NCIT	C15333	http://purl.obolibrary.org/obo/NCIT_C15333
 Surgical Incision	Surgical Incision	NCIT	C15384	http://purl.obolibrary.org/obo/NCIT_C15384
 Duodenostomy	Duodenostomy	NCIT	C122593	http://purl.obolibrary.org/obo/NCIT_C122593
 Spinal Cord Decompression	Spinal Cord Decompression	NCIT	C124141	http://purl.obolibrary.org/obo/NCIT_C124141
@@ -874,7 +865,6 @@ Nerve-Sparing Prostatectomy	Nerve-Sparing Prostatectomy	NCIT	C16218	http://purl.
 Seed Implantation	Seed Implantation	NCIT	C16219	http://purl.obolibrary.org/obo/NCIT_C16219
 Regional Lymph Node Dissection	Regional Lymph Node Dissection	NCIT	C48935	http://purl.obolibrary.org/obo/NCIT_C48935
 Surgical Procedure by Site or System	Surgical Procedure by Site or System	NCIT	C49163	http://purl.obolibrary.org/obo/NCIT_C49163
-surgical procedure by site or system	surgical procedure by site or system	NCIT	C49163	http://purl.obolibrary.org/obo/NCIT_C49163
 Intestine Resection	Intestine Resection	NCIT	C51652	http://purl.obolibrary.org/obo/NCIT_C51652
 Excisional Biopsy of Lymph Node	Excisional Biopsy of Lymph Node	NCIT	C51662	http://purl.obolibrary.org/obo/NCIT_C51662
 Endocrine Surgical Procedure	Endocrine Surgical Procedure	NCIT	C52011	http://purl.obolibrary.org/obo/NCIT_C52011
@@ -953,7 +943,6 @@ Repeat Cesarean Birth	Repeat Cesarean Birth	NCIT	C114140	http://purl.obolibrary.
 Elective Cesarean Delivery	Elective Cesarean Delivery	NCIT	C114141	http://purl.obolibrary.org/obo/NCIT_C114141
 Indicated Cesarean Delivery	Indicated Cesarean Delivery	NCIT	C114142	http://purl.obolibrary.org/obo/NCIT_C114142
 Urologic Surgical Procedure	Urologic Surgical Procedure	NCIT	C15334	http://purl.obolibrary.org/obo/NCIT_C15334
-urological surgical procedure	urological surgical procedure	NCIT	C15334	http://purl.obolibrary.org/obo/NCIT_C15334
 Cesarean Section	Cesarean Section	NCIT	C46088	http://purl.obolibrary.org/obo/NCIT_C46088
 Resection of Rectum	Resection of Rectum	NCIT	C51783	http://purl.obolibrary.org/obo/NCIT_C51783
 Laparoscopically Assisted Vaginal Hysterectomy	Laparoscopically Assisted Vaginal Hysterectomy	NCIT	C126387	http://purl.obolibrary.org/obo/NCIT_C126387
@@ -981,12 +970,10 @@ Curative Surgery	Curative Surgery	NCIT	C38047	http://purl.obolibrary.org/obo/NCI
 Percutaneous Transluminal Coronary Angioplasty	Percutaneous Transluminal Coronary Angioplasty	NCIT	C38078	http://purl.obolibrary.org/obo/NCIT_C38078
 Portacath Placement	Portacath Placement	NCIT	C38080	http://purl.obolibrary.org/obo/NCIT_C38080
 Plastic Surgery Procedure	Plastic Surgery Procedure	NCIT	C39766	http://purl.obolibrary.org/obo/NCIT_C39766
-plastic surgery procedure	plastic surgery procedure	NCIT	C39766	http://purl.obolibrary.org/obo/NCIT_C39766
 Partial Hysterectomy	Partial Hysterectomy	NCIT	C40961	http://purl.obolibrary.org/obo/NCIT_C40961
 Central Venous Cannula Insertion	Central Venous Cannula Insertion	NCIT	C40972	http://purl.obolibrary.org/obo/NCIT_C40972
 Angioplasty	Angioplasty	NCIT	C51999	http://purl.obolibrary.org/obo/NCIT_C51999
 Subcutaneous Mastectomy	Subcutaneous Mastectomy	NCIT	C89773	http://purl.obolibrary.org/obo/NCIT_C89773
-subcutaneous mastectomy	subcutaneous mastectomy	NCIT	C89773	http://purl.obolibrary.org/obo/NCIT_C89773
 Transurethral Needle Ablation of the Prostate	Transurethral Needle Ablation of the Prostate	NCIT	C89821	http://purl.obolibrary.org/obo/NCIT_C89821
 Transurethral Microwave Thermotherapy of the Prostate	Transurethral Microwave Thermotherapy of the Prostate	NCIT	C89823	http://purl.obolibrary.org/obo/NCIT_C89823
 Segmentectomy	Segmentectomy	NCIT	C91061	http://purl.obolibrary.org/obo/NCIT_C91061
