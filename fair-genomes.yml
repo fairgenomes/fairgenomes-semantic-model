@@ -106,10 +106,10 @@ modules:
             description: Country of Residence at Enrollment.
             ontology: NCIT:C171105 [http://purl.obolibrary.org/obo/NCIT_C171105]
             values: LookupOne [lookups/Countries.txt], ofType [http://semanticscience.org/resource/SIO_000664]
-          - name: Ethnicity
-            description: The biological quality of membership in a social group based on a common heritage.
-            ontology: SIO:001014 [http://semanticscience.org/resource/SIO_001014]
-            values: LookupMany [lookups/Countries.txt], ofType [http://semanticscience.org/resource/SIO_000664]
+          - name: Ancestry
+            description: Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.
+            ontology: HANCESTRO:0004 [http://purl.obolibrary.org/obo/HANCESTRO_0004]
+            values: LookupMany [lookups/Ancestry.txt], ofType [http://purl.obolibrary.org/obo/HANCESTRO_0004]
           - name: Country of birth
             description: The country that a given person was born in.
             ontology: GENEPIO:0001094 [http://purl.obolibrary.org/obo/GENEPIO_0001094]
