@@ -92,7 +92,7 @@ public class ToLaTeXTables extends AbstractGenerator {
         bw2.write("latex fair-genomes.tex" + LE);
         bw2.write("dvips fair-genomes.dvi" + LE);
         bw2.write("ps2pdf fair-genomes.ps" + LE);
-        bw2.write("mv fair-genomes.pdf ../../derived/latex/" + LE);
+        bw2.write("mv fair-genomes.pdf ../../derived/pdf/" + LE);
         bw2.flush();
         bw2.close();
 
