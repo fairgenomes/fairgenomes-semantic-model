@@ -42,7 +42,7 @@ public class ToLaTeXTables extends AbstractGenerator {
         bw.write("\\textbf{FAIR Genomes semantic metadata schema}" + LE);
         bw.write("\\newline" + LE);
         bw.write(LE);
-        bw.write(fg.description + " Version "+fg.version + "-" + fg.releaseType + ", "+fg.date+". This model consists of " + fg.modules.size() + " modules that contain " + totalNrOfElements + " metadata elements in total." + LE);
+        bw.write(fg.description + " Version "+fg.version + "-" + fg.releaseType + ", "+fg.date+". This model consists of " + fg.modules.size() + " modules that contain " + totalNrOfElements + " metadata elements and " + fg.totalNrOfLookupsWithoutGlobals + " lookups in total (excluding null flavors)." + LE);
         bw.write(LE);
         /**
          * Modules
@@ -77,6 +77,25 @@ public class ToLaTeXTables extends AbstractGenerator {
             bw.write("\\end{table}" + LE);
             bw.write(LE);
         }
+
+        /**
+         * Null flavors
+         */
+        bw.write("\\begin{table}[htb]"+ LE);
+        bw.write("\\begin{tabular}{ll}"+ LE);
+        bw.write("Value & Ontology \\\\"+ LE);
+        bw.write("\\hline"+ LE);
+        for(String key: fg.lookupGlobalOptionsInstance.lookups.keySet())
+        {
+            Lookup nf = fg.lookupGlobalOptionsInstance.lookups.get(key);
+            bw.write(key.substring(0,key.indexOf("(")-1) + " & " + nf.codesystem+":"+nf.code + " \\\\" + LE);
+        }
+        bw.write("\\hline" + LE);
+        bw.write("\\end{tabular}" + LE);
+        bw.write("\\caption[NullFlavors]{\\label{table:table" + (tableNr++) + "} Overview of null flavors. Each lookup in FAIR Genomes is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }" + LE);
+        bw.write("\\end{table}" + LE);
+        bw.write(LE);
+
 
         bw.write("\\end{document}" + LE);
 
