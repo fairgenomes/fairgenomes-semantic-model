@@ -14,7 +14,7 @@ The source of the schema is located at [fair-genomes.yml](fair-genomes.yml). The
 
 Representations of the schema for specific systems/users are generated from the schema. The following outputs are available:
 
-##### Electronic Data Capture (EDC) systems
+#### Electronic Data Capture (EDC) systems
 
 - MOLGENIS EMX1 database setup at [molgenis-emx](generated/molgenis-emx).
 - PALGA Codebook at [palga-codebook](generated/palga-codebook).
@@ -25,12 +25,12 @@ Representations of the schema for specific systems/users are generated from the 
   - REDCap
   - OpenClinica 3
 
-##### Resource Description Framework (RDF)
+#### Resource Description Framework (RDF)
 
 - Application ontology at [ontology](generated/ontology).
 - Resources for new terms at [resource](generated/resource).
 
-##### Documentation
+#### Documentation
 
 - Interactive overview at [markdown](generated/markdown).
 - Typesetted LaTeX/PDF at [latex](generated/latex) and [pdf](derived/pdf).
@@ -39,13 +39,13 @@ Representations of the schema for specific systems/users are generated from the 
 ## Demo
 Please try the [public demo](https://fairgenomes-acc.gcc.rug.nl) at give us feedback.
 
-# Other links
+## Other links
 - Persistent [namespace](https://w3id.org/fair-genomes) is provided by W3ID, linking to [ontology](https://w3id.org/fair-genomes/ontology) and [resources](https://w3id.org/fair-genomes/resource/FG_0000001).
 - Find us on [FAIRSharing](https://fairsharing.org/bsg-s001533/).
 
 ## Technical notes
 
-##### RDF formats
+#### RDF formats
 
 The FAIR Genomes application ontology [TTL files](generated/ontology) can be converted to other RDF serialization formats including OWL-XML, RDF-XML, RDF-JSON, JSON-LD, N-Triples, TriG, TriX, Thrift, Manchester syntax and Functional syntax using [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0).
 
@@ -70,7 +70,7 @@ Please be aware that the original TTL format is highly efficient. Other RDF form
 | Manchester | +435% |
 | Functional | +300% |
 
-##### ART-DECOR validation
+#### ART-DECOR validation
 
 The ART-DECOR XML is validated using [Saxon](http://saxon.sourceforge.net), requiring these resources:
 ```
