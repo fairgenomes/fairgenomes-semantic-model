@@ -6,7 +6,7 @@
 \textbf{FAIR Genomes semantic metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.3-SNAPSHOT, 2021-02-25. This model consists of 9 modules that contain 110 metadata elements in total.
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.3-SNAPSHOT, 2021-02-25. This model consists of 9 modules that contain 110 metadata elements and 84905 lookups in total (excluding null flavors).
 
 \begin{table}[htb]
 \begin{tabular}{lll}
@@ -215,6 +215,31 @@ WGS guideline followed & NCIT:C17564 & String \\
 \hline
 \end{tabular}
 \caption[Module: Analysis]{\label{table:table10} Module: Analysis. Apply analytical methods to existing data of a specific type. Ontology: EDAM:operation\_2945. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{ll}
+Value & Ontology \\
+\hline
+NoInformation & HL7:NI \\
+Invalid & HL7:INV \\
+Derived & HL7:DER \\
+Other & HL7:OTH \\
+Negative infinity & HL7:NINF \\
+Positive infinity & HL7:PINF \\
+Un-encoded & HL7:UNC \\
+Masked & HL7:MSK \\
+Not applicable & HL7:NA \\
+Unknown & HL7:UNK \\
+Asked but unknown & HL7:ASKU \\
+Temporarily unavailable & HL7:NAV \\
+Not asked & HL7:NASK \\
+Not available & HL7:NAVU \\
+Sufficient quantity & HL7:QS \\
+Trace & HL7:TRC \\
+\hline
+\end{tabular}
+\caption[NullFlavors]{\label{table:table11} Overview of null flavors. Each lookup in FAIR Genomes is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }
 \end{table}
 
 \end{document}
