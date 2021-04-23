@@ -24,6 +24,7 @@ public class FAIRGenomes {
     Variables loaded afterwards
      */
     public LookupList lookupGlobalOptionsInstance;
+    public int totalNrOfLookupsWithoutGlobals;
 
     /**
      * Load the lookupGlobalOptions
@@ -57,6 +58,7 @@ public class FAIRGenomes {
      * @throws Exception
      */
     public void loadElementLookups() throws Exception {
+        totalNrOfLookupsWithoutGlobals = 0;
         for(Module m: modules)
         {
             for(Element e : m.elements)
@@ -71,6 +73,7 @@ public class FAIRGenomes {
                     LookupList ll = new LookupList(new File(vt));
                     e.lookup = ll;
                     e.nrOfLookupsWithoutGlobals = ll.lookups.size();
+                    totalNrOfLookupsWithoutGlobals += ll.lookups.size();
 
                     /*
                     Add the global lookups unless NoGlobals is specified

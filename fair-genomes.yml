@@ -2,8 +2,8 @@
 name: FAIR Genomes metadata schema
 description: The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.
 version: 0.3
-releaseType: SNAPSHOT
-date: 2021-02-25
+releaseType: Minor
+date: 2021-04-23
 lookupGlobalOptions: lookups/NullFlavors.txt
 authors:
     - name: K. Joeri van der Velde
@@ -222,10 +222,6 @@ modules:
             description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
             ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
             values: Text
-          - name: Allow linkage
-            description: A study in which data from different sources are linked. Usually used to compile epidemiological data. The logic of record linkage is that two or more items of information about a person recorded at different times, and perhaps in different places, may be of greater value when considered together than when either is considered alone.
-            ontology: NCIT:C15424 [http://purl.obolibrary.org/obo/NCIT_C15424]
-            values: Boolean
           - name: Allow recontacting
             description: The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.
             ontology: NCIT:C25737 [http://purl.obolibrary.org/obo/NCIT_C25737]

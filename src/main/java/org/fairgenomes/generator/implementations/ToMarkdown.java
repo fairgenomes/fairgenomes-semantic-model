@@ -32,7 +32,7 @@ public class ToMarkdown extends AbstractGenerator {
         FileWriter fw = new FileWriter(new File(outputFolder, "fairgenomes-semantic-model.md"));
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write("# FAIR Genomes semantic metadata schema" + LE + LE);
-        bw.write(fg.description + " Version "+fg.version + "-" + fg.releaseType + ", "+fg.date+". This model consists of __" + fg.modules.size() + " modules__ that contain __" + totalNrOfElements + " metadata elements__ in total." + LE + LE);
+        bw.write(fg.description + " Version "+fg.version + "-" + fg.releaseType + ", "+fg.date+". This model consists of __" + fg.modules.size() + " modules__ that contain __" + totalNrOfElements + " metadata elements__ and __" + fg.totalNrOfLookupsWithoutGlobals + " lookups__ in total (excluding null flavors)." + LE + LE);
 
         bw.write("## Module overview" + LE + LE);
         bw.write("| Name | Description | Ontology | Nr. of elements |" + LE);
