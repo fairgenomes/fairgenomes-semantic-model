@@ -97,10 +97,10 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
     - Run MOLGENIS setup script
     - Import application ontology into GraphDB
     - Check Markdown rendering
-3. Update PDF (run toPDF.sh in generated/latex)
-4. Make commits and push to fork
-5. Pull request and merge with main (i.e. _fairgenomes_ organization)
-6. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Ffairgenomes.github.io%2Ffairgenomes-semantic-model%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en.) to TTL file in main repo
-7. Commit LODE page to fork, then again PR and merge with main
-8. Create Github release on main
-9. update version number and snapshot in YAML to prepare for next release
+4. Update PDF (run toPDF.sh in generated/latex)
+5. Make commits and push to fork
+6. Pull request and merge with main (i.e. _fairgenomes_ organization)
+7. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Ffairgenomes.github.io%2Ffairgenomes-semantic-model%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en.) to TTL file in main repo
+8. Commit LODE page to fork, then again PR and merge with main
+9. Create Github release on main
+10. Update version number and snapshot in YAML to prepare for next release
