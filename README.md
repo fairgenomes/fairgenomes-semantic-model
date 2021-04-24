@@ -42,6 +42,7 @@ Please try the [public demo](https://fairgenomes-acc.gcc.rug.nl) at give us feed
 ## Other links
 - Persistent [namespace](https://w3id.org/fair-genomes) is provided by W3ID, linking to [ontology](https://w3id.org/fair-genomes/ontology) and [resources](https://w3id.org/fair-genomes/resource/FG_0000001).
 - Find us on [FAIRSharing](https://fairsharing.org/bsg-s001533/).
+- Available on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
 
 ## Technical notes
 
@@ -103,4 +104,5 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 7. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Ffairgenomes.github.io%2Ffairgenomes-semantic-model%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en.) to TTL file in main repo
 8. Commit LODE page to fork, then again PR and merge with main
 9. Create Github release on main
-10. Update version number and snapshot in YAML to prepare for next release
+10. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
+11. Update version number and snapshot in YAML to prepare for next release
