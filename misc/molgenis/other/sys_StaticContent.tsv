@@ -2,7 +2,7 @@ key_	content
 home	"<div class=""jumbotron jumbotron-fluid"">
 <div class=""container"">
 	<h1 class=""display-4"" style=""color: #353535;font-size: 8.5em; ""><img src=""/logo/fair_genomes_logo_notext.png"" style=""height: 100px;""/>FAIR Genomes</h1>
-	<h4>Version 0.3-SNAPSHOT public demo. This is a prototype for evaluation purposes only. Do not import any sensitive data.</h4>
+	<h4>Version 0.4-SNAPSHOT public demo. This is a prototype for evaluation purposes only. Do not import any sensitive data.</h4>
 	<p class=""lead"">
 		<i>A national guideline to promote optimal (re)use of NGS data in research and healthcare</i>.<br/>
 	</p>

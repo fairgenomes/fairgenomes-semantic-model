@@ -105,4 +105,5 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 8. Commit LODE page to fork, then again PR and merge with main
 9. Create Github release on main
 10. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
-11. Update version number and snapshot in YAML to prepare for next release
+11. Update version in [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv), reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
+12. Prepare for next release: update version in [fair-genomes.yml](fair-genomes.yml).
