@@ -112,7 +112,10 @@ public class RunParameters {
                 String username = splitString2[0];
                 String email = splitString2[1];
                 String name = splitString2[2];
-                stringBuilder.append("<author id=\"").append(++idIndex).append("\" username=\"").append(username).append("\" email=\"").append(email).append("\" notifier=\"off\">").append(name).append("</author>");
+                if(!email.equals("null") && !username.equals("null"))
+                {
+                    stringBuilder.append("<author id=\"").append(++idIndex).append("\" username=\"").append(username).append("\" email=\"").append(email).append("\" notifier=\"off\">").append(name).append("</author>").append("\n");
+                }
             }
             authorsStringFormatted = stringBuilder.toString().trim();
         }

@@ -30,6 +30,7 @@ public class ToARTDECOR extends AbstractGenerator {
         File output = new File(outputFolder, "fair-genomes_en-US.xml");
         IdentifierManager.createIdentifierManager(runParameters);
         runParameters.addLanguageSettings("en", fg.description, fg.name);
+        runParameters.setDefaultLanguage("en");
         CodebookManager codebookManager = CodebookManager.readCodebooksTSV(runParameters);
         CodebookToArtDecorConvertor codebookToArtDecorConvertor = new CodebookToArtDecorConvertor(codebookManager, runParameters);
         codebookToArtDecorConvertor.transformCodebooks();
