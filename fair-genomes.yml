@@ -158,6 +158,10 @@ modules:
             description: An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value.
             ontology: DC:identifier [http://purl.org/dc/terms/identifier]
             values: UniqueID
+          - name: Consent form title
+            description: A name given to the resource.
+            ontology: DC:title [http://purl.org/dc/terms/title]
+            values: String
           - name: Consent form accepted date
             description: Date of acceptance of the resource.
             ontology: DC:dateAccepted [http://purl.org/dc/terms/dateAccepted]
