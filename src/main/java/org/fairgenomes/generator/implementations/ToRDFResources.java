@@ -96,7 +96,7 @@ public class ToRDFResources extends AbstractGenerator {
     {
         StringBuilder sb = new StringBuilder();
         sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\" ?>" + LE);
-        sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://fairgenomes.github.io/fairgenomes-semantic-model/misc/semanticscience.org/resource.xsl\" ?>" + LE + LE);
+        sb.append("<?xml-stylesheet type=\"text/xsl\" href=\"https://fairgenomes.org/fairgenomes-semantic-model/misc/semanticscience.org/resource.xsl\" ?>" + LE + LE);
         sb.append("<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"" + LE);
         sb.append("  xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"" + LE);
         sb.append("  xmlns:dc=\"http://purl.org/dc/terms/\"" + LE);
