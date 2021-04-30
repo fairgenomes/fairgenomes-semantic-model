@@ -1,6 +1,6 @@
 # FAIR Genomes semantic metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.4-SNAPSHOT, 2021-04-23. This model consists of __9 modules__ that contain __109 metadata elements__ and __84910 lookups__ in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.4-SNAPSHOT, 2021-04-23. This model consists of __9 modules__ that contain __110 metadata elements__ and __84911 lookups__ in total (excluding null flavors).
 
 ## Module overview
 
@@ -8,7 +8,7 @@ The FAIR Genomes semantic metadata schema to power reuse of NGS data in research
 |---|---|---|---|
 | [Study](#module-study) | A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. | [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536) | 9 |
 | [Personal](#module-personal) | Data, facts or figures about an individual; the set of relevant items would depend on the use case. | [NCIT:C90492](http://purl.obolibrary.org/obo/NCIT_C90492) | 12 |
-| [Leaflet and consent form](#module-leaflet-and-consent-form) | A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian. | [NCIT:C16468](http://purl.obolibrary.org/obo/NCIT_C16468) | 8 |
+| [Leaflet and consent form](#module-leaflet-and-consent-form) | A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian. | [NCIT:C16468](http://purl.obolibrary.org/obo/NCIT_C16468) | 9 |
 | [Individual consent](#module-individual-consent) | Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved. | [NCIT:C16735](http://purl.obolibrary.org/obo/NCIT_C16735) | 12 |
 | [Clinical](#module-clinical) | Relating to the examination and treatment of patients dependent on direct observation. | [NCIT:C25398](http://purl.obolibrary.org/obo/NCIT_C25398) | 20 |
 | [Material](#module-material) | Natural substances derived from living organisms such as cells, tissues, proteins, and DNA. | [NCIT:C43376](http://purl.obolibrary.org/obo/NCIT_C43376) | 16 |
@@ -58,6 +58,7 @@ A document explaining all the relevant information to assist an individual in un
 | Leaflet date | A point or period of time associated with an event in the lifecycle of the resource. | [DC:date](http://purl.org/dc/terms/date) | Date |
 | Leaflet version | A related resource that is a version, edition, or adaptation of the described resource. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
 | Consent form identifier | An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value. | [DC:identifier](http://purl.org/dc/terms/identifier) | UniqueID |
+| Consent form title | A name given to the resource. | [DC:title](http://purl.org/dc/terms/title) | String |
 | Consent form accepted date | Date of acceptance of the resource. | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | Date |
 | Consent form valid until | End date of the validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
 | Consent form creator | Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective. | [SIO:000688](https://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
@@ -75,7 +76,7 @@ Consent by a patient to a surgical or medical procedure or participation in a cl
 | Signing date | A date specification that designates when an informed consent form was signed. | [ICO:0000036](http://purl.obolibrary.org/obo/ICO_0000036) | Date |
 | Valid from | Starting date of the validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
 | Valid until | End date of the validity of a resource. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
-| Represented by | An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research. | [NCIT:C51828](http://purl.obolibrary.org/obo/NCIT_C51828) | [RepresentedBy](../../lookups/RepresentedBy.txt) lookup (2 choices [of type](http://purl.obolibrary.org/obo/BFO_0000023)) |
+| Represented by | An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research. | [NCIT:C51828](http://purl.obolibrary.org/obo/NCIT_C51828) | [RepresentedBy](../../lookups/RepresentedBy.txt) lookup (3 choices [of type](http://purl.obolibrary.org/obo/BFO_0000023)) |
 | Data use permissions | A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used. | [DUO:0000001](http://purl.obolibrary.org/obo/DUO_0000001) | [DataUsePermissions](../../lookups/DataUsePermissions.txt) lookup (5 choices [of type](http://purl.obolibrary.org/obo/DUO_0000001)) |
 | Data use modifiers | Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to an instance of an investigation for a specific disease or at geographical location. | [DUO:0000017](http://purl.obolibrary.org/obo/DUO_0000017) | [DataUseModifiers](../../lookups/DataUseModifiers.txt) lookup (23 choices [of type](http://purl.obolibrary.org/obo/DUO_0000017)) |
 | Modifiers specification | Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research. | [SIO:000090](http://semanticscience.org/resource/SIO_000090) | Text |

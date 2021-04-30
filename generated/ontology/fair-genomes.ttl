@@ -231,6 +231,12 @@ fg:Leaflet_and_consent_form_Consent_form_identifier a owl:DatatypeProperty;
   rdfs:isDefinedBy <http://purl.org/dc/terms/identifier>;
   dc:description "An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value." .
 
+fg:Leaflet_and_consent_form_Consent_form_title a owl:DatatypeProperty;
+  rdfs:label "Consent form title";
+  rdfs:domain fg:Leaflet_and_consent_form;
+  rdfs:isDefinedBy <http://purl.org/dc/terms/title>;
+  dc:description "A name given to the resource." .
+
 fg:Leaflet_and_consent_form_Consent_form_accepted_date a owl:DatatypeProperty;
   rdfs:label "Consent form accepted date";
   rdfs:domain fg:Leaflet_and_consent_form;
