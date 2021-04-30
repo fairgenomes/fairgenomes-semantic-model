@@ -3,6 +3,7 @@ leaflettitle	Leaflet title	A name given to the resource.	leafletandconsentform	s
 leafletdate	Leaflet date	A point or period of time associated with an event in the lifecycle of the resource.	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
 leafletversion	Leaflet version	A related resource that is a version, edition, or adaptation of the described resource.	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
 consentformidentifier	Consent form identifier	An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value.	leafletandconsentform	string	TRUE	TRUE	TRUE	FALSE	
+consentformtitle	Consent form title	A name given to the resource.	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
 consentformaccepteddate	Consent form accepted date	Date of acceptance of the resource.	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
 consentformvaliduntil	Consent form valid until	End date of the validity of a resource.	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
 consentformcreator	Consent form creator	Institute is a society or organization having a object or common factor, and is normally applied to those with a scientific, educational, or social objective.	leafletandconsentform	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_leafletandconsentform_consentformcreator

@@ -17,3 +17,8 @@ fg:Individual_consent_Represented_by_legal_representative_role a obo:BFO_0000023
   rdfs:label "legal representative role";
   dc:description "A deontic role, which may be realized in an Act of Consent, where the bearer of the legal representative role consents on behalf of a person who lacks the capability to provide consent.";
   rdfs:isDefinedBy obo:ICO_0000187 .
+
+fg:Individual_consent_Represented_by_patient a obo:BFO_0000023;
+  rdfs:label "patient";
+  dc:description "An agent who bears a patient role.";
+  rdfs:isDefinedBy obo:ICO_0000422 .

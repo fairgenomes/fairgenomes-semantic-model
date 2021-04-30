@@ -1,3 +1,4 @@
 value_en	description_en	codesystem	code	description_code
 legal guardian role	A role that inheres in an individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.	ICO	http://purl.obolibrary.org/obo/ICO_0000081	legal guardian role
 legal representative role	A deontic role, which may be realized in an Act of Consent, where the bearer of the legal representative role consents on behalf of a person who lacks the capability to provide consent.	ICO	http://purl.obolibrary.org/obo/ICO_0000187	legal representative role
+patient	An agent who bears a patient role.	ICO	http://purl.obolibrary.org/obo/ICO_0000422	patient
