@@ -42,6 +42,8 @@ public class GenerateOutputs {
         new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
         new ToRDFResources(fg, new File(outputs, "resource")).start();
         new ToLaTeXTables(fg, new File(outputs, "latex")).start();
+        new ToJavaAPI(fg, new File(outputs, "java")).start();
+
 
     }
 }

@@ -208,4 +208,29 @@ public class Element {
         }
     }
 
+    /**
+     * Helper function to convert the value type to Java
+     * @return
+     */
+    public String valueTypeToJava(String obj)
+    {
+        switch(valueTypeEnum) {
+            case String: return "String";
+            case Text: return "String";
+            case UniqueID: return "String";
+            case LookupOne: return "String";
+            case LookupMany: return "List<String>";
+            case LookupOne_NoGlobals: return "String";
+            case LookupMany_NoGlobals: return "List<String>";
+            case Integer: return "int";
+            case ReferenceOne: return obj;
+            case ReferenceMany: return "List<"+obj+">";
+            case Date: return "String";
+            case DateTime: return "String";
+            case Boolean: return "boolean";
+            case Decimal: return "double";
+            default: return "String";
+        }
+    }
+
 }
