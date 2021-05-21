@@ -38,3 +38,6 @@ hs_err_pid*
 *.ps
 *.dvi
 *.ps
+
+# Mac
+.DS_Store

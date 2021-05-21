@@ -108,3 +108,7 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 11. Update version in [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv), reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
 12. Update version in [pom.xml](pom.xml).
 13. Prepare for next release: update version in [fair-genomes.yml](fair-genomes.yml).
+
+#### MOLGENIS-EMX2
+
+To upload to molgenis-emx2, make a zip of the generated/molgenis-emx2 and upload.
