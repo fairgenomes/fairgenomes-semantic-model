@@ -2,7 +2,9 @@ package org.fairgenomes.generator.datastructures;
 
 import java.io.File;
 import java.time.LocalDate;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FAIRGenomes {
 
@@ -25,6 +27,8 @@ public class FAIRGenomes {
      */
     public LookupList lookupGlobalOptionsInstance;
     public int totalNrOfLookupsWithoutGlobals;
+    public Map<String, Module> moduleMap;
+
 
     /**
      * Load the lookupGlobalOptions
@@ -59,10 +63,14 @@ public class FAIRGenomes {
      */
     public void loadElementLookups() throws Exception {
         totalNrOfLookupsWithoutGlobals = 0;
+        moduleMap = new HashMap<String, Module>();
         for(Module m: modules)
         {
+            moduleMap.put(m.technicalName, m);
+            m.elementMap = new HashMap<String, Element>();
             for(Element e : m.elements)
             {
+                m.elementMap.put(e.technicalName, e);
                 if(e.isLookup())
                 {
                     int whiteSpaceIndex = e.values.indexOf(" ");

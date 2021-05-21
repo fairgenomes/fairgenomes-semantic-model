@@ -1,6 +1,7 @@
 package org.fairgenomes.generator.datastructures;
 
 import java.util.List;
+import java.util.Map;
 
 public class Module {
 
@@ -19,6 +20,7 @@ public class Module {
     public String codeSystem;
     public String code;
     public String iri;
+    public Map<String, Element> elementMap;
 
     @Override
     public String toString() {
