@@ -106,4 +106,9 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 9. Create Github release on main
 10. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
 11. Update version in [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv), reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
-12. Prepare for next release: update version in [fair-genomes.yml](fair-genomes.yml).
+12. Update version in [pom.xml](pom.xml).
+13. Prepare for next release: update version in [fair-genomes.yml](fair-genomes.yml).
+
+#### MOLGENIS-EMX2
+
+To upload to molgenis-emx2, make a zip of the generated/molgenis-emx2 and upload.

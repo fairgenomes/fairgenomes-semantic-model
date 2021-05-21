@@ -37,11 +37,14 @@ public class GenerateOutputs {
         FileUtils.cleanDirectory(outputs);
         new ToMarkdown(fg, new File(outputs, "markdown")).start();
         new ToMOLGENISEMX(fg, new File(outputs, "molgenis-emx")).start();
+        new ToMOLGENISEMX2(fg, new File(outputs, "molgenis-emx2")).start();
         new ToApplicationOntology(fg, new File(outputs, "ontology")).start();
         new ToPALGACodeBook(fg, new File(outputs, "palga-codebook")).start();
         new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
         new ToRDFResources(fg, new File(outputs, "resource")).start();
         new ToLaTeXTables(fg, new File(outputs, "latex")).start();
+        new ToJavaAPI(fg, new File(outputs, "java")).start();
+
 
     }
 }
