@@ -8,154 +8,168 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-fg:Study_Inclusion_criteria_Health_status a obo:NCIT_C47953;
-  rdfs:label "Health status";
-  dc:description "Health status";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Health_status> .
+fg:Study_Inclusion_criteria_BMI_range_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "BMI range inclusion criterion";
+  dc:description "An inclusion criterion that defines and states a Body Mass Index range, which if met, makes an individual suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002428 .
 
-fg:Study_Inclusion_criteria_Hospital_patient a obo:NCIT_C47953;
-  rdfs:label "Hospital patient";
-  dc:description "Hospital patient";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Hospital_patient> .
+fg:Study_Inclusion_criteria_age_group_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "age group inclusion criterion";
+  dc:description "An inclusion criterion that defines and states an age bracket which, if met, makes an entity suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002555 .
 
-fg:Study_Inclusion_criteria_Use_of_medication a obo:NCIT_C47953;
-  rdfs:label "Use of medication";
-  dc:description "Use of medication";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Use_of_medication> .
+fg:Study_Inclusion_criteria_age_of_majority_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "age of majority inclusion criterion";
+  dc:description "An inclusion criterion that uses the age of majority for a state or institution, where one is generally considered to be an adult, which if met, makes an individual suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002423 .
 
-fg:Study_Inclusion_criteria_Gravidity a obo:NCIT_C47953;
-  rdfs:label "Gravidity";
-  dc:description "Gravidity";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Gravidity> .
+fg:Study_Inclusion_criteria_clinically_relevant_exposure_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "clinically relevant exposure inclusion criterion";
+  dc:description "An inclusion criterion that defines and states one or more clinically relevant histories of exposure of an entity, which, if met, makes the entity suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002455 .
 
-fg:Study_Inclusion_criteria_Age_group a obo:NCIT_C47953;
-  rdfs:label "Age group";
-  dc:description "Age group";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Age_group> .
+fg:Study_Inclusion_criteria_clinically_relevant_lifestyle_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "clinically relevant lifestyle inclusion criterion";
+  dc:description "An inclusion criterion that defines and states one or more clinically relevant planned processes that a human being actively participates in , which, if met, makes the human being suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002454 .
 
-fg:Study_Inclusion_criteria_Familial_status a obo:NCIT_C47953;
-  rdfs:label "Familial status";
-  dc:description "Familial status";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Familial_status> .
+fg:Study_Inclusion_criteria_country_of_residence_inclusion_criteria a obo:OBI_0500027;
+  rdfs:label "country of residence inclusion criteria";
+  dc:description "An inclusion criterion that defines and states one or more countries of residence which, if met, makes a human being suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002562 .
 
-fg:Study_Inclusion_criteria_Sex a obo:NCIT_C47953;
-  rdfs:label "Sex";
-  dc:description "Sex";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Sex> .
+fg:Study_Inclusion_criteria_defined_population_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "defined population inclusion criterion";
+  dc:description "An inclusion criterion that is based on fitting within the defined characteristics of a population based study design.";
+  rdfs:isDefinedBy obo:OBI_0002460 .
 
-fg:Study_Inclusion_criteria_Country_of_residence a obo:NCIT_C47953;
-  rdfs:label "Country of residence";
-  dc:description "Country of residence";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Country_of_residence> .
+fg:Study_Inclusion_criteria_ethnicity_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "ethnicity inclusion criterion";
+  dc:description "An inclusion criteria that defines and states one or more ethnicities which, if met, makes an entity suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002563 .
 
-fg:Study_Inclusion_criteria_Ethnic_origin a obo:NCIT_C47953;
-  rdfs:label "Ethnic origin";
-  dc:description "Ethnic origin";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Ethnic_origin> .
+fg:Study_Inclusion_criteria_family_status_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "family status inclusion criterion";
+  dc:description "An inclusion criterion that defines and states one or more family statuses, which, if met, makes a human being suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002560 .
 
-fg:Study_Inclusion_criteria_Population_representative_sampling a obo:NCIT_C47953;
-  rdfs:label "Population representative sampling";
-  dc:description "Population representative sampling";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Population_representative_sampling> .
+fg:Study_Inclusion_criteria_gravidity_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "gravidity inclusion criterion";
+  dc:description "An inclusion criterion that defines and states one or more gravidity statuses of an organism, which, if met, makes the entity suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002456 .
 
-<https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Lifestyle/Exposure>
-  a obo:NCIT_C47953;
-  rdfs:label "Lifestyle/Exposure";
-  dc:description "Lifestyle/Exposure";
-  rdfs:isDefinedBy <https://github.com/BBMRI-ERIC/miabis/blob/master/Structured-data-and-lists.md#inclusion-criteria:Lifestyle/Exposure> .
+fg:Study_Inclusion_criteria_health_status_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "health status inclusion criterion";
+  dc:description "An inclusion criterion that defines and states one or more clinically significant bodily components, dispositions, and/or bodily processes of an entity that are inferred from relevant clinical findings or self-reported, which, if met, makes the entity suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002453 .
+
+fg:Study_Inclusion_criteria_hospital_patient_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "hospital patient inclusion criterion";
+  dc:description "An inclusion criterion defines that a human being has to be a hospital patient to be suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002559 .
+
+fg:Study_Inclusion_criteria_sex_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "sex inclusion criterion";
+  dc:description "An inclusion criterion that defines and states one or more sexes which, if met, makes an entity suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002561 .
+
+fg:Study_Inclusion_criteria_use_of_medication_inclusion_criterion a obo:OBI_0500027;
+  rdfs:label "use of medication inclusion criterion";
+  dc:description "An inclusion criterion that defines and states a a set of medications, which, if used by an entity, makes that entity suitable for a given task or participation in a given process.";
+  rdfs:isDefinedBy obo:OBI_0002558 .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_NoInformation_(NI,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Invalid_(INV,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Derived_(DER,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Other_(OTH,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Negative_infinity_(NINF,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Positive_infinity_(PINF,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Un-encoded_(UNC,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Masked_(MSK,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Not_applicable_(NA,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Unknown_(UNK,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Asked_but_unknown_(ASKU,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Temporarily_unavailable_(NAV,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Not_asked_(NASK,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Not_available_(NAVU,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Sufficient_quantity_(QS,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://w3id.org/fair-genomes/ontology/Study_Inclusion_criteria_Trace_(TRC,_nullflavor)>
-  a obo:NCIT_C47953;
+  a obo:OBI_0500027;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .
