@@ -20,7 +20,7 @@ public class Lookup {
         String[] s = lineFromFile.split("\t", -1);
         if(s.length != 5)
         {
-            throw new Exception("Expected lines with 5 tab-separated elements each");
+            throw new Exception("Expected lines with 5 tab-separated elements each. Found: " + lineFromFile);
         }
 
         this.value = s[0];

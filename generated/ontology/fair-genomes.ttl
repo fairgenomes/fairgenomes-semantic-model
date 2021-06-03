@@ -85,7 +85,7 @@ fg:Study_Inclusion_criteria a owl:ObjectProperty;
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OBI_0500027;
   dc:description "An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.";
-  rdfs:range obo:NCIT_C47953 .
+  rdfs:range obo:OBI_0500027 .
 
 fg:Study_Principal_investigator a owl:DatatypeProperty;
   rdfs:label "Principal investigator";
@@ -536,7 +536,7 @@ fg:Material_Biospecimen_type a owl:ObjectProperty;
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C70713;
   dc:description "The type of a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. This includes particular types of cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory substances.";
-  rdfs:range obo:NCIT_C70713 .
+  rdfs:range obo:NCIT_C70699 .
 
 fg:Material_Anatomical_source a owl:ObjectProperty;
   rdfs:label "Anatomical source";
