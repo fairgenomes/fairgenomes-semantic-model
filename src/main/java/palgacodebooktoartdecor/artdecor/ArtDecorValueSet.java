@@ -222,7 +222,8 @@ public class ArtDecorValueSet {
          */
         private String toXML(){
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append("<concept code=\""+conceptCode+"\" codeSystem=\""+ conceptCodeSystem+"\" codeSystemName=\""+conceptCodeSystemName+"\" displayName=\""+escapeXML(displayName)+"\" level=\""+level+"\" type=\""+type+"\">\n");
+            // TODO: the exception vs code check should be done via a proper variable instead of interpreting the displayName string
+            stringBuilder.append("<" + (displayName.contains("nullflavor") ? "exception" : "concept") + " code=\""+conceptCode+"\" codeSystem=\""+ conceptCodeSystem+"\" codeSystemName=\""+conceptCodeSystemName+"\" displayName=\""+escapeXML(displayName)+"\" level=\""+level+"\" type=\""+type+"\">\n");
             for(Designation designation:designationList){
                 stringBuilder.append(designation.toXML());
             }
