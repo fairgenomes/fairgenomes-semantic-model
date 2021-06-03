@@ -65,7 +65,7 @@ modules:
           - name: Inclusion criteria
             description: An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.
             ontology: OBI:0500027 [http://purl.obolibrary.org/obo/OBI_0500027]
-            values: LookupMany [lookups/InclusionCriteria.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C47953]
+            values: LookupMany [lookups/InclusionCriteria.txt], ofType [http://purl.obolibrary.org/obo/OBI_0500027]
           - name: Principal investigator
             description: The principle investigtor or responsible person for a study or a sample collection.
             ontology: OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]
@@ -354,7 +354,7 @@ modules:
           - name: Biospecimen type
             description: The type of a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. This includes particular types of cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory substances.
             ontology: NCIT:C70713 [http://purl.obolibrary.org/obo/NCIT_C70713]
-            values: LookupOne [lookups/MaterialTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C70713]
+            values: LookupOne [lookups/MaterialTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C70699]
           - name: Anatomical source
             description: Biological entity that constitutes the structural organization of an individual member of a biological species.
             ontology: UBERON:0001062 [http://purl.obolibrary.org/obo/UBERON_0001062]
