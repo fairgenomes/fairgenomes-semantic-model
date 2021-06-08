@@ -227,7 +227,7 @@ public class ArtDecorValueSet {
             for(Designation designation:designationList){
                 stringBuilder.append(designation.toXML());
             }
-            stringBuilder.append("</concept>\n");
+            stringBuilder.append("</" + (displayName.contains("nullflavor") ? "exception" : "concept") + ">\n");
             return stringBuilder.toString();
         }
 
