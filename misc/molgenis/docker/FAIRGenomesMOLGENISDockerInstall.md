@@ -16,7 +16,7 @@ git clone https://github.com/fairgenomes/fairgenomes-semantic-model.git
 ## Bring MOLGENIS Docker online and load the fair genomes data
 - Start MOLGENIS services in docker
 ```
-cd fairgenomes-semantic-model/molgenis/docker/
+cd fairgenomes-semantic-model/misc/molgenis/docker
 docker-compose up -d
 ```
 - Many files will be imported, to check the logs type:
