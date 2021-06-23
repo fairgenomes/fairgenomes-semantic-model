@@ -1,0 +1,94 @@
+version: "3.8"
+services:
+  commander:
+    build: .
+    environment: 
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=admin
+      - MOLGENIS_HOST=http://molgenis:8080
+    volumes:
+      - ../../../generated/molgenis-emx:/data/emx
+      - ../other:/data/other
+      - ../img:/data/img
+      - ./molgenis_prepare:/root/.mcmd/scripts/molgenis_prepare
+    depends_on:
+      - molgenis
+  frontend:
+    image: molgenis/molgenis-frontend:8.7.2
+    ports:
+      - "80:80"
+    volumes:
+      - ./backend.conf:/etc/nginx/proxy.d/backend.conf
+    depends_on:
+      - molgenis
+  molgenis:
+    image: molgenis/molgenis-app:8.7.2
+    environment:
+      - environment=production
+      - molgenis.home=/home/molgenis
+      - opencpu.uri.host=opencpu
+      - elasticsearch.transport.addresses=elasticsearch:9300
+      - db_uri=jdbc:postgresql://postgres/molgenis
+      - db_user=molgenis
+      - db_password=molgenis
+      - admin.password=admin
+      - MINIO_BUCKET_NAME=molgenis
+      - MINIO_ENDPOINT=http://minio:9000
+      - MINIO_ACCESS_KEY=molgenis
+      - MINIO_SECRET_KEY=molgenis
+      - MOLGENIS_MAX_FILE_MB=150
+      - "CATALINA_OPTS=-Xmx1g -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled"
+    expose:
+      - "8080"
+    volumes:
+      - app-data:/home/molgenis
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres:11-alpine
+    environment:
+      - POSTGRES_USER=molgenis
+      - POSTGRES_PASSWORD=molgenis
+      - POSTGRES_DB=molgenis
+    expose:
+      - "5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    command: -c 'shared_buffers=256MB' -c 'max_locks_per_transaction=1024'
+  elasticsearch:
+    image: molgenis/molgenis-elasticsearch:1.0.0
+    environment:
+      - cluster.name=molgenis
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - discovery.type=single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+      - 9300:9300
+  opencpu:
+    image: molgenis/opencpu:opencpu-release-2019-03-20_12-07-11
+    profiles:
+      - opencpu
+    ports:
+      - 8004:8004
+  minio:
+    image: minio/minio:RELEASE.2019-03-20T22-38-47Z
+    volumes:
+      - minio-data:/data
+    ports:
+      - 9000:9000
+    environment:
+      MINIO_ACCESS_KEY: molgenis
+      MINIO_SECRET_KEY: molgenis
+    command: server /data
+volumes:
+  db-data:
+  app-data:
+  es-data:
+  minio-data:

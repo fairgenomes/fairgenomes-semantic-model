@@ -1,0 +1,97 @@
+import sys_md_Package.tsv
+import study_inclusioncriteria_attributes.tsv --as attributes --in fair-genomes
+import personal_phenotypicsex_attributes.tsv --as attributes --in fair-genomes
+import personal_genotypicsex_attributes.tsv --as attributes --in fair-genomes
+import personal_countryofresidence_attributes.tsv --as attributes --in fair-genomes
+import personal_ancestry_attributes.tsv --as attributes --in fair-genomes
+import personal_countryofbirth_attributes.tsv --as attributes --in fair-genomes
+import personal_inclusionstatus_attributes.tsv --as attributes --in fair-genomes
+import personal_primaryaffiliatedinstitute_attributes.tsv --as attributes --in fair-genomes
+import personal_resourcesinotherinstitutes_attributes.tsv --as attributes --in fair-genomes
+import leafletandconsentform_consentformcreator_attributes.tsv --as attributes --in fair-genomes
+import individualconsent_collectedby_attributes.tsv --as attributes --in fair-genomes
+import individualconsent_representedby_attributes.tsv --as attributes --in fair-genomes
+import individualconsent_datausepermissions_attributes.tsv --as attributes --in fair-genomes
+import individualconsent_datausemodifiers_attributes.tsv --as attributes --in fair-genomes
+import individualconsent_allowrecontacting_attributes.tsv --as attributes --in fair-genomes
+import clinical_phenotype_attributes.tsv --as attributes --in fair-genomes
+import clinical_unobservedphenotype_attributes.tsv --as attributes --in fair-genomes
+import clinical_phenotypicdataavailable_attributes.tsv --as attributes --in fair-genomes
+import clinical_clinicaldiagnosis_attributes.tsv --as attributes --in fair-genomes
+import clinical_moleculardiagnosisgene_attributes.tsv --as attributes --in fair-genomes
+import clinical_medication_attributes.tsv --as attributes --in fair-genomes
+import clinical_familymembersaffected_attributes.tsv --as attributes --in fair-genomes
+import clinical_familymemberssequenced_attributes.tsv --as attributes --in fair-genomes
+import clinical_medicalhistory_attributes.tsv --as attributes --in fair-genomes
+import material_biospecimentype_attributes.tsv --as attributes --in fair-genomes
+import material_anatomicalsource_attributes.tsv --as attributes --in fair-genomes
+import material_pathologicalstate_attributes.tsv --as attributes --in fair-genomes
+import material_storageconditions_attributes.tsv --as attributes --in fair-genomes
+import samplepreparation_librarypreparationkit_attributes.tsv --as attributes --in fair-genomes
+import samplepreparation_targetenrichmentkit_attributes.tsv --as attributes --in fair-genomes
+import sequencing_sequencingplatform_attributes.tsv --as attributes --in fair-genomes
+import sequencing_sequencinginstrumentmodel_attributes.tsv --as attributes --in fair-genomes
+import sequencing_sequencingtype_attributes.tsv --as attributes --in fair-genomes
+import analysis_dataformatsstored_attributes.tsv --as attributes --in fair-genomes
+import analysis_referencegenomeused_attributes.tsv --as attributes --in fair-genomes
+import study_inclusioncriteria.tsv --as fair-genomes_study_inclusioncriteria --in fair-genomes
+import personal_phenotypicsex.tsv --as fair-genomes_personal_phenotypicsex --in fair-genomes
+import personal_genotypicsex.tsv --as fair-genomes_personal_genotypicsex --in fair-genomes
+import personal_countryofresidence.tsv --as fair-genomes_personal_countryofresidence --in fair-genomes
+import personal_ancestry.tsv --as fair-genomes_personal_ancestry --in fair-genomes
+import personal_countryofbirth.tsv --as fair-genomes_personal_countryofbirth --in fair-genomes
+import personal_inclusionstatus.tsv --as fair-genomes_personal_inclusionstatus --in fair-genomes
+import personal_primaryaffiliatedinstitute.tsv --as fair-genomes_personal_primaryaffiliatedinstitute --in fair-genomes
+import personal_resourcesinotherinstitutes.tsv --as fair-genomes_personal_resourcesinotherinstitutes --in fair-genomes
+import leafletandconsentform_consentformcreator.tsv --as fair-genomes_leafletandconsentform_consentformcreator --in fair-genomes
+import individualconsent_collectedby.tsv --as fair-genomes_individualconsent_collectedby --in fair-genomes
+import individualconsent_representedby.tsv --as fair-genomes_individualconsent_representedby --in fair-genomes
+import individualconsent_datausepermissions.tsv --as fair-genomes_individualconsent_datausepermissions --in fair-genomes
+import individualconsent_datausemodifiers.tsv --as fair-genomes_individualconsent_datausemodifiers --in fair-genomes
+import individualconsent_allowrecontacting.tsv --as fair-genomes_individualconsent_allowrecontacting --in fair-genomes
+import clinical_phenotype.tsv --as fair-genomes_clinical_phenotype --in fair-genomes
+import clinical_unobservedphenotype.tsv --as fair-genomes_clinical_unobservedphenotype --in fair-genomes
+import clinical_phenotypicdataavailable.tsv --as fair-genomes_clinical_phenotypicdataavailable --in fair-genomes
+import clinical_clinicaldiagnosis.tsv --as fair-genomes_clinical_clinicaldiagnosis --in fair-genomes
+import clinical_moleculardiagnosisgene.tsv --as fair-genomes_clinical_moleculardiagnosisgene --in fair-genomes
+import clinical_medication.tsv --as fair-genomes_clinical_medication --in fair-genomes
+import clinical_familymembersaffected.tsv --as fair-genomes_clinical_familymembersaffected --in fair-genomes
+import clinical_familymemberssequenced.tsv --as fair-genomes_clinical_familymemberssequenced --in fair-genomes
+import clinical_medicalhistory.tsv --as fair-genomes_clinical_medicalhistory --in fair-genomes
+import material_biospecimentype.tsv --as fair-genomes_material_biospecimentype --in fair-genomes
+import material_anatomicalsource.tsv --as fair-genomes_material_anatomicalsource --in fair-genomes
+import material_pathologicalstate.tsv --as fair-genomes_material_pathologicalstate --in fair-genomes
+import material_storageconditions.tsv --as fair-genomes_material_storageconditions --in fair-genomes
+import samplepreparation_librarypreparationkit.tsv --as fair-genomes_samplepreparation_librarypreparationkit --in fair-genomes
+import samplepreparation_targetenrichmentkit.tsv --as fair-genomes_samplepreparation_targetenrichmentkit --in fair-genomes
+import sequencing_sequencingplatform.tsv --as fair-genomes_sequencing_sequencingplatform --in fair-genomes
+import sequencing_sequencinginstrumentmodel.tsv --as fair-genomes_sequencing_sequencinginstrumentmodel --in fair-genomes
+import sequencing_sequencingtype.tsv --as fair-genomes_sequencing_sequencingtype --in fair-genomes
+import analysis_dataformatsstored.tsv --as fair-genomes_analysis_dataformatsstored --in fair-genomes
+import analysis_referencegenomeused.tsv --as fair-genomes_analysis_referencegenomeused --in fair-genomes
+import study_attributes.tsv --as attributes --in fair-genomes
+import personal_attributes.tsv --as attributes --in fair-genomes
+import leafletandconsentform_attributes.tsv --as attributes --in fair-genomes
+import individualconsent_attributes.tsv --as attributes --in fair-genomes
+import clinical_attributes.tsv --as attributes --in fair-genomes
+import material_attributes.tsv --as attributes --in fair-genomes
+import samplepreparation_attributes.tsv --as attributes --in fair-genomes
+import sequencing_attributes.tsv --as attributes --in fair-genomes
+import analysis_attributes.tsv --as attributes --in fair-genomes
+import sys_StaticContent.tsv -a add_update_existing
+add logo analysis.png
+add logo lookups.png
+add logo clinical.png
+add logo leafletandconsentform.png
+add logo individualconsent.png
+add logo contribute.png
+add logo info.png
+add logo material.png
+add logo personal.png
+add logo samplepreparation.png
+add logo sequencing.png
+add logo study.png
+add logo fair_genomes_logo_notext.png
+add logo fair_genomes_logo.png
+make --role ANONYMOUS fair-genomes_EDITOR
+give anonymous view sys_md
