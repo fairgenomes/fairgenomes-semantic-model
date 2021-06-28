@@ -1,0 +1,19 @@
+---
+name: FAIR Genomes adapter for DEB Central
+description: FAIR Genomes data adapter for DEB Central, the international registry of dystrophic epidermolysis bullosa (DEB) patients and associated COL7A1 mutations.
+version: 0.1
+releaseType: SNAPSHOT
+date: 2021-06-28
+source:
+    - name: DEB Central
+      uri: https://www.deb-central.org/api/v2/Patients
+      accessType: API
+      format: JSON
+mapping:
+    - source: Patient_ID
+      target: Personal -> Personal identifier
+    - source: Pheno
+      target: Clinical -> Phenotype
+    - source: cDNA_change
+      target: Clinical -> Molecular diagnosis other
+
