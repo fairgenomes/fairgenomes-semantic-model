@@ -101,7 +101,7 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 4. Update PDF (run toPDF.sh in generated/latex)
 5. Make commits and push to fork
 6. Pull request and merge with main (i.e. _fairgenomes_ organization)
-7. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Ffairgenomes.github.io%2Ffairgenomes-semantic-model%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en.) to TTL file in main repo
+7. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairgenomes%2Ffairgenomes-semantic-model%2Fmain%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en) to TTL file in main repo
 8. Commit LODE page to fork, then again PR and merge with main
 9. Create Github release on main
 10. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
