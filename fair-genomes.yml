@@ -223,8 +223,8 @@ modules:
             description: Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.
             ontology: DUO:0000017 [http://purl.obolibrary.org/obo/DUO_0000017]
             values: LookupMany_NoGlobals [lookups/DataUseModifiers.txt], ofType [http://purl.obolibrary.org/obo/DUO_0000017]
-          - name: Modifiers specification
-            description: Details on any applied restrictions, such as which countries in case of a geographic restriction or which diseases when restricted to disease-specific research.
+          - name: Data use specification
+            description: Specifications on any applied data use permissions and modifiers. For example, a list of countries in case of a geographic restriction or a list of diseases when restricted to disease-specific research.
             ontology: SIO:000090 [http://semanticscience.org/resource/SIO_000090]
             values: Text
           - name: Allow recontacting
