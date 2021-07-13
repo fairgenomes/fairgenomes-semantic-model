@@ -86,6 +86,7 @@ modules:
             description: The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date.
             ontology: NCIT:C142702 [http://purl.obolibrary.org/obo/NCIT_C142702]
             values: Date
+            # Many-to-many relation of Study-Personal: ReferenceMany [Personal]
     - name: Personal
       description: Data, facts or figures about an individual; the set of relevant items would depend on the use case.
       ontology: NCIT:C90492 [http://purl.obolibrary.org/obo/NCIT_C90492]
@@ -215,7 +216,7 @@ modules:
             ontology: NCIT:C51828 [http://purl.obolibrary.org/obo/NCIT_C51828]
             values:  LookupOne_NoGlobals [lookups/RepresentedBy.txt], ofType [http://purl.obolibrary.org/obo/BFO_0000023]
           - name: Data use permissions
-            description: A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used.
+            description: A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.
             ontology: DUO:0000001 [http://purl.obolibrary.org/obo/DUO_0000001]
             values: LookupOne_NoGlobals [lookups/DataUsePermissions.txt], ofType [http://purl.obolibrary.org/obo/DUO_0000001]
           - name: Data use modifiers
