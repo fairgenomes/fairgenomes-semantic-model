@@ -34,7 +34,7 @@ import samplepreparation_librarypreparationkit_attributes.tsv --as attributes --
 import samplepreparation_targetenrichmentkit_attributes.tsv --as attributes --in fair-genomes
 import sequencing_sequencingplatform_attributes.tsv --as attributes --in fair-genomes
 import sequencing_sequencinginstrumentmodel_attributes.tsv --as attributes --in fair-genomes
-import sequencing_sequencingtype_attributes.tsv --as attributes --in fair-genomes
+import sequencing_sequencingmethod_attributes.tsv --as attributes --in fair-genomes
 import analysis_dataformatsstored_attributes.tsv --as attributes --in fair-genomes
 import analysis_referencegenomeused_attributes.tsv --as attributes --in fair-genomes
 import study_inclusioncriteria.tsv --as fair-genomes_study_inclusioncriteria --in fair-genomes
