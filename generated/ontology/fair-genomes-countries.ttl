@@ -8,2775 +8,2775 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-fg:Personal_Country_of_residence_Afghanistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Afghanistan a obo:GENEPIO_0001830;
   rdfs:label "Afghanistan";
   dc:description "Afghanistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AF> .
 
-fg:Personal_Country_of_residence_Albania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Albania a obo:GENEPIO_0001830;
   rdfs:label "Albania";
   dc:description "Albania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AL> .
 
-fg:Personal_Country_of_residence_Algeria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Algeria a obo:GENEPIO_0001830;
   rdfs:label "Algeria";
   dc:description "Algeria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DZ> .
 
-fg:Personal_Country_of_residence_American_Samoa a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_American_Samoa a obo:GENEPIO_0001830;
   rdfs:label "American Samoa";
   dc:description "American Samoa";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AS> .
 
-fg:Personal_Country_of_residence_Andorra a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Andorra a obo:GENEPIO_0001830;
   rdfs:label "Andorra";
   dc:description "Andorra";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AD> .
 
-fg:Personal_Country_of_residence_Angola a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Angola a obo:GENEPIO_0001830;
   rdfs:label "Angola";
   dc:description "Angola";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AO> .
 
-fg:Personal_Country_of_residence_Anguilla a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Anguilla a obo:GENEPIO_0001830;
   rdfs:label "Anguilla";
   dc:description "Anguilla";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AI> .
 
-fg:Personal_Country_of_residence_Antarctica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Antarctica a obo:GENEPIO_0001830;
   rdfs:label "Antarctica";
   dc:description "Antarctica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AQ> .
 
-fg:Personal_Country_of_residence_Antigua_and_Barbuda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Antigua_and_Barbuda a obo:GENEPIO_0001830;
   rdfs:label "Antigua and Barbuda";
   dc:description "Antigua and Barbuda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AG> .
 
-fg:Personal_Country_of_residence_Argentina a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Argentina a obo:GENEPIO_0001830;
   rdfs:label "Argentina";
   dc:description "Argentina";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AR> .
 
-fg:Personal_Country_of_residence_Armenia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Armenia a obo:GENEPIO_0001830;
   rdfs:label "Armenia";
   dc:description "Armenia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AM> .
 
-fg:Personal_Country_of_residence_Aruba a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Aruba a obo:GENEPIO_0001830;
   rdfs:label "Aruba";
   dc:description "Aruba";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AW> .
 
-fg:Personal_Country_of_residence_Australia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Australia a obo:GENEPIO_0001830;
   rdfs:label "Australia";
   dc:description "Australia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> .
 
-fg:Personal_Country_of_residence_Austria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Austria a obo:GENEPIO_0001830;
   rdfs:label "Austria";
   dc:description "Austria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AT> .
 
-fg:Personal_Country_of_residence_Azerbaijan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Azerbaijan a obo:GENEPIO_0001830;
   rdfs:label "Azerbaijan";
   dc:description "Azerbaijan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AZ> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Bahamas_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Bahamas (the)";
   dc:description "Bahamas (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BS> .
 
-fg:Personal_Country_of_residence_Bahrain a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Bahrain a obo:GENEPIO_0001830;
   rdfs:label "Bahrain";
   dc:description "Bahrain";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BH> .
 
-fg:Personal_Country_of_residence_Bangladesh a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Bangladesh a obo:GENEPIO_0001830;
   rdfs:label "Bangladesh";
   dc:description "Bangladesh";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BD> .
 
-fg:Personal_Country_of_residence_Barbados a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Barbados a obo:GENEPIO_0001830;
   rdfs:label "Barbados";
   dc:description "Barbados";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BB> .
 
-fg:Personal_Country_of_residence_Belarus a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Belarus a obo:GENEPIO_0001830;
   rdfs:label "Belarus";
   dc:description "Belarus";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BY> .
 
-fg:Personal_Country_of_residence_Belgium a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Belgium a obo:GENEPIO_0001830;
   rdfs:label "Belgium";
   dc:description "Belgium";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BE> .
 
-fg:Personal_Country_of_residence_Belize a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Belize a obo:GENEPIO_0001830;
   rdfs:label "Belize";
   dc:description "Belize";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BZ> .
 
-fg:Personal_Country_of_residence_Benin a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Benin a obo:GENEPIO_0001830;
   rdfs:label "Benin";
   dc:description "Benin";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BJ> .
 
-fg:Personal_Country_of_residence_Bermuda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Bermuda a obo:GENEPIO_0001830;
   rdfs:label "Bermuda";
   dc:description "Bermuda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BM> .
 
-fg:Personal_Country_of_residence_Bhutan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Bhutan a obo:GENEPIO_0001830;
   rdfs:label "Bhutan";
   dc:description "Bhutan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BT> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Bolivia_(Plurinational_State_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Bolivia (Plurinational State of)";
   dc:description "Bolivia (Plurinational State of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BO> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Bonaire,_Sint_Eustatius_and_Saba>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Bonaire, Sint Eustatius and Saba";
   dc:description "Bonaire, Sint Eustatius and Saba";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BQ> .
 
-fg:Personal_Country_of_residence_Bosnia_and_Herzegovina a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Bosnia_and_Herzegovina a obo:GENEPIO_0001830;
   rdfs:label "Bosnia and Herzegovina";
   dc:description "Bosnia and Herzegovina";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BA> .
 
-fg:Personal_Country_of_residence_Botswana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Botswana a obo:GENEPIO_0001830;
   rdfs:label "Botswana";
   dc:description "Botswana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BW> .
 
-fg:Personal_Country_of_residence_Bouvet_Island a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Bouvet_Island a obo:GENEPIO_0001830;
   rdfs:label "Bouvet Island";
   dc:description "Bouvet Island";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BV> .
 
-fg:Personal_Country_of_residence_Brazil a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Brazil a obo:GENEPIO_0001830;
   rdfs:label "Brazil";
   dc:description "Brazil";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BR> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_British_Indian_Ocean_Territory_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "British Indian Ocean Territory (the)";
   dc:description "British Indian Ocean Territory (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IO> .
 
-fg:Personal_Country_of_residence_Brunei_Darussalam a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Brunei_Darussalam a obo:GENEPIO_0001830;
   rdfs:label "Brunei Darussalam";
   dc:description "Brunei Darussalam";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BN> .
 
-fg:Personal_Country_of_residence_Bulgaria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Bulgaria a obo:GENEPIO_0001830;
   rdfs:label "Bulgaria";
   dc:description "Bulgaria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BG> .
 
-fg:Personal_Country_of_residence_Burkina_Faso a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Burkina_Faso a obo:GENEPIO_0001830;
   rdfs:label "Burkina Faso";
   dc:description "Burkina Faso";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BF> .
 
-fg:Personal_Country_of_residence_Burundi a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Burundi a obo:GENEPIO_0001830;
   rdfs:label "Burundi";
   dc:description "Burundi";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BI> .
 
-fg:Personal_Country_of_residence_Cabo_Verde a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Cabo_Verde a obo:GENEPIO_0001830;
   rdfs:label "Cabo Verde";
   dc:description "Cabo Verde";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CV> .
 
-fg:Personal_Country_of_residence_Cambodia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Cambodia a obo:GENEPIO_0001830;
   rdfs:label "Cambodia";
   dc:description "Cambodia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KH> .
 
-fg:Personal_Country_of_residence_Cameroon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Cameroon a obo:GENEPIO_0001830;
   rdfs:label "Cameroon";
   dc:description "Cameroon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CM> .
 
-fg:Personal_Country_of_residence_Canada a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Canada a obo:GENEPIO_0001830;
   rdfs:label "Canada";
   dc:description "Canada";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Cayman_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Cayman Islands (the)";
   dc:description "Cayman Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KY> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Central_African_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Central African Republic (the)";
   dc:description "Central African Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CF> .
 
-fg:Personal_Country_of_residence_Chad a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Chad a obo:GENEPIO_0001830;
   rdfs:label "Chad";
   dc:description "Chad";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TD> .
 
-fg:Personal_Country_of_residence_Chile a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Chile a obo:GENEPIO_0001830;
   rdfs:label "Chile";
   dc:description "Chile";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> .
 
-fg:Personal_Country_of_residence_China a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_China a obo:GENEPIO_0001830;
   rdfs:label "China";
   dc:description "China";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CN> .
 
-fg:Personal_Country_of_residence_Christmas_Island a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Christmas_Island a obo:GENEPIO_0001830;
   rdfs:label "Christmas Island";
   dc:description "Christmas Island";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CX> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Cocos_(Keeling)_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Cocos (Keeling) Islands (the)";
   dc:description "Cocos (Keeling) Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CC> .
 
-fg:Personal_Country_of_residence_Colombia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Colombia a obo:GENEPIO_0001830;
   rdfs:label "Colombia";
   dc:description "Colombia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CO> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Comoros_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Comoros (the)";
   dc:description "Comoros (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Congo_(the_Democratic_Republic_of_the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Congo (the Democratic Republic of the)";
   dc:description "Congo (the Democratic Republic of the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CD> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Congo_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Congo (the)";
   dc:description "Congo (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Cook_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Cook Islands (the)";
   dc:description "Cook Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CK> .
 
-fg:Personal_Country_of_residence_Costa_Rica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Costa_Rica a obo:GENEPIO_0001830;
   rdfs:label "Costa Rica";
   dc:description "Costa Rica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CR> .
 
-fg:Personal_Country_of_residence_Croatia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Croatia a obo:GENEPIO_0001830;
   rdfs:label "Croatia";
   dc:description "Croatia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HR> .
 
-fg:Personal_Country_of_residence_Cuba a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Cuba a obo:GENEPIO_0001830;
   rdfs:label "Cuba";
   dc:description "Cuba";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CU> .
 
-fg:Personal_Country_of_residence_Curaçao a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Curaçao a obo:GENEPIO_0001830;
   rdfs:label "Curaçao";
   dc:description "Curaçao";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CW> .
 
-fg:Personal_Country_of_residence_Cyprus a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Cyprus a obo:GENEPIO_0001830;
   rdfs:label "Cyprus";
   dc:description "Cyprus";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CY> .
 
-fg:Personal_Country_of_residence_Czechia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Czechia a obo:GENEPIO_0001830;
   rdfs:label "Czechia";
   dc:description "Czechia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CZ> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Côte_d'Ivoire>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Côte d'Ivoire";
   dc:description "Côte d'Ivoire";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CI> .
 
-fg:Personal_Country_of_residence_Denmark a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Denmark a obo:GENEPIO_0001830;
   rdfs:label "Denmark";
   dc:description "Denmark";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DK> .
 
-fg:Personal_Country_of_residence_Djibouti a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Djibouti a obo:GENEPIO_0001830;
   rdfs:label "Djibouti";
   dc:description "Djibouti";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DJ> .
 
-fg:Personal_Country_of_residence_Dominica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Dominica a obo:GENEPIO_0001830;
   rdfs:label "Dominica";
   dc:description "Dominica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Dominican_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Dominican Republic (the)";
   dc:description "Dominican Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DO> .
 
-fg:Personal_Country_of_residence_Ecuador a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Ecuador a obo:GENEPIO_0001830;
   rdfs:label "Ecuador";
   dc:description "Ecuador";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EC> .
 
-fg:Personal_Country_of_residence_Egypt a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Egypt a obo:GENEPIO_0001830;
   rdfs:label "Egypt";
   dc:description "Egypt";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EG> .
 
-fg:Personal_Country_of_residence_El_Salvador a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_El_Salvador a obo:GENEPIO_0001830;
   rdfs:label "El Salvador";
   dc:description "El Salvador";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SV> .
 
-fg:Personal_Country_of_residence_Equatorial_Guinea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Equatorial_Guinea a obo:GENEPIO_0001830;
   rdfs:label "Equatorial Guinea";
   dc:description "Equatorial Guinea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GQ> .
 
-fg:Personal_Country_of_residence_Eritrea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Eritrea a obo:GENEPIO_0001830;
   rdfs:label "Eritrea";
   dc:description "Eritrea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ER> .
 
-fg:Personal_Country_of_residence_Estonia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Estonia a obo:GENEPIO_0001830;
   rdfs:label "Estonia";
   dc:description "Estonia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EE> .
 
-fg:Personal_Country_of_residence_Eswatini a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Eswatini a obo:GENEPIO_0001830;
   rdfs:label "Eswatini";
   dc:description "Eswatini";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SZ> .
 
-fg:Personal_Country_of_residence_Ethiopia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Ethiopia a obo:GENEPIO_0001830;
   rdfs:label "Ethiopia";
   dc:description "Ethiopia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ET> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Falkland_Islands_(the)_Malvinas>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Falkland Islands (the) [Malvinas]";
   dc:description "Falkland Islands (the) [Malvinas]";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Faroe_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Faroe Islands (the)";
   dc:description "Faroe Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FO> .
 
-fg:Personal_Country_of_residence_Fiji a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Fiji a obo:GENEPIO_0001830;
   rdfs:label "Fiji";
   dc:description "Fiji";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FJ> .
 
-fg:Personal_Country_of_residence_Finland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Finland a obo:GENEPIO_0001830;
   rdfs:label "Finland";
   dc:description "Finland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FI> .
 
-fg:Personal_Country_of_residence_France a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_France a obo:GENEPIO_0001830;
   rdfs:label "France";
   dc:description "France";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FR> .
 
-fg:Personal_Country_of_residence_French_Guiana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_French_Guiana a obo:GENEPIO_0001830;
   rdfs:label "French Guiana";
   dc:description "French Guiana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GF> .
 
-fg:Personal_Country_of_residence_French_Polynesia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_French_Polynesia a obo:GENEPIO_0001830;
   rdfs:label "French Polynesia";
   dc:description "French Polynesia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_French_Southern_Territories_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "French Southern Territories (the)";
   dc:description "French Southern Territories (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TF> .
 
-fg:Personal_Country_of_residence_Gabon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Gabon a obo:GENEPIO_0001830;
   rdfs:label "Gabon";
   dc:description "Gabon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Gambia_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Gambia (the)";
   dc:description "Gambia (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GM> .
 
-fg:Personal_Country_of_residence_Georgia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Georgia a obo:GENEPIO_0001830;
   rdfs:label "Georgia";
   dc:description "Georgia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GE> .
 
-fg:Personal_Country_of_residence_Germany a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Germany a obo:GENEPIO_0001830;
   rdfs:label "Germany";
   dc:description "Germany";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DE> .
 
-fg:Personal_Country_of_residence_Ghana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Ghana a obo:GENEPIO_0001830;
   rdfs:label "Ghana";
   dc:description "Ghana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GH> .
 
-fg:Personal_Country_of_residence_Gibraltar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Gibraltar a obo:GENEPIO_0001830;
   rdfs:label "Gibraltar";
   dc:description "Gibraltar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GI> .
 
-fg:Personal_Country_of_residence_Greece a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Greece a obo:GENEPIO_0001830;
   rdfs:label "Greece";
   dc:description "Greece";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GR> .
 
-fg:Personal_Country_of_residence_Greenland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Greenland a obo:GENEPIO_0001830;
   rdfs:label "Greenland";
   dc:description "Greenland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GL> .
 
-fg:Personal_Country_of_residence_Grenada a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Grenada a obo:GENEPIO_0001830;
   rdfs:label "Grenada";
   dc:description "Grenada";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GD> .
 
-fg:Personal_Country_of_residence_Guadeloupe a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Guadeloupe a obo:GENEPIO_0001830;
   rdfs:label "Guadeloupe";
   dc:description "Guadeloupe";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GP> .
 
-fg:Personal_Country_of_residence_Guam a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Guam a obo:GENEPIO_0001830;
   rdfs:label "Guam";
   dc:description "Guam";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GU> .
 
-fg:Personal_Country_of_residence_Guatemala a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Guatemala a obo:GENEPIO_0001830;
   rdfs:label "Guatemala";
   dc:description "Guatemala";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GT> .
 
-fg:Personal_Country_of_residence_Guernsey a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Guernsey a obo:GENEPIO_0001830;
   rdfs:label "Guernsey";
   dc:description "Guernsey";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GG> .
 
-fg:Personal_Country_of_residence_Guinea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Guinea a obo:GENEPIO_0001830;
   rdfs:label "Guinea";
   dc:description "Guinea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GN> .
 
-fg:Personal_Country_of_residence_Guinea-Bissau a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Guinea-Bissau a obo:GENEPIO_0001830;
   rdfs:label "Guinea-Bissau";
   dc:description "Guinea-Bissau";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GW> .
 
-fg:Personal_Country_of_residence_Guyana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Guyana a obo:GENEPIO_0001830;
   rdfs:label "Guyana";
   dc:description "Guyana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GY> .
 
-fg:Personal_Country_of_residence_Haiti a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Haiti a obo:GENEPIO_0001830;
   rdfs:label "Haiti";
   dc:description "Haiti";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HT> .
 
-fg:Personal_Country_of_residence_Heard_Island_and_McDonald_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Heard_Island_and_McDonald_Islands a obo:GENEPIO_0001830;
   rdfs:label "Heard Island and McDonald Islands";
   dc:description "Heard Island and McDonald Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Holy_See_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Holy See (the)";
   dc:description "Holy See (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VA> .
 
-fg:Personal_Country_of_residence_Honduras a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Honduras a obo:GENEPIO_0001830;
   rdfs:label "Honduras";
   dc:description "Honduras";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HN> .
 
-fg:Personal_Country_of_residence_Hong_Kong a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Hong_Kong a obo:GENEPIO_0001830;
   rdfs:label "Hong Kong";
   dc:description "Hong Kong";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HK> .
 
-fg:Personal_Country_of_residence_Hungary a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Hungary a obo:GENEPIO_0001830;
   rdfs:label "Hungary";
   dc:description "Hungary";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HU> .
 
-fg:Personal_Country_of_residence_Iceland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Iceland a obo:GENEPIO_0001830;
   rdfs:label "Iceland";
   dc:description "Iceland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IS> .
 
-fg:Personal_Country_of_residence_India a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_India a obo:GENEPIO_0001830;
   rdfs:label "India";
   dc:description "India";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IN> .
 
-fg:Personal_Country_of_residence_Indonesia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Indonesia a obo:GENEPIO_0001830;
   rdfs:label "Indonesia";
   dc:description "Indonesia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ID> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Iran_(Islamic_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Iran (Islamic Republic of)";
   dc:description "Iran (Islamic Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IR> .
 
-fg:Personal_Country_of_residence_Iraq a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Iraq a obo:GENEPIO_0001830;
   rdfs:label "Iraq";
   dc:description "Iraq";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IQ> .
 
-fg:Personal_Country_of_residence_Ireland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Ireland a obo:GENEPIO_0001830;
   rdfs:label "Ireland";
   dc:description "Ireland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IE> .
 
-fg:Personal_Country_of_residence_Isle_of_Man a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Isle_of_Man a obo:GENEPIO_0001830;
   rdfs:label "Isle of Man";
   dc:description "Isle of Man";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IM> .
 
-fg:Personal_Country_of_residence_Israel a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Israel a obo:GENEPIO_0001830;
   rdfs:label "Israel";
   dc:description "Israel";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IL> .
 
-fg:Personal_Country_of_residence_Italy a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Italy a obo:GENEPIO_0001830;
   rdfs:label "Italy";
   dc:description "Italy";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IT> .
 
-fg:Personal_Country_of_residence_Jamaica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Jamaica a obo:GENEPIO_0001830;
   rdfs:label "Jamaica";
   dc:description "Jamaica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JM> .
 
-fg:Personal_Country_of_residence_Japan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Japan a obo:GENEPIO_0001830;
   rdfs:label "Japan";
   dc:description "Japan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JP> .
 
-fg:Personal_Country_of_residence_Jersey a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Jersey a obo:GENEPIO_0001830;
   rdfs:label "Jersey";
   dc:description "Jersey";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JE> .
 
-fg:Personal_Country_of_residence_Jordan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Jordan a obo:GENEPIO_0001830;
   rdfs:label "Jordan";
   dc:description "Jordan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JO> .
 
-fg:Personal_Country_of_residence_Kazakhstan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Kazakhstan a obo:GENEPIO_0001830;
   rdfs:label "Kazakhstan";
   dc:description "Kazakhstan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KZ> .
 
-fg:Personal_Country_of_residence_Kenya a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Kenya a obo:GENEPIO_0001830;
   rdfs:label "Kenya";
   dc:description "Kenya";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KE> .
 
-fg:Personal_Country_of_residence_Kiribati a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Kiribati a obo:GENEPIO_0001830;
   rdfs:label "Kiribati";
   dc:description "Kiribati";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KI> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Korea_(the_Democratic_People's_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Korea (the Democratic People's Republic of)";
   dc:description "Korea (the Democratic People's Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KP> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Korea_(the_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Korea (the Republic of)";
   dc:description "Korea (the Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KR> .
 
-fg:Personal_Country_of_residence_Kuwait a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Kuwait a obo:GENEPIO_0001830;
   rdfs:label "Kuwait";
   dc:description "Kuwait";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KW> .
 
-fg:Personal_Country_of_residence_Kyrgyzstan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Kyrgyzstan a obo:GENEPIO_0001830;
   rdfs:label "Kyrgyzstan";
   dc:description "Kyrgyzstan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Lao_People's_Democratic_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Lao People's Democratic Republic (the)";
   dc:description "Lao People's Democratic Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LA> .
 
-fg:Personal_Country_of_residence_Latvia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Latvia a obo:GENEPIO_0001830;
   rdfs:label "Latvia";
   dc:description "Latvia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LV> .
 
-fg:Personal_Country_of_residence_Lebanon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Lebanon a obo:GENEPIO_0001830;
   rdfs:label "Lebanon";
   dc:description "Lebanon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LB> .
 
-fg:Personal_Country_of_residence_Lesotho a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Lesotho a obo:GENEPIO_0001830;
   rdfs:label "Lesotho";
   dc:description "Lesotho";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LS> .
 
-fg:Personal_Country_of_residence_Liberia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Liberia a obo:GENEPIO_0001830;
   rdfs:label "Liberia";
   dc:description "Liberia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LR> .
 
-fg:Personal_Country_of_residence_Libya a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Libya a obo:GENEPIO_0001830;
   rdfs:label "Libya";
   dc:description "Libya";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LY> .
 
-fg:Personal_Country_of_residence_Liechtenstein a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Liechtenstein a obo:GENEPIO_0001830;
   rdfs:label "Liechtenstein";
   dc:description "Liechtenstein";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LI> .
 
-fg:Personal_Country_of_residence_Lithuania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Lithuania a obo:GENEPIO_0001830;
   rdfs:label "Lithuania";
   dc:description "Lithuania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LT> .
 
-fg:Personal_Country_of_residence_Luxembourg a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Luxembourg a obo:GENEPIO_0001830;
   rdfs:label "Luxembourg";
   dc:description "Luxembourg";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LU> .
 
-fg:Personal_Country_of_residence_Macao a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Macao a obo:GENEPIO_0001830;
   rdfs:label "Macao";
   dc:description "Macao";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MO> .
 
-fg:Personal_Country_of_residence_Madagascar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Madagascar a obo:GENEPIO_0001830;
   rdfs:label "Madagascar";
   dc:description "Madagascar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MG> .
 
-fg:Personal_Country_of_residence_Malawi a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Malawi a obo:GENEPIO_0001830;
   rdfs:label "Malawi";
   dc:description "Malawi";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MW> .
 
-fg:Personal_Country_of_residence_Malaysia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Malaysia a obo:GENEPIO_0001830;
   rdfs:label "Malaysia";
   dc:description "Malaysia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MY> .
 
-fg:Personal_Country_of_residence_Maldives a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Maldives a obo:GENEPIO_0001830;
   rdfs:label "Maldives";
   dc:description "Maldives";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MV> .
 
-fg:Personal_Country_of_residence_Mali a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Mali a obo:GENEPIO_0001830;
   rdfs:label "Mali";
   dc:description "Mali";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ML> .
 
-fg:Personal_Country_of_residence_Malta a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Malta a obo:GENEPIO_0001830;
   rdfs:label "Malta";
   dc:description "Malta";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MT> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Marshall_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Marshall Islands (the)";
   dc:description "Marshall Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MH> .
 
-fg:Personal_Country_of_residence_Martinique a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Martinique a obo:GENEPIO_0001830;
   rdfs:label "Martinique";
   dc:description "Martinique";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MQ> .
 
-fg:Personal_Country_of_residence_Mauritania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Mauritania a obo:GENEPIO_0001830;
   rdfs:label "Mauritania";
   dc:description "Mauritania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MR> .
 
-fg:Personal_Country_of_residence_Mauritius a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Mauritius a obo:GENEPIO_0001830;
   rdfs:label "Mauritius";
   dc:description "Mauritius";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MU> .
 
-fg:Personal_Country_of_residence_Mayotte a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Mayotte a obo:GENEPIO_0001830;
   rdfs:label "Mayotte";
   dc:description "Mayotte";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:YT> .
 
-fg:Personal_Country_of_residence_Mexico a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Mexico a obo:GENEPIO_0001830;
   rdfs:label "Mexico";
   dc:description "Mexico";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Micronesia_(Federated_States_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Micronesia (Federated States of)";
   dc:description "Micronesia (Federated States of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Moldova_(the_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Moldova (the Republic of)";
   dc:description "Moldova (the Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MD> .
 
-fg:Personal_Country_of_residence_Monaco a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Monaco a obo:GENEPIO_0001830;
   rdfs:label "Monaco";
   dc:description "Monaco";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MC> .
 
-fg:Personal_Country_of_residence_Mongolia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Mongolia a obo:GENEPIO_0001830;
   rdfs:label "Mongolia";
   dc:description "Mongolia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MN> .
 
-fg:Personal_Country_of_residence_Montenegro a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Montenegro a obo:GENEPIO_0001830;
   rdfs:label "Montenegro";
   dc:description "Montenegro";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> .
 
-fg:Personal_Country_of_residence_Montserrat a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Montserrat a obo:GENEPIO_0001830;
   rdfs:label "Montserrat";
   dc:description "Montserrat";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MS> .
 
-fg:Personal_Country_of_residence_Morocco a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Morocco a obo:GENEPIO_0001830;
   rdfs:label "Morocco";
   dc:description "Morocco";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MA> .
 
-fg:Personal_Country_of_residence_Mozambique a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Mozambique a obo:GENEPIO_0001830;
   rdfs:label "Mozambique";
   dc:description "Mozambique";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MZ> .
 
-fg:Personal_Country_of_residence_Myanmar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Myanmar a obo:GENEPIO_0001830;
   rdfs:label "Myanmar";
   dc:description "Myanmar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MM> .
 
-fg:Personal_Country_of_residence_Namibia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Namibia a obo:GENEPIO_0001830;
   rdfs:label "Namibia";
   dc:description "Namibia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NA> .
 
-fg:Personal_Country_of_residence_Nauru a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Nauru a obo:GENEPIO_0001830;
   rdfs:label "Nauru";
   dc:description "Nauru";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NR> .
 
-fg:Personal_Country_of_residence_Nepal a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Nepal a obo:GENEPIO_0001830;
   rdfs:label "Nepal";
   dc:description "Nepal";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NP> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Netherlands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Netherlands (the)";
   dc:description "Netherlands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NL> .
 
-fg:Personal_Country_of_residence_New_Caledonia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_New_Caledonia a obo:GENEPIO_0001830;
   rdfs:label "New Caledonia";
   dc:description "New Caledonia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NC> .
 
-fg:Personal_Country_of_residence_New_Zealand a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_New_Zealand a obo:GENEPIO_0001830;
   rdfs:label "New Zealand";
   dc:description "New Zealand";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> .
 
-fg:Personal_Country_of_residence_Nicaragua a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Nicaragua a obo:GENEPIO_0001830;
   rdfs:label "Nicaragua";
   dc:description "Nicaragua";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NI> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Niger_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Niger (the)";
   dc:description "Niger (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NE> .
 
-fg:Personal_Country_of_residence_Nigeria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Nigeria a obo:GENEPIO_0001830;
   rdfs:label "Nigeria";
   dc:description "Nigeria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NG> .
 
-fg:Personal_Country_of_residence_Niue a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Niue a obo:GENEPIO_0001830;
   rdfs:label "Niue";
   dc:description "Niue";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NU> .
 
-fg:Personal_Country_of_residence_Norfolk_Island a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Norfolk_Island a obo:GENEPIO_0001830;
   rdfs:label "Norfolk Island";
   dc:description "Norfolk Island";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NF> .
 
-fg:Personal_Country_of_residence_North_Macedonia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_North_Macedonia a obo:GENEPIO_0001830;
   rdfs:label "North Macedonia";
   dc:description "North Macedonia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Northern_Mariana_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Northern Mariana Islands (the)";
   dc:description "Northern Mariana Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MP> .
 
-fg:Personal_Country_of_residence_Norway a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Norway a obo:GENEPIO_0001830;
   rdfs:label "Norway";
   dc:description "Norway";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NO> .
 
-fg:Personal_Country_of_residence_Oman a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Oman a obo:GENEPIO_0001830;
   rdfs:label "Oman";
   dc:description "Oman";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:OM> .
 
-fg:Personal_Country_of_residence_Pakistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Pakistan a obo:GENEPIO_0001830;
   rdfs:label "Pakistan";
   dc:description "Pakistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PK> .
 
-fg:Personal_Country_of_residence_Palau a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Palau a obo:GENEPIO_0001830;
   rdfs:label "Palau";
   dc:description "Palau";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PW> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Palestine,_State_of>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Palestine, State of";
   dc:description "Palestine, State of";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PS> .
 
-fg:Personal_Country_of_residence_Panama a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Panama a obo:GENEPIO_0001830;
   rdfs:label "Panama";
   dc:description "Panama";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PA> .
 
-fg:Personal_Country_of_residence_Papua_New_Guinea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Papua_New_Guinea a obo:GENEPIO_0001830;
   rdfs:label "Papua New Guinea";
   dc:description "Papua New Guinea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PG> .
 
-fg:Personal_Country_of_residence_Paraguay a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Paraguay a obo:GENEPIO_0001830;
   rdfs:label "Paraguay";
   dc:description "Paraguay";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PY> .
 
-fg:Personal_Country_of_residence_Peru a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Peru a obo:GENEPIO_0001830;
   rdfs:label "Peru";
   dc:description "Peru";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PE> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Philippines_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Philippines (the)";
   dc:description "Philippines (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PH> .
 
-fg:Personal_Country_of_residence_Pitcairn a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Pitcairn a obo:GENEPIO_0001830;
   rdfs:label "Pitcairn";
   dc:description "Pitcairn";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PN> .
 
-fg:Personal_Country_of_residence_Poland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Poland a obo:GENEPIO_0001830;
   rdfs:label "Poland";
   dc:description "Poland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PL> .
 
-fg:Personal_Country_of_residence_Portugal a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Portugal a obo:GENEPIO_0001830;
   rdfs:label "Portugal";
   dc:description "Portugal";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PT> .
 
-fg:Personal_Country_of_residence_Puerto_Rico a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Puerto_Rico a obo:GENEPIO_0001830;
   rdfs:label "Puerto Rico";
   dc:description "Puerto Rico";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PR> .
 
-fg:Personal_Country_of_residence_Qatar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Qatar a obo:GENEPIO_0001830;
   rdfs:label "Qatar";
   dc:description "Qatar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:QA> .
 
-fg:Personal_Country_of_residence_Romania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Romania a obo:GENEPIO_0001830;
   rdfs:label "Romania";
   dc:description "Romania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RO> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Russian_Federation_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Russian Federation (the)";
   dc:description "Russian Federation (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RU> .
 
-fg:Personal_Country_of_residence_Rwanda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Rwanda a obo:GENEPIO_0001830;
   rdfs:label "Rwanda";
   dc:description "Rwanda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RW> .
 
-fg:Personal_Country_of_residence_Réunion a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Réunion a obo:GENEPIO_0001830;
   rdfs:label "Réunion";
   dc:description "Réunion";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RE> .
 
-fg:Personal_Country_of_residence_Saint_Barthélemy a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Saint_Barthélemy a obo:GENEPIO_0001830;
   rdfs:label "Saint Barthélemy";
   dc:description "Saint Barthélemy";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BL> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Saint_Helena,_Ascension_and_Tristan_da_Cunha>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Saint Helena, Ascension and Tristan da Cunha";
   dc:description "Saint Helena, Ascension and Tristan da Cunha";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SH> .
 
-fg:Personal_Country_of_residence_Saint_Kitts_and_Nevis a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Saint_Kitts_and_Nevis a obo:GENEPIO_0001830;
   rdfs:label "Saint Kitts and Nevis";
   dc:description "Saint Kitts and Nevis";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KN> .
 
-fg:Personal_Country_of_residence_Saint_Lucia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Saint_Lucia a obo:GENEPIO_0001830;
   rdfs:label "Saint Lucia";
   dc:description "Saint Lucia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LC> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Saint_Martin_(French_part)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Saint Martin (French part)";
   dc:description "Saint Martin (French part)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MF> .
 
-fg:Personal_Country_of_residence_Saint_Pierre_and_Miquelon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Saint_Pierre_and_Miquelon a obo:GENEPIO_0001830;
   rdfs:label "Saint Pierre and Miquelon";
   dc:description "Saint Pierre and Miquelon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PM> .
 
-fg:Personal_Country_of_residence_Saint_Vincent_and_the_Grenadines a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Saint_Vincent_and_the_Grenadines a obo:GENEPIO_0001830;
   rdfs:label "Saint Vincent and the Grenadines";
   dc:description "Saint Vincent and the Grenadines";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VC> .
 
-fg:Personal_Country_of_residence_Samoa a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Samoa a obo:GENEPIO_0001830;
   rdfs:label "Samoa";
   dc:description "Samoa";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:WS> .
 
-fg:Personal_Country_of_residence_San_Marino a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_San_Marino a obo:GENEPIO_0001830;
   rdfs:label "San Marino";
   dc:description "San Marino";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SM> .
 
-fg:Personal_Country_of_residence_Sao_Tome_and_Principe a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Sao_Tome_and_Principe a obo:GENEPIO_0001830;
   rdfs:label "Sao Tome and Principe";
   dc:description "Sao Tome and Principe";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ST> .
 
-fg:Personal_Country_of_residence_Saudi_Arabia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Saudi_Arabia a obo:GENEPIO_0001830;
   rdfs:label "Saudi Arabia";
   dc:description "Saudi Arabia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SA> .
 
-fg:Personal_Country_of_residence_Senegal a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Senegal a obo:GENEPIO_0001830;
   rdfs:label "Senegal";
   dc:description "Senegal";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SN> .
 
-fg:Personal_Country_of_residence_Serbia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Serbia a obo:GENEPIO_0001830;
   rdfs:label "Serbia";
   dc:description "Serbia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> .
 
-fg:Personal_Country_of_residence_Seychelles a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Seychelles a obo:GENEPIO_0001830;
   rdfs:label "Seychelles";
   dc:description "Seychelles";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SC> .
 
-fg:Personal_Country_of_residence_Sierra_Leone a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Sierra_Leone a obo:GENEPIO_0001830;
   rdfs:label "Sierra Leone";
   dc:description "Sierra Leone";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SL> .
 
-fg:Personal_Country_of_residence_Singapore a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Singapore a obo:GENEPIO_0001830;
   rdfs:label "Singapore";
   dc:description "Singapore";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Sint_Maarten_(Dutch_part)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Sint Maarten (Dutch part)";
   dc:description "Sint Maarten (Dutch part)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SX> .
 
-fg:Personal_Country_of_residence_Slovakia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Slovakia a obo:GENEPIO_0001830;
   rdfs:label "Slovakia";
   dc:description "Slovakia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SK> .
 
-fg:Personal_Country_of_residence_Slovenia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Slovenia a obo:GENEPIO_0001830;
   rdfs:label "Slovenia";
   dc:description "Slovenia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SI> .
 
-fg:Personal_Country_of_residence_Solomon_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Solomon_Islands a obo:GENEPIO_0001830;
   rdfs:label "Solomon Islands";
   dc:description "Solomon Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SB> .
 
-fg:Personal_Country_of_residence_Somalia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Somalia a obo:GENEPIO_0001830;
   rdfs:label "Somalia";
   dc:description "Somalia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SO> .
 
-fg:Personal_Country_of_residence_South_Africa a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_South_Africa a obo:GENEPIO_0001830;
   rdfs:label "South Africa";
   dc:description "South Africa";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZA> .
 
-fg:Personal_Country_of_residence_South_Georgia_and_the_South_Sandwich_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_South_Georgia_and_the_South_Sandwich_Islands a obo:GENEPIO_0001830;
   rdfs:label "South Georgia and the South Sandwich Islands";
   dc:description "South Georgia and the South Sandwich Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GS> .
 
-fg:Personal_Country_of_residence_South_Sudan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_South_Sudan a obo:GENEPIO_0001830;
   rdfs:label "South Sudan";
   dc:description "South Sudan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SS> .
 
-fg:Personal_Country_of_residence_Spain a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Spain a obo:GENEPIO_0001830;
   rdfs:label "Spain";
   dc:description "Spain";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ES> .
 
-fg:Personal_Country_of_residence_Sri_Lanka a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Sri_Lanka a obo:GENEPIO_0001830;
   rdfs:label "Sri Lanka";
   dc:description "Sri Lanka";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Sudan_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Sudan (the)";
   dc:description "Sudan (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SD> .
 
-fg:Personal_Country_of_residence_Suriname a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Suriname a obo:GENEPIO_0001830;
   rdfs:label "Suriname";
   dc:description "Suriname";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SR> .
 
-fg:Personal_Country_of_residence_Svalbard_and_Jan_Mayen a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Svalbard_and_Jan_Mayen a obo:GENEPIO_0001830;
   rdfs:label "Svalbard and Jan Mayen";
   dc:description "Svalbard and Jan Mayen";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SJ> .
 
-fg:Personal_Country_of_residence_Sweden a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Sweden a obo:GENEPIO_0001830;
   rdfs:label "Sweden";
   dc:description "Sweden";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SE> .
 
-fg:Personal_Country_of_residence_Switzerland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Switzerland a obo:GENEPIO_0001830;
   rdfs:label "Switzerland";
   dc:description "Switzerland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CH> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Syrian_Arab_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Syrian Arab Republic (the)";
   dc:description "Syrian Arab Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SY> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Taiwan_(Province_of_China)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Taiwan (Province of China)";
   dc:description "Taiwan (Province of China)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TW> .
 
-fg:Personal_Country_of_residence_Tajikistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Tajikistan a obo:GENEPIO_0001830;
   rdfs:label "Tajikistan";
   dc:description "Tajikistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TJ> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Tanzania,_the_United_Republic_of>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Tanzania, the United Republic of";
   dc:description "Tanzania, the United Republic of";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TZ> .
 
-fg:Personal_Country_of_residence_Thailand a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Thailand a obo:GENEPIO_0001830;
   rdfs:label "Thailand";
   dc:description "Thailand";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TH> .
 
-fg:Personal_Country_of_residence_Timor-Leste a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Timor-Leste a obo:GENEPIO_0001830;
   rdfs:label "Timor-Leste";
   dc:description "Timor-Leste";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TL> .
 
-fg:Personal_Country_of_residence_Togo a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Togo a obo:GENEPIO_0001830;
   rdfs:label "Togo";
   dc:description "Togo";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TG> .
 
-fg:Personal_Country_of_residence_Tokelau a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Tokelau a obo:GENEPIO_0001830;
   rdfs:label "Tokelau";
   dc:description "Tokelau";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TK> .
 
-fg:Personal_Country_of_residence_Tonga a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Tonga a obo:GENEPIO_0001830;
   rdfs:label "Tonga";
   dc:description "Tonga";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TO> .
 
-fg:Personal_Country_of_residence_Trinidad_and_Tobago a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Trinidad_and_Tobago a obo:GENEPIO_0001830;
   rdfs:label "Trinidad and Tobago";
   dc:description "Trinidad and Tobago";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TT> .
 
-fg:Personal_Country_of_residence_Tunisia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Tunisia a obo:GENEPIO_0001830;
   rdfs:label "Tunisia";
   dc:description "Tunisia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TN> .
 
-fg:Personal_Country_of_residence_Turkey a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Turkey a obo:GENEPIO_0001830;
   rdfs:label "Turkey";
   dc:description "Turkey";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TR> .
 
-fg:Personal_Country_of_residence_Turkmenistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Turkmenistan a obo:GENEPIO_0001830;
   rdfs:label "Turkmenistan";
   dc:description "Turkmenistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Turks_and_Caicos_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Turks and Caicos Islands (the)";
   dc:description "Turks and Caicos Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TC> .
 
-fg:Personal_Country_of_residence_Tuvalu a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Tuvalu a obo:GENEPIO_0001830;
   rdfs:label "Tuvalu";
   dc:description "Tuvalu";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TV> .
 
-fg:Personal_Country_of_residence_Uganda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Uganda a obo:GENEPIO_0001830;
   rdfs:label "Uganda";
   dc:description "Uganda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UG> .
 
-fg:Personal_Country_of_residence_Ukraine a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Ukraine a obo:GENEPIO_0001830;
   rdfs:label "Ukraine";
   dc:description "Ukraine";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_United_Arab_Emirates_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United Arab Emirates (the)";
   dc:description "United Arab Emirates (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AE> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_United_Kingdom_of_Great_Britain_and_Northern_Ireland_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United Kingdom of Great Britain and Northern Ireland (the)";
   dc:description "United Kingdom of Great Britain and Northern Ireland (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GB> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_United_States_Minor_Outlying_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United States Minor Outlying Islands (the)";
   dc:description "United States Minor Outlying Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_United_States_of_America_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United States of America (the)";
   dc:description "United States of America (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> .
 
-fg:Personal_Country_of_residence_Uruguay a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Uruguay a obo:GENEPIO_0001830;
   rdfs:label "Uruguay";
   dc:description "Uruguay";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UY> .
 
-fg:Personal_Country_of_residence_Uzbekistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Uzbekistan a obo:GENEPIO_0001830;
   rdfs:label "Uzbekistan";
   dc:description "Uzbekistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UZ> .
 
-fg:Personal_Country_of_residence_Vanuatu a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Vanuatu a obo:GENEPIO_0001830;
   rdfs:label "Vanuatu";
   dc:description "Vanuatu";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Venezuela_(Bolivarian_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Venezuela (Bolivarian Republic of)";
   dc:description "Venezuela (Bolivarian Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VE> .
 
-fg:Personal_Country_of_residence_Viet_Nam a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Viet_Nam a obo:GENEPIO_0001830;
   rdfs:label "Viet Nam";
   dc:description "Viet Nam";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VN> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Virgin_Islands_(British)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Virgin Islands (British)";
   dc:description "Virgin Islands (British)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Virgin_Islands_(U.S.)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Virgin Islands (U.S.)";
   dc:description "Virgin Islands (U.S.)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VI> .
 
-fg:Personal_Country_of_residence_Wallis_and_Futuna a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Wallis_and_Futuna a obo:GENEPIO_0001830;
   rdfs:label "Wallis and Futuna";
   dc:description "Wallis and Futuna";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:WF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Western_Sahara*>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Western Sahara*";
   dc:description "Western Sahara*";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EH> .
 
-fg:Personal_Country_of_residence_Yemen a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Yemen a obo:GENEPIO_0001830;
   rdfs:label "Yemen";
   dc:description "Yemen";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:YE> .
 
-fg:Personal_Country_of_residence_Zambia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Zambia a obo:GENEPIO_0001830;
   rdfs:label "Zambia";
   dc:description "Zambia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZM> .
 
-fg:Personal_Country_of_residence_Zimbabwe a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Zimbabwe a obo:GENEPIO_0001830;
   rdfs:label "Zimbabwe";
   dc:description "Zimbabwe";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZW> .
 
-fg:Personal_Country_of_residence_Åland_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_residence_Åland_Islands a obo:GENEPIO_0001830;
   rdfs:label "Åland Islands";
   dc:description "Åland Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AX> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_NoInformation_(NI,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Invalid_(INV,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Derived_(DER,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Other_(OTH,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Negative_infinity_(NINF,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Positive_infinity_(PINF,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Un-encoded_(UNC,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Masked_(MSK,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Not_applicable_(NA,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Unknown_(UNK,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Asked_but_unknown_(ASKU,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Temporarily_unavailable_(NAV,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Not_asked_(NASK,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Not_available_(NAVU,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Sufficient_quantity_(QS,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_residence_Trace_(TRC,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .
 
-fg:Personal_Country_of_birth_Afghanistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Afghanistan a obo:GENEPIO_0001830;
   rdfs:label "Afghanistan";
   dc:description "Afghanistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AF> .
 
-fg:Personal_Country_of_birth_Albania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Albania a obo:GENEPIO_0001830;
   rdfs:label "Albania";
   dc:description "Albania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AL> .
 
-fg:Personal_Country_of_birth_Algeria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Algeria a obo:GENEPIO_0001830;
   rdfs:label "Algeria";
   dc:description "Algeria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DZ> .
 
-fg:Personal_Country_of_birth_American_Samoa a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_American_Samoa a obo:GENEPIO_0001830;
   rdfs:label "American Samoa";
   dc:description "American Samoa";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AS> .
 
-fg:Personal_Country_of_birth_Andorra a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Andorra a obo:GENEPIO_0001830;
   rdfs:label "Andorra";
   dc:description "Andorra";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AD> .
 
-fg:Personal_Country_of_birth_Angola a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Angola a obo:GENEPIO_0001830;
   rdfs:label "Angola";
   dc:description "Angola";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AO> .
 
-fg:Personal_Country_of_birth_Anguilla a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Anguilla a obo:GENEPIO_0001830;
   rdfs:label "Anguilla";
   dc:description "Anguilla";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AI> .
 
-fg:Personal_Country_of_birth_Antarctica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Antarctica a obo:GENEPIO_0001830;
   rdfs:label "Antarctica";
   dc:description "Antarctica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AQ> .
 
-fg:Personal_Country_of_birth_Antigua_and_Barbuda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Antigua_and_Barbuda a obo:GENEPIO_0001830;
   rdfs:label "Antigua and Barbuda";
   dc:description "Antigua and Barbuda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AG> .
 
-fg:Personal_Country_of_birth_Argentina a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Argentina a obo:GENEPIO_0001830;
   rdfs:label "Argentina";
   dc:description "Argentina";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AR> .
 
-fg:Personal_Country_of_birth_Armenia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Armenia a obo:GENEPIO_0001830;
   rdfs:label "Armenia";
   dc:description "Armenia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AM> .
 
-fg:Personal_Country_of_birth_Aruba a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Aruba a obo:GENEPIO_0001830;
   rdfs:label "Aruba";
   dc:description "Aruba";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AW> .
 
-fg:Personal_Country_of_birth_Australia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Australia a obo:GENEPIO_0001830;
   rdfs:label "Australia";
   dc:description "Australia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> .
 
-fg:Personal_Country_of_birth_Austria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Austria a obo:GENEPIO_0001830;
   rdfs:label "Austria";
   dc:description "Austria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AT> .
 
-fg:Personal_Country_of_birth_Azerbaijan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Azerbaijan a obo:GENEPIO_0001830;
   rdfs:label "Azerbaijan";
   dc:description "Azerbaijan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AZ> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Bahamas_(the)> a
-    <http://semanticscience.org/resource/SIO_000664>;
+    obo:GENEPIO_0001830;
   rdfs:label "Bahamas (the)";
   dc:description "Bahamas (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BS> .
 
-fg:Personal_Country_of_birth_Bahrain a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Bahrain a obo:GENEPIO_0001830;
   rdfs:label "Bahrain";
   dc:description "Bahrain";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BH> .
 
-fg:Personal_Country_of_birth_Bangladesh a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Bangladesh a obo:GENEPIO_0001830;
   rdfs:label "Bangladesh";
   dc:description "Bangladesh";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BD> .
 
-fg:Personal_Country_of_birth_Barbados a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Barbados a obo:GENEPIO_0001830;
   rdfs:label "Barbados";
   dc:description "Barbados";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BB> .
 
-fg:Personal_Country_of_birth_Belarus a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Belarus a obo:GENEPIO_0001830;
   rdfs:label "Belarus";
   dc:description "Belarus";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BY> .
 
-fg:Personal_Country_of_birth_Belgium a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Belgium a obo:GENEPIO_0001830;
   rdfs:label "Belgium";
   dc:description "Belgium";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BE> .
 
-fg:Personal_Country_of_birth_Belize a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Belize a obo:GENEPIO_0001830;
   rdfs:label "Belize";
   dc:description "Belize";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BZ> .
 
-fg:Personal_Country_of_birth_Benin a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Benin a obo:GENEPIO_0001830;
   rdfs:label "Benin";
   dc:description "Benin";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BJ> .
 
-fg:Personal_Country_of_birth_Bermuda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Bermuda a obo:GENEPIO_0001830;
   rdfs:label "Bermuda";
   dc:description "Bermuda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BM> .
 
-fg:Personal_Country_of_birth_Bhutan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Bhutan a obo:GENEPIO_0001830;
   rdfs:label "Bhutan";
   dc:description "Bhutan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BT> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Bolivia_(Plurinational_State_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Bolivia (Plurinational State of)";
   dc:description "Bolivia (Plurinational State of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BO> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Bonaire,_Sint_Eustatius_and_Saba>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Bonaire, Sint Eustatius and Saba";
   dc:description "Bonaire, Sint Eustatius and Saba";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BQ> .
 
-fg:Personal_Country_of_birth_Bosnia_and_Herzegovina a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Bosnia_and_Herzegovina a obo:GENEPIO_0001830;
   rdfs:label "Bosnia and Herzegovina";
   dc:description "Bosnia and Herzegovina";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BA> .
 
-fg:Personal_Country_of_birth_Botswana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Botswana a obo:GENEPIO_0001830;
   rdfs:label "Botswana";
   dc:description "Botswana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BW> .
 
-fg:Personal_Country_of_birth_Bouvet_Island a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Bouvet_Island a obo:GENEPIO_0001830;
   rdfs:label "Bouvet Island";
   dc:description "Bouvet Island";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BV> .
 
-fg:Personal_Country_of_birth_Brazil a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Brazil a obo:GENEPIO_0001830;
   rdfs:label "Brazil";
   dc:description "Brazil";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BR> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_British_Indian_Ocean_Territory_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "British Indian Ocean Territory (the)";
   dc:description "British Indian Ocean Territory (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IO> .
 
-fg:Personal_Country_of_birth_Brunei_Darussalam a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Brunei_Darussalam a obo:GENEPIO_0001830;
   rdfs:label "Brunei Darussalam";
   dc:description "Brunei Darussalam";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BN> .
 
-fg:Personal_Country_of_birth_Bulgaria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Bulgaria a obo:GENEPIO_0001830;
   rdfs:label "Bulgaria";
   dc:description "Bulgaria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BG> .
 
-fg:Personal_Country_of_birth_Burkina_Faso a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Burkina_Faso a obo:GENEPIO_0001830;
   rdfs:label "Burkina Faso";
   dc:description "Burkina Faso";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BF> .
 
-fg:Personal_Country_of_birth_Burundi a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Burundi a obo:GENEPIO_0001830;
   rdfs:label "Burundi";
   dc:description "Burundi";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BI> .
 
-fg:Personal_Country_of_birth_Cabo_Verde a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Cabo_Verde a obo:GENEPIO_0001830;
   rdfs:label "Cabo Verde";
   dc:description "Cabo Verde";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CV> .
 
-fg:Personal_Country_of_birth_Cambodia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Cambodia a obo:GENEPIO_0001830;
   rdfs:label "Cambodia";
   dc:description "Cambodia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KH> .
 
-fg:Personal_Country_of_birth_Cameroon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Cameroon a obo:GENEPIO_0001830;
   rdfs:label "Cameroon";
   dc:description "Cameroon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CM> .
 
-fg:Personal_Country_of_birth_Canada a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Canada a obo:GENEPIO_0001830;
   rdfs:label "Canada";
   dc:description "Canada";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Cayman_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Cayman Islands (the)";
   dc:description "Cayman Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KY> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Central_African_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Central African Republic (the)";
   dc:description "Central African Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CF> .
 
-fg:Personal_Country_of_birth_Chad a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Chad a obo:GENEPIO_0001830;
   rdfs:label "Chad";
   dc:description "Chad";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TD> .
 
-fg:Personal_Country_of_birth_Chile a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Chile a obo:GENEPIO_0001830;
   rdfs:label "Chile";
   dc:description "Chile";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> .
 
-fg:Personal_Country_of_birth_China a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_China a obo:GENEPIO_0001830;
   rdfs:label "China";
   dc:description "China";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CN> .
 
-fg:Personal_Country_of_birth_Christmas_Island a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Christmas_Island a obo:GENEPIO_0001830;
   rdfs:label "Christmas Island";
   dc:description "Christmas Island";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CX> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Cocos_(Keeling)_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Cocos (Keeling) Islands (the)";
   dc:description "Cocos (Keeling) Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CC> .
 
-fg:Personal_Country_of_birth_Colombia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Colombia a obo:GENEPIO_0001830;
   rdfs:label "Colombia";
   dc:description "Colombia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CO> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Comoros_(the)> a
-    <http://semanticscience.org/resource/SIO_000664>;
+    obo:GENEPIO_0001830;
   rdfs:label "Comoros (the)";
   dc:description "Comoros (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Congo_(the_Democratic_Republic_of_the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Congo (the Democratic Republic of the)";
   dc:description "Congo (the Democratic Republic of the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CD> .
 
-<https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Congo_(the)> a <http://semanticscience.org/resource/SIO_000664>;
+<https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Congo_(the)> a obo:GENEPIO_0001830;
   rdfs:label "Congo (the)";
   dc:description "Congo (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Cook_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Cook Islands (the)";
   dc:description "Cook Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CK> .
 
-fg:Personal_Country_of_birth_Costa_Rica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Costa_Rica a obo:GENEPIO_0001830;
   rdfs:label "Costa Rica";
   dc:description "Costa Rica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CR> .
 
-fg:Personal_Country_of_birth_Croatia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Croatia a obo:GENEPIO_0001830;
   rdfs:label "Croatia";
   dc:description "Croatia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HR> .
 
-fg:Personal_Country_of_birth_Cuba a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Cuba a obo:GENEPIO_0001830;
   rdfs:label "Cuba";
   dc:description "Cuba";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CU> .
 
-fg:Personal_Country_of_birth_Curaçao a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Curaçao a obo:GENEPIO_0001830;
   rdfs:label "Curaçao";
   dc:description "Curaçao";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CW> .
 
-fg:Personal_Country_of_birth_Cyprus a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Cyprus a obo:GENEPIO_0001830;
   rdfs:label "Cyprus";
   dc:description "Cyprus";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CY> .
 
-fg:Personal_Country_of_birth_Czechia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Czechia a obo:GENEPIO_0001830;
   rdfs:label "Czechia";
   dc:description "Czechia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CZ> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Côte_d'Ivoire> a
-    <http://semanticscience.org/resource/SIO_000664>;
+    obo:GENEPIO_0001830;
   rdfs:label "Côte d'Ivoire";
   dc:description "Côte d'Ivoire";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CI> .
 
-fg:Personal_Country_of_birth_Denmark a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Denmark a obo:GENEPIO_0001830;
   rdfs:label "Denmark";
   dc:description "Denmark";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DK> .
 
-fg:Personal_Country_of_birth_Djibouti a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Djibouti a obo:GENEPIO_0001830;
   rdfs:label "Djibouti";
   dc:description "Djibouti";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DJ> .
 
-fg:Personal_Country_of_birth_Dominica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Dominica a obo:GENEPIO_0001830;
   rdfs:label "Dominica";
   dc:description "Dominica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Dominican_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Dominican Republic (the)";
   dc:description "Dominican Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DO> .
 
-fg:Personal_Country_of_birth_Ecuador a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Ecuador a obo:GENEPIO_0001830;
   rdfs:label "Ecuador";
   dc:description "Ecuador";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EC> .
 
-fg:Personal_Country_of_birth_Egypt a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Egypt a obo:GENEPIO_0001830;
   rdfs:label "Egypt";
   dc:description "Egypt";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EG> .
 
-fg:Personal_Country_of_birth_El_Salvador a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_El_Salvador a obo:GENEPIO_0001830;
   rdfs:label "El Salvador";
   dc:description "El Salvador";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SV> .
 
-fg:Personal_Country_of_birth_Equatorial_Guinea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Equatorial_Guinea a obo:GENEPIO_0001830;
   rdfs:label "Equatorial Guinea";
   dc:description "Equatorial Guinea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GQ> .
 
-fg:Personal_Country_of_birth_Eritrea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Eritrea a obo:GENEPIO_0001830;
   rdfs:label "Eritrea";
   dc:description "Eritrea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ER> .
 
-fg:Personal_Country_of_birth_Estonia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Estonia a obo:GENEPIO_0001830;
   rdfs:label "Estonia";
   dc:description "Estonia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EE> .
 
-fg:Personal_Country_of_birth_Eswatini a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Eswatini a obo:GENEPIO_0001830;
   rdfs:label "Eswatini";
   dc:description "Eswatini";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SZ> .
 
-fg:Personal_Country_of_birth_Ethiopia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Ethiopia a obo:GENEPIO_0001830;
   rdfs:label "Ethiopia";
   dc:description "Ethiopia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ET> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Falkland_Islands_(the)_Malvinas>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Falkland Islands (the) [Malvinas]";
   dc:description "Falkland Islands (the) [Malvinas]";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Faroe_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Faroe Islands (the)";
   dc:description "Faroe Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FO> .
 
-fg:Personal_Country_of_birth_Fiji a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Fiji a obo:GENEPIO_0001830;
   rdfs:label "Fiji";
   dc:description "Fiji";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FJ> .
 
-fg:Personal_Country_of_birth_Finland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Finland a obo:GENEPIO_0001830;
   rdfs:label "Finland";
   dc:description "Finland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FI> .
 
-fg:Personal_Country_of_birth_France a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_France a obo:GENEPIO_0001830;
   rdfs:label "France";
   dc:description "France";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FR> .
 
-fg:Personal_Country_of_birth_French_Guiana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_French_Guiana a obo:GENEPIO_0001830;
   rdfs:label "French Guiana";
   dc:description "French Guiana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GF> .
 
-fg:Personal_Country_of_birth_French_Polynesia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_French_Polynesia a obo:GENEPIO_0001830;
   rdfs:label "French Polynesia";
   dc:description "French Polynesia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_French_Southern_Territories_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "French Southern Territories (the)";
   dc:description "French Southern Territories (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TF> .
 
-fg:Personal_Country_of_birth_Gabon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Gabon a obo:GENEPIO_0001830;
   rdfs:label "Gabon";
   dc:description "Gabon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Gambia_(the)> a
-    <http://semanticscience.org/resource/SIO_000664>;
+    obo:GENEPIO_0001830;
   rdfs:label "Gambia (the)";
   dc:description "Gambia (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GM> .
 
-fg:Personal_Country_of_birth_Georgia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Georgia a obo:GENEPIO_0001830;
   rdfs:label "Georgia";
   dc:description "Georgia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GE> .
 
-fg:Personal_Country_of_birth_Germany a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Germany a obo:GENEPIO_0001830;
   rdfs:label "Germany";
   dc:description "Germany";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DE> .
 
-fg:Personal_Country_of_birth_Ghana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Ghana a obo:GENEPIO_0001830;
   rdfs:label "Ghana";
   dc:description "Ghana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GH> .
 
-fg:Personal_Country_of_birth_Gibraltar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Gibraltar a obo:GENEPIO_0001830;
   rdfs:label "Gibraltar";
   dc:description "Gibraltar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GI> .
 
-fg:Personal_Country_of_birth_Greece a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Greece a obo:GENEPIO_0001830;
   rdfs:label "Greece";
   dc:description "Greece";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GR> .
 
-fg:Personal_Country_of_birth_Greenland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Greenland a obo:GENEPIO_0001830;
   rdfs:label "Greenland";
   dc:description "Greenland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GL> .
 
-fg:Personal_Country_of_birth_Grenada a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Grenada a obo:GENEPIO_0001830;
   rdfs:label "Grenada";
   dc:description "Grenada";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GD> .
 
-fg:Personal_Country_of_birth_Guadeloupe a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Guadeloupe a obo:GENEPIO_0001830;
   rdfs:label "Guadeloupe";
   dc:description "Guadeloupe";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GP> .
 
-fg:Personal_Country_of_birth_Guam a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Guam a obo:GENEPIO_0001830;
   rdfs:label "Guam";
   dc:description "Guam";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GU> .
 
-fg:Personal_Country_of_birth_Guatemala a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Guatemala a obo:GENEPIO_0001830;
   rdfs:label "Guatemala";
   dc:description "Guatemala";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GT> .
 
-fg:Personal_Country_of_birth_Guernsey a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Guernsey a obo:GENEPIO_0001830;
   rdfs:label "Guernsey";
   dc:description "Guernsey";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GG> .
 
-fg:Personal_Country_of_birth_Guinea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Guinea a obo:GENEPIO_0001830;
   rdfs:label "Guinea";
   dc:description "Guinea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GN> .
 
-fg:Personal_Country_of_birth_Guinea-Bissau a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Guinea-Bissau a obo:GENEPIO_0001830;
   rdfs:label "Guinea-Bissau";
   dc:description "Guinea-Bissau";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GW> .
 
-fg:Personal_Country_of_birth_Guyana a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Guyana a obo:GENEPIO_0001830;
   rdfs:label "Guyana";
   dc:description "Guyana";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GY> .
 
-fg:Personal_Country_of_birth_Haiti a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Haiti a obo:GENEPIO_0001830;
   rdfs:label "Haiti";
   dc:description "Haiti";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HT> .
 
-fg:Personal_Country_of_birth_Heard_Island_and_McDonald_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Heard_Island_and_McDonald_Islands a obo:GENEPIO_0001830;
   rdfs:label "Heard Island and McDonald Islands";
   dc:description "Heard Island and McDonald Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Holy_See_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Holy See (the)";
   dc:description "Holy See (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VA> .
 
-fg:Personal_Country_of_birth_Honduras a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Honduras a obo:GENEPIO_0001830;
   rdfs:label "Honduras";
   dc:description "Honduras";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HN> .
 
-fg:Personal_Country_of_birth_Hong_Kong a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Hong_Kong a obo:GENEPIO_0001830;
   rdfs:label "Hong Kong";
   dc:description "Hong Kong";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HK> .
 
-fg:Personal_Country_of_birth_Hungary a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Hungary a obo:GENEPIO_0001830;
   rdfs:label "Hungary";
   dc:description "Hungary";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HU> .
 
-fg:Personal_Country_of_birth_Iceland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Iceland a obo:GENEPIO_0001830;
   rdfs:label "Iceland";
   dc:description "Iceland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IS> .
 
-fg:Personal_Country_of_birth_India a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_India a obo:GENEPIO_0001830;
   rdfs:label "India";
   dc:description "India";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IN> .
 
-fg:Personal_Country_of_birth_Indonesia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Indonesia a obo:GENEPIO_0001830;
   rdfs:label "Indonesia";
   dc:description "Indonesia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ID> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Iran_(Islamic_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Iran (Islamic Republic of)";
   dc:description "Iran (Islamic Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IR> .
 
-fg:Personal_Country_of_birth_Iraq a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Iraq a obo:GENEPIO_0001830;
   rdfs:label "Iraq";
   dc:description "Iraq";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IQ> .
 
-fg:Personal_Country_of_birth_Ireland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Ireland a obo:GENEPIO_0001830;
   rdfs:label "Ireland";
   dc:description "Ireland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IE> .
 
-fg:Personal_Country_of_birth_Isle_of_Man a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Isle_of_Man a obo:GENEPIO_0001830;
   rdfs:label "Isle of Man";
   dc:description "Isle of Man";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IM> .
 
-fg:Personal_Country_of_birth_Israel a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Israel a obo:GENEPIO_0001830;
   rdfs:label "Israel";
   dc:description "Israel";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IL> .
 
-fg:Personal_Country_of_birth_Italy a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Italy a obo:GENEPIO_0001830;
   rdfs:label "Italy";
   dc:description "Italy";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IT> .
 
-fg:Personal_Country_of_birth_Jamaica a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Jamaica a obo:GENEPIO_0001830;
   rdfs:label "Jamaica";
   dc:description "Jamaica";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JM> .
 
-fg:Personal_Country_of_birth_Japan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Japan a obo:GENEPIO_0001830;
   rdfs:label "Japan";
   dc:description "Japan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JP> .
 
-fg:Personal_Country_of_birth_Jersey a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Jersey a obo:GENEPIO_0001830;
   rdfs:label "Jersey";
   dc:description "Jersey";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JE> .
 
-fg:Personal_Country_of_birth_Jordan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Jordan a obo:GENEPIO_0001830;
   rdfs:label "Jordan";
   dc:description "Jordan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JO> .
 
-fg:Personal_Country_of_birth_Kazakhstan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Kazakhstan a obo:GENEPIO_0001830;
   rdfs:label "Kazakhstan";
   dc:description "Kazakhstan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KZ> .
 
-fg:Personal_Country_of_birth_Kenya a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Kenya a obo:GENEPIO_0001830;
   rdfs:label "Kenya";
   dc:description "Kenya";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KE> .
 
-fg:Personal_Country_of_birth_Kiribati a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Kiribati a obo:GENEPIO_0001830;
   rdfs:label "Kiribati";
   dc:description "Kiribati";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KI> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Korea_(the_Democratic_People's_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Korea (the Democratic People's Republic of)";
   dc:description "Korea (the Democratic People's Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KP> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Korea_(the_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Korea (the Republic of)";
   dc:description "Korea (the Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KR> .
 
-fg:Personal_Country_of_birth_Kuwait a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Kuwait a obo:GENEPIO_0001830;
   rdfs:label "Kuwait";
   dc:description "Kuwait";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KW> .
 
-fg:Personal_Country_of_birth_Kyrgyzstan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Kyrgyzstan a obo:GENEPIO_0001830;
   rdfs:label "Kyrgyzstan";
   dc:description "Kyrgyzstan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Lao_People's_Democratic_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Lao People's Democratic Republic (the)";
   dc:description "Lao People's Democratic Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LA> .
 
-fg:Personal_Country_of_birth_Latvia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Latvia a obo:GENEPIO_0001830;
   rdfs:label "Latvia";
   dc:description "Latvia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LV> .
 
-fg:Personal_Country_of_birth_Lebanon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Lebanon a obo:GENEPIO_0001830;
   rdfs:label "Lebanon";
   dc:description "Lebanon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LB> .
 
-fg:Personal_Country_of_birth_Lesotho a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Lesotho a obo:GENEPIO_0001830;
   rdfs:label "Lesotho";
   dc:description "Lesotho";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LS> .
 
-fg:Personal_Country_of_birth_Liberia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Liberia a obo:GENEPIO_0001830;
   rdfs:label "Liberia";
   dc:description "Liberia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LR> .
 
-fg:Personal_Country_of_birth_Libya a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Libya a obo:GENEPIO_0001830;
   rdfs:label "Libya";
   dc:description "Libya";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LY> .
 
-fg:Personal_Country_of_birth_Liechtenstein a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Liechtenstein a obo:GENEPIO_0001830;
   rdfs:label "Liechtenstein";
   dc:description "Liechtenstein";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LI> .
 
-fg:Personal_Country_of_birth_Lithuania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Lithuania a obo:GENEPIO_0001830;
   rdfs:label "Lithuania";
   dc:description "Lithuania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LT> .
 
-fg:Personal_Country_of_birth_Luxembourg a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Luxembourg a obo:GENEPIO_0001830;
   rdfs:label "Luxembourg";
   dc:description "Luxembourg";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LU> .
 
-fg:Personal_Country_of_birth_Macao a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Macao a obo:GENEPIO_0001830;
   rdfs:label "Macao";
   dc:description "Macao";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MO> .
 
-fg:Personal_Country_of_birth_Madagascar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Madagascar a obo:GENEPIO_0001830;
   rdfs:label "Madagascar";
   dc:description "Madagascar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MG> .
 
-fg:Personal_Country_of_birth_Malawi a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Malawi a obo:GENEPIO_0001830;
   rdfs:label "Malawi";
   dc:description "Malawi";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MW> .
 
-fg:Personal_Country_of_birth_Malaysia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Malaysia a obo:GENEPIO_0001830;
   rdfs:label "Malaysia";
   dc:description "Malaysia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MY> .
 
-fg:Personal_Country_of_birth_Maldives a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Maldives a obo:GENEPIO_0001830;
   rdfs:label "Maldives";
   dc:description "Maldives";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MV> .
 
-fg:Personal_Country_of_birth_Mali a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Mali a obo:GENEPIO_0001830;
   rdfs:label "Mali";
   dc:description "Mali";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ML> .
 
-fg:Personal_Country_of_birth_Malta a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Malta a obo:GENEPIO_0001830;
   rdfs:label "Malta";
   dc:description "Malta";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MT> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Marshall_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Marshall Islands (the)";
   dc:description "Marshall Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MH> .
 
-fg:Personal_Country_of_birth_Martinique a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Martinique a obo:GENEPIO_0001830;
   rdfs:label "Martinique";
   dc:description "Martinique";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MQ> .
 
-fg:Personal_Country_of_birth_Mauritania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Mauritania a obo:GENEPIO_0001830;
   rdfs:label "Mauritania";
   dc:description "Mauritania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MR> .
 
-fg:Personal_Country_of_birth_Mauritius a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Mauritius a obo:GENEPIO_0001830;
   rdfs:label "Mauritius";
   dc:description "Mauritius";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MU> .
 
-fg:Personal_Country_of_birth_Mayotte a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Mayotte a obo:GENEPIO_0001830;
   rdfs:label "Mayotte";
   dc:description "Mayotte";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:YT> .
 
-fg:Personal_Country_of_birth_Mexico a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Mexico a obo:GENEPIO_0001830;
   rdfs:label "Mexico";
   dc:description "Mexico";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Micronesia_(Federated_States_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Micronesia (Federated States of)";
   dc:description "Micronesia (Federated States of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Moldova_(the_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Moldova (the Republic of)";
   dc:description "Moldova (the Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MD> .
 
-fg:Personal_Country_of_birth_Monaco a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Monaco a obo:GENEPIO_0001830;
   rdfs:label "Monaco";
   dc:description "Monaco";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MC> .
 
-fg:Personal_Country_of_birth_Mongolia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Mongolia a obo:GENEPIO_0001830;
   rdfs:label "Mongolia";
   dc:description "Mongolia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MN> .
 
-fg:Personal_Country_of_birth_Montenegro a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Montenegro a obo:GENEPIO_0001830;
   rdfs:label "Montenegro";
   dc:description "Montenegro";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> .
 
-fg:Personal_Country_of_birth_Montserrat a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Montserrat a obo:GENEPIO_0001830;
   rdfs:label "Montserrat";
   dc:description "Montserrat";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MS> .
 
-fg:Personal_Country_of_birth_Morocco a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Morocco a obo:GENEPIO_0001830;
   rdfs:label "Morocco";
   dc:description "Morocco";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MA> .
 
-fg:Personal_Country_of_birth_Mozambique a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Mozambique a obo:GENEPIO_0001830;
   rdfs:label "Mozambique";
   dc:description "Mozambique";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MZ> .
 
-fg:Personal_Country_of_birth_Myanmar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Myanmar a obo:GENEPIO_0001830;
   rdfs:label "Myanmar";
   dc:description "Myanmar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MM> .
 
-fg:Personal_Country_of_birth_Namibia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Namibia a obo:GENEPIO_0001830;
   rdfs:label "Namibia";
   dc:description "Namibia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NA> .
 
-fg:Personal_Country_of_birth_Nauru a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Nauru a obo:GENEPIO_0001830;
   rdfs:label "Nauru";
   dc:description "Nauru";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NR> .
 
-fg:Personal_Country_of_birth_Nepal a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Nepal a obo:GENEPIO_0001830;
   rdfs:label "Nepal";
   dc:description "Nepal";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NP> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Netherlands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Netherlands (the)";
   dc:description "Netherlands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NL> .
 
-fg:Personal_Country_of_birth_New_Caledonia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_New_Caledonia a obo:GENEPIO_0001830;
   rdfs:label "New Caledonia";
   dc:description "New Caledonia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NC> .
 
-fg:Personal_Country_of_birth_New_Zealand a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_New_Zealand a obo:GENEPIO_0001830;
   rdfs:label "New Zealand";
   dc:description "New Zealand";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> .
 
-fg:Personal_Country_of_birth_Nicaragua a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Nicaragua a obo:GENEPIO_0001830;
   rdfs:label "Nicaragua";
   dc:description "Nicaragua";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NI> .
 
-<https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Niger_(the)> a <http://semanticscience.org/resource/SIO_000664>;
+<https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Niger_(the)> a obo:GENEPIO_0001830;
   rdfs:label "Niger (the)";
   dc:description "Niger (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NE> .
 
-fg:Personal_Country_of_birth_Nigeria a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Nigeria a obo:GENEPIO_0001830;
   rdfs:label "Nigeria";
   dc:description "Nigeria";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NG> .
 
-fg:Personal_Country_of_birth_Niue a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Niue a obo:GENEPIO_0001830;
   rdfs:label "Niue";
   dc:description "Niue";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NU> .
 
-fg:Personal_Country_of_birth_Norfolk_Island a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Norfolk_Island a obo:GENEPIO_0001830;
   rdfs:label "Norfolk Island";
   dc:description "Norfolk Island";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NF> .
 
-fg:Personal_Country_of_birth_North_Macedonia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_North_Macedonia a obo:GENEPIO_0001830;
   rdfs:label "North Macedonia";
   dc:description "North Macedonia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Northern_Mariana_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Northern Mariana Islands (the)";
   dc:description "Northern Mariana Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MP> .
 
-fg:Personal_Country_of_birth_Norway a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Norway a obo:GENEPIO_0001830;
   rdfs:label "Norway";
   dc:description "Norway";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NO> .
 
-fg:Personal_Country_of_birth_Oman a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Oman a obo:GENEPIO_0001830;
   rdfs:label "Oman";
   dc:description "Oman";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:OM> .
 
-fg:Personal_Country_of_birth_Pakistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Pakistan a obo:GENEPIO_0001830;
   rdfs:label "Pakistan";
   dc:description "Pakistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PK> .
 
-fg:Personal_Country_of_birth_Palau a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Palau a obo:GENEPIO_0001830;
   rdfs:label "Palau";
   dc:description "Palau";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PW> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Palestine,_State_of>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Palestine, State of";
   dc:description "Palestine, State of";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PS> .
 
-fg:Personal_Country_of_birth_Panama a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Panama a obo:GENEPIO_0001830;
   rdfs:label "Panama";
   dc:description "Panama";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PA> .
 
-fg:Personal_Country_of_birth_Papua_New_Guinea a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Papua_New_Guinea a obo:GENEPIO_0001830;
   rdfs:label "Papua New Guinea";
   dc:description "Papua New Guinea";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PG> .
 
-fg:Personal_Country_of_birth_Paraguay a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Paraguay a obo:GENEPIO_0001830;
   rdfs:label "Paraguay";
   dc:description "Paraguay";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PY> .
 
-fg:Personal_Country_of_birth_Peru a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Peru a obo:GENEPIO_0001830;
   rdfs:label "Peru";
   dc:description "Peru";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PE> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Philippines_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Philippines (the)";
   dc:description "Philippines (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PH> .
 
-fg:Personal_Country_of_birth_Pitcairn a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Pitcairn a obo:GENEPIO_0001830;
   rdfs:label "Pitcairn";
   dc:description "Pitcairn";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PN> .
 
-fg:Personal_Country_of_birth_Poland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Poland a obo:GENEPIO_0001830;
   rdfs:label "Poland";
   dc:description "Poland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PL> .
 
-fg:Personal_Country_of_birth_Portugal a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Portugal a obo:GENEPIO_0001830;
   rdfs:label "Portugal";
   dc:description "Portugal";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PT> .
 
-fg:Personal_Country_of_birth_Puerto_Rico a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Puerto_Rico a obo:GENEPIO_0001830;
   rdfs:label "Puerto Rico";
   dc:description "Puerto Rico";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PR> .
 
-fg:Personal_Country_of_birth_Qatar a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Qatar a obo:GENEPIO_0001830;
   rdfs:label "Qatar";
   dc:description "Qatar";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:QA> .
 
-fg:Personal_Country_of_birth_Romania a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Romania a obo:GENEPIO_0001830;
   rdfs:label "Romania";
   dc:description "Romania";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RO> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Russian_Federation_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Russian Federation (the)";
   dc:description "Russian Federation (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RU> .
 
-fg:Personal_Country_of_birth_Rwanda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Rwanda a obo:GENEPIO_0001830;
   rdfs:label "Rwanda";
   dc:description "Rwanda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RW> .
 
-fg:Personal_Country_of_birth_Réunion a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Réunion a obo:GENEPIO_0001830;
   rdfs:label "Réunion";
   dc:description "Réunion";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RE> .
 
-fg:Personal_Country_of_birth_Saint_Barthélemy a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Saint_Barthélemy a obo:GENEPIO_0001830;
   rdfs:label "Saint Barthélemy";
   dc:description "Saint Barthélemy";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BL> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Saint_Helena,_Ascension_and_Tristan_da_Cunha>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Saint Helena, Ascension and Tristan da Cunha";
   dc:description "Saint Helena, Ascension and Tristan da Cunha";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SH> .
 
-fg:Personal_Country_of_birth_Saint_Kitts_and_Nevis a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Saint_Kitts_and_Nevis a obo:GENEPIO_0001830;
   rdfs:label "Saint Kitts and Nevis";
   dc:description "Saint Kitts and Nevis";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KN> .
 
-fg:Personal_Country_of_birth_Saint_Lucia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Saint_Lucia a obo:GENEPIO_0001830;
   rdfs:label "Saint Lucia";
   dc:description "Saint Lucia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LC> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Saint_Martin_(French_part)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Saint Martin (French part)";
   dc:description "Saint Martin (French part)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MF> .
 
-fg:Personal_Country_of_birth_Saint_Pierre_and_Miquelon a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Saint_Pierre_and_Miquelon a obo:GENEPIO_0001830;
   rdfs:label "Saint Pierre and Miquelon";
   dc:description "Saint Pierre and Miquelon";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PM> .
 
-fg:Personal_Country_of_birth_Saint_Vincent_and_the_Grenadines a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Saint_Vincent_and_the_Grenadines a obo:GENEPIO_0001830;
   rdfs:label "Saint Vincent and the Grenadines";
   dc:description "Saint Vincent and the Grenadines";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VC> .
 
-fg:Personal_Country_of_birth_Samoa a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Samoa a obo:GENEPIO_0001830;
   rdfs:label "Samoa";
   dc:description "Samoa";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:WS> .
 
-fg:Personal_Country_of_birth_San_Marino a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_San_Marino a obo:GENEPIO_0001830;
   rdfs:label "San Marino";
   dc:description "San Marino";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SM> .
 
-fg:Personal_Country_of_birth_Sao_Tome_and_Principe a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Sao_Tome_and_Principe a obo:GENEPIO_0001830;
   rdfs:label "Sao Tome and Principe";
   dc:description "Sao Tome and Principe";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ST> .
 
-fg:Personal_Country_of_birth_Saudi_Arabia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Saudi_Arabia a obo:GENEPIO_0001830;
   rdfs:label "Saudi Arabia";
   dc:description "Saudi Arabia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SA> .
 
-fg:Personal_Country_of_birth_Senegal a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Senegal a obo:GENEPIO_0001830;
   rdfs:label "Senegal";
   dc:description "Senegal";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SN> .
 
-fg:Personal_Country_of_birth_Serbia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Serbia a obo:GENEPIO_0001830;
   rdfs:label "Serbia";
   dc:description "Serbia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> .
 
-fg:Personal_Country_of_birth_Seychelles a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Seychelles a obo:GENEPIO_0001830;
   rdfs:label "Seychelles";
   dc:description "Seychelles";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SC> .
 
-fg:Personal_Country_of_birth_Sierra_Leone a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Sierra_Leone a obo:GENEPIO_0001830;
   rdfs:label "Sierra Leone";
   dc:description "Sierra Leone";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SL> .
 
-fg:Personal_Country_of_birth_Singapore a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Singapore a obo:GENEPIO_0001830;
   rdfs:label "Singapore";
   dc:description "Singapore";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Sint_Maarten_(Dutch_part)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Sint Maarten (Dutch part)";
   dc:description "Sint Maarten (Dutch part)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SX> .
 
-fg:Personal_Country_of_birth_Slovakia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Slovakia a obo:GENEPIO_0001830;
   rdfs:label "Slovakia";
   dc:description "Slovakia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SK> .
 
-fg:Personal_Country_of_birth_Slovenia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Slovenia a obo:GENEPIO_0001830;
   rdfs:label "Slovenia";
   dc:description "Slovenia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SI> .
 
-fg:Personal_Country_of_birth_Solomon_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Solomon_Islands a obo:GENEPIO_0001830;
   rdfs:label "Solomon Islands";
   dc:description "Solomon Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SB> .
 
-fg:Personal_Country_of_birth_Somalia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Somalia a obo:GENEPIO_0001830;
   rdfs:label "Somalia";
   dc:description "Somalia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SO> .
 
-fg:Personal_Country_of_birth_South_Africa a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_South_Africa a obo:GENEPIO_0001830;
   rdfs:label "South Africa";
   dc:description "South Africa";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZA> .
 
-fg:Personal_Country_of_birth_South_Georgia_and_the_South_Sandwich_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_South_Georgia_and_the_South_Sandwich_Islands a obo:GENEPIO_0001830;
   rdfs:label "South Georgia and the South Sandwich Islands";
   dc:description "South Georgia and the South Sandwich Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GS> .
 
-fg:Personal_Country_of_birth_South_Sudan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_South_Sudan a obo:GENEPIO_0001830;
   rdfs:label "South Sudan";
   dc:description "South Sudan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SS> .
 
-fg:Personal_Country_of_birth_Spain a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Spain a obo:GENEPIO_0001830;
   rdfs:label "Spain";
   dc:description "Spain";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ES> .
 
-fg:Personal_Country_of_birth_Sri_Lanka a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Sri_Lanka a obo:GENEPIO_0001830;
   rdfs:label "Sri Lanka";
   dc:description "Sri Lanka";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LK> .
 
-<https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Sudan_(the)> a <http://semanticscience.org/resource/SIO_000664>;
+<https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Sudan_(the)> a obo:GENEPIO_0001830;
   rdfs:label "Sudan (the)";
   dc:description "Sudan (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SD> .
 
-fg:Personal_Country_of_birth_Suriname a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Suriname a obo:GENEPIO_0001830;
   rdfs:label "Suriname";
   dc:description "Suriname";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SR> .
 
-fg:Personal_Country_of_birth_Svalbard_and_Jan_Mayen a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Svalbard_and_Jan_Mayen a obo:GENEPIO_0001830;
   rdfs:label "Svalbard and Jan Mayen";
   dc:description "Svalbard and Jan Mayen";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SJ> .
 
-fg:Personal_Country_of_birth_Sweden a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Sweden a obo:GENEPIO_0001830;
   rdfs:label "Sweden";
   dc:description "Sweden";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SE> .
 
-fg:Personal_Country_of_birth_Switzerland a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Switzerland a obo:GENEPIO_0001830;
   rdfs:label "Switzerland";
   dc:description "Switzerland";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CH> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Syrian_Arab_Republic_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Syrian Arab Republic (the)";
   dc:description "Syrian Arab Republic (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SY> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Taiwan_(Province_of_China)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Taiwan (Province of China)";
   dc:description "Taiwan (Province of China)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TW> .
 
-fg:Personal_Country_of_birth_Tajikistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Tajikistan a obo:GENEPIO_0001830;
   rdfs:label "Tajikistan";
   dc:description "Tajikistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TJ> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Tanzania,_the_United_Republic_of>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Tanzania, the United Republic of";
   dc:description "Tanzania, the United Republic of";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TZ> .
 
-fg:Personal_Country_of_birth_Thailand a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Thailand a obo:GENEPIO_0001830;
   rdfs:label "Thailand";
   dc:description "Thailand";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TH> .
 
-fg:Personal_Country_of_birth_Timor-Leste a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Timor-Leste a obo:GENEPIO_0001830;
   rdfs:label "Timor-Leste";
   dc:description "Timor-Leste";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TL> .
 
-fg:Personal_Country_of_birth_Togo a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Togo a obo:GENEPIO_0001830;
   rdfs:label "Togo";
   dc:description "Togo";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TG> .
 
-fg:Personal_Country_of_birth_Tokelau a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Tokelau a obo:GENEPIO_0001830;
   rdfs:label "Tokelau";
   dc:description "Tokelau";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TK> .
 
-fg:Personal_Country_of_birth_Tonga a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Tonga a obo:GENEPIO_0001830;
   rdfs:label "Tonga";
   dc:description "Tonga";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TO> .
 
-fg:Personal_Country_of_birth_Trinidad_and_Tobago a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Trinidad_and_Tobago a obo:GENEPIO_0001830;
   rdfs:label "Trinidad and Tobago";
   dc:description "Trinidad and Tobago";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TT> .
 
-fg:Personal_Country_of_birth_Tunisia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Tunisia a obo:GENEPIO_0001830;
   rdfs:label "Tunisia";
   dc:description "Tunisia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TN> .
 
-fg:Personal_Country_of_birth_Turkey a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Turkey a obo:GENEPIO_0001830;
   rdfs:label "Turkey";
   dc:description "Turkey";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TR> .
 
-fg:Personal_Country_of_birth_Turkmenistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Turkmenistan a obo:GENEPIO_0001830;
   rdfs:label "Turkmenistan";
   dc:description "Turkmenistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Turks_and_Caicos_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Turks and Caicos Islands (the)";
   dc:description "Turks and Caicos Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TC> .
 
-fg:Personal_Country_of_birth_Tuvalu a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Tuvalu a obo:GENEPIO_0001830;
   rdfs:label "Tuvalu";
   dc:description "Tuvalu";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TV> .
 
-fg:Personal_Country_of_birth_Uganda a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Uganda a obo:GENEPIO_0001830;
   rdfs:label "Uganda";
   dc:description "Uganda";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UG> .
 
-fg:Personal_Country_of_birth_Ukraine a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Ukraine a obo:GENEPIO_0001830;
   rdfs:label "Ukraine";
   dc:description "Ukraine";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_United_Arab_Emirates_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United Arab Emirates (the)";
   dc:description "United Arab Emirates (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AE> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_United_Kingdom_of_Great_Britain_and_Northern_Ireland_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United Kingdom of Great Britain and Northern Ireland (the)";
   dc:description "United Kingdom of Great Britain and Northern Ireland (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GB> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_United_States_Minor_Outlying_Islands_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United States Minor Outlying Islands (the)";
   dc:description "United States Minor Outlying Islands (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UM> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_United_States_of_America_(the)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "United States of America (the)";
   dc:description "United States of America (the)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> .
 
-fg:Personal_Country_of_birth_Uruguay a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Uruguay a obo:GENEPIO_0001830;
   rdfs:label "Uruguay";
   dc:description "Uruguay";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UY> .
 
-fg:Personal_Country_of_birth_Uzbekistan a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Uzbekistan a obo:GENEPIO_0001830;
   rdfs:label "Uzbekistan";
   dc:description "Uzbekistan";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UZ> .
 
-fg:Personal_Country_of_birth_Vanuatu a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Vanuatu a obo:GENEPIO_0001830;
   rdfs:label "Vanuatu";
   dc:description "Vanuatu";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Venezuela_(Bolivarian_Republic_of)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Venezuela (Bolivarian Republic of)";
   dc:description "Venezuela (Bolivarian Republic of)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VE> .
 
-fg:Personal_Country_of_birth_Viet_Nam a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Viet_Nam a obo:GENEPIO_0001830;
   rdfs:label "Viet Nam";
   dc:description "Viet Nam";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VN> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Virgin_Islands_(British)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Virgin Islands (British)";
   dc:description "Virgin Islands (British)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VG> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Virgin_Islands_(U.S.)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Virgin Islands (U.S.)";
   dc:description "Virgin Islands (U.S.)";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VI> .
 
-fg:Personal_Country_of_birth_Wallis_and_Futuna a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Wallis_and_Futuna a obo:GENEPIO_0001830;
   rdfs:label "Wallis and Futuna";
   dc:description "Wallis and Futuna";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:WF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Western_Sahara*>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Western Sahara*";
   dc:description "Western Sahara*";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EH> .
 
-fg:Personal_Country_of_birth_Yemen a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Yemen a obo:GENEPIO_0001830;
   rdfs:label "Yemen";
   dc:description "Yemen";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:YE> .
 
-fg:Personal_Country_of_birth_Zambia a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Zambia a obo:GENEPIO_0001830;
   rdfs:label "Zambia";
   dc:description "Zambia";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZM> .
 
-fg:Personal_Country_of_birth_Zimbabwe a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Zimbabwe a obo:GENEPIO_0001830;
   rdfs:label "Zimbabwe";
   dc:description "Zimbabwe";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZW> .
 
-fg:Personal_Country_of_birth_Åland_Islands a <http://semanticscience.org/resource/SIO_000664>;
+fg:Personal_Country_of_birth_Åland_Islands a obo:GENEPIO_0001830;
   rdfs:label "Åland Islands";
   dc:description "Åland Islands";
   rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AX> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_NoInformation_(NI,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Invalid_(INV,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Derived_(DER,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Other_(OTH,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Negative_infinity_(NINF,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Positive_infinity_(PINF,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Un-encoded_(UNC,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Masked_(MSK,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Not_applicable_(NA,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Unknown_(UNK,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Asked_but_unknown_(ASKU,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Temporarily_unavailable_(NAV,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Not_asked_(NASK,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Not_available_(NAVU,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Sufficient_quantity_(QS,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Country_of_birth_Trace_(TRC,_nullflavor)>
-  a <http://semanticscience.org/resource/SIO_000664>;
+  a obo:GENEPIO_0001830;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

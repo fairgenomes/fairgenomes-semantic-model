@@ -13,6 +13,6 @@ public class Individualconsent {
 	public String representedby;
 	public String datausepermissions;
 	public List<String> datausemodifiers;
-	public String modifiersspecification;
+	public String datausespecification;
 	public List<String> allowrecontacting;
 }

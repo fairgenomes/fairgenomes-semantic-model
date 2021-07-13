@@ -2,7 +2,7 @@ name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillab
 personalidentifier	Personal identifier	An alphanumeric identifier assigned to a specific patient.	personal	string	TRUE	TRUE	TRUE	FALSE	
 phenotypicsex	Phenotypic sex	An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_phenotypicsex
 genotypicsex	Genotypic sex	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_genotypicsex
-countryofresidence	Country of residence	Country of Residence at Enrollment.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofresidence
+countryofresidence	Country of residence	Country of residence at enrollment.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofresidence
 ancestry	Ancestry	Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_ancestry
 countryofbirth	Country of birth	The country that a given person was born in.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofbirth
 yearofbirth	Year of birth	The year in which a person was born.	personal	int	FALSE	FALSE	TRUE	TRUE	

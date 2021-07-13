@@ -6,7 +6,7 @@
 \textbf{FAIR Genomes semantic metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.4-SNAPSHOT, 2021-04-23. This model consists of 9 modules that contain 110 metadata elements and 85304 lookups in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.4-SNAPSHOT, 2021-04-23. This model consists of 9 modules that contain 110 metadata elements and 85305 lookups in total (excluding null flavors).
 
 \begin{table}[htb]
 \begin{tabular}{lll}
@@ -50,15 +50,15 @@ Name & Ontology & Values \\
 \hline
 Personal identifier & NCIT:C164337 & UniqueID \\
 Phenotypic sex & PATO:0001894 & PhenotypicSex lookup (4 choices) \\
-Genotypic sex & PATO:0020000 & GenotypicSex lookup (11 choices) \\
+Genotypic sex & PATO:0020000 & GenotypicSex lookup (12 choices) \\
 Country of residence & NCIT:C171105 & Countries lookup (249 choices) \\
-Ancestry & HANCESTRO:0004 & Ancestry lookup (305 choices) \\
+Ancestry & NCIT:C176763 & Ancestry lookup (305 choices) \\
 Country of birth & GENEPIO:0001094 & Countries lookup (249 choices) \\
 Year of birth & NCIT:C83164 & Integer \\
 Inclusion status & NCIT:C166244 & InclusionStatus lookup (4 choices) \\
 Age at death & NCIT:C135383 & Integer \\
-Primary affiliated institute & SIO:000688 & Institutes lookup (218 choices) \\
-Resources in other institutes & SIO:000688 & Institutes lookup (218 choices) \\
+Primary affiliated institute & NCIT:C25412 & Institutes lookup (218 choices) \\
+Resources in other institutes & NCIT:C19012 & Institutes lookup (218 choices) \\
 Participates in study & RO:0000056 & Reference to Study \\
 \hline
 \end{tabular}
@@ -76,7 +76,7 @@ Consent form identifier & DC:identifier & UniqueID \\
 Consent form title & DC:title & String \\
 Consent form accepted date & DC:dateAccepted & Date \\
 Consent form valid until & DC:valid & Date \\
-Consent form creator & SIO:000688 & Institutes lookup (218 choices) \\
+Consent form creator & NCIT:C42628 & Institutes lookup (218 choices) \\
 Consent form version & DC:hasVersion & String \\
 \hline
 \end{tabular}
@@ -94,10 +94,10 @@ Collected by & NCIT:C45262 & Institutes lookup (218 choices) \\
 Signing date & ICO:0000036 & Date \\
 Valid from & DC:valid & Date \\
 Valid until & DC:valid & Date \\
-Represented by & NCIT:C51828 & RepresentedBy lookup (3 choices) \\
+Represented by & NCIT:C142600 & RepresentedBy lookup (3 choices) \\
 Data use permissions & DUO:0000001 & DataUsePermissions lookup (5 choices) \\
 Data use modifiers & DUO:0000017 & DataUseModifiers lookup (23 choices) \\
-Modifiers specification & SIO:000090 & Text \\
+Data use specification & SIO:000090 & Text \\
 Allow recontacting & NCIT:C25737 & Recontacting lookup (3 choices) \\
 \hline
 \end{tabular}
@@ -121,7 +121,7 @@ Age at last screening & NCIT:C81258 & Integer \\
 Medication & NCIT:C459 & Drugs lookup (5632 choices) \\
 Drug regimen & NCIT:C142516 & Text \\
 Family members affected & HP:0032320 & FamilyMembers lookup (41 choices) \\
-Family members sequenced & NCIT:C71384 & FamilyMembers lookup (41 choices) \\
+Family members sequenced & NCIT:C79916 & FamilyMembers lookup (41 choices) \\
 Consanguinity & GSSO:007578 & String \\
 Medical history & NCIT:C18772 & MedicalHistory lookup (1154 choices) \\
 Age of onset & Orphanet:C023 & Integer \\
@@ -146,8 +146,8 @@ Sampling protocol & EFO:0005518 & Text \\
 Sampling protocol deviation & NCIT:C50996 & String \\
 Reason for sampling protocol deviation & NCIT:C93529 & String \\
 Biospecimen type & NCIT:C70713 & MaterialTypes lookup (403 choices) \\
-Anatomical source & UBERON:0001062 & AnatomicalSources lookup (13827 choices) \\
-Pathological state & NCIT:C25687 & PathologicalState lookup (4 choices) \\
+Anatomical source & NCIT:C103264 & AnatomicalSources lookup (13827 choices) \\
+Pathological state & GO:0001894 & PathologicalState lookup (4 choices) \\
 Storage conditions & NCIT:C96145 & StorageConditions lookup (26 choices) \\
 Expiration date & NCIT:C164516 & Date \\
 Percentage tumor cells & NCIT:C127771 & Decimal \\
@@ -167,7 +167,7 @@ Belongs to material & NCIT:C25683 & Reference to Material \\
 Input amount & AFRL:0000010 & Integer \\
 Library preparation kit & GENEPIO:0000085 & NGSKits lookup (615 choices) \\
 PCR free & NCIT:C17003 & Boolean \\
-Target enrichment kit & GENEPIO:0000081 & NGSKits lookup (615 choices) \\
+Target enrichment kit & NCIT:C154307 & NGSKits lookup (615 choices) \\
 UMIs present & EFO:0010199 & Boolean \\
 Intended insert size & FG:0000001 & Integer \\
 Intended read length & NCIT:C153362 & Integer \\
@@ -185,7 +185,7 @@ Belongs to sample & NCIT:C25683 & Reference to Sample preparation \\
 Sequencing date & GENEPIO:0000069 & Date \\
 Sequencing platform & GENEPIO:0000071 & SequencingPlatform lookup (7 choices) \\
 Sequencing instrument model & GENEPIO:0001921 & SequencingInstrumentModels lookup (39 choices) \\
-Sequencing type & NCIT:C25284 & SequencingTypes lookup (35 choices) \\
+Sequencing method & FIX:0000704 & SequencingMethods lookup (35 choices) \\
 Average read depth & NCIT:C155320 & Integer \\
 Observed read length & NCIT:C153362 & Integer \\
 Observed insert size & FG:0000002 & Integer \\
@@ -205,7 +205,7 @@ Analysis identifier & AFR:0001979 & UniqueID \\
 Belongs to sequencing & NCIT:C25683 & Reference to Sequencing \\
 Physical data location & GAZ:00000448 & String \\
 Abstract data location & NCIT:C142494 & String \\
-Data formats stored & EDAM:format\_1915 & DataFormats lookup (582 choices) \\
+Data formats stored & NCIT:C142494 & DataFormats lookup (582 choices) \\
 Algorithms used & NCIT:C16275 & Text \\
 Reference genome used & EDAM:data\_2340 & GenomeAccessions lookup (29 choices) \\
 Bioinformatic protocol used & EDAM:data\_2531 & Text \\

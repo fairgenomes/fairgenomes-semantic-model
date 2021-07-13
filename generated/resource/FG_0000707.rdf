@@ -8,7 +8,7 @@
   xmlns:owl="http://www.w3.org/2002/07/owl#">
 
   <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000707">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0000085"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0000081"/>
     <rdfs:label xml:lang="en">HaloPlex Prepack Reagents, ILMN, 48rxn by Agilent Technologies</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-ngskits.ttl"/>
     <dc:description xml:lang="en">HaloPlex Prepack Reagents, ILMN, 48rxn by Agilent Technologies sourced from https://www.biocompare.com, accessed May 2020.</dc:description>

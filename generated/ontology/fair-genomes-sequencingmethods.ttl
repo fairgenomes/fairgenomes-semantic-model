@@ -1,0 +1,280 @@
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+fg:Sequencing_Sequencing_method_Next_Generation_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Next Generation Sequencing";
+  dc:description "Next Generation Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C101293 .
+
+fg:Sequencing_Sequencing_method_Whole_Genome_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Whole Genome Sequencing";
+  dc:description "Whole Genome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C101294 .
+
+fg:Sequencing_Sequencing_method_Whole_Exome_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Whole Exome Sequencing";
+  dc:description "Whole Exome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C101295 .
+
+fg:Sequencing_Sequencing_method_Large-Scale_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Large-Scale Sequencing";
+  dc:description "Large-Scale Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19645 .
+
+fg:Sequencing_Sequencing_method_454_Sequencing a obo:NCIT_C17565;
+  rdfs:label "454 Sequencing";
+  dc:description "454 Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146809 .
+
+fg:Sequencing_Sequencing_method_ABI_SOLiD_Sequencing a obo:NCIT_C17565;
+  rdfs:label "ABI SOLiD Sequencing";
+  dc:description "ABI SOLiD Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146811 .
+
+fg:Sequencing_Sequencing_method_BGISEQ-500_Sequencing a obo:NCIT_C17565;
+  rdfs:label "BGISEQ-500 Sequencing";
+  dc:description "BGISEQ-500 Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146812 .
+
+fg:Sequencing_Sequencing_method_Capillary_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Capillary Sequencing";
+  dc:description "Capillary Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146814 .
+
+fg:Sequencing_Sequencing_method_Complete_Genomics_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Complete Genomics Sequencing";
+  dc:description "Complete Genomics Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146815 .
+
+fg:Sequencing_Sequencing_method_Helicos_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Helicos Sequencing";
+  dc:description "Helicos Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146816 .
+
+fg:Sequencing_Sequencing_method_Illumina_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Illumina Sequencing";
+  dc:description "Illumina Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146817 .
+
+fg:Sequencing_Sequencing_method_Oxford_Nanopore_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Oxford Nanopore Sequencing";
+  dc:description "Oxford Nanopore Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146818 .
+
+fg:Sequencing_Sequencing_method_SMRT_Sequencing a obo:NCIT_C17565;
+  rdfs:label "SMRT Sequencing";
+  dc:description "SMRT Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C146819 .
+
+fg:Sequencing_Sequencing_method_Immune_Repertoire_Deep_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Immune Repertoire Deep Sequencing";
+  dc:description "Immune Repertoire Deep Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C158249 .
+
+fg:Sequencing_Sequencing_method_Targeted_Transcriptome_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Targeted Transcriptome Sequencing";
+  dc:description "Targeted Transcriptome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C158252 .
+
+fg:Sequencing_Sequencing_method_Targeted_Genome_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Targeted Genome Sequencing";
+  dc:description "Targeted Genome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C158253 .
+
+fg:Sequencing_Sequencing_method_mRNA_Sequencing a obo:NCIT_C17565;
+  rdfs:label "mRNA Sequencing";
+  dc:description "mRNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C129432 .
+
+fg:Sequencing_Sequencing_method_Next_Generation_Targeted_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Next Generation Targeted Sequencing";
+  dc:description "Next Generation Targeted Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C130177 .
+
+fg:Sequencing_Sequencing_method_Sequence-based_Typing a obo:NCIT_C17565;
+  rdfs:label "Sequence-based Typing";
+  dc:description "Sequence-based Typing";
+  rdfs:isDefinedBy obo:NCIT_C130180 .
+
+fg:Sequencing_Sequencing_method_Dideoxy_Chain_Termination_DNA_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Dideoxy Chain Termination DNA Sequencing";
+  dc:description "Dideoxy Chain Termination DNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19641 .
+
+fg:Sequencing_Sequencing_method_Shotgun_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Shotgun Sequencing";
+  dc:description "Shotgun Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19646 .
+
+fg:Sequencing_Sequencing_method_Whole-Genome_Shotgun_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Whole-Genome Shotgun Sequencing";
+  dc:description "Whole-Genome Shotgun Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19653 .
+
+fg:Sequencing_Sequencing_method_Radioactive_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Radioactive Sequencing";
+  dc:description "Radioactive Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C19658 .
+
+fg:Sequencing_Sequencing_method_Paired-End_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Paired-End Sequencing";
+  dc:description "Paired-End Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150423 .
+
+fg:Sequencing_Sequencing_method_Second-strand_Library_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Second-strand Library Sequencing";
+  dc:description "Second-strand Library Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150426 .
+
+fg:Sequencing_Sequencing_method_Unstranded_Library_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Unstranded Library Sequencing";
+  dc:description "Unstranded Library Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150427 .
+
+fg:Sequencing_Sequencing_method_First-strand_Library_Sequencing a obo:NCIT_C17565;
+  rdfs:label "First-strand Library Sequencing";
+  dc:description "First-strand Library Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C150428 .
+
+fg:Sequencing_Sequencing_method_Whole_Transcriptome_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Whole Transcriptome Sequencing";
+  dc:description "Whole Transcriptome Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C124261 .
+
+fg:Sequencing_Sequencing_method_Population_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Population Sequencing";
+  dc:description "Population Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C135457 .
+
+fg:Sequencing_Sequencing_method_Pyrosequencing a obo:NCIT_C17565;
+  rdfs:label "Pyrosequencing";
+  dc:description "Pyrosequencing";
+  rdfs:isDefinedBy obo:NCIT_C99481 .
+
+fg:Sequencing_Sequencing_method_Ion_Semiconductor_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Ion Semiconductor Sequencing";
+  dc:description "Ion Semiconductor Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C125894 .
+
+fg:Sequencing_Sequencing_method_Nucleic_Acid_Sequencing a obo:NCIT_C17565;
+  rdfs:label "Nucleic Acid Sequencing";
+  dc:description "Nucleic Acid Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C18881 .
+
+fg:Sequencing_Sequencing_method_DNA_Resequencing a obo:NCIT_C17565;
+  rdfs:label "DNA Resequencing";
+  dc:description "DNA Resequencing";
+  rdfs:isDefinedBy obo:NCIT_C41254 .
+
+fg:Sequencing_Sequencing_method_DNA_Sequencing a obo:NCIT_C17565;
+  rdfs:label "DNA Sequencing";
+  dc:description "DNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C153598 .
+
+fg:Sequencing_Sequencing_method_MicroRNA_Sequencing a obo:NCIT_C17565;
+  rdfs:label "MicroRNA Sequencing";
+  dc:description "MicroRNA Sequencing";
+  rdfs:isDefinedBy obo:NCIT_C156057 .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_NoInformation_(NI,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "NoInformation (NI, nullflavor)";
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Invalid_(INV,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Invalid (INV, nullflavor)";
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Derived_(DER,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Derived (DER, nullflavor)";
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Other_(OTH,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Other (OTH, nullflavor)";
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Negative_infinity_(NINF,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Positive_infinity_(PINF,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Un-encoded_(UNC,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Masked_(MSK,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Masked (MSK, nullflavor)";
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Not_applicable_(NA,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Not applicable (NA, nullflavor)";
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Unknown_(UNK,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Unknown (UNK, nullflavor)";
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Asked_but_unknown_(ASKU,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Temporarily_unavailable_(NAV,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Not_asked_(NASK,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Not asked (NASK, nullflavor)";
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Not_available_(NAVU,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Not available (NAVU, nullflavor)";
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Sufficient_quantity_(QS,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_method_Trace_(TRC,_nullflavor)>
+  a obo:NCIT_C17565;
+  rdfs:label "Trace (TRC, nullflavor)";
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .
