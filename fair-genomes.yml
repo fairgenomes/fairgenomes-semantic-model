@@ -192,7 +192,7 @@ modules:
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Personal]
           - name: Consent form used
-            description: The informed consent form that was signed.
+            description: The informed consent form that was signed. Refers to a particular instance of Leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this Individual consent.
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Leaflet and consent form]
           - name: Collected by
