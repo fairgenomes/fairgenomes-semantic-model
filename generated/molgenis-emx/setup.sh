@@ -31,7 +31,7 @@ mcmd import -p samplepreparation_librarypreparationkit_attributes.tsv --as attri
 mcmd import -p samplepreparation_targetenrichmentkit_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_sequencingplatform_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_sequencinginstrumentmodel_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p sequencing_sequencingtype_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p sequencing_sequencingmethod_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_dataformatsstored_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_referencegenomeused_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p study_inclusioncriteria.tsv --as fair-genomes_study_inclusioncriteria --in fair-genomes
@@ -66,7 +66,7 @@ mcmd import -p samplepreparation_librarypreparationkit.tsv --as fair-genomes_sam
 mcmd import -p samplepreparation_targetenrichmentkit.tsv --as fair-genomes_samplepreparation_targetenrichmentkit --in fair-genomes
 mcmd import -p sequencing_sequencingplatform.tsv --as fair-genomes_sequencing_sequencingplatform --in fair-genomes
 mcmd import -p sequencing_sequencinginstrumentmodel.tsv --as fair-genomes_sequencing_sequencinginstrumentmodel --in fair-genomes
-mcmd import -p sequencing_sequencingtype.tsv --as fair-genomes_sequencing_sequencingtype --in fair-genomes
+mcmd import -p sequencing_sequencingmethod.tsv --as fair-genomes_sequencing_sequencingmethod --in fair-genomes
 mcmd import -p analysis_dataformatsstored.tsv --as fair-genomes_analysis_dataformatsstored --in fair-genomes
 mcmd import -p analysis_referencegenomeused.tsv --as fair-genomes_analysis_referencegenomeused --in fair-genomes
 mcmd import -p study_attributes.tsv --as attributes --in fair-genomes

@@ -8,17 +8,17 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-fg:Individual_consent_Allow_recontacting_For_additional_sampling a obo:NCIT_C47953;
+fg:Individual_consent_Allow_recontacting_For_additional_sampling a obo:NCIT_C176244;
   rdfs:label "For additional sampling";
   dc:description "Willingness to be contacted to collect additional material or data from the patient.";
   rdfs:isDefinedBy obo:NCIT_C25662 .
 
-fg:Individual_consent_Allow_recontacting_For_incidental_findings a obo:NCIT_C47953;
+fg:Individual_consent_Allow_recontacting_For_incidental_findings a obo:NCIT_C176244;
   rdfs:label "For incidental findings";
   dc:description "Willingness to be contacted when new knowledge regarding incidental findings becomes available to benefit the patient.";
   rdfs:isDefinedBy obo:ICO_0000178 .
 
-fg:Individual_consent_Allow_recontacting_For_diagnostic_question a obo:NCIT_C47953;
+fg:Individual_consent_Allow_recontacting_For_diagnostic_question a obo:NCIT_C176244;
   rdfs:label "For diagnostic question";
   dc:description "Willingness to be contacted when new knowledge regarding the diagnostic question becomes available to benefit the patient.";
   rdfs:isDefinedBy obo:NCIT_C15220 .

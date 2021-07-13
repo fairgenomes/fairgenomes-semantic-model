@@ -8,7 +8,7 @@ public class Sequencing {
 	public String sequencingdate;
 	public String sequencingplatform;
 	public String sequencinginstrumentmodel;
-	public String sequencingtype;
+	public String sequencingmethod;
 	public int averagereaddepth;
 	public int observedreadlength;
 	public int observedinsertsize;

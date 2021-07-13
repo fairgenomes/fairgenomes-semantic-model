@@ -8,153 +8,165 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
-fg:Personal_Genotypic_sex_UNKNOWN_KARYOTYPE a obo:PATO_0020000;
-  rdfs:label "UNKNOWN_KARYOTYPE";
-  dc:description "Untyped or inconclusive karyotyping";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#UNKNOWN_KARYOTYPE> .
+fg:Personal_Genotypic_sex_XX_Genotype a obo:NCIT_C168871;
+  rdfs:label "XX Genotype";
+  dc:description "The normal genotype of a female human.";
+  rdfs:isDefinedBy obo:NCIT_C45976 .
 
-fg:Personal_Genotypic_sex_XX a obo:PATO_0020000;
-  rdfs:label "XX";
-  dc:description "Female";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XX> .
+fg:Personal_Genotypic_sex_XY_Genotype a obo:NCIT_C168871;
+  rdfs:label "XY Genotype";
+  dc:description "The normal genotype of a male human.";
+  rdfs:isDefinedBy obo:NCIT_C45977 .
 
-fg:Personal_Genotypic_sex_XY a obo:PATO_0020000;
-  rdfs:label "XY";
-  dc:description "Male";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XY> .
+<https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_45,XO_Karyotype> a
+    obo:NCIT_C168871;
+  rdfs:label "45,XO Karyotype";
+  dc:description "An abnormal sex chromosome karyotype where the individual is missing either a second X chromosome or the Y chromosome. The normal autosomal karyotype is present. This karyotype is associated with Turner Syndrome.";
+  rdfs:isDefinedBy obo:NCIT_C176780 .
 
-fg:Personal_Genotypic_sex_XO a obo:PATO_0020000;
-  rdfs:label "XO";
-  dc:description "Single X chromosome only";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XO> .
+<https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_45,XO_with_Y_Chromosomal_Material>
+  a obo:NCIT_C168871;
+  rdfs:label "45,XO with Y Chromosomal Material";
+  dc:description "An abnormal sex chromosome karyotype where the individual is missing a second X chromosome and has some chromosomal material from the Y chromosome. The normal autosomal karyotype is present.";
+  rdfs:isDefinedBy obo:NCIT_C176781 .
 
-fg:Personal_Genotypic_sex_XXY a obo:PATO_0020000;
-  rdfs:label "XXY";
-  dc:description "Two X and one Y chromosome";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXY> .
+<https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_47,XXX_Karyotype> a
+    obo:NCIT_C168871;
+  rdfs:label "47,XXX Karyotype";
+  dc:description "An abnormal sex chromosome karyotype where the individual has three copies of the X chromosome. The normal autosomal karyotype is present. This karyotype is associated with triple X syndrome.";
+  rdfs:isDefinedBy obo:NCIT_C176785 .
 
-fg:Personal_Genotypic_sex_XXX a obo:PATO_0020000;
-  rdfs:label "XXX";
-  dc:description "Three X chromosomes";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXX> .
+<https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_47,XXY_Karyotype> a
+    obo:NCIT_C168871;
+  rdfs:label "47,XXY Karyotype";
+  dc:description "An abnormal sex chromosome karyotype where the individual has two copies of the X chromosome and one copy of the Y chromosome. The normal autosomal karyotype is present. This karyotype is associated with Klinefelter syndrome.";
+  rdfs:isDefinedBy obo:NCIT_C176784 .
 
-fg:Personal_Genotypic_sex_XXYY a obo:PATO_0020000;
-  rdfs:label "XXYY";
-  dc:description "Two X chromosomes and two Y chromosomes";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXYY> .
+<https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_47,XYY_Karyotype> a
+    obo:NCIT_C168871;
+  rdfs:label "47,XYY Karyotype";
+  dc:description "An abnormal sex chromosome karyotype where the individual has one X chromosome and has two copies of the Y chromosome. The normal autosomal karyotype is present.";
+  rdfs:isDefinedBy obo:NCIT_C176782 .
 
-fg:Personal_Genotypic_sex_XXXY a obo:PATO_0020000;
-  rdfs:label "XXXY";
-  dc:description "Three X chromosomes and one Y chromosome";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXY> .
+<https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_48,XXXX_Karyotype>
+  a obo:NCIT_C168871;
+  rdfs:label "48,XXXX Karyotype";
+  dc:description "An abnormal sex chromosome karyotype where the individual has four copies of the X chromosome. The normal autosomal karyotype is present.";
+  rdfs:isDefinedBy obo:NCIT_C176787 .
 
-fg:Personal_Genotypic_sex_XXXX a obo:PATO_0020000;
-  rdfs:label "XXXX";
-  dc:description "Four X chromosomes";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXX> .
+<https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_48,XXXY_Karyotype>
+  a obo:NCIT_C168871;
+  rdfs:label "48,XXXY Karyotype";
+  dc:description "An abnormal sex chromosome karyotype where the individual has three copies of the X chromosome and one copy of the Y chromosome. The normal autosomal karyotype is present.";
+  rdfs:isDefinedBy obo:NCIT_C176786 .
 
-fg:Personal_Genotypic_sex_XYY a obo:PATO_0020000;
-  rdfs:label "XYY";
-  dc:description "One X and two Y chromosomes";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XYY> .
+fg:Personal_Genotypic_sex_XXYY_Syndrome a obo:NCIT_C168871;
+  rdfs:label "XXYY Syndrome";
+  dc:description "A rare sex chromosome abnormality in which a male child has an extra X and Y chromosome.";
+  rdfs:isDefinedBy obo:NCIT_C89801 .
 
-fg:Personal_Genotypic_sex_OTHER_KARYOTYPE a obo:PATO_0020000;
-  rdfs:label "OTHER_KARYOTYPE";
-  dc:description "None of the above types";
-  rdfs:isDefinedBy <https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#OTHER_KARYOTYPE> .
+fg:Personal_Genotypic_sex_Penta_X_Syndrome a obo:NCIT_C168871;
+  rdfs:label "Penta X Syndrome";
+  dc:description "A rare sex chromosome abnormality in which a female child has 3 extra X chromosomes.";
+  rdfs:isDefinedBy obo:NCIT_C89802 .
+
+fg:Personal_Genotypic_sex_XXXXY_Syndrome a obo:NCIT_C168871;
+  rdfs:label "XXXXY Syndrome";
+  dc:description "Rare syndrome caused by chromosomal defects and characterized by the presence of multiple X chromosomes and one Y chromosome. Signs and symptoms include short stature, mental retardation, hypogonadism, undescended testes, gynecomastia, and hypotonia.";
+  rdfs:isDefinedBy obo:NCIT_C85236 .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_NoInformation_(NI,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "NoInformation (NI, nullflavor)";
   dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Invalid_(INV,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Invalid (INV, nullflavor)";
   dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Derived_(DER,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Derived (DER, nullflavor)";
   dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Other_(OTH,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Other (OTH, nullflavor)";
   dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Negative_infinity_(NINF,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Negative infinity (NINF, nullflavor)";
   dc:description "Negative infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Positive_infinity_(PINF,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Positive infinity (PINF, nullflavor)";
   dc:description "Positive infinity of numbers.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Un-encoded_(UNC,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Un-encoded (UNC, nullflavor)";
   dc:description "The actual value has not yet been encoded within the approved value domain.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Masked_(MSK,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Masked (MSK, nullflavor)";
   dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Not_applicable_(NA,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Not applicable (NA, nullflavor)";
   dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Unknown_(UNK,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Unknown (UNK, nullflavor)";
   dc:description "A proper value is applicable, but not known.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Asked_but_unknown_(ASKU,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Asked but unknown (ASKU, nullflavor)";
   dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Temporarily_unavailable_(NAV,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Temporarily unavailable (NAV, nullflavor)";
   dc:description "Information is not available at this time but it is expected that it will be available later.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Not_asked_(NASK,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Not asked (NASK, nullflavor)";
   dc:description "This information has not been sought. (e.g., patient was not asked)";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Not_available_(NAVU,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Not available (NAVU, nullflavor)";
   dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Sufficient_quantity_(QS,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Sufficient quantity (QS, nullflavor)";
   dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Genotypic_sex_Trace_(TRC,_nullflavor)>
-  a obo:PATO_0020000;
+  a obo:NCIT_C168871;
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

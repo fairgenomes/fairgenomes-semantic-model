@@ -1,15 +1,16 @@
 value_en	description_en	codesystem	code	description_code
-UNKNOWN_KARYOTYPE	Untyped or inconclusive karyotyping	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#UNKNOWN_KARYOTYPE	UNKNOWN_KARYOTYPE
-XX	Female	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XX	XX
-XY	Male	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XY	XY
-XO	Single X chromosome only	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XO	XO
-XXY	Two X and one Y chromosome	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXY	XXY
-XXX	Three X chromosomes	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXX	XXX
-XXYY	Two X chromosomes and two Y chromosomes	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXYY	XXYY
-XXXY	Three X chromosomes and one Y chromosome	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXY	XXXY
-XXXX	Four X chromosomes	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XXXX	XXXX
-XYY	One X and two Y chromosomes	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#XYY	XYY
-OTHER_KARYOTYPE	None of the above types	PhenoPackets	https://phenopackets-schema.readthedocs.io/en/latest/karyotypicsex.html#OTHER_KARYOTYPE	OTHER_KARYOTYPE
+XX Genotype	The normal genotype of a female human.	NCIT	http://purl.obolibrary.org/obo/NCIT_C45976	XX Genotype
+XY Genotype	The normal genotype of a male human.	NCIT	http://purl.obolibrary.org/obo/NCIT_C45977	XY Genotype
+45,XO Karyotype	An abnormal sex chromosome karyotype where the individual is missing either a second X chromosome or the Y chromosome. The normal autosomal karyotype is present. This karyotype is associated with Turner Syndrome.	NCIT	http://purl.obolibrary.org/obo/NCIT_C176780	45,XO Karyotype
+45,XO with Y Chromosomal Material	An abnormal sex chromosome karyotype where the individual is missing a second X chromosome and has some chromosomal material from the Y chromosome. The normal autosomal karyotype is present.	NCIT	http://purl.obolibrary.org/obo/NCIT_C176781	45,XO with Y Chromosomal Material
+47,XXX Karyotype	An abnormal sex chromosome karyotype where the individual has three copies of the X chromosome. The normal autosomal karyotype is present. This karyotype is associated with triple X syndrome.	NCIT	http://purl.obolibrary.org/obo/NCIT_C176785	47,XXX Karyotype
+47,XXY Karyotype	An abnormal sex chromosome karyotype where the individual has two copies of the X chromosome and one copy of the Y chromosome. The normal autosomal karyotype is present. This karyotype is associated with Klinefelter syndrome.	NCIT	http://purl.obolibrary.org/obo/NCIT_C176784	47,XXY Karyotype
+47,XYY Karyotype	An abnormal sex chromosome karyotype where the individual has one X chromosome and has two copies of the Y chromosome. The normal autosomal karyotype is present.	NCIT	http://purl.obolibrary.org/obo/NCIT_C176782	47,XYY Karyotype
+48,XXXX Karyotype	An abnormal sex chromosome karyotype where the individual has four copies of the X chromosome. The normal autosomal karyotype is present.	NCIT	http://purl.obolibrary.org/obo/NCIT_C176787	48,XXXX Karyotype
+48,XXXY Karyotype	An abnormal sex chromosome karyotype where the individual has three copies of the X chromosome and one copy of the Y chromosome. The normal autosomal karyotype is present.	NCIT	http://purl.obolibrary.org/obo/NCIT_C176786	48,XXXY Karyotype
+XXYY Syndrome	A rare sex chromosome abnormality in which a male child has an extra X and Y chromosome.	NCIT	http://purl.obolibrary.org/obo/NCIT_C89801	XXYY Syndrome
+Penta X Syndrome	A rare sex chromosome abnormality in which a female child has 3 extra X chromosomes.	NCIT	http://purl.obolibrary.org/obo/NCIT_C89802	Penta X Syndrome
+XXXXY Syndrome	Rare syndrome caused by chromosomal defects and characterized by the presence of multiple X chromosomes and one Y chromosome. Signs and symptoms include short stature, mental retardation, hypogonadism, undescended testes, gynecomastia, and hypotonia.	NCIT	http://purl.obolibrary.org/obo/NCIT_C85236	XXXXY Syndrome
 NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI	NoInformation (NI, nullflavor)
 Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV	Invalid (INV, nullflavor)
 Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER	Derived (DER, nullflavor)
