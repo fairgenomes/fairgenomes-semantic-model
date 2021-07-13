@@ -196,7 +196,7 @@ modules:
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Leaflet and consent form]
           - name: Collected by
-            description: Indicates the person, group, or institution who performed the collection act.
+            description: Indicates the institute who performed the collection act.
             ontology: NCIT:C45262 [http://purl.obolibrary.org/obo/NCIT_C45262]
             values: LookupOne [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Signing date
