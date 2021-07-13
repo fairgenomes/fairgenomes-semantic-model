@@ -69,7 +69,7 @@ import samplepreparation_librarypreparationkit.tsv --as fair-genomes_sampleprepa
 import samplepreparation_targetenrichmentkit.tsv --as fair-genomes_samplepreparation_targetenrichmentkit --in fair-genomes
 import sequencing_sequencingplatform.tsv --as fair-genomes_sequencing_sequencingplatform --in fair-genomes
 import sequencing_sequencinginstrumentmodel.tsv --as fair-genomes_sequencing_sequencinginstrumentmodel --in fair-genomes
-import sequencing_sequencingtype.tsv --as fair-genomes_sequencing_sequencingtype --in fair-genomes
+import sequencing_sequencingmethod.tsv --as fair-genomes_sequencing_sequencingmethod --in fair-genomes
 import analysis_dataformatsstored.tsv --as fair-genomes_analysis_dataformatsstored --in fair-genomes
 import analysis_referencegenomeused.tsv --as fair-genomes_analysis_referencegenomeused --in fair-genomes
 import study_attributes.tsv --as attributes --in fair-genomes
