@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   commander:
-    build: .
+    image: molgenis/commander:2.0.0
     environment: 
       - ADMIN_USERNAME=admin
       - ADMIN_PASSWORD=admin
@@ -11,6 +11,9 @@ services:
       - ../other:/data/other
       - ../img:/data/img
       - ./molgenis_prepare:/root/.mcmd/scripts/molgenis_prepare
+    command:
+      - run
+      - molgenis_prepare
     depends_on:
       - molgenis
   frontend:
