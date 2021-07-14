@@ -109,10 +109,10 @@ public class ToMOLGENISEMX extends AbstractGenerator {
             for (Element e : m.elements) {
                 if(e.valueTypeEnum.equals(ValueType.UniqueID))
                 {
-                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+"\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"FALSE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description + " ("+e.codeSystem+":"+e.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"FALSE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
                 }
                 else{
-                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+"\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"FALSE"+"\t"+"FALSE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+ " ("+e.codeSystem+":"+e.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"FALSE"+"\t"+"FALSE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
                 }
             }
             bw.flush();
