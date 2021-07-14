@@ -124,7 +124,7 @@ public class ToMOLGENISEMX extends AbstractGenerator {
         Landing page
          */
         MCMDbw.write("mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_existing" + LE);
-        String[] imgs = new String[]{"analysis", "lookups", "clinical", "leafletandconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo"};
+        String[] imgs = new String[]{"analysis", "lookups", "clinical", "leafletandconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo_white"};
         for(String img : imgs)
         {
             MCMDbw.write("mcmd add logo -p ../../misc/molgenis/img/"+img+".png" + LE);
