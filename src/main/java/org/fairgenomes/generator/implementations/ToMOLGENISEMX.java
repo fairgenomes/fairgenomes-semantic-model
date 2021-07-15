@@ -133,8 +133,8 @@ public class ToMOLGENISEMX extends AbstractGenerator {
         /*
         Demo permissions
          */
-        MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + LE);
-        MCMDbw.write("mcmd give anonymous view sys_md" + LE);
+        //MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + LE);
+        //MCMDbw.write("mcmd give anonymous view sys_md" + LE);
 
 
         /*
