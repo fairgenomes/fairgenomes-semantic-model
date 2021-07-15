@@ -101,14 +101,15 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 4. Update PDF (run toPDF.sh in generated/latex).
 5. Update version in [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv).
 6. Update version in [pom.xml](pom.xml).
-7. Make commits and push to fork.
-8. Pull request and merge with main (i.e. _fairgenomes_ organization).
-9. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairgenomes%2Ffairgenomes-semantic-model%2Fmain%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en) to TTL file in main repo.
-10. Commit LODE page to fork, then again PR and merge with main.
-11. Create Github release on main.
-12. Prepare for new developments: update version in [fair-genomes.yml](fair-genomes.yml) and set to SNAPSHOT.
-13. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
-14. Reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
+7. Create a new Excel file at [misc/excel](misc/excel).
+8. Make commits and push to fork.
+9. Pull request and merge with main (i.e. _fairgenomes_ organization).
+10. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairgenomes%2Ffairgenomes-semantic-model%2Fmain%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en) to TTL file in main repo.
+11. Commit LODE page to fork, then again PR and merge with main.
+12. Create Github release on main.
+13. Prepare for new developments: update version in [fair-genomes.yml](fair-genomes.yml) and set to SNAPSHOT.
+14. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
+15. Reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
 
 #### MOLGENIS-EMX2
 
