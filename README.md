@@ -32,9 +32,9 @@ Representations of the schema for specific systems/users are generated from the 
 
 #### Documentation
 
-- Interactive overview at [markdown](generated/markdown).
-- Typesetted LaTeX/PDF at [latex](generated/latex) and [pdf](derived/pdf).
-- LODE page at [lode](derived/ontology/lode).
+- Interactive overview at [markdown](generated/markdown). View it [here](generated/markdown/fairgenomes-semantic-model.md).
+- Typesetted LaTeX/PDF at [latex](generated/latex) and [pdf](derived/pdf). View it [here](derived/pdf/fair-genomes.pdf).
+- LODE page at [lode](derived/ontology/lode). View it [here](https://w3id.org/fair-genomes/ontology).
 
 ## Demo
 Please try the [public demo](https://fairgenomes-acc.gcc.rug.nl) at give us feedback.
