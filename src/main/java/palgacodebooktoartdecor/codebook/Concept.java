@@ -47,7 +47,7 @@ class Concept {
     private String versionLabel;
     private String statusCode;
     private Map<String, LanguageConcept> languageConceptMap = new HashMap<>();
-    private Map<String, ConceptOption> conceptOptionsMap = new HashMap<>();
+    private Map<String, ConceptOption> conceptOptionsMap = new LinkedHashMap<>();
     private Map<String, String> propertiesMap = new HashMap<>();
 
     /**
