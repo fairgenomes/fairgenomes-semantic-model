@@ -1,13 +1,23 @@
 key_	content
 home	"<div class=""jumbotron jumbotron-fluid"">
 <div class=""container"">
-	<h1 class=""display-4"" style=""color: #353535;font-size: 8.5em; ""><img src=""/logo/fair_genomes_logo_long.png"" style=""height: 100px;""/>
+
+	<img src=""/logo/fair_genomes_logo_long.png"" style=""height: 100px;""/>
+
 	<p class=""lead"">
 		<i>A national guideline to promote optimal (re)use of NGS data in research and healthcare</i>.<br/>
 	</p>
-	<h4>
-	    Version 1.0 production database. <!--This is a prototype for evaluation purposes only. Do not import any sensitive data. This database is reset when a new version is released.-->
-	</h4>
+
+	<table style=""table-layout: fixed; width: 700px;"">
+    	<tr>
+    		<td style=""text-align: center;"">
+	            <h4>
+	                Version 1.0 production database. <!--This is a prototype for evaluation purposes only. Do not import any sensitive data. This database is reset when a new version is released.-->
+	            </h4>
+	        </td>
+	    </tr>
+	</table>
+
 	<table style=""table-layout: fixed; width: 700px; height: 800px;"">
 		<tr>
 			<td style=""text-align: center; vertical-align: bottom; width:100px; height: 100px;"">
@@ -66,11 +76,14 @@ home	"<div class=""jumbotron jumbotron-fluid"">
 			</td>
 		</tr>
 	</table>
+
 	<br/>
 	<br/>
 	<br/>
+
 	<p style=""font-size:10px"">
 		Figure credits: Iconathon, Adrien Coquet, Creative Stall, Anthony Bossard, Eucalyp, Sumit Saengthong, Wichai Wi, Line Icons Pro, Yu-Hsuan Chen and Anita Erica from <a href=""https://thenounproject.com/"">Noun Project</a>.
 	</p>
+
 </div>
 </div>"
