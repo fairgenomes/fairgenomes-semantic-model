@@ -75,7 +75,7 @@ modules:
             ontology: OMIABIS:0000035 [http://purl.obolibrary.org/obo/OMIABIS_0000035]
             values: String
           - name: Study design
-            description: A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.
+            description: A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of this study.
             ontology: OBI:0500000 [http://purl.obolibrary.org/obo/OBI_0500000]
             values: Text
           - name: Start date
@@ -112,15 +112,15 @@ modules:
             ontology: NCIT:C176763 [http://purl.obolibrary.org/obo/NCIT_C176763]
             values: LookupMany [lookups/Ancestry.txt], ofType [http://purl.obolibrary.org/obo/HANCESTRO_0004]
           - name: Country of birth
-            description: The country that a given person was born in.
+            description: The country that this person was born in.
             ontology: GENEPIO:0001094 [http://purl.obolibrary.org/obo/GENEPIO_0001094]
             values: LookupOne [lookups/Countries.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0001830]
           - name: Year of birth
-            description: The year in which a person was born.
+            description: The year in which this person was born.
             ontology: NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]
             values: Integer
           - name: Inclusion status
-            description: An indicator that provides information on the current health status of a patient.
+            description: An indicator that provides information on the current health status of this person.
             ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]
             values: LookupOne [lookups/InclusionStatus.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C19332]
           - name: Age at death
@@ -128,11 +128,11 @@ modules:
             ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]
             values: Integer
           - name: Primary affiliated institute
-            description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.
+            description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person.
             ontology: NCIT:C25412 [http://purl.obolibrary.org/obo/NCIT_C25412]
             values: LookupOne [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Resources in other institutes
-            description: Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.
+            description: Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals.
             ontology: NCIT:C19012 [http://purl.obolibrary.org/obo/NCIT_C19012]
             values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Participates in study
@@ -192,7 +192,7 @@ modules:
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Personal]
           - name: Consent form used
-            description: Reference to the informed consent form that was signed. Points at to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent.
+            description: Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent.
             ontology: IAO:0000136 [http://purl.obolibrary.org/obo/IAO_0000136]
             values: ReferenceOne [Leaflet and consent form]
           - name: Collected by
@@ -268,7 +268,7 @@ modules:
             ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
             values: Text
           - name: Age at diagnosis
-            description: The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer.
+            description: The age, measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease.
             ontology: SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]
             values: Integer
           - name: Age at last screening
@@ -276,7 +276,7 @@ modules:
             ontology: NCIT:C81258 [http://purl.obolibrary.org/obo/NCIT_C81258]
             values: Integer
           - name: Medication
-            description: A drug product that contains one or more active and/or inactive ingredients; it is intended to treat, prevent or alleviate the symptoms of disease.
+            description: A drug product that contains one or more active and/or inactive ingredients used by the patient intended to treat, prevent or alleviate the symptoms of disease.
             ontology: NCIT:C459 [http://purl.obolibrary.org/obo/NCIT_C459]
             values: LookupMany [lookups/Drugs.txt], ofType [http://edamontology.org/data_3103]
           - name: Drug regimen
@@ -288,7 +288,7 @@ modules:
             ontology: HP:0032320 [http://purl.obolibrary.org/obo/HP_0032320]
             values: LookupMany [lookups/FamilyMembers.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C71384]
           - name: Family members sequenced
-            description: Family members related by descent rather than by marriage or law who were also tested using next-generation sequencing.
+            description: Family members related by descent rather than by marriage or law who were also tested by next-generation sequencing.
             ontology: NCIT:C79916 [http://purl.obolibrary.org/obo/NCIT_C79916]
             values: LookupMany [lookups/FamilyMembers.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C71384]
           - name: Consanguinity
@@ -304,7 +304,7 @@ modules:
             ontology: Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]
             values: Integer
           - name: First contact
-            description: First contact with a specialised center in context of disease or study inclusion.
+            description: First contact of the patient with a specialised center in context of disease or study inclusion.
             ontology: LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]
             values: Date
           - name: Functioning
@@ -337,7 +337,7 @@ modules:
             ontology: EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]
             values: DateTime
           - name: Registration timestamp
-            description: The act of listing or recording this material officially, i.e. officially qualified or enrolled.
+            description: Date and time at which this material was listed or recorded officially, i.e. officially qualified or enrolled.
             ontology: NCIT:C25646 [http://purl.obolibrary.org/obo/NCIT_C25646]
             values: DateTime
           - name: Sampling protocol
@@ -365,7 +365,7 @@ modules:
             ontology: GO:0001894 [http://purl.obolibrary.org/obo/GO_0001894]
             values: LookupOne [lookups/PathologicalState.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C164617]
           - name: Storage conditions
-            description: The conditions specified for the storage of this biological material.
+            description: The conditions under which this biological material was stored.
             ontology: NCIT:C96145 [http://purl.obolibrary.org/obo/NCIT_C96145]
             values: LookupOne [lookups/StorageConditions.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C96145]
           - name: Expiration date
@@ -402,19 +402,19 @@ modules:
             ontology: AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]
             values: Integer
           - name: Library preparation kit
-            description: Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
+            description: Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
             ontology: GENEPIO:0000085 [http://purl.obolibrary.org/obo/GENEPIO_0000085]
             values: LookupOne [lookups/NGSKits.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000081]
           - name: PCR free
-            description: A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample.
+            description: Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase.
             ontology: NCIT:C17003 [http://purl.obolibrary.org/obo/NCIT_C17003]
             values: Boolean
           - name: Target enrichment kit
-            description: Any of various techniques designed to select or increase a target item in a mixed sample.
+            description: Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample.
             ontology: NCIT:C154307 [http://purl.obolibrary.org/obo/NCIT_C154307]
             values: LookupOne [lookups/NGSKits.txt], ofType [http://purl.obolibrary.org/obo/GENEPIO_0000081]
           - name: UMIs present
-            description: A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.
+            description: Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.
             ontology: EFO:0010199 [http://www.ebi.ac.uk/efo/EFO_0010199]
             values: Boolean
           - name: Intended insert size
@@ -422,7 +422,7 @@ modules:
             ontology: FG:0000001 [https://w3id.org/fair-genomes/resource/FG_0000001]
             values: Integer
           - name: Intended read length
-            description: The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
+            description: The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.
             ontology: NCIT:C153362 [http://purl.obolibrary.org/obo/NCIT_C153362]
             values: Integer
     - name: Sequencing
@@ -438,7 +438,7 @@ modules:
             ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
             values: ReferenceOne [Sample preparation]
           - name: Sequencing date
-            description: Date on which this sequencing run was performed.
+            description: Date on which this sequencing assay was performed.
             ontology: GENEPIO:0000069 [http://purl.obolibrary.org/obo/GENEPIO_0000069]
             values: Date
           - name: Sequencing platform
@@ -506,7 +506,7 @@ modules:
             ontology: NCIT:C16275 [http://purl.obolibrary.org/obo/NCIT_C16275]
             values: Text
           - name: Reference genome used
-            description: An identifier of a build of a particular genome.
+            description: The specific build of the human genome used as reference for sequence alignment and variant calling.
             ontology: EDAM:data_2340 [http://edamontology.org/data_2340]
             values: LookupOne [lookups/GenomeAccessions.txt], ofType [http://edamontology.org/data_2787]
           - name: Bioinformatic protocol used
