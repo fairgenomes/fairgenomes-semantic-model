@@ -11,8 +11,8 @@
 <https://w3id.org/fair-genomes/ontology/> a owl:Ontology;
   dc:title "FAIR Genomes metadata schema";
   dc:description "The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.";
-  dc:date "2021-04-23";
-  owl:versionInfo "0.4-SNAPSHOT";
+  dc:date "2021-07-15";
+  owl:versionInfo "1.0-Major";
   dc:language "en";
   dc:rights "This ontology is distributed under a Attribution 4.0 International (CC BY 4.0) License - https://creativecommons.org/licenses/by/4.0/. Copyright: University Medical Center Groningen (2019-2021).";
   dc:publisher <https://github.com/fairgenomes/fairgenomes-semantic-model>;
@@ -60,62 +60,62 @@
 fg:Study a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C63536;
   rdfs:label "Study";
-  dc:description "A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it." .
+  dc:description "A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts." .
 
 fg:Study_Identifier a owl:DatatypeProperty;
   rdfs:label "Identifier";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OMIABIS_0000006;
-  dc:description "A sample collection or study proper name that is centrally registered and unique within one framework." .
+  dc:description "A unique proper name or character sequence that identifies this particular study." .
 
 fg:Study_Name a owl:DatatypeProperty;
   rdfs:label "Name";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OMIABIS_0000037;
-  dc:description "A proper name that designates a study." .
+  dc:description "A name that designates this study." .
 
 fg:Study_Description a owl:DatatypeProperty;
   rdfs:label "Description";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OMIABIS_0000036;
-  dc:description "A textual entity describing a study aim or a sample collection." .
+  dc:description "A statement or piece of writing that provides details on this study." .
 
 fg:Study_Inclusion_criteria a owl:ObjectProperty;
   rdfs:label "Inclusion criteria";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OBI_0500027;
-  dc:description "An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.";
+  dc:description "The conditions which, if met, make an person eligible for participation in this study.";
   rdfs:range obo:OBI_0500027 .
 
 fg:Study_Principal_investigator a owl:DatatypeProperty;
   rdfs:label "Principal investigator";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OMIABIS_0000100;
-  dc:description "The principle investigtor or responsible person for a study or a sample collection." .
+  dc:description "The principle investigator or responsible person for this study." .
 
 fg:Study_Contact_information a owl:DatatypeProperty;
   rdfs:label "Contact information";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OMIABIS_0000035;
-  dc:description "An email address for the purpose of contacting a sample collection or study contact person." .
+  dc:description "An email address for the purpose of contacting the study contact person." .
 
 fg:Study_Study_design a owl:DatatypeProperty;
   rdfs:label "Study design";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OBI_0500000;
-  dc:description "A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution." .
+  dc:description "A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of this study." .
 
 fg:Study_Start_date a owl:DatatypeProperty;
   rdfs:label "Start date";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:NCIT_C69208;
-  dc:description "The date on which a study began." .
+  dc:description "The date on which this study began." .
 
 fg:Study_Completion_date a owl:DatatypeProperty;
   rdfs:label "Completion date";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:NCIT_C142702;
-  dc:description "The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date." .
+  dc:description "The date on which the concluding information for this study is completed. Usually, this is when the last subject has a final visit, or the main analysis has finished, or any other protocol-defined completion date." .
 
 fg:Personal a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C90492;
@@ -126,7 +126,7 @@ fg:Personal_Personal_identifier a owl:DatatypeProperty;
   rdfs:label "Personal identifier";
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:NCIT_C164337;
-  dc:description "An alphanumeric identifier assigned to a specific patient." .
+  dc:description "A unique proper name or character sequence that identifies this particular person." .
 
 fg:Personal_Phenotypic_sex a owl:ObjectProperty;
   rdfs:label "Phenotypic sex";
@@ -160,20 +160,20 @@ fg:Personal_Country_of_birth a owl:ObjectProperty;
   rdfs:label "Country of birth";
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:GENEPIO_0001094;
-  dc:description "The country that a given person was born in.";
+  dc:description "The country that this person was born in.";
   rdfs:range obo:GENEPIO_0001830 .
 
 fg:Personal_Year_of_birth a owl:DatatypeProperty;
   rdfs:label "Year of birth";
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:NCIT_C83164;
-  dc:description "The year in which a person was born." .
+  dc:description "The year in which this person was born." .
 
 fg:Personal_Inclusion_status a owl:ObjectProperty;
   rdfs:label "Inclusion status";
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:NCIT_C166244;
-  dc:description "An indicator that provides information on the current health status of a patient.";
+  dc:description "An indicator that provides information on the current health status of this person.";
   rdfs:range obo:NCIT_C19332 .
 
 fg:Personal_Age_at_death a owl:DatatypeProperty;
@@ -186,21 +186,21 @@ fg:Personal_Primary_affiliated_institute a owl:ObjectProperty;
   rdfs:label "Primary affiliated institute";
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:NCIT_C25412;
-  dc:description "The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.";
+  dc:description "The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person.";
   rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 
 fg:Personal_Resources_in_other_institutes a owl:ObjectProperty;
   rdfs:label "Resources in other institutes";
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:NCIT_C19012;
-  dc:description "Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.";
+  dc:description "Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals.";
   rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 
 fg:Personal_Participates_in_study a owl:ObjectProperty;
   rdfs:label "Participates in study";
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:RO_0000056;
-  dc:description "The study or studies in which this person participates." .
+  dc:description "Reference to the study or studies in which this person participates." .
 
 fg:Leaflet_and_consent_form a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C16468;
@@ -211,79 +211,79 @@ fg:Leaflet_and_consent_form_Leaflet_title a owl:DatatypeProperty;
   rdfs:label "Leaflet title";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/title>;
-  dc:description "A name given to the resource." .
+  dc:description "A title or name given to the leaflet that belongs to this consent form." .
 
 fg:Leaflet_and_consent_form_Leaflet_date a owl:DatatypeProperty;
   rdfs:label "Leaflet date";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/date>;
-  dc:description "A point or period of time associated with an event in the lifecycle of the resource." .
+  dc:description "A point or period of time associated with the publication of this leaflet that belongs to this consent form." .
 
 fg:Leaflet_and_consent_form_Leaflet_version a owl:DatatypeProperty;
   rdfs:label "Leaflet version";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/hasVersion>;
-  dc:description "A related resource that is a version, edition, or adaptation of the described resource." .
+  dc:description "The version, edition, or adaptation of this leaflet that belongs to this consent form." .
 
 fg:Leaflet_and_consent_form_Consent_form_identifier a owl:DatatypeProperty;
   rdfs:label "Consent form identifier";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/identifier>;
-  dc:description "An unambiguous reference to the resource within a given context. Using a DOI would be optimal. Using a resolvable URL is suboptimal but preferable over a string value." .
+  dc:description "A unique proper name or character sequence that identifies this particular leaflet and consent form combination used in signing individual consent. Using a DOI would be optimal. Using any resolvable URL is suboptimal but still preferable over using a plain text value." .
 
 fg:Leaflet_and_consent_form_Consent_form_title a owl:DatatypeProperty;
   rdfs:label "Consent form title";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/title>;
-  dc:description "A name given to the resource." .
+  dc:description "A title or name given to this consent form." .
 
 fg:Leaflet_and_consent_form_Consent_form_accepted_date a owl:DatatypeProperty;
   rdfs:label "Consent form accepted date";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/dateAccepted>;
-  dc:description "Date of acceptance of the resource." .
+  dc:description "Date of acceptance of this consent form." .
 
 fg:Leaflet_and_consent_form_Consent_form_valid_until a owl:DatatypeProperty;
   rdfs:label "Consent form valid until";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/valid>;
-  dc:description "End date of the validity of a resource." .
+  dc:description "End date of the validity of this consent form." .
 
 fg:Leaflet_and_consent_form_Consent_form_creator a owl:ObjectProperty;
   rdfs:label "Consent form creator";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy obo:NCIT_C42628;
-  dc:description "Indicates the authoritative body who brought the item into existence.";
+  dc:description "Indicates the authoritative body who brought this consent form into existence.";
   rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 
 fg:Leaflet_and_consent_form_Consent_form_version a owl:DatatypeProperty;
   rdfs:label "Consent form version";
   rdfs:domain fg:Leaflet_and_consent_form;
   rdfs:isDefinedBy <http://purl.org/dc/terms/hasVersion>;
-  dc:description "A related resource that is a version, edition, or adaptation of the described resource." .
+  dc:description "The version, edition, or adaptation of this consent form." .
 
 fg:Individual_consent a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C16735;
   rdfs:label "Individual consent";
-  dc:description "Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved." .
+  dc:description "Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved." .
 
 fg:Individual_consent_Individual_consent_identifier a owl:DatatypeProperty;
   rdfs:label "Individual consent identifier";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy obo:ICO_0000044;
-  dc:description "A data item consisting of a unique identification code designating an informed consent." .
+  dc:description "A unique proper name or character sequence that identifies this particular signed individual consent." .
 
 fg:Individual_consent_Person_consenting a owl:ObjectProperty;
   rdfs:label "Person consenting";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy obo:IAO_0000136;
-  dc:description "The person (subject) whom this individual consent applies." .
+  dc:description "Reference to the person (i.e. subject) to whom this individual consent applies." .
 
 fg:Individual_consent_Consent_form_used a owl:ObjectProperty;
   rdfs:label "Consent form used";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy obo:IAO_0000136;
-  dc:description "The informed consent form that was signed. Refers to a particular instance of Leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this Individual consent." .
+  dc:description "Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent." .
 
 fg:Individual_consent_Collected_by a owl:ObjectProperty;
   rdfs:label "Collected by";
@@ -296,19 +296,19 @@ fg:Individual_consent_Signing_date a owl:DatatypeProperty;
   rdfs:label "Signing date";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy obo:ICO_0000036;
-  dc:description "A date specification that designates when an informed consent form was signed." .
+  dc:description "A date specification that designates when this individual consent form was signed." .
 
 fg:Individual_consent_Valid_from a owl:DatatypeProperty;
   rdfs:label "Valid from";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy <http://purl.org/dc/terms/valid>;
-  dc:description "Starting date of the validity of a resource." .
+  dc:description "Starting date of the validity of this individual consent." .
 
 fg:Individual_consent_Valid_until a owl:DatatypeProperty;
   rdfs:label "Valid until";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy <http://purl.org/dc/terms/valid>;
-  dc:description "End date of the validity of a resource." .
+  dc:description "End date of the validity of this individual consent." .
 
 fg:Individual_consent_Represented_by a owl:ObjectProperty;
   rdfs:label "Represented by";
@@ -328,14 +328,14 @@ fg:Individual_consent_Data_use_modifiers a owl:ObjectProperty;
   rdfs:label "Data use modifiers";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy obo:DUO_0000017;
-  dc:description "Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to an instance of an investigation for a specific disease or at geographical location.";
+  dc:description "Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to investigations into specific diseases or performed at specific geographical locations.";
   rdfs:range obo:DUO_0000017 .
 
 fg:Individual_consent_Data_use_specification a owl:DatatypeProperty;
   rdfs:label "Data use specification";
   rdfs:domain fg:Individual_consent;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000090>;
-  dc:description "Specifications on any applied data use permissions and modifiers. For example, a list of countries in case of a geographic restriction or a list of diseases when restricted to disease-specific research." .
+  dc:description "Further specification of applied data use permissions and modifiers. For example, a list of countries in case of geographic restrictions or a list of diseases when restricted to disease-specific research." .
 
 fg:Individual_consent_Allow_recontacting a owl:ObjectProperty;
   rdfs:label "Allow recontacting";
@@ -347,19 +347,19 @@ fg:Individual_consent_Allow_recontacting a owl:ObjectProperty;
 fg:Clinical a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C25398;
   rdfs:label "Clinical";
-  dc:description "Relating to the examination and treatment of patients dependent on direct observation." .
+  dc:description "Findings and circumstances relating to the examination and treatment of a patient." .
 
 fg:Clinical_Clinical_identifier a owl:DatatypeProperty;
   rdfs:label "Clinical identifier";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:NCIT_C87853;
-  dc:description "A character or string used to name, or characterize a clinical events reference." .
+  dc:description "A unique proper name or character sequence that identifies this particular clinical examination." .
 
 fg:Clinical_Belongs_to_person a owl:ObjectProperty;
   rdfs:label "Belongs to person";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:IAO_0000136;
-  dc:description "Link to the person whom the clinical information is about." .
+  dc:description "Reference to the person whom this clinical information is about." .
 
 fg:Clinical_Phenotype a owl:ObjectProperty;
   rdfs:label "Phenotype";
@@ -372,7 +372,7 @@ fg:Clinical_Unobserved_phenotype a owl:ObjectProperty;
   rdfs:label "Unobserved phenotype";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/HL7/C0442737>;
-  dc:description "Phenotypes or symptoms that were definitely not observed, which may help in differential diagnosis or establish incomplete penetrance.";
+  dc:description "Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance.";
   rdfs:range <https://www.wikidata.org/wiki/Property:P3841> .
 
 fg:Clinical_Phenotypic_data_available a owl:ObjectProperty;
@@ -386,7 +386,7 @@ fg:Clinical_Clinical_diagnosis a owl:ObjectProperty;
   rdfs:label "Clinical diagnosis";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:NCIT_C15607;
-  dc:description "A diagnosis made from a study of the signs and symptoms of a disease. Note that lookup type EDAM:data_2800 would best match the default Orpha codes, but EDAM:data_3667 was chosen to allow alternative disease coding systems (e.g. ICD or SNOMED).";
+  dc:description "A diagnosis made from a study of the signs and symptoms of a disease.";
   rdfs:range <http://edamontology.org/data_3667> .
 
 fg:Clinical_Molecular_diagnosis_gene a owl:ObjectProperty;
@@ -406,7 +406,7 @@ fg:Clinical_Age_at_diagnosis a owl:DatatypeProperty;
   rdfs:label "Age at diagnosis";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/423493009>;
-  dc:description "The age, measured from some defined time point e.g. birth at which a subject (e.g. a human patient) is diagnosed with some disease e.g. breast cancer." .
+  dc:description "The age, measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease." .
 
 fg:Clinical_Age_at_last_screening a owl:DatatypeProperty;
   rdfs:label "Age at last screening";
@@ -418,7 +418,7 @@ fg:Clinical_Medication a owl:ObjectProperty;
   rdfs:label "Medication";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:NCIT_C459;
-  dc:description "Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).";
+  dc:description "A drug product that contains one or more active and/or inactive ingredients used by the patient intended to treat, prevent or alleviate the symptoms of disease.";
   rdfs:range <http://edamontology.org/data_3103> .
 
 fg:Clinical_Drug_regimen a owl:DatatypeProperty;
@@ -431,14 +431,14 @@ fg:Clinical_Family_members_affected a owl:ObjectProperty;
   rdfs:label "Family members affected";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:HP_0032320;
-  dc:description "This term applies to a family member who is diagnosed with the same condition as the individual who is the primary focus of investigation (the proband).";
+  dc:description "Family members related by descent rather than by marriage or law who were diagnosed with the same condition as the individual who is the primary focus of investigation (i.e. the proband).";
   rdfs:range obo:NCIT_C71384 .
 
 fg:Clinical_Family_members_sequenced a owl:ObjectProperty;
   rdfs:label "Family members sequenced";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:NCIT_C79916;
-  dc:description "A person related by descent rather than by marriage or law that was also sequenced.";
+  dc:description "Family members related by descent rather than by marriage or law who were also tested by next-generation sequencing.";
   rdfs:range obo:NCIT_C71384 .
 
 fg:Clinical_Consanguinity a owl:DatatypeProperty;
@@ -458,13 +458,13 @@ fg:Clinical_Age_of_onset a owl:DatatypeProperty;
   rdfs:label "Age of onset";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy ordo:Orphanet_C023;
-  dc:description "Age of onset of clinical manifestations related to a clinical entity." .
+  dc:description "Age of onset of clinical manifestations related to the disease of the patient." .
 
 fg:Clinical_First_contact a owl:DatatypeProperty;
   rdfs:label "First contact";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/MTHU048806>;
-  dc:description "First contact with specialised center in context of disease or inclusion." .
+  dc:description "First contact of the patient with a specialised center in context of disease or study inclusion." .
 
 fg:Clinical_Functioning a owl:DatatypeProperty;
   rdfs:label "Functioning";
@@ -476,48 +476,48 @@ fg:Clinical_Material_used_in_diagnosis a owl:DatatypeProperty;
   rdfs:label "Material used in diagnosis";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000641>;
-  dc:description "This diagnosis c.q. clinical examination is based on one or more sampled materials. [WORK IN PROGRESS. This field should be proper ReferenceMany to Material, but this is technically problematic due to circular dependencies.]" .
+  dc:description "This diagnosis c.q. clinical examination is based on one or more sampled materials." .
 
 fg:Material a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C43376;
   rdfs:label "Material";
-  dc:description "Natural substances derived from living organisms such as cells, tissues, proteins, and DNA." .
+  dc:description "A natural substance derived from living organisms such as cells, tissues, proteins, and DNA." .
 
 fg:Material_Material_identifier a owl:DatatypeProperty;
   rdfs:label "Material identifier";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C93400;
-  dc:description "The unique identification of a material in a specific context." .
+  dc:description "A unique proper name or character sequence that identifies this particular material." .
 
 fg:Material_Collected_from_person a owl:ObjectProperty;
   rdfs:label "Collected from person";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000244>;
-  dc:description "Link to the person from whom the material was collected." .
+  dc:description "Reference to the person from whom this material was collected." .
 
 fg:Material_Belongs_to_diagnosis a owl:ObjectProperty;
   rdfs:label "Belongs to diagnosis";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000068>;
-  dc:description "This material is part of a diagnosis c.q. clinical examination. There can be multiple diagnoses when a non-tumor material is reused as reference." .
+  dc:description "Reference to a diagnosis c.q. clinical examination of which this material may be a part of. There can be multiple diagnoses when a non-tumor material is reused as reference." .
 
 fg:Material_Sampling_timestamp a owl:DatatypeProperty;
   rdfs:label "Sampling timestamp";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy <http://www.ebi.ac.uk/efo/EFO_0000689>;
-  dc:description "Date and time at which this sample was collected." .
+  dc:description "Date and time at which this material was collected." .
 
 fg:Material_Registration_timestamp a owl:DatatypeProperty;
   rdfs:label "Registration timestamp";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C25646;
-  dc:description "The act of listing or recording officially; officially qualified or enrolled." .
+  dc:description "Date and time at which this material was listed or recorded officially, i.e. officially qualified or enrolled." .
 
 fg:Material_Sampling_protocol a owl:DatatypeProperty;
   rdfs:label "Sampling protocol";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy <http://www.ebi.ac.uk/efo/EFO_0005518>;
-  dc:description "Describes the procedure whereby biological material for an experiment is sampled." .
+  dc:description "The procedure whereby this material was sampled for an analysis." .
 
 fg:Material_Sampling_protocol_deviation a owl:DatatypeProperty;
   rdfs:label "Sampling protocol deviation";
@@ -535,102 +535,102 @@ fg:Material_Biospecimen_type a owl:ObjectProperty;
   rdfs:label "Biospecimen type";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C70713;
-  dc:description "The type of a material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes. This includes particular types of cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory substances.";
+  dc:description "The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes.";
   rdfs:range obo:NCIT_C70699 .
 
 fg:Material_Anatomical_source a owl:ObjectProperty;
   rdfs:label "Anatomical source";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C103264;
-  dc:description "Biological entity that constitutes the structural organization of an individual member of a biological species.";
+  dc:description "Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken.";
   rdfs:range obo:UBERON_0001062 .
 
 fg:Material_Pathological_state a owl:ObjectProperty;
   rdfs:label "Pathological state";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:GO_0001894;
-  dc:description "A coded value specifying the pathological state of the tissue from which the biospecimen is derived.";
+  dc:description "The pathological state of the tissue from which this material was derived.";
   rdfs:range obo:NCIT_C164617 .
 
 fg:Material_Storage_conditions a owl:ObjectProperty;
   rdfs:label "Storage conditions";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C96145;
-  dc:description "The conditions specified for the storage of a biological material.";
+  dc:description "The conditions under which this biological material was stored.";
   rdfs:range obo:NCIT_C96145 .
 
 fg:Material_Expiration_date a owl:DatatypeProperty;
   rdfs:label "Expiration date";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C164516;
-  dc:description "The date beyond which a substance is no longer regarded as fit for use." .
+  dc:description "The date beyond which this material is no longer regarded as fit for use." .
 
 fg:Material_Percentage_tumor_cells a owl:DatatypeProperty;
   rdfs:label "Percentage tumor cells";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C127771;
-  dc:description "The determination of the ratio of tumor cells compared to total cells present in a sample. The measurement may be expressed as a ratio or percentage." .
+  dc:description "The percentage of tumor cells compared to total cells present in this material." .
 
 fg:Material_Physical_location a owl:DatatypeProperty;
   rdfs:label "Physical location";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:GAZ_00000448;
-  dc:description "A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent)." .
+  dc:description "A place on the Earth where this material is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent)." .
 
 fg:Material_Derived_from a owl:DatatypeProperty;
   rdfs:label "Derived from";
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:NCIT_C28355;
-  dc:description "A material produced from or related to another. [WORK IN PROGRESS. This field should be proper ReferenceOne to Material, but this is technically problematic due to circular dependencies.]" .
+  dc:description "Indicate if this material was produced from or related to another." .
 
 fg:Sample_preparation a owl:Class;
   rdfs:isDefinedBy obo:OBI_0001902;
   rdfs:label "Sample preparation";
-  dc:description "A sample preparation for assay that preparation of nucleic acids for a sequencing assay." .
+  dc:description "A sample preparation for a nucleic acids sequencing assay." .
 
 fg:Sample_preparation_Sampleprep_identifier a owl:DatatypeProperty;
   rdfs:label "Sampleprep identifier";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy obo:NCIT_C132299;
-  dc:description "Any of one or more unique codes that refers to a specific protocol." .
+  dc:description "A unique proper name or character sequence that identifies this particular sample preparation." .
 
 fg:Sample_preparation_Belongs_to_material a owl:ObjectProperty;
   rdfs:label "Belongs to material";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy obo:NCIT_C25683;
-  dc:description "Link to the source material from which this sample was prepared." .
+  dc:description "Reference to the source material from which this sample was prepared." .
 
 fg:Sample_preparation_Input_amount a owl:DatatypeProperty;
   rdfs:label "Input amount";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/role#AFRL_0000010>;
-  dc:description "Amount of input material in ng." .
+  dc:description "Amount of input material in nanogram (ng)." .
 
 fg:Sample_preparation_Library_preparation_kit a owl:ObjectProperty;
   rdfs:label "Library preparation kit";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy obo:GENEPIO_0000085;
-  dc:description "Pre-filled, ready-to-use reagent cartridges. Used to produce improved chemistry, cluster density and read length as well as improve quality (Q) scores. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.";
+  dc:description "Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.";
   rdfs:range obo:GENEPIO_0000081 .
 
 fg:Sample_preparation_PCR_free a owl:DatatypeProperty;
   rdfs:label "PCR free";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy obo:NCIT_C17003;
-  dc:description "A method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. This results in duplication of the targeted DNA region. Newly synthesized DNA strands can subsequently serve as additional templates for the same primer sequences, so that successive rounds of primer annealing, strand elongation, and dissociation produce rapid and highly specific amplification of the desired sequence. PCR also can be used to detect the existence of the defined sequence in a DNA sample." .
+  dc:description "Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase." .
 
 fg:Sample_preparation_Target_enrichment_kit a owl:ObjectProperty;
   rdfs:label "Target enrichment kit";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy obo:NCIT_C154307;
-  dc:description "Any of various techniques designed to select or increase a target item in a mixed sample.";
+  dc:description "Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample.";
   rdfs:range obo:GENEPIO_0000081 .
 
 fg:Sample_preparation_UMIs_present a owl:DatatypeProperty;
   rdfs:label "UMIs present";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy <http://www.ebi.ac.uk/efo/EFO_0010199>;
-  dc:description "A unique molecular identifier (UMI) barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule." .
+  dc:description "Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule." .
 
 fg:Sample_preparation_Intended_insert_size a owl:DatatypeProperty;
   rdfs:label "Intended insert size";
@@ -642,7 +642,7 @@ fg:Sample_preparation_Intended_read_length a owl:DatatypeProperty;
   rdfs:label "Intended read length";
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy obo:NCIT_C153362;
-  dc:description "The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process." .
+  dc:description "The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process." .
 
 fg:Sequencing a owl:Class;
   rdfs:isDefinedBy <http://edamontology.org/topic_3168>;
@@ -653,32 +653,32 @@ fg:Sequencing_Sequencing_identifier a owl:DatatypeProperty;
   rdfs:label "Sequencing identifier";
   rdfs:domain fg:Sequencing;
   rdfs:isDefinedBy obo:NCIT_C171337;
-  dc:description "A unique identifier assigned to raw data from a performed nucleic acid sequencing assay." .
+  dc:description "A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay." .
 
 fg:Sequencing_Belongs_to_sample a owl:ObjectProperty;
   rdfs:label "Belongs to sample";
   rdfs:domain fg:Sequencing;
   rdfs:isDefinedBy obo:NCIT_C25683;
-  dc:description "Link to the prepared sample i.e. source that was sequenced." .
+  dc:description "Reference to the prepared sample, i.e. the source that was sequenced." .
 
 fg:Sequencing_Sequencing_date a owl:DatatypeProperty;
   rdfs:label "Sequencing date";
   rdfs:domain fg:Sequencing;
   rdfs:isDefinedBy obo:GENEPIO_0000069;
-  dc:description "Date the sequencing run was performed." .
+  dc:description "Date on which this sequencing assay was performed." .
 
 fg:Sequencing_Sequencing_platform a owl:ObjectProperty;
   rdfs:label "Sequencing platform";
   rdfs:domain fg:Sequencing;
   rdfs:isDefinedBy obo:GENEPIO_0000071;
-  dc:description "A sequencing plaform (brand) is a name of a company that produces sequencer equipment.";
+  dc:description "The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment).";
   rdfs:range obo:GENEPIO_0000071 .
 
 fg:Sequencing_Sequencing_instrument_model a owl:ObjectProperty;
   rdfs:label "Sequencing instrument model";
   rdfs:domain fg:Sequencing;
   rdfs:isDefinedBy obo:GENEPIO_0001921;
-  dc:description "A product name and model number of a manufacturer's genomic (dna) sequencer.";
+  dc:description "The used product name and model number of a manufacturer's genomic (dna) sequencer.";
   rdfs:range obo:GENEPIO_0001921 .
 
 fg:Sequencing_Sequencing_method a owl:ObjectProperty;
@@ -727,50 +727,50 @@ fg:Sequencing_Other_quality_metrics a owl:DatatypeProperty;
 fg:Analysis a owl:Class;
   rdfs:isDefinedBy <http://edamontology.org/operation_2945>;
   rdfs:label "Analysis";
-  dc:description "Apply analytical methods to existing data of a specific type." .
+  dc:description "An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output." .
 
 fg:Analysis_Analysis_identifier a owl:DatatypeProperty;
   rdfs:label "Analysis identifier";
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/result#AFR_0001979>;
-  dc:description "An assay identifier is an identifier that identifies some assay (analysis)." .
+  dc:description "A unique proper name or character sequence that identifies this particular analysis." .
 
 fg:Analysis_Belongs_to_sequencing a owl:ObjectProperty;
   rdfs:label "Belongs to sequencing";
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy obo:NCIT_C25683;
-  dc:description "Link to the sequencing performed i.e. source on which the analysis is based." .
+  dc:description "Reference to the sequencing that was performed, i.e. the source on which this analysis was based." .
 
 fg:Analysis_Physical_data_location a owl:DatatypeProperty;
   rdfs:label "Physical data location";
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy obo:GAZ_00000448;
-  dc:description "A reference to a place on the Earth, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent)." .
+  dc:description "A place on the Earth where the data is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent)." .
 
 fg:Analysis_Abstract_data_location a owl:DatatypeProperty;
   rdfs:label "Abstract data location";
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy obo:NCIT_C142494;
-  dc:description "To maintain data by placing the data, or a copy of the data, onto an electronically accessible device for preservation (either in plain-text or encrypted format)." .
+  dc:description "The file location of the data, or a copy of the data, on an electronically accessible device for preservation (either in plain-text or encrypted format)." .
 
 fg:Analysis_Data_formats_stored a owl:ObjectProperty;
   rdfs:label "Data formats stored";
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy obo:NCIT_C142494;
-  dc:description "A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.";
+  dc:description "Which data file formats (i.e. defined ways or layouts of representing and structuring data in a computer file, blob, string, message, or elsewhere) are stored and potentially available.";
   rdfs:range <http://edamontology.org/format_1915> .
 
 fg:Analysis_Algorithms_used a owl:DatatypeProperty;
   rdfs:label "Algorithms used";
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy obo:NCIT_C16275;
-  dc:description "A defined procedure for solving a problem. Applied to a problem-solving procedure implemented in software to be executed by a computer." .
+  dc:description "Any used problem-solving procedures implemented in software to be executed by a computer." .
 
 fg:Analysis_Reference_genome_used a owl:ObjectProperty;
   rdfs:label "Reference genome used";
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy <http://edamontology.org/data_2340>;
-  dc:description "An identifier of a build of a particular genome.";
+  dc:description "The specific build of the human genome used as reference for sequence alignment and variant calling.";
   rdfs:range <http://edamontology.org/data_2787> .
 
 fg:Analysis_Bioinformatic_protocol_used a owl:DatatypeProperty;

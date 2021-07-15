@@ -109,10 +109,10 @@ public class ToMOLGENISEMX extends AbstractGenerator {
             for (Element e : m.elements) {
                 if(e.valueTypeEnum.equals(ValueType.UniqueID))
                 {
-                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+"\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"FALSE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description + " ("+e.codeSystem+":"+e.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"FALSE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
                 }
                 else{
-                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+"\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"FALSE"+"\t"+"FALSE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+ " ("+e.codeSystem+":"+e.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"FALSE"+"\t"+"FALSE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
                 }
             }
             bw.flush();
@@ -124,7 +124,7 @@ public class ToMOLGENISEMX extends AbstractGenerator {
         Landing page
          */
         MCMDbw.write("mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_existing" + LE);
-        String[] imgs = new String[]{"analysis", "lookups", "clinical", "leafletandconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo"};
+        String[] imgs = new String[]{"analysis", "lookups", "clinical", "leafletandconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo_long", "fair_genomes_logo_white"};
         for(String img : imgs)
         {
             MCMDbw.write("mcmd add logo -p ../../misc/molgenis/img/"+img+".png" + LE);
@@ -133,8 +133,8 @@ public class ToMOLGENISEMX extends AbstractGenerator {
         /*
         Demo permissions
          */
-        MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + LE);
-        MCMDbw.write("mcmd give anonymous view sys_md" + LE);
+        //MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + LE);
+        //MCMDbw.write("mcmd give anonymous view sys_md" + LE);
 
 
         /*

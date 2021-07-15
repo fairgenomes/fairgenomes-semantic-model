@@ -1,10 +1,10 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
-identifier	Identifier	A sample collection or study proper name that is centrally registered and unique within one framework.	study	string	TRUE	TRUE	TRUE	FALSE	
-name	Name	A proper name that designates a study.	study	string	FALSE	FALSE	TRUE	TRUE	
-description	Description	A textual entity describing a study aim or a sample collection.	study	text	FALSE	FALSE	TRUE	TRUE	
-inclusioncriteria	Inclusion criteria	An inclusion criterion defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process.	study	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_study_inclusioncriteria
-principalinvestigator	Principal investigator	The principle investigtor or responsible person for a study or a sample collection.	study	string	FALSE	FALSE	TRUE	TRUE	
-contactinformation	Contact information	An email address for the purpose of contacting a sample collection or study contact person.	study	string	FALSE	FALSE	TRUE	TRUE	
-studydesign	Study design	A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.	study	text	FALSE	FALSE	TRUE	TRUE	
-startdate	Start date	The date on which a study began.	study	date	FALSE	FALSE	TRUE	TRUE	
-completiondate	Completion date	The date on which the concluding information for a clinical investigation is completed. Usually, this is when the last subject has a final visit or any other protocol-defined completion date.	study	date	FALSE	FALSE	TRUE	TRUE	
+identifier	Identifier	A unique proper name or character sequence that identifies this particular study. (OMIABIS:0000006)	study	string	TRUE	TRUE	TRUE	FALSE	
+name	Name	A name that designates this study. (OMIABIS:0000037)	study	string	FALSE	FALSE	TRUE	TRUE	
+description	Description	A statement or piece of writing that provides details on this study. (OMIABIS:0000036)	study	text	FALSE	FALSE	TRUE	TRUE	
+inclusioncriteria	Inclusion criteria	The conditions which, if met, make an person eligible for participation in this study. (OBI:0500027)	study	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_study_inclusioncriteria
+principalinvestigator	Principal investigator	The principle investigator or responsible person for this study. (OMIABIS:0000100)	study	string	FALSE	FALSE	TRUE	TRUE	
+contactinformation	Contact information	An email address for the purpose of contacting the study contact person. (OMIABIS:0000035)	study	string	FALSE	FALSE	TRUE	TRUE	
+studydesign	Study design	A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of this study. (OBI:0500000)	study	text	FALSE	FALSE	TRUE	TRUE	
+startdate	Start date	The date on which this study began. (NCIT:C69208)	study	date	FALSE	FALSE	TRUE	TRUE	
+completiondate	Completion date	The date on which the concluding information for this study is completed. Usually, this is when the last subject has a final visit, or the main analysis has finished, or any other protocol-defined completion date. (NCIT:C142702)	study	date	FALSE	FALSE	TRUE	TRUE	

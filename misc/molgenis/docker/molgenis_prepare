@@ -95,6 +95,5 @@ add logo samplepreparation.png
 add logo sequencing.png
 add logo study.png
 add logo fair_genomes_logo_notext.png
-add logo fair_genomes_logo.png
-make --role ANONYMOUS fair-genomes_EDITOR
-give anonymous view sys_md
+add logo fair_genomes_logo_long.png
+add logo fair_genomes_logo_white.png
