@@ -8,7 +8,7 @@
   xmlns:owl="http://www.w3.org/2002/07/owl#">
 
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001902">
-    <rdfs:label xml:lang="en">A sample preparation for assay that preparation of nucleic acids for a sequencing assay.</rdfs:label>
+    <rdfs:label xml:lang="en">A sample preparation for a nucleic acids sequencing assay.</rdfs:label>
   </rdf:Description>
 
   <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000001">

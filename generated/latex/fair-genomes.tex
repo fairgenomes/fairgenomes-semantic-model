@@ -6,7 +6,7 @@
 \textbf{FAIR Genomes semantic metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 0.4-SNAPSHOT, 2021-04-23. This model consists of 9 modules that contain 110 metadata elements and 85305 lookups in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.0-Major, 2021-07-15. This model consists of 9 modules that contain 110 metadata elements and 85305 lookups in total (excluding null flavors).
 
 \begin{table}[htb]
 \begin{tabular}{lll}
@@ -23,7 +23,7 @@ Sequencing & EDAM:topic\_3168 & 12 \\
 Analysis & EDAM:operation\_2945 & 11 \\
 \hline
 \end{tabular}
-\caption[Module overview]{\label{table:table1} FAIR Genomes v0.4-SNAPSHOT overview of all modules.}
+\caption[Module overview]{\label{table:table1} FAIR Genomes v1.0-Major overview of all modules.}
 \end{table}
 
 \begin{table}[htb]
@@ -41,7 +41,7 @@ Start date & NCIT:C69208 & Date \\
 Completion date & NCIT:C142702 & Date \\
 \hline
 \end{tabular}
-\caption[Module: Study]{\label{table:table2} Module: Study. A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. Ontology: NCIT:C63536. }
+\caption[Module: Study]{\label{table:table2} Module: Study. A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts. Ontology: NCIT:C63536. }
 \end{table}
 
 \begin{table}[htb]
@@ -101,7 +101,7 @@ Data use specification & SIO:000090 & Text \\
 Allow recontacting & NCIT:C25737 & Recontacting lookup (3 choices) \\
 \hline
 \end{tabular}
-\caption[Module: Individual consent]{\label{table:table5} Module: Individual consent. Consent by a patient to a surgical or medical procedure or participation in a clinical study after achieving an understanding of the relevant medical facts and the risks involved. Ontology: NCIT:C16735. }
+\caption[Module: Individual consent]{\label{table:table5} Module: Individual consent. Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. Ontology: NCIT:C16735. }
 \end{table}
 
 \begin{table}[htb]
@@ -130,7 +130,7 @@ Functioning & NCIT:C21007 & Text \\
 Material used in diagnosis & SIO:000641 & String \\
 \hline
 \end{tabular}
-\caption[Module: Clinical]{\label{table:table6} Module: Clinical. Relating to the examination and treatment of patients dependent on direct observation. Ontology: NCIT:C25398. }
+\caption[Module: Clinical]{\label{table:table6} Module: Clinical. Findings and circumstances relating to the examination and treatment of a patient. Ontology: NCIT:C25398. }
 \end{table}
 
 \begin{table}[htb]
@@ -155,7 +155,7 @@ Physical location & GAZ:00000448 & String \\
 Derived from & NCIT:C28355 & String \\
 \hline
 \end{tabular}
-\caption[Module: Material]{\label{table:table7} Module: Material. Natural substances derived from living organisms such as cells, tissues, proteins, and DNA. Ontology: NCIT:C43376. }
+\caption[Module: Material]{\label{table:table7} Module: Material. A natural substance derived from living organisms such as cells, tissues, proteins, and DNA. Ontology: NCIT:C43376. }
 \end{table}
 
 \begin{table}[htb]
@@ -173,7 +173,7 @@ Intended insert size & FG:0000001 & Integer \\
 Intended read length & NCIT:C153362 & Integer \\
 \hline
 \end{tabular}
-\caption[Module: Sample preparation]{\label{table:table8} Module: Sample preparation. A sample preparation for assay that preparation of nucleic acids for a sequencing assay. Ontology: OBI:0001902. }
+\caption[Module: Sample preparation]{\label{table:table8} Module: Sample preparation. A sample preparation for a nucleic acids sequencing assay. Ontology: OBI:0001902. }
 \end{table}
 
 \begin{table}[htb]
@@ -214,7 +214,7 @@ Reason for bioinformatic protocol deviation & NCIT:C93529 & String \\
 WGS guideline followed & NCIT:C17564 & String \\
 \hline
 \end{tabular}
-\caption[Module: Analysis]{\label{table:table10} Module: Analysis. Apply analytical methods to existing data of a specific type. Ontology: EDAM:operation\_2945. }
+\caption[Module: Analysis]{\label{table:table10} Module: Analysis. An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output. Ontology: EDAM:operation\_2945. }
 \end{table}
 
 \begin{table}[htb]

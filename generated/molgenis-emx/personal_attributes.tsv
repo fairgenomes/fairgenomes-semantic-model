@@ -1,13 +1,13 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
-personalidentifier	Personal identifier	An alphanumeric identifier assigned to a specific patient.	personal	string	TRUE	TRUE	TRUE	FALSE	
-phenotypicsex	Phenotypic sex	An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_phenotypicsex
-genotypicsex	Genotypic sex	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_genotypicsex
-countryofresidence	Country of residence	Country of residence at enrollment.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofresidence
-ancestry	Ancestry	Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_ancestry
-countryofbirth	Country of birth	The country that a given person was born in.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofbirth
-yearofbirth	Year of birth	The year in which a person was born.	personal	int	FALSE	FALSE	TRUE	TRUE	
-inclusionstatus	Inclusion status	An indicator that provides information on the current health status of a patient.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_inclusionstatus
-ageatdeath	Age at death	The age at which death occurred.	personal	int	FALSE	FALSE	TRUE	TRUE	
-primaryaffiliatedinstitute	Primary affiliated institute	The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of a person.	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_primaryaffiliatedinstitute
-resourcesinotherinstitutes	Resources in other institutes	Material or data not captured by this system though known to be available in other institutes such as biobanks or hospitals.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_resourcesinotherinstitutes
-participatesinstudy	Participates in study	The study or studies in which this person participates.	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_study
+personalidentifier	Personal identifier	A unique proper name or character sequence that identifies this particular person. (NCIT:C164337)	personal	string	TRUE	TRUE	TRUE	FALSE	
+phenotypicsex	Phenotypic sex	An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics. (PATO:0001894)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_phenotypicsex
+genotypicsex	Genotypic sex	A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes. (PATO:0020000)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_genotypicsex
+countryofresidence	Country of residence	Country of residence at enrollment. (NCIT:C171105)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofresidence
+ancestry	Ancestry	Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data. (NCIT:C176763)	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_ancestry
+countryofbirth	Country of birth	The country that this person was born in. (GENEPIO:0001094)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_countryofbirth
+yearofbirth	Year of birth	The year in which this person was born. (NCIT:C83164)	personal	int	FALSE	FALSE	TRUE	TRUE	
+inclusionstatus	Inclusion status	An indicator that provides information on the current health status of this person. (NCIT:C166244)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_inclusionstatus
+ageatdeath	Age at death	The age at which death occurred. (NCIT:C135383)	personal	int	FALSE	FALSE	TRUE	TRUE	
+primaryaffiliatedinstitute	Primary affiliated institute	The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. (NCIT:C25412)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_primaryaffiliatedinstitute
+resourcesinotherinstitutes	Resources in other institutes	Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals. (NCIT:C19012)	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_resourcesinotherinstitutes
+participatesinstudy	Participates in study	Reference to the study or studies in which this person participates. (RO:0000056)	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_study
