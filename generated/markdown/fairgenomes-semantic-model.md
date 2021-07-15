@@ -1,6 +1,6 @@
 # FAIR Genomes semantic metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.0-Major, 2021-07-15. This model consists of __9 modules__ that contain __110 metadata elements__ and __85305 lookups__ in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.1-SNAPSHOT, 2021-07-15. This model consists of __9 modules__ that contain __110 metadata elements__ and __85305 lookups__ in total (excluding null flavors).
 
 ## Module overview
 
