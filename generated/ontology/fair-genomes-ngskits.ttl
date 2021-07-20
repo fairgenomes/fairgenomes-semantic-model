@@ -3687,6 +3687,11 @@ fg:Sample_preparation_Library_preparation_kit_HaloPlex_HS_Prepack_Reagents_ILMN_
   dc:description "ClearSeq Inherited Disease, 16, XT by Agilent Technologies sourced from https://www.biocompare.com, accessed May 2020.";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000739> .
 
+fg:Sample_preparation_Library_preparation_kit_Illumina_TruSeq_DNA_PCR-Free a obo:GENEPIO_0000081;
+  rdfs:label "Illumina TruSeq DNA PCR-Free";
+  dc:description "Illumina TruSeq DNA PCR-Free provides simple, all-inclusive library preparation for whole-genome sequencing applications.";
+  rdfs:isDefinedBy <https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-dna-pcr-free.html> .
+
 <https://w3id.org/fair-genomes/ontology/Sample_preparation_Library_preparation_kit_NoInformation_(NI,_nullflavor)>
   a obo:GENEPIO_0000081;
   rdfs:label "NoInformation (NI, nullflavor)";
@@ -7459,6 +7464,11 @@ fg:Sample_preparation_Target_enrichment_kit_HaloPlex_HS_Prepack_Reagents_ILMN_16
   rdfs:label "ClearSeq Inherited Disease, 16, XT by Agilent Technologies";
   dc:description "ClearSeq Inherited Disease, 16, XT by Agilent Technologies sourced from https://www.biocompare.com, accessed May 2020.";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000739> .
+
+fg:Sample_preparation_Target_enrichment_kit_Illumina_TruSeq_DNA_PCR-Free a obo:GENEPIO_0000081;
+  rdfs:label "Illumina TruSeq DNA PCR-Free";
+  dc:description "Illumina TruSeq DNA PCR-Free provides simple, all-inclusive library preparation for whole-genome sequencing applications.";
+  rdfs:isDefinedBy <https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-dna-pcr-free.html> .
 
 <https://w3id.org/fair-genomes/ontology/Sample_preparation_Target_enrichment_kit_NoInformation_(NI,_nullflavor)>
   a obo:GENEPIO_0000081;
