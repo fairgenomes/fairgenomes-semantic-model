@@ -49,13 +49,13 @@
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-pathologicalstate.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-recontacting.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-phenotypes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-biospecimentypes.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genotypicsex.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-diseases.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-anatomicalsources.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencingmethods.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-storageconditions.ttl>,
-    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ngskits.ttl>,
-    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-materialtypes.ttl> .
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ngskits.ttl> .
 
 fg:Study a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C63536;
