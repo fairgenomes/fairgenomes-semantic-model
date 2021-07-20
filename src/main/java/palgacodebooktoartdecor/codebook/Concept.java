@@ -184,6 +184,7 @@ class Concept {
             String codesystemName = conceptOption.codesystemName;
             String codesystemId = IdentifierManager.getIdentifierManager().getCodeSystemId(codesystemName, effectiveDate);
             boolean addToExceptionList = Statics.isExceptionCodeList(codesystemId);
+            addToExceptionList = (addToExceptionList || conceptOption.description_code.contains("nullflavor"));
             // add the option to the valueset
             artDecorValueSet.addConceptOption(conceptOption.code,
                     codesystemId,
