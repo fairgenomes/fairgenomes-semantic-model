@@ -365,7 +365,7 @@ public class CodebookToArtDecorConvertor {
                 "href=\"http://art-decor.org/ADAR/rv/DECOR.sch\" type=\"application/xml\" schematypes=\"http://purl.oclc.org/dsdl/schematron\"\n" +
                 "?>" +
                 "<decor xmlns:cda=\"urn:hl7-org:v3\" xmlns:hl7=\"urn:hl7-org:v3\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" " +
-                "xsi:noNamespaceSchemaLocation=\"http://art-decor.org/ADAR/rv/DECOR.xsd\" repository=\"false\" private=\"true\" " +
+                "xsi:noNamespaceSchemaLocation=\"http://art-decor.org/ADAR/rv/DECOR.xsd\" repository=\"false\" private=\"false\" " +
                 "cda:dummy-1=\"urn:hl7-org:v3\" hl7:dummy-2=\"urn:hl7-org:v3\" xsi:dummy-1=\"http://www.w3.org/2001/XMLSchema-instance\">\n");
     }
 
