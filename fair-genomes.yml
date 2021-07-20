@@ -355,7 +355,7 @@ modules:
           - name: Biospecimen type
             description: The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes.
             ontology: NCIT:C70713 [http://purl.obolibrary.org/obo/NCIT_C70713]
-            values: LookupOne [lookups/MaterialTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C70699]
+            values: LookupOne [lookups/BiospecimenTypes.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C70699]
           - name: Anatomical source
             description: Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken.
             ontology: NCIT:C103264 [http://purl.obolibrary.org/obo/NCIT_C103264]
