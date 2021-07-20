@@ -11,8 +11,8 @@
 <https://w3id.org/fair-genomes/ontology/> a owl:Ontology;
   dc:title "FAIR Genomes metadata schema";
   dc:description "The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.";
-  dc:date "2021-07-15";
-  owl:versionInfo "1.1-SNAPSHOT";
+  dc:date "2021-07-20";
+  owl:versionInfo "1.1-Minor";
   dc:language "en";
   dc:rights "This ontology is distributed under a Attribution 4.0 International (CC BY 4.0) License - https://creativecommons.org/licenses/by/4.0/. Copyright: University Medical Center Groningen (2019-2021).";
   dc:publisher <https://github.com/fairgenomes/fairgenomes-semantic-model>;
