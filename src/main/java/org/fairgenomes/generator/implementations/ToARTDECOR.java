@@ -23,7 +23,7 @@ public class ToARTDECOR extends AbstractGenerator {
                 "generated/palga-codebook",                           // codebookDirectory
                 "2.16.840.1.113883.2.4.3.11.60.120",                              // projectId
                 "fairgenomes",                                                    // projectPrefix
-                "true",                                                           // experimental
+                "false",                                                          // experimental
                 getAuthors(),                                                     // authorString
                 fg.copyright.holder + ";"+fg.copyright.years+";author",           // copyrightString
                 "draft");                                                         // statusCode

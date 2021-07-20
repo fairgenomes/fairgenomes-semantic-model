@@ -1,0 +1,420 @@
+value_en	description_en	codesystem	code	description_code
+Peripheral Blood	Peripheral Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C173496	Peripheral Blood
+Prostatic Fluid	Prostatic Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C100896	Prostatic Fluid
+Centrifuged Smear Slide	Centrifuged Smear Slide	NCIT	http://purl.obolibrary.org/obo/NCIT_C115350	Centrifuged Smear Slide
+CCRF-CEM	CCRF-CEM	NCIT	http://purl.obolibrary.org/obo/NCIT_C117114	CCRF-CEM
+MOLT-4	MOLT-4	NCIT	http://purl.obolibrary.org/obo/NCIT_C117119	MOLT-4
+RPMI-8226	RPMI-8226	NCIT	http://purl.obolibrary.org/obo/NCIT_C117122	RPMI-8226
+SR	SR	NCIT	http://purl.obolibrary.org/obo/NCIT_C117126	SR
+A549/ATCC	A549/ATCC	NCIT	http://purl.obolibrary.org/obo/NCIT_C117127	A549/ATCC
+EKVX	EKVX	NCIT	http://purl.obolibrary.org/obo/NCIT_C117131	EKVX
+HOP-62	HOP-62	NCIT	http://purl.obolibrary.org/obo/NCIT_C117134	HOP-62
+HOP-92	HOP-92	NCIT	http://purl.obolibrary.org/obo/NCIT_C117136	HOP-92
+NCI-H226	NCI-H226	NCIT	http://purl.obolibrary.org/obo/NCIT_C117137	NCI-H226
+NCI-H23	NCI-H23	NCIT	http://purl.obolibrary.org/obo/NCIT_C117141	NCI-H23
+NCI-H322M	NCI-H322M	NCIT	http://purl.obolibrary.org/obo/NCIT_C117155	NCI-H322M
+NCI-H460	NCI-H460	NCIT	http://purl.obolibrary.org/obo/NCIT_C117157	NCI-H460
+NCI-H522	NCI-H522	NCIT	http://purl.obolibrary.org/obo/NCIT_C117158	NCI-H522
+COLO 205	COLO 205	NCIT	http://purl.obolibrary.org/obo/NCIT_C117159	COLO 205
+HCC-2998	HCC-2998	NCIT	http://purl.obolibrary.org/obo/NCIT_C117160	HCC-2998
+HCT-116	HCT-116	NCIT	http://purl.obolibrary.org/obo/NCIT_C117161	HCT-116
+HCT-15	HCT-15	NCIT	http://purl.obolibrary.org/obo/NCIT_C117163	HCT-15
+KM12	KM12	NCIT	http://purl.obolibrary.org/obo/NCIT_C117165	KM12
+SW-620	SW-620	NCIT	http://purl.obolibrary.org/obo/NCIT_C117166	SW-620
+SF-268	SF-268	NCIT	http://purl.obolibrary.org/obo/NCIT_C117169	SF-268
+SF-295	SF-295	NCIT	http://purl.obolibrary.org/obo/NCIT_C117170	SF-295
+SF-539	SF-539	NCIT	http://purl.obolibrary.org/obo/NCIT_C117174	SF-539
+SNB-19	SNB-19	NCIT	http://purl.obolibrary.org/obo/NCIT_C117176	SNB-19
+SNB-75	SNB-75	NCIT	http://purl.obolibrary.org/obo/NCIT_C117178	SNB-75
+U251	U251	NCIT	http://purl.obolibrary.org/obo/NCIT_C117179	U251
+LOX IMVI	LOX IMVI	NCIT	http://purl.obolibrary.org/obo/NCIT_C117181	LOX IMVI
+MALME-3M	MALME-3M	NCIT	http://purl.obolibrary.org/obo/NCIT_C117182	MALME-3M
+M14	M14	NCIT	http://purl.obolibrary.org/obo/NCIT_C117183	M14
+MDA-MB-435	MDA-MB-435	NCIT	http://purl.obolibrary.org/obo/NCIT_C117184	MDA-MB-435
+SK-MEL-2	SK-MEL-2	NCIT	http://purl.obolibrary.org/obo/NCIT_C117188	SK-MEL-2
+SK-MEL-28	SK-MEL-28	NCIT	http://purl.obolibrary.org/obo/NCIT_C117189	SK-MEL-28
+SK-MEL-5	SK-MEL-5	NCIT	http://purl.obolibrary.org/obo/NCIT_C117190	SK-MEL-5
+UACC-257	UACC-257	NCIT	http://purl.obolibrary.org/obo/NCIT_C117191	UACC-257
+UACC-62	UACC-62	NCIT	http://purl.obolibrary.org/obo/NCIT_C117192	UACC-62
+IGR-OV1	IGR-OV1	NCIT	http://purl.obolibrary.org/obo/NCIT_C117204	IGR-OV1
+OVCAR-3	OVCAR-3	NCIT	http://purl.obolibrary.org/obo/NCIT_C117205	OVCAR-3
+OVCAR-4	OVCAR-4	NCIT	http://purl.obolibrary.org/obo/NCIT_C117206	OVCAR-4
+OVCAR-5	OVCAR-5	NCIT	http://purl.obolibrary.org/obo/NCIT_C117207	OVCAR-5
+OVCAR-8	OVCAR-8	NCIT	http://purl.obolibrary.org/obo/NCIT_C117208	OVCAR-8
+NCI/ADR-RES	NCI/ADR-RES	NCIT	http://purl.obolibrary.org/obo/NCIT_C117209	NCI/ADR-RES
+SK-OV-3	SK-OV-3	NCIT	http://purl.obolibrary.org/obo/NCIT_C117210	SK-OV-3
+786-0	786-0	NCIT	http://purl.obolibrary.org/obo/NCIT_C117211	786-0
+A498	A498	NCIT	http://purl.obolibrary.org/obo/NCIT_C117212	A498
+ACHN	ACHN	NCIT	http://purl.obolibrary.org/obo/NCIT_C117213	ACHN
+CAKI-1	CAKI-1	NCIT	http://purl.obolibrary.org/obo/NCIT_C117214	CAKI-1
+RXF 393	RXF 393	NCIT	http://purl.obolibrary.org/obo/NCIT_C117215	RXF 393
+SN12C	SN12C	NCIT	http://purl.obolibrary.org/obo/NCIT_C117216	SN12C
+TK-10	TK-10	NCIT	http://purl.obolibrary.org/obo/NCIT_C117217	TK-10
+UO-31	UO-31	NCIT	http://purl.obolibrary.org/obo/NCIT_C117218	UO-31
+PC-3	PC-3	NCIT	http://purl.obolibrary.org/obo/NCIT_C117219	PC-3
+DU-145	DU-145	NCIT	http://purl.obolibrary.org/obo/NCIT_C117220	DU-145
+MDA-MB-231/ATCC	MDA-MB-231/ATCC	NCIT	http://purl.obolibrary.org/obo/NCIT_C117223	MDA-MB-231/ATCC
+MDA-MB-468	MDA-MB-468	NCIT	http://purl.obolibrary.org/obo/NCIT_C117224	MDA-MB-468
+HS 578T	HS 578T	NCIT	http://purl.obolibrary.org/obo/NCIT_C117225	HS 578T
+MDA-N	MDA-N	NCIT	http://purl.obolibrary.org/obo/NCIT_C117226	MDA-N
+BT-549	BT-549	NCIT	http://purl.obolibrary.org/obo/NCIT_C117227	BT-549
+T-47D	T-47D	NCIT	http://purl.obolibrary.org/obo/NCIT_C117228	T-47D
+Preputial Gland/Clitoral Gland	Preputial Gland/Clitoral Gland	NCIT	http://purl.obolibrary.org/obo/NCIT_C117978	Preputial Gland/Clitoral Gland
+Tumor Cell Line	Tumor Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20313	Tumor Cell Line
+Smear Specimen	Smear Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C85501	Smear Specimen
+Bronchoalveolar Lavage Fluid	Bronchoalveolar Lavage Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C13195	Bronchoalveolar Lavage Fluid
+Exudate	Exudate	NCIT	http://purl.obolibrary.org/obo/NCIT_C13233	Exudate
+Bone Marrow Aspirate	Bone Marrow Aspirate	NCIT	http://purl.obolibrary.org/obo/NCIT_C133261	Bone Marrow Aspirate
+Hematopoietic Progenitor Cells from Apheresis	Hematopoietic Progenitor Cells from Apheresis	NCIT	http://purl.obolibrary.org/obo/NCIT_C133328	Hematopoietic Progenitor Cells from Apheresis
+Hematopoietic Progenitor Cells from Cord Blood	Hematopoietic Progenitor Cells from Cord Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C133329	Hematopoietic Progenitor Cells from Cord Blood
+Aspirate	Aspirate	NCIT	http://purl.obolibrary.org/obo/NCIT_C13347	Aspirate
+Colony	Colony	NCIT	http://purl.obolibrary.org/obo/NCIT_C61515	Colony
+Sequencing Library	Sequencing Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C148073	Sequencing Library
+Tissue Section	Tissue Section	NCIT	http://purl.obolibrary.org/obo/NCIT_C158415	Tissue Section
+Blood DNA	Blood DNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C158416	Blood DNA
+Frozen Tissue	Frozen Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C158417	Frozen Tissue
+Stained Specimen	Stained Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C158418	Stained Specimen
+Citrate Blood Cell Fraction	Citrate Blood Cell Fraction	NCIT	http://purl.obolibrary.org/obo/NCIT_C158461	Citrate Blood Cell Fraction
+EDTA Blood Cell Fraction	EDTA Blood Cell Fraction	NCIT	http://purl.obolibrary.org/obo/NCIT_C158462	EDTA Blood Cell Fraction
+Ascites Fluid Sample	Ascites Fluid Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C159203	Ascites Fluid Sample
+Bone Marrow Core Biopsy Sample	Bone Marrow Core Biopsy Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C159488	Bone Marrow Core Biopsy Sample
+Archival Tissue	Archival Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C160656	Archival Tissue
+Bone Marrow Smear	Bone Marrow Smear	NCIT	http://purl.obolibrary.org/obo/NCIT_C77609	Bone Marrow Smear
+Abdominal Fluid	Abdominal Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C77611	Abdominal Fluid
+Peritoneal Fluid	Peritoneal Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C77612	Peritoneal Fluid
+Pleural Fluid	Pleural Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C77613	Pleural Fluid
+Gastric Content	Gastric Content	NCIT	http://purl.obolibrary.org/obo/NCIT_C77614	Gastric Content
+Vomitus	Vomitus	NCIT	http://purl.obolibrary.org/obo/NCIT_C77666	Vomitus
+Thyroid/Parathyroid	Thyroid/Parathyroid	NCIT	http://purl.obolibrary.org/obo/NCIT_C77667	Thyroid/Parathyroid
+Testis/Epididymis	Testis/Epididymis	NCIT	http://purl.obolibrary.org/obo/NCIT_C77668	Testis/Epididymis
+Liver/Gallbladder	Liver/Gallbladder	NCIT	http://purl.obolibrary.org/obo/NCIT_C77669	Liver/Gallbladder
+Prostate/Seminal Vesicles	Prostate/Seminal Vesicles	NCIT	http://purl.obolibrary.org/obo/NCIT_C77670	Prostate/Seminal Vesicles
+Foot/Footpad	Foot/Footpad	NCIT	http://purl.obolibrary.org/obo/NCIT_C77671	Foot/Footpad
+Uterus/Ovaries	Uterus/Ovaries	NCIT	http://purl.obolibrary.org/obo/NCIT_C77672	Uterus/Ovaries
+Peripheral Blood Film	Peripheral Blood Film	SCDO	http://purl.obolibrary.org/obo/SCDO_0003696	Peripheral Blood Film
+Section	Section	NCIT	http://purl.obolibrary.org/obo/NCIT_C25668	Section
+Slice	Slice	NCIT	http://purl.obolibrary.org/obo/NCIT_C25682	Slice
+Urinary Bladder Stone	Urinary Bladder Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C26707	Urinary Bladder Stone
+Renal Stone	Renal Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C26807	Renal Stone
+Ureteric Stone	Ureteric Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C26902	Ureteric Stone
+Urinary Stone	Urinary Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C26905	Urinary Stone
+Prostatic Stone	Prostatic Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C26936	Prostatic Stone
+Urethral Stone	Urethral Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C26995	Urethral Stone
+Stone	Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C35708	Stone
+Serum or Plasma	Serum or Plasma	NCIT	http://purl.obolibrary.org/obo/NCIT_C105706	Serum or Plasma
+Infranatant	Infranatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106484	Infranatant
+Supernatant	Supernatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106485	Supernatant
+Dialysis Fluid	Dialysis Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C106515	Dialysis Fluid
+Plasma Infranatant	Plasma Infranatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106554	Plasma Infranatant
+Plasma Supernatant	Plasma Supernatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106555	Plasma Supernatant
+Platelet-poor Plasma	Platelet-poor Plasma	NCIT	http://purl.obolibrary.org/obo/NCIT_C106556	Platelet-poor Plasma
+Platelet-rich Plasma	Platelet-rich Plasma	NCIT	http://purl.obolibrary.org/obo/NCIT_C106557	Platelet-rich Plasma
+Pleural Fluid Infranatant	Pleural Fluid Infranatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106558	Pleural Fluid Infranatant
+Pleural Fluid Supernatant	Pleural Fluid Supernatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106559	Pleural Fluid Supernatant
+Serum Infranatant	Serum Infranatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106565	Serum Infranatant
+Serum Supernatant	Serum Supernatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C106566	Serum Supernatant
+Blood Sample	Blood Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C17610	Blood Sample
+Biospecimen	Biospecimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C70699	Biospecimen
+Umbilical Cord Serum	Umbilical Cord Serum	NCIT	http://purl.obolibrary.org/obo/NCIT_C119550	Umbilical Cord Serum
+Arterial Cord Blood	Arterial Cord Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C120838	Arterial Cord Blood
+Venous Cord Blood	Venous Cord Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C120840	Venous Cord Blood
+Proteinaceous Plug	Proteinaceous Plug	NCIT	http://purl.obolibrary.org/obo/NCIT_C120904	Proteinaceous Plug
+Umbilical Cord Blood	Umbilical Cord Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C13300	Umbilical Cord Blood
+Fasting Specimen	Fasting Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C70701	Fasting Specimen
+Non-Fasting Specimen	Non-Fasting Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C70702	Non-Fasting Specimen
+Gastric Fluid	Gastric Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C86998	Gastric Fluid
+DU 145	DU 145	NCIT	http://purl.obolibrary.org/obo/NCIT_C93036	DU 145
+Host Cell	Host Cell	NCIT	http://purl.obolibrary.org/obo/NCIT_C93037	Host Cell
+Viral Oncolysate	Viral Oncolysate	NCIT	http://purl.obolibrary.org/obo/NCIT_C94201	Viral Oncolysate
+Oncolysate	Oncolysate	NCIT	http://purl.obolibrary.org/obo/NCIT_C94202	Oncolysate
+Autologous Bone Marrow	Autologous Bone Marrow	NCIT	http://purl.obolibrary.org/obo/NCIT_C94406	Autologous Bone Marrow
+Plaque	Plaque	NCIT	http://purl.obolibrary.org/obo/NCIT_C95603	Plaque
+Ancient DNA	Ancient DNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C95946	Ancient DNA
+Mixed Venous Blood	Mixed Venous Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C158281	Mixed Venous Blood
+Urine Sediment	Urine Sediment	NCIT	http://purl.obolibrary.org/obo/NCIT_C158282	Urine Sediment
+Rectal Swab Specimen	Rectal Swab Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C173641	Rectal Swab Specimen
+Nucleic RNA Sample	Nucleic RNA Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C174108	Nucleic RNA Sample
+Mixed Adherent Cells in Suspension	Mixed Adherent Cells in Suspension	NCIT	http://purl.obolibrary.org/obo/NCIT_C174118	Mixed Adherent Cells in Suspension
+Saliva Sample	Saliva Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C174119	Saliva Sample
+Faced Block	Faced Block	NCIT	http://purl.obolibrary.org/obo/NCIT_C128636	Faced Block
+Lung/Bronchus/Trachea/Larynx	Lung/Bronchus/Trachea/Larynx	NCIT	http://purl.obolibrary.org/obo/NCIT_C129005	Lung/Bronchus/Trachea/Larynx
+Mammalian Cell	Mammalian Cell	NCIT	http://purl.obolibrary.org/obo/NCIT_C12958	Mammalian Cell
+Myelodysplastic Syndrome Clone	Myelodysplastic Syndrome Clone	NCIT	http://purl.obolibrary.org/obo/NCIT_C130199	Myelodysplastic Syndrome Clone
+Cell Clone	Cell Clone	NCIT	http://purl.obolibrary.org/obo/NCIT_C16441	Cell Clone
+Fixed Block	Fixed Block	NCIT	http://purl.obolibrary.org/obo/NCIT_C25436	Fixed Block
+Formalin-Fixed Paraffin-Embedded DNA	Formalin-Fixed Paraffin-Embedded DNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C156435	Formalin-Fixed Paraffin-Embedded DNA
+Formalin-Fixed Paraffin-Embedded RNA	Formalin-Fixed Paraffin-Embedded RNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C156436	Formalin-Fixed Paraffin-Embedded RNA
+REPLI-g Pooled DNA	REPLI-g Pooled DNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C156437	REPLI-g Pooled DNA
+REPLI-g X DNA	REPLI-g X DNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C156439	REPLI-g X DNA
+Metastatic Tumor Sample	Metastatic Tumor Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C156440	Metastatic Tumor Sample
+Sample Derived from New Primary	Sample Derived from New Primary	NCIT	http://purl.obolibrary.org/obo/NCIT_C156441	Sample Derived from New Primary
+Cell Line-Derived Xenograft	Cell Line-Derived Xenograft	NCIT	http://purl.obolibrary.org/obo/NCIT_C156443	Cell Line-Derived Xenograft
+Post Neoadjuvant Therapy Sample	Post Neoadjuvant Therapy Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C156444	Post Neoadjuvant Therapy Sample
+Derived Cell Line	Derived Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C156445	Derived Cell Line
+Discharge Body Fluid	Discharge Body Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C142366	Discharge Body Fluid
+Hybrid Selected Genomic Library	Hybrid Selected Genomic Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C163986	Hybrid Selected Genomic Library
+Affinity Enriched Genomic Library	Affinity Enriched Genomic Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C163987	Affinity Enriched Genomic Library
+Poly-T Enriched Genomic Library	Poly-T Enriched Genomic Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C163988	Poly-T Enriched Genomic Library
+Randomly Selected Genomic Library	Randomly Selected Genomic Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C163989	Randomly Selected Genomic Library
+rRNA Depleted Genomic Library	rRNA Depleted Genomic Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C163990	rRNA Depleted Genomic Library
+miRNA Size Fractionated Genomic Library	miRNA Size Fractionated Genomic Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C163991	miRNA Size Fractionated Genomic Library
+EBV Immortalized Lymphocytes	EBV Immortalized Lymphocytes	NCIT	http://purl.obolibrary.org/obo/NCIT_C163993	EBV Immortalized Lymphocytes
+Total RNA	Total RNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C163995	Total RNA
+Bone Marrow-Derived Fibroblasts	Bone Marrow-Derived Fibroblasts	NCIT	http://purl.obolibrary.org/obo/NCIT_C164010	Bone Marrow-Derived Fibroblasts
+Bone Marrow-Derived Mononuclear Cells	Bone Marrow-Derived Mononuclear Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C164011	Bone Marrow-Derived Mononuclear Cells
+Solid Tissue Specimen	Solid Tissue Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C164014	Solid Tissue Specimen
+Blood Cancer-Derived Bone Marrow Specimen	Blood Cancer-Derived Bone Marrow Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C164015	Blood Cancer-Derived Bone Marrow Specimen
+Blood Cancer-Derived Bone Marrow Specimen, Post-Treatment	Blood Cancer-Derived Bone Marrow Specimen, Post-Treatment	NCIT	http://purl.obolibrary.org/obo/NCIT_C164017	Blood Cancer-Derived Bone Marrow Specimen, Post-Treatment
+Blood Cancer-Derived Blood Specimen	Blood Cancer-Derived Blood Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C164030	Blood Cancer-Derived Blood Specimen
+Blood Cancer-Derived Blood Specimen, Post-Treatment	Blood Cancer-Derived Blood Specimen, Post-Treatment	NCIT	http://purl.obolibrary.org/obo/NCIT_C164031	Blood Cancer-Derived Blood Specimen, Post-Treatment
+Tumor-Adjacent Normal Specimen	Tumor-Adjacent Normal Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C164032	Tumor-Adjacent Normal Specimen
+Tumor-Adjacent Normal Post Neoadjuvant Therapy Sample	Tumor-Adjacent Normal Post Neoadjuvant Therapy Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C164033	Tumor-Adjacent Normal Post Neoadjuvant Therapy Sample
+Specimen Collection Group	Specimen Collection Group	NCIT	http://purl.obolibrary.org/obo/NCIT_C164425	Specimen Collection Group
+Parent Biospecimen	Parent Biospecimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C175532	Parent Biospecimen
+Cytoplasmic Fraction	Cytoplasmic Fraction	NCIT	http://purl.obolibrary.org/obo/NCIT_C175572	Cytoplasmic Fraction
+Mitochondrial and Nuclear Fraction	Mitochondrial and Nuclear Fraction	NCIT	http://purl.obolibrary.org/obo/NCIT_C175573	Mitochondrial and Nuclear Fraction
+Arterialized Capillary Blood	Arterialized Capillary Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C176369	Arterialized Capillary Blood
+Tumor Segment	Tumor Segment	NCIT	http://purl.obolibrary.org/obo/NCIT_C162622	Tumor Segment
+Normal Tissue Segment	Normal Tissue Segment	NCIT	http://purl.obolibrary.org/obo/NCIT_C162623	Normal Tissue Segment
+Environmental DNA	Environmental DNA	NCIT	http://purl.obolibrary.org/obo/NCIT_C169106	Environmental DNA
+Serum or Plasma or Blood	Serum or Plasma or Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C170628	Serum or Plasma or Blood
+Nucleic Acid Aliquot	Nucleic Acid Aliquot	NCIT	http://purl.obolibrary.org/obo/NCIT_C171176	Nucleic Acid Aliquot
+Endotracheal Fluid	Endotracheal Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C171504	Endotracheal Fluid
+Conditionally Reprogrammed Cells	Conditionally Reprogrammed Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C172257	Conditionally Reprogrammed Cells
+Modified Conditionally Reprogrammed Cells	Modified Conditionally Reprogrammed Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C172258	Modified Conditionally Reprogrammed Cells
+Organoid	Organoid	NCIT	http://purl.obolibrary.org/obo/NCIT_C172259	Organoid
+Air-Liquid Interface Organoid	Air-Liquid Interface Organoid	NCIT	http://purl.obolibrary.org/obo/NCIT_C172260	Air-Liquid Interface Organoid
+Neurosphere	Neurosphere	NCIT	http://purl.obolibrary.org/obo/NCIT_C172261	Neurosphere
+Buccal Cell Sample	Buccal Cell Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C172264	Buccal Cell Sample
+Formalin-Fixed Paraffin-Embedded Tissue Sample	Formalin-Fixed Paraffin-Embedded Tissue Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C172265	Formalin-Fixed Paraffin-Embedded Tissue Sample
+Formalin-Fixed Paraffin-Embedded Tissue Sample from Recurrent Disease	Formalin-Fixed Paraffin-Embedded Tissue Sample from Recurrent Disease	NCIT	http://purl.obolibrary.org/obo/NCIT_C172267	Formalin-Fixed Paraffin-Embedded Tissue Sample from Recurrent Disease
+Formalin-Fixed Paraffin-Embedded Tissue Scroll	Formalin-Fixed Paraffin-Embedded Tissue Scroll	NCIT	http://purl.obolibrary.org/obo/NCIT_C172268	Formalin-Fixed Paraffin-Embedded Tissue Scroll
+Original Tumor Cell Sample	Original Tumor Cell Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C172293	Original Tumor Cell Sample
+Human Fetal Tissue	Human Fetal Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C18841	Human Fetal Tissue
+Invertebrate Tissue and Cells	Invertebrate Tissue and Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C18859	Invertebrate Tissue and Cells
+Plant Tissue, Cells	Plant Tissue, Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C18945	Plant Tissue, Cells
+Fresh Tissue	Fresh Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C19066	Fresh Tissue
+Cryopreserved Tissue	Cryopreserved Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C19313	Cryopreserved Tissue
+Cryopreserved Cell	Cryopreserved Cell	NCIT	http://purl.obolibrary.org/obo/NCIT_C19314	Cryopreserved Cell
+HL60	HL60	NCIT	http://purl.obolibrary.org/obo/NCIT_C19433	HL60
+K-562	K-562	NCIT	http://purl.obolibrary.org/obo/NCIT_C19437	K-562
+YAC Clone	YAC Clone	NCIT	http://purl.obolibrary.org/obo/NCIT_C1944	YAC Clone
+Rat-1	Rat-1	NCIT	http://purl.obolibrary.org/obo/NCIT_C19584	Rat-1
+Paraffin Embedded Tissue	Paraffin Embedded Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C19597	Paraffin Embedded Tissue
+Nuclear Extract	Nuclear Extract	NCIT	http://purl.obolibrary.org/obo/NCIT_C19832	Nuclear Extract
+Human Cell Line	Human Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20218	Human Cell Line
+HeLa	HeLa	NCIT	http://purl.obolibrary.org/obo/NCIT_C20226	HeLa
+HeLa S3	HeLa S3	NCIT	http://purl.obolibrary.org/obo/NCIT_C20227	HeLa S3
+HeLa/SF	HeLa/SF	NCIT	http://purl.obolibrary.org/obo/NCIT_C20228	HeLa/SF
+HL-60/MX2	HL-60/MX2	NCIT	http://purl.obolibrary.org/obo/NCIT_C20229	HL-60/MX2
+HL-60/MX1	HL-60/MX1	NCIT	http://purl.obolibrary.org/obo/NCIT_C20230	HL-60/MX1
+EG Cell Line	EG Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20231	EG Cell Line
+ES Cell Line	ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20232	ES Cell Line
+BG01	BG01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20233	BG01
+BG02	BG02	NCIT	http://purl.obolibrary.org/obo/NCIT_C20234	BG02
+BG03	BG03	NCIT	http://purl.obolibrary.org/obo/NCIT_C20235	BG03
+BG04	BG04	NCIT	http://purl.obolibrary.org/obo/NCIT_C20236	BG04
+CY12	CY12	NCIT	http://purl.obolibrary.org/obo/NCIT_C20237	CY12
+CY30	CY30	NCIT	http://purl.obolibrary.org/obo/NCIT_C20238	CY30
+CY40	CY40	NCIT	http://purl.obolibrary.org/obo/NCIT_C20239	CY40
+CY51	CY51	NCIT	http://purl.obolibrary.org/obo/NCIT_C20240	CY51
+CY81	CY81	NCIT	http://purl.obolibrary.org/obo/NCIT_C20241	CY81
+CY82	CY82	NCIT	http://purl.obolibrary.org/obo/NCIT_C20242	CY82
+CY91	CY91	NCIT	http://purl.obolibrary.org/obo/NCIT_C20243	CY91
+CY92	CY92	NCIT	http://purl.obolibrary.org/obo/NCIT_C20244	CY92
+CY10	CY10	NCIT	http://purl.obolibrary.org/obo/NCIT_C20245	CY10
+CyThera ES Cell Line	CyThera ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20246	CyThera ES Cell Line
+BresaGen ES Cell Line	BresaGen ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20247	BresaGen ES Cell Line
+ES ES Cell Line	ES ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20248	ES ES Cell Line
+ES01	ES01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20249	ES01
+ES02	ES02	NCIT	http://purl.obolibrary.org/obo/NCIT_C20250	ES02
+ES03	ES03	NCIT	http://purl.obolibrary.org/obo/NCIT_C20251	ES03
+ES04	ES04	NCIT	http://purl.obolibrary.org/obo/NCIT_C20252	ES04
+ES05	ES05	NCIT	http://purl.obolibrary.org/obo/NCIT_C20253	ES05
+ES06	ES06	NCIT	http://purl.obolibrary.org/obo/NCIT_C20254	ES06
+Geron ES Cell Line	Geron ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20255	Geron ES Cell Line
+GE01	GE01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20256	GE01
+GE07	GE07	NCIT	http://purl.obolibrary.org/obo/NCIT_C20257	GE07
+GE09	GE09	NCIT	http://purl.obolibrary.org/obo/NCIT_C20258	GE09
+GE13	GE13	NCIT	http://purl.obolibrary.org/obo/NCIT_C20259	GE13
+GE14	GE14	NCIT	http://purl.obolibrary.org/obo/NCIT_C20260	GE14
+GE91	GE91	NCIT	http://purl.obolibrary.org/obo/NCIT_C20261	GE91
+GE92	GE92	NCIT	http://purl.obolibrary.org/obo/NCIT_C20262	GE92
+Goteborg ES Cell Line	Goteborg ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20263	Goteborg ES Cell Line
+SA01	SA01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20264	SA01
+SA02	SA02	NCIT	http://purl.obolibrary.org/obo/NCIT_C20265	SA02
+SA03	SA03	NCIT	http://purl.obolibrary.org/obo/NCIT_C20266	SA03
+Karolinska ES Cell Line	Karolinska ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20267	Karolinska ES Cell Line
+KA08	KA08	NCIT	http://purl.obolibrary.org/obo/NCIT_C20268	KA08
+KA09	KA09	NCIT	http://purl.obolibrary.org/obo/NCIT_C20269	KA09
+KA40	KA40	NCIT	http://purl.obolibrary.org/obo/NCIT_C20270	KA40
+KA41	KA41	NCIT	http://purl.obolibrary.org/obo/NCIT_C20271	KA41
+KA42	KA42	NCIT	http://purl.obolibrary.org/obo/NCIT_C20272	KA42
+KA43	KA43	NCIT	http://purl.obolibrary.org/obo/NCIT_C20273	KA43
+Maria ES Cell Line	Maria ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20274	Maria ES Cell Line
+MB01	MB01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20275	MB01
+MB02	MB02	NCIT	http://purl.obolibrary.org/obo/NCIT_C20276	MB02
+MB03	MB03	NCIT	http://purl.obolibrary.org/obo/NCIT_C20277	MB03
+MizMedi ES Cell Line	MizMedi ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20278	MizMedi ES Cell Line
+MI01	MI01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20279	MI01
+Tara ES Cell Line	Tara ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20280	Tara ES Cell Line
+NC01	NC01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20281	NC01
+NC02	NC02	NCIT	http://purl.obolibrary.org/obo/NCIT_C20282	NC02
+NC03	NC03	NCIT	http://purl.obolibrary.org/obo/NCIT_C20283	NC03
+Pochon ES Cell Line	Pochon ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20284	Pochon ES Cell Line
+CH01	CH01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20285	CH01
+CH02	CH02	NCIT	http://purl.obolibrary.org/obo/NCIT_C20286	CH02
+Reliance ES Cell Line	Reliance ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20287	Reliance ES Cell Line
+RL05	RL05	NCIT	http://purl.obolibrary.org/obo/NCIT_C20288	RL05
+RL07	RL07	NCIT	http://purl.obolibrary.org/obo/NCIT_C20289	RL07
+RL10	RL10	NCIT	http://purl.obolibrary.org/obo/NCIT_C20290	RL10
+RL13	RL13	NCIT	http://purl.obolibrary.org/obo/NCIT_C20291	RL13
+RL15	RL15	NCIT	http://purl.obolibrary.org/obo/NCIT_C20292	RL15
+RL20	RL20	NCIT	http://purl.obolibrary.org/obo/NCIT_C20293	RL20
+RL21	RL21	NCIT	http://purl.obolibrary.org/obo/NCIT_C20294	RL21
+Technion ES Cell Line	Technion ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20295	Technion ES Cell Line
+TE03	TE03	NCIT	http://purl.obolibrary.org/obo/NCIT_C20296	TE03
+TE32	TE32	NCIT	http://purl.obolibrary.org/obo/NCIT_C20297	TE32
+TE33	TE33	NCIT	http://purl.obolibrary.org/obo/NCIT_C20298	TE33
+TE04	TE04	NCIT	http://purl.obolibrary.org/obo/NCIT_C20299	TE04
+TE06	TE06	NCIT	http://purl.obolibrary.org/obo/NCIT_C20300	TE06
+TE62	TE62	NCIT	http://purl.obolibrary.org/obo/NCIT_C20301	TE62
+TE07	TE07	NCIT	http://purl.obolibrary.org/obo/NCIT_C20302	TE07
+TE72	TE72	NCIT	http://purl.obolibrary.org/obo/NCIT_C20303	TE72
+UCSF ES Cell Line	UCSF ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20304	UCSF ES Cell Line
+UC01	UC01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20305	UC01
+UC06	UC06	NCIT	http://purl.obolibrary.org/obo/NCIT_C20306	UC06
+Wisconsin ES Cell Line	Wisconsin ES Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20307	Wisconsin ES Cell Line
+WA01	WA01	NCIT	http://purl.obolibrary.org/obo/NCIT_C20308	WA01
+WA07	WA07	NCIT	http://purl.obolibrary.org/obo/NCIT_C20309	WA07
+WA09	WA09	NCIT	http://purl.obolibrary.org/obo/NCIT_C20310	WA09
+WA13	WA13	NCIT	http://purl.obolibrary.org/obo/NCIT_C20311	WA13
+WA14	WA14	NCIT	http://purl.obolibrary.org/obo/NCIT_C20312	WA14
+Gallbladder Stone	Gallbladder Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C34443	Gallbladder Stone
+Common Bile Duct Stone	Common Bile Duct Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C34499	Common Bile Duct Stone
+Salivary Duct Stone	Salivary Duct Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C34993	Salivary Duct Stone
+Salivary Gland Stone	Salivary Gland Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C34994	Salivary Gland Stone
+Cystic Duct Stone	Cystic Duct Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C35333	Cystic Duct Stone
+Pancreatic Duct Stone	Pancreatic Duct Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C35404	Pancreatic Duct Stone
+Mixed Stone	Mixed Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C35585	Mixed Stone
+Submandibular Duct Stone	Submandibular Duct Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C35629	Submandibular Duct Stone
+Bile Duct Stone	Bile Duct Stone	NCIT	http://purl.obolibrary.org/obo/NCIT_C35773	Bile Duct Stone
+Corneal Transplant	Corneal Transplant	NCIT	http://purl.obolibrary.org/obo/NCIT_C50514	Corneal Transplant
+Pus	Pus	NCIT	http://purl.obolibrary.org/obo/NCIT_C50718	Pus
+Tissue Or Organ Transplant	Tissue Or Organ Transplant	NCIT	http://purl.obolibrary.org/obo/NCIT_C50920	Tissue Or Organ Transplant
+Isolate	Isolate	NCIT	http://purl.obolibrary.org/obo/NCIT_C53471	Isolate
+Frozen Section	Frozen Section	NCIT	http://purl.obolibrary.org/obo/NCIT_C67462	Frozen Section
+Permanent Section	Permanent Section	NCIT	http://purl.obolibrary.org/obo/NCIT_C67463	Permanent Section
+Arterial Blood	Arterial Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C78729	Arterial Blood
+Venous Blood	Venous Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C78730	Venous Blood
+Atherosclerotic Plaque	Atherosclerotic Plaque	NCIT	http://purl.obolibrary.org/obo/NCIT_C78739	Atherosclerotic Plaque
+Menstrual Blood	Menstrual Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C78740	Menstrual Blood
+Lochia	Lochia	NCIT	http://purl.obolibrary.org/obo/NCIT_C78742	Lochia
+Meconium	Meconium	NCIT	http://purl.obolibrary.org/obo/NCIT_C78743	Meconium
+Transudate	Transudate	NCIT	http://purl.obolibrary.org/obo/NCIT_C78744	Transudate
+Blood Smear	Blood Smear	NCIT	http://purl.obolibrary.org/obo/NCIT_C79903	Blood Smear
+NCI-60 Cell Line	NCI-60 Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C139309	NCI-60 Cell Line
+Serum or Plasma Supernatant	Serum or Plasma Supernatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C150893	Serum or Plasma Supernatant
+Cerebrospinal Fluid Supernatant	Cerebrospinal Fluid Supernatant	NCIT	http://purl.obolibrary.org/obo/NCIT_C150894	Cerebrospinal Fluid Supernatant
+Swabbed Material	Swabbed Material	NCIT	http://purl.obolibrary.org/obo/NCIT_C150895	Swabbed Material
+Gallbladder Sludge	Gallbladder Sludge	NCIT	http://purl.obolibrary.org/obo/NCIT_C121868	Gallbladder Sludge
+Femur/Femorotibial Joint	Femur/Femorotibial Joint	NCIT	http://purl.obolibrary.org/obo/NCIT_C135523	Femur/Femorotibial Joint
+Gene Bank	Gene Bank	NCIT	http://purl.obolibrary.org/obo/NCIT_C15237	Gene Bank
+Genomic Library	Genomic Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C15241	Genomic Library
+cDNA Library	cDNA Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C15727	cDNA Library
+EST Library	EST Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C16208	EST Library
+ORESTES Library	ORESTES Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C16220	ORESTES Library
+DNA Library	DNA Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C16223	DNA Library
+SAGE Library	SAGE Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C16224	SAGE Library
+Expression Library	Expression Library	NCIT	http://purl.obolibrary.org/obo/NCIT_C16232	Expression Library
+Pooled Sample	Pooled Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C45910	Pooled Sample
+Sex Pooled Sample	Sex Pooled Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C45910	Sex Pooled Sample
+Lysate	Lysate	NCIT	http://purl.obolibrary.org/obo/NCIT_C62004	Lysate
+Subclone	Subclone	NCIT	http://purl.obolibrary.org/obo/NCIT_C62037	Subclone
+Unstained Specimen	Unstained Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C62755	Unstained Specimen
+Archived Newborn Blood Sample	Archived Newborn Blood Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C63504	Archived Newborn Blood Sample
+Cross-section	Cross-section	NCIT	http://purl.obolibrary.org/obo/NCIT_C63795	Cross-section
+Buffy Coat	Buffy Coat	NCIT	http://purl.obolibrary.org/obo/NCIT_C84507	Buffy Coat
+Whole Bone Marrow	Whole Bone Marrow	NCIT	http://purl.obolibrary.org/obo/NCIT_C84513	Whole Bone Marrow
+Fixed Specimen	Fixed Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C84514	Fixed Specimen
+Dried Specimen	Dried Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C84516	Dried Specimen
+Fresh Specimen	Fresh Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C84517	Fresh Specimen
+Core Specimen	Core Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C99275	Core Specimen
+Tissue Scroll	Tissue Scroll	NCIT	http://purl.obolibrary.org/obo/NCIT_C99276	Tissue Scroll
+Lavage Fluid	Lavage Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C103411	Lavage Fluid
+Capillary Blood	Capillary Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C112235	Capillary Blood
+Levator Ani/Bulbospongiosus	Levator Ani/Bulbospongiosus	NCIT	http://purl.obolibrary.org/obo/NCIT_C112430	Levator Ani/Bulbospongiosus
+Sediment	Sediment	NCIT	http://purl.obolibrary.org/obo/NCIT_C113677	Sediment
+Cell Pellet	Cell Pellet	NCIT	http://purl.obolibrary.org/obo/NCIT_C113745	Cell Pellet
+Dried Blood Spot	Dried Blood Spot	NCIT	http://purl.obolibrary.org/obo/NCIT_C113746	Dried Blood Spot
+Tissue Sample	Tissue Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C19697	Tissue Sample
+Formalin-Fixed Paraffin-Embedded B-Cell (CD20) Slide	Formalin-Fixed Paraffin-Embedded B-Cell (CD20) Slide	NCIT	http://purl.obolibrary.org/obo/NCIT_C125610	Formalin-Fixed Paraffin-Embedded B-Cell (CD20) Slide
+Formalin-Fixed Paraffin-Embedded T-Cell (CD3) Slide	Formalin-Fixed Paraffin-Embedded T-Cell (CD3) Slide	NCIT	http://purl.obolibrary.org/obo/NCIT_C125611	Formalin-Fixed Paraffin-Embedded T-Cell (CD3) Slide
+Thoracic Fluid	Thoracic Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C125897	Thoracic Fluid
+Exhaled Breath Condensate	Exhaled Breath Condensate	NCIT	http://purl.obolibrary.org/obo/NCIT_C126053	Exhaled Breath Condensate
+Urine Pellet	Urine Pellet	NCIT	http://purl.obolibrary.org/obo/NCIT_C126103	Urine Pellet
+Packed Red Blood Cells	Packed Red Blood Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C126363	Packed Red Blood Cells
+Protoplast	Protoplast	NCIT	http://purl.obolibrary.org/obo/NCIT_C12659	Protoplast
+Spheroplast	Spheroplast	NCIT	http://purl.obolibrary.org/obo/NCIT_C12661	Spheroplast
+Sorted Cells	Sorted Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C126974	Sorted Cells
+Expired Air	Expired Air	NCIT	http://purl.obolibrary.org/obo/NCIT_C78741	Expired Air
+Cell Line	Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C16403	Cell Line
+Hybridoma	Hybridoma	NCIT	http://purl.obolibrary.org/obo/NCIT_C16700	Hybridoma
+Cell Fraction	Cell Fraction	NCIT	http://purl.obolibrary.org/obo/NCIT_C17169	Cell Fraction
+CHO Cells	CHO Cells	NCIT	http://purl.obolibrary.org/obo/NCIT_C17421	CHO Cells
+NIH/3T3	NIH/3T3	NCIT	http://purl.obolibrary.org/obo/NCIT_C17422	NIH/3T3
+PC-12	PC-12	NCIT	http://purl.obolibrary.org/obo/NCIT_C17435	PC-12
+Prokaryotic Cell Component	Prokaryotic Cell Component	NCIT	http://purl.obolibrary.org/obo/NCIT_C17711	Prokaryotic Cell Component
+Fetal Tissue	Fetal Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C17730	Fetal Tissue
+HT29	HT29	NCIT	http://purl.obolibrary.org/obo/NCIT_C17896	HT29
+COS-1	COS-1	NCIT	http://purl.obolibrary.org/obo/NCIT_C17968	COS-1
+Tumor Tissue	Tumor Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C18009	Tumor Tissue
+MCF7	MCF7	NCIT	http://purl.obolibrary.org/obo/NCIT_C18096	MCF7
+Biopsy Specimen	Biopsy Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C18202	Biopsy Specimen
+Monkey Cell Line	Monkey Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20219	Monkey Cell Line
+Mouse Cell Line	Mouse Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20220	Mouse Cell Line
+Hamster Cell Line	Hamster Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20221	Hamster Cell Line
+Rat Cell Line	Rat Cell Line	NCIT	http://purl.obolibrary.org/obo/NCIT_C20222	Rat Cell Line
+Clone	Clone	NCIT	http://purl.obolibrary.org/obo/NCIT_C37925	Clone
+Necropsy Sample	Necropsy Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C166270	Necropsy Sample
+Urine Casts	Urine Casts	NCIT	http://purl.obolibrary.org/obo/NCIT_C38095	Urine Casts
+Whole Blood	Whole Blood	NCIT	http://purl.obolibrary.org/obo/NCIT_C41067	Whole Blood
+Fresh Frozen Plasma	Fresh Frozen Plasma	NCIT	http://purl.obolibrary.org/obo/NCIT_C89783	Fresh Frozen Plasma
+Total Tissue	Total Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C90476	Total Tissue
+Trigeminal Ganglion/Trigeminal Nerve	Trigeminal Ganglion/Trigeminal Nerve	NCIT	http://purl.obolibrary.org/obo/NCIT_C92214	Trigeminal Ganglion/Trigeminal Nerve
+Submandibular Gland/Sublingual Gland	Submandibular Gland/Sublingual Gland	NCIT	http://purl.obolibrary.org/obo/NCIT_C92215	Submandibular Gland/Sublingual Gland
+Seminal Vesicle/Coagulating Gland	Seminal Vesicle/Coagulating Gland	NCIT	http://purl.obolibrary.org/obo/NCIT_C92216	Seminal Vesicle/Coagulating Gland
+Rectum/Anus	Rectum/Anus	NCIT	http://purl.obolibrary.org/obo/NCIT_C92217	Rectum/Anus
+Lung/Bronchus	Lung/Bronchus	NCIT	http://purl.obolibrary.org/obo/NCIT_C92218	Lung/Bronchus
+Mesentery/Peritoneum	Mesentery/Peritoneum	NCIT	http://purl.obolibrary.org/obo/NCIT_C92435	Mesentery/Peritoneum
+Uterus/Cervix	Uterus/Cervix	NCIT	http://purl.obolibrary.org/obo/NCIT_C92436	Uterus/Cervix
+Skin/Subcutaneous Tissue	Skin/Subcutaneous Tissue	NCIT	http://purl.obolibrary.org/obo/NCIT_C92441	Skin/Subcutaneous Tissue
+Matched Tissues	Matched Tissues	NCIT	http://purl.obolibrary.org/obo/NCIT_C92469	Matched Tissues
+Ovary/Oviduct	Ovary/Oviduct	NCIT	http://purl.obolibrary.org/obo/NCIT_C92595	Ovary/Oviduct
+Cervical Mucus Plug	Cervical Mucus Plug	NCIT	http://purl.obolibrary.org/obo/NCIT_C92752	Cervical Mucus Plug
+Bone Marrow Sample	Bone Marrow Sample	NCIT	http://purl.obolibrary.org/obo/NCIT_C164009	Bone Marrow Sample
+food isolate	food isolate	GENEPIO	http://purl.obolibrary.org/obo/GENEPIO_0002233	food isolate
+Cell Strain	Cell Strain	NCIT	http://purl.obolibrary.org/obo/NCIT_C45382	Cell Strain
+Peritoneal Dialysis Fluid	Peritoneal Dialysis Fluid	NCIT	http://purl.obolibrary.org/obo/NCIT_C154852	Peritoneal Dialysis Fluid
+Bronchoalveolar Biopsy Specimen	Bronchoalveolar Biopsy Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C155830	Bronchoalveolar Biopsy Specimen
+Nasopharyngeal Swab Specimen	Nasopharyngeal Swab Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C155831	Nasopharyngeal Swab Specimen
+Nasopharyngeal Wash Specimen	Nasopharyngeal Wash Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C155832	Nasopharyngeal Wash Specimen
+Nasal Swab or Nose Specimen	Nasal Swab or Nose Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C155833	Nasal Swab or Nose Specimen
+Nasal Wash Specimen	Nasal Wash Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C155834	Nasal Wash Specimen
+Oropharyngeal Swab Specimen	Oropharyngeal Swab Specimen	NCIT	http://purl.obolibrary.org/obo/NCIT_C155835	Oropharyngeal Swab Specimen
+NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI	NoInformation (NI, nullflavor)
+Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV	Invalid (INV, nullflavor)
+Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER	Derived (DER, nullflavor)
+Other (OTH, nullflavor)	The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH	Other (OTH, nullflavor)
+Negative infinity (NINF, nullflavor)	Negative infinity of numbers.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF	Negative infinity (NINF, nullflavor)
+Positive infinity (PINF, nullflavor)	Positive infinity of numbers.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF	Positive infinity (PINF, nullflavor)
+Un-encoded (UNC, nullflavor)	The actual value has not yet been encoded within the approved value domain.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC	Un-encoded (UNC, nullflavor)
+Masked (MSK, nullflavor)	There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK	Masked (MSK, nullflavor)
+Not applicable (NA, nullflavor)	Known to have no proper value (e.g., last menstrual period for a male).	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA	Not applicable (NA, nullflavor)
+Unknown (UNK, nullflavor)	A proper value is applicable, but not known.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK	Unknown (UNK, nullflavor)
+Asked but unknown (ASKU, nullflavor)	Information was sought but not found (e.g., patient was asked but didn't know)	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU	Asked but unknown (ASKU, nullflavor)
+Temporarily unavailable (NAV, nullflavor)	Information is not available at this time but it is expected that it will be available later.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV	Temporarily unavailable (NAV, nullflavor)
+Not asked (NASK, nullflavor)	This information has not been sought. (e.g., patient was not asked)	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK	Not asked (NASK, nullflavor)
+Not available (NAVU, nullflavor)	Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU	Not available (NAVU, nullflavor)
+Sufficient quantity (QS, nullflavor)	The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS	Sufficient quantity (QS, nullflavor)
+Trace (TRC, nullflavor)	The content is greater than zero, but too small to be quantified.	HL7	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC	Trace (TRC, nullflavor)
