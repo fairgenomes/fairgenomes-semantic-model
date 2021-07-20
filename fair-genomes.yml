@@ -1,8 +1,8 @@
 ---
 name: FAIR Genomes metadata schema
 description: The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.
-version: 1.1
-releaseType: Minor
+version: 1.2
+releaseType: SNAPSHOT
 date: 2021-07-20
 lookupGlobalOptions: lookups/NullFlavors.txt
 authors:
