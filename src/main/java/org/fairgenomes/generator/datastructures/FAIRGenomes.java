@@ -102,7 +102,7 @@ public class FAIRGenomes {
                             // this instance type is different from the field type, i.e.
                             // 'Belongs to sequencing' has type NCIT_C25683 (Source), while instances refer to the
                             // Sequencing module, and are therefore types as EDAM:topic_3168 (Sequencing)
-                            e.type = m.iri;
+                            e.type = m.parsedOntology.iri;
                             found = true;
                             break;
                         }
@@ -124,9 +124,10 @@ public class FAIRGenomes {
         for (Module m : modules) {
             int whiteSpaceIndex = m.ontology.indexOf(" ");
             String[] split = parseOntoInfo(whiteSpaceIndex, m.ontology);
-            m.codeSystem = split[0];
-            m.code = split[1];
-            m.iri = m.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+            m.parsedOntology = new Ontology();
+            m.parsedOntology.codeSystem = split[0];
+            m.parsedOntology.code = split[1];
+            m.parsedOntology.iri = m.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
             for (Element e : m.elements) {
                 whiteSpaceIndex = e.ontology.indexOf(" ");
                 split = parseOntoInfo(whiteSpaceIndex, e.ontology);

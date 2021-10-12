@@ -51,7 +51,7 @@ public class ToRDFResources extends AbstractGenerator {
                     BufferedWriter bw = new BufferedWriter(fw);
                     IRI type = e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY;
                     String srcTTL = ToApplicationOntology.baseFileName + ".ttl";
-                    bw.write(toRDF(e.parsedOntology.codeSystem, e.parsedOntology.code, type, e.name, e.description, iri(m.iri), m.description, srcTTL));
+                    bw.write(toRDF(e.parsedOntology.codeSystem, e.parsedOntology.code, type, e.name, e.description, iri(m.parsedOntology.iri), m.description, srcTTL));
                     bw.flush();
                     bw.close();
                 }
