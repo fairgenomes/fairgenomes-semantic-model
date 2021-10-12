@@ -69,7 +69,7 @@ public class ToLaTeXTables extends AbstractGenerator {
             bw.write("Name & Ontology & Values \\\\"+ LE);
             bw.write("\\hline"+ LE);
             for (Element e : m.elements) {
-                bw.write(e.name + " & " + e.codeSystem + ":" + e.code.replace("_", "\\_") + " & " + e.valueTypeToLaTeX() + " \\\\" + LE);
+                bw.write(e.name + " & " + e.parsedOntology.codeSystem + ":" + e.parsedOntology.code.replace("_", "\\_") + " & " + e.valueTypeToLaTeX() + " \\\\" + LE);
             }
             bw.write("\\hline" + LE);
             bw.write("\\end{tabular}" + LE);

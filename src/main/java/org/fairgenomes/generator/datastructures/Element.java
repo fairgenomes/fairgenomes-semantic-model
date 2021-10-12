@@ -11,6 +11,7 @@ public class Element {
     public String description;
     public String ontology;
     public String values;
+    public String exactMatch;
 
     /*
     Variables that may be loaded afterwards
@@ -20,11 +21,10 @@ public class Element {
     public ValueType valueTypeEnum;
     public LookupList lookup;
     public String referenceTo;
-    public String codeSystem;
-    public String code;
-    public String iri;
+    public Ontology parsedOntology;
     public String type;
     public int nrOfLookupsWithoutGlobals;
+ //   public Map<Match, List<>>
 
     @Override
     public String toString() {

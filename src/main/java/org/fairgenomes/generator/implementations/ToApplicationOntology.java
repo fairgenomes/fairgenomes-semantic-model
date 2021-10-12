@@ -90,7 +90,7 @@ public class ToApplicationOntology extends AbstractGenerator {
                 builder.add(moduleProperty, RDF.TYPE, e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY);
                 builder.add(moduleProperty, RDFS.LABEL, literal(e.name));
                 builder.add(moduleProperty, RDFS.DOMAIN, moduleClass);
-                builder.add(moduleProperty, RDFS.ISDEFINEDBY, iri(e.iri));
+                builder.add(moduleProperty, RDFS.ISDEFINEDBY, iri(e.parsedOntology.iri));
                 builder.add(moduleProperty, DC.DESCRIPTION, literal(e.description));
                 // We need to check this annotation // TODO value type annotation
                 //bw.write("\t\trdfs:Datatype xsd:" + e.valueTypeToRDF() + " ;" + LE);

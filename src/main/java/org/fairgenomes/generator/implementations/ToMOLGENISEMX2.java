@@ -63,7 +63,7 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
             for (Element e : m.elements) {
                 String key = e.valueTypeEnum.equals(ValueType.UniqueID) ? "1" : "";
                 String required = e.valueTypeEnum.equals(ValueType.UniqueID) ? "TRUE" : "";
-                bw.write(entityName + "," + e.technicalName + "," + e.valueTypeToEMX2() + "," + key + "," + required + "," + e.lookupOrReferencetoEMX2() + ",\"" + e.description + "\"," + e.iri + LE);
+                bw.write(entityName + "," + e.technicalName + "," + e.valueTypeToEMX2() + "," + key + "," + required + "," + e.lookupOrReferencetoEMX2() + ",\"" + e.description + "\"," + e.parsedOntology.iri + LE);
             }
         }
 

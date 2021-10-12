@@ -50,7 +50,7 @@ public class ToMarkdown extends AbstractGenerator {
             bw.write("|---|---|---|---|" + LE);
 
             for (Element e : m.elements) {
-                bw.write("| " + e.name + " | " + (e.description.length() < DESCRIPTION_LIMIT ? e.description : e.description.substring(0,DESCRIPTION_LIMIT) + "...") + " | " + "[" + e.codeSystem + ":" + e.code + "](" + e.iri + ")" + " | " + e.valueTypeToMarkDown() + " |" + LE);
+                bw.write("| " + e.name + " | " + (e.description.length() < DESCRIPTION_LIMIT ? e.description : e.description.substring(0,DESCRIPTION_LIMIT) + "...") + " | " + "[" + e.parsedOntology.codeSystem + ":" + e.parsedOntology.code + "](" + e.parsedOntology.iri + ")" + " | " + e.valueTypeToMarkDown() + " |" + LE);
             }
             bw.write(LE);
         }

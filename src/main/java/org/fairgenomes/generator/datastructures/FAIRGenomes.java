@@ -130,9 +130,10 @@ public class FAIRGenomes {
             for (Element e : m.elements) {
                 whiteSpaceIndex = e.ontology.indexOf(" ");
                 split = parseOntoInfo(whiteSpaceIndex, e.ontology);
-                e.codeSystem = split[0];
-                e.code = split[1];
-                e.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+                e.parsedOntology = new Ontology();
+                e.parsedOntology.codeSystem = split[0];
+                e.parsedOntology.code = split[1];
+                e.parsedOntology.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
             }
         }
     }
