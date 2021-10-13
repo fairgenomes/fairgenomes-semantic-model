@@ -15,4 +15,13 @@ public class Ontology {
     public String codeSystem;
     public String code;
     public String iri;
+
+    @Override
+    public String toString() {
+        return "Ontology{" +
+                "codeSystem='" + codeSystem + '\'' +
+                ", code='" + code + '\'' +
+                ", iri='" + iri + '\'' +
+                '}';
+    }
 }

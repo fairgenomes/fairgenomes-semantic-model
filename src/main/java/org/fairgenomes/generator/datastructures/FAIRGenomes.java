@@ -2,6 +2,7 @@ package org.fairgenomes.generator.datastructures;
 
 import java.io.File;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -136,6 +137,60 @@ public class FAIRGenomes {
                 e.parsedOntology.code = split[1];
                 e.parsedOntology.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
             }
+        }
+    }
+
+    /**
+     * Parse and split SKOS matches for mapping
+     * @throws Exception
+     */
+    public void parseMatches() throws Exception {
+        for(Module m: modules) {
+            for (Element e : m.elements) {
+                if(e.exactMatch != null) { addMatches(Match.exactMatch, e, e.exactMatch); }
+                if(e.closeMatch != null) { addMatches(Match.closeMatch, e, e.closeMatch); }
+                if(e.relatedMatch != null) { addMatches(Match.relatedMatch, e, e.relatedMatch); }
+                if(e.broadMatch != null) { addMatches(Match.broadMatch, e, e.broadMatch); }
+                if(e.narrowMatch != null) { addMatches(Match.narrowMatch, e, e.narrowMatch); }
+
+                /**
+                 * for debug
+                 */
+//                if(e.exactMatch != null || e.closeMatch != null || e.relatedMatch != null || e.broadMatch != null || e.narrowMatch != null)
+//                {
+//                    for(Match key : e.matches.keySet())
+//                    {
+//                        for(Ontology o : e.matches.get(key))
+//                        {
+//                            System.out.println(key + " -> " + o);
+//                        }
+//                    }
+//                }
+
+            }
+        }
+    }
+
+    private void addMatches(Match m, Element e, String value) throws Exception {
+        if(e.matches == null)
+        {
+            e.matches = new HashMap<Match, List<Ontology>>();
+        }
+        if(!e.matches.containsKey(m))
+        {
+            e.matches.put(m, new ArrayList<Ontology>());
+        }
+        String[] matchSplit = value.split(",", -1);
+        for(String match : matchSplit)
+        {
+            match = match.trim();
+            int whiteSpaceIndex = match.indexOf(" ");
+            String[] split = parseOntoInfo(whiteSpaceIndex, match);
+            Ontology o = new Ontology();
+            o.codeSystem = split[0];
+            o.code = split[1];
+            o.iri = match.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+            e.matches.get(m).add(o);
         }
     }
 
