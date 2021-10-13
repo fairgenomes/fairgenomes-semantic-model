@@ -27,6 +27,7 @@ public class GenerateOutputs {
         fg.loadLookupGlobalOptions();
         fg.parseElementValueTypes();
         fg.parseOntologies();
+        fg.parseMatches();
         fg.parseReferences();
         fg.loadElementLookups();
         fg.setElementModules();

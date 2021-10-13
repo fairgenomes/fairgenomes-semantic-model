@@ -41,7 +41,7 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
 
                 if (e.isLookup()) {
                     String tableName = e.technicalName;
-                    bw.write(tableName + ",,,,,,\"" + m.description + "\"," + m.iri + LE);
+                    bw.write(tableName + ",,,,,,\"" + m.description + "\"," + m.parsedOntology.iri + LE);
                     bw.write(tableName + ",value,String,1,TRUE,,Value (English)" + LE);
                     bw.write(tableName + ",description,Text,,,,Description (English)" + LE);
                     bw.write(tableName + ",codesystem,String,,,,The code system (e.g. ontology) this term belongs to" + LE);
@@ -58,12 +58,12 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
         for (Module m : fg.modules) {
 
             String entityName = m.technicalName;
-            bw.write(entityName + ",,,,,,\"" + m.description + "\"," + m.iri + LE);
+            bw.write(entityName + ",,,,,,\"" + m.description + "\"," + m.parsedOntology.iri + LE);
 
             for (Element e : m.elements) {
                 String key = e.valueTypeEnum.equals(ValueType.UniqueID) ? "1" : "";
                 String required = e.valueTypeEnum.equals(ValueType.UniqueID) ? "TRUE" : "";
-                bw.write(entityName + "," + e.technicalName + "," + e.valueTypeToEMX2() + "," + key + "," + required + "," + e.lookupOrReferencetoEMX2() + ",\"" + e.description + "\"," + e.iri + LE);
+                bw.write(entityName + "," + e.technicalName + "," + e.valueTypeToEMX2() + "," + key + "," + required + "," + e.lookupOrReferencetoEMX2() + ",\"" + e.description + "\"," + e.parsedOntology.iri + LE);
             }
         }
 

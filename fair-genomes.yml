@@ -53,6 +53,7 @@ modules:
           - name: Identifier
             description: A unique proper name or character sequence that identifies this particular study.
             ontology: OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]
+            exactMatch: SIO:000729 [http://semanticscience.org/resource/SIO_000729], IAO:0000577 [http://purl.obolibrary.org/obo/IAO_0000577]
             values: UniqueID
           - name: Name
             description: A name that designates this study.

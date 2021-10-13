@@ -44,9 +44,9 @@ public class ToPALGACodeBook extends AbstractGenerator {
         bw.write("id\tdescription_en\tcodesystem\tcode\tdata_type\tdescription_code\tcodelist_ref\tinput_type\tproperties\tparent\tcomments" + LE);
 
         for (Module m : fg.modules) {
-            bw.write(m.name + "\t" + m.description + "\t" + m.codeSystem + "\t" + m.code + "\t" + "ST" + "\t" + m.name + "\t" + "" + "\t" + "multi-select" + "\t" + "{url="+m.iri+"}" + "\t" + "" + "\t" + "" + LE);
+            bw.write(m.name + "\t" + m.description + "\t" + m.parsedOntology.codeSystem + "\t" + m.parsedOntology.code + "\t" + "ST" + "\t" + m.name + "\t" + "" + "\t" + "multi-select" + "\t" + "{url="+m.parsedOntology.iri+"}" + "\t" + "" + "\t" + "" + LE);
             for (Element e : m.elements) {
-                bw.write(e.name + "\t" + e.description + "\t" + e.codeSystem + "\t" + e.code + "\t" + e.valueTypeToArtDecor() + "\t" + e.name + "\t" + (e.isLookup()? e.lookup.srcFile.getName().replace(".txt", "") : "") + "\t" + e.getArtDecorInputType() + "\t" + "{url="+e.iri+"}" + "\t" + m.name + "\t" + "" + LE);
+                bw.write(e.name + "\t" + e.description + "\t" + e.parsedOntology.codeSystem + "\t" + e.parsedOntology.code + "\t" + e.valueTypeToArtDecor() + "\t" + e.name + "\t" + (e.isLookup()? e.lookup.srcFile.getName().replace(".txt", "") : "") + "\t" + e.getArtDecorInputType() + "\t" + "{url="+e.parsedOntology.iri+"}" + "\t" + m.name + "\t" + "" + LE);
             }
         }
         bw.flush();

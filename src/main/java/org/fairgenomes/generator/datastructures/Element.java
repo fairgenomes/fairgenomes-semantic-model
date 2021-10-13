@@ -2,6 +2,11 @@ package org.fairgenomes.generator.datastructures;
 
 import org.fairgenomes.generator.implementations.ToMOLGENISEMX;
 
+import java.util.List;
+import java.util.Map;
+
+import static org.fairgenomes.generator.datastructures.Match.narrowMatch;
+
 public class Element {
 
     /*
@@ -11,7 +16,11 @@ public class Element {
     public String description;
     public String ontology;
     public String values;
-
+    public String exactMatch;
+    public String closeMatch;
+    public String relatedMatch;
+    public String broadMatch;
+    public String narrowMatch;
     /*
     Variables that may be loaded afterwards
      */
@@ -20,11 +29,10 @@ public class Element {
     public ValueType valueTypeEnum;
     public LookupList lookup;
     public String referenceTo;
-    public String codeSystem;
-    public String code;
-    public String iri;
+    public Ontology parsedOntology;
     public String type;
     public int nrOfLookupsWithoutGlobals;
+    public Map<Match, List<Ontology>> matches;
 
     @Override
     public String toString() {

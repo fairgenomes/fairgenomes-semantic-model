@@ -17,9 +17,7 @@ public class Module {
     Variables that may be loaded afterwards
     */
     public String technicalName;
-    public String codeSystem;
-    public String code;
-    public String iri;
+    public Ontology parsedOntology;
     public Map<String, Element> elementMap;
 
     @Override
