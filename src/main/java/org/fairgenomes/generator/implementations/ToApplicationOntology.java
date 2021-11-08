@@ -19,11 +19,10 @@ import org.fairgenomes.generator.datastructures.Module;
 
 public class ToApplicationOntology extends AbstractGenerator {
 
-    public ToApplicationOntology(FAIRGenomes fg, File outputFolder) {
+    public ToApplicationOntology(YamlModel fg, File outputFolder) {
         super(fg, outputFolder);
     }
 
-    public static final String baseFileName = "fair-genomes";
     public static final String ttlLocation = "https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/";
     public static final String gitLocation = "https://github.com/fairgenomes/fairgenomes-semantic-model";
 
@@ -45,7 +44,7 @@ public class ToApplicationOntology extends AbstractGenerator {
         // Main model builder
         ModelBuilder builder = new ModelBuilder();
         Map<String, ModelBuilder> lookupBuilders = new HashMap<String, ModelBuilder>(); // group builders together that refer to the same lookup, i.e. Country
-        FileWriter fw = new FileWriter(new File(outputFolder, baseFileName+".ttl"));
+        FileWriter fw = new FileWriter(new File(outputFolder, fg.fileName + ".ttl"));
         BufferedWriter bw = new BufferedWriter(fw);
         RDFFormat applicationOntologyFormat = RDFFormat.TURTLE;
         for(String prefix : prefixToNamespace.keySet())
@@ -138,7 +137,7 @@ public class ToApplicationOntology extends AbstractGenerator {
         // so instead, as a hack, we abuse the DC.CONTRIBUTOR field to represent this information
         for(String key : lookupBuilders.keySet())
         {
-            builder.add(root, DC.CONTRIBUTOR, iri(ttlLocation + baseFileName+"-"+key.toLowerCase()+".ttl"));
+            builder.add(root, DC.CONTRIBUTOR, iri(ttlLocation + fg.fileName + "-" + key.toLowerCase() + ".ttl"));
         }
 
         // Write main model
@@ -150,7 +149,7 @@ public class ToApplicationOntology extends AbstractGenerator {
         // Write lookups as separate TTL files
         for(String key : lookupBuilders.keySet())
         {
-            FileWriter fwL = new FileWriter(new File(outputFolder, baseFileName+"-"+key.toLowerCase()+".ttl"));
+            FileWriter fwL = new FileWriter(new File(outputFolder, fg.fileName + "-" + key.toLowerCase() + ".ttl"));
             BufferedWriter bwL = new BufferedWriter(fwL);
             Model lookupModel = lookupBuilders.get(key).build();
             Rio.write(lookupModel, bwL, applicationOntologyFormat);

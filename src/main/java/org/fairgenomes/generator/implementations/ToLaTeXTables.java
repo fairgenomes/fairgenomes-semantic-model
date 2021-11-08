@@ -16,7 +16,7 @@ public class ToLaTeXTables extends AbstractGenerator {
 
     static final int DESCRIPTION_LIMIT = 1000;
 
-    public ToLaTeXTables(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToLaTeXTables(YamlModel fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 
@@ -28,7 +28,7 @@ public class ToLaTeXTables extends AbstractGenerator {
         }
         int tableNr = 1;
 
-        FileWriter fw = new FileWriter(new File(outputFolder, "fair-genomes.tex"));
+        FileWriter fw = new FileWriter(new File(outputFolder, fg.fileName + ".tex"));
         BufferedWriter bw = new BufferedWriter(fw);
 
         /**
@@ -39,7 +39,7 @@ public class ToLaTeXTables extends AbstractGenerator {
         bw.write("\\begin{document}" + LE);
         bw.write("\\setlength\\parindent{0pt}" + LE);
         bw.write(LE);
-        bw.write("\\textbf{FAIR Genomes semantic metadata schema}" + LE);
+        bw.write("\\textbf{"+fg.name+"}" + LE);
         bw.write("\\newline" + LE);
         bw.write(LE);
         bw.write(fg.description + " Version "+fg.version + "-" + fg.releaseType + ", "+fg.date+". This model consists of " + fg.modules.size() + " modules that contain " + totalNrOfElements + " metadata elements and " + fg.totalNrOfLookupsWithoutGlobals + " lookups in total (excluding null flavors)." + LE);
@@ -56,7 +56,7 @@ public class ToLaTeXTables extends AbstractGenerator {
         }
         bw.write("\\hline" + LE);
         bw.write("\\end{tabular}" + LE);
-        bw.write("\\caption[Module overview]{\\label{table:table" + (tableNr++) + "} FAIR Genomes v"+fg.version + "-" + fg.releaseType + " overview of all modules.}" + LE);
+        bw.write("\\caption[Module overview]{\\label{table:table" + (tableNr++) + "} "+fg.name+" v"+fg.version + "-" + fg.releaseType + " overview of all modules.}" + LE);
         bw.write("\\end{table}" + LE);
         bw.write(LE);
 
@@ -92,7 +92,7 @@ public class ToLaTeXTables extends AbstractGenerator {
         }
         bw.write("\\hline" + LE);
         bw.write("\\end{tabular}" + LE);
-        bw.write("\\caption[NullFlavors]{\\label{table:table" + (tableNr++) + "} Overview of null flavors. Each lookup in FAIR Genomes is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }" + LE);
+        bw.write("\\caption[NullFlavors]{\\label{table:table" + (tableNr++) + "} Overview of null flavors. Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }" + LE);
         bw.write("\\end{table}" + LE);
         bw.write(LE);
 
@@ -108,10 +108,10 @@ public class ToLaTeXTables extends AbstractGenerator {
          */
         FileWriter fw2 = new FileWriter(new File(outputFolder, "toPDF.sh"));
         BufferedWriter bw2 = new BufferedWriter(fw2);
-        bw2.write("latex fair-genomes.tex" + LE);
-        bw2.write("dvips fair-genomes.dvi" + LE);
-        bw2.write("ps2pdf fair-genomes.ps" + LE);
-        bw2.write("mv fair-genomes.pdf ../../derived/pdf/" + LE);
+        bw2.write("latex "+fg.fileName+".tex" + LE);
+        bw2.write("dvips "+fg.fileName+".dvi" + LE);
+        bw2.write("ps2pdf "+fg.fileName+".ps" + LE);
+        bw2.write("mv "+fg.fileName+".pdf ../../derived/pdf/" + LE);
         bw2.flush();
         bw2.close();
 

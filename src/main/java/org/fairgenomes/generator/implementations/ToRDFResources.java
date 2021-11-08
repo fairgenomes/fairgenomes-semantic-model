@@ -21,7 +21,7 @@ public class ToRDFResources extends AbstractGenerator {
     private HashSet<String> uniqueTerms;
     private HashSet<String> uniqueLookups;
 
-    public ToRDFResources(FAIRGenomes fg, File outputFolder)
+    public ToRDFResources(YamlModel fg, File outputFolder)
     {
         super(fg, outputFolder);
         uniqueTerms = new HashSet<>();
@@ -50,7 +50,7 @@ public class ToRDFResources extends AbstractGenerator {
                     FileWriter fw = new FileWriter(new File(outputFolder, term + ".rdf"));
                     BufferedWriter bw = new BufferedWriter(fw);
                     IRI type = e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY;
-                    String srcTTL = ToApplicationOntology.baseFileName + ".ttl";
+                    String srcTTL = fg.fileName + ".ttl";
                     bw.write(toRDF(e.parsedOntology.codeSystem, e.parsedOntology.code, type, e.name, e.description, iri(m.parsedOntology.iri), m.description, srcTTL));
                     bw.flush();
                     bw.close();
@@ -78,7 +78,7 @@ public class ToRDFResources extends AbstractGenerator {
                              FileWriter fw = new FileWriter(new File(outputFolder, term + ".rdf"));
                              BufferedWriter bw = new BufferedWriter(fw);
                              IRI type = iri(e.type);
-                             String srcTTL = ToApplicationOntology.baseFileName + "-" + e.lookup.name.toLowerCase() + ".ttl";
+                             String srcTTL = fg.fileName + "-" + e.lookup.name.toLowerCase() + ".ttl";
                              bw.write(toRDF(l.codesystem, l.code, type, l.value, l.description, null, null, srcTTL));
                              bw.flush();
                              bw.close();
