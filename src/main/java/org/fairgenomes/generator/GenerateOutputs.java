@@ -3,7 +3,7 @@ package org.fairgenomes.generator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.apache.commons.io.FileUtils;
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.datastructures.YamlModel;
 import org.fairgenomes.generator.implementations.*;
 
 import java.io.File;
@@ -12,39 +12,40 @@ public class GenerateOutputs {
 
     private File inputF;
 
-    public GenerateOutputs() {
-        this.inputF = new File("fair-genomes.yml");
+    public GenerateOutputs(String inputFileLoc) {
+        this.inputF = new File(inputFileLoc);
     }
 
     public void generateResources() throws Exception {
 
-        System.out.println("Parsing FAIR Genomes YAML...");
+        System.out.println("Parsing YAML...");
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         mapper.findAndRegisterModules();
-        FAIRGenomes fg = mapper.readValue(inputF, FAIRGenomes.class);
+        YamlModel y = mapper.readValue(inputF, YamlModel.class);
 
         System.out.println("Loading lookups and value types...");
-        fg.loadLookupGlobalOptions();
-        fg.parseElementValueTypes();
-        fg.parseOntologies();
-        fg.parseMatches();
-        fg.parseReferences();
-        fg.loadElementLookups();
-        fg.setElementModules();
-        fg.createElementTechnicalNames();
+        y.fileName = inputF.getName().replace(".yml","");
+        y.loadLookupGlobalOptions();
+        y.parseElementValueTypes();
+        y.parseOntologies();
+        y.parseMatches();
+        y.parseReferences();
+        y.loadElementLookups();
+        y.setElementModules();
+        y.createElementTechnicalNames();
 
         System.out.println("Generating other representations...");
-        File outputs = new File("generated");
+        File outputs = new File(inputF.getParentFile(), "generated");
         FileUtils.cleanDirectory(outputs);
-        new ToMarkdown(fg, new File(outputs, "markdown")).start();
-        new ToMOLGENISEMX(fg, new File(outputs, "molgenis-emx")).start();
-        new ToMOLGENISEMX2(fg, new File(outputs, "molgenis-emx2")).start();
-        new ToApplicationOntology(fg, new File(outputs, "ontology")).start();
-        new ToPALGACodeBook(fg, new File(outputs, "palga-codebook")).start();
-        new ToARTDECOR(fg, new File(outputs, "art-decor")).start();
-        new ToRDFResources(fg, new File(outputs, "resource")).start();
-        new ToLaTeXTables(fg, new File(outputs, "latex")).start();
-        new ToJavaAPI(fg, new File(outputs, "java")).start();
+        new ToMarkdown(y, new File(outputs, "markdown")).start();
+        new ToMOLGENISEMX(y, new File(outputs, "molgenis-emx")).start();
+        new ToMOLGENISEMX2(y, new File(outputs, "molgenis-emx2")).start();
+        new ToApplicationOntology(y, new File(outputs, "ontology")).start();
+        new ToPALGACodeBook(y, new File(outputs, "palga-codebook")).start();
+        new ToARTDECOR(y, new File(outputs, "art-decor")).start();
+        new ToRDFResources(y, new File(outputs, "resource")).start();
+        new ToLaTeXTables(y, new File(outputs, "latex")).start();
+        new ToJavaAPI(y, new File(outputs, "java")).start();
 
 
     }
