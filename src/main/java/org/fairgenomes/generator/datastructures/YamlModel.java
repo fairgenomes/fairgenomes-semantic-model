@@ -7,18 +7,20 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class FAIRGenomes {
+public class YamlModel {
 
     /*
     Variables mapped to the YAML file
      */
     public String name;
     public String description;
+    public String artDecorId;
     public Double version;
     public ReleaseType releaseType;
     public LocalDate date;
     public File lookupGlobalOptions;
     public List<Author> authors;
+    public List<Implementers> implementers;
     public Copyright copyright;
     public License license;
     public List<Module> modules;
@@ -26,6 +28,7 @@ public class FAIRGenomes {
     /*
     Variables loaded afterwards
      */
+    public String fileName;
     public LookupList lookupGlobalOptionsInstance;
     public int totalNrOfLookupsWithoutGlobals;
     public Map<String, Module> moduleMap;
@@ -259,7 +262,7 @@ public class FAIRGenomes {
 
     @Override
     public String toString() {
-        return "FAIRGenomes{" +
+        return "YamlModel{" +
                 "name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 ", version=" + version +
