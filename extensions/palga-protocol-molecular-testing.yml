@@ -6,442 +6,448 @@ releaseType: Major
 date: 2021-07-05
 lookupGlobalOptions: lookups/NullFlavors.txt
 authors:
-    - name: Commissie Moleculaire Diagnostiek in de Pathologie (CMDP)
-    - name: Werkgroep Moleculaire Diagnostiek in de Pathologie (WMDP)
-    - name: Nederlands Vereniging Van Pathologie (NVVP)
-    - name: Stichting Pathologisch-Anatomisch Landelijk Geautomatiseerd Archief (PALGA)
-      email: stichting@palga.nl
+  - name: Stichting Pathologisch-Anatomisch Landelijk Geautomatiseerd Archief (PALGA)
+    email: stichting@palga.nl
+  - name: Commissie Moleculaire Diagnostiek in de Pathologie (CMDP)
+  - name: Werkgroep Moleculaire Diagnostiek in de Pathologie (WMDP)
+  - name: Nederlands Vereniging Van Pathologie (NVVP)
 implementers:
-    - name: K. Joeri van der Velde
-      email: k.j.van.der.velde@umcg.nl
-      orcid: 0000-0002-0934-8375
+  - name: K. Joeri van der Velde
+    email: k.j.van.der.velde@umcg.nl
+    orcid: 0000-0002-0934-8375
+copyright:
+      holder: Stichting Pathologisch-Anatomisch Landelijk Geautomatiseerd Archief (PALGA)
+      years: 2015-2021
+license:
+      name: unknown
+      url: https://unknown
 modules:
-    - name: Algemeen
-      description: Algemeen.
-      ontology: xxx [xxxx]
-      elements:
-          - name: VrbAanvrager
-            description: Aanvrager.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbAanvragerAnders
-            description: Aanvrager anders.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbAndereOrganisatie
-            description: Andere organisatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbOnderzoekNummers
-            description: Onderzoeksnummer.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbAardM
-            description: Aardmateriaal.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbUitgangsMateriaal
-            description: Uitgangsmateriaal.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbUitgangsMateriaalAnd
-            description: Uitgangsmateriaal anders.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbDatStartMolDiag
-            description: Datum start mol. diagnostiek (PATH).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbDatAanvraagMolDiag
-            description: Datum aanvraag mol. diagnostiek (PATH).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbHoeveelheidWeefsel
-            description: Hoeveelheid weefsel.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbMacroDissUitgDoor
-            description: Macrodissectie uitgevoerd door.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbMacroDissUitgDatum
-            description: Macrodissectie uitgevoerd door datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: VrbProcedure
-            description: Procedure.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-    - name: NGS import management
-      description: NGS import management.
-      ontology: xxx [xxxx]
-      elements:
-          - name: SqaNumberOfGenes
-            description: Aantal te verwachten genesets.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-    - name: Sequentie analyse
-      description: Sequentie analyse.
-      ontology: xxx [xxxx]
-      elements:
-          - name: SqaxRedenAanvraag
-            description: Reden aanvraag.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxRedenAanvraagAnders
-            description: Reden aanvraag anders.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzTher
-            description: Gevraagd onderzoek (therapiekeuze).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzTherAnd
-            description: Gevraagd onderzoek (therapiekeuze) (anders).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzDiffDiag
-            description: Gevraagd onderzoek (differentiaal diagnose).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzDiffDiagAnd
-            description: Gevraagd onderzoek (differentiaal diagnose) (anders).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzClonaal
-            description: Gevraagd onderzoek (clonaal verwantschap).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzClonaalAnd
-            description: Gevraagd onderzoek (clonaal verwantschap) (anders).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzOverig
-            description: Gevraagd onderzoek (overig).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGevrOndzOverigAnd
-            description: Gevraagd onderzoek (overig) (anders).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxRefNummer
-            description: Referentienummer.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxBeschrAardMat
-            description: Beschrijving aardmateriaal.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxPercNeoCellenEx
-            description: Percentage neoplastische cellen.
-            exactMatch: FG:Material_Percentage_tumor_cells [https://w3id.org/fair-genomes/ontology/Material_Percentage_tumor_cells]
-            ontology: NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]
-            values: HeelGetal
-          - name: SqaxPercNeoCellenBeoord
-            description: Percentage neoplastische cellen beoordeeld door.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxPercNeoCellenBeoordDatum
-            description: Percentage neoplastische cellen beoordeeld door datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxPercNeoCellenEldersEx
-            description: Percentage neoplastische cellen elders geschat.
-            ontology: xxx [xxxx]
-            values: HeelGetal
-          - name: SqaxPercNeoCellenEldersBeoord
-            description: Percentage neoplastische cellen elders beoordeeld door.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxPercNeoCellen
-            description: Percentage neoplastische cellen.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxHoeveelheidDNA
-            description: Hoeveelheid DNA.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxKwaliteitDNA
-            description: Kwaliteit DNA.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxDatasheetSeqAnaPanel
-            description: Datasheet Seq analyse panel.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGebruikteTech
-            description: Gebruikte techniek.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGebruikteTechAnd
-            description: Gebruikte techniek (anders).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxNGSPlatform
-            description: NGS platform.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxNGSPlatformAnd
-            description: NGS platform anders.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxInfoTekstPlatformTonen
-            description: Info teksten platform tonen.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxInfoTekstGeneTonen
-            description: Info teksten genen tonen.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxAnalysePanel
-            description: Seq analyse panel.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxTonenGeenMut
-            description: Tonen bij geen mutatie voor.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxOverigeGenenZinTonen
-            description: Overige genen tonen bij geen mutatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxAnalysePanelTonenPv
-            description: Sequentie panel tonen in PV.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxAnalysePanelAnd1
-            description: Seq analyse panel anders1.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxAnalysePanelAnd2
-            description: Seq analyse panel anders2.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxAnalysePanelAnd3
-            description: Seq analyse panel anders3.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxAnalysePanelAnd4
-            description: Seq analyse panel anders4.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxNietBeoordTonen
-            description: Genenpanel tonen bij niet boordeelbaar.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxGenNietBeoord
-            description: Gen(en) niet beoordeelbaar.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxAanvulling
-            description: Aanvulling moleculaire bepaling.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxKeuzeMolecInter
-            description: Keuze moleculaire interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxMolecInter
-            description: Moleculaire interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxKeuzeKlinInter
-            description: Keuze klinische interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaxKlinInter
-            description: Klinische interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaμOnderzoek
-            description: 2e (of 3e) onderzoek.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaμOnderzoekNummers
-            description: Onderzoeksnummer.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaμUitgangsMateriaal
-            description: Uitgangsmateriaal.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaμUitgangsMateriaalAnd
-            description: Uitgangsmateriaal (anders).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaμHoeveelheidWeefsel
-            description: Hoeveelheid weefsel.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaμMacroDissUitgDoor
-            description: Macrodissectie uitgevoerd door.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: SqaμMacroDissUitgDatum
-            description: Macrodissectie uitgevoerd door datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineycoverage
-            description: Coverage.
-            ontology: xxx [xxxx]
-            values: Getal
-          - name: genesetxlineytranscript
-            description: Transcript.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineyexon
-            description: Exon.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineyprotein
-            description: Protein.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineycoding
-            description: Coding.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineyfrequency
-            description: Frequency.
-            ontology: xxx [xxxx]
-            values: Getal
-          - name: genesetxlineygene
-            description: Gene.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineyklasse
-            description: Klasse.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineyexport
-            description: Export.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineychr
-            description: Chr.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineystart
-            description: Start.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineyref
-            description: Ref.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineyalt
-            description: Alt.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: genesetxlineybuild
-            description: Build.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-    - name: Overige moleculaire analyse
-      description: Overige moleculaire analyse.
-      ontology: xxx [xxxx]
-      elements:
-          - name: OvmAantalbepaling
-            description: Aantal bepalingen.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzRedenAanvraag
-            description: Reden aanvraag.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzRedenAanvraagAnders
-            description: Reden aanvraag (anders).
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzAnalyse
-            description: Analyse.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMacroDissUitgDoor
-            description: Macrodissectie uitgevoerd door.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMacroDissUitgDatum
-            description: Macrodissectie uitgevoerd door datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzPercNeoCellenEx
-            description: Percentage neoplastische cellen.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzPercNeoCellenBeoord
-            description: Percentage neoplastische cellen beoordeeld door.
-            ontology: xxx [xxxx]
-            values: HeelGetal
-          - name: OvmzPercNeoCellenBeoordDatum
-            description: Percentage neoplastische cellen beoordeeld door datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzPercNeoCellenEldersEx
-            description: Percentage neoplastische cellen elders geschat.
-            ontology: xxx [xxxx]
-            values: HeelGetal
-          - name: OvmzPercNeoCellenEldersBeoord
-            description: Percentage neoplastische cellen elders beoordeeld door.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzPercNeoCellen
-            description: Percentage neoplastische cellen.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzHoeveelheidDNA
-            description: Hoeveelheid DNA.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzKwaliteitDNA
-            description: Kwaliteit DNA.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzKeuzeMolecResult
-            description: Keuze moleculair resultaat.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMolecResult
-            description: Moleculaire resultaat.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMutAnalyse1
-            description: Mutatieanalyse eerste beoordelaar.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMutAnalyseDatum1
-            description: Mutatieanalyse eerste beoordelaar datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMutAnalyse2
-            description: Mutatieanalyse tweede beoordelaar.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMutAnalyseDatum2
-            description: Mutatieanalyse tweede beoordelaar datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMutAnalyse3
-            description: Mutatieanalyse derde beoordelaar.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMutAnalyseDatum3
-            description: Mutatieanalyse derde beoordelaar datum.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzKeuzeMolecInter
-            description: Keuze moleculaire interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzMolecInter
-            description: Moleculaire interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzKeuzeKlinInter
-            description: Keuze klinische interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
-          - name: OvmzKlinInter
-            description: Klinische interpretatie.
-            ontology: xxx [xxxx]
-            values: Tekenreeks
+  - name: Algemeen
+    description: Algemeen.
+    ontology: x:xx [https://xxxx]
+    elements:
+      - name: VrbAanvrager
+        description: Aanvrager.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbAanvragerAnders
+        description: Aanvrager anders.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbAndereOrganisatie
+        description: Andere organisatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbOnderzoekNummers
+        description: Onderzoeksnummer.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbAardM
+        description: Aardmateriaal.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbUitgangsMateriaal
+        description: Uitgangsmateriaal.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbUitgangsMateriaalAnd
+        description: Uitgangsmateriaal anders.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbDatStartMolDiag
+        description: Datum start mol. diagnostiek (PATH).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbDatAanvraagMolDiag
+        description: Datum aanvraag mol. diagnostiek (PATH).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbHoeveelheidWeefsel
+        description: Hoeveelheid weefsel.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbMacroDissUitgDoor
+        description: Macrodissectie uitgevoerd door.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbMacroDissUitgDatum
+        description: Macrodissectie uitgevoerd door datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: VrbProcedure
+        description: Procedure.
+        ontology: x:xx [https://xxxx]
+        values: String
+  - name: NGS import management
+    description: NGS import management.
+    ontology: x:xx [https://xxxx]
+    elements:
+      - name: SqaNumberOfGenes
+        description: Aantal te verwachten genesets.
+        ontology: x:xx [https://xxxx]
+        values: String
+  - name: Sequentie analyse
+    description: Sequentie analyse.
+    ontology: x:xx [https://xxxx]
+    elements:
+      - name: SqaxRedenAanvraag
+        description: Reden aanvraag.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxRedenAanvraagAnders
+        description: Reden aanvraag anders.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzTher
+        description: Gevraagd onderzoek (therapiekeuze).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzTherAnd
+        description: Gevraagd onderzoek (therapiekeuze) (anders).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzDiffDiag
+        description: Gevraagd onderzoek (differentiaal diagnose).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzDiffDiagAnd
+        description: Gevraagd onderzoek (differentiaal diagnose) (anders).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzClonaal
+        description: Gevraagd onderzoek (clonaal verwantschap).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzClonaalAnd
+        description: Gevraagd onderzoek (clonaal verwantschap) (anders).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzOverig
+        description: Gevraagd onderzoek (overig).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGevrOndzOverigAnd
+        description: Gevraagd onderzoek (overig) (anders).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxRefNummer
+        description: Referentienummer.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxBeschrAardMat
+        description: Beschrijving aardmateriaal.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxPercNeoCellenEx
+        description: Percentage neoplastische cellen.
+        exactMatch: FG:Material_Percentage_tumor_cells [https://w3id.org/fair-genomes/ontology/Material_Percentage_tumor_cells]
+        ontology: NCIT:C127771 [http://purl.obolibrary.org/obo/NCIT_C127771]
+        values: Integer
+      - name: SqaxPercNeoCellenBeoord
+        description: Percentage neoplastische cellen beoordeeld door.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxPercNeoCellenBeoordDatum
+        description: Percentage neoplastische cellen beoordeeld door datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxPercNeoCellenEldersEx
+        description: Percentage neoplastische cellen elders geschat.
+        ontology: x:xx [https://xxxx]
+        values: Integer
+      - name: SqaxPercNeoCellenEldersBeoord
+        description: Percentage neoplastische cellen elders beoordeeld door.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxPercNeoCellen
+        description: Percentage neoplastische cellen.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxHoeveelheidDNA
+        description: Hoeveelheid DNA.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxKwaliteitDNA
+        description: Kwaliteit DNA.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxDatasheetSeqAnaPanel
+        description: Datasheet Seq analyse panel.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGebruikteTech
+        description: Gebruikte techniek.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGebruikteTechAnd
+        description: Gebruikte techniek (anders).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxNGSPlatform
+        description: NGS platform.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxNGSPlatformAnd
+        description: NGS platform anders.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxInfoTekstPlatformTonen
+        description: Info teksten platform tonen.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxInfoTekstGeneTonen
+        description: Info teksten genen tonen.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxAnalysePanel
+        description: Seq analyse panel.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxTonenGeenMut
+        description: Tonen bij geen mutatie voor.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxOverigeGenenZinTonen
+        description: Overige genen tonen bij geen mutatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxAnalysePanelTonenPv
+        description: Sequentie panel tonen in PV.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxAnalysePanelAnd1
+        description: Seq analyse panel anders1.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxAnalysePanelAnd2
+        description: Seq analyse panel anders2.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxAnalysePanelAnd3
+        description: Seq analyse panel anders3.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxAnalysePanelAnd4
+        description: Seq analyse panel anders4.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxNietBeoordTonen
+        description: Genenpanel tonen bij niet boordeelbaar.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxGenNietBeoord
+        description: Gen(en) niet beoordeelbaar.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxAanvulling
+        description: Aanvulling moleculaire bepaling.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxKeuzeMolecInter
+        description: Keuze moleculaire interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxMolecInter
+        description: Moleculaire interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxKeuzeKlinInter
+        description: Keuze klinische interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaxKlinInter
+        description: Klinische interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaμOnderzoek
+        description: 2e (of 3e) onderzoek.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaμOnderzoekNummers
+        description: Onderzoeksnummer.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaμUitgangsMateriaal
+        description: Uitgangsmateriaal.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaμUitgangsMateriaalAnd
+        description: Uitgangsmateriaal (anders).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaμHoeveelheidWeefsel
+        description: Hoeveelheid weefsel.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaμMacroDissUitgDoor
+        description: Macrodissectie uitgevoerd door.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: SqaμMacroDissUitgDatum
+        description: Macrodissectie uitgevoerd door datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineycoverage
+        description: Coverage.
+        ontology: x:xx [https://xxxx]
+        values: Decimal
+      - name: genesetxlineytranscript
+        description: Transcript.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineyexon
+        description: Exon.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineyprotein
+        description: Protein.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineycoding
+        description: Coding.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineyfrequency
+        description: Frequency.
+        ontology: x:xx [https://xxxx]
+        values: Decimal
+      - name: genesetxlineygene
+        description: Gene.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineyklasse
+        description: Klasse.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineyexport
+        description: Export.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineychr
+        description: Chr.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineystart
+        description: Start.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineyref
+        description: Ref.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineyalt
+        description: Alt.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: genesetxlineybuild
+        description: Build.
+        ontology: x:xx [https://xxxx]
+        values: String
+  - name: Overige moleculaire analyse
+    description: Overige moleculaire analyse.
+    ontology: x:xx [https://xxxx]
+    elements:
+      - name: OvmAantalbepaling
+        description: Aantal bepalingen.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzRedenAanvraag
+        description: Reden aanvraag.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzRedenAanvraagAnders
+        description: Reden aanvraag (anders).
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzAnalyse
+        description: Analyse.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMacroDissUitgDoor
+        description: Macrodissectie uitgevoerd door.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMacroDissUitgDatum
+        description: Macrodissectie uitgevoerd door datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzPercNeoCellenEx
+        description: Percentage neoplastische cellen.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzPercNeoCellenBeoord
+        description: Percentage neoplastische cellen beoordeeld door.
+        ontology: x:xx [https://xxxx]
+        values: Integer
+      - name: OvmzPercNeoCellenBeoordDatum
+        description: Percentage neoplastische cellen beoordeeld door datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzPercNeoCellenEldersEx
+        description: Percentage neoplastische cellen elders geschat.
+        ontology: x:xx [https://xxxx]
+        values: Integer
+      - name: OvmzPercNeoCellenEldersBeoord
+        description: Percentage neoplastische cellen elders beoordeeld door.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzPercNeoCellen
+        description: Percentage neoplastische cellen.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzHoeveelheidDNA
+        description: Hoeveelheid DNA.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzKwaliteitDNA
+        description: Kwaliteit DNA.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzKeuzeMolecResult
+        description: Keuze moleculair resultaat.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMolecResult
+        description: Moleculaire resultaat.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMutAnalyse1
+        description: Mutatieanalyse eerste beoordelaar.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMutAnalyseDatum1
+        description: Mutatieanalyse eerste beoordelaar datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMutAnalyse2
+        description: Mutatieanalyse tweede beoordelaar.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMutAnalyseDatum2
+        description: Mutatieanalyse tweede beoordelaar datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMutAnalyse3
+        description: Mutatieanalyse derde beoordelaar.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMutAnalyseDatum3
+        description: Mutatieanalyse derde beoordelaar datum.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzKeuzeMolecInter
+        description: Keuze moleculaire interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzMolecInter
+        description: Moleculaire interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzKeuzeKlinInter
+        description: Keuze klinische interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
+      - name: OvmzKlinInter
+        description: Klinische interpretatie.
+        ontology: x:xx [https://xxxx]
+        values: String
