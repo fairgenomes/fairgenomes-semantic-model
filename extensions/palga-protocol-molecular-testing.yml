@@ -21,6 +21,10 @@ copyright:
 license:
       name: unknown
       url: https://unknown
+technical:
+      artDecorId: na
+      ttlLocation: https://fairgenomes.github.io/fairgenomes-semantic-model/extensions/generated/ontology/
+      gitLocation: https://github.com/fairgenomes/fairgenomes-semantic-model
 modules:
   - name: Algemeen
     description: Algemeen.
