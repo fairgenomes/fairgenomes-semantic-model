@@ -14,7 +14,6 @@ public class YamlModel {
      */
     public String name;
     public String description;
-    public String artDecorId;
     public Double version;
     public ReleaseType releaseType;
     public LocalDate date;
@@ -23,6 +22,7 @@ public class YamlModel {
     public List<Implementers> implementers;
     public Copyright copyright;
     public License license;
+    public Technical technical;
     public List<Module> modules;
 
     /*

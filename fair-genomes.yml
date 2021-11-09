@@ -1,7 +1,6 @@
 ---
 name: FAIR Genomes metadata schema
 description: The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.
-artDecorId: 2.16.840.1.113883.2.4.3.11.60.120
 version: 1.2
 releaseType: SNAPSHOT
 date: 2021-07-20
@@ -46,6 +45,10 @@ copyright:
 license:
       name: Attribution 4.0 International (CC BY 4.0)
       url: https://creativecommons.org/licenses/by/4.0/
+technical:
+      artDecorId: 2.16.840.1.113883.2.4.3.11.60.120
+      ttlLocation: https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/
+      gitLocation: https://github.com/fairgenomes/fairgenomes-semantic-model
 modules:
     - name: Study
       description: A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts.

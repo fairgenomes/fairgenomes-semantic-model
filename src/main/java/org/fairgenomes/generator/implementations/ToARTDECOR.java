@@ -21,7 +21,7 @@ public class ToARTDECOR extends AbstractGenerator {
 
         RunParameters runParameters = new RunParameters(
                 outputFolder.getParent().toString() + "/palga-codebook",          // codebookDirectory
-                fg.artDecorId,                                                    // projectId
+                fg.technical.artDecorId,                                                    // projectId
                 fg.fileName.replace("-",""),                   // projectPrefix
                 "false",                                                          // experimental
                 getAuthors(),                                                     // authorString

@@ -23,9 +23,6 @@ public class ToApplicationOntology extends AbstractGenerator {
         super(fg, outputFolder);
     }
 
-    public static final String ttlLocation = "https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/";
-    public static final String gitLocation = "https://github.com/fairgenomes/fairgenomes-semantic-model";
-
     @Override
     public void start() throws Exception, IOException {
 
@@ -61,7 +58,7 @@ public class ToApplicationOntology extends AbstractGenerator {
         builder.add(root, OWL.VERSIONINFO, fg.version + "-" + fg.releaseType);
         builder.add(root, DC.LANGUAGE, "en");
         builder.add(root, DC.RIGHTS, "This ontology is distributed under a " + fg.license.name+" License - " + fg.license.url + ". Copyright: " + fg.copyright.holder + " ("+fg.copyright.years+").");
-        builder.add(root, DC.PUBLISHER, iri(gitLocation));
+        builder.add(root, DC.PUBLISHER, iri(fg.technical.gitLocation));
         builder.add(root, DCTERMS.LICENSE, fg.license.name);
         builder.add(root, DCTERMS.LICENSE_DOCUMENT, iri(fg.license.url));
         for(Author a : fg.authors)
@@ -137,7 +134,7 @@ public class ToApplicationOntology extends AbstractGenerator {
         // so instead, as a hack, we abuse the DC.CONTRIBUTOR field to represent this information
         for(String key : lookupBuilders.keySet())
         {
-            builder.add(root, DC.CONTRIBUTOR, iri(ttlLocation + fg.fileName + "-" + key.toLowerCase() + ".ttl"));
+            builder.add(root, DC.CONTRIBUTOR, iri(fg.technical.ttlLocation + fg.fileName + "-" + key.toLowerCase() + ".ttl"));
         }
 
         // Write main model
