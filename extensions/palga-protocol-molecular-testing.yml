@@ -24,19 +24,19 @@ license:
 modules:
   - name: Algemeen
     description: Algemeen.
-    ontology: x:xx [https://xxxx]
+    ontology: NCIT:C43461 [http://purl.obolibrary.org/obo/NCIT_C43461]
     elements:
       - name: VrbAanvrager
         description: Aanvrager.
-        ontology: x:xx [https://xxxx]
+        ontology: GENEPIO:0000138 [http://purl.obolibrary.org/obo/GENEPIO_0000138]
         values: String
       - name: VrbAanvragerAnders
         description: Aanvrager anders.
-        ontology: x:xx [https://xxxx]
+        ontology: GENEPIO:0000138 [http://purl.obolibrary.org/obo/GENEPIO_0000138]
         values: String
       - name: VrbAndereOrganisatie
         description: Andere organisatie.
-        ontology: x:xx [https://xxxx]
+        ontology: SIO:000688 [http://semanticscience.org/resource/SIO_000688]
         values: String
       - name: VrbOnderzoekNummers
         description: Onderzoeksnummer.
@@ -88,55 +88,55 @@ modules:
         values: String
   - name: Sequentie analyse
     description: Sequentie analyse.
-    ontology: x:xx [https://xxxx]
+    ontology: EDAM:topic_3168 [http://edamontology.org/topic_3168]
     elements:
       - name: SqaxRedenAanvraag
         description: Reden aanvraag.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C171003 [http://purl.obolibrary.org/obo/NCIT_C171003]
         values: String
       - name: SqaxRedenAanvraagAnders
         description: Reden aanvraag anders.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C171003 [http://purl.obolibrary.org/obo/NCIT_C171003]
         values: String
       - name: SqaxGevrOndzTher
         description: Gevraagd onderzoek (therapiekeuze).
-        ontology: x:xx [https://xxxx]
+        ontology: SNOMED:276239002 [http://snomed.info/id/276239002]
         values: String
       - name: SqaxGevrOndzTherAnd
         description: Gevraagd onderzoek (therapiekeuze) (anders).
-        ontology: x:xx [https://xxxx]
+        ontology: SNOMED:276239002 [http://snomed.info/id/276239002]
         values: String
       - name: SqaxGevrOndzDiffDiag
         description: Gevraagd onderzoek (differentiaal diagnose).
-        ontology: x:xx [https://xxxx]
+        ontology: SIO:001002 [http://semanticscience.org/resource/SIO_001002]
         values: String
       - name: SqaxGevrOndzDiffDiagAnd
         description: Gevraagd onderzoek (differentiaal diagnose) (anders).
-        ontology: x:xx [https://xxxx]
+        ontology: SIO:001002 [http://semanticscience.org/resource/SIO_001002]
         values: String
       - name: SqaxGevrOndzClonaal
         description: Gevraagd onderzoek (clonaal verwantschap).
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C96960 [http://purl.obolibrary.org/obo/NCIT_C19686]
         values: String
       - name: SqaxGevrOndzClonaalAnd
         description: Gevraagd onderzoek (clonaal verwantschap) (anders).
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C96960 [http://purl.obolibrary.org/obo/NCIT_C19686]
         values: String
       - name: SqaxGevrOndzOverig
         description: Gevraagd onderzoek (overig).
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C69023 [http://purl.obolibrary.org/obo/NCIT_C69023]
         values: String
       - name: SqaxGevrOndzOverigAnd
         description: Gevraagd onderzoek (overig) (anders).
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C69023 [http://purl.obolibrary.org/obo/NCIT_C69023]
         values: String
       - name: SqaxRefNummer
         description: Referentienummer.
-        ontology: x:xx [https://xxxx]
+        ontology: DC:identifier [http://purl.org/dc/terms/identifier]
         values: String
       - name: SqaxBeschrAardMat
         description: Beschrijving aardmateriaal.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C103264 [http://purl.obolibrary.org/obo/NCIT_C103264]
         values: String
       - name: SqaxPercNeoCellenEx
         description: Percentage neoplastische cellen.
