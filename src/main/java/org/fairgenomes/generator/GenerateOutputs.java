@@ -17,23 +17,7 @@ public class GenerateOutputs {
     }
 
     public void generateResources() throws Exception {
-
-        System.out.println("Parsing YAML...");
-        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-        mapper.findAndRegisterModules();
-        YamlModel y = mapper.readValue(inputF, YamlModel.class);
-
-        System.out.println("Loading lookups and value types...");
-        y.fileName = inputF.getName().replace(".yml","");
-        y.loadLookupGlobalOptions();
-        y.parseElementValueTypes();
-        y.parseOntologies();
-        y.parseMatches();
-        y.parseReferences();
-        y.loadElementLookups();
-        y.setElementModules();
-        y.createElementTechnicalNames();
-
+        YamlModel y = readYamlModel();
         System.out.println("Generating other representations...");
         File outputs = new File(inputF.getParentFile(), "generated");
         FileUtils.cleanDirectory(outputs);
@@ -46,7 +30,23 @@ public class GenerateOutputs {
         new ToRDFResources(y, new File(outputs, "resource")).start();
         new ToLaTeXTables(y, new File(outputs, "latex")).start();
         new ToJavaAPI(y, new File(outputs, "java")).start();
+    }
 
-
+    public YamlModel readYamlModel() throws Exception {
+        System.out.println("Parsing YAML...");
+        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+        mapper.findAndRegisterModules();
+        YamlModel y = mapper.readValue(inputF, YamlModel.class);
+        System.out.println("Loading lookups and value types...");
+        y.fileName = inputF.getName().replace(".yml","");
+        y.loadLookupGlobalOptions();
+        y.parseElementValueTypes();
+        y.parseOntologies();
+        y.parseMatches();
+        y.parseReferences();
+        y.loadElementLookups();
+        y.setElementModules();
+        y.createElementTechnicalNames();
+        return y;
     }
 }
