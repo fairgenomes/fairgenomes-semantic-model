@@ -44,23 +44,23 @@ modules:
         values: String
       - name: VrbOnderzoekNummers
         description: Onderzoeksnummer.
-        ontology: x:xx [https://xxxx]
+        ontology: OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]
         values: String
       - name: VrbAardM
         description: Aardmateriaal.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C103264 [http://purl.obolibrary.org/obo/NCIT_C103264]
         values: String
       - name: VrbUitgangsMateriaal
         description: Uitgangsmateriaal.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C70713 [http://purl.obolibrary.org/obo/NCIT_C70713]
         values: String
       - name: VrbUitgangsMateriaalAnd
         description: Uitgangsmateriaal anders.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C70713 [http://purl.obolibrary.org/obo/NCIT_C70713]
         values: String
       - name: VrbDatStartMolDiag
         description: Datum start mol. diagnostiek (PATH).
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
         values: String
       - name: VrbDatAanvraagMolDiag
         description: Datum aanvraag mol. diagnostiek (PATH).
@@ -68,7 +68,7 @@ modules:
         values: String
       - name: VrbHoeveelheidWeefsel
         description: Hoeveelheid weefsel.
-        ontology: x:xx [https://xxxx]
+        ontology: MS:1001137 [http://purl.obolibrary.org/obo/MS_1001137]
         values: String
       - name: VrbMacroDissUitgDoor
         description: Macrodissectie uitgevoerd door.
@@ -80,15 +80,15 @@ modules:
         values: String
       - name: VrbProcedure
         description: Procedure.
-        ontology: x:xx [https://xxxx]
+        ontology: EFO:0005518 [http://www.ebi.ac.uk/efo/EFO_0005518]
         values: String
   - name: NGS import management
     description: NGS import management.
-    ontology: x:xx [https://xxxx]
+    ontology: EDAM:topic_3168 [http://edamontology.org/topic_3168]
     elements:
       - name: SqaNumberOfGenes
         description: Aantal te verwachten genesets.
-        ontology: x:xx [https://xxxx]
+        ontology: OMIT:0006994 [http://purl.obolibrary.org/obo/OMIT_0006994]
         values: String
   - name: Sequentie analyse
     description: Sequentie analyse.
@@ -169,7 +169,7 @@ modules:
         values: String
       - name: SqaxHoeveelheidDNA
         description: Hoeveelheid DNA.
-        ontology: x:xx [https://xxxx]
+        ontology: AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]
         values: String
       - name: SqaxKwaliteitDNA
         description: Kwaliteit DNA.
@@ -181,19 +181,19 @@ modules:
         values: String
       - name: SqaxGebruikteTech
         description: Gebruikte techniek.
-        ontology: x:xx [https://xxxx]
+        ontology: FIX:0000704 [http://purl.obolibrary.org/obo/FIX_0000704]
         values: String
       - name: SqaxGebruikteTechAnd
         description: Gebruikte techniek (anders).
-        ontology: x:xx [https://xxxx]
+        ontology: FIX:0000704 [http://purl.obolibrary.org/obo/FIX_0000704]
         values: String
       - name: SqaxNGSPlatform
         description: NGS platform.
-        ontology: x:xx [https://xxxx]
+        ontology: GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]
         values: String
       - name: SqaxNGSPlatformAnd
         description: NGS platform anders.
-        ontology: x:xx [https://xxxx]
+        ontology: GENEPIO:0000071 [http://purl.obolibrary.org/obo/GENEPIO_0000071]
         values: String
       - name: SqaxInfoTekstPlatformTonen
         description: Info teksten platform tonen.
@@ -249,19 +249,19 @@ modules:
         values: String
       - name: SqaxKeuzeMolecInter
         description: Keuze moleculaire interpretatie.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
         values: String
       - name: SqaxMolecInter
         description: Moleculaire interpretatie.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C20826 [http://purl.obolibrary.org/obo/NCIT_C20826]
         values: String
       - name: SqaxKeuzeKlinInter
         description: Keuze klinische interpretatie.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]
         values: String
       - name: SqaxKlinInter
         description: Klinische interpretatie.
-        ontology: x:xx [https://xxxx]
+        ontology: NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]
         values: String
       - name: SqaμOnderzoek
         description: 2e (of 3e) onderzoek.
