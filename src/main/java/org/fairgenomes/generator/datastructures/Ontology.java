@@ -1,5 +1,7 @@
 package org.fairgenomes.generator.datastructures;
 
+import java.util.Objects;
+
 /**
  * e.g. parse
  *
@@ -23,5 +25,20 @@ public class Ontology {
                 ", code='" + code + '\'' +
                 ", iri='" + iri + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Ontology ontology = (Ontology) o;
+        return Objects.equals(codeSystem, ontology.codeSystem) &&
+                Objects.equals(code, ontology.code) &&
+                Objects.equals(iri, ontology.iri);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(codeSystem, code, iri);
     }
 }
