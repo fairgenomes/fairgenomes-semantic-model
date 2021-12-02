@@ -2,7 +2,7 @@ package org.fairgenomes.generator.implementations;
 
 import org.fairgenomes.generator.AbstractGenerator;
 import org.fairgenomes.generator.datastructures.Element;
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.datastructures.YamlModel;
 import org.fairgenomes.generator.datastructures.Module;
 
 import java.io.BufferedWriter;
@@ -14,27 +14,29 @@ import java.nio.file.Paths;
 
 public class ToJavaAPI extends AbstractGenerator{
 
-    public ToJavaAPI(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToJavaAPI(YamlModel fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 
     @Override
     public void start() throws Exception {
 
-        File mainPkg = new File(outputFolder, "org/fairgenomes/generated");
+        String pkg = fg.fileName.replace("-","");
+
+        File mainPkg = new File(outputFolder, "org/"+pkg+"/generated");
         Path path = Paths.get(mainPkg.getAbsolutePath());
         Files.createDirectories(path);
 
 
 
-        FileWriter fw = new FileWriter(new File(mainPkg, "FAIRGenomesRoot.java"));
+        FileWriter fw = new FileWriter(new File(mainPkg, cap(pkg) + "Root.java"));
         BufferedWriter bw = new BufferedWriter(fw);
 
-        bw.write("package org.fairgenomes.generated;" + LE);
+        bw.write("package org."+pkg+".generated;" + LE);
         bw.write(LE);
         bw.write("import java.util.Map;" + LE);
         bw.write(LE);
-        bw.write("public class FAIRGenomesRoot {" + LE);
+        bw.write("public class "+cap(pkg)+"Root {" + LE);
 
         for (Module m : fg.modules) {
 
@@ -43,7 +45,7 @@ public class ToJavaAPI extends AbstractGenerator{
             FileWriter modFw = new FileWriter(new File(mainPkg, cap(m.technicalName) + ".java"));
             BufferedWriter modBw = new BufferedWriter(modFw);
 
-            modBw.write("package org.fairgenomes.generated;" + LE);
+            modBw.write("package org."+pkg+".generated;" + LE);
             modBw.write(LE);
             modBw.write("import java.util.List;" + LE);
             modBw.write(LE);
@@ -70,7 +72,7 @@ public class ToJavaAPI extends AbstractGenerator{
 //
 //                }
 
-                modBw.write("\tpublic " + e.valueTypeToJava(e.isReference() ? cap(FAIRGenomes.toTechName(e.referenceTo)) : null) + " " + e.technicalName + ";" + LE);
+                modBw.write("\tpublic " + e.valueTypeToJava(e.isReference() ? cap(YamlModel.toTechName(e.referenceTo)) : null) + " " + e.technicalName + ";" + LE);
             }
 
             modBw.write("}" + LE);

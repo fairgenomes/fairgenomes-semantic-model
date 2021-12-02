@@ -94,3 +94,5 @@ mcmd add logo -p ../../misc/molgenis/img/study.png
 mcmd add logo -p ../../misc/molgenis/img/fair_genomes_logo_notext.png
 mcmd add logo -p ../../misc/molgenis/img/fair_genomes_logo_long.png
 mcmd add logo -p ../../misc/molgenis/img/fair_genomes_logo_white.png
+mcmd make --role ANONYMOUS fair-genomes_EDITOR
+mcmd give anonymous view sys_md

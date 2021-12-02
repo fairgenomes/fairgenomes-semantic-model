@@ -2,7 +2,7 @@ package org.fairgenomes.generated;
 
 import java.util.Map;
 
-public class FAIRGenomesRoot {
+public class FairgenomesRoot {
 	public Map<String, Study> Study;
 	public Map<String, Personal> Personal;
 	public Map<String, Leafletandconsentform> Leafletandconsentform;

@@ -2,7 +2,7 @@ package org.fairgenomes.generator.implementations;
 
 import org.fairgenomes.generator.AbstractGenerator;
 import org.fairgenomes.generator.datastructures.Author;
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.datastructures.YamlModel;
 import palgacodebooktoartdecor.codebook.CodebookManager;
 import palgacodebooktoartdecor.codebook.CodebookToArtDecorConvertor;
 import palgacodebooktoartdecor.settings.IdentifierManager;
@@ -12,7 +12,7 @@ import java.io.File;
 
 public class ToARTDECOR extends AbstractGenerator {
 
-    public ToARTDECOR(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToARTDECOR(YamlModel fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 
@@ -20,14 +20,14 @@ public class ToARTDECOR extends AbstractGenerator {
     public void start() throws Exception {
 
         RunParameters runParameters = new RunParameters(
-                "generated/palga-codebook",                           // codebookDirectory
-                "2.16.840.1.113883.2.4.3.11.60.120",                              // projectId
-                "fairgenomes",                                                    // projectPrefix
+                outputFolder.getParent().toString() + "/palga-codebook",          // codebookDirectory
+                fg.technical.artDecorId,                                                    // projectId
+                fg.fileName.replace("-",""),                   // projectPrefix
                 "false",                                                          // experimental
                 getAuthors(),                                                     // authorString
                 fg.copyright.holder + ";"+fg.copyright.years+";author",           // copyrightString
                 "draft");                                                         // statusCode
-        File output = new File(outputFolder, "fair-genomes_en-US.xml");
+        File output = new File(outputFolder, fg.fileName + "_en-US.xml");
         IdentifierManager.createIdentifierManager(runParameters);
         runParameters.addLanguageSettings("en", fg.description, fg.name);
         runParameters.setDefaultLanguage("en");

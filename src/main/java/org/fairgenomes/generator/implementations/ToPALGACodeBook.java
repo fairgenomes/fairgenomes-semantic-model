@@ -17,7 +17,7 @@ import java.util.HashMap;
  */
 public class ToPALGACodeBook extends AbstractGenerator {
 
-    public ToPALGACodeBook(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToPALGACodeBook(YamlModel fg, File outputFolder) throws Exception {
        super(fg, outputFolder);
     }
 

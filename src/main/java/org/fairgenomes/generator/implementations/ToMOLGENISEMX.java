@@ -15,14 +15,16 @@ import java.util.HashMap;
  */
 public class ToMOLGENISEMX extends AbstractGenerator {
 
-    public static final String PACKAGE_NAME = "fair-genomes";
+    private String PACKAGE_NAME;
 
-    public ToMOLGENISEMX(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToMOLGENISEMX(YamlModel fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
+        PACKAGE_NAME = fg.fileName;
     }
 
     @Override
     public void start() throws IOException {
+
 
         /*
         MOLGENIS Commander installation script.
@@ -109,10 +111,10 @@ public class ToMOLGENISEMX extends AbstractGenerator {
             for (Element e : m.elements) {
                 if(e.valueTypeEnum.equals(ValueType.UniqueID))
                 {
-                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description + " ("+e.parsedOntology.codeSystem+":"+e.parsedOntology.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"FALSE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description + " ("+e.parsedOntology.codeSystem+":"+e.parsedOntology.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+"FALSE"+"\t"+e.lookupOrReferencetoEMX(PACKAGE_NAME)+ LE);
                 }
                 else{
-                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+ " ("+e.parsedOntology.codeSystem+":"+e.parsedOntology.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"FALSE"+"\t"+"FALSE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+e.lookupOrReferencetoEMX()+ LE);
+                    bw.write(e.technicalName+"\t"+e.name+"\t"+e.description+ " ("+e.parsedOntology.codeSystem+":"+e.parsedOntology.code+")" + "\t"+entityName+"\t"+e.valueTypeToEMX()+"\t"+"FALSE"+"\t"+"FALSE"+"\t"+"TRUE"+"\t"+"TRUE"+"\t"+e.lookupOrReferencetoEMX(PACKAGE_NAME)+ LE);
                 }
             }
             bw.flush();
@@ -133,8 +135,8 @@ public class ToMOLGENISEMX extends AbstractGenerator {
         /*
         Demo permissions
          */
-        //MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + LE);
-        //MCMDbw.write("mcmd give anonymous view sys_md" + LE);
+        MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + LE);
+        MCMDbw.write("mcmd give anonymous view sys_md" + LE);
 
 
         /*

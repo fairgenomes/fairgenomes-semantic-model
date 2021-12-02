@@ -15,7 +15,7 @@ import java.util.HashMap;
  */
 public class ToMOLGENISEMX2 extends AbstractGenerator {
 
-    public ToMOLGENISEMX2(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToMOLGENISEMX2(YamlModel fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 

@@ -1,6 +1,6 @@
 package org.fairgenomes.generator;
 
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.datastructures.YamlModel;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import java.io.File;
  */
 public abstract class AbstractGenerator {
 
-    public FAIRGenomes fg;
+    public YamlModel fg;
     public File outputFolder;
     public static final String LE = "\n"; // using Unix line endings is the safer option
 
@@ -17,7 +17,7 @@ public abstract class AbstractGenerator {
     public static final String resourceURL = baseIRI + "resource/";
     public static final String ontologyURL = baseIRI + "ontology/";
 
-    public AbstractGenerator(FAIRGenomes fg, File outputFolder) {
+    public AbstractGenerator(YamlModel fg, File outputFolder) {
         this.fg = fg;
         if (!outputFolder.exists()) {
             outputFolder.mkdirs();

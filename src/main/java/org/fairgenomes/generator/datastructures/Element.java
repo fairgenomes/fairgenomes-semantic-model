@@ -5,8 +5,6 @@ import org.fairgenomes.generator.implementations.ToMOLGENISEMX;
 import java.util.List;
 import java.util.Map;
 
-import static org.fairgenomes.generator.datastructures.Match.narrowMatch;
-
 public class Element {
 
     /*
@@ -235,11 +233,11 @@ public class Element {
      *
      * @return
      */
-    public String lookupOrReferencetoEMX() {
+    public String lookupOrReferencetoEMX(String pkgName) {
         if (isReference()) {
-            return ToMOLGENISEMX.PACKAGE_NAME + "_" + FAIRGenomes.toTechName(referenceTo);
+            return pkgName + "_" + YamlModel.toTechName(referenceTo);
         } else if (isLookup()) {
-            return ToMOLGENISEMX.PACKAGE_NAME + "_" + m.technicalName + "_" + technicalName;
+            return pkgName + "_" + m.technicalName + "_" + technicalName;
         } else {
             return "";
         }
@@ -247,7 +245,7 @@ public class Element {
 
     public String lookupOrReferencetoEMX2() {
         if (isReference()) {
-            return FAIRGenomes.toTechName(referenceTo);
+            return YamlModel.toTechName(referenceTo);
         } else if (isLookup()) {
             return technicalName;
         } else {

@@ -101,15 +101,16 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 4. Update PDF (run toPDF.sh in generated/latex).
 5. Update version in [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv).
 6. Update version in [pom.xml](pom.xml).
-7. Create a new Excel file at [misc/excel](misc/excel).
-8. Make commits and push to fork.
-9. Pull request and merge with main (i.e. _fairgenomes_ organization).
-10. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairgenomes%2Ffairgenomes-semantic-model%2Fmain%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en) to TTL file in main repo.
-11. Commit LODE page to fork, then again PR and merge with main.
-12. Create Github release on main.
-13. Prepare for further development: increment version in [fair-genomes.yml](fair-genomes.yml) and set to SNAPSHOT. Also update [pom.xml](pom.xml) and [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv).
-14. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
-15. Reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
+7. Update Docker prepare at [misc/molgenis/docker](misc/molgenis/docker) based on [setup.sh](generated/molgenis-emx/setup.sh).
+8. Create a new Excel file at [misc/excel](misc/excel).
+9. Make commits and push to fork.
+10. Pull request and merge with main (i.e. _fairgenomes_ organization).
+11. Create updated LODE page by following the [link](http://150.146.207.114/lode/extract?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffairgenomes%2Ffairgenomes-semantic-model%2Fmain%2Fgenerated%2Fontology%2Ffair-genomes.ttl&owlapi=true&lang=en) to TTL file in main repo.
+12. Commit LODE page to fork, then again PR and merge with main.
+13. Create Github release on main.
+14. Prepare for further development: increment version in [fair-genomes.yml](fair-genomes.yml) and set to SNAPSHOT. Also update [pom.xml](pom.xml) and [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv).
+15. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
+16. Reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
 
 #### MOLGENIS-EMX2
 

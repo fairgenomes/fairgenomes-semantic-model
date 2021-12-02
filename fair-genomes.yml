@@ -45,6 +45,10 @@ copyright:
 license:
       name: Attribution 4.0 International (CC BY 4.0)
       url: https://creativecommons.org/licenses/by/4.0/
+technical:
+      artDecorId: 2.16.840.1.113883.2.4.3.11.60.120
+      ttlLocation: https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/
+      gitLocation: https://github.com/fairgenomes/fairgenomes-semantic-model
 modules:
     - name: Study
       description: A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts.
@@ -53,15 +57,19 @@ modules:
           - name: Identifier
             description: A unique proper name or character sequence that identifies this particular study.
             ontology: OMIABIS:0000006 [http://purl.obolibrary.org/obo/OMIABIS_0000006]
-            exactMatch: SIO:000729 [http://semanticscience.org/resource/SIO_000729], IAO:0000577 [http://purl.obolibrary.org/obo/IAO_0000577]
+            broadMatch: SIO:000729 [http://semanticscience.org/resource/SIO_000729], IAO:0000577 [http://purl.obolibrary.org/obo/IAO_0000577]
             values: UniqueID
           - name: Name
             description: A name that designates this study.
             ontology: OMIABIS:0000037 [http://purl.obolibrary.org/obo/OMIABIS_0000037]
+            exactMatch: OBI:0001622 [http://purl.obolibrary.org/obo/OBI_0001622]
+            broadMatch: SIO:000185 [https://semanticscience.org/resource/SIO_000185]
             values: String
           - name: Description
             description: A statement or piece of writing that provides details on this study.
             ontology: OMIABIS:0000036 [http://purl.obolibrary.org/obo/OMIABIS_0000036]
+            exactMatch: OBI:0001615 [http://purl.obolibrary.org/obo/OBI_0001615]
+            broadMatch: SIO:000136 [https://semanticscience.org/resource/SIO_000136]
             values: Text
           - name: Inclusion criteria
             description: The conditions which, if met, make an person eligible for participation in this study.
@@ -70,6 +78,7 @@ modules:
           - name: Principal investigator
             description: The principle investigator or responsible person for this study.
             ontology: OMIABIS:0000100 [http://purl.obolibrary.org/obo/OMIABIS_0000100]
+            broadMatch: SIO:000881 [https://semanticscience.org/resource/SIO_000881], OBI:0000202 [http://purl.obolibrary.org/obo/OBI_0000202]
             values: String
           - name: Contact information
             description: An email address for the purpose of contacting the study contact person.
@@ -82,10 +91,13 @@ modules:
           - name: Start date
             description: The date on which this study began.
             ontology: NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]
+            broadMatch: SIO:000031 [https://semanticscience.org/resource/SIO_000031], IAO:0000582 [http://purl.obolibrary.org/obo/IAO_0000582]
             values: Date
           - name: Completion date
             description: The date on which the concluding information for this study is completed. Usually, this is when the last subject has a final visit, or the main analysis has finished, or any other protocol-defined completion date.
             ontology: NCIT:C142702 [http://purl.obolibrary.org/obo/NCIT_C142702]
+            broadMatch: IAO:0000582 [http://purl.obolibrary.org/obo/IAO_0000582]
+            relatedMatch: SIO:001083 [https://semanticscience.org/resource/SIO_001083], SIO:001314 [https://semanticscience.org/resource/SIO_001314]
             values: Date
             # Placeholder: Add many-to-many relation of Study-Personal: ReferenceMany [Personal]
     - name: Personal

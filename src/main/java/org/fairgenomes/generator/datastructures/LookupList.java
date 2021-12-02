@@ -20,7 +20,7 @@ public class LookupList {
     public LookupList(File lookupListFile) throws Exception {
         this.srcFile = lookupListFile;
         this.name = this.srcFile.getName().substring(0,this.srcFile.getName().indexOf("."));
-        this.technicalName = FAIRGenomes.toTechName(this.name);
+        this.technicalName = YamlModel.toTechName(this.name);
         lookups = new LinkedHashMap<>();
 
         Scanner s = new Scanner(lookupListFile);

@@ -1,4 +1,4 @@
-# FAIR Genomes semantic metadata schema
+# FAIR Genomes metadata schema
 
 The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.2-SNAPSHOT, 2021-07-20. This model consists of __9 modules__ that contain __110 metadata elements__ and __85307 lookups__ in total (excluding null flavors).
 
@@ -181,7 +181,7 @@ An analysis applies analytical (often computational) methods to existing data of
 | WGS guideline followed | Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels. | [NCIT:C17564](http://purl.obolibrary.org/obo/NCIT_C17564) | String |
 
 ## Null flavors
-Each lookup in FAIR Genomes is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty.
+Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty.
 
 | Value | Description | Ontology |
 |---|---|---|

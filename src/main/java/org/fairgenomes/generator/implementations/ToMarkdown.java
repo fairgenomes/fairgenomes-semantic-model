@@ -2,7 +2,7 @@ package org.fairgenomes.generator.implementations;
 
 import org.fairgenomes.generator.AbstractGenerator;
 import org.fairgenomes.generator.datastructures.Element;
-import org.fairgenomes.generator.datastructures.FAIRGenomes;
+import org.fairgenomes.generator.datastructures.YamlModel;
 import org.fairgenomes.generator.datastructures.Lookup;
 import org.fairgenomes.generator.datastructures.Module;
 
@@ -18,7 +18,7 @@ public class ToMarkdown extends AbstractGenerator {
 
     static final int DESCRIPTION_LIMIT = 1000;
 
-    public ToMarkdown(FAIRGenomes fg, File outputFolder) throws Exception {
+    public ToMarkdown(YamlModel fg, File outputFolder) throws Exception {
         super(fg, outputFolder);
     }
 
@@ -29,9 +29,11 @@ public class ToMarkdown extends AbstractGenerator {
             totalNrOfElements += m.elements.size();
         }
 
-        FileWriter fw = new FileWriter(new File(outputFolder, "fairgenomes-semantic-model.md"));
+
+        String mdOutFile = fg.fileName.replace("-", "") + "-semantic-model.md";
+        FileWriter fw = new FileWriter(new File(outputFolder, mdOutFile));
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write("# FAIR Genomes semantic metadata schema" + LE + LE);
+        bw.write("# " + fg.name + LE + LE);
         bw.write(fg.description + " Version "+fg.version + "-" + fg.releaseType + ", "+fg.date+". This model consists of __" + fg.modules.size() + " modules__ that contain __" + totalNrOfElements + " metadata elements__ and __" + fg.totalNrOfLookupsWithoutGlobals + " lookups__ in total (excluding null flavors)." + LE + LE);
 
         bw.write("## Module overview" + LE + LE);
@@ -56,7 +58,7 @@ public class ToMarkdown extends AbstractGenerator {
         }
 
         bw.write("## Null flavors" + LE);
-        bw.write("Each lookup in FAIR Genomes is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty." + LE + LE);
+        bw.write("Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty." + LE + LE);
         bw.write("| Value | Description | Ontology |" + LE);
         bw.write("|---|---|---|" + LE);
         for(String key: fg.lookupGlobalOptionsInstance.lookups.keySet())

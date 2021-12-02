@@ -1,13 +1,12 @@
 package org.fairgenomes.generator.datastructures;
 
+import org.yaml.snakeyaml.Yaml;
+
 import java.io.File;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
-public class FAIRGenomes {
+public class YamlModel {
 
     /*
     Variables mapped to the YAML file
@@ -19,16 +18,21 @@ public class FAIRGenomes {
     public LocalDate date;
     public File lookupGlobalOptions;
     public List<Author> authors;
+    public List<Implementers> implementers;
     public Copyright copyright;
     public License license;
+    public Technical technical;
     public List<Module> modules;
 
     /*
     Variables loaded afterwards
      */
+    public String fileName;
     public LookupList lookupGlobalOptionsInstance;
     public int totalNrOfLookupsWithoutGlobals;
     public Map<String, Module> moduleMap;
+    public Set<Ontology> allElementOntologies;
+    public Set<Ontology> allModuleOntologies;
 
 
     /**
@@ -122,6 +126,8 @@ public class FAIRGenomes {
      * @throws Exception
      */
     public void parseOntologies() throws Exception {
+        allModuleOntologies = new HashSet<Ontology>();
+        allElementOntologies = new HashSet<Ontology>();
         for (Module m : modules) {
             int whiteSpaceIndex = m.ontology.indexOf(" ");
             String[] split = parseOntoInfo(whiteSpaceIndex, m.ontology);
@@ -129,6 +135,7 @@ public class FAIRGenomes {
             m.parsedOntology.codeSystem = split[0];
             m.parsedOntology.code = split[1];
             m.parsedOntology.iri = m.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+            allModuleOntologies.add(m.parsedOntology);
             for (Element e : m.elements) {
                 whiteSpaceIndex = e.ontology.indexOf(" ");
                 split = parseOntoInfo(whiteSpaceIndex, e.ontology);
@@ -136,6 +143,7 @@ public class FAIRGenomes {
                 e.parsedOntology.codeSystem = split[0];
                 e.parsedOntology.code = split[1];
                 e.parsedOntology.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+                allElementOntologies.add(e.parsedOntology);
             }
         }
     }
@@ -259,7 +267,7 @@ public class FAIRGenomes {
 
     @Override
     public String toString() {
-        return "FAIRGenomes{" +
+        return "YamlModel{" +
                 "name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 ", version=" + version +
@@ -268,5 +276,29 @@ public class FAIRGenomes {
                 ", modules=" + modules +
                 ", lookupGlobalOptionsInstance=" + lookupGlobalOptionsInstance +
                 '}';
+    }
+
+    public YamlModel intersectWith(YamlModel y)
+    {
+        YamlModel intersect = new YamlModel();
+        intersect.name = this.name + " intersected with " + y.name;
+
+        for(Module m : y.modules)
+        {
+            if(this.allModuleOntologies.contains(m.parsedOntology))
+            {
+                System.out.println("MODULE ONTOLOGY OVERLAP: " + m.parsedOntology);
+            }
+
+            for(Element e : m.elements)
+            {
+                if(this.allElementOntologies.contains(e.parsedOntology))
+                {
+                    System.out.println("ELEMENT ONTOLOGY OVERLAP: " + e.parsedOntology);
+                }
+            }
+        }
+
+        return intersect;
     }
 }
