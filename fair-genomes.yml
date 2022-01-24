@@ -466,8 +466,8 @@ modules:
             description: Method used to determine the order of bases in a nucleic acid sequence.
             ontology: FIX:0000704 [http://purl.obolibrary.org/obo/FIX_0000704]
             values: LookupOne [lookups/SequencingMethods.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C17565]
-          - name: Average read depth
-            description: The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
+          - name: Median read depth
+            description: The median number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
             ontology: NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]
             values: Integer
           - name: Observed read length
