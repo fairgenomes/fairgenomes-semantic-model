@@ -414,6 +414,7 @@ modules:
             description: Amount of input material in nanogram (ng).
             ontology: AFRL:0000010 [http://purl.allotrope.org/ontologies/role#AFRL_0000010]
             values: Integer
+            unit: UO:0000024 [http://purl.obolibrary.org/obo/UO_0000024]
           - name: Library preparation kit
             description: Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.
             ontology: GENEPIO:0000085 [http://purl.obolibrary.org/obo/GENEPIO_0000085]
@@ -466,8 +467,8 @@ modules:
             description: Method used to determine the order of bases in a nucleic acid sequence.
             ontology: FIX:0000704 [http://purl.obolibrary.org/obo/FIX_0000704]
             values: LookupOne [lookups/SequencingMethods.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C17565]
-          - name: Average read depth
-            description: The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
+          - name: Median read depth
+            description: The median number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.
             ontology: NCIT:C155320 [http://purl.obolibrary.org/obo/NCIT_C155320]
             values: Integer
           - name: Observed read length

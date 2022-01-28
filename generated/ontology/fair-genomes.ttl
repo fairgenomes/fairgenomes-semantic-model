@@ -602,6 +602,7 @@ fg:Sample_preparation_Belongs_to_material a owl:ObjectProperty;
 
 fg:Sample_preparation_Input_amount a owl:DatatypeProperty;
   rdfs:label "Input amount";
+  sio:SIO_000074 obo:UO_0000024;
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/role#AFRL_0000010>;
   dc:description "Amount of input material in nanogram (ng)." .
@@ -688,11 +689,11 @@ fg:Sequencing_Sequencing_method a owl:ObjectProperty;
   dc:description "Method used to determine the order of bases in a nucleic acid sequence.";
   rdfs:range obo:NCIT_C17565 .
 
-fg:Sequencing_Average_read_depth a owl:DatatypeProperty;
-  rdfs:label "Average read depth";
+fg:Sequencing_Median_read_depth a owl:DatatypeProperty;
+  rdfs:label "Median read depth";
   rdfs:domain fg:Sequencing;
   rdfs:isDefinedBy obo:NCIT_C155320;
-  dc:description "The average number of times a particular locus (site, nucleotide, amplicon, region) was sequenced." .
+  dc:description "The median number of times a particular locus (site, nucleotide, amplicon, region) was sequenced." .
 
 fg:Sequencing_Observed_read_length a owl:DatatypeProperty;
   rdfs:label "Observed read length";

@@ -9,7 +9,7 @@ public class Sequencing {
 	public String sequencingplatform;
 	public String sequencinginstrumentmodel;
 	public String sequencingmethod;
-	public int averagereaddepth;
+	public int medianreaddepth;
 	public int observedreadlength;
 	public int observedinsertsize;
 	public double percentageq30;
