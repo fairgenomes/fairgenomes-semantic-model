@@ -602,6 +602,7 @@ fg:Sample_preparation_Belongs_to_material a owl:ObjectProperty;
 
 fg:Sample_preparation_Input_amount a owl:DatatypeProperty;
   rdfs:label "Input amount";
+  sio:SIO_000074 obo:UO_0000024;
   rdfs:domain fg:Sample_preparation;
   rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/role#AFRL_0000010>;
   dc:description "Amount of input material in nanogram (ng)." .

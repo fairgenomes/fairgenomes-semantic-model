@@ -14,6 +14,7 @@ public class Element {
     public String description;
     public String ontology;
     public String values;
+    public String unit;
     public String exactMatch;
     public String closeMatch;
     public String relatedMatch;
@@ -28,6 +29,7 @@ public class Element {
     public LookupList lookup;
     public String referenceTo;
     public Ontology parsedOntology;
+    public Ontology unitOntology;
     public String type;
     public int nrOfLookupsWithoutGlobals;
     public Map<Match, List<Ontology>> matches;

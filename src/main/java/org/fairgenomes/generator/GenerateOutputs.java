@@ -41,6 +41,7 @@ public class GenerateOutputs {
         y.fileName = inputF.getName().replace(".yml","");
         y.loadLookupGlobalOptions();
         y.parseElementValueTypes();
+        y.parseElementUnits();
         y.parseOntologies();
         y.parseMatches();
         y.parseReferences();

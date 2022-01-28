@@ -63,6 +63,29 @@ public class YamlModel {
     }
 
     /**
+     * Parse element 'unit' information
+     * @throws Exception
+     */
+    public void parseElementUnits() throws Exception {
+        for(Module m: modules)
+        {
+            for(Element e : m.elements)
+            {
+                if(e.unit != null)
+                {
+                    int whiteSpaceIndex = e.unit.indexOf(" ");
+                    String[] split = parseOntoInfo(whiteSpaceIndex, e.unit);
+                    e.unitOntology = new Ontology();
+                    e.unitOntology.codeSystem = split[0];
+                    e.unitOntology.code = split[1];
+                    e.unitOntology.iri = e.unit.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+                    System.out.println("unit set to: " + e.unit);
+                }
+            }
+        }
+    }
+
+    /**
      * Load the lookups for each element
      * @throws Exception
      */
@@ -278,6 +301,11 @@ public class YamlModel {
                 '}';
     }
 
+    /**
+     * helper to find overlap in models
+     * @param y
+     * @return
+     */
     public YamlModel intersectWith(YamlModel y)
     {
         YamlModel intersect = new YamlModel();
@@ -295,10 +323,18 @@ public class YamlModel {
                 if(this.allElementOntologies.contains(e.parsedOntology))
                 {
                     System.out.println("ELEMENT ONTOLOGY OVERLAP: " + e.parsedOntology);
+                    List elementInOriginal = findElement(e.parsedOntology);
                 }
             }
         }
 
         return intersect;
+    }
+
+    public List<Element> findElement(Ontology o)
+    {
+        List<Element> e = new ArrayList<>();
+        // todo ...
+        return e;
     }
 }
