@@ -214,7 +214,7 @@ study,identifier,string,1,TRUE,,"A unique proper name or character sequence that
 study,name,string,,,,"A name that designates this study.",http://purl.obolibrary.org/obo/OMIABIS_0000037
 study,description,text,,,,"A statement or piece of writing that provides details on this study.",http://purl.obolibrary.org/obo/OMIABIS_0000036
 study,inclusioncriteria,ref_array,,,inclusioncriteria,"The conditions which, if met, make an person eligible for participation in this study.",http://purl.obolibrary.org/obo/OBI_0500027
-study,principalinvestigator,string,,,,"The principle investigator or responsible person for this study.",http://purl.obolibrary.org/obo/OMIABIS_0000100
+study,principalinvestigator,string,,,,"The principal investigator or responsible person for this study.",http://purl.obolibrary.org/obo/OMIABIS_0000100
 study,contactinformation,string,,,,"An email address for the purpose of contacting the study contact person.",http://purl.obolibrary.org/obo/OMIABIS_0000035
 study,studydesign,text,,,,"A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of this study.",http://purl.obolibrary.org/obo/OBI_0500000
 study,startdate,date,,,,"The date on which this study began.",http://purl.obolibrary.org/obo/NCIT_C69208

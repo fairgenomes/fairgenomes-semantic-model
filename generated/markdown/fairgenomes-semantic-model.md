@@ -25,7 +25,7 @@ A detailed examination, analysis, or critical inspection of one or multiple subj
 | Name | A name that designates this study. | [OMIABIS:0000037](http://purl.obolibrary.org/obo/OMIABIS_0000037) | String |
 | Description | A statement or piece of writing that provides details on this study. | [OMIABIS:0000036](http://purl.obolibrary.org/obo/OMIABIS_0000036) | Text |
 | Inclusion criteria | The conditions which, if met, make an person eligible for participation in this study. | [OBI:0500027](http://purl.obolibrary.org/obo/OBI_0500027) | [InclusionCriteria](../../lookups/InclusionCriteria.txt) lookup (14 choices [of type](http://purl.obolibrary.org/obo/OBI_0500027)) |
-| Principal investigator | The principle investigator or responsible person for this study. | [OMIABIS:0000100](http://purl.obolibrary.org/obo/OMIABIS_0000100) | String |
+| Principal investigator | The principal investigator or responsible person for this study. | [OMIABIS:0000100](http://purl.obolibrary.org/obo/OMIABIS_0000100) | String |
 | Contact information | An email address for the purpose of contacting the study contact person. | [OMIABIS:0000035](http://purl.obolibrary.org/obo/OMIABIS_0000035) | String |
 | Study design | A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of this study. | [OBI:0500000](http://purl.obolibrary.org/obo/OBI_0500000) | Text |
 | Start date | The date on which this study began. | [NCIT:C69208](http://purl.obolibrary.org/obo/NCIT_C69208) | Date |
