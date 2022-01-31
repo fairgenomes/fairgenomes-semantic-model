@@ -61,7 +61,7 @@ A document explaining all the relevant information to assist an individual in un
 | Consent form title | A title or name given to this consent form. | [DC:title](http://purl.org/dc/terms/title) | String |
 | Consent form accepted date | Date of acceptance of this consent form. | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | Date |
 | Consent form valid until | End date of the validity of this consent form. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
-| Consent form creator | Indicates the authoritative body who brought this consent form into existence. | [NCIT:C42628](http://purl.obolibrary.org/obo/NCIT_C42628) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+| Consent form creator | Indicates the authoritative body who brought this consent form into existence. | [DC:creator](http://purl.org/dc/terms/creator) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Consent form version | The version, edition, or adaptation of this consent form. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
 
 ## Module: Individual consent

@@ -252,7 +252,7 @@ fg:Leaflet_and_consent_form_Consent_form_valid_until a owl:DatatypeProperty;
 fg:Leaflet_and_consent_form_Consent_form_creator a owl:ObjectProperty;
   rdfs:label "Consent form creator";
   rdfs:domain fg:Leaflet_and_consent_form;
-  rdfs:isDefinedBy obo:NCIT_C42628;
+  rdfs:isDefinedBy <http://purl.org/dc/terms/creator>;
   dc:description "Indicates the authoritative body who brought this consent form into existence.";
   rdfs:range <http://semanticscience.org/resource/SIO_000688> .
 

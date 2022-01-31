@@ -186,7 +186,7 @@ modules:
             values: Date
           - name: Consent form creator
             description: Indicates the authoritative body who brought this consent form into existence.
-            ontology: NCIT:C42628 [http://purl.obolibrary.org/obo/NCIT_C42628]
+            ontology: DC:creator [http://purl.org/dc/terms/creator]
             values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Consent form version
             description: The version, edition, or adaptation of this consent form.
