@@ -79,7 +79,6 @@ public class YamlModel {
                     e.unitOntology.codeSystem = split[0];
                     e.unitOntology.code = split[1];
                     e.unitOntology.iri = e.unit.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
-                    System.out.println("unit set to: " + e.unit);
                 }
             }
         }
