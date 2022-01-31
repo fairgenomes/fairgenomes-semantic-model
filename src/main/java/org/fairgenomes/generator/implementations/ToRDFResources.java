@@ -47,7 +47,7 @@ public class ToRDFResources extends AbstractGenerator {
                         throw new Exception("Term already in use: " + term);
                     }
                     uniqueTerms.add(term);
-                    FileWriter fw = new FileWriter(new File(outputFolder, term + ".rdf"));
+                    FileWriter fw = new FileWriter(new File(outputFolder, term + ".xml"));
                     BufferedWriter bw = new BufferedWriter(fw);
                     IRI type = e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY;
                     String srcTTL = fg.fileName + ".ttl";
@@ -75,7 +75,7 @@ public class ToRDFResources extends AbstractGenerator {
                                  throw new Exception("Term already in use: " + term + " for " + l.value);
                              }
                              uniqueTerms.add(term);
-                             FileWriter fw = new FileWriter(new File(outputFolder, term + ".rdf"));
+                             FileWriter fw = new FileWriter(new File(outputFolder, term + ".xml"));
                              BufferedWriter bw = new BufferedWriter(fw);
                              IRI type = iri(e.type);
                              String srcTTL = fg.fileName + "-" + e.lookup.name.toLowerCase() + ".ttl";
