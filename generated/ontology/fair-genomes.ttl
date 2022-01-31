@@ -91,7 +91,7 @@ fg:Study_Principal_investigator a owl:DatatypeProperty;
   rdfs:label "Principal investigator";
   rdfs:domain fg:Study;
   rdfs:isDefinedBy obo:OMIABIS_0000100;
-  dc:description "The principle investigator or responsible person for this study." .
+  dc:description "The principal investigator or responsible person for this study." .
 
 fg:Study_Contact_information a owl:DatatypeProperty;
   rdfs:label "Contact information";
