@@ -1,4 +1,4 @@
 value,description,codesystem,code,iri
-"For additional sampling","Willingness to be contacted to collect additional material or data from the patient.","NCIT","C25662","http://purl.obolibrary.org/obo/NCIT_C25662"
-"For incidental findings","Willingness to be contacted when new knowledge regarding incidental findings becomes available to benefit the patient.","ICO","0000178","http://purl.obolibrary.org/obo/ICO_0000178"
-"For diagnostic question","Willingness to be contacted when new knowledge regarding the diagnostic question becomes available to benefit the patient.","NCIT","C15220","http://purl.obolibrary.org/obo/NCIT_C15220"
+"Recontacting for additional sampling","Willingness to be recontacted to collect additional material or data from the patient.","FG","0000744","https://w3id.org/fair-genomes/resource/FG_0000744"
+"Recontacting for incidental findings","Willingness to be recontacted when new knowledge regarding incidental findings becomes available to benefit the patient.","FG","0000745","https://w3id.org/fair-genomes/resource/FG_0000745"
+"Recontacting for diagnostic question","Willingness to be recontacted when new knowledge regarding the diagnostic question becomes available to benefit the patient.","FG","0000746","https://w3id.org/fair-genomes/resource/FG_0000746"

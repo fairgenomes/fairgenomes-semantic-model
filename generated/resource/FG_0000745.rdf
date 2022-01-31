@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="https://fairgenomes.org/fairgenomes-semantic-model/misc/semanticscience.org/resource.xsl" ?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:ns0="http://purl.org/dc/elements/1.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+  <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000745">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C176244"/>
+    <rdfs:label xml:lang="en">Recontacting for incidental findings</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-recontacting.ttl"/>
+    <dc:description xml:lang="en">Willingness to be recontacted when new knowledge regarding incidental findings becomes available to benefit the patient.</dc:description>
+    <dc:identifier>FG:0000745</dc:identifier>
+    <ns0:identifier>FG_0000745</ns0:identifier>
+  </rdf:Description>
+
+</rdf:RDF>
