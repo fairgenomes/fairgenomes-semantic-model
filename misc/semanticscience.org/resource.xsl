@@ -246,9 +246,9 @@
 </xsl:element>
 
 <hr />
-<a href="http://www.w3.org/TR/rdf-sparql-query/"><img alt="W3C Semantic Web Technology" src="image/sw-sparql-blue.png" border="0"/></a> 
-<a href="http://www.w3.org/RDF/" title="RDF data"><img border="0" src="image/sw-rdf-blue.png" alt="[RDF Data]"/></a> 
-<br/><a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="image/od_80x15_red_green.png" border="0"/></a> 
+<a href="http://www.w3.org/TR/rdf-sparql-query/"><img alt="W3C Semantic Web Technology" src="https://semanticscience.org/resource/image/sw-sparql-blue.png" border="0"/></a>
+<a href="http://www.w3.org/RDF/" title="RDF data"><img border="0" src="https://semanticscience.org/resource/image/sw-rdf-blue.png" alt="[RDF Data]"/></a>
+<br/><a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="https://semanticscience.org/resource/image/od_80x15_red_green.png" border="0"/></a>
 <a title="Creative Commons - By Attribution - Share-Alike" rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/ca/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/ca/80x15.png" /></a> 
 
 </body>
