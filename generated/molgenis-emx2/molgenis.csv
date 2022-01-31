@@ -240,7 +240,7 @@ leafletandconsentform,consentformidentifier,string,1,TRUE,,"A unique proper name
 leafletandconsentform,consentformtitle,string,,,,"A title or name given to this consent form.",http://purl.org/dc/terms/title
 leafletandconsentform,consentformaccepteddate,date,,,,"Date of acceptance of this consent form.",http://purl.org/dc/terms/dateAccepted
 leafletandconsentform,consentformvaliduntil,date,,,,"End date of the validity of this consent form.",http://purl.org/dc/terms/valid
-leafletandconsentform,consentformcreator,ref_array,,,consentformcreator,"Indicates the authoritative body who brought this consent form into existence.",http://purl.obolibrary.org/obo/NCIT_C42628
+leafletandconsentform,consentformcreator,ref_array,,,consentformcreator,"Indicates the authoritative body who brought this consent form into existence.",http://purl.org/dc/terms/creator
 leafletandconsentform,consentformversion,string,,,,"The version, edition, or adaptation of this consent form.",http://purl.org/dc/terms/hasVersion
 individualconsent,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
 individualconsent,individualconsentidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular signed individual consent.",http://purl.obolibrary.org/obo/ICO_0000044

@@ -6,5 +6,5 @@ consentformidentifier	Consent form identifier	A unique proper name or character 
 consentformtitle	Consent form title	A title or name given to this consent form. (DC:title)	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
 consentformaccepteddate	Consent form accepted date	Date of acceptance of this consent form. (DC:dateAccepted)	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
 consentformvaliduntil	Consent form valid until	End date of the validity of this consent form. (DC:valid)	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
-consentformcreator	Consent form creator	Indicates the authoritative body who brought this consent form into existence. (NCIT:C42628)	leafletandconsentform	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_leafletandconsentform_consentformcreator
+consentformcreator	Consent form creator	Indicates the authoritative body who brought this consent form into existence. (DC:creator)	leafletandconsentform	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_leafletandconsentform_consentformcreator
 consentformversion	Consent form version	The version, edition, or adaptation of this consent form. (DC:hasVersion)	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
