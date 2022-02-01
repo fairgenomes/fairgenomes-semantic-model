@@ -1,30 +1,30 @@
 value	description	codesystem	code	iri
-PP tube 0.5–2mL (-85) to (-60)°C	Polypropylene tube 0.5–2mL at (-85) to (-60)°C	SPRECv3.0	A	https://www.isber.org/page/SPREC/v3.0/Storage/A
-PP tube 0.5–2mL (-35) to (-18)°C	Polypropylene tube 0.5–2mL at (-35) to (-18)°C	SPRECv3.0	B	https://www.isber.org/page/SPREC/v3.0/Storage/B
-PP tube 0.5–2mL <-135°C	Polypropylene tube 0.5–2mL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	V	https://www.isber.org/page/SPREC/v3.0/Storage/V
-Cryotube 1–2mL LN	Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase	SPRECv3.0	C	https://www.isber.org/page/SPREC/v3.0/Storage/C
-Cryotube 1–2mL (-85) to (-60)°C	Cryotube 1–2mL at (-85) to (-60)°C	SPRECv3.0	D	https://www.isber.org/page/SPREC/v3.0/Storage/D
-Cryotube 1–2mL Programmable freezing to <-135°C	Cryotube 1–2mL at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	E	https://www.isber.org/page/SPREC/v3.0/Storage/E
-Plastic cryo straw LN	Plastic cryo straw in liquid nitrogen, refers to either vapor or liquid phase	SPRECv3.0	F	https://www.isber.org/page/SPREC/v3.0/Storage/F
-Straw (-85) to (-60)°C	Straw at (-85) to (-60)°C	SPRECv3.0	G	https://www.isber.org/page/SPREC/v3.0/Storage/G
-Straw (-35) to (-18)°C	Straw at (-35) to (-18)°C	SPRECv3.0	H	https://www.isber.org/page/SPREC/v3.0/Storage/H
-Straw Programmable freezing to <-135°C	Straw at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	I	https://www.isber.org/page/SPREC/v3.0/Storage/I
-PP tube ≥5mL (-85) to (-60)°C	Polypropylene tube ≥5mL at (-85) to (-60)°C	SPRECv3.0	J	https://www.isber.org/page/SPREC/v3.0/Storage/J
-PP tube ≥5mL (-35) to (-18)°C	Polypropylene tube ≥5mL at (-35) to (-18)°C	SPRECv3.0	K	https://www.isber.org/page/SPREC/v3.0/Storage/K
-Microplate well (-85) to (-60)°C	Microplate well at (-85) to (-60)°C	SPRECv3.0	L	https://www.isber.org/page/SPREC/v3.0/Storage/L
-Microplate well (-35) to (-18)°C	Microplate well at (-35) to (-18)°C	SPRECv3.0	M	https://www.isber.org/page/SPREC/v3.0/Storage/M
-Cryotube 1–2mL LN after temporary (-85) to (-60)°C	Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C	SPRECv3.0	N	https://www.isber.org/page/SPREC/v3.0/Storage/N
-Straw LN after temporary (-85) to (-60)°C	Straw in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C	SPRECv3.0	O	https://www.isber.org/page/SPREC/v3.0/Storage/O
-Paraffin block RT or 2 to 10°C	Paraffin block at room temperature or 2 to 10°C	SPRECv3.0	P	https://www.isber.org/page/SPREC/v3.0/Storage/P
-Paraffin block (-35) to (-18)°C	Paraffin block at (-35) to (-18)°C	SPRECv3.0	U	https://www.isber.org/page/SPREC/v3.0/Storage/U
-Bag LN	Bag in liquid nitrogen, refers to either vapor or liquid phase	SPRECv3.0	Q	https://www.isber.org/page/SPREC/v3.0/Storage/Q
-Dry technology medium RT	Dry technology medium at room temperature	SPRECv3.0	R	https://www.isber.org/page/SPREC/v3.0/Storage/R
-PP tube 40–500 μL (-85) to (-60)°C	Polypropylene tube 40–500 μL at (-85) to (-60)°C	SPRECv3.0	S	https://www.isber.org/page/SPREC/v3.0/Storage/S
-PP tube 40–500 μL (-35) to (-18)°C	Polypropylene tube 40–500 μL at (-35) to (-18)°C	SPRECv3.0	T	https://www.isber.org/page/SPREC/v3.0/Storage/T
-PP tube 40–500 μL <-135°C	Polypropylene tube 40–500 μL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	W	https://www.isber.org/page/SPREC/v3.0/Storage/W
-Original primary container (-35) to (-18)°C or (-85) to (-60)°C	Original primary container at (-35) to (-18)°C or (-85) to (-60)°C	SPRECv3.0	Y	https://www.isber.org/page/SPREC/v3.0/Storage/Y
-Unknown	Unknown	SPRECv3.0	X	https://www.isber.org/page/SPREC/v3.0/Storage/X
-Other	Other	SPRECv3.0	Z	https://www.isber.org/page/SPREC/v3.0/Storage/Z
+PP tube 0.5–2mL (-85) to (-60)°C	Polypropylene tube 0.5–2mL at (-85) to (-60)°C	SPRECv3.0	A	https://medical-data-models.org/details/40242#Storage_A
+PP tube 0.5–2mL (-35) to (-18)°C	Polypropylene tube 0.5–2mL at (-35) to (-18)°C	SPRECv3.0	B	https://medical-data-models.org/details/40242#Storage_B
+PP tube 0.5–2mL <-135°C	Polypropylene tube 0.5–2mL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	V	https://medical-data-models.org/details/40242#Storage_V
+Cryotube 1–2mL LN	Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase	SPRECv3.0	C	https://medical-data-models.org/details/40242#Storage_C
+Cryotube 1–2mL (-85) to (-60)°C	Cryotube 1–2mL at (-85) to (-60)°C	SPRECv3.0	D	https://medical-data-models.org/details/40242#Storage_D
+Cryotube 1–2mL Programmable freezing to <-135°C	Cryotube 1–2mL at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	E	https://medical-data-models.org/details/40242#Storage_E
+Plastic cryo straw LN	Plastic cryo straw in liquid nitrogen, refers to either vapor or liquid phase	SPRECv3.0	F	https://medical-data-models.org/details/40242#Storage_F
+Straw (-85) to (-60)°C	Straw at (-85) to (-60)°C	SPRECv3.0	G	https://medical-data-models.org/details/40242#Storage_G
+Straw (-35) to (-18)°C	Straw at (-35) to (-18)°C	SPRECv3.0	H	https://medical-data-models.org/details/40242#Storage_H
+Straw Programmable freezing to <-135°C	Straw at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	I	https://medical-data-models.org/details/40242#Storage_I
+PP tube ≥5mL (-85) to (-60)°C	Polypropylene tube ≥5mL at (-85) to (-60)°C	SPRECv3.0	J	https://medical-data-models.org/details/40242#Storage_J
+PP tube ≥5mL (-35) to (-18)°C	Polypropylene tube ≥5mL at (-35) to (-18)°C	SPRECv3.0	K	https://medical-data-models.org/details/40242#Storage_K
+Microplate well (-85) to (-60)°C	Microplate well at (-85) to (-60)°C	SPRECv3.0	L	https://medical-data-models.org/details/40242#Storage_L
+Microplate well (-35) to (-18)°C	Microplate well at (-35) to (-18)°C	SPRECv3.0	M	https://medical-data-models.org/details/40242#Storage_M
+Cryotube 1–2mL LN after temporary (-85) to (-60)°C	Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C	SPRECv3.0	N	https://medical-data-models.org/details/40242#Storage_N
+Straw LN after temporary (-85) to (-60)°C	Straw in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C	SPRECv3.0	O	https://medical-data-models.org/details/40242#Storage_O
+Paraffin block RT or 2 to 10°C	Paraffin block at room temperature or 2 to 10°C	SPRECv3.0	P	https://medical-data-models.org/details/40242#Storage_P
+Paraffin block (-35) to (-18)°C	Paraffin block at (-35) to (-18)°C	SPRECv3.0	U	https://medical-data-models.org/details/40242#Storage_U
+Bag LN	Bag in liquid nitrogen, refers to either vapor or liquid phase	SPRECv3.0	Q	https://medical-data-models.org/details/40242#Storage_Q
+Dry technology medium RT	Dry technology medium at room temperature	SPRECv3.0	R	https://medical-data-models.org/details/40242#Storage_R
+PP tube 40–500 μL (-85) to (-60)°C	Polypropylene tube 40–500 μL at (-85) to (-60)°C	SPRECv3.0	S	https://medical-data-models.org/details/40242#Storage_S
+PP tube 40–500 μL (-35) to (-18)°C	Polypropylene tube 40–500 μL at (-35) to (-18)°C	SPRECv3.0	T	https://medical-data-models.org/details/40242#Storage_T
+PP tube 40–500 μL <-135°C	Polypropylene tube 40–500 μL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer	SPRECv3.0	W	https://medical-data-models.org/details/40242#Storage_W
+Original primary container (-35) to (-18)°C or (-85) to (-60)°C	Original primary container at (-35) to (-18)°C or (-85) to (-60)°C	SPRECv3.0	Y	https://medical-data-models.org/details/40242#Storage_Y
+Unknown	Unknown	SPRECv3.0	X	https://medical-data-models.org/details/40242#Storage_X
+Other	Other	SPRECv3.0	Z	https://medical-data-models.org/details/40242#Storage_Z
 NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	NI	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI
 Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	INV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV
 Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	DER	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER
