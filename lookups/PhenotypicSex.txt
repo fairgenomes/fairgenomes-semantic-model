@@ -1,5 +1,0 @@
-value	description	codesystem	code	iri
-female	A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes.	PATO	0000383	http://purl.obolibrary.org/obo/PATO_0000383
-male	A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes.	PATO	0000384	http://purl.obolibrary.org/obo/PATO_0000384
-hermaphrodite	A biological sex quality inhering in an organism or a population with both male and female sexual organs in one individual.	PATO	0001340	http://purl.obolibrary.org/obo/PATO_0001340
-pseudohermaphrodite	A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of one sex and external sexual characteristics of the other sex.	PATO	0001827	http://purl.obolibrary.org/obo/PATO_0001827
