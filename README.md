@@ -53,6 +53,10 @@ The 2021-09-23 ROR Data release (see https://zenodo.org/communities/ror-data) ha
 This list, available at [InstitutesROR.txt](lookups/InstitutesROR.txt), can be used to supplement or replace the default [Institutes.txt](lookups/Institutes.txt).
 The ROR institute data is currently not generated into apps because everything would become much bigger and slower than necessary under most circumstances.
 
+#### FAIR Genomes YAML format
+
+The YAML format used to contain the FAIR Genomes schema is documented at [YamlFormat.md](YamlFormat.md).
+
 #### RDF formats
 
 The FAIR Genomes application ontology [TTL files](generated/ontology) can be converted to other RDF serialization formats including OWL-XML, RDF-XML, RDF-JSON, JSON-LD, N-Triples, TriG, TriX, Thrift, Manchester syntax and Functional syntax using [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0).
