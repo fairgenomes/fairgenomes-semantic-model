@@ -4,7 +4,8 @@ import java.util.List;
 
 public class Personal {
 	public String personalidentifier;
-	public String phenotypicsex;
+	public String genderidentity;
+	public String genderatbirth;
 	public String genotypicsex;
 	public String countryofresidence;
 	public List<String> ancestry;

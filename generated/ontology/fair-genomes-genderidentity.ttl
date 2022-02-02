@@ -1,0 +1,180 @@
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+fg:Personal_Gender_identity_exploring_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "exploring gender identity";
+  dc:description "A gender identity in question or in the process of being questioned.";
+  rdfs:isDefinedBy obo:GSSO_001594 .
+
+fg:Personal_Gender_identity_female_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "female gender identity";
+  dc:description "Having an identity considered female.";
+  rdfs:isDefinedBy obo:GSSO_000089 .
+
+fg:Personal_Gender_identity_male_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "male gender identity";
+  dc:description "Having an identity considered male.";
+  rdfs:isDefinedBy obo:GSSO_000090 .
+
+fg:Personal_Gender_identity_no_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "no gender identity";
+  dc:description "An indication that no gender identity has developed. Use for neonates whose assigned sex at birth is 'undifferentiated'. For a person who identifies as not having a gender, use 'non-gendered identity'.";
+  rdfs:isDefinedBy obo:GSSO_009485 .
+
+fg:Personal_Gender_identity_nonbinary_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "nonbinary gender identity";
+  dc:description "Having an identity considered nonbinary or as falling under the nonbinary umbrella.";
+  rdfs:isDefinedBy obo:GSSO_002328 .
+
+fg:Personal_Gender_identity_exclusive_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "exclusive gender identity";
+  dc:description "A gender which has a certain prerequisite which may be unrelated to gender, such as one belonging to a particular culture or indigenous group.";
+  rdfs:isDefinedBy obo:GSSO_010346 .
+
+fg:Personal_Gender_identity_fluctuating_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "fluctuating gender identity";
+  dc:description "Having a gender identity which fluctuates or switches (such as being male sometimes and female other times).";
+  rdfs:isDefinedBy obo:GSSO_002329 .
+
+fg:Personal_Gender_identity_indescribable_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "indescribable gender identity";
+  dc:description "Any of various gender identities defined by their inability to be described, communicated, or otherwise understood.";
+  rdfs:isDefinedBy obo:GSSO_011422 .
+
+fg:Personal_Gender_identity_multiple_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "multiple gender identity";
+  dc:description "Having a multiple gender identities simultaneously.";
+  rdfs:isDefinedBy obo:GSSO_002330 .
+
+fg:Personal_Gender_identity_non-gendered_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "non-gendered identity";
+  dc:description "Having a gender identity that is genderless or having no gender identity whatsoever.";
+  rdfs:isDefinedBy obo:GSSO_002331 .
+
+fg:Personal_Gender_identity_overlapping_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "overlapping gender identity";
+  dc:description "Having a gender identity which overlaps somewhat with other gender identities but not in their entirety.";
+  rdfs:isDefinedBy obo:GSSO_002332 .
+
+fg:Personal_Gender_identity_partial_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "partial gender identity";
+  dc:description "Having a gender identity which includes part of another gender identity, but not all of it (for example, identifying somewhat with female, but not entirely).";
+  rdfs:isDefinedBy obo:GSSO_002333 .
+
+fg:Personal_Gender_identity_other_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "other gender identity";
+  dc:description "A datum representing a person's gender identity which is not listed.";
+  rdfs:isDefinedBy obo:GSSO_009484 .
+
+fg:Personal_Gender_identity_unknown_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "unknown gender identity";
+  dc:description "A datum representing that a person's gender identity is not known for any of various reasons.";
+  rdfs:isDefinedBy obo:GSSO_009482 .
+
+fg:Personal_Gender_identity_undisclosed_gender_identity a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "undisclosed gender identity";
+  dc:description "A datum representing when an individual does not wish to disclose their gender identity, thereby making their gender identity unknown.";
+  rdfs:isDefinedBy obo:GSSO_009483 .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_NoInformation_(NI,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "NoInformation (NI, nullflavor)";
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Invalid_(INV,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Invalid (INV, nullflavor)";
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Derived_(DER,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Derived (DER, nullflavor)";
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Other_(OTH,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Other (OTH, nullflavor)";
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Negative_infinity_(NINF,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Positive_infinity_(PINF,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Un-encoded_(UNC,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Masked_(MSK,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Masked (MSK, nullflavor)";
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Not_applicable_(NA,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Not applicable (NA, nullflavor)";
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Unknown_(UNK,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Unknown (UNK, nullflavor)";
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Asked_but_unknown_(ASKU,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Temporarily_unavailable_(NAV,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Not_asked_(NASK,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Not asked (NASK, nullflavor)";
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Not_available_(NAVU,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Not available (NAVU, nullflavor)";
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Sufficient_quantity_(QS,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://w3id.org/fair-genomes/ontology/Personal_Gender_identity_Trace_(TRC,_nullflavor)>
+  a <http://purl.bioontology.org/ontology/MESH/D005783>;
+  rdfs:label "Trace (TRC, nullflavor)";
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

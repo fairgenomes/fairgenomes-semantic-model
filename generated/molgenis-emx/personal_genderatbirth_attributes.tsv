@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	personal_genderatbirth	Value (English)	String	TRUE	FALSE
+description	personal_genderatbirth	Description (English)	Text	FALSE	TRUE
+codesystem	personal_genderatbirth	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	personal_genderatbirth	The code within the code system	String	FALSE	TRUE
+iri	personal_genderatbirth	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

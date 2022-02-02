@@ -12,152 +12,152 @@
   a obo:NCIT_C96145;
   rdfs:label "PP tube 0.5–2mL (-85) to (-60)°C";
   dc:description "Polypropylene tube 0.5–2mL at (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/A> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_A> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_PP_tube_0.5–2mL_(-35)_to_(-18)°C>
   a obo:NCIT_C96145;
   rdfs:label "PP tube 0.5–2mL (-35) to (-18)°C";
   dc:description "Polypropylene tube 0.5–2mL at (-35) to (-18)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/B> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_B> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_PP_tube_0.5–2mL_lt-135°C>
   a obo:NCIT_C96145;
   rdfs:label "PP tube 0.5–2mL <-135°C";
   dc:description "Polypropylene tube 0.5–2mL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/V> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_V> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Cryotube_1–2mL_LN>
   a obo:NCIT_C96145;
   rdfs:label "Cryotube 1–2mL LN";
   dc:description "Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/C> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_C> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Cryotube_1–2mL_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "Cryotube 1–2mL (-85) to (-60)°C";
   dc:description "Cryotube 1–2mL at (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/D> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_D> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Cryotube_1–2mL_Programmable_freezing_to_lt-135°C>
   a obo:NCIT_C96145;
   rdfs:label "Cryotube 1–2mL Programmable freezing to <-135°C";
   dc:description "Cryotube 1–2mL at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/E> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_E> .
 
 fg:Material_Storage_conditions_Plastic_cryo_straw_LN a obo:NCIT_C96145;
   rdfs:label "Plastic cryo straw LN";
   dc:description "Plastic cryo straw in liquid nitrogen, refers to either vapor or liquid phase";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/F> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_F> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Straw_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "Straw (-85) to (-60)°C";
   dc:description "Straw at (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/G> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_G> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Straw_(-35)_to_(-18)°C>
   a obo:NCIT_C96145;
   rdfs:label "Straw (-35) to (-18)°C";
   dc:description "Straw at (-35) to (-18)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/H> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_H> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Straw_Programmable_freezing_to_lt-135°C>
   a obo:NCIT_C96145;
   rdfs:label "Straw Programmable freezing to <-135°C";
   dc:description "Straw at programmable freezing to <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/I> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_I> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_PP_tube_≥5mL_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "PP tube ≥5mL (-85) to (-60)°C";
   dc:description "Polypropylene tube ≥5mL at (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/J> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_J> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_PP_tube_≥5mL_(-35)_to_(-18)°C>
   a obo:NCIT_C96145;
   rdfs:label "PP tube ≥5mL (-35) to (-18)°C";
   dc:description "Polypropylene tube ≥5mL at (-35) to (-18)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/K> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_K> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Microplate_well_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "Microplate well (-85) to (-60)°C";
   dc:description "Microplate well at (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/L> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_L> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Microplate_well_(-35)_to_(-18)°C>
   a obo:NCIT_C96145;
   rdfs:label "Microplate well (-35) to (-18)°C";
   dc:description "Microplate well at (-35) to (-18)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/M> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_M> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Cryotube_1–2mL_LN_after_temporary_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "Cryotube 1–2mL LN after temporary (-85) to (-60)°C";
   dc:description "Cryotube 1–2mL in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/N> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_N> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Straw_LN_after_temporary_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "Straw LN after temporary (-85) to (-60)°C";
   dc:description "Straw in liquid nitrogen, refers to either vapor or liquid phase, after temporary (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/O> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_O> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Paraffin_block_RT_or_2_to_10°C>
   a obo:NCIT_C96145;
   rdfs:label "Paraffin block RT or 2 to 10°C";
   dc:description "Paraffin block at room temperature or 2 to 10°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/P> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_P> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Paraffin_block_(-35)_to_(-18)°C>
   a obo:NCIT_C96145;
   rdfs:label "Paraffin block (-35) to (-18)°C";
   dc:description "Paraffin block at (-35) to (-18)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/U> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_U> .
 
 fg:Material_Storage_conditions_Bag_LN a obo:NCIT_C96145;
   rdfs:label "Bag LN";
   dc:description "Bag in liquid nitrogen, refers to either vapor or liquid phase";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/Q> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_Q> .
 
 fg:Material_Storage_conditions_Dry_technology_medium_RT a obo:NCIT_C96145;
   rdfs:label "Dry technology medium RT";
   dc:description "Dry technology medium at room temperature";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/R> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_R> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_PP_tube_40–500_μL_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "PP tube 40–500 μL (-85) to (-60)°C";
   dc:description "Polypropylene tube 40–500 μL at (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/S> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_S> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_PP_tube_40–500_μL_(-35)_to_(-18)°C>
   a obo:NCIT_C96145;
   rdfs:label "PP tube 40–500 μL (-35) to (-18)°C";
   dc:description "Polypropylene tube 40–500 μL at (-35) to (-18)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/T> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_T> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_PP_tube_40–500_μL_lt-135°C>
   a obo:NCIT_C96145;
   rdfs:label "PP tube 40–500 μL <-135°C";
   dc:description "Polypropylene tube 40–500 μL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/W> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_W> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_Original_primary_container_(-35)_to_(-18)°C_or_(-85)_to_(-60)°C>
   a obo:NCIT_C96145;
   rdfs:label "Original primary container (-35) to (-18)°C or (-85) to (-60)°C";
   dc:description "Original primary container at (-35) to (-18)°C or (-85) to (-60)°C";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/Y> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_Y> .
 
 fg:Material_Storage_conditions_Unknown a obo:NCIT_C96145;
   rdfs:label "Unknown";
   dc:description "Unknown";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/X> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_X> .
 
 fg:Material_Storage_conditions_Other a obo:NCIT_C96145;
   rdfs:label "Other";
   dc:description "Other";
-  rdfs:isDefinedBy <https://www.isber.org/page/SPREC/v3.0/Storage/Z> .
+  rdfs:isDefinedBy <https://medical-data-models.org/details/40242#Storage_Z> .
 
 <https://w3id.org/fair-genomes/ontology/Material_Storage_conditions_NoInformation_(NI,_nullflavor)>
   a obo:NCIT_C96145;
