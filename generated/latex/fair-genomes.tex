@@ -6,14 +6,14 @@
 \textbf{FAIR Genomes metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.2-SNAPSHOT, 2021-07-20. This model consists of 9 modules that contain 110 metadata elements and 85307 lookups in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.2-SNAPSHOT, 2021-07-20. This model consists of 9 modules that contain 111 metadata elements and 85331 lookups in total (excluding null flavors).
 
 \begin{table}[htb]
 \begin{tabular}{lll}
 Name & Ontology & Nr. of elements \\
 \hline
 Study & NCIT:C63536 & 9 \\
-Personal & NCIT:C90492 & 12 \\
+Personal & NCIT:C90492 & 13 \\
 Leaflet and consent form & NCIT:C16468 & 9 \\
 Individual consent & NCIT:C16735 & 12 \\
 Clinical & NCIT:C25398 & 20 \\
@@ -49,7 +49,8 @@ Completion date & NCIT:C142702 & Date \\
 Name & Ontology & Values \\
 \hline
 Personal identifier & NCIT:C164337 & UniqueID \\
-Phenotypic sex & PATO:0001894 & PhenotypicSex lookup (4 choices) \\
+Gender identity & MESH:D005783 & GenderIdentity lookup (15 choices) \\
+Gender at birth & GSSO:009418 & GenderAtBirth lookup (13 choices) \\
 Genotypic sex & PATO:0020000 & GenotypicSex lookup (12 choices) \\
 Country of residence & NCIT:C171105 & Countries lookup (249 choices) \\
 Ancestry & NCIT:C176763 & Ancestry lookup (305 choices) \\

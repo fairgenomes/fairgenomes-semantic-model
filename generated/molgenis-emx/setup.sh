@@ -1,6 +1,7 @@
 mcmd import -p sys_md_Package.tsv
 mcmd import -p study_inclusioncriteria_attributes.tsv --as attributes --in fair-genomes
-mcmd import -p personal_phenotypicsex_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p personal_genderidentity_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p personal_genderatbirth_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_genotypicsex_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_countryofresidence_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p personal_ancestry_attributes.tsv --as attributes --in fair-genomes
@@ -35,7 +36,8 @@ mcmd import -p sequencing_sequencingmethod_attributes.tsv --as attributes --in f
 mcmd import -p analysis_dataformatsstored_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p analysis_referencegenomeused_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p study_inclusioncriteria.tsv --as fair-genomes_study_inclusioncriteria --in fair-genomes
-mcmd import -p personal_phenotypicsex.tsv --as fair-genomes_personal_phenotypicsex --in fair-genomes
+mcmd import -p personal_genderidentity.tsv --as fair-genomes_personal_genderidentity --in fair-genomes
+mcmd import -p personal_genderatbirth.tsv --as fair-genomes_personal_genderatbirth --in fair-genomes
 mcmd import -p personal_genotypicsex.tsv --as fair-genomes_personal_genotypicsex --in fair-genomes
 mcmd import -p personal_countryofresidence.tsv --as fair-genomes_personal_countryofresidence --in fair-genomes
 mcmd import -p personal_ancestry.tsv --as fair-genomes_personal_ancestry --in fair-genomes

@@ -1,0 +1,32 @@
+value	description	codesystem	code	iri
+exploring gender identity	A gender identity in question or in the process of being questioned.	GSSO	001594	http://purl.obolibrary.org/obo/GSSO_001594
+female gender identity	Having an identity considered female.	GSSO	000089	http://purl.obolibrary.org/obo/GSSO_000089
+male gender identity	Having an identity considered male.	GSSO	000090	http://purl.obolibrary.org/obo/GSSO_000090
+no gender identity	An indication that no gender identity has developed. Use for neonates whose assigned sex at birth is 'undifferentiated'. For a person who identifies as not having a gender, use 'non-gendered identity'.	GSSO	009485	http://purl.obolibrary.org/obo/GSSO_009485
+nonbinary gender identity	Having an identity considered nonbinary or as falling under the nonbinary umbrella.	GSSO	002328	http://purl.obolibrary.org/obo/GSSO_002328
+exclusive gender identity	A gender which has a certain prerequisite which may be unrelated to gender, such as one belonging to a particular culture or indigenous group.	GSSO	010346	http://purl.obolibrary.org/obo/GSSO_010346
+fluctuating gender identity	Having a gender identity which fluctuates or switches (such as being male sometimes and female other times).	GSSO	002329	http://purl.obolibrary.org/obo/GSSO_002329
+indescribable gender identity	Any of various gender identities defined by their inability to be described, communicated, or otherwise understood.	GSSO	011422	http://purl.obolibrary.org/obo/GSSO_011422
+multiple gender identity	Having a multiple gender identities simultaneously.	GSSO	002330	http://purl.obolibrary.org/obo/GSSO_002330
+non-gendered identity	Having a gender identity that is genderless or having no gender identity whatsoever.	GSSO	002331	http://purl.obolibrary.org/obo/GSSO_002331
+overlapping gender identity	Having a gender identity which overlaps somewhat with other gender identities but not in their entirety.	GSSO	002332	http://purl.obolibrary.org/obo/GSSO_002332
+partial gender identity	Having a gender identity which includes part of another gender identity, but not all of it (for example, identifying somewhat with female, but not entirely).	GSSO	002333	http://purl.obolibrary.org/obo/GSSO_002333
+other gender identity	A datum representing a person's gender identity which is not listed.	GSSO	009484	http://purl.obolibrary.org/obo/GSSO_009484
+unknown gender identity	A datum representing that a person's gender identity is not known for any of various reasons.	GSSO	009482	http://purl.obolibrary.org/obo/GSSO_009482
+undisclosed gender identity	A datum representing when an individual does not wish to disclose their gender identity, thereby making their gender identity unknown.	GSSO	009483	http://purl.obolibrary.org/obo/GSSO_009483
+NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	NI	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI
+Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	INV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV
+Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	DER	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER
+Other (OTH, nullflavor)	The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).	HL7	OTH	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH
+Negative infinity (NINF, nullflavor)	Negative infinity of numbers.	HL7	NINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF
+Positive infinity (PINF, nullflavor)	Positive infinity of numbers.	HL7	PINF	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF
+Un-encoded (UNC, nullflavor)	The actual value has not yet been encoded within the approved value domain.	HL7	UNC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC
+Masked (MSK, nullflavor)	There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.	HL7	MSK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK
+Not applicable (NA, nullflavor)	Known to have no proper value (e.g., last menstrual period for a male).	HL7	NA	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA
+Unknown (UNK, nullflavor)	A proper value is applicable, but not known.	HL7	UNK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK
+Asked but unknown (ASKU, nullflavor)	Information was sought but not found (e.g., patient was asked but didn't know)	HL7	ASKU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU
+Temporarily unavailable (NAV, nullflavor)	Information is not available at this time but it is expected that it will be available later.	HL7	NAV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV
+Not asked (NASK, nullflavor)	This information has not been sought. (e.g., patient was not asked)	HL7	NASK	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK
+Not available (NAVU, nullflavor)	Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).	HL7	NAVU	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU
+Sufficient quantity (QS, nullflavor)	The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.	HL7	QS	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS
+Trace (TRC, nullflavor)	The content is greater than zero, but too small to be quantified.	HL7	TRC	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC

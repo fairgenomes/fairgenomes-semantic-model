@@ -36,12 +36,12 @@
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genes.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-medicalhistory.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-institutes.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genderatbirth.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencingplatform.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencinginstrumentmodels.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-representedby.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-datausepermissions.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dataformats.ttl>,
-    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-phenotypicsex.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genomeaccessions.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dcmitypes.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ancestry.ttl>,
@@ -51,6 +51,7 @@
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-phenotypes.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-biospecimentypes.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genotypicsex.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genderidentity.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-diseases.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-anatomicalsources.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencingmethods.ttl>,
@@ -128,12 +129,19 @@ fg:Personal_Personal_identifier a owl:DatatypeProperty;
   rdfs:isDefinedBy obo:NCIT_C164337;
   dc:description "A unique proper name or character sequence that identifies this particular person." .
 
-fg:Personal_Phenotypic_sex a owl:ObjectProperty;
-  rdfs:label "Phenotypic sex";
+fg:Personal_Gender_identity a owl:ObjectProperty;
+  rdfs:label "Gender identity";
   rdfs:domain fg:Personal;
-  rdfs:isDefinedBy obo:PATO_0001894;
-  dc:description "An organismal quality inhering in a bearer by virtue of the bearer's physical expression of sexual characteristics.";
-  rdfs:range obo:PATO_0001894 .
+  rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MESH/D005783>;
+  dc:description "A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. For practical reasons the lookups are limited to first and second-level entries, but can be expanded when needed. Note that 'Gender at birth', 'Genotypic sex' and any (gender-related) hormone therapies in 'Medication' are usually medically more relevant than this term.";
+  rdfs:range <http://purl.bioontology.org/ontology/MESH/D005783> .
+
+fg:Personal_Gender_at_birth a owl:ObjectProperty;
+  rdfs:label "Gender at birth";
+  rdfs:domain fg:Personal;
+  rdfs:isDefinedBy obo:GSSO_009418;
+  dc:description "Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth.";
+  rdfs:range obo:GSSO_009418 .
 
 fg:Personal_Genotypic_sex a owl:ObjectProperty;
   rdfs:label "Genotypic sex";
@@ -418,7 +426,7 @@ fg:Clinical_Medication a owl:ObjectProperty;
   rdfs:label "Medication";
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:NCIT_C459;
-  dc:description "A drug product that contains one or more active and/or inactive ingredients used by the patient intended to treat, prevent or alleviate the symptoms of disease.";
+  dc:description "A drug product that contains one or more active and/or inactive ingredients used by the patient intended to treat, prevent or alleviate the symptoms of disease. Any hormone therapies, gender-related or otherwise, should also be recorded here.";
   rdfs:range <http://edamontology.org/data_3103> .
 
 fg:Clinical_Drug_regimen a owl:DatatypeProperty;
