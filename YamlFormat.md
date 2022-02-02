@@ -6,7 +6,7 @@ The FAIR Genomes metadata schema is expressed in a YAML file with a particular s
 
 | Attribute               | Description                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------|
-| name                    | Name of this schema,.                                                                                          |
+| name                    | Name of this schema.                                                                                           |
 | description             | Description of this schema.                                                                                    |
 | version                 | Schema version number, in decimal format.                                                                      |
 | releaseType             | Type of project release. SNAPSHOT denotes development, Minor (x.x) or Major (x.0) denotes an official release. |
