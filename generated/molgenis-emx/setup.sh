@@ -28,6 +28,7 @@ mcmd import -p material_biospecimentype_attributes.tsv --as attributes --in fair
 mcmd import -p material_anatomicalsource_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_pathologicalstate_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p material_storageconditions_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p material_analysesperformed_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p samplepreparation_librarypreparationkit_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p samplepreparation_targetenrichmentkit_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p sequencing_sequencingplatform_attributes.tsv --as attributes --in fair-genomes
@@ -64,6 +65,7 @@ mcmd import -p material_biospecimentype.tsv --as fair-genomes_material_biospecim
 mcmd import -p material_anatomicalsource.tsv --as fair-genomes_material_anatomicalsource --in fair-genomes
 mcmd import -p material_pathologicalstate.tsv --as fair-genomes_material_pathologicalstate --in fair-genomes
 mcmd import -p material_storageconditions.tsv --as fair-genomes_material_storageconditions --in fair-genomes
+mcmd import -p material_analysesperformed.tsv --as fair-genomes_material_analysesperformed --in fair-genomes
 mcmd import -p samplepreparation_librarypreparationkit.tsv --as fair-genomes_samplepreparation_librarypreparationkit --in fair-genomes
 mcmd import -p samplepreparation_targetenrichmentkit.tsv --as fair-genomes_samplepreparation_targetenrichmentkit --in fair-genomes
 mcmd import -p sequencing_sequencingplatform.tsv --as fair-genomes_sequencing_sequencingplatform --in fair-genomes

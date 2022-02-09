@@ -18,5 +18,6 @@ public class Material {
 	public String expirationdate;
 	public double percentagetumorcells;
 	public String physicallocation;
+	public List<String> analysesperformed;
 	public String derivedfrom;
 }

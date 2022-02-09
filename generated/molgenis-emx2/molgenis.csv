@@ -173,6 +173,12 @@ storageconditions,description,Text,,,,Description (English)
 storageconditions,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
 storageconditions,code,String,,,,The code within the code system
 storageconditions,iri,String,,,,The Internationalized Resource Identifier for this term
+analysesperformed,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
+analysesperformed,value,String,1,TRUE,,Value (English)
+analysesperformed,description,Text,,,,Description (English)
+analysesperformed,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
+analysesperformed,code,String,,,,The code within the code system
+analysesperformed,iri,String,,,,The Internationalized Resource Identifier for this term
 librarypreparationkit,,,,,,"A sample preparation for a nucleic acids sequencing assay.",http://purl.obolibrary.org/obo/OBI_0001902
 librarypreparationkit,value,String,1,TRUE,,Value (English)
 librarypreparationkit,description,Text,,,,Description (English)
@@ -299,6 +305,7 @@ material,storageconditions,ref,,,storageconditions,"The conditions under which t
 material,expirationdate,date,,,,"The date beyond which this material is no longer regarded as fit for use.",http://purl.obolibrary.org/obo/NCIT_C164516
 material,percentagetumorcells,decimal,,,,"The percentage of tumor cells compared to total cells present in this material.",http://purl.obolibrary.org/obo/NCIT_C127771
 material,physicallocation,string,,,,"A place on the Earth where this material is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).",http://purl.obolibrary.org/obo/GAZ_00000448
+material,analysesperformed,ref_array,,,analysesperformed,"Reports the existence of any analyses performed on this material other than genomics (e.g. transcriptomics, metabolomics, proteomics).",http://purl.obolibrary.org/obo/IAO_0000702
 material,derivedfrom,string,,,,"Indicate if this material was produced from or related to another.",http://purl.obolibrary.org/obo/NCIT_C28355
 samplepreparation,,,,,,"A sample preparation for a nucleic acids sequencing assay.",http://purl.obolibrary.org/obo/OBI_0001902
 samplepreparation,sampleprepidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular sample preparation.",http://purl.obolibrary.org/obo/NCIT_C132299

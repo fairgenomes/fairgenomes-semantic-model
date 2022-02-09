@@ -56,7 +56,8 @@
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-anatomicalsources.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-sequencingmethods.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-storageconditions.ttl>,
-    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ngskits.ttl> .
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ngskits.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-analysesperformed.ttl> .
 
 fg:Study a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C63536;
@@ -589,6 +590,13 @@ fg:Material_Physical_location a owl:DatatypeProperty;
   rdfs:domain fg:Material;
   rdfs:isDefinedBy obo:GAZ_00000448;
   dc:description "A place on the Earth where this material is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent)." .
+
+fg:Material_Analyses_performed a owl:ObjectProperty;
+  rdfs:label "Analyses performed";
+  rdfs:domain fg:Material;
+  rdfs:isDefinedBy obo:IAO_0000702;
+  dc:description "Reports the existence of any analyses performed on this material other than genomics (e.g. transcriptomics, metabolomics, proteomics).";
+  rdfs:range <http://edamontology.org/topic_3391> .
 
 fg:Material_Derived_from a owl:DatatypeProperty;
   rdfs:label "Derived from";

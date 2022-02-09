@@ -1,0 +1,205 @@
+@prefix fg: <https://w3id.org/fair-genomes/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sio: <https://semanticscience.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ordo: <http://www.orpha.net/ORDO/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+fg:Material_Analyses_performed_Immunomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Immunomics";
+  dc:description "The study of immune system as a whole, its regulation and response to pathogens using genome-wide approaches.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3967> .
+
+fg:Material_Analyses_performed_Epistasis a <http://edamontology.org/topic_3391>;
+  rdfs:label "Epistasis";
+  dc:description "The study of the epigenetic modifications of a whole cell, tissue, organism etc.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3974> .
+
+fg:Material_Analyses_performed_Population_genomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Population genomics";
+  dc:description "Large-scale study (typically comparison) of DNA sequences of populations.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3796> .
+
+fg:Material_Analyses_performed_Functional_genomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Functional genomics";
+  dc:description "The study of gene or protein functions and their interactions in totality in a given organism, tissue, cell etc.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_0085> .
+
+fg:Material_Analyses_performed_Proteomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Proteomics";
+  dc:description "Protein and peptide identification, especially in the study of whole proteomes of organisms.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_0121> .
+
+fg:Material_Analyses_performed_Structural_genomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Structural genomics";
+  dc:description "The elucidation of the three dimensional structure for all (available) proteins in a given organism.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_0122> .
+
+fg:Material_Analyses_performed_Phylogenomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Phylogenomics";
+  dc:description "The integrated study of evolutionary relationships and whole genome data, for example, in the analysis of species trees, horizontal gene transfer and evolutionary reconstruction.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_0194> .
+
+fg:Material_Analyses_performed_Pharmacogenomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Pharmacogenomics";
+  dc:description "The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_0208> .
+
+fg:Material_Analyses_performed_Genomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Genomics";
+  dc:description "Whole genomes of one or more organisms, or genomes in general, such as meta-information on genomes, genome projects, gene names etc.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_0622> .
+
+fg:Material_Analyses_performed_Comparative_genomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Comparative genomics";
+  dc:description "The study (typically comparison) of the sequence, structure or function of multiple genomes.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_0797> .
+
+fg:Material_Analyses_performed_Metabolomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Metabolomics";
+  dc:description "The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3172> .
+
+fg:Material_Analyses_performed_Epigenomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Epigenomics";
+  dc:description "The study of the epigenetic modifications of a whole cell, tissue, organism etc.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3173> .
+
+fg:Material_Analyses_performed_Metagenomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Metagenomics";
+  dc:description "The study of genetic material recovered from environmental samples, and associated environmental data.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3174> .
+
+fg:Material_Analyses_performed_Phenomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Phenomics";
+  dc:description "Phenomes, or the study of the change in phenotype (the physical and biochemical traits of organisms) in response to genetic and environmental factors.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3298> .
+
+fg:Material_Analyses_performed_Transcriptomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Transcriptomics";
+  dc:description "The analysis of transcriptomes, or a set of all the RNA molecules in a specific cell, tissue etc.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3308> .
+
+fg:Material_Analyses_performed_Proteogenomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Proteogenomics";
+  dc:description "A field of biological research focused on the discovery and identification of peptides, typically by comparing mass spectra against a protein database.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3922> .
+
+fg:Material_Analyses_performed_Metatranscriptomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Metatranscriptomics";
+  dc:description "The study of microbe gene expression within natural environments (i.e. the metatranscriptome).";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3941> .
+
+fg:Material_Analyses_performed_Paleogenomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Paleogenomics";
+  dc:description "The reconstruction and analysis of genomic information in extinct species.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3943> .
+
+fg:Material_Analyses_performed_Molecular_evolution a <http://edamontology.org/topic_3391>;
+  rdfs:label "Molecular evolution";
+  dc:description "The study of the process and mechanism of change of biomolecules such as DNA, RNA, and proteins across generations.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3945> .
+
+fg:Material_Analyses_performed_Fluxomics a <http://edamontology.org/topic_3391>;
+  rdfs:label "Fluxomics";
+  dc:description "Experimental approaches to determine the rates of metabolic reactions - the metabolic fluxes - within a biological entity.";
+  rdfs:isDefinedBy <http://edamontology.org/topic_3955> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_NoInformation_(NI,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "NoInformation (NI, nullflavor)";
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Invalid_(INV,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Invalid (INV, nullflavor)";
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Derived_(DER,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Derived (DER, nullflavor)";
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Other_(OTH,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Other (OTH, nullflavor)";
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Negative_infinity_(NINF,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Positive_infinity_(PINF,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Un-encoded_(UNC,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Masked_(MSK,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Masked (MSK, nullflavor)";
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Not_applicable_(NA,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Not applicable (NA, nullflavor)";
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Unknown_(UNK,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Unknown (UNK, nullflavor)";
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Asked_but_unknown_(ASKU,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Temporarily_unavailable_(NAV,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Not_asked_(NASK,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Not asked (NASK, nullflavor)";
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Not_available_(NAVU,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Not available (NAVU, nullflavor)";
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Sufficient_quantity_(QS,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://w3id.org/fair-genomes/ontology/Material_Analyses_performed_Trace_(TRC,_nullflavor)>
+  a <http://edamontology.org/topic_3391>;
+  rdfs:label "Trace (TRC, nullflavor)";
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .
