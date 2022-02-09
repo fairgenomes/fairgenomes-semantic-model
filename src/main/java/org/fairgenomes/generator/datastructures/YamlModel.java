@@ -73,14 +73,26 @@ public class YamlModel {
             {
                 if(e.unit != null)
                 {
-                    int whiteSpaceIndex = e.unit.indexOf(" ");
-                    String[] split = parseOntoInfo(whiteSpaceIndex, e.unit);
-                    e.unitOntology = new Ontology();
-                    e.unitOntology.codeSystem = split[0];
-                    e.unitOntology.code = split[1];
-                    e.unitOntology.iri = e.unit.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+                    e.unitOntology = new Ontology(e.unit);
                 }
             }
+        }
+    }
+
+    /**
+     * Parse module relations with other modules
+     * @throws Exception
+     */
+    public void parseModuleRelations() throws Exception {
+        for(Module m: modules)
+        {
+           if(m.relationWith != null)
+           {
+               for(RelationWith rw : m.relationWith)
+               {
+                   rw.relationOnto = new Ontology(rw.relation);
+               }
+           }
         }
     }
 
@@ -151,20 +163,10 @@ public class YamlModel {
         allModuleOntologies = new HashSet<Ontology>();
         allElementOntologies = new HashSet<Ontology>();
         for (Module m : modules) {
-            int whiteSpaceIndex = m.ontology.indexOf(" ");
-            String[] split = parseOntoInfo(whiteSpaceIndex, m.ontology);
-            m.parsedOntology = new Ontology();
-            m.parsedOntology.codeSystem = split[0];
-            m.parsedOntology.code = split[1];
-            m.parsedOntology.iri = m.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+            m.parsedOntology = new Ontology(m.ontology);
             allModuleOntologies.add(m.parsedOntology);
             for (Element e : m.elements) {
-                whiteSpaceIndex = e.ontology.indexOf(" ");
-                split = parseOntoInfo(whiteSpaceIndex, e.ontology);
-                e.parsedOntology = new Ontology();
-                e.parsedOntology.codeSystem = split[0];
-                e.parsedOntology.code = split[1];
-                e.parsedOntology.iri = e.ontology.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+                e.parsedOntology = new Ontology(e.ontology);
                 allElementOntologies.add(e.parsedOntology);
             }
         }
@@ -213,28 +215,12 @@ public class YamlModel {
         String[] matchSplit = value.split(",", -1);
         for(String match : matchSplit)
         {
-            match = match.trim();
-            int whiteSpaceIndex = match.indexOf(" ");
-            String[] split = parseOntoInfo(whiteSpaceIndex, match);
-            Ontology o = new Ontology();
-            o.codeSystem = split[0];
-            o.code = split[1];
-            o.iri = match.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+            Ontology o = new Ontology(match);
             e.matches.get(m).add(o);
         }
     }
 
-    private String[] parseOntoInfo(int whiteSpaceIndex, String ontoInfo) throws Exception {
-        if(whiteSpaceIndex == -1)
-        {
-            throw new Exception("bad ontology info: " + ontoInfo + ", no whitespace");
-        }
-        String codeAndCodeSystem = ontoInfo.substring(0, whiteSpaceIndex);
-        if(!codeAndCodeSystem.contains(":")){
-            throw new Exception("bad ontology info: " + ontoInfo + ", no colon");
-        }
-        return codeAndCodeSystem.split(":", -1);
-    }
+
 
     /**
      * Wrapper to create technical names

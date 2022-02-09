@@ -103,6 +103,9 @@ modules:
     - name: Personal
       description: Data, facts or figures about an individual; the set of relevant items would depend on the use case.
       ontology: NCIT:C90492 [http://purl.obolibrary.org/obo/NCIT_C90492]
+      relationWith:
+          - module: Study
+            relation: RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]
       elements:
           - name: Personal identifier
             description: A unique proper name or character sequence that identifies this particular person.
@@ -199,6 +202,11 @@ modules:
     - name: Individual consent
       description: Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.
       ontology: NCIT:C16735 [http://purl.obolibrary.org/obo/NCIT_C16735]
+      relationWith:
+          - module: Leaflet and consent form
+            relation: IAO:0021007 [http://purl.obolibrary.org/obo/IAO_0021007]
+          - module: Personal
+            relation: ICO:0000005 [http://purl.obolibrary.org/obo/ICO_0000005]
       elements:
           - name: Individual consent identifier
             description: A unique proper name or character sequence that identifies this particular signed individual consent.
@@ -251,6 +259,9 @@ modules:
     - name: Clinical
       description: Findings and circumstances relating to the examination and treatment of a patient.
       ontology: NCIT:C25398 [http://purl.obolibrary.org/obo/NCIT_C25398]
+      relationWith:
+          - module: Personal
+            relation: SIO:000332 [http://semanticscience.org/resource/SIO_000332]
       elements:
           - name: Clinical identifier
             description: A unique proper name or character sequence that identifies this particular clinical examination.
@@ -336,6 +347,9 @@ modules:
     - name: Material
       description: A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.
       ontology: NCIT:C43376 [http://purl.obolibrary.org/obo/NCIT_C43376]
+      relationWith:
+          - module: Personal
+            relation: HSO:0000242 [http://purl.obolibrary.org/obo/HSO_0000242]
       elements:
           - name: Material identifier
             description: A unique proper name or character sequence that identifies this particular material.
@@ -405,6 +419,9 @@ modules:
     - name: Sample preparation
       description: A sample preparation for a nucleic acids sequencing assay.
       ontology: OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]
+      relationWith:
+          - module: Material
+            relation: NCIT:C179746 [http://purl.obolibrary.org/obo/NCIT_C179746]
       elements:
           - name: Sampleprep identifier
             description: A unique proper name or character sequence that identifies this particular sample preparation.
@@ -446,6 +463,9 @@ modules:
     - name: Sequencing
       description: The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.
       ontology: EDAM:topic_3168 [http://edamontology.org/topic_3168]
+      relationWith:
+          - module: Sample preparation
+            relation: SIO:001220 [http://semanticscience.org/resource/SIO_001220]
       elements:
           - name: Sequencing identifier
             description: A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay.
@@ -498,6 +518,9 @@ modules:
     - name: Analysis
       description: An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output.
       ontology: EDAM:operation_2945 [http://edamontology.org/operation_2945]
+      relationWith:
+          - module: Sequencing
+            relation: SIO:000253 [http://semanticscience.org/resource/SIO_000253]
       elements:
           - name: Analysis identifier
             description: A unique proper name or character sequence that identifies this particular analysis.

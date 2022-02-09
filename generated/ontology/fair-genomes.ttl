@@ -121,7 +121,8 @@ fg:Study_Completion_date a owl:DatatypeProperty;
 fg:Personal a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C90492;
   rdfs:label "Personal";
-  dc:description "Data, facts or figures about an individual; the set of relevant items would depend on the use case." .
+  dc:description "Data, facts or figures about an individual; the set of relevant items would depend on the use case.";
+  obo:RO_0000056 fg:Study .
 
 fg:Personal_Personal_identifier a owl:DatatypeProperty;
   rdfs:label "Personal identifier";
@@ -273,7 +274,9 @@ fg:Leaflet_and_consent_form_Consent_form_version a owl:DatatypeProperty;
 fg:Individual_consent a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C16735;
   rdfs:label "Individual consent";
-  dc:description "Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved." .
+  dc:description "Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.";
+  obo:IAO_0021007 fg:Leaflet_and_consent_form;
+  obo:ICO_0000005 fg:Personal .
 
 fg:Individual_consent_Individual_consent_identifier a owl:DatatypeProperty;
   rdfs:label "Individual consent identifier";
@@ -355,7 +358,8 @@ fg:Individual_consent_Allow_recontacting a owl:ObjectProperty;
 fg:Clinical a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C25398;
   rdfs:label "Clinical";
-  dc:description "Findings and circumstances relating to the examination and treatment of a patient." .
+  dc:description "Findings and circumstances relating to the examination and treatment of a patient.";
+  <http://semanticscience.org/resource/SIO_000332> fg:Personal .
 
 fg:Clinical_Clinical_identifier a owl:DatatypeProperty;
   rdfs:label "Clinical identifier";
@@ -489,7 +493,8 @@ fg:Clinical_Material_used_in_diagnosis a owl:DatatypeProperty;
 fg:Material a owl:Class;
   rdfs:isDefinedBy obo:NCIT_C43376;
   rdfs:label "Material";
-  dc:description "A natural substance derived from living organisms such as cells, tissues, proteins, and DNA." .
+  dc:description "A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.";
+  obo:HSO_0000242 fg:Personal .
 
 fg:Material_Material_identifier a owl:DatatypeProperty;
   rdfs:label "Material identifier";
@@ -594,7 +599,8 @@ fg:Material_Derived_from a owl:DatatypeProperty;
 fg:Sample_preparation a owl:Class;
   rdfs:isDefinedBy obo:OBI_0001902;
   rdfs:label "Sample preparation";
-  dc:description "A sample preparation for a nucleic acids sequencing assay." .
+  dc:description "A sample preparation for a nucleic acids sequencing assay.";
+  obo:NCIT_C179746 fg:Material .
 
 fg:Sample_preparation_Sampleprep_identifier a owl:DatatypeProperty;
   rdfs:label "Sampleprep identifier";
@@ -656,7 +662,8 @@ fg:Sample_preparation_Intended_read_length a owl:DatatypeProperty;
 fg:Sequencing a owl:Class;
   rdfs:isDefinedBy <http://edamontology.org/topic_3168>;
   rdfs:label "Sequencing";
-  dc:description "The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes." .
+  dc:description "The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.";
+  <http://semanticscience.org/resource/SIO_001220> fg:Sample_preparation .
 
 fg:Sequencing_Sequencing_identifier a owl:DatatypeProperty;
   rdfs:label "Sequencing identifier";
@@ -736,7 +743,8 @@ fg:Sequencing_Other_quality_metrics a owl:DatatypeProperty;
 fg:Analysis a owl:Class;
   rdfs:isDefinedBy <http://edamontology.org/operation_2945>;
   rdfs:label "Analysis";
-  dc:description "An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output." .
+  dc:description "An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output.";
+  <http://semanticscience.org/resource/SIO_000253> fg:Sequencing .
 
 fg:Analysis_Analysis_identifier a owl:DatatypeProperty;
   rdfs:label "Analysis identifier";
