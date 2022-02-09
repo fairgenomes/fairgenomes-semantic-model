@@ -411,6 +411,10 @@ modules:
             description: A place on the Earth where this material is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).
             ontology: GAZ:00000448 [http://purl.obolibrary.org/obo/GAZ_00000448]
             values: String
+          - name: Analyses performed
+            description: Reports the existence of any analyses performed on this material other than genomics (e.g. transcriptomics, metabolomics, proteomics).
+            ontology: IAO:0000702 [http://purl.obolibrary.org/obo/IAO_0000702]
+            values: LookupMany [lookups/AnalysesPerformed.txt], ofType [http://edamontology.org/topic_3391]
           - name: Derived from
             description: Indicate if this material was produced from or related to another.
             ontology: NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]
