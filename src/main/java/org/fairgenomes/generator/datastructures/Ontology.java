@@ -18,6 +18,23 @@ public class Ontology {
     public String code;
     public String iri;
 
+    public Ontology(String raw) throws Exception {
+        raw = raw.trim();
+        int whiteSpaceIndex = raw.indexOf(" ");
+        if(whiteSpaceIndex == -1)
+        {
+            throw new Exception("bad ontology info: " + raw + ", no whitespace");
+        }
+        String codeAndCodeSystem = raw.substring(0, whiteSpaceIndex);
+        if(!codeAndCodeSystem.contains(":")){
+            throw new Exception("bad ontology info: " + raw + ", no colon");
+        }
+        String[] split = codeAndCodeSystem.split(":", -1);
+        this.codeSystem = split[0];
+        this.code = split[1];
+        this.iri = raw.substring(whiteSpaceIndex).replace("[", "").replace("]", "").trim();
+    }
+
     @Override
     public String toString() {
         return "Ontology{" +

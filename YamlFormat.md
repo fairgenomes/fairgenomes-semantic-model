@@ -51,12 +51,20 @@ The FAIR Genomes metadata schema is expressed in a YAML file with a particular s
 
 ## Modules attributes <a id='modules'></a>
 
-| Attribute             | Description                                                                           |
-|-----------------------|---------------------------------------------------------------------------------------|
-| name                  | Name of this module                                                                   |
-| description           | Description of this module, usually adapted from an ontology.                         |
-| ontology              | Ontology term that best described this module.                                        |
-| [elements](#elements) | The elements contained in this module, comparable to attributes, columns or features. |
+| Attribute                     | Description                                                                           |
+|-------------------------------|---------------------------------------------------------------------------------------|
+| name                          | Name of this module                                                                   |
+| description                   | Description of this module, usually adapted from an ontology.                         |
+| ontology                      | Ontology term that best described this module.                                        |
+| [relationWith](#relationWith) | Described the relationship with one or more other modules in the schema.              |
+| [elements](#elements)         | The elements contained in this module, comparable to attributes, columns or features. |
+
+## relationWith attributes <a id='relationWith'></a>
+
+| Attribute | Description                                                         |
+|-----------|---------------------------------------------------------------------|
+| module    | The module that this module is related to in some way.              |
+| relation  | Ontology term that best describes the relation between two modules. |
 
 ## Elements attributes <a id='elements'></a>
 

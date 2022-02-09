@@ -1,5 +1,6 @@
 package org.fairgenomes.generator.datastructures;
 
+import javax.management.relation.Relation;
 import java.util.List;
 import java.util.Map;
 
@@ -11,6 +12,7 @@ public class Module {
     public String name;
     public String description;
     public String ontology;
+    public List<RelationWith> relationWith;
     public List<Element> elements;
 
     /*

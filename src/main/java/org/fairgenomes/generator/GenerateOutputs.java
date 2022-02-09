@@ -48,6 +48,7 @@ public class GenerateOutputs {
         y.loadElementLookups();
         y.setElementModules();
         y.createElementTechnicalNames();
+        y.parseModuleRelations();
         return y;
     }
 }
