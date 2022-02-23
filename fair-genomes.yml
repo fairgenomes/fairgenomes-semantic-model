@@ -139,6 +139,7 @@ modules:
             description: The year in which this person was born.
             ontology: NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]
             values: Integer
+            unit: NCIT:C159612 [http://purl.obolibrary.org/obo/NCIT_C159612]
           - name: Inclusion status
             description: An indicator that provides information on the current health status of this person.
             ontology: NCIT:C166244 [http://purl.obolibrary.org/obo/NCIT_C166244]
@@ -147,6 +148,7 @@ modules:
             description: The age at which death occurred.
             ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]
             values: Integer
+            unit: UO:0000036 [http://purl.obolibrary.org/obo/UO_0000036]
           - name: Primary affiliated institute
             description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person.
             ontology: NCIT:C25412 [http://purl.obolibrary.org/obo/NCIT_C25412]
@@ -299,10 +301,12 @@ modules:
             description: The age, measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease.
             ontology: SNOMEDCT:423493009 [http://purl.bioontology.org/ontology/SNOMEDCT/423493009]
             values: Integer
+            unit: UO:0000036 [http://purl.obolibrary.org/obo/UO_0000036]
           - name: Age at last screening
             description: Age of the patient at the moment of the most recent screening.
             ontology: NCIT:C81258 [http://purl.obolibrary.org/obo/NCIT_C81258]
             values: Integer
+            unit: UO:0000036 [http://purl.obolibrary.org/obo/UO_0000036]
           - name: Medication
             description: A drug product that contains one or more active and/or inactive ingredients used by the patient intended to treat, prevent or alleviate the symptoms of disease. Any hormone therapies, gender-related or otherwise, should also be recorded here.
             ontology: NCIT:C459 [http://purl.obolibrary.org/obo/NCIT_C459]
@@ -331,6 +335,7 @@ modules:
             description: Age of onset of clinical manifestations related to the disease of the patient.
             ontology: Orphanet:C023 [http://www.orpha.net/ORDO/Orphanet_C023]
             values: Integer
+            unit: UO:0000036 [http://purl.obolibrary.org/obo/UO_0000036]
           - name: First contact
             description: First contact of the patient with a specialised center in context of disease or study inclusion.
             ontology: LOINC:MTHU048806 [http://purl.bioontology.org/ontology/LNC/MTHU048806]

@@ -175,6 +175,7 @@ fg:Personal_Country_of_birth a owl:ObjectProperty;
 
 fg:Personal_Year_of_birth a owl:DatatypeProperty;
   rdfs:label "Year of birth";
+  sio:SIO_000074 obo:NCIT_C159612;
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:NCIT_C83164;
   dc:description "The year in which this person was born." .
@@ -188,6 +189,7 @@ fg:Personal_Inclusion_status a owl:ObjectProperty;
 
 fg:Personal_Age_at_death a owl:DatatypeProperty;
   rdfs:label "Age at death";
+  sio:SIO_000074 obo:UO_0000036;
   rdfs:domain fg:Personal;
   rdfs:isDefinedBy obo:NCIT_C135383;
   dc:description "The age at which death occurred." .
@@ -417,12 +419,14 @@ fg:Clinical_Molecular_diagnosis_other a owl:DatatypeProperty;
 
 fg:Clinical_Age_at_diagnosis a owl:DatatypeProperty;
   rdfs:label "Age at diagnosis";
+  sio:SIO_000074 obo:UO_0000036;
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/423493009>;
   dc:description "The age, measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease." .
 
 fg:Clinical_Age_at_last_screening a owl:DatatypeProperty;
   rdfs:label "Age at last screening";
+  sio:SIO_000074 obo:UO_0000036;
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy obo:NCIT_C81258;
   dc:description "Age of the patient at the moment of the most recent screening." .
@@ -469,6 +473,7 @@ fg:Clinical_Medical_history a owl:ObjectProperty;
 
 fg:Clinical_Age_of_onset a owl:DatatypeProperty;
   rdfs:label "Age of onset";
+  sio:SIO_000074 obo:UO_0000036;
   rdfs:domain fg:Clinical;
   rdfs:isDefinedBy ordo:Orphanet_C023;
   dc:description "Age of onset of clinical manifestations related to the disease of the patient." .
