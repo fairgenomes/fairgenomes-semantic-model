@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Starting...");
         long start = System.nanoTime();
         new GenerateOutputs("fair-genomes.yml").generateResources();
-        new GenerateOutputs("extensions/palga-protocol-molecular-testing.yml").generateResources();
+        //new GenerateOutputs("extensions/palga-protocol-molecular-testing.yml").generateResources();
         System.out.println("Done! Completed in " + ((System.nanoTime()-start)/1000000)+"ms.");
     }
 }
