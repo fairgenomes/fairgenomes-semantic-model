@@ -12,7 +12,7 @@ home	"<div class=""jumbotron jumbotron-fluid"">
     	<tr>
     		<td style=""text-align: center;"">
 	            <h4>
-	                Version 1.2-SNAPSHOT demo database. <!--This is a prototype for evaluation purposes only. Do not import any sensitive data. This database is reset when a new version is released.-->
+	                Version 1.2 demo database. <!--This is a prototype for evaluation purposes only. Do not import any sensitive data. This database is reset when a new version is released.-->
 	            </h4>
 	        </td>
 	    </tr>
