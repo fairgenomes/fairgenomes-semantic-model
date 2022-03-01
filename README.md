@@ -120,8 +120,9 @@ Finally, `warnings.xml` is inspected for any errors or warnings.
 12. Commit LODE page to fork, then again PR and merge with main.
 13. Create Github release on main.
 14. Prepare for further development: increment version in [fair-genomes.yml](fair-genomes.yml) and set to SNAPSHOT. Also update [pom.xml](pom.xml) and [sys_StaticContent.tsv](misc/molgenis/other/sys_StaticContent.tsv).
-15. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
-16. Reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
+15. Update to new SNAPSHOT version in outputs by running Main.java.
+16. Use [Ontology Converter](https://github.com/sszuev/ont-converter/releases/tag/v1.0) to convert to OWL and publish new version on [BioPortal](https://bioportal.bioontology.org/ontologies/FG).
+17. Reset [demo server](https://fairgenomes-acc.gcc.rug.nl/) and import new app.
 
 #### MOLGENIS-EMX2
 
