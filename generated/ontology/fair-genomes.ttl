@@ -194,6 +194,12 @@ fg:Personal_Age_at_death a owl:DatatypeProperty;
   rdfs:isDefinedBy obo:NCIT_C135383;
   dc:description "The age at which death occurred." .
 
+fg:Personal_Consanguinity a owl:DatatypeProperty;
+  rdfs:label "Consanguinity";
+  rdfs:domain fg:Personal;
+  rdfs:isDefinedBy obo:OMIT_0004546;
+  dc:description "Information on whether the patient is a child from two family members who are second cousins or closer." .
+
 fg:Personal_Primary_affiliated_institute a owl:ObjectProperty;
   rdfs:label "Primary affiliated institute";
   rdfs:domain fg:Personal;
@@ -457,12 +463,6 @@ fg:Clinical_Family_members_sequenced a owl:ObjectProperty;
   rdfs:isDefinedBy obo:NCIT_C79916;
   dc:description "Family members related by descent rather than by marriage or law who were also tested by next-generation sequencing.";
   rdfs:range obo:NCIT_C71384 .
-
-fg:Clinical_Consanguinity a owl:DatatypeProperty;
-  rdfs:label "Consanguinity";
-  rdfs:domain fg:Clinical;
-  rdfs:isDefinedBy obo:GSSO_007578;
-  dc:description "Information on whether the patient is a child from two family members who are second cousins or closer." .
 
 fg:Clinical_Medical_history a owl:ObjectProperty;
   rdfs:label "Medical history";

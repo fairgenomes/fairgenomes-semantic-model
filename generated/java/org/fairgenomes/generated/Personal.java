@@ -13,6 +13,7 @@ public class Personal {
 	public int yearofbirth;
 	public String inclusionstatus;
 	public int ageatdeath;
+	public boolean consanguinity;
 	public String primaryaffiliatedinstitute;
 	public List<String> resourcesinotherinstitutes;
 	public List<Study> participatesinstudy;

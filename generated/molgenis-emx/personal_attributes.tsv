@@ -9,6 +9,7 @@ countryofbirth	Country of birth	The country that this person was born in. (GENEP
 yearofbirth	Year of birth	The year in which this person was born. (NCIT:C83164)	personal	int	FALSE	FALSE	TRUE	TRUE	
 inclusionstatus	Inclusion status	An indicator that provides information on the current health status of this person. (NCIT:C166244)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_inclusionstatus
 ageatdeath	Age at death	The age at which death occurred. (NCIT:C135383)	personal	int	FALSE	FALSE	TRUE	TRUE	
+consanguinity	Consanguinity	Information on whether the patient is a child from two family members who are second cousins or closer. (OMIT:0004546)	personal	bool	FALSE	FALSE	TRUE	TRUE	
 primaryaffiliatedinstitute	Primary affiliated institute	The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. (NCIT:C25412)	personal	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_primaryaffiliatedinstitute
 resourcesinotherinstitutes	Resources in other institutes	Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals. (NCIT:C19012)	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_personal_resourcesinotherinstitutes
 participatesinstudy	Participates in study	Reference to the study or studies in which this person participates. (RO:0000056)	personal	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_study
