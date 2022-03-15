@@ -149,6 +149,10 @@ modules:
             ontology: NCIT:C135383 [http://purl.obolibrary.org/obo/NCIT_C135383]
             values: Integer
             unit: UO:0000036 [http://purl.obolibrary.org/obo/UO_0000036]
+          - name: Consanguinity
+            description: Information on whether the patient is a child from two family members who are second cousins or closer.
+            ontology: OMIT:0004546 [http://purl.obolibrary.org/obo/OMIT_0004546]
+            values: Boolean
           - name: Primary affiliated institute
             description: The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person.
             ontology: NCIT:C25412 [http://purl.obolibrary.org/obo/NCIT_C25412]
@@ -323,10 +327,6 @@ modules:
             description: Family members related by descent rather than by marriage or law who were also tested by next-generation sequencing.
             ontology: NCIT:C79916 [http://purl.obolibrary.org/obo/NCIT_C79916]
             values: LookupMany [lookups/FamilyMembers.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C71384]
-          - name: Consanguinity
-            description: Information on whether the patient is a child from two family members who are second cousins or closer.
-            ontology: GSSO:007578 [http://purl.obolibrary.org/obo/GSSO_007578]
-            values: String
           - name: Medical history
             description: A record of a person's background regarding health, occurrence of disease events and surgical procedures.
             ontology: NCIT:C18772 [http://purl.obolibrary.org/obo/NCIT_C18772]

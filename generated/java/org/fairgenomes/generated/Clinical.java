@@ -17,7 +17,6 @@ public class Clinical {
 	public String drugregimen;
 	public List<String> familymembersaffected;
 	public List<String> familymemberssequenced;
-	public String consanguinity;
 	public List<String> medicalhistory;
 	public int ageofonset;
 	public String firstcontact;

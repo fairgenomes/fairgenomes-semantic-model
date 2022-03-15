@@ -242,6 +242,7 @@ personal,countryofbirth,ref,,,countryofbirth,"The country that this person was b
 personal,yearofbirth,int,,,,"The year in which this person was born.",http://purl.obolibrary.org/obo/NCIT_C83164
 personal,inclusionstatus,ref,,,inclusionstatus,"An indicator that provides information on the current health status of this person.",http://purl.obolibrary.org/obo/NCIT_C166244
 personal,ageatdeath,int,,,,"The age at which death occurred.",http://purl.obolibrary.org/obo/NCIT_C135383
+personal,consanguinity,bool,,,,"Information on whether the patient is a child from two family members who are second cousins or closer.",http://purl.obolibrary.org/obo/OMIT_0004546
 personal,primaryaffiliatedinstitute,ref,,,primaryaffiliatedinstitute,"The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person.",http://purl.obolibrary.org/obo/NCIT_C25412
 personal,resourcesinotherinstitutes,ref_array,,,resourcesinotherinstitutes,"Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals.",http://purl.obolibrary.org/obo/NCIT_C19012
 personal,participatesinstudy,ref_array,,,study,"Reference to the study or studies in which this person participates.",http://purl.obolibrary.org/obo/RO_0000056
@@ -283,7 +284,6 @@ clinical,medication,ref_array,,,medication,"A drug product that contains one or 
 clinical,drugregimen,text,,,,"The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.",http://purl.obolibrary.org/obo/NCIT_C142516
 clinical,familymembersaffected,ref_array,,,familymembersaffected,"Family members related by descent rather than by marriage or law who were diagnosed with the same condition as the individual who is the primary focus of investigation (i.e. the proband).",http://purl.obolibrary.org/obo/HP_0032320
 clinical,familymemberssequenced,ref_array,,,familymemberssequenced,"Family members related by descent rather than by marriage or law who were also tested by next-generation sequencing.",http://purl.obolibrary.org/obo/NCIT_C79916
-clinical,consanguinity,string,,,,"Information on whether the patient is a child from two family members who are second cousins or closer.",http://purl.obolibrary.org/obo/GSSO_007578
 clinical,medicalhistory,ref_array,,,medicalhistory,"A record of a person's background regarding health, occurrence of disease events and surgical procedures.",http://purl.obolibrary.org/obo/NCIT_C18772
 clinical,ageofonset,int,,,,"Age of onset of clinical manifestations related to the disease of the patient.",http://www.orpha.net/ORDO/Orphanet_C023
 clinical,firstcontact,date,,,,"First contact of the patient with a specialised center in context of disease or study inclusion.",http://purl.bioontology.org/ontology/LNC/MTHU048806
