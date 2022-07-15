@@ -203,6 +203,36 @@ fg:Sequencing_Sequencing_instrument_model_Illumina_MiSeq_FGx a obo:GENEPIO_00019
   dc:description "Illumina MiSeq FGx";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000014> .
 
+fg:Sequencing_Sequencing_instrument_model_Oxford_Nanopore_GridION_Mk1 a obo:GENEPIO_0001921;
+  rdfs:label "Oxford Nanopore GridION Mk1";
+  dc:description "Oxford Nanopore GridION Mk1";
+  rdfs:isDefinedBy obo:OBI_0002751 .
+
+fg:Sequencing_Sequencing_instrument_model_Oxford_Nanopore_MinION a obo:GENEPIO_0001921;
+  rdfs:label "Oxford Nanopore MinION";
+  dc:description "Oxford Nanopore MinION";
+  rdfs:isDefinedBy obo:OBI_0002750 .
+
+fg:Sequencing_Sequencing_instrument_model_Oxford_Nanopore_PromethION a obo:GENEPIO_0001921;
+  rdfs:label "Oxford Nanopore PromethION";
+  dc:description "Oxford Nanopore PromethION";
+  rdfs:isDefinedBy obo:OBI_0002752 .
+
+fg:Sequencing_Sequencing_instrument_model_PacBio_Sequel a obo:GENEPIO_0001921;
+  rdfs:label "PacBio Sequel";
+  dc:description "PacBio Sequel";
+  rdfs:isDefinedBy obo:OBI_0002632 .
+
+fg:Sequencing_Sequencing_instrument_model_PacBio_Sequel_II a obo:GENEPIO_0001921;
+  rdfs:label "PacBio Sequel II";
+  dc:description "PacBio Sequel II";
+  rdfs:isDefinedBy obo:OBI_0002633 .
+
+fg:Sequencing_Sequencing_instrument_model_Li-Cor_4300_DNA_Analysis_System a obo:GENEPIO_0001921;
+  rdfs:label "Li-Cor 4300 DNA Analysis System";
+  dc:description "Li-Cor 4300 DNA Analysis System";
+  rdfs:isDefinedBy obo:OBI_0000710 .
+
 <https://w3id.org/fair-genomes/ontology/Sequencing_Sequencing_instrument_model_NoInformation_(NI,_nullflavor)>
   a obo:GENEPIO_0001921;
   rdfs:label "NoInformation (NI, nullflavor)";

@@ -1,6 +1,6 @@
 # FAIR Genomes metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __9 modules__ that contain __112 metadata elements__ and __85351 lookups__ in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __9 modules__ that contain __112 metadata elements__ and __85357 lookups__ in total (excluding null flavors).
 
 ## Module overview
 
@@ -156,7 +156,7 @@ The determination of complete (typically nucleotide) sequences, including those 
 | Belongs to sample | Reference to the prepared sample, i.e. the source that was sequenced. | [NCIT:C25683](http://purl.obolibrary.org/obo/NCIT_C25683) | Reference to instances of Sample preparation |
 | Sequencing date | Date on which this sequencing assay was performed. | [GENEPIO:0000069](http://purl.obolibrary.org/obo/GENEPIO_0000069) | Date |
 | Sequencing platform | The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). | [GENEPIO:0000071](http://purl.obolibrary.org/obo/GENEPIO_0000071) | [SequencingPlatform](../../lookups/SequencingPlatform.txt) lookup (7 choices [of type](http://purl.obolibrary.org/obo/GENEPIO_0000071)) |
-| Sequencing instrument model | The used product name and model number of a manufacturer's genomic (dna) sequencer. | [GENEPIO:0001921](http://purl.obolibrary.org/obo/GENEPIO_0001921) | [SequencingInstrumentModels](../../lookups/SequencingInstrumentModels.txt) lookup (39 choices [of type](http://purl.obolibrary.org/obo/GENEPIO_0001921)) |
+| Sequencing instrument model | The used product name and model number of a manufacturer's genomic (dna) sequencer. | [GENEPIO:0001921](http://purl.obolibrary.org/obo/GENEPIO_0001921) | [SequencingInstrumentModels](../../lookups/SequencingInstrumentModels.txt) lookup (45 choices [of type](http://purl.obolibrary.org/obo/GENEPIO_0001921)) |
 | Sequencing method | Method used to determine the order of bases in a nucleic acid sequence. | [FIX:0000704](http://purl.obolibrary.org/obo/FIX_0000704) | [SequencingMethods](../../lookups/SequencingMethods.txt) lookup (35 choices [of type](http://purl.obolibrary.org/obo/NCIT_C17565)) |
 | Median read depth | The median number of times a particular locus (site, nucleotide, amplicon, region) was sequenced. | [NCIT:C155320](http://purl.obolibrary.org/obo/NCIT_C155320) | Integer |
 | Observed read length | The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | [NCIT:C153362](http://purl.obolibrary.org/obo/NCIT_C153362) | Integer |
