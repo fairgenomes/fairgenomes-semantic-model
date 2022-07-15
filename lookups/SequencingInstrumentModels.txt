@@ -38,3 +38,9 @@ Illumina NextSeq 1000	Illumina NextSeq 1000	FG	0000011	https://w3id.org/fair-gen
 Illumina NextSeq 550Dx	Illumina NextSeq 550Dx	FG	0000012	https://w3id.org/fair-genomes/resource/FG_0000012
 Illumina MiSeqDx	Illumina MiSeqDx	FG	0000013	https://w3id.org/fair-genomes/resource/FG_0000013
 Illumina MiSeq FGx	Illumina MiSeq FGx	FG	0000014	https://w3id.org/fair-genomes/resource/FG_0000014
+Oxford Nanopore GridION Mk1	Oxford Nanopore GridION Mk1	OBI	0002751	http://purl.obolibrary.org/obo/OBI_0002751
+Oxford Nanopore MinION	Oxford Nanopore MinION	OBI	0002750	http://purl.obolibrary.org/obo/OBI_0002750
+Oxford Nanopore PromethION	Oxford Nanopore PromethION	OBI	0002752	http://purl.obolibrary.org/obo/OBI_0002752
+PacBio Sequel	PacBio Sequel	OBI	0002632	http://purl.obolibrary.org/obo/OBI_0002632
+PacBio Sequel II	PacBio Sequel II	OBI	0002633	http://purl.obolibrary.org/obo/OBI_0002633
+Li-Cor 4300 DNA Analysis System	Li-Cor 4300 DNA Analysis System	OBI	0000710	http://purl.obolibrary.org/obo/OBI_0000710
