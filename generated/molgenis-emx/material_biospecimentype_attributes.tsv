@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable
-value	material_biospecimentype	Value (English)	String	TRUE	FALSE
-description	material_biospecimentype	Description (English)	Text	FALSE	TRUE
-codesystem	material_biospecimentype	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	material_biospecimentype	The code within the code system	String	FALSE	TRUE
-iri	material_biospecimentype	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
+value	Material_BiospecimenType	Value (English)	String	TRUE	FALSE
+description	Material_BiospecimenType	Description (English)	Text	FALSE	TRUE
+codesystem	Material_BiospecimenType	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	Material_BiospecimenType	The code within the code system	String	FALSE	TRUE
+iri	Material_BiospecimenType	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

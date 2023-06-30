@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable
-value	clinical_phenotype	Value (English)	String	TRUE	FALSE
-description	clinical_phenotype	Description (English)	Text	FALSE	TRUE
-codesystem	clinical_phenotype	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	clinical_phenotype	The code within the code system	String	FALSE	TRUE
-iri	clinical_phenotype	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
+value	Clinical_Phenotype	Value (English)	String	TRUE	FALSE
+description	Clinical_Phenotype	Description (English)	Text	FALSE	TRUE
+codesystem	Clinical_Phenotype	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	Clinical_Phenotype	The code within the code system	String	FALSE	TRUE
+iri	Clinical_Phenotype	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

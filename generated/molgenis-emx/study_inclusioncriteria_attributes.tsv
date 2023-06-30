@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable
-value	study_inclusioncriteria	Value (English)	String	TRUE	FALSE
-description	study_inclusioncriteria	Description (English)	Text	FALSE	TRUE
-codesystem	study_inclusioncriteria	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	study_inclusioncriteria	The code within the code system	String	FALSE	TRUE
-iri	study_inclusioncriteria	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
+value	Study_InclusionCriteria	Value (English)	String	TRUE	FALSE
+description	Study_InclusionCriteria	Description (English)	Text	FALSE	TRUE
+codesystem	Study_InclusionCriteria	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	Study_InclusionCriteria	The code within the code system	String	FALSE	TRUE
+iri	Study_InclusionCriteria	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

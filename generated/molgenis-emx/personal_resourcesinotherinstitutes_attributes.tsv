@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable
-value	personal_resourcesinotherinstitutes	Value (English)	String	TRUE	FALSE
-description	personal_resourcesinotherinstitutes	Description (English)	Text	FALSE	TRUE
-codesystem	personal_resourcesinotherinstitutes	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	personal_resourcesinotherinstitutes	The code within the code system	String	FALSE	TRUE
-iri	personal_resourcesinotherinstitutes	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
+value	Personal_ResourcesInOtherInstitutes	Value (English)	String	TRUE	FALSE
+description	Personal_ResourcesInOtherInstitutes	Description (English)	Text	FALSE	TRUE
+codesystem	Personal_ResourcesInOtherInstitutes	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	Personal_ResourcesInOtherInstitutes	The code within the code system	String	FALSE	TRUE
+iri	Personal_ResourcesInOtherInstitutes	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
