@@ -38,7 +38,7 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
             for (Element e : m.elements) {
                 String key = e.valueTypeEnum.equals(ValueType.UniqueID) ? "1" : "";
                 String required = e.valueTypeEnum.equals(ValueType.UniqueID) ? "TRUE" : "";
-                bw.write(entityName + "," + e.technicalName + "," + e.valueTypeToEMX2() + "," + key + "," + required + "," + e.lookupOrReferencetoEMX2() + ",\"" + e.description + "\"," + e.parsedOntology.iri + LE);
+                bw.write("\"" + entityName + "\",\"" + e.technicalName + "\",\"" + e.valueTypeToEMX2() + "\",\"" + key + "\",\"" + required + "\",\"" + e.lookupOrReferencetoEMX2() + "\",\"" + e.description + "\",\"" + e.parsedOntology.iri + "\"" + LE);
             }
         }
 
@@ -74,23 +74,23 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
             }
         }
 
-// TODO add home page and permission
-//        /*
-//        Landing page
-//         */
-//        String[] imgs = new String[]{"analysis", "lookups", "clinical", "leafletandconsentform", "individualconsent", "contribute", "info", "material", "personal", "samplepreparation", "sequencing", "study", "fair_genomes_logo_notext", "fair_genomes_logo"};
-//        for(String img : imgs)
-//        {
-//            MCMDbw.write("mcmd add logo -p ../../misc/molgenis/img/"+img+".png" + LE);
-//        }
-
-//        /*
-//        Demo permissions
-//         */
-//        MCMDbw.write("mcmd make --role ANONYMOUS fair-genomes_EDITOR" + LE);
-//        MCMDbw.write("mcmd give anonymous view sys_md" + LE);
-
+        /*
+        Semantics for ontology tables
+         */
+        File targetFile = new File(outputFolder, "SEMANTICS.csv");
+        fw = new FileWriter(targetFile);
+        bw = new BufferedWriter(fw);
+        bw.write("tableName,tableType,semantics" + LE);
+        for (Module m : fg.modules) {
+            for (Element e : m.elements) {
+                if (e.isLookup()) {
+                    String tableName = e.technicalName;
+                    bw.write("\"" + tableName + "\",\"" + "ONTOLOGIES" + "\",\"" + e.type + "\"" + LE);
+                }
+            }
+        }
+        bw.flush();
+        bw.close();
 
     }
-
 }
