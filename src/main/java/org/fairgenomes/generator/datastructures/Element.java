@@ -197,20 +197,14 @@ public class Element {
      */
     public String valueTypeToEMX2() {
         switch (valueTypeEnum) {
-            case String:
-                return "string";
             case Text:
                 return "text";
-            case UniqueID:
-                return "string";
             case LookupOne:
-                return "ref";
-            case LookupMany:
-                return "ref_array";
             case LookupOne_NoGlobals:
-                return "ref";
+                return "ontology";
+            case LookupMany:
             case LookupMany_NoGlobals:
-                return "ref_array";
+                return "ontology_array";
             case Integer:
                 return "int";
             case ReferenceOne:
@@ -225,7 +219,7 @@ public class Element {
                 return "bool";
             case Decimal:
                 return "decimal";
-            default:
+            default:  //String, UniqueID, others
                 return "string";
         }
     }
