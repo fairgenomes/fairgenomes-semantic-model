@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Punjabi Sikh","Punjabi Sikh","HANCESTRO","0589","http://purl.obolibrary.org/obo/HANCESTRO_0589"
 "European American","European American","HANCESTRO","0590","http://purl.obolibrary.org/obo/HANCESTRO_0590"
 "Esan","Esan","HANCESTRO","0591","http://purl.obolibrary.org/obo/HANCESTRO_0591"

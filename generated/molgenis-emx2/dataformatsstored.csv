@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "xsd","xsd","EDAM","format_3804","http://edamontology.org/format_3804"
 "XMFA","XMFA","EDAM","format_3811","http://edamontology.org/format_3811"
 "GEN","GEN","EDAM","format_3812","http://edamontology.org/format_3812"

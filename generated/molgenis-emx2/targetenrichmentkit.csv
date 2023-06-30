@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "NEXTFLEX Unique Dual Index Barcodes by PerkinElmer","NEXTFLEX Unique Dual Index Barcodes by PerkinElmer sourced from https://www.biocompare.com, accessed May 2020.","FG","0000125","https://w3id.org/fair-genomes/resource/FG_0000125"
 "SEQuoia Complete Stranded RNA Library Prep Kit by Bio-Rad","SEQuoia Complete Stranded RNA Library Prep Kit by Bio-Rad sourced from https://www.biocompare.com, accessed May 2020.","FG","0000126","https://w3id.org/fair-genomes/resource/FG_0000126"
 "KAPA HyperPlus Kits by Roche","KAPA HyperPlus Kits by Roche sourced from https://www.biocompare.com, accessed May 2020.","FG","0000127","https://w3id.org/fair-genomes/resource/FG_0000127"

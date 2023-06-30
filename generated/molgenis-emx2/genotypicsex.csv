@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "XX Genotype","The normal genotype of a female human.","NCIT","C45976","http://purl.obolibrary.org/obo/NCIT_C45976"
 "XY Genotype","The normal genotype of a male human.","NCIT","C45977","http://purl.obolibrary.org/obo/NCIT_C45977"
 "45,XO Karyotype","An abnormal sex chromosome karyotype where the individual is missing either a second X chromosome or the Y chromosome. The normal autosomal karyotype is present. This karyotype is associated with Turner Syndrome.","NCIT","C176780","http://purl.obolibrary.org/obo/NCIT_C176780"

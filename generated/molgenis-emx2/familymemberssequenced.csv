@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Biological Daughter","A female progeny with genetic makeup inherited from the parent.","NCIT","C150887","http://purl.obolibrary.org/obo/NCIT_C150887"
 "Biological Son","A male progeny with genetic makeup inherited from the parent.","NCIT","C150888","http://purl.obolibrary.org/obo/NCIT_C150888"
 "Biological Maternal Grandfather","A male relative who is the biological father of the biological mother.","NCIT","C96577","http://purl.obolibrary.org/obo/NCIT_C96577"

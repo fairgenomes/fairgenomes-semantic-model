@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "BMI range inclusion criterion","An inclusion criterion that defines and states a Body Mass Index range, which if met, makes an individual suitable for a given task or participation in a given process.","OBI","0002428","http://purl.obolibrary.org/obo/OBI_0002428"
 "age group inclusion criterion","An inclusion criterion that defines and states an age bracket which, if met, makes an entity suitable for a given task or participation in a given process.","OBI","0002555","http://purl.obolibrary.org/obo/OBI_0002555"
 "age of majority inclusion criterion","An inclusion criterion that uses the age of majority for a state or institution, where one is generally considered to be an adult, which if met, makes an individual suitable for a given task or participation in a given process.","OBI","0002423","http://purl.obolibrary.org/obo/OBI_0002423"

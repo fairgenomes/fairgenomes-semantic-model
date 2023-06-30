@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Next Generation Sequencing","Next Generation Sequencing","NCIT","C101293","http://purl.obolibrary.org/obo/NCIT_C101293"
 "Whole Genome Sequencing","Whole Genome Sequencing","NCIT","C101294","http://purl.obolibrary.org/obo/NCIT_C101294"
 "Whole Exome Sequencing","Whole Exome Sequencing","NCIT","C101295","http://purl.obolibrary.org/obo/NCIT_C101295"

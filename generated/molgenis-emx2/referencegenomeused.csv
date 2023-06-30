@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "GRCh37","Genome Reference Consortium Human Build 37 (GRCh37)","GCF","000001405.13","https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13"
 "GRCh37.p1","Genome Reference Consortium Human Build 37 patch release 1 (GRCh37.p1)","GCA","000001405.2","https://www.ncbi.nlm.nih.gov/assembly/GCA_000001405.2"
 "GRCh37.p2","Genome Reference Consortium Human Build 37 patch release 2 (GRCh37.p2)","GCF","000001405.14","https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.14"

@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Academic Medical Center Biobank","Academic Medical Center Biobank","BBMRI-ERIC","NL_AAAACVOEOZ2UYZSUAVNCZ2AAAE","https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACVOEOZ2UYZSUAVNCZ2AAAE"
 "ACS Biobank","ACS Biobank","BBMRI-ERIC","NL_AAAACXO74F5GMACQK2ME25QAAE","https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXO74F5GMACQK2ME25QAAE"
 "AGNES Biobank","AGNES Biobank","BBMRI-ERIC","NL_AAAACYWY5TBZGACQK2MDM4QAAE","https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACYWY5TBZGACQK2MDM4QAAE"

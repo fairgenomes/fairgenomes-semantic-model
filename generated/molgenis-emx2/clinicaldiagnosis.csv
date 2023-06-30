@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Multiple epiphyseal dysplasia, Al-Gazali type","Multiple epiphyseal dysplasia, Al-Gazali type","Orphanet","166024","http://www.orpha.net/ORDO/Orphanet_166024"
 "Alexander disease","Alexander disease","Orphanet","58","http://www.orpha.net/ORDO/Orphanet_58"
 "Multiple epiphyseal dysplasia, with miniepiphyses","Multiple epiphyseal dysplasia, with miniepiphyses","Orphanet","166032","http://www.orpha.net/ORDO/Orphanet_166032"
