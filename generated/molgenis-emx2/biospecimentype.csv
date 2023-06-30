@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Peripheral Blood","Peripheral Blood","NCIT","C173496","http://purl.obolibrary.org/obo/NCIT_C173496"
 "Prostatic Fluid","Prostatic Fluid","NCIT","C100896","http://purl.obolibrary.org/obo/NCIT_C100896"
 "Centrifuged Smear Slide","Centrifuged Smear Slide","NCIT","C115350","http://purl.obolibrary.org/obo/NCIT_C115350"

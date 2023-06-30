@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "exploring gender identity","A gender identity in question or in the process of being questioned.","GSSO","001594","http://purl.obolibrary.org/obo/GSSO_001594"
 "female gender identity","Having an identity considered female.","GSSO","000089","http://purl.obolibrary.org/obo/GSSO_000089"
 "male gender identity","Having an identity considered male.","GSSO","000090","http://purl.obolibrary.org/obo/GSSO_000090"

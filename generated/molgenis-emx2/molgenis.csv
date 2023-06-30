@@ -1,344 +1,122 @@
 tableName,columnName,columnType,key,required,refTable,description,semantics
-inclusioncriteria,,,,,,"A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts.",http://purl.obolibrary.org/obo/NCIT_C63536
-inclusioncriteria,value,String,1,TRUE,,Value (English)
-inclusioncriteria,description,Text,,,,Description (English)
-inclusioncriteria,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-inclusioncriteria,code,String,,,,The code within the code system
-inclusioncriteria,iri,String,,,,The Internationalized Resource Identifier for this term
-genderidentity,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-genderidentity,value,String,1,TRUE,,Value (English)
-genderidentity,description,Text,,,,Description (English)
-genderidentity,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-genderidentity,code,String,,,,The code within the code system
-genderidentity,iri,String,,,,The Internationalized Resource Identifier for this term
-genderatbirth,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-genderatbirth,value,String,1,TRUE,,Value (English)
-genderatbirth,description,Text,,,,Description (English)
-genderatbirth,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-genderatbirth,code,String,,,,The code within the code system
-genderatbirth,iri,String,,,,The Internationalized Resource Identifier for this term
-genotypicsex,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-genotypicsex,value,String,1,TRUE,,Value (English)
-genotypicsex,description,Text,,,,Description (English)
-genotypicsex,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-genotypicsex,code,String,,,,The code within the code system
-genotypicsex,iri,String,,,,The Internationalized Resource Identifier for this term
-countryofresidence,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-countryofresidence,value,String,1,TRUE,,Value (English)
-countryofresidence,description,Text,,,,Description (English)
-countryofresidence,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-countryofresidence,code,String,,,,The code within the code system
-countryofresidence,iri,String,,,,The Internationalized Resource Identifier for this term
-ancestry,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-ancestry,value,String,1,TRUE,,Value (English)
-ancestry,description,Text,,,,Description (English)
-ancestry,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-ancestry,code,String,,,,The code within the code system
-ancestry,iri,String,,,,The Internationalized Resource Identifier for this term
-countryofbirth,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-countryofbirth,value,String,1,TRUE,,Value (English)
-countryofbirth,description,Text,,,,Description (English)
-countryofbirth,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-countryofbirth,code,String,,,,The code within the code system
-countryofbirth,iri,String,,,,The Internationalized Resource Identifier for this term
-inclusionstatus,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-inclusionstatus,value,String,1,TRUE,,Value (English)
-inclusionstatus,description,Text,,,,Description (English)
-inclusionstatus,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-inclusionstatus,code,String,,,,The code within the code system
-inclusionstatus,iri,String,,,,The Internationalized Resource Identifier for this term
-primaryaffiliatedinstitute,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-primaryaffiliatedinstitute,value,String,1,TRUE,,Value (English)
-primaryaffiliatedinstitute,description,Text,,,,Description (English)
-primaryaffiliatedinstitute,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-primaryaffiliatedinstitute,code,String,,,,The code within the code system
-primaryaffiliatedinstitute,iri,String,,,,The Internationalized Resource Identifier for this term
-resourcesinotherinstitutes,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-resourcesinotherinstitutes,value,String,1,TRUE,,Value (English)
-resourcesinotherinstitutes,description,Text,,,,Description (English)
-resourcesinotherinstitutes,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-resourcesinotherinstitutes,code,String,,,,The code within the code system
-resourcesinotherinstitutes,iri,String,,,,The Internationalized Resource Identifier for this term
-consentformcreator,,,,,,"A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian.",http://purl.obolibrary.org/obo/NCIT_C16468
-consentformcreator,value,String,1,TRUE,,Value (English)
-consentformcreator,description,Text,,,,Description (English)
-consentformcreator,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-consentformcreator,code,String,,,,The code within the code system
-consentformcreator,iri,String,,,,The Internationalized Resource Identifier for this term
-collectedby,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
-collectedby,value,String,1,TRUE,,Value (English)
-collectedby,description,Text,,,,Description (English)
-collectedby,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-collectedby,code,String,,,,The code within the code system
-collectedby,iri,String,,,,The Internationalized Resource Identifier for this term
-representedby,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
-representedby,value,String,1,TRUE,,Value (English)
-representedby,description,Text,,,,Description (English)
-representedby,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-representedby,code,String,,,,The code within the code system
-representedby,iri,String,,,,The Internationalized Resource Identifier for this term
-datausepermissions,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
-datausepermissions,value,String,1,TRUE,,Value (English)
-datausepermissions,description,Text,,,,Description (English)
-datausepermissions,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-datausepermissions,code,String,,,,The code within the code system
-datausepermissions,iri,String,,,,The Internationalized Resource Identifier for this term
-datausemodifiers,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
-datausemodifiers,value,String,1,TRUE,,Value (English)
-datausemodifiers,description,Text,,,,Description (English)
-datausemodifiers,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-datausemodifiers,code,String,,,,The code within the code system
-datausemodifiers,iri,String,,,,The Internationalized Resource Identifier for this term
-allowrecontacting,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
-allowrecontacting,value,String,1,TRUE,,Value (English)
-allowrecontacting,description,Text,,,,Description (English)
-allowrecontacting,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-allowrecontacting,code,String,,,,The code within the code system
-allowrecontacting,iri,String,,,,The Internationalized Resource Identifier for this term
-phenotype,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-phenotype,value,String,1,TRUE,,Value (English)
-phenotype,description,Text,,,,Description (English)
-phenotype,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-phenotype,code,String,,,,The code within the code system
-phenotype,iri,String,,,,The Internationalized Resource Identifier for this term
-unobservedphenotype,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-unobservedphenotype,value,String,1,TRUE,,Value (English)
-unobservedphenotype,description,Text,,,,Description (English)
-unobservedphenotype,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-unobservedphenotype,code,String,,,,The code within the code system
-unobservedphenotype,iri,String,,,,The Internationalized Resource Identifier for this term
-phenotypicdataavailable,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-phenotypicdataavailable,value,String,1,TRUE,,Value (English)
-phenotypicdataavailable,description,Text,,,,Description (English)
-phenotypicdataavailable,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-phenotypicdataavailable,code,String,,,,The code within the code system
-phenotypicdataavailable,iri,String,,,,The Internationalized Resource Identifier for this term
-clinicaldiagnosis,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-clinicaldiagnosis,value,String,1,TRUE,,Value (English)
-clinicaldiagnosis,description,Text,,,,Description (English)
-clinicaldiagnosis,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-clinicaldiagnosis,code,String,,,,The code within the code system
-clinicaldiagnosis,iri,String,,,,The Internationalized Resource Identifier for this term
-moleculardiagnosisgene,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-moleculardiagnosisgene,value,String,1,TRUE,,Value (English)
-moleculardiagnosisgene,description,Text,,,,Description (English)
-moleculardiagnosisgene,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-moleculardiagnosisgene,code,String,,,,The code within the code system
-moleculardiagnosisgene,iri,String,,,,The Internationalized Resource Identifier for this term
-medication,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-medication,value,String,1,TRUE,,Value (English)
-medication,description,Text,,,,Description (English)
-medication,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-medication,code,String,,,,The code within the code system
-medication,iri,String,,,,The Internationalized Resource Identifier for this term
-familymembersaffected,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-familymembersaffected,value,String,1,TRUE,,Value (English)
-familymembersaffected,description,Text,,,,Description (English)
-familymembersaffected,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-familymembersaffected,code,String,,,,The code within the code system
-familymembersaffected,iri,String,,,,The Internationalized Resource Identifier for this term
-familymemberssequenced,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-familymemberssequenced,value,String,1,TRUE,,Value (English)
-familymemberssequenced,description,Text,,,,Description (English)
-familymemberssequenced,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-familymemberssequenced,code,String,,,,The code within the code system
-familymemberssequenced,iri,String,,,,The Internationalized Resource Identifier for this term
-medicalhistory,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-medicalhistory,value,String,1,TRUE,,Value (English)
-medicalhistory,description,Text,,,,Description (English)
-medicalhistory,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-medicalhistory,code,String,,,,The code within the code system
-medicalhistory,iri,String,,,,The Internationalized Resource Identifier for this term
-biospecimentype,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
-biospecimentype,value,String,1,TRUE,,Value (English)
-biospecimentype,description,Text,,,,Description (English)
-biospecimentype,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-biospecimentype,code,String,,,,The code within the code system
-biospecimentype,iri,String,,,,The Internationalized Resource Identifier for this term
-anatomicalsource,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
-anatomicalsource,value,String,1,TRUE,,Value (English)
-anatomicalsource,description,Text,,,,Description (English)
-anatomicalsource,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-anatomicalsource,code,String,,,,The code within the code system
-anatomicalsource,iri,String,,,,The Internationalized Resource Identifier for this term
-pathologicalstate,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
-pathologicalstate,value,String,1,TRUE,,Value (English)
-pathologicalstate,description,Text,,,,Description (English)
-pathologicalstate,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-pathologicalstate,code,String,,,,The code within the code system
-pathologicalstate,iri,String,,,,The Internationalized Resource Identifier for this term
-storageconditions,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
-storageconditions,value,String,1,TRUE,,Value (English)
-storageconditions,description,Text,,,,Description (English)
-storageconditions,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-storageconditions,code,String,,,,The code within the code system
-storageconditions,iri,String,,,,The Internationalized Resource Identifier for this term
-analysesperformed,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
-analysesperformed,value,String,1,TRUE,,Value (English)
-analysesperformed,description,Text,,,,Description (English)
-analysesperformed,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-analysesperformed,code,String,,,,The code within the code system
-analysesperformed,iri,String,,,,The Internationalized Resource Identifier for this term
-librarypreparationkit,,,,,,"A sample preparation for a nucleic acids sequencing assay.",http://purl.obolibrary.org/obo/OBI_0001902
-librarypreparationkit,value,String,1,TRUE,,Value (English)
-librarypreparationkit,description,Text,,,,Description (English)
-librarypreparationkit,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-librarypreparationkit,code,String,,,,The code within the code system
-librarypreparationkit,iri,String,,,,The Internationalized Resource Identifier for this term
-targetenrichmentkit,,,,,,"A sample preparation for a nucleic acids sequencing assay.",http://purl.obolibrary.org/obo/OBI_0001902
-targetenrichmentkit,value,String,1,TRUE,,Value (English)
-targetenrichmentkit,description,Text,,,,Description (English)
-targetenrichmentkit,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-targetenrichmentkit,code,String,,,,The code within the code system
-targetenrichmentkit,iri,String,,,,The Internationalized Resource Identifier for this term
-sequencingplatform,,,,,,"The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.",http://edamontology.org/topic_3168
-sequencingplatform,value,String,1,TRUE,,Value (English)
-sequencingplatform,description,Text,,,,Description (English)
-sequencingplatform,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-sequencingplatform,code,String,,,,The code within the code system
-sequencingplatform,iri,String,,,,The Internationalized Resource Identifier for this term
-sequencinginstrumentmodel,,,,,,"The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.",http://edamontology.org/topic_3168
-sequencinginstrumentmodel,value,String,1,TRUE,,Value (English)
-sequencinginstrumentmodel,description,Text,,,,Description (English)
-sequencinginstrumentmodel,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-sequencinginstrumentmodel,code,String,,,,The code within the code system
-sequencinginstrumentmodel,iri,String,,,,The Internationalized Resource Identifier for this term
-sequencingmethod,,,,,,"The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.",http://edamontology.org/topic_3168
-sequencingmethod,value,String,1,TRUE,,Value (English)
-sequencingmethod,description,Text,,,,Description (English)
-sequencingmethod,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-sequencingmethod,code,String,,,,The code within the code system
-sequencingmethod,iri,String,,,,The Internationalized Resource Identifier for this term
-dataformatsstored,,,,,,"An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output.",http://edamontology.org/operation_2945
-dataformatsstored,value,String,1,TRUE,,Value (English)
-dataformatsstored,description,Text,,,,Description (English)
-dataformatsstored,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-dataformatsstored,code,String,,,,The code within the code system
-dataformatsstored,iri,String,,,,The Internationalized Resource Identifier for this term
-referencegenomeused,,,,,,"An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output.",http://edamontology.org/operation_2945
-referencegenomeused,value,String,1,TRUE,,Value (English)
-referencegenomeused,description,Text,,,,Description (English)
-referencegenomeused,codesystem,String,,,,The code system (e.g. ontology) this term belongs to
-referencegenomeused,code,String,,,,The code within the code system
-referencegenomeused,iri,String,,,,The Internationalized Resource Identifier for this term
-study,,,,,,"A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts.",http://purl.obolibrary.org/obo/NCIT_C63536
-study,identifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular study.",http://purl.obolibrary.org/obo/OMIABIS_0000006
-study,name,string,,,,"A name that designates this study.",http://purl.obolibrary.org/obo/OMIABIS_0000037
-study,description,text,,,,"A statement or piece of writing that provides details on this study.",http://purl.obolibrary.org/obo/OMIABIS_0000036
-study,inclusioncriteria,ref_array,,,inclusioncriteria,"The conditions which, if met, make an person eligible for participation in this study.",http://purl.obolibrary.org/obo/OBI_0500027
-study,principalinvestigator,string,,,,"The principal investigator or responsible person for this study.",http://purl.obolibrary.org/obo/OMIABIS_0000100
-study,contactinformation,string,,,,"An email address for the purpose of contacting the study contact person.",http://purl.obolibrary.org/obo/OMIABIS_0000035
-study,studydesign,text,,,,"A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of this study.",http://purl.obolibrary.org/obo/OBI_0500000
-study,startdate,date,,,,"The date on which this study began.",http://purl.obolibrary.org/obo/NCIT_C69208
-study,completiondate,date,,,,"The date on which the concluding information for this study is completed. Usually, this is when the last subject has a final visit, or the main analysis has finished, or any other protocol-defined completion date.",http://purl.obolibrary.org/obo/NCIT_C142702
-personal,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
-personal,personalidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular person.",http://purl.obolibrary.org/obo/NCIT_C164337
-personal,genderidentity,ref,,,genderidentity,"A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. For practical reasons the lookups are limited to first and second-level entries, but can be expanded when needed. Note that 'Gender at birth', 'Genotypic sex' and any (gender-related) hormone therapies in 'Medication' are usually medically more relevant than this term.",http://purl.bioontology.org/ontology/MESH/D005783
-personal,genderatbirth,ref,,,genderatbirth,"Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth.",http://purl.obolibrary.org/obo/GSSO_009418
-personal,genotypicsex,ref,,,genotypicsex,"A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.",http://purl.obolibrary.org/obo/PATO_0020000
-personal,countryofresidence,ref,,,countryofresidence,"Country of residence at enrollment.",http://purl.obolibrary.org/obo/NCIT_C171105
-personal,ancestry,ref_array,,,ancestry,"Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.",http://purl.obolibrary.org/obo/NCIT_C176763
-personal,countryofbirth,ref,,,countryofbirth,"The country that this person was born in.",http://purl.obolibrary.org/obo/GENEPIO_0001094
-personal,yearofbirth,int,,,,"The year in which this person was born.",http://purl.obolibrary.org/obo/NCIT_C83164
-personal,inclusionstatus,ref,,,inclusionstatus,"An indicator that provides information on the current health status of this person.",http://purl.obolibrary.org/obo/NCIT_C166244
-personal,ageatdeath,int,,,,"The age at which death occurred.",http://purl.obolibrary.org/obo/NCIT_C135383
-personal,consanguinity,bool,,,,"Information on whether the patient is a child from two family members who are second cousins or closer.",http://purl.obolibrary.org/obo/OMIT_0004546
-personal,primaryaffiliatedinstitute,ref,,,primaryaffiliatedinstitute,"The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person.",http://purl.obolibrary.org/obo/NCIT_C25412
-personal,resourcesinotherinstitutes,ref_array,,,resourcesinotherinstitutes,"Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals.",http://purl.obolibrary.org/obo/NCIT_C19012
-personal,participatesinstudy,ref_array,,,study,"Reference to the study or studies in which this person participates.",http://purl.obolibrary.org/obo/RO_0000056
-leafletandconsentform,,,,,,"A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian.",http://purl.obolibrary.org/obo/NCIT_C16468
-leafletandconsentform,leaflettitle,string,,,,"A title or name given to the leaflet that belongs to this consent form.",http://purl.org/dc/terms/title
-leafletandconsentform,leafletdate,date,,,,"A point or period of time associated with the publication of this leaflet that belongs to this consent form.",http://purl.org/dc/terms/date
-leafletandconsentform,leafletversion,string,,,,"The version, edition, or adaptation of this leaflet that belongs to this consent form.",http://purl.org/dc/terms/hasVersion
-leafletandconsentform,consentformidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular leaflet and consent form combination used in signing individual consent. Using a DOI would be optimal. Using any resolvable URL is suboptimal but still preferable over using a plain text value.",http://purl.org/dc/terms/identifier
-leafletandconsentform,consentformtitle,string,,,,"A title or name given to this consent form.",http://purl.org/dc/terms/title
-leafletandconsentform,consentformaccepteddate,date,,,,"Date of acceptance of this consent form.",http://purl.org/dc/terms/dateAccepted
-leafletandconsentform,consentformvaliduntil,date,,,,"End date of the validity of this consent form.",http://purl.org/dc/terms/valid
-leafletandconsentform,consentformcreator,ref_array,,,consentformcreator,"Indicates the authoritative body who brought this consent form into existence.",http://purl.org/dc/terms/creator
-leafletandconsentform,consentformversion,string,,,,"The version, edition, or adaptation of this consent form.",http://purl.org/dc/terms/hasVersion
-individualconsent,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
-individualconsent,individualconsentidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular signed individual consent.",http://purl.obolibrary.org/obo/ICO_0000044
-individualconsent,personconsenting,ref,,,personal,"Reference to the person (i.e. subject) to whom this individual consent applies.",http://purl.obolibrary.org/obo/IAO_0000136
-individualconsent,consentformused,ref,,,leafletandconsentform,"Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent.",http://purl.obolibrary.org/obo/IAO_0000136
-individualconsent,collectedby,ref,,,collectedby,"Indicates the institute who performed the collection act.",http://purl.obolibrary.org/obo/NCIT_C45262
-individualconsent,signingdate,date,,,,"A date specification that designates when this individual consent form was signed.",http://purl.obolibrary.org/obo/ICO_0000036
-individualconsent,validfrom,date,,,,"Starting date of the validity of this individual consent.",http://purl.org/dc/terms/valid
-individualconsent,validuntil,date,,,,"End date of the validity of this individual consent.",http://purl.org/dc/terms/valid
-individualconsent,representedby,ref,,,representedby,"An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.",http://purl.obolibrary.org/obo/NCIT_C142600
-individualconsent,datausepermissions,ref,,,datausepermissions,"A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.",http://purl.obolibrary.org/obo/DUO_0000001
-individualconsent,datausemodifiers,ref_array,,,datausemodifiers,"Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to investigations into specific diseases or performed at specific geographical locations.",http://purl.obolibrary.org/obo/DUO_0000017
-individualconsent,datausespecification,text,,,,"Further specification of applied data use permissions and modifiers. For example, a list of countries in case of geographic restrictions or a list of diseases when restricted to disease-specific research.",http://semanticscience.org/resource/SIO_000090
-individualconsent,allowrecontacting,ref_array,,,allowrecontacting,"The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.",http://purl.obolibrary.org/obo/NCIT_C25737
-clinical,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
-clinical,clinicalidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular clinical examination.",http://purl.obolibrary.org/obo/NCIT_C87853
-clinical,belongstoperson,ref,,,personal,"Reference to the person whom this clinical information is about.",http://purl.obolibrary.org/obo/IAO_0000136
-clinical,phenotype,ref_array,,,phenotype,"The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease.",http://purl.obolibrary.org/obo/NCIT_C16977
-clinical,unobservedphenotype,ref_array,,,unobservedphenotype,"Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance.",http://purl.bioontology.org/ontology/HL7/C0442737
-clinical,phenotypicdataavailable,ref_array,,,phenotypicdataavailable,"Types of phenotypic data collected in a clinical setting that is potentially available upon request.",http://purl.obolibrary.org/obo/NCIT_C15783
-clinical,clinicaldiagnosis,ref_array,,,clinicaldiagnosis,"A diagnosis made from a study of the signs and symptoms of a disease.",http://purl.obolibrary.org/obo/NCIT_C15607
-clinical,moleculardiagnosisgene,ref_array,,,moleculardiagnosisgene,"Gene affected by pathogenic variation that is causal for disease of the patient.",http://purl.obolibrary.org/obo/NCIT_C20826
-clinical,moleculardiagnosisother,text,,,,"Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.",http://purl.obolibrary.org/obo/NCIT_C20826
-clinical,ageatdiagnosis,int,,,,"The age, measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease.",http://purl.bioontology.org/ontology/SNOMEDCT/423493009
-clinical,ageatlastscreening,int,,,,"Age of the patient at the moment of the most recent screening.",http://purl.obolibrary.org/obo/NCIT_C81258
-clinical,medication,ref_array,,,medication,"A drug product that contains one or more active and/or inactive ingredients used by the patient intended to treat, prevent or alleviate the symptoms of disease. Any hormone therapies, gender-related or otherwise, should also be recorded here.",http://purl.obolibrary.org/obo/NCIT_C459
-clinical,drugregimen,text,,,,"The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.",http://purl.obolibrary.org/obo/NCIT_C142516
-clinical,familymembersaffected,ref_array,,,familymembersaffected,"Family members related by descent rather than by marriage or law who were diagnosed with the same condition as the individual who is the primary focus of investigation (i.e. the proband).",http://purl.obolibrary.org/obo/HP_0032320
-clinical,familymemberssequenced,ref_array,,,familymemberssequenced,"Family members related by descent rather than by marriage or law who were also tested by next-generation sequencing.",http://purl.obolibrary.org/obo/NCIT_C79916
-clinical,medicalhistory,ref_array,,,medicalhistory,"A record of a person's background regarding health, occurrence of disease events and surgical procedures.",http://purl.obolibrary.org/obo/NCIT_C18772
-clinical,ageofonset,int,,,,"Age of onset of clinical manifestations related to the disease of the patient.",http://www.orpha.net/ORDO/Orphanet_C023
-clinical,firstcontact,date,,,,"First contact of the patient with a specialised center in context of disease or study inclusion.",http://purl.bioontology.org/ontology/LNC/MTHU048806
-clinical,functioning,text,,,,"Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).",http://purl.obolibrary.org/obo/NCIT_C21007
-clinical,materialusedindiagnosis,string,,,,"This diagnosis c.q. clinical examination is based on one or more sampled materials.",http://semanticscience.org/resource/SIO_000641
-material,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
-material,materialidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular material.",http://purl.obolibrary.org/obo/NCIT_C93400
-material,collectedfromperson,ref,,,personal,"Reference to the person from whom this material was collected.",http://semanticscience.org/resource/SIO_000244
-material,belongstodiagnosis,ref_array,,,clinical,"Reference to a diagnosis c.q. clinical examination of which this material may be a part of. There can be multiple diagnoses when a non-tumor material is reused as reference.",http://semanticscience.org/resource/SIO_000068
-material,samplingtimestamp,datetime,,,,"Date and time at which this material was collected.",http://www.ebi.ac.uk/efo/EFO_0000689
-material,registrationtimestamp,datetime,,,,"Date and time at which this material was listed or recorded officially, i.e. officially qualified or enrolled.",http://purl.obolibrary.org/obo/NCIT_C25646
-material,samplingprotocol,text,,,,"The procedure whereby this material was sampled for an analysis.",http://www.ebi.ac.uk/efo/EFO_0005518
-material,samplingprotocoldeviation,string,,,,"A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.",http://purl.obolibrary.org/obo/NCIT_C50996
-material,reasonforsamplingprotocoldeviation,string,,,,"The rationale for why a deviation from the sampling protocol has occurred.",http://purl.obolibrary.org/obo/NCIT_C93529
-material,biospecimentype,ref,,,biospecimentype,"The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes.",http://purl.obolibrary.org/obo/NCIT_C70713
-material,anatomicalsource,ref,,,anatomicalsource,"Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken.",http://purl.obolibrary.org/obo/NCIT_C103264
-material,pathologicalstate,ref,,,pathologicalstate,"The pathological state of the tissue from which this material was derived.",http://purl.obolibrary.org/obo/GO_0001894
-material,storageconditions,ref,,,storageconditions,"The conditions under which this biological material was stored.",http://purl.obolibrary.org/obo/NCIT_C96145
-material,expirationdate,date,,,,"The date beyond which this material is no longer regarded as fit for use.",http://purl.obolibrary.org/obo/NCIT_C164516
-material,percentagetumorcells,decimal,,,,"The percentage of tumor cells compared to total cells present in this material.",http://purl.obolibrary.org/obo/NCIT_C127771
-material,physicallocation,string,,,,"A place on the Earth where this material is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).",http://purl.obolibrary.org/obo/GAZ_00000448
-material,analysesperformed,ref_array,,,analysesperformed,"Reports the existence of any analyses performed on this material other than genomics (e.g. transcriptomics, metabolomics, proteomics).",http://purl.obolibrary.org/obo/IAO_0000702
-material,derivedfrom,string,,,,"Indicate if this material was produced from or related to another.",http://purl.obolibrary.org/obo/NCIT_C28355
-samplepreparation,,,,,,"A sample preparation for a nucleic acids sequencing assay.",http://purl.obolibrary.org/obo/OBI_0001902
-samplepreparation,sampleprepidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular sample preparation.",http://purl.obolibrary.org/obo/NCIT_C132299
-samplepreparation,belongstomaterial,ref,,,material,"Reference to the source material from which this sample was prepared.",http://purl.obolibrary.org/obo/NCIT_C25683
-samplepreparation,inputamount,int,,,,"Amount of input material in nanogram (ng).",http://purl.allotrope.org/ontologies/role#AFRL_0000010
-samplepreparation,librarypreparationkit,ref,,,librarypreparationkit,"Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.",http://purl.obolibrary.org/obo/GENEPIO_0000085
-samplepreparation,pcrfree,bool,,,,"Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase.",http://purl.obolibrary.org/obo/NCIT_C17003
-samplepreparation,targetenrichmentkit,ref,,,targetenrichmentkit,"Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample.",http://purl.obolibrary.org/obo/NCIT_C154307
-samplepreparation,umispresent,bool,,,,"Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.",http://www.ebi.ac.uk/efo/EFO_0010199
-samplepreparation,intendedinsertsize,int,,,,"In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.",https://w3id.org/fair-genomes/resource/FG_0000001
-samplepreparation,intendedreadlength,int,,,,"The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.",http://purl.obolibrary.org/obo/NCIT_C153362
-sequencing,,,,,,"The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.",http://edamontology.org/topic_3168
-sequencing,sequencingidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay.",http://purl.obolibrary.org/obo/NCIT_C171337
-sequencing,belongstosample,ref,,,samplepreparation,"Reference to the prepared sample, i.e. the source that was sequenced.",http://purl.obolibrary.org/obo/NCIT_C25683
-sequencing,sequencingdate,date,,,,"Date on which this sequencing assay was performed.",http://purl.obolibrary.org/obo/GENEPIO_0000069
-sequencing,sequencingplatform,ref,,,sequencingplatform,"The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment).",http://purl.obolibrary.org/obo/GENEPIO_0000071
-sequencing,sequencinginstrumentmodel,ref,,,sequencinginstrumentmodel,"The used product name and model number of a manufacturer's genomic (dna) sequencer.",http://purl.obolibrary.org/obo/GENEPIO_0001921
-sequencing,sequencingmethod,ref,,,sequencingmethod,"Method used to determine the order of bases in a nucleic acid sequence.",http://purl.obolibrary.org/obo/FIX_0000704
-sequencing,medianreaddepth,int,,,,"The median number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.",http://purl.obolibrary.org/obo/NCIT_C155320
-sequencing,observedreadlength,int,,,,"The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.",http://purl.obolibrary.org/obo/NCIT_C153362
-sequencing,observedinsertsize,int,,,,"In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.",https://w3id.org/fair-genomes/resource/FG_0000002
-sequencing,percentageq30,decimal,,,,"Percentage of reads with a Phred quality score over 30, which indicates less than a 1/1000 chance that the base was called incorrectly.",http://purl.obolibrary.org/obo/GENEPIO_0000089
-sequencing,percentagetr20,decimal,,,,"Percentage of the target sequence on which 20 or more unique reads were successfully mapped.",https://w3id.org/fair-genomes/resource/FG_0000003
-sequencing,otherqualitymetrics,text,,,,"Other NGS quality control metrics, including but not limited to (i) sequencer metrics such as yield, error rate, density (K/mm2), cluster PF (%) and phas/prephas (%), (ii) alignment metrics such as QM insert size, GC content, QM duplicated reads (%), QM error rate, uniformity/evenness of coverage and maternal cell contamination, and (iii) variant call metrics such as number of SNVs/CNVs/SVs called, number of missense/nonsense variants, common variants (%), unique variants (%), gender match and trio inheritance check.",http://edamontology.org/data_3914
-analysis,,,,,,"An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output.",http://edamontology.org/operation_2945
-analysis,analysisidentifier,string,1,TRUE,,"A unique proper name or character sequence that identifies this particular analysis.",http://purl.allotrope.org/ontologies/result#AFR_0001979
-analysis,belongstosequencing,ref,,,sequencing,"Reference to the sequencing that was performed, i.e. the source on which this analysis was based.",http://purl.obolibrary.org/obo/NCIT_C25683
-analysis,physicaldatalocation,string,,,,"A place on the Earth where the data is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).",http://purl.obolibrary.org/obo/GAZ_00000448
-analysis,abstractdatalocation,string,,,,"The file location of the data, or a copy of the data, on an electronically accessible device for preservation (either in plain-text or encrypted format).",http://purl.obolibrary.org/obo/NCIT_C142494
-analysis,dataformatsstored,ref_array,,,dataformatsstored,"Which data file formats (i.e. defined ways or layouts of representing and structuring data in a computer file, blob, string, message, or elsewhere) are stored and potentially available.",http://purl.obolibrary.org/obo/NCIT_C142494
-analysis,algorithmsused,text,,,,"Any used problem-solving procedures implemented in software to be executed by a computer.",http://purl.obolibrary.org/obo/NCIT_C16275
-analysis,referencegenomeused,ref,,,referencegenomeused,"The specific build of the human genome used as reference for sequence alignment and variant calling.",http://edamontology.org/data_2340
-analysis,bioinformaticprotocolused,text,,,,"A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis.",http://edamontology.org/data_2531
-analysis,bioinformaticprotocoldeviation,string,,,,"A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.",http://purl.obolibrary.org/obo/NCIT_C50996
-analysis,reasonforbioinformaticprotocoldeviation,string,,,,"The rationale for why a deviation from the bioinformatic protocol has occurred.",http://purl.obolibrary.org/obo/NCIT_C93529
-analysis,wgsguidelinefollowed,string,,,,"Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.",http://purl.obolibrary.org/obo/NCIT_C17564
+Study,,,,,,"A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts.",http://purl.obolibrary.org/obo/NCIT_C63536
+"Study","Identifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular study.","http://purl.obolibrary.org/obo/OMIABIS_0000006"
+"Study","Name","string","","","","A name that designates this study.","http://purl.obolibrary.org/obo/OMIABIS_0000037"
+"Study","Description","text","","","","A statement or piece of writing that provides details on this study.","http://purl.obolibrary.org/obo/OMIABIS_0000036"
+"Study","InclusionCriteria","ontology_array","","","InclusionCriteria","The conditions which, if met, make an person eligible for participation in this study.","http://purl.obolibrary.org/obo/OBI_0500027"
+"Study","PrincipalInvestigator","string","","","","The principal investigator or responsible person for this study.","http://purl.obolibrary.org/obo/OMIABIS_0000100"
+"Study","ContactInformation","string","","","","An email address for the purpose of contacting the study contact person.","http://purl.obolibrary.org/obo/OMIABIS_0000035"
+"Study","StudyDesign","text","","","","A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of this study.","http://purl.obolibrary.org/obo/OBI_0500000"
+"Study","StartDate","date","","","","The date on which this study began.","http://purl.obolibrary.org/obo/NCIT_C69208"
+"Study","CompletionDate","date","","","","The date on which the concluding information for this study is completed. Usually, this is when the last subject has a final visit, or the main analysis has finished, or any other protocol-defined completion date.","http://purl.obolibrary.org/obo/NCIT_C142702"
+Personal,,,,,,"Data, facts or figures about an individual; the set of relevant items would depend on the use case.",http://purl.obolibrary.org/obo/NCIT_C90492
+"Personal","PersonalIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular person.","http://purl.obolibrary.org/obo/NCIT_C164337"
+"Personal","GenderIdentity","ontology","","","GenderIdentity","A person's concept of self as being male and masculine or female and feminine, or ambivalent, based in part on physical characteristics, parental responses, and psychological and social pressures. It is the internal experience of gender role. For practical reasons the lookups are limited to first and second-level entries, but can be expanded when needed. Note that 'Gender at birth', 'Genotypic sex' and any (gender-related) hormone therapies in 'Medication' are usually medically more relevant than this term.","http://purl.bioontology.org/ontology/MESH/D005783"
+"Personal","GenderAtBirth","ontology","","","GenderAtBirth","Assigned gender is one's gender which was assigned at birth, typically by a medical and/or legal organization, and then later registered with other organizations. Such a designation is typically based off of the superficial appearance of external genitalia present at birth.","http://purl.obolibrary.org/obo/GSSO_009418"
+"Personal","GenotypicSex","ontology","","","GenotypicSex","A biological sex quality inhering in an individual based upon genotypic composition of sex chromosomes.","http://purl.obolibrary.org/obo/PATO_0020000"
+"Personal","CountryOfResidence","ontology","","","CountryOfResidence","Country of residence at enrollment.","http://purl.obolibrary.org/obo/NCIT_C171105"
+"Personal","Ancestry","ontology_array","","","Ancestry","Population category defined using ancestry informative markers (AIMs) based on genetic/genomic data.","http://purl.obolibrary.org/obo/NCIT_C176763"
+"Personal","CountryOfBirth","ontology","","","CountryOfBirth","The country that this person was born in.","http://purl.obolibrary.org/obo/GENEPIO_0001094"
+"Personal","YearOfBirth","int","","","","The year in which this person was born.","http://purl.obolibrary.org/obo/NCIT_C83164"
+"Personal","InclusionStatus","ontology","","","InclusionStatus","An indicator that provides information on the current health status of this person.","http://purl.obolibrary.org/obo/NCIT_C166244"
+"Personal","AgeAtDeath","int","","","","The age at which death occurred.","http://purl.obolibrary.org/obo/NCIT_C135383"
+"Personal","Consanguinity","bool","","","","Information on whether the patient is a child from two family members who are second cousins or closer.","http://purl.obolibrary.org/obo/OMIT_0004546"
+"Personal","PrimaryAffiliatedInstitute","ontology","","","PrimaryAffiliatedInstitute","The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person.","http://purl.obolibrary.org/obo/NCIT_C25412"
+"Personal","ResourcesInOtherInstitutes","ontology_array","","","ResourcesInOtherInstitutes","Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals.","http://purl.obolibrary.org/obo/NCIT_C19012"
+"Personal","ParticipatesInStudy","ref_array","","","Study","Reference to the study or studies in which this person participates.","http://purl.obolibrary.org/obo/RO_0000056"
+LeafletAndConsentForm,,,,,,"A document explaining all the relevant information to assist an individual in understanding the expectations and risks in making a decision about a procedure. This document is presented to and signed by the individual or guardian.",http://purl.obolibrary.org/obo/NCIT_C16468
+"LeafletAndConsentForm","LeafletTitle","string","","","","A title or name given to the leaflet that belongs to this consent form.","http://purl.org/dc/terms/title"
+"LeafletAndConsentForm","LeafletDate","date","","","","A point or period of time associated with the publication of this leaflet that belongs to this consent form.","http://purl.org/dc/terms/date"
+"LeafletAndConsentForm","LeafletVersion","string","","","","The version, edition, or adaptation of this leaflet that belongs to this consent form.","http://purl.org/dc/terms/hasVersion"
+"LeafletAndConsentForm","ConsentFormIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular leaflet and consent form combination used in signing individual consent. Using a DOI would be optimal. Using any resolvable URL is suboptimal but still preferable over using a plain text value.","http://purl.org/dc/terms/identifier"
+"LeafletAndConsentForm","ConsentFormTitle","string","","","","A title or name given to this consent form.","http://purl.org/dc/terms/title"
+"LeafletAndConsentForm","ConsentFormAcceptedDate","date","","","","Date of acceptance of this consent form.","http://purl.org/dc/terms/dateAccepted"
+"LeafletAndConsentForm","ConsentFormValidUntil","date","","","","End date of the validity of this consent form.","http://purl.org/dc/terms/valid"
+"LeafletAndConsentForm","ConsentFormCreator","ontology_array","","","ConsentFormCreator","Indicates the authoritative body who brought this consent form into existence.","http://purl.org/dc/terms/creator"
+"LeafletAndConsentForm","ConsentFormVersion","string","","","","The version, edition, or adaptation of this consent form.","http://purl.org/dc/terms/hasVersion"
+IndividualConsent,,,,,,"Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved.",http://purl.obolibrary.org/obo/NCIT_C16735
+"IndividualConsent","IndividualConsentIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular signed individual consent.","http://purl.obolibrary.org/obo/ICO_0000044"
+"IndividualConsent","PersonConsenting","ref","","","Personal","Reference to the person (i.e. subject) to whom this individual consent applies.","http://purl.obolibrary.org/obo/IAO_0000136"
+"IndividualConsent","ConsentFormUsed","ref","","","LeafletAndConsentForm","Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent.","http://purl.obolibrary.org/obo/IAO_0000136"
+"IndividualConsent","CollectedBy","ontology","","","CollectedBy","Indicates the institute who performed the collection act.","http://purl.obolibrary.org/obo/NCIT_C45262"
+"IndividualConsent","SigningDate","date","","","","A date specification that designates when this individual consent form was signed.","http://purl.obolibrary.org/obo/ICO_0000036"
+"IndividualConsent","ValidFrom","date","","","","Starting date of the validity of this individual consent.","http://purl.org/dc/terms/valid"
+"IndividualConsent","ValidUntil","date","","","","End date of the validity of this individual consent.","http://purl.org/dc/terms/valid"
+"IndividualConsent","RepresentedBy","ontology","","","RepresentedBy","An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research.","http://purl.obolibrary.org/obo/NCIT_C142600"
+"IndividualConsent","DataUsePermissions","ontology","","","DataUsePermissions","A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be used.","http://purl.obolibrary.org/obo/DUO_0000001"
+"IndividualConsent","DataUseModifiers","ontology_array","","","DataUseModifiers","Data use modifiers indicate additional conditions for use. For instance, a dataset is restricted to investigations into specific diseases or performed at specific geographical locations.","http://purl.obolibrary.org/obo/DUO_0000017"
+"IndividualConsent","DataUseSpecification","text","","","","Further specification of applied data use permissions and modifiers. For example, a list of countries in case of geographic restrictions or a list of diseases when restricted to disease-specific research.","http://semanticscience.org/resource/SIO_000090"
+"IndividualConsent","AllowRecontacting","ontology_array","","","AllowRecontacting","The procedure of recontacting the patient for specified reasons. This means the patient agrees to be re-identifiable under those circumstances.","http://purl.obolibrary.org/obo/NCIT_C25737"
+Clinical,,,,,,"Findings and circumstances relating to the examination and treatment of a patient.",http://purl.obolibrary.org/obo/NCIT_C25398
+"Clinical","ClinicalIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular clinical examination.","http://purl.obolibrary.org/obo/NCIT_C87853"
+"Clinical","BelongsToPerson","ref","","","Personal","Reference to the person whom this clinical information is about.","http://purl.obolibrary.org/obo/IAO_0000136"
+"Clinical","Phenotype","ontology_array","","","Phenotype","The outward appearance of the individual. In medical context, these are often the symptoms caused by a disease.","http://purl.obolibrary.org/obo/NCIT_C16977"
+"Clinical","UnobservedPhenotype","ontology_array","","","UnobservedPhenotype","Phenotypes or symptoms that were looked for but not observed, which may help in differential diagnosis or establish incomplete penetrance.","http://purl.bioontology.org/ontology/HL7/C0442737"
+"Clinical","PhenotypicDataAvailable","ontology_array","","","PhenotypicDataAvailable","Types of phenotypic data collected in a clinical setting that is potentially available upon request.","http://purl.obolibrary.org/obo/NCIT_C15783"
+"Clinical","ClinicalDiagnosis","ontology_array","","","ClinicalDiagnosis","A diagnosis made from a study of the signs and symptoms of a disease.","http://purl.obolibrary.org/obo/NCIT_C15607"
+"Clinical","MolecularDiagnosisGene","ontology_array","","","MolecularDiagnosisGene","Gene affected by pathogenic variation that is causal for disease of the patient.","http://purl.obolibrary.org/obo/NCIT_C20826"
+"Clinical","MolecularDiagnosisOther","text","","","","Causal variant in HGVS notation with optional classification or free text explaining any other molecular mechanisms involved.","http://purl.obolibrary.org/obo/NCIT_C20826"
+"Clinical","AgeAtDiagnosis","int","","","","The age, measured from some defined time point (e.g. birth) at which a patient is diagnosed with a disease.","http://purl.bioontology.org/ontology/SNOMEDCT/423493009"
+"Clinical","AgeAtLastScreening","int","","","","Age of the patient at the moment of the most recent screening.","http://purl.obolibrary.org/obo/NCIT_C81258"
+"Clinical","Medication","ontology_array","","","Medication","A drug product that contains one or more active and/or inactive ingredients used by the patient intended to treat, prevent or alleviate the symptoms of disease. Any hormone therapies, gender-related or otherwise, should also be recorded here.","http://purl.obolibrary.org/obo/NCIT_C459"
+"Clinical","DrugRegimen","text","","","","The specific way a therapeutic drug is to be taken, including formulation, route of administration, dose, dosing interval, and treatment duration.","http://purl.obolibrary.org/obo/NCIT_C142516"
+"Clinical","FamilyMembersAffected","ontology_array","","","FamilyMembersAffected","Family members related by descent rather than by marriage or law who were diagnosed with the same condition as the individual who is the primary focus of investigation (i.e. the proband).","http://purl.obolibrary.org/obo/HP_0032320"
+"Clinical","FamilyMembersSequenced","ontology_array","","","FamilyMembersSequenced","Family members related by descent rather than by marriage or law who were also tested by next-generation sequencing.","http://purl.obolibrary.org/obo/NCIT_C79916"
+"Clinical","MedicalHistory","ontology_array","","","MedicalHistory","A record of a person's background regarding health, occurrence of disease events and surgical procedures.","http://purl.obolibrary.org/obo/NCIT_C18772"
+"Clinical","AgeOfOnset","int","","","","Age of onset of clinical manifestations related to the disease of the patient.","http://www.orpha.net/ORDO/Orphanet_C023"
+"Clinical","FirstContact","date","","","","First contact of the patient with a specialised center in context of disease or study inclusion.","http://purl.bioontology.org/ontology/LNC/MTHU048806"
+"Clinical","Functioning","text","","","","Patient's classification of functioning i.e. disability profile according to International Classification of Functioning and Disability (ICF).","http://purl.obolibrary.org/obo/NCIT_C21007"
+"Clinical","MaterialUsedInDiagnosis","string","","","","This diagnosis c.q. clinical examination is based on one or more sampled materials.","http://semanticscience.org/resource/SIO_000641"
+Material,,,,,,"A natural substance derived from living organisms such as cells, tissues, proteins, and DNA.",http://purl.obolibrary.org/obo/NCIT_C43376
+"Material","MaterialIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular material.","http://purl.obolibrary.org/obo/NCIT_C93400"
+"Material","CollectedFromPerson","ref","","","Personal","Reference to the person from whom this material was collected.","http://semanticscience.org/resource/SIO_000244"
+"Material","BelongsToDiagnosis","ref_array","","","Clinical","Reference to a diagnosis c.q. clinical examination of which this material may be a part of. There can be multiple diagnoses when a non-tumor material is reused as reference.","http://semanticscience.org/resource/SIO_000068"
+"Material","SamplingTimestamp","datetime","","","","Date and time at which this material was collected.","http://www.ebi.ac.uk/efo/EFO_0000689"
+"Material","RegistrationTimestamp","datetime","","","","Date and time at which this material was listed or recorded officially, i.e. officially qualified or enrolled.","http://purl.obolibrary.org/obo/NCIT_C25646"
+"Material","SamplingProtocol","text","","","","The procedure whereby this material was sampled for an analysis.","http://www.ebi.ac.uk/efo/EFO_0005518"
+"Material","SamplingProtocolDeviation","string","","","","A variation from processes or procedures defined in the sampling protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.","http://purl.obolibrary.org/obo/NCIT_C50996"
+"Material","ReasonForSamplingProtocolDeviation","string","","","","The rationale for why a deviation from the sampling protocol has occurred.","http://purl.obolibrary.org/obo/NCIT_C93529"
+"Material","BiospecimenType","ontology","","","BiospecimenType","The type of material taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes.","http://purl.obolibrary.org/obo/NCIT_C70713"
+"Material","AnatomicalSource","ontology","","","AnatomicalSource","Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken.","http://purl.obolibrary.org/obo/NCIT_C103264"
+"Material","PathologicalState","ontology","","","PathologicalState","The pathological state of the tissue from which this material was derived.","http://purl.obolibrary.org/obo/GO_0001894"
+"Material","StorageConditions","ontology","","","StorageConditions","The conditions under which this biological material was stored.","http://purl.obolibrary.org/obo/NCIT_C96145"
+"Material","ExpirationDate","date","","","","The date beyond which this material is no longer regarded as fit for use.","http://purl.obolibrary.org/obo/NCIT_C164516"
+"Material","PercentageTumorCells","decimal","","","","The percentage of tumor cells compared to total cells present in this material.","http://purl.obolibrary.org/obo/NCIT_C127771"
+"Material","PhysicalLocation","string","","","","A place on the Earth where this material is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which freezer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).","http://purl.obolibrary.org/obo/GAZ_00000448"
+"Material","AnalysesPerformed","ontology_array","","","AnalysesPerformed","Reports the existence of any analyses performed on this material other than genomics (e.g. transcriptomics, metabolomics, proteomics).","http://purl.obolibrary.org/obo/IAO_0000702"
+"Material","DerivedFrom","string","","","","Indicate if this material was produced from or related to another.","http://purl.obolibrary.org/obo/NCIT_C28355"
+SamplePreparation,,,,,,"A sample preparation for a nucleic acids sequencing assay.",http://purl.obolibrary.org/obo/OBI_0001902
+"SamplePreparation","SampleprepIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular sample preparation.","http://purl.obolibrary.org/obo/NCIT_C132299"
+"SamplePreparation","BelongsToMaterial","ref","","","Material","Reference to the source material from which this sample was prepared.","http://purl.obolibrary.org/obo/NCIT_C25683"
+"SamplePreparation","InputAmount","int","","","","Amount of input material in nanogram (ng).","http://purl.allotrope.org/ontologies/role#AFRL_0000010"
+"SamplePreparation","LibraryPreparationKit","ontology","","","LibraryPreparationKit","Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications.","http://purl.obolibrary.org/obo/GENEPIO_0000085"
+"SamplePreparation","PcrFree","bool","","","","Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase.","http://purl.obolibrary.org/obo/NCIT_C17003"
+"SamplePreparation","TargetEnrichmentKit","ontology","","","TargetEnrichmentKit","Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample.","http://purl.obolibrary.org/obo/NCIT_C154307"
+"SamplePreparation","UmisPresent","bool","","","","Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule.","http://www.ebi.ac.uk/efo/EFO_0010199"
+"SamplePreparation","IntendedInsertSize","int","","","","In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.","https://w3id.org/fair-genomes/resource/FG_0000001"
+"SamplePreparation","IntendedReadLength","int","","","","The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.","http://purl.obolibrary.org/obo/NCIT_C153362"
+Sequencing,,,,,,"The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.",http://edamontology.org/topic_3168
+"Sequencing","SequencingIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay.","http://purl.obolibrary.org/obo/NCIT_C171337"
+"Sequencing","BelongsToSample","ref","","","SamplePreparation","Reference to the prepared sample, i.e. the source that was sequenced.","http://purl.obolibrary.org/obo/NCIT_C25683"
+"Sequencing","SequencingDate","date","","","","Date on which this sequencing assay was performed.","http://purl.obolibrary.org/obo/GENEPIO_0000069"
+"Sequencing","SequencingPlatform","ontology","","","SequencingPlatform","The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment).","http://purl.obolibrary.org/obo/GENEPIO_0000071"
+"Sequencing","SequencingInstrumentModel","ontology","","","SequencingInstrumentModel","The used product name and model number of a manufacturer's genomic (dna) sequencer.","http://purl.obolibrary.org/obo/GENEPIO_0001921"
+"Sequencing","SequencingMethod","ontology","","","SequencingMethod","Method used to determine the order of bases in a nucleic acid sequence.","http://purl.obolibrary.org/obo/FIX_0000704"
+"Sequencing","MedianReadDepth","int","","","","The median number of times a particular locus (site, nucleotide, amplicon, region) was sequenced.","http://purl.obolibrary.org/obo/NCIT_C155320"
+"Sequencing","ObservedReadLength","int","","","","The number of nucleotides successfully ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process.","http://purl.obolibrary.org/obo/NCIT_C153362"
+"Sequencing","ObservedInsertSize","int","","","","In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance.","https://w3id.org/fair-genomes/resource/FG_0000002"
+"Sequencing","PercentageQ30","decimal","","","","Percentage of reads with a Phred quality score over 30, which indicates less than a 1/1000 chance that the base was called incorrectly.","http://purl.obolibrary.org/obo/GENEPIO_0000089"
+"Sequencing","PercentageTr20","decimal","","","","Percentage of the target sequence on which 20 or more unique reads were successfully mapped.","https://w3id.org/fair-genomes/resource/FG_0000003"
+"Sequencing","OtherQualityMetrics","text","","","","Other NGS quality control metrics, including but not limited to (i) sequencer metrics such as yield, error rate, density (K/mm2), cluster PF (%) and phas/prephas (%), (ii) alignment metrics such as QM insert size, GC content, QM duplicated reads (%), QM error rate, uniformity/evenness of coverage and maternal cell contamination, and (iii) variant call metrics such as number of SNVs/CNVs/SVs called, number of missense/nonsense variants, common variants (%), unique variants (%), gender match and trio inheritance check.","http://edamontology.org/data_3914"
+Analysis,,,,,,"An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output.",http://edamontology.org/operation_2945
+"Analysis","AnalysisIdentifier","string","1","TRUE","","A unique proper name or character sequence that identifies this particular analysis.","http://purl.allotrope.org/ontologies/result#AFR_0001979"
+"Analysis","BelongsToSequencing","ref","","","Sequencing","Reference to the sequencing that was performed, i.e. the source on which this analysis was based.","http://purl.obolibrary.org/obo/NCIT_C25683"
+"Analysis","PhysicalDataLocation","string","","","","A place on the Earth where the data is located, by its name or by its geographical location. This definition is intentionally vague to allow reuse locally (e.g. which computer), for contacting (e.g. which institute), broadly for logistical or legal reasons (e.g. city, country or continent).","http://purl.obolibrary.org/obo/GAZ_00000448"
+"Analysis","AbstractDataLocation","string","","","","The file location of the data, or a copy of the data, on an electronically accessible device for preservation (either in plain-text or encrypted format).","http://purl.obolibrary.org/obo/NCIT_C142494"
+"Analysis","DataFormatsStored","ontology_array","","","DataFormatsStored","Which data file formats (i.e. defined ways or layouts of representing and structuring data in a computer file, blob, string, message, or elsewhere) are stored and potentially available.","http://purl.obolibrary.org/obo/NCIT_C142494"
+"Analysis","AlgorithmsUsed","text","","","","Any used problem-solving procedures implemented in software to be executed by a computer.","http://purl.obolibrary.org/obo/NCIT_C16275"
+"Analysis","ReferenceGenomeUsed","ontology","","","ReferenceGenomeUsed","The specific build of the human genome used as reference for sequence alignment and variant calling.","http://edamontology.org/data_2340"
+"Analysis","BioinformaticProtocolUsed","text","","","","A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis.","http://edamontology.org/data_2531"
+"Analysis","BioinformaticProtocolDeviation","string","","","","A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor.","http://purl.obolibrary.org/obo/NCIT_C50996"
+"Analysis","ReasonForBioinformaticProtocolDeviation","string","","","","The rationale for why a deviation from the bioinformatic protocol has occurred.","http://purl.obolibrary.org/obo/NCIT_C93529"
+"Analysis","WgsGuidelineFollowed","string","","","","Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.","http://purl.obolibrary.org/obo/NCIT_C17564"

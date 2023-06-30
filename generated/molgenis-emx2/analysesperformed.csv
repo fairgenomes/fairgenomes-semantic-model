@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Immunomics","The study of immune system as a whole, its regulation and response to pathogens using genome-wide approaches.","EDAM","topic_3967","http://edamontology.org/topic_3967"
 "Epistasis","The study of the epigenetic modifications of a whole cell, tissue, organism etc.","EDAM","topic_3974","http://edamontology.org/topic_3974"
 "Population genomics","Large-scale study (typically comparison) of DNA sequences of populations.","EDAM","topic_3796","http://edamontology.org/topic_3796"

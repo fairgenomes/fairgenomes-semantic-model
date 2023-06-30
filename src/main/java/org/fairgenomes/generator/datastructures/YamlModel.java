@@ -1,5 +1,6 @@
 package org.fairgenomes.generator.datastructures;
 
+import org.apache.commons.text.CaseUtils;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.File;
@@ -270,7 +271,8 @@ public class YamlModel {
      */
     public static String toTechName(String in)
     {
-        return in.replace(" ", "").toLowerCase();
+        return CaseUtils.toCamelCase(in, true, ' ');
+        //previously: return in.replace(" ", "").toLowerCase();
     }
 
     @Override

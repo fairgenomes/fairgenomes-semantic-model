@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable
-value	analysis_dataformatsstored	Value (English)	String	TRUE	FALSE
-description	analysis_dataformatsstored	Description (English)	Text	FALSE	TRUE
-codesystem	analysis_dataformatsstored	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	analysis_dataformatsstored	The code within the code system	String	FALSE	TRUE
-iri	analysis_dataformatsstored	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
+value	Analysis_DataFormatsStored	Value (English)	String	TRUE	FALSE
+description	Analysis_DataFormatsStored	Description (English)	Text	FALSE	TRUE
+codesystem	Analysis_DataFormatsStored	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	Analysis_DataFormatsStored	The code within the code system	String	FALSE	TRUE
+iri	Analysis_DataFormatsStored	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

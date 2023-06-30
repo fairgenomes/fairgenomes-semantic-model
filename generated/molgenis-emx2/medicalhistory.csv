@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Fractionated Stereotactic Radiation Therapy","Fractionated Stereotactic Radiation Therapy","NCIT","C156862","http://purl.obolibrary.org/obo/NCIT_C156862"
 "masculinizing thoracic surgery","masculinizing thoracic surgery","GSSO","000110","http://purl.obolibrary.org/obo/GSSO_000110"
 "masculinizing mastectomy","masculinizing mastectomy","GSSO","000126","http://purl.obolibrary.org/obo/GSSO_000126"

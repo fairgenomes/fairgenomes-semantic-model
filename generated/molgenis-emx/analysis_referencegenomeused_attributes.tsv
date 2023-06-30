@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable
-value	analysis_referencegenomeused	Value (English)	String	TRUE	FALSE
-description	analysis_referencegenomeused	Description (English)	Text	FALSE	TRUE
-codesystem	analysis_referencegenomeused	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	analysis_referencegenomeused	The code within the code system	String	FALSE	TRUE
-iri	analysis_referencegenomeused	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
+value	Analysis_ReferenceGenomeUsed	Value (English)	String	TRUE	FALSE
+description	Analysis_ReferenceGenomeUsed	Description (English)	Text	FALSE	TRUE
+codesystem	Analysis_ReferenceGenomeUsed	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	Analysis_ReferenceGenomeUsed	The code within the code system	String	FALSE	TRUE
+iri	Analysis_ReferenceGenomeUsed	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

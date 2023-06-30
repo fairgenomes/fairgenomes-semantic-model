@@ -3,15 +3,15 @@ package org.fairgenomes.generated;
 import java.util.List;
 
 public class Analysis {
-	public String analysisidentifier;
-	public Sequencing belongstosequencing;
-	public String physicaldatalocation;
-	public String abstractdatalocation;
-	public List<String> dataformatsstored;
-	public String algorithmsused;
-	public String referencegenomeused;
-	public String bioinformaticprotocolused;
-	public String bioinformaticprotocoldeviation;
-	public String reasonforbioinformaticprotocoldeviation;
-	public String wgsguidelinefollowed;
+	public String AnalysisIdentifier;
+	public Sequencing BelongsToSequencing;
+	public String PhysicalDataLocation;
+	public String AbstractDataLocation;
+	public List<String> DataFormatsStored;
+	public String AlgorithmsUsed;
+	public String ReferenceGenomeUsed;
+	public String BioinformaticProtocolUsed;
+	public String BioinformaticProtocolDeviation;
+	public String ReasonForBioinformaticProtocolDeviation;
+	public String WgsGuidelineFollowed;
 }

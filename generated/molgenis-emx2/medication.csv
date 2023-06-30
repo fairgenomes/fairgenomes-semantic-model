@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "silicones","silicones","ATC","A03AX13","http://purl.bioontology.org/ontology/ATC/A03AX13"
 "cefatrizine","cefatrizine","ATC","J01DB07","http://purl.bioontology.org/ontology/ATC/J01DB07"
 "Technetium 99m compounds, central nervous system diagnostic radiopharmaceuticals","Technetium 99m compounds, central nervous system diagnostic radiopharmaceuticals","ATC","V09AA","http://purl.bioontology.org/ontology/ATC/V09AA"

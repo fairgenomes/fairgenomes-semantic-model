@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "Abnormality of body height","Abnormality of body height","HP","0000002","http://purl.obolibrary.org/obo/HP_0000002"
 "Multicystic kidney dysplasia","Multicystic kidney dysplasia","HP","0000003","http://purl.obolibrary.org/obo/HP_0000003"
 "Mode of inheritance","Mode of inheritance","HP","0000005","http://purl.obolibrary.org/obo/HP_0000005"

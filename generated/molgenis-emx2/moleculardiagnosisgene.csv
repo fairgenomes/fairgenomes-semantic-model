@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "A1BG","alpha-1-B glycoprotein","HGNC","5","https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:5"
 "A1CF","APOBEC1 complementation factor","HGNC","24086","https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:24086"
 "A2M","alpha-2-macroglobulin","HGNC","7","https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7"

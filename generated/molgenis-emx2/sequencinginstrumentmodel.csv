@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "454 Genome Sequence 20","454 Genome Sequence 20","OBI","0000689","http://purl.obolibrary.org/obo/OBI_0000689"
 "AB SOLiD System","AB SOLiD System","OBI","0000696","http://purl.obolibrary.org/obo/OBI_0000696"
 "454 Genome Sequencer FLX","454 Genome Sequencer FLX","OBI","0000702","http://purl.obolibrary.org/obo/OBI_0000702"

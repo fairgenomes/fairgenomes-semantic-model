@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "PP tube 0.5–2mL (-85) to (-60)°C","Polypropylene tube 0.5–2mL at (-85) to (-60)°C","SPRECv3.0","A","https://medical-data-models.org/details/40242#Storage_A"
 "PP tube 0.5–2mL (-35) to (-18)°C","Polypropylene tube 0.5–2mL at (-35) to (-18)°C","SPRECv3.0","B","https://medical-data-models.org/details/40242#Storage_B"
 "PP tube 0.5–2mL <-135°C","Polypropylene tube 0.5–2mL at <-135°C, may correspond to liquid nitrogen vapor phase or to -150°C electrical freezer","SPRECv3.0","V","https://medical-data-models.org/details/40242#Storage_V"

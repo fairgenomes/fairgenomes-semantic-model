@@ -1,10 +1,10 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
-leaflettitle	Leaflet title	A title or name given to the leaflet that belongs to this consent form. (DC:title)	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
-leafletdate	Leaflet date	A point or period of time associated with the publication of this leaflet that belongs to this consent form. (DC:date)	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
-leafletversion	Leaflet version	The version, edition, or adaptation of this leaflet that belongs to this consent form. (DC:hasVersion)	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
-consentformidentifier	Consent form identifier	A unique proper name or character sequence that identifies this particular leaflet and consent form combination used in signing individual consent. Using a DOI would be optimal. Using any resolvable URL is suboptimal but still preferable over using a plain text value. (DC:identifier)	leafletandconsentform	string	TRUE	TRUE	TRUE	FALSE	
-consentformtitle	Consent form title	A title or name given to this consent form. (DC:title)	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
-consentformaccepteddate	Consent form accepted date	Date of acceptance of this consent form. (DC:dateAccepted)	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
-consentformvaliduntil	Consent form valid until	End date of the validity of this consent form. (DC:valid)	leafletandconsentform	date	FALSE	FALSE	TRUE	TRUE	
-consentformcreator	Consent form creator	Indicates the authoritative body who brought this consent form into existence. (DC:creator)	leafletandconsentform	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_leafletandconsentform_consentformcreator
-consentformversion	Consent form version	The version, edition, or adaptation of this consent form. (DC:hasVersion)	leafletandconsentform	string	FALSE	FALSE	TRUE	TRUE	
+LeafletTitle	Leaflet title	A title or name given to the leaflet that belongs to this consent form. (DC:title)	LeafletAndConsentForm	string	FALSE	FALSE	TRUE	TRUE	
+LeafletDate	Leaflet date	A point or period of time associated with the publication of this leaflet that belongs to this consent form. (DC:date)	LeafletAndConsentForm	date	FALSE	FALSE	TRUE	TRUE	
+LeafletVersion	Leaflet version	The version, edition, or adaptation of this leaflet that belongs to this consent form. (DC:hasVersion)	LeafletAndConsentForm	string	FALSE	FALSE	TRUE	TRUE	
+ConsentFormIdentifier	Consent form identifier	A unique proper name or character sequence that identifies this particular leaflet and consent form combination used in signing individual consent. Using a DOI would be optimal. Using any resolvable URL is suboptimal but still preferable over using a plain text value. (DC:identifier)	LeafletAndConsentForm	string	TRUE	TRUE	TRUE	FALSE	
+ConsentFormTitle	Consent form title	A title or name given to this consent form. (DC:title)	LeafletAndConsentForm	string	FALSE	FALSE	TRUE	TRUE	
+ConsentFormAcceptedDate	Consent form accepted date	Date of acceptance of this consent form. (DC:dateAccepted)	LeafletAndConsentForm	date	FALSE	FALSE	TRUE	TRUE	
+ConsentFormValidUntil	Consent form valid until	End date of the validity of this consent form. (DC:valid)	LeafletAndConsentForm	date	FALSE	FALSE	TRUE	TRUE	
+ConsentFormCreator	Consent form creator	Indicates the authoritative body who brought this consent form into existence. (DC:creator)	LeafletAndConsentForm	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_LeafletAndConsentForm_ConsentFormCreator
+ConsentFormVersion	Consent form version	The version, edition, or adaptation of this consent form. (DC:hasVersion)	LeafletAndConsentForm	string	FALSE	FALSE	TRUE	TRUE	

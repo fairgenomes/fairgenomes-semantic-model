@@ -1,6 +1,6 @@
 name	entity	label	dataType	idAttribute	nillable
-value	individualconsent_collectedby	Value (English)	String	TRUE	FALSE
-description	individualconsent_collectedby	Description (English)	Text	FALSE	TRUE
-codesystem	individualconsent_collectedby	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
-code	individualconsent_collectedby	The code within the code system	String	FALSE	TRUE
-iri	individualconsent_collectedby	The Internationalized Resource Identifier for this term	String	FALSE	TRUE
+value	IndividualConsent_CollectedBy	Value (English)	String	TRUE	FALSE
+description	IndividualConsent_CollectedBy	Description (English)	Text	FALSE	TRUE
+codesystem	IndividualConsent_CollectedBy	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	IndividualConsent_CollectedBy	The code within the code system	String	FALSE	TRUE
+iri	IndividualConsent_CollectedBy	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

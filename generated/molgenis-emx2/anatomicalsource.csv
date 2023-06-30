@@ -1,4 +1,4 @@
-value,description,codesystem,code,iri
+name,definition,codesystem,code,ontologyTermURI
 "uterine cervix","uterine cervix","UBERON","0000002","http://purl.obolibrary.org/obo/UBERON_0000002"
 "naris","naris","UBERON","0000003","http://purl.obolibrary.org/obo/UBERON_0000003"
 "nose","nose","UBERON","0000004","http://purl.obolibrary.org/obo/UBERON_0000004"
