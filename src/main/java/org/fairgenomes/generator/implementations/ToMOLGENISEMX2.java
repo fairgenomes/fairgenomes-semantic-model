@@ -27,31 +27,6 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
         BufferedWriter bw = new BufferedWriter(fw);
         bw.write("tableName,columnName,columnType,key,required,refTable,description,semantics" + LE);
 
-
-        //TODO
-        //bw.write(PACKAGE_NAME + "," + fg.name + "," + fg.description + (fg.description.endsWith(".")?"":".") + " Version " + fg.version +  "-" + fg.releaseType + " (" + fg.date + ")" + LE);
-
-
-                /*
-        Write attribute metadata for lookups
-        We could use one superclass of this if you like??
-         */
-        for (Module m : fg.modules) {
-            for (Element e : m.elements) {
-
-                if (e.isLookup()) {
-                    String tableName = e.technicalName;
-                    bw.write(tableName + ",,,,,,\"" + m.description + "\"," + m.parsedOntology.iri + LE);
-                    bw.write(tableName + ",value,String,1,TRUE,,Value (English)" + LE);
-                    bw.write(tableName + ",description,Text,,,,Description (English)" + LE);
-                    bw.write(tableName + ",codesystem,String,,,,The code system (e.g. ontology) this term belongs to" + LE);
-                    bw.write(tableName + ",code,String,,,,The code within the code system" + LE);
-                    bw.write(tableName + ",iri,String,,,,The Internationalized Resource Identifier for this term" + LE);
-
-                }
-            }
-        }
-
         /*
         Write model attributes for the modules (the actual tables that people use to enter data)
          */
@@ -85,7 +60,7 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
                     fw = new FileWriter(targetFile);
                     bw = new BufferedWriter(fw);
 
-                    bw.write("value,description,codesystem,code,iri" + LE);
+                    bw.write("name,definition,codesystem,code,ontologyTermURI" + LE);
 
                     HashMap<String, Lookup> ll = e.lookup.lookups;
                     for (String key : ll.keySet()) {
