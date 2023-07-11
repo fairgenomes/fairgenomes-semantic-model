@@ -25,7 +25,7 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
         String fileName = "molgenis.csv";
         FileWriter fw = new FileWriter(new File(outputFolder, fileName));
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write("tableName,columnName,columnType,key,required,refTable,description,semantics" + LE);
+        bw.write("tableName,tableExtends,columnName,columnType,key,required,refSchema,refTable,refLink,refBack,validation,semantics,description,origin" + LE);
 
         /*
         Write model attributes for the modules (the actual tables that people use to enter data)
@@ -33,12 +33,12 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
         for (Module m : fg.modules) {
 
             String entityName = m.technicalName;
-            bw.write(entityName + ",,,,,,\"" + m.description + "\"," + m.parsedOntology.iri + LE);
+            bw.write("\"" +entityName + "\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"" + m.parsedOntology.iri + "\",\"" + m.description + "\",\"" + "FAIR Genomes" + "\"" + LE);
 
             for (Element e : m.elements) {
                 String key = e.valueTypeEnum.equals(ValueType.UniqueID) ? "1" : "";
                 String required = e.valueTypeEnum.equals(ValueType.UniqueID) ? "TRUE" : "";
-                bw.write("\"" + entityName + "\",\"" + e.technicalName + "\",\"" + e.valueTypeToEMX2() + "\",\"" + key + "\",\"" + required + "\",\"" + e.lookupOrReferencetoEMX2() + "\",\"" + e.description + "\",\"" + e.parsedOntology.iri + "\"" + LE);
+                bw.write("\"" + entityName + "\",\"\",\"" + e.technicalName + "\",\"" + e.valueTypeToEMX2() + "\",\"" + key + "\",\"" + required + "\",\"\",\"" + e.lookupOrReferencetoEMX2() + "\",\"\",\"\",\"\",\"" + e.parsedOntology.iri + "\",\"" + e.description + "\",\"" + "FAIR Genomes" + "\"" + LE);
             }
         }
 
