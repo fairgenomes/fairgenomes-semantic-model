@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Sequencing {
 	public String SequencingIdentifier;
-	public SamplePreparation BelongsToSample;
+	public SamplePreparation BelongsToSamplePreparation;
 	public String SequencingDate;
 	public String SequencingPlatform;
 	public String SequencingInstrumentModel;

@@ -398,7 +398,7 @@ modules:
             values: LookupOne [lookups/AnatomicalSources.txt], ofType [http://purl.obolibrary.org/obo/UBERON_0001062]
           - name: Pathological state
             description: The pathological state of the tissue from which this material was derived.
-            ontology: GO:0001894 [http://purl.obolibrary.org/obo/GO_0001894]
+            ontology: NCIT:C28257 [http://purl.obolibrary.org/obo/NCIT_C28257]
             values: LookupOne [lookups/PathologicalState.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C164617]
           - name: Storage conditions
             description: The conditions under which this biological material was stored.
@@ -480,7 +480,7 @@ modules:
             description: A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay.
             ontology: NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]
             values: UniqueID
-          - name: Belongs to sample
+          - name: Belongs to sample preparation
             description: Reference to the prepared sample, i.e. the source that was sequenced.
             ontology: NCIT:C25683 [http://purl.obolibrary.org/obo/NCIT_C25683]
             values: ReferenceOne [Sample preparation]

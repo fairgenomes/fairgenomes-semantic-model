@@ -1,6 +1,6 @@
 name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
 SequencingIdentifier	Sequencing identifier	A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay. (NCIT:C171337)	Sequencing	string	TRUE	TRUE	TRUE	FALSE	
-BelongsToSample	Belongs to sample	Reference to the prepared sample, i.e. the source that was sequenced. (NCIT:C25683)	Sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_SamplePreparation
+BelongsToSamplePreparation	Belongs to sample preparation	Reference to the prepared sample, i.e. the source that was sequenced. (NCIT:C25683)	Sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_SamplePreparation
 SequencingDate	Sequencing date	Date on which this sequencing assay was performed. (GENEPIO:0000069)	Sequencing	date	FALSE	FALSE	TRUE	TRUE	
 SequencingPlatform	Sequencing platform	The used sequencing platform (i.e. brand, name of a company that produces sequencer equipment). (GENEPIO:0000071)	Sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_Sequencing_SequencingPlatform
 SequencingInstrumentModel	Sequencing instrument model	The used product name and model number of a manufacturer's genomic (dna) sequencer. (GENEPIO:0001921)	Sequencing	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_Sequencing_SequencingInstrumentModel
