@@ -567,7 +567,7 @@ fg:Material_Anatomical_source a owl:ObjectProperty;
 fg:Material_Pathological_state a owl:ObjectProperty;
   rdfs:label "Pathological state";
   rdfs:domain fg:Material;
-  rdfs:isDefinedBy obo:GO_0001894;
+  rdfs:isDefinedBy obo:NCIT_C28257;
   dc:description "The pathological state of the tissue from which this material was derived.";
   rdfs:range obo:NCIT_C164617 .
 
@@ -684,8 +684,8 @@ fg:Sequencing_Sequencing_identifier a owl:DatatypeProperty;
   rdfs:isDefinedBy obo:NCIT_C171337;
   dc:description "A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay." .
 
-fg:Sequencing_Belongs_to_sample a owl:ObjectProperty;
-  rdfs:label "Belongs to sample";
+fg:Sequencing_Belongs_to_sample_preparation a owl:ObjectProperty;
+  rdfs:label "Belongs to sample preparation";
   rdfs:domain fg:Sequencing;
   rdfs:isDefinedBy obo:NCIT_C25683;
   dc:description "Reference to the prepared sample, i.e. the source that was sequenced." .
