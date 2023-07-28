@@ -1,6 +1,6 @@
 # FAIR Genomes metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __9 modules__ that contain __112 metadata elements__ and __85357 lookups__ in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __9 modules__ that contain __112 metadata elements__ and __85361 lookups__ in total (excluding null flavors).
 
 ## Module overview
 
@@ -47,8 +47,8 @@ Data, facts or figures about an individual; the set of relevant items would depe
 | Inclusion status | An indicator that provides information on the current health status of this person. | [NCIT:C166244](http://purl.obolibrary.org/obo/NCIT_C166244) | [InclusionStatus](../../lookups/InclusionStatus.txt) lookup (4 choices [of type](http://purl.obolibrary.org/obo/NCIT_C19332)) |
 | Age at death | The age at which death occurred. | [NCIT:C135383](http://purl.obolibrary.org/obo/NCIT_C135383) | Integer |
 | Consanguinity | Information on whether the patient is a child from two family members who are second cousins or closer. | [OMIT:0004546](http://purl.obolibrary.org/obo/OMIT_0004546) | Boolean |
-| Primary affiliated institute | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | [NCIT:C25412](http://purl.obolibrary.org/obo/NCIT_C25412) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
-| Resources in other institutes | Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals. | [NCIT:C19012](http://purl.obolibrary.org/obo/NCIT_C19012) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+| Primary affiliated institute | The most significant institute for medical consultation and/or study inclusion in context of the genetic disease of this person. | [NCIT:C25412](http://purl.obolibrary.org/obo/NCIT_C25412) | [Institutes](../../lookups/Institutes.txt) lookup (219 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+| Resources in other institutes | Material or data related to this person that is not captured by this system though known to be available in other institutes such as biobanks or hospitals. | [NCIT:C19012](http://purl.obolibrary.org/obo/NCIT_C19012) | [Institutes](../../lookups/Institutes.txt) lookup (219 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Participates in study | Reference to the study or studies in which this person participates. | [RO:0000056](http://purl.obolibrary.org/obo/RO_0000056) | Reference to instances of Study |
 
 ## Module: Leaflet and consent form
@@ -63,7 +63,7 @@ A document explaining all the relevant information to assist an individual in un
 | Consent form title | A title or name given to this consent form. | [DC:title](http://purl.org/dc/terms/title) | String |
 | Consent form accepted date | Date of acceptance of this consent form. | [DC:dateAccepted](http://purl.org/dc/terms/dateAccepted) | Date |
 | Consent form valid until | End date of the validity of this consent form. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
-| Consent form creator | Indicates the authoritative body who brought this consent form into existence. | [DC:creator](http://purl.org/dc/terms/creator) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+| Consent form creator | Indicates the authoritative body who brought this consent form into existence. | [DC:creator](http://purl.org/dc/terms/creator) | [Institutes](../../lookups/Institutes.txt) lookup (219 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Consent form version | The version, edition, or adaptation of this consent form. | [DC:hasVersion](http://purl.org/dc/terms/hasVersion) | String |
 
 ## Module: Individual consent
@@ -74,7 +74,7 @@ Consent given by a patient to a surgical or medical procedure or participation i
 | Individual consent identifier | A unique proper name or character sequence that identifies this particular signed individual consent. | [ICO:0000044](http://purl.obolibrary.org/obo/ICO_0000044) | UniqueID |
 | Person consenting | Reference to the person (i.e. subject) to whom this individual consent applies. | [IAO:0000136](http://purl.obolibrary.org/obo/IAO_0000136) | Reference to instances of Personal |
 | Consent form used | Reference to the informed consent form that was signed. Points to a particular instance of leaflet and consent form that usually exists as a record (i.e. a row) within the same database as this individual consent. | [IAO:0000136](http://purl.obolibrary.org/obo/IAO_0000136) | Reference to instances of Leaflet and consent form |
-| Collected by | Indicates the institute who performed the collection act. | [NCIT:C45262](http://purl.obolibrary.org/obo/NCIT_C45262) | [Institutes](../../lookups/Institutes.txt) lookup (218 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+| Collected by | Indicates the institute who performed the collection act. | [NCIT:C45262](http://purl.obolibrary.org/obo/NCIT_C45262) | [Institutes](../../lookups/Institutes.txt) lookup (219 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Signing date | A date specification that designates when this individual consent form was signed. | [ICO:0000036](http://purl.obolibrary.org/obo/ICO_0000036) | Date |
 | Valid from | Starting date of the validity of this individual consent. | [DC:valid](http://purl.org/dc/terms/valid) | Date |
 | Valid until | End date of the validity of this individual consent. | [DC:valid](http://purl.org/dc/terms/valid) | Date |

@@ -1222,6 +1222,11 @@ fg:Personal_Primary_affiliated_institute_Vlietland_Ziekenhuis_Schiedam a <http:/
   dc:description "Vlietland Ziekenhuis Schiedam";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000123> .
 
+fg:Personal_Primary_affiliated_institute_Masaryk_Memorial_Cancer_Institute a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Masaryk Memorial Cancer Institute";
+  dc:description "Masaryk Memorial Cancer Institute";
+  rdfs:isDefinedBy <https://ror.org/0270ceh40> .
+
 <https://w3id.org/fair-genomes/ontology/Personal_Primary_affiliated_institute_NoInformation_(NI,_nullflavor)>
   a <http://semanticscience.org/resource/SIO_000688>;
   rdfs:label "NoInformation (NI, nullflavor)";
@@ -2532,6 +2537,11 @@ fg:Personal_Resources_in_other_institutes_Vlietland_Ziekenhuis_Schiedam a <http:
   rdfs:label "Vlietland Ziekenhuis Schiedam";
   dc:description "Vlietland Ziekenhuis Schiedam";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000123> .
+
+fg:Personal_Resources_in_other_institutes_Masaryk_Memorial_Cancer_Institute a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Masaryk Memorial Cancer Institute";
+  dc:description "Masaryk Memorial Cancer Institute";
+  rdfs:isDefinedBy <https://ror.org/0270ceh40> .
 
 <https://w3id.org/fair-genomes/ontology/Personal_Resources_in_other_institutes_NoInformation_(NI,_nullflavor)>
   a <http://semanticscience.org/resource/SIO_000688>;
@@ -3858,6 +3868,12 @@ fg:Leaflet_and_consent_form_Consent_form_creator_Vlietland_Ziekenhuis_Schiedam a
   dc:description "Vlietland Ziekenhuis Schiedam";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000123> .
 
+fg:Leaflet_and_consent_form_Consent_form_creator_Masaryk_Memorial_Cancer_Institute
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Masaryk Memorial Cancer Institute";
+  dc:description "Masaryk Memorial Cancer Institute";
+  rdfs:isDefinedBy <https://ror.org/0270ceh40> .
+
 <https://w3id.org/fair-genomes/ontology/Leaflet_and_consent_form_Consent_form_creator_NoInformation_(NI,_nullflavor)>
   a <http://semanticscience.org/resource/SIO_000688>;
   rdfs:label "NoInformation (NI, nullflavor)";
@@ -5159,6 +5175,11 @@ fg:Individual_consent_Collected_by_Vlietland_Ziekenhuis_Schiedam a <http://seman
   rdfs:label "Vlietland Ziekenhuis Schiedam";
   dc:description "Vlietland Ziekenhuis Schiedam";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000123> .
+
+fg:Individual_consent_Collected_by_Masaryk_Memorial_Cancer_Institute a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Masaryk Memorial Cancer Institute";
+  dc:description "Masaryk Memorial Cancer Institute";
+  rdfs:isDefinedBy <https://ror.org/0270ceh40> .
 
 <https://w3id.org/fair-genomes/ontology/Individual_consent_Collected_by_NoInformation_(NI,_nullflavor)>
   a <http://semanticscience.org/resource/SIO_000688>;
