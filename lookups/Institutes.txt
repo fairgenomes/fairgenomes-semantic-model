@@ -217,3 +217,4 @@ Medisch Centrum Haaglanden, The Hague	Medisch Centrum Haaglanden, The Hague	FG	0
 Reinier de Graaf Gasthuis, Delft	Reinier de Graaf Gasthuis, Delft	FG	0000121	https://w3id.org/fair-genomes/resource/FG_0000121
 Sint Franciscus Gasthuis, Rotterdam	Sint Franciscus Gasthuis, Rotterdam	FG	0000122	https://w3id.org/fair-genomes/resource/FG_0000122
 Vlietland Ziekenhuis Schiedam	Vlietland Ziekenhuis Schiedam	FG	0000123	https://w3id.org/fair-genomes/resource/FG_0000123
+Masaryk Memorial Cancer Institute	Masaryk Memorial Cancer Institute	ROR	0270ceh40	https://ror.org/0270ceh40

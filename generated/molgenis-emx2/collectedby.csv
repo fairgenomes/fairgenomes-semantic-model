@@ -217,6 +217,7 @@ name,definition,codesystem,code,ontologyTermURI
 "Reinier de Graaf Gasthuis, Delft","Reinier de Graaf Gasthuis, Delft","FG","0000121","https://w3id.org/fair-genomes/resource/FG_0000121"
 "Sint Franciscus Gasthuis, Rotterdam","Sint Franciscus Gasthuis, Rotterdam","FG","0000122","https://w3id.org/fair-genomes/resource/FG_0000122"
 "Vlietland Ziekenhuis Schiedam","Vlietland Ziekenhuis Schiedam","FG","0000123","https://w3id.org/fair-genomes/resource/FG_0000123"
+"Masaryk Memorial Cancer Institute","Masaryk Memorial Cancer Institute","ROR","0270ceh40","https://ror.org/0270ceh40"
 "NoInformation (NI, nullflavor)","The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.","HL7","NI","http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI"
 "Invalid (INV, nullflavor)","The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.","HL7","INV","http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV"
 "Derived (DER, nullflavor)","An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .","HL7","DER","http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER"
