@@ -3692,6 +3692,24 @@ fg:Sample_preparation_Library_preparation_kit_Illumina_TruSeq_DNA_PCR-Free a obo
   dc:description "Illumina TruSeq DNA PCR-Free provides simple, all-inclusive library preparation for whole-genome sequencing applications.";
   rdfs:isDefinedBy <https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-dna-pcr-free.html> .
 
+fg:Sample_preparation_Library_preparation_kit_Accel-Amplicon_Plus_Panel_by_Swift_Biosciences
+  a obo:GENEPIO_0000081;
+  rdfs:label "Accel-Amplicon Plus Panel by Swift Biosciences";
+  dc:description "Accel-Amplicon Plus Panel by Swift Biosciences";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000747> .
+
+fg:Sample_preparation_Library_preparation_kit_TruSight_Oncology_500_by_Illumina a
+    obo:GENEPIO_0000081;
+  rdfs:label "TruSight Oncology 500 by Illumina";
+  dc:description "TruSight Oncology 500 by Illumina";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000748> .
+
+fg:Sample_preparation_Library_preparation_kit_SeqCap_EZ_Choice_Library_SR_by_Roche_NimbleGen
+  a obo:GENEPIO_0000081;
+  rdfs:label "SeqCap EZ Choice Library SR by Roche NimbleGen";
+  dc:description "SeqCap EZ Choice Library SR by Roche NimbleGen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000749> .
+
 <https://w3id.org/fair-genomes/ontology/Sample_preparation_Library_preparation_kit_NoInformation_(NI,_nullflavor)>
   a obo:GENEPIO_0000081;
   rdfs:label "NoInformation (NI, nullflavor)";
@@ -7469,6 +7487,23 @@ fg:Sample_preparation_Target_enrichment_kit_Illumina_TruSeq_DNA_PCR-Free a obo:G
   rdfs:label "Illumina TruSeq DNA PCR-Free";
   dc:description "Illumina TruSeq DNA PCR-Free provides simple, all-inclusive library preparation for whole-genome sequencing applications.";
   rdfs:isDefinedBy <https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/truseq-dna-pcr-free.html> .
+
+fg:Sample_preparation_Target_enrichment_kit_Accel-Amplicon_Plus_Panel_by_Swift_Biosciences
+  a obo:GENEPIO_0000081;
+  rdfs:label "Accel-Amplicon Plus Panel by Swift Biosciences";
+  dc:description "Accel-Amplicon Plus Panel by Swift Biosciences";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000747> .
+
+fg:Sample_preparation_Target_enrichment_kit_TruSight_Oncology_500_by_Illumina a obo:GENEPIO_0000081;
+  rdfs:label "TruSight Oncology 500 by Illumina";
+  dc:description "TruSight Oncology 500 by Illumina";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000748> .
+
+fg:Sample_preparation_Target_enrichment_kit_SeqCap_EZ_Choice_Library_SR_by_Roche_NimbleGen
+  a obo:GENEPIO_0000081;
+  rdfs:label "SeqCap EZ Choice Library SR by Roche NimbleGen";
+  dc:description "SeqCap EZ Choice Library SR by Roche NimbleGen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000749> .
 
 <https://w3id.org/fair-genomes/ontology/Sample_preparation_Target_enrichment_kit_NoInformation_(NI,_nullflavor)>
   a obo:GENEPIO_0000081;
