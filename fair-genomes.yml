@@ -575,3 +575,30 @@ modules:
             description: Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.
             ontology: NCIT:C17564 [http://purl.obolibrary.org/obo/NCIT_C17564]
             values: String
+    - name: HMD Submission
+      description: Items specific to use in the 1+MG GDI project for metadata submission.
+      elements:
+          - name: Submitter Role
+            description: Role of the Submitter (e.g. Oncologist in charge of the patient, Research Project PI).
+            values: String
+          - name: Data Center
+            description: Refers to the Department in charge of Data Production and/ or analysis
+            values: String
+          - name: Clinical Center
+            description: Refers to the Clinical Department in charge of the patient.
+            values: String
+          - name: Institution Clinical
+            description: Identifies the Institution/s involved.
+            values: Identifier (lookup?)
+          - name: Institution Data Center
+            description: Identifies the Institution/s involved.
+            values: Identifier (lookup?)
+          - name: Publication description
+            description: Linked to the instance of publication_doi; should provide a human-readably description of the publication.
+            values: String
+          - name: Collection
+            description: Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of.
+            values: string
+          - name: Research Consortia
+            description: Identifies Research Consortia Involved.
+            values: String
