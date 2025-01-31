@@ -577,28 +577,37 @@ modules:
             values: String
     - name: HMD Submission
       description: Items specific to use in the 1+MG GDI project for metadata submission.
+      ontology: AFRL:0000449 [http://purl.allotrope.org/ontologies/role#AFRL_0000449]
       elements:
           - name: Submitter Role
             description: Role of the Submitter (e.g. Oncologist in charge of the patient, Research Project PI).
+            ontology: DCAT:Role [https://www.w3.org/ns/dcat#Role]
             values: String
           - name: Data Center
             description: Refers to the Department in charge of Data Production and/ or analysis
+            ontology: ADMS:Identifier [https://www.w3.org/TR/vocab-adms/#identifier]
             values: String
           - name: Clinical Center
             description: Refers to the Clinical Department in charge of the patient.
+            ontology: ADMS:Identifier https://www.w3.org/TR/vocab-adms/#identifier]
             values: String
           - name: Institution Clinical
             description: Identifies the Institution/s involved.
-            values: Identifier (lookup?)
+            ontology: SIO:000688 [http://semanticscience.org/resource/SIO_000688]
+            values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Institution Data Center
             description: Identifies the Institution/s involved.
-            values: Identifier (lookup?)
+            ontology: SIO:000688 [http://semanticscience.org/resource/SIO_000688]
+            values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
           - name: Publication description
             description: Linked to the instance of publication_doi; should provide a human-readably description of the publication.
+            ontology: MS:1001922 [http://purl.obolibrary.org/obo/MS_1001922]
             values: String
           - name: Collection
             description: Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of.
-            values: string
+            ontology: DCAT:Collection [http://www.w3.org/ns/prov#Collection]
+            values: String
           - name: Research Consortia
             description: Identifies Research Consortia Involved.
+            ontology: NCIT:C61538 [http://purl.obolibrary.org/obo/NCIT_C61538]
             values: String
