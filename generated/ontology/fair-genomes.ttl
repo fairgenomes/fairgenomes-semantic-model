@@ -826,3 +826,58 @@ fg:Analysis_WGS_guideline_followed a owl:DatatypeProperty;
   rdfs:domain fg:Analysis;
   rdfs:isDefinedBy obo:NCIT_C17564;
   dc:description "Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels." .
+
+fg:HMD_Submission a owl:Class;
+  rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/role#AFRL_0000449>;
+  rdfs:label "HMD Submission";
+  dc:description "Items specific to use in the 1+MG GDI project for metadata submission." .
+
+fg:HMD_Submission_Submitter_Role a owl:DatatypeProperty;
+  rdfs:label "Submitter Role";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy <https://www.w3.org/ns/dcat#Role>;
+  dc:description "Role of the Submitter (e.g. Oncologist in charge of the patient, Research Project PI)." .
+
+fg:HMD_Submission_Data_Center a owl:DatatypeProperty;
+  rdfs:label "Data Center";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy <https://www.w3.org/TR/vocab-adms/#identifier>;
+  dc:description "Refers to the Department in charge of Data Production and/ or analysis" .
+
+fg:HMD_Submission_Clinical_Center a owl:DatatypeProperty;
+  rdfs:label "Clinical Center";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy <https://www.w3.org/TR/vocab-adms/#identifier>;
+  dc:description "Refers to the Clinical Department in charge of the patient." .
+
+fg:HMD_Submission_Institution_Clinical a owl:ObjectProperty;
+  rdfs:label "Institution Clinical";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000688>;
+  dc:description "Identifies the Institution/s involved.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000688> .
+
+fg:HMD_Submission_Institution_Data_Center a owl:ObjectProperty;
+  rdfs:label "Institution Data Center";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy <http://semanticscience.org/resource/SIO_000688>;
+  dc:description "Identifies the Institution/s involved.";
+  rdfs:range <http://semanticscience.org/resource/SIO_000688> .
+
+fg:HMD_Submission_Publication_description a owl:DatatypeProperty;
+  rdfs:label "Publication description";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy obo:MS_1001922;
+  dc:description "Linked to the instance of publication_doi; should provide a human-readably description of the publication." .
+
+fg:HMD_Submission_Collection a owl:DatatypeProperty;
+  rdfs:label "Collection";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy <http://www.w3.org/ns/prov#Collection>;
+  dc:description "Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of." .
+
+fg:HMD_Submission_Research_Consortia a owl:DatatypeProperty;
+  rdfs:label "Research Consortia";
+  rdfs:domain fg:HMD_Submission;
+  rdfs:isDefinedBy obo:NCIT_C61538;
+  dc:description "Identifies Research Consortia Involved." .
