@@ -575,3 +575,39 @@ modules:
             description: Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.
             ontology: NCIT:C17564 [http://purl.obolibrary.org/obo/NCIT_C17564]
             values: String
+    - name: HMD Submission
+      description: Items specific to use in the 1+MG GDI project for metadata submission.
+      ontology: FG:0000750 [https://w3id.org/fair-genomes/resource/FG_0000750]
+      elements:
+          - name: Submitter Role
+            description: Role of the Submitter (e.g. Oncologist in charge of the patient, Research Project PI).
+            ontology: DCAT:Role [https://www.w3.org/ns/dcat#Role]
+            values: String
+          - name: Data Center
+            description: Refers to the Department in charge of Data Production and/ or analysis
+            ontology: ADMS:Identifier [https://www.w3.org/TR/vocab-adms/#identifier]
+            values: String
+          - name: Clinical Center
+            description: Refers to the Clinical Department in charge of the patient.
+            ontology: ADMS:Identifier https://www.w3.org/TR/vocab-adms/#identifier]
+            values: String
+          - name: Institution Clinical
+            description: Identifies the Institution/s involved.
+            ontology: SIO:000688 [http://semanticscience.org/resource/SIO_000688]
+            values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
+          - name: Institution Data Center
+            description: Identifies the Institution/s involved.
+            ontology: SIO:000688 [http://semanticscience.org/resource/SIO_000688]
+            values: LookupMany [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
+          - name: Publication description
+            description: Linked to the instance of publication_doi; should provide a human-readably description of the publication.
+            ontology: MS:1001922 [http://purl.obolibrary.org/obo/MS_1001922]
+            values: String
+          - name: Collection
+            description: Here goes the description
+            ontology: FG:0000751 [https://w3id.org/fair-genomes/resource/FG_0000751]
+            values: String
+          - name: Research Consortia
+            description: Identifies Research Consortia Involved.
+            ontology: NCIT:C61538 [http://purl.obolibrary.org/obo/NCIT_C61538]
+            values: String

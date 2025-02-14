@@ -1,0 +1,9 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+SubmitterRole	Submitter Role	Role of the Submitter (e.g. Oncologist in charge of the patient, Research Project PI). (DCAT:Role)	HmdSubmission	string	FALSE	FALSE	TRUE	TRUE	
+DataCenter	Data Center	Refers to the Department in charge of Data Production and/ or analysis (ADMS:Identifier)	HmdSubmission	string	FALSE	FALSE	TRUE	TRUE	
+ClinicalCenter	Clinical Center	Refers to the Clinical Department in charge of the patient. (ADMS:Identifier)	HmdSubmission	string	FALSE	FALSE	TRUE	TRUE	
+InstitutionClinical	Institution Clinical	Identifies the Institution/s involved. (SIO:000688)	HmdSubmission	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_HmdSubmission_InstitutionClinical
+InstitutionDataCenter	Institution Data Center	Identifies the Institution/s involved. (SIO:000688)	HmdSubmission	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_HmdSubmission_InstitutionDataCenter
+PublicationDescription	Publication description	Linked to the instance of publication_doi; should provide a human-readably description of the publication. (MS:1001922)	HmdSubmission	string	FALSE	FALSE	TRUE	TRUE	
+Collection	Collection	Here goes the description (FG:0000751)	HmdSubmission	string	FALSE	FALSE	TRUE	TRUE	
+ResearchConsortia	Research Consortia	Identifies Research Consortia Involved. (NCIT:C61538)	HmdSubmission	string	FALSE	FALSE	TRUE	TRUE	

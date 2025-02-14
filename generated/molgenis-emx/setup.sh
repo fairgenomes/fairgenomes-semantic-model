@@ -36,6 +36,8 @@ mcmd import -p Sequencing_SequencingInstrumentModel_attributes.tsv --as attribut
 mcmd import -p Sequencing_SequencingMethod_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Analysis_DataFormatsStored_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Analysis_ReferenceGenomeUsed_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p HmdSubmission_InstitutionClinical_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p HmdSubmission_InstitutionDataCenter_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Study_InclusionCriteria.tsv --as fair-genomes_Study_InclusionCriteria --in fair-genomes
 mcmd import -p Personal_GenderIdentity.tsv --as fair-genomes_Personal_GenderIdentity --in fair-genomes
 mcmd import -p Personal_GenderAtBirth.tsv --as fair-genomes_Personal_GenderAtBirth --in fair-genomes
@@ -73,6 +75,8 @@ mcmd import -p Sequencing_SequencingInstrumentModel.tsv --as fair-genomes_Sequen
 mcmd import -p Sequencing_SequencingMethod.tsv --as fair-genomes_Sequencing_SequencingMethod --in fair-genomes
 mcmd import -p Analysis_DataFormatsStored.tsv --as fair-genomes_Analysis_DataFormatsStored --in fair-genomes
 mcmd import -p Analysis_ReferenceGenomeUsed.tsv --as fair-genomes_Analysis_ReferenceGenomeUsed --in fair-genomes
+mcmd import -p HmdSubmission_InstitutionClinical.tsv --as fair-genomes_HmdSubmission_InstitutionClinical --in fair-genomes
+mcmd import -p HmdSubmission_InstitutionDataCenter.tsv --as fair-genomes_HmdSubmission_InstitutionDataCenter --in fair-genomes
 mcmd import -p Study_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Personal_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p LeafletAndConsentForm_attributes.tsv --as attributes --in fair-genomes
@@ -82,6 +86,7 @@ mcmd import -p Material_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p SamplePreparation_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Analysis_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p HmdSubmission_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_existing
 mcmd add logo -p ../../misc/molgenis/img/analysis.png
 mcmd add logo -p ../../misc/molgenis/img/lookups.png

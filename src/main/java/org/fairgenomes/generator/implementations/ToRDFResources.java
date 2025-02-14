@@ -34,7 +34,19 @@ public class ToRDFResources extends AbstractGenerator {
         for (Module m : fg.modules) {
 
             if(m.ontology.startsWith("FG:")){
-                throw new Exception("Not implemented yet!");
+                String term = m.parsedOntology.codeSystem + "_" + m.parsedOntology.code;
+                if(uniqueTerms.contains(term))
+                {
+                    throw new Exception("Term already in use: " + term);
+                }
+                uniqueTerms.add(term);
+                FileWriter fw = new FileWriter(new File(outputFolder, term + ".xml"));
+                BufferedWriter bw = new BufferedWriter(fw);
+                IRI type = OWL.CLASS;
+                String srcTTL = fg.fileName + ".ttl";
+                bw.write(toRDF(m.parsedOntology.codeSystem, m.parsedOntology.code, type, m.name, m.description, iri(m.parsedOntology.iri), m.description, srcTTL));
+                bw.flush();
+                bw.close();
             }
 
                 for(Element e : m.elements) {
