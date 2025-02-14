@@ -828,7 +828,7 @@ fg:Analysis_WGS_guideline_followed a owl:DatatypeProperty;
   dc:description "Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels." .
 
 fg:HMD_Submission a owl:Class;
-  rdfs:isDefinedBy <http://purl.allotrope.org/ontologies/role#AFRL_0000449>;
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000750>;
   rdfs:label "HMD Submission";
   dc:description "Items specific to use in the 1+MG GDI project for metadata submission." .
 
@@ -873,8 +873,8 @@ fg:HMD_Submission_Publication_description a owl:DatatypeProperty;
 fg:HMD_Submission_Collection a owl:DatatypeProperty;
   rdfs:label "Collection";
   rdfs:domain fg:HMD_Submission;
-  rdfs:isDefinedBy <http://www.w3.org/ns/prov#Collection>;
-  dc:description "Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of." .
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000751>;
+  dc:description "Here goes the description" .
 
 fg:HMD_Submission_Research_Consortia a owl:DatatypeProperty;
   rdfs:label "Research Consortia";

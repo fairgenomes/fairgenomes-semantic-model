@@ -15,7 +15,7 @@ The FAIR Genomes semantic metadata schema to power reuse of NGS data in research
 | [Sample preparation](#module-sample-preparation) | A sample preparation for a nucleic acids sequencing assay. | [OBI:0001902](http://purl.obolibrary.org/obo/OBI_0001902) | 9 |
 | [Sequencing](#module-sequencing) | The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. | [EDAM:topic_3168](http://edamontology.org/topic_3168) | 12 |
 | [Analysis](#module-analysis) | An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output. | [EDAM:operation_2945](http://edamontology.org/operation_2945) | 11 |
-| [HMD Submission](#module-hmd-submission) | Items specific to use in the 1+MG GDI project for metadata submission. | [AFRL:0000449](http://purl.allotrope.org/ontologies/role#AFRL_0000449) | 8 |
+| [HMD Submission](#module-hmd-submission) | Items specific to use in the 1+MG GDI project for metadata submission. | [FG:0000750](https://w3id.org/fair-genomes/resource/FG_0000750) | 8 |
 
 ## Module: Study
 A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts. Ontology: [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536).
@@ -184,7 +184,7 @@ An analysis applies analytical (often computational) methods to existing data of
 | WGS guideline followed | Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels. | [NCIT:C17564](http://purl.obolibrary.org/obo/NCIT_C17564) | String |
 
 ## Module: HMD Submission
-Items specific to use in the 1+MG GDI project for metadata submission. Ontology: [AFRL:0000449](http://purl.allotrope.org/ontologies/role#AFRL_0000449).
+Items specific to use in the 1+MG GDI project for metadata submission. Ontology: [FG:0000750](https://w3id.org/fair-genomes/resource/FG_0000750).
 
 | Element | Description | Ontology | Values |
 |---|---|---|---|
@@ -194,7 +194,7 @@ Items specific to use in the 1+MG GDI project for metadata submission. Ontology:
 | Institution Clinical | Identifies the Institution/s involved. | [SIO:000688](http://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (219 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Institution Data Center | Identifies the Institution/s involved. | [SIO:000688](http://semanticscience.org/resource/SIO_000688) | [Institutes](../../lookups/Institutes.txt) lookup (219 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
 | Publication description | Linked to the instance of publication_doi; should provide a human-readably description of the publication. | [MS:1001922](http://purl.obolibrary.org/obo/MS_1001922) | String |
-| Collection | Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of. | [DCAT:Collection](http://www.w3.org/ns/prov#Collection) | String |
+| Collection | Here goes the description | [FG:0000751](https://w3id.org/fair-genomes/resource/FG_0000751) | String |
 | Research Consortia | Identifies Research Consortia Involved. | [NCIT:C61538](http://purl.obolibrary.org/obo/NCIT_C61538) | String |
 
 ## Null flavors
