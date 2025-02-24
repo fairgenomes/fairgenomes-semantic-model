@@ -8,7 +8,7 @@
   xmlns:owl="http://www.w3.org/2002/07/owl#">
 
   <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000750">
-    <rdfs:label xml:lang="en">Items specific to use in the 1+MG GDI project for metadata submission.</rdfs:label>
+    <rdfs:label xml:lang="en">A class specific for the 1+MG GDI project containing items for metadata submission.</rdfs:label>
   </rdf:Description>
 
   <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000750">
@@ -16,7 +16,7 @@
     <rdfs:label xml:lang="en">HMD Submission</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes.ttl"/>
     <rdfs:domain rdf:resource="https://w3id.org/fair-genomes/resource/FG_0000750"/>
-    <dc:description xml:lang="en">Items specific to use in the 1+MG GDI project for metadata submission.</dc:description>
+    <dc:description xml:lang="en">A class specific for the 1+MG GDI project containing items for metadata submission.</dc:description>
     <dc:identifier>FG:0000750</dc:identifier>
     <ns0:identifier>FG_0000750</ns0:identifier>
   </rdf:Description>
