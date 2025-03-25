@@ -1,0 +1,6 @@
+value	description	codesystem	code	iri
+Molecular	Molecular	FG	0000766	https://w3id.org/fair-genomes/resource/FG_0000766
+Imaging	Imaging	FG	0000767	https://w3id.org/fair-genomes/resource/FG_0000767
+Anthropometric	Anthropometric	FG	0000768	https://w3id.org/fair-genomes/resource/FG_0000768
+Cellular	Cellular	FG	0000769	https://w3id.org/fair-genomes/resource/FG_0000769
+Physiological	Physiological	FG	0000770	https://w3id.org/fair-genomes/resource/FG_0000770

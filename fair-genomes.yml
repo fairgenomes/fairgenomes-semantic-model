@@ -611,3 +611,37 @@ modules:
             description: Identifies Research Consortia Involved.
             ontology: FG:0000758 [https://w3id.org/fair-genomes/resource/FG_0000758]
             values: String
+    - name: Treatment
+      description: An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process.
+      ontology: NCIT:C49236 [http://purl.obolibrary.org/obo/NCIT_C49236]
+      elements:
+          - name: Dose Units
+            description: Indicates the total dose given in units (e.g. of Gray (Gy) when radiation, Millimeters/24hours for medication)
+            ontology: FG:0000759 [https://w3id.org/fair-genomes/resource/FG_0000759]
+            values: String #Temporary until proper lookup is created
+          - name: Setting
+            description: Indicate the treatment setting, which describes the treatment's purpose in relation to the primary treatment.
+            ontology: NCIT:C124308 [http://purl.obolibrary.org/obo/NCIT_C124308]
+            values: LookupMany [lookups/TreatmentSettings.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C124308]
+          - name: Response to Treatment
+            description: The patients' response to the applied treatment regimen.
+            ontology: SNOMEDCT:182985004 [http://purl.bioontology.org/ontology/SNOMEDCT/182985004]
+            values: LookupMany [lookups/TreatmentResponse.txt], ofType [http://purl.bioontology.org/ontology/SNOMEDCT/182985004]
+    - name: Biomarker
+      description: TODO
+      ontology: NCIT:C16342 [http://purl.obolibrary.org/obo/NCIT_C16342]
+      elements:
+          - name: Type
+            description: What type is the biomarker classified as.
+            ontology: NCIT:C164707 [http://purl.obolibrary.org/obo/NCIT_C164707]
+            values: LookupMany [lookups/BiomarkerType.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C164707]
+
+    # - name: Place_Holder class
+    #   description: Description of the class
+    #   ontology: FG:0000759 [https://w3id.org/fair-genomes/resource/FG_0000759]
+    #   elements:
+    #       - name: First item
+    #         description: Description of value
+    #         ontology: FG:0000752 [https://w3id.org/fair-genomes/resource/FG_0000752]
+    #         values: Link to value list used
+         

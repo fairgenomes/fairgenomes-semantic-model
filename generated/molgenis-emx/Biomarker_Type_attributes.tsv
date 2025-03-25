@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	Biomarker_Type	Value (English)	String	TRUE	FALSE
+description	Biomarker_Type	Description (English)	Text	FALSE	TRUE
+codesystem	Biomarker_Type	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	Biomarker_Type	The code within the code system	String	FALSE	TRUE
+iri	Biomarker_Type	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

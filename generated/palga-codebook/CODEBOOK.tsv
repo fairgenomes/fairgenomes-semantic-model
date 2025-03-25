@@ -129,3 +129,9 @@ Institution Data Center	Identifies the Institution/s involved.	FG	0000756	ST	Ins
 Publication description	Linked to the instance of publication_doi; should provide a human-readably description of the publication.	FG	0000757	ST	Publication description		text	{url=https://w3id.org/fair-genomes/resource/FG_0000757}	HMD Submission	
 Collection	Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of.	FG	0000751	ST	Collection		text	{url=https://w3id.org/fair-genomes/resource/FG_0000751}	HMD Submission	
 Research Consortia	Identifies Research Consortia Involved.	FG	0000758	ST	Research Consortia		text	{url=https://w3id.org/fair-genomes/resource/FG_0000758}	HMD Submission	
+Treatment	An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process.	NCIT	C49236	ST	Treatment		multi-select	{url=http://purl.obolibrary.org/obo/NCIT_C49236}		
+Dose Units	Indicates the total dose given in units (e.g. of Gray (Gy) when radiation, Millimeters/24hours for medication)	FG	0000759	ST	Dose Units		text	{url=https://w3id.org/fair-genomes/resource/FG_0000759}	Treatment	
+Setting	Indicate the treatment setting, which describes the treatment's purpose in relation to the primary treatment.	NCIT	C124308	ST	Setting	TreatmentSettings	multi-select	{url=http://purl.obolibrary.org/obo/NCIT_C124308}	Treatment	
+Response to Treatment	The patients' response to the applied treatment regimen.	SNOMEDCT	182985004	ST	Response to Treatment	TreatmentResponse	multi-select	{url=http://purl.bioontology.org/ontology/SNOMEDCT/182985004}	Treatment	
+Biomarker	TODO	NCIT	C16342	ST	Biomarker		multi-select	{url=http://purl.obolibrary.org/obo/NCIT_C16342}		
+Type	What type is the biomarker classified as.	NCIT	C164707	ST	Type	BiomarkerType	multi-select	{url=http://purl.obolibrary.org/obo/NCIT_C164707}	Biomarker	

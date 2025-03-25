@@ -1,0 +1,2 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+Type	Type	What type is the biomarker classified as. (NCIT:C164707)	Biomarker	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_Biomarker_Type

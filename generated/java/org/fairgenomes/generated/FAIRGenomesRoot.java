@@ -13,4 +13,6 @@ public class FairgenomesRoot {
 	public Map<String, Sequencing> Sequencing;
 	public Map<String, Analysis> Analysis;
 	public Map<String, HmdSubmission> HmdSubmission;
+	public Map<String, Treatment> Treatment;
+	public Map<String, Biomarker> Biomarker;
 }

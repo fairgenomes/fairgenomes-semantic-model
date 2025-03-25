@@ -38,3 +38,6 @@ tableName,tableType,semantics
 "ReferenceGenomeUsed","ONTOLOGIES","http://edamontology.org/data_2787"
 "InstitutionClinical","ONTOLOGIES","http://semanticscience.org/resource/SIO_000688"
 "InstitutionDataCenter","ONTOLOGIES","http://semanticscience.org/resource/SIO_000688"
+"Setting","ONTOLOGIES","http://purl.obolibrary.org/obo/NCIT_C124308"
+"ResponseToTreatment","ONTOLOGIES","http://purl.bioontology.org/ontology/SNOMEDCT/182985004"
+"Type","ONTOLOGIES","http://purl.obolibrary.org/obo/NCIT_C164707"

@@ -6,7 +6,7 @@
 \textbf{FAIR Genomes metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of 10 modules that contain 120 metadata elements and 290151 lookups in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of 12 modules that contain 124 metadata elements and 290164 lookups in total (excluding null flavors).
 
 \begin{table}[htb]
 \begin{tabular}{lll}
@@ -22,6 +22,8 @@ Sample preparation & OBI:0001902 & 9 \\
 Sequencing & EDAM:topic\_3168 & 12 \\
 Analysis & EDAM:operation\_2945 & 11 \\
 HMD Submission & FG:0000750 & 8 \\
+Treatment & NCIT:C49236 & 3 \\
+Biomarker & NCIT:C16342 & 1 \\
 \hline
 \end{tabular}
 \caption[Module overview]{\label{table:table1} FAIR Genomes metadata schema v1.3-SNAPSHOT overview of all modules.}
@@ -238,6 +240,28 @@ Research Consortia & FG:0000758 & String \\
 \end{table}
 
 \begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
+Dose Units & FG:0000759 & String \\
+Setting & NCIT:C124308 & TreatmentSettings lookup (3 choices) \\
+Response to Treatment & SNOMEDCT:182985004 & TreatmentResponse lookup (5 choices) \\
+\hline
+\end{tabular}
+\caption[Module: Treatment]{\label{table:table12} Module: Treatment. An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process. Ontology: NCIT:C49236. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
+Type & NCIT:C164707 & BiomarkerType lookup (5 choices) \\
+\hline
+\end{tabular}
+\caption[Module: Biomarker]{\label{table:table13} Module: Biomarker. TODO Ontology: NCIT:C16342. }
+\end{table}
+
+\begin{table}[htb]
 \begin{tabular}{ll}
 Value & Ontology \\
 \hline
@@ -259,7 +283,7 @@ Sufficient quantity & HL7:QS \\
 Trace & HL7:TRC \\
 \hline
 \end{tabular}
-\caption[NullFlavors]{\label{table:table12} Overview of null flavors. Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }
+\caption[NullFlavors]{\label{table:table14} Overview of null flavors. Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }
 \end{table}
 
 \end{document}
