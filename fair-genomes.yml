@@ -635,6 +635,10 @@ modules:
             description: What type is the biomarker classified as.
             ontology: NCIT:C164707 [http://purl.obolibrary.org/obo/NCIT_C164707]
             values: LookupMany [lookups/BiomarkerType.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C164707]
+          # - name: Subtype_Molecular
+          #   description: Subtype of the molecular biomarker. 
+          #   ontology: FG:0000766 [https://w3id.org/fair-genomes/resource/FG_0000766]
+          #   values: LookupMany [lookups/BiomarkerMolecular.txt], ofType [https://w3id.org/fair-genomes/resource/FG_0000766]
 
     # - name: Place_Holder class
     #   description: Description of the class
