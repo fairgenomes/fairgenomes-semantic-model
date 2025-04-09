@@ -41,3 +41,4 @@ tableName,tableType,semantics
 "Setting","ONTOLOGIES","http://purl.obolibrary.org/obo/NCIT_C124308"
 "ResponseToTreatment","ONTOLOGIES","http://purl.bioontology.org/ontology/SNOMEDCT/182985004"
 "Type","ONTOLOGIES","http://purl.obolibrary.org/obo/NCIT_C164707"
+"Subtype_molecular","ONTOLOGIES","https://w3id.org/fair-genomes/resource/FG_0000766"

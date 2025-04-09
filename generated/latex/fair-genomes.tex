@@ -6,7 +6,7 @@
 \textbf{FAIR Genomes metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of 12 modules that contain 124 metadata elements and 290164 lookups in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of 12 modules that contain 125 metadata elements and 290171 lookups in total (excluding null flavors).
 
 \begin{table}[htb]
 \begin{tabular}{lll}
@@ -23,7 +23,7 @@ Sequencing & EDAM:topic\_3168 & 12 \\
 Analysis & EDAM:operation\_2945 & 11 \\
 HMD Submission & FG:0000750 & 8 \\
 Treatment & NCIT:C49236 & 3 \\
-Biomarker & NCIT:C16342 & 1 \\
+Biomarker & NCIT:C16342 & 2 \\
 \hline
 \end{tabular}
 \caption[Module overview]{\label{table:table1} FAIR Genomes metadata schema v1.3-SNAPSHOT overview of all modules.}
@@ -256,6 +256,7 @@ Response to Treatment & SNOMEDCT:182985004 & TreatmentResponse lookup (5 choices
 Name & Ontology & Values \\
 \hline
 Type & NCIT:C164707 & BiomarkerType lookup (5 choices) \\
+Subtype_Molecular & FG:0000766 & BiomarkerMolecular lookup (7 choices) \\
 \hline
 \end{tabular}
 \caption[Module: Biomarker]{\label{table:table13} Module: Biomarker. TODO Ontology: NCIT:C16342. }

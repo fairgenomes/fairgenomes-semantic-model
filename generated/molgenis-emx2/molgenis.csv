@@ -135,3 +135,4 @@ tableName,tableExtends,columnName,columnType,key,required,refSchema,refTable,ref
 "Treatment","","ResponseToTreatment","ontology_array","","","","ResponseToTreatment","","","","http://purl.bioontology.org/ontology/SNOMEDCT/182985004","The patients' response to the applied treatment regimen.","FAIR Genomes"
 "Biomarker","","","","","","","","","","","http://purl.obolibrary.org/obo/NCIT_C16342","TODO","FAIR Genomes"
 "Biomarker","","Type","ontology_array","","","","Type","","","","http://purl.obolibrary.org/obo/NCIT_C164707","What type is the biomarker classified as.","FAIR Genomes"
+"Biomarker","","Subtype_molecular","ontology_array","","","","Subtype_molecular","","","","https://w3id.org/fair-genomes/resource/FG_0000766","Subtype of the molecular biomarker.","FAIR Genomes"

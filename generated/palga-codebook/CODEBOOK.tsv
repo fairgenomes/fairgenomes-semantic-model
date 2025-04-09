@@ -135,3 +135,4 @@ Setting	Indicate the treatment setting, which describes the treatment's purpose 
 Response to Treatment	The patients' response to the applied treatment regimen.	SNOMEDCT	182985004	ST	Response to Treatment	TreatmentResponse	multi-select	{url=http://purl.bioontology.org/ontology/SNOMEDCT/182985004}	Treatment	
 Biomarker	TODO	NCIT	C16342	ST	Biomarker		multi-select	{url=http://purl.obolibrary.org/obo/NCIT_C16342}		
 Type	What type is the biomarker classified as.	NCIT	C164707	ST	Type	BiomarkerType	multi-select	{url=http://purl.obolibrary.org/obo/NCIT_C164707}	Biomarker	
+Subtype_Molecular	Subtype of the molecular biomarker.	FG	0000766	ST	Subtype_Molecular	BiomarkerMolecular	multi-select	{url=https://w3id.org/fair-genomes/resource/FG_0000766}	Biomarker	

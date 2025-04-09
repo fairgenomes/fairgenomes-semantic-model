@@ -43,6 +43,7 @@
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-datausepermissions.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dataformats.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-genomeaccessions.ttl>,
+    <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-biomarkermolecular.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-treatmentresponse.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-dcmitypes.ttl>,
     <https://fairgenomes.github.io/fairgenomes-semantic-model/generated/ontology/fair-genomes-ancestry.ttl>,
@@ -922,3 +923,10 @@ fg:Biomarker_Type a owl:ObjectProperty;
   rdfs:isDefinedBy obo:NCIT_C164707;
   dc:description "What type is the biomarker classified as.";
   rdfs:range obo:NCIT_C164707 .
+
+fg:Biomarker_Subtype_Molecular a owl:ObjectProperty;
+  rdfs:label "Subtype_Molecular";
+  rdfs:domain fg:Biomarker;
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000766>;
+  dc:description "Subtype of the molecular biomarker.";
+  rdfs:range <https://w3id.org/fair-genomes/resource/FG_0000766> .

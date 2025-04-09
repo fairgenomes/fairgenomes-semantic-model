@@ -1,6 +1,6 @@
 # FAIR Genomes metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __12 modules__ that contain __124 metadata elements__ and __290164 lookups__ in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __12 modules__ that contain __125 metadata elements__ and __290171 lookups__ in total (excluding null flavors).
 
 ## Module overview
 
@@ -17,7 +17,7 @@ The FAIR Genomes semantic metadata schema to power reuse of NGS data in research
 | [Analysis](#module-analysis) | An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output. | [EDAM:operation_2945](http://edamontology.org/operation_2945) | 11 |
 | [HMD Submission](#module-hmd-submission) | A class specific for the 1+MG GDI project containing items for metadata submission. | [FG:0000750](https://w3id.org/fair-genomes/resource/FG_0000750) | 8 |
 | [Treatment](#module-treatment) | An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process. | [NCIT:C49236](http://purl.obolibrary.org/obo/NCIT_C49236) | 3 |
-| [Biomarker](#module-biomarker) | TODO | [NCIT:C16342](http://purl.obolibrary.org/obo/NCIT_C16342) | 1 |
+| [Biomarker](#module-biomarker) | TODO | [NCIT:C16342](http://purl.obolibrary.org/obo/NCIT_C16342) | 2 |
 
 ## Module: Study
 A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts. Ontology: [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536).
@@ -214,6 +214,7 @@ TODO Ontology: [NCIT:C16342](http://purl.obolibrary.org/obo/NCIT_C16342).
 | Element | Description | Ontology | Values |
 |---|---|---|---|
 | Type | What type is the biomarker classified as. | [NCIT:C164707](http://purl.obolibrary.org/obo/NCIT_C164707) | [BiomarkerType](../../lookups/BiomarkerType.txt) lookup (5 choices [of type](http://purl.obolibrary.org/obo/NCIT_C164707)) |
+| Subtype_Molecular | Subtype of the molecular biomarker. | [FG:0000766](https://w3id.org/fair-genomes/resource/FG_0000766) | [BiomarkerMolecular](../../lookups/BiomarkerMolecular.txt) lookup (7 choices [of type](https://w3id.org/fair-genomes/resource/FG_0000766)) |
 
 ## Null flavors
 Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty.
