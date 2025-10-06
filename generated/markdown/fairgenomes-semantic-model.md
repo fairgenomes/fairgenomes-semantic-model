@@ -1,6 +1,6 @@
 # FAIR Genomes metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __9 modules__ that contain __112 metadata elements__ and __85367 lookups__ in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __10 modules__ that contain __120 metadata elements__ and __290151 lookups__ in total (excluding null flavors).
 
 ## Module overview
 
@@ -15,6 +15,7 @@ The FAIR Genomes semantic metadata schema to power reuse of NGS data in research
 | [Sample preparation](#module-sample-preparation) | A sample preparation for a nucleic acids sequencing assay. | [OBI:0001902](http://purl.obolibrary.org/obo/OBI_0001902) | 9 |
 | [Sequencing](#module-sequencing) | The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. | [EDAM:topic_3168](http://edamontology.org/topic_3168) | 12 |
 | [Analysis](#module-analysis) | An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output. | [EDAM:operation_2945](http://edamontology.org/operation_2945) | 11 |
+| [HMD Submission](#module-hmd-submission) | A class specific for the 1+MG GDI project containing items for metadata submission. | [FG:0000750](https://w3id.org/fair-genomes/resource/FG_0000750) | 8 |
 
 ## Module: Study
 A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts. Ontology: [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536).
@@ -181,6 +182,20 @@ An analysis applies analytical (often computational) methods to existing data of
 | Bioinformatic protocol deviation | A variation from processes or procedures defined in the bioinformatic protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. | [NCIT:C50996](http://purl.obolibrary.org/obo/NCIT_C50996) | String |
 | Reason for bioinformatic protocol deviation | The rationale for why a deviation from the bioinformatic protocol has occurred. | [NCIT:C93529](http://purl.obolibrary.org/obo/NCIT_C93529) | String |
 | WGS guideline followed | Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels. | [NCIT:C17564](http://purl.obolibrary.org/obo/NCIT_C17564) | String |
+
+## Module: HMD Submission
+A class specific for the 1+MG GDI project containing items for metadata submission. Ontology: [FG:0000750](https://w3id.org/fair-genomes/resource/FG_0000750).
+
+| Element | Description | Ontology | Values |
+|---|---|---|---|
+| Submitter Role | Role of the Submitter (e.g. Oncologist in charge of the patient, Research Project PI). | [FG:0000752](https://w3id.org/fair-genomes/resource/FG_0000752) | String |
+| Data Center | Refers to the Department in charge of Data Production and/ or analysis | [FG:0000753](https://w3id.org/fair-genomes/resource/FG_0000753) | String |
+| Clinical Center | Refers to the Clinical Department in charge of the patient. | [FG:0000754](https://w3id.org/fair-genomes/resource/FG_0000754) | String |
+| Institution Clinical | Identifies the Institution/s involved. | [FG:0000755](https://w3id.org/fair-genomes/resource/FG_0000755) | [InstitutesROR](../../lookups/InstitutesROR.txt) lookup (102392 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+| Institution Data Center | Identifies the Institution/s involved. | [FG:0000756](https://w3id.org/fair-genomes/resource/FG_0000756) | [InstitutesROR](../../lookups/InstitutesROR.txt) lookup (102392 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+| Publication description | Linked to the instance of publication_doi; should provide a human-readably description of the publication. | [FG:0000757](https://w3id.org/fair-genomes/resource/FG_0000757) | String |
+| Collection | Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of. | [FG:0000751](https://w3id.org/fair-genomes/resource/FG_0000751) | String |
+| Research Consortia | Identifies Research Consortia Involved. | [FG:0000758](https://w3id.org/fair-genomes/resource/FG_0000758) | String |
 
 ## Null flavors
 Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty.

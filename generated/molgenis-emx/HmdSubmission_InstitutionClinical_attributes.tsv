@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	HmdSubmission_InstitutionClinical	Value (English)	String	TRUE	FALSE
+description	HmdSubmission_InstitutionClinical	Description (English)	Text	FALSE	TRUE
+codesystem	HmdSubmission_InstitutionClinical	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	HmdSubmission_InstitutionClinical	The code within the code system	String	FALSE	TRUE
+iri	HmdSubmission_InstitutionClinical	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

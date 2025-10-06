@@ -575,3 +575,39 @@ modules:
             description: Any followed systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.
             ontology: NCIT:C17564 [http://purl.obolibrary.org/obo/NCIT_C17564]
             values: String
+    - name: HMD Submission
+      description: A class specific for the 1+MG GDI project containing items for metadata submission.
+      ontology: FG:0000750 [https://w3id.org/fair-genomes/resource/FG_0000750]
+      elements:
+          - name: Submitter Role
+            description: Role of the Submitter (e.g. Oncologist in charge of the patient, Research Project PI).
+            ontology: FG:0000752 [https://w3id.org/fair-genomes/resource/FG_0000752]
+            values: String
+          - name: Data Center
+            description: Refers to the Department in charge of Data Production and/ or analysis
+            ontology: FG:0000753 [https://w3id.org/fair-genomes/resource/FG_0000753]
+            values: String
+          - name: Clinical Center
+            description: Refers to the Clinical Department in charge of the patient.
+            ontology: FG:0000754 [https://w3id.org/fair-genomes/resource/FG_0000754]
+            values: String
+          - name: Institution Clinical
+            description: Identifies the Institution/s involved.
+            ontology: FG:0000755 [https://w3id.org/fair-genomes/resource/FG_0000755]
+            values: LookupMany [lookups/InstitutesROR.txt], ofType [http://semanticscience.org/resource/SIO_000688]
+          - name: Institution Data Center
+            description: Identifies the Institution/s involved.
+            ontology: FG:0000756 [https://w3id.org/fair-genomes/resource/FG_0000756]
+            values: LookupMany [lookups/InstitutesROR.txt], ofType [http://semanticscience.org/resource/SIO_000688]
+          - name: Publication description
+            description: Linked to the instance of publication_doi; should provide a human-readably description of the publication.
+            ontology: FG:0000757 [https://w3id.org/fair-genomes/resource/FG_0000757]
+            values: String
+          - name: Collection
+            description: Identifies collection (Biobank, Collection, Cohort, other types of projects) in which data are part of.
+            ontology: FG:0000751 [https://w3id.org/fair-genomes/resource/FG_0000751]
+            values: String
+          - name: Research Consortia
+            description: Identifies Research Consortia Involved.
+            ontology: FG:0000758 [https://w3id.org/fair-genomes/resource/FG_0000758]
+            values: String
