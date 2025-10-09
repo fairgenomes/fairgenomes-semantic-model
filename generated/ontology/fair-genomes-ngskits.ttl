@@ -3715,6 +3715,11 @@ fg:Sample_preparation_Library_preparation_kit_KAPA_HyperChoice a obo:GENEPIO_000
   dc:description "KAPA HyperChoice";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000759> .
 
+fg:Sample_preparation_Library_preparation_kit_Accel_Amplicon_Custom_Core_Kit a obo:GENEPIO_0000081;
+  rdfs:label "Accel Amplicon Custom Core Kit";
+  dc:description "Accel Amplicon Custom Core Kit";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000760> .
+
 <https://w3id.org/fair-genomes/ontology/Sample_preparation_Library_preparation_kit_NoInformation_(NI,_nullflavor)>
   a obo:GENEPIO_0000081;
   rdfs:label "NoInformation (NI, nullflavor)";
@@ -7514,6 +7519,11 @@ fg:Sample_preparation_Target_enrichment_kit_KAPA_HyperChoice a obo:GENEPIO_00000
   rdfs:label "KAPA HyperChoice";
   dc:description "KAPA HyperChoice";
   rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000759> .
+
+fg:Sample_preparation_Target_enrichment_kit_Accel_Amplicon_Custom_Core_Kit a obo:GENEPIO_0000081;
+  rdfs:label "Accel Amplicon Custom Core Kit";
+  dc:description "Accel Amplicon Custom Core Kit";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000760> .
 
 <https://w3id.org/fair-genomes/ontology/Sample_preparation_Target_enrichment_kit_NoInformation_(NI,_nullflavor)>
   a obo:GENEPIO_0000081;
