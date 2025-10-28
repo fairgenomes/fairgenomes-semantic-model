@@ -1,0 +1,4 @@
+value	description	codesystem	code	iri
+Histopathology	Histopathology	SNOMED_CT	252416005	http://snomed.info/id/252416005
+Photomicrography	Photomicrography	SNOMED_CT	60287000	http://snomed.info/id/60287000
+Microscopy	Microscopy	SNOMED_CT	117259009	http://snomed.info/id/117259009

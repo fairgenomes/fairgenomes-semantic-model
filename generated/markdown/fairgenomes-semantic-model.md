@@ -1,6 +1,6 @@
 # FAIR Genomes metadata schema
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of __12 modules__ that contain __125 metadata elements__ and __290171 lookups__ in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2025-10-21. This model consists of __16 modules__ that contain __152 metadata elements__ and __290452 lookups__ in total (excluding null flavors).
 
 ## Module overview
 
@@ -12,12 +12,16 @@ The FAIR Genomes semantic metadata schema to power reuse of NGS data in research
 | [Individual consent](#module-individual-consent) | Consent given by a patient to a surgical or medical procedure or participation in a study, examination or analysis after achieving an understanding of the relevant medical facts and the risks involved. | [NCIT:C16735](http://purl.obolibrary.org/obo/NCIT_C16735) | 12 |
 | [Clinical](#module-clinical) | Findings and circumstances relating to the examination and treatment of a patient. | [NCIT:C25398](http://purl.obolibrary.org/obo/NCIT_C25398) | 19 |
 | [Material](#module-material) | A natural substance derived from living organisms such as cells, tissues, proteins, and DNA. | [NCIT:C43376](http://purl.obolibrary.org/obo/NCIT_C43376) | 17 |
+| [Fixed Block](#module-fixed-block) | Refers to preserved specimens embedded in support material. These are typically cut into thin slices for microscopic examination, with or without an enhancement such as staining. | [NCIT:C25436](http://purl.obolibrary.org/obo/NCIT_C25436) | 1 |
 | [Sample preparation](#module-sample-preparation) | A sample preparation for a nucleic acids sequencing assay. | [OBI:0001902](http://purl.obolibrary.org/obo/OBI_0001902) | 9 |
 | [Sequencing](#module-sequencing) | The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. | [EDAM:topic_3168](http://edamontology.org/topic_3168) | 12 |
 | [Analysis](#module-analysis) | An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output. | [EDAM:operation_2945](http://edamontology.org/operation_2945) | 11 |
 | [HMD Submission](#module-hmd-submission) | A class specific for the 1+MG GDI project containing items for metadata submission. | [FG:0000750](https://w3id.org/fair-genomes/resource/FG_0000750) | 8 |
 | [Treatment](#module-treatment) | An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process. | [NCIT:C49236](http://purl.obolibrary.org/obo/NCIT_C49236) | 3 |
 | [Biomarker](#module-biomarker) | TODO | [NCIT:C16342](http://purl.obolibrary.org/obo/NCIT_C16342) | 2 |
+| [Imaging Study](#module-imaging-study) | The Study IE defines the characteristics of a medical Study performed on a Patient. A Study is a collection of one or more Series of medical images, presentation states, and/or SR documents that are logically related for the purpose of diagnosing a Patient. Each Study is associated with exactly one Patient. A Study may include Composite Instances that are created by a single modality, multiple modalities or by multiple devices of the same modality. The Study IE is modality independent. | [DICOM:113014](http://dicom.nema.org/resources/ontology/DCM/113014) | 10 |
+| [Imaging Series](#module-imaging-series) | A distinct logical set used to group composite instances. All instances within a Series are of the same modality, in the same Frame of Reference (if any), and created by the same equipment. | [DICOM:113015](http://dicom.nema.org/resources/ontology/DCM/113015) | 11 |
+| [Image Instance](#module-image-instance) | Any record of an imaging event whether physical or electronic. | [NCIT:C48179](http://purl.obolibrary.org/obo/NCIT_C48179) | 5 |
 
 ## Module: Study
 A detailed examination, analysis, or critical inspection of one or multiple subjects designed to discover facts. Ontology: [NCIT:C63536](http://purl.obolibrary.org/obo/NCIT_C63536).
@@ -135,6 +139,13 @@ A natural substance derived from living organisms such as cells, tissues, protei
 | Analyses performed | Reports the existence of any analyses performed on this material other than genomics (e.g. transcriptomics, metabolomics, proteomics). | [IAO:0000702](http://purl.obolibrary.org/obo/IAO_0000702) | [AnalysesPerformed](../../lookups/AnalysesPerformed.txt) lookup (20 choices [of type](http://edamontology.org/topic_3391)) |
 | Derived from | Indicate if this material was produced from or related to another. | [NCIT:C28355](http://purl.obolibrary.org/obo/NCIT_C28355) | String |
 
+## Module: Fixed Block
+Refers to preserved specimens embedded in support material. These are typically cut into thin slices for microscopic examination, with or without an enhancement such as staining. Ontology: [NCIT:C25436](http://purl.obolibrary.org/obo/NCIT_C25436).
+
+| Element | Description | Ontology | Values |
+|---|---|---|---|
+| Block identifier | A unique proper name or character sequence that identifies this fixed block. | [NCIT:C93400](http://purl.obolibrary.org/obo/NCIT_C93400) | UniqueID |
+
 ## Module: Sample preparation
 A sample preparation for a nucleic acids sequencing assay. Ontology: [OBI:0001902](http://purl.obolibrary.org/obo/OBI_0001902).
 
@@ -143,9 +154,9 @@ A sample preparation for a nucleic acids sequencing assay. Ontology: [OBI:000190
 | Sampleprep identifier | A unique proper name or character sequence that identifies this particular sample preparation. | [NCIT:C132299](http://purl.obolibrary.org/obo/NCIT_C132299) | UniqueID |
 | Belongs to material | Reference to the source material from which this sample was prepared. | [NCIT:C25683](http://purl.obolibrary.org/obo/NCIT_C25683) | Reference to instances of Material |
 | Input amount | Amount of input material in nanogram (ng). | [AFRL:0000010](http://purl.allotrope.org/ontologies/role#AFRL_0000010) | Integer |
-| Library preparation kit | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | [GENEPIO:0000085](http://purl.obolibrary.org/obo/GENEPIO_0000085) | [NGSKits](../../lookups/NGSKits.txt) lookup (619 choices [of type](http://purl.obolibrary.org/obo/GENEPIO_0000081)) |
+| Library preparation kit | Pre-filled, ready-to-use reagent cartridges intented to improve chemistry, cluster density and read length as well as improve quality (Q) scores for this sample. Reagent components are encoded to interact with the sequencing system to validate compatibility with user-defined applications. | [GENEPIO:0000085](http://purl.obolibrary.org/obo/GENEPIO_0000085) | [NGSKits](../../lookups/NGSKits.txt) lookup (621 choices [of type](http://purl.obolibrary.org/obo/GENEPIO_0000081)) |
 | PCR free | Indicates whether a polymerase chain reaction (PCR) was used to prepare this sample. PCR is a method for amplifying a DNA base sequence using multiple rounds of heat denaturation of the DNA and annealing of oligonucleotide primers complementary to flanking regions in the presence of a heat-stable polymerase. | [NCIT:C17003](http://purl.obolibrary.org/obo/NCIT_C17003) | Boolean |
-| Target enrichment kit | Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample. | [NCIT:C154307](http://purl.obolibrary.org/obo/NCIT_C154307) | [NGSKits](../../lookups/NGSKits.txt) lookup (619 choices [of type](http://purl.obolibrary.org/obo/GENEPIO_0000081)) |
+| Target enrichment kit | Indicates which target enrichment kit was used to prepare this sample. Target enrichment is a pre-sequencing DNA preparation step where DNA sequences are either directly amplified (amplicon or multiplex PCR-based) or captured (hybrid capture-based) in order to only focus on specific regions of a genome or DNA sample. | [NCIT:C154307](http://purl.obolibrary.org/obo/NCIT_C154307) | [NGSKits](../../lookups/NGSKits.txt) lookup (621 choices [of type](http://purl.obolibrary.org/obo/GENEPIO_0000081)) |
 | UMIs present | Indicates whether any unique molecular identifiers (UMIs) are present. An UMI barcode is a short nucleotide sequence that is used to identify reads originating from an individual mRNA molecule. | [EFO:0010199](http://www.ebi.ac.uk/efo/EFO_0010199) | Boolean |
 | Intended insert size | In paired-end sequencing, the DNA between the adapter sequences is the insert. The length of this sequence is known as the insert size, not to be confused with the inner distance between reads. So, fragment length equals read adapter length (2x) plus insert size, and insert size equals read lenght (2x) plus inner distance. | [FG:0000001](https://w3id.org/fair-genomes/resource/FG_0000001) | Integer |
 | Intended read length | The number of nucleotides intended to be ordered from each side of a nucleic acid fragment obtained after the completion of a sequencing process. | [NCIT:C153362](http://purl.obolibrary.org/obo/NCIT_C153362) | Integer |
@@ -215,6 +226,50 @@ TODO Ontology: [NCIT:C16342](http://purl.obolibrary.org/obo/NCIT_C16342).
 |---|---|---|---|
 | Type | What type is the biomarker classified as. | [NCIT:C164707](http://purl.obolibrary.org/obo/NCIT_C164707) | [BiomarkerType](../../lookups/BiomarkerType.txt) lookup (5 choices [of type](http://purl.obolibrary.org/obo/NCIT_C164707)) |
 | Subtype_Molecular | Subtype of the molecular biomarker. | [FG:0000766](https://w3id.org/fair-genomes/resource/FG_0000766) | [BiomarkerMolecular](../../lookups/BiomarkerMolecular.txt) lookup (7 choices [of type](https://w3id.org/fair-genomes/resource/FG_0000766)) |
+
+## Module: Imaging Study
+The Study IE defines the characteristics of a medical Study performed on a Patient. A Study is a collection of one or more Series of medical images, presentation states, and/or SR documents that are logically related for the purpose of diagnosing a Patient. Each Study is associated with exactly one Patient. A Study may include Composite Instances that are created by a single modality, multiple modalities or by multiple devices of the same modality. The Study IE is modality independent. Ontology: [DICOM:113014](http://dicom.nema.org/resources/ontology/DCM/113014).
+
+| Element | Description | Ontology | Values |
+|---|---|---|---|
+| Imaging Study identifier | The user- or equipment-generated identifier of an instance of a DICOM study entity. | [NCIT:C164493](http://purl.obolibrary.org/obo/NCIT_C164493) | UniqueID |
+| Belongs to person | Reference to the person whom this imaging study is about. | [NCIT:C164337](http://purl.obolibrary.org/obo/NCIT_C164337) | Reference to instances of Personal |
+| Imaging Technique (Modality) | Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy. | [NCIT:C17369](http://purl.obolibrary.org/obo/NCIT_C17369) | [Modality](../../lookups/Modality.txt) lookup (5 choices) |
+| Body Region | Named areas of the body. | [NCIT:C12680](http://purl.obolibrary.org/obo/NCIT_C12680) | [AnatomicFocus](../../lookups/AnatomicFocus.txt) lookup (10 choices) |
+| Imaging Procedure | An imaging procedure as defined by SNOMED CT, representing a specific diagnostic or acquisition procedure (e.g., 'CT of breast', 'MRI of head', or 'Whole Slide Imaging'), rather than the general modality or technique alone. The general modality or technique (e.g., 'CT', 'MR', 'SM') is captured separately in the 'Imaging Technique' field. | [NCIT:C17369](http://purl.obolibrary.org/obo/NCIT_C17369) | [ImagingProcedure](../../lookups/ImagingProcedure.txt) lookup (3 choices) |
+| Reason for Imaging Procedure | The clinical or research rationale for performing the imaging procedure. This field captures why the procedure was indicated for the patient, such as screening, diagnosis, treatment planning, or research purposes. It should express the intent or medical reason, not the technical details of the procedure itself. | [NCIT:C69216](http://purl.obolibrary.org/obo/NCIT_C69216) | [ReasonForImagingProcedure](../../lookups/ReasonForImagingProcedure.txt) lookup (1 choices) |
+| Study Start Date | The date on which a study began. | [NCIT:C69208](http://purl.obolibrary.org/obo/NCIT_C69208) | Date |
+| DICOM Series Count | The number of DICOM series. | [NCIT:C164492](http://purl.obolibrary.org/obo/NCIT_C164492) | Integer |
+| DICOM Images Count | The number of DICOM instances in the imaging study. | [NCIT:C164540](http://purl.obolibrary.org/obo/NCIT_C164540) | Integer |
+| Affiliated Institution | The organisation or institution responsible for performing the imaging study. | [NCIT:C25412](http://purl.obolibrary.org/obo/NCIT_C25412) | [Institutes](../../lookups/Institutes.txt) lookup (219 choices [of type](http://semanticscience.org/resource/SIO_000688)) |
+
+## Module: Imaging Series
+A distinct logical set used to group composite instances. All instances within a Series are of the same modality, in the same Frame of Reference (if any), and created by the same equipment. Ontology: [DICOM:113015](http://dicom.nema.org/resources/ontology/DCM/113015).
+
+| Element | Description | Ontology | Values |
+|---|---|---|---|
+| Series Instance UID | A unique identifier for series of images. | [NCIT:C69219](http://purl.obolibrary.org/obo/NCIT_C69219) | UniqueID |
+| Belongs to Imaging Study | Reference to the parent imaging study of which this series is a part, linking the series to the overall study context. | [NCIT:C164493](http://purl.obolibrary.org/obo/NCIT_C164493) | Reference to instances of Imaging Study |
+| DICOM Images Count | The number of DICOM instances in the imaging study. | [NCIT:C164540](http://purl.obolibrary.org/obo/NCIT_C164540) | Integer |
+| Imaging Technique (Modality) | Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy. | [NCIT:C17369](http://purl.obolibrary.org/obo/NCIT_C17369) | [Modality](../../lookups/Modality.txt) lookup (5 choices) |
+| Imaging Procedure | An imaging procedure as defined by SNOMED CT, representing a specific diagnostic or acquisition procedure (e.g., 'CT of breast', 'MRI of head', or 'Whole Slide Imaging'), rather than the general modality or technique alone. The general modality or technique (e.g., 'CT', 'MR', 'SM') is captured separately in the 'Imaging Technique' field. | [NCIT:C17369](http://purl.obolibrary.org/obo/NCIT_C17369) | [ImagingProcedure](../../lookups/ImagingProcedure.txt) lookup (3 choices) |
+| Series Start Date | The date when this imaging series started within the parent study. | [NCIT:C68616](http://purl.obolibrary.org/obo/NCIT_C68616) | Date |
+| Body Region | Named areas of the body. | [NCIT:C12680](http://purl.obolibrary.org/obo/NCIT_C12680) | [AnatomicFocus](../../lookups/AnatomicFocus.txt) lookup (10 choices) |
+| Laterality | Indicates the side of the body examined within the imaging series. This field specifies whether the imaging procedure focused on the right side, left side, both sides, or an unpaired (midline) structure. | [NCIT:C25185](http://purl.obolibrary.org/obo/NCIT_C25185) | [Laterality](../../lookups/Laterality.txt) lookup (4 choices) |
+| Imaging Device | A device for producing a representation or picture, usually of a part of the body, to aid in diagnosis and evaluation. | [NCIT:C19747](http://purl.obolibrary.org/obo/NCIT_C19747) | [ImagingDevice](../../lookups/ImagingDevice.txt) lookup (1 choices) |
+| Manufacturer of Imaging Device | The company or organization that produces or supplies an imaging device, such as MRI, CT, X-ray, ultrasound, or whole-slide scanners, used to generate visual representations of anatomical structures or tissue samples for diagnostic, research, or clinical evaluation purposes. | [NCIT:C25392](http://purl.obolibrary.org/obo/NCIT_C25392) | [ManufacturerOfID](../../lookups/ManufacturerOfID.txt) lookup (14 choices) |
+| Software Version | A form or variant of software; one of a sequence of copies of a software program, each incorporating new modifications. | [NCIT:C111093](http://purl.obolibrary.org/obo/NCIT_C111093) | [ImagingDeviceSoftwareVersion](../../lookups/ImagingDeviceSoftwareVersion.txt) lookup (1 choices) |
+
+## Module: Image Instance
+Any record of an imaging event whether physical or electronic. Ontology: [NCIT:C48179](http://purl.obolibrary.org/obo/NCIT_C48179).
+
+| Element | Description | Ontology | Values |
+|---|---|---|---|
+| Image Instance Identifier | A sequence of letters, numbers, or other characters that specifically identifies a particular image. | [NCIT:C81289](http://purl.obolibrary.org/obo/NCIT_C81289) | UniqueID |
+| Belongs to Imaging Study | Reference to the parent imaging study of which this image is a part, linking the series to the overall study context. | [NCIT:C164493](http://purl.obolibrary.org/obo/NCIT_C164493) | Reference to instances of Imaging Study |
+| Belongs to Imaging Series | Reference to the parent imaging series of which this image is a part, linking the series to the overall study context. | [NCIT:C69219](http://purl.obolibrary.org/obo/NCIT_C69219) | Reference to instances of Imaging Series |
+| Image Instance Date | The date when this image was generated. | [NCIT:C68616](http://purl.obolibrary.org/obo/NCIT_C68616) | Date |
+| Image Type | Indicates the characteristics and derivation of the image, e.g., whether it is a primary acquisition or a derived image. | [NCIT:C69268](http://purl.obolibrary.org/obo/NCIT_C69268) | [ImageType](../../lookups/ImageType.txt) lookup (1 choices) |
 
 ## Null flavors
 Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty.

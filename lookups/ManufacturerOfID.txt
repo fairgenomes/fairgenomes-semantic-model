@@ -1,0 +1,15 @@
+value	description	codesystem	code	iri
+Siemens Healthineers	Siemens Healthineers	SNOMED_CT	449868002	http://snomed.info/id/449868002
+GE Healthcare	GE Healthcare	SNOMED_CT	40983000	http://snomed.info/id/40983000
+Philips Healthcare	Philips Healthcare	SNOMED_CT	41440000	http://snomed.info/id/41440000
+Canon Medical Systems	Canon Medical Systems	SNOMED_CT	22539000	http://snomed.info/id/22539000
+Hitachi Medical Systems	Hitachi Medical Systems	SNOMED_CT	43005000	http://snomed.info/id/43005000
+Leica Biosystems	Leica Biosystems	SNOMED_CT	7163002	http://snomed.info/id/7163002
+3DHISTECH	3DHISTECH	SNOMED_CT	111356000	http://snomed.info/id/111356000
+Hamamatsu Photonics	Hamamatsu Photonics	SNOMED_CT	71334008	http://snomed.info/id/71334008
+Mindray	Mindray	SNOMED_CT	116071000119100	http://snomed.info/id/116071000119100
+Fujifilm Medical Systems	Fujifilm Medical Systems	SNOMED_CT	44608003	http://snomed.info/id/44608003
+Samsung Medison	Samsung Medison	SNOMED_CT	11934008	http://snomed.info/id/11934008
+Shimadzu Corporation	Shimadzu Corporation	SNOMED_CT	108161000119100	http://snomed.info/id/108161000119100
+Toshiba Medical Systems	Toshiba Medical Systems	SNOMED_CT	420137000	http://snomed.info/id/420137000
+Agfa HealthCare	Agfa HealthCare	SNOMED_CT	72582004	http://snomed.info/id/72582004

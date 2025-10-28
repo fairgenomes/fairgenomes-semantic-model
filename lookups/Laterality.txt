@@ -1,0 +1,5 @@
+value	description	codesystem	code	iri
+R	Right	SNOMED_CT	24028007	http://snomed.info/id/24028007
+L	Left	SNOMED_CT	7771000	http://snomed.info/id/7771000
+B	Both left and right	SNOMED_CT	51440002	http://snomed.info/id/51440002
+U	Not applicable (unpaired structure)	NullFlavor	NA	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA

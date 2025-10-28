@@ -1,0 +1,2 @@
+value	description	codesystem	code	iri
+T1-weighted MRI	T1-weighted magnetic resonance image	SNOMED_CT	113091000	http://snomed.info/id/113091000
