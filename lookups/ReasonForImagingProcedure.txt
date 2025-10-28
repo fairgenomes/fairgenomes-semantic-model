@@ -1,0 +1,2 @@
+value	description	codesystem	code	iri
+Clinical finding	Clinical finding	SNOMED_CT	404684003	http://snomed.info/id/404684003

@@ -1,0 +1,6 @@
+value	description	codesystem	code	iri
+US	Ultrasound Imaging	NCIT	C17230	http://purl.obolibrary.org/obo/NCIT_C17230
+CT	Computed Tomography	NCIT	C17204	http://purl.obolibrary.org/obo/NCIT_C17204
+DX	Digital Radiography	NCIT	C18001	http://purl.obolibrary.org/obo/NCIT_C18001
+MR	Magnetic Resonance Imaging	NCIT	C16809	http://purl.obolibrary.org/obo/NCIT_C16809
+SM	Slide Microscopy	NCIT	C190609	http://purl.obolibrary.org/obo/NCIT_C190609
