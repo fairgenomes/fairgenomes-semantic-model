@@ -8,10 +8,10 @@
   xmlns:owl="http://www.w3.org/2002/07/owl#">
 
   <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000760">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0000081"/>
-    <rdfs:label xml:lang="en">Accel Amplicon Custom Core Kit</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-ngskits.ttl"/>
-    <dc:description xml:lang="en">Accel Amplicon Custom Core Kit</dc:description>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCIT_C124308"/>
+    <rdfs:label xml:lang="en">Advanced/Metastatic</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-treatmentsettings.ttl"/>
+    <dc:description xml:lang="en">TODO</dc:description>
     <dc:identifier>FG:0000760</dc:identifier>
     <ns0:identifier>FG_0000760</ns0:identifier>
   </rdf:Description>

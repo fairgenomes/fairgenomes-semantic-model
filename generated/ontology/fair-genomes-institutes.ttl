@@ -5276,3 +5276,1315 @@ fg:Individual_consent_Collected_by_Masaryk_Memorial_Cancer_Institute a <http://s
   rdfs:label "Trace (TRC, nullflavor)";
   dc:description "The content is greater than zero, but too small to be quantified.";
   rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .
+
+fg:Imaging_Study_Affiliated_Institution_Academic_Medical_Center_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Academic Medical Center Biobank";
+  dc:description "Academic Medical Center Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACVOEOZ2UYZSUAVNCZ2AAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_ACS_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "ACS Biobank";
+  dc:description "ACS Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXO74F5GMACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_AGNES_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "AGNES Biobank";
+  dc:description "AGNES Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACYWY5TBZGACQK2MDM4QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_AMC_Renal_Transplant_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "AMC Renal Transplant Biobank";
+  dc:description "AMC Renal Transplant Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAF5YXYACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Amsterdam_UMC_Biobank:_Location_AMC a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Amsterdam UMC Biobank: Location AMC";
+  dc:description "Amsterdam UMC Biobank: Location AMC";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AMCBB> .
+
+fg:Imaging_Study_Affiliated_Institution_ARGOS_NL a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "ARGOS NL";
+  dc:description "ARGOS NL";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJ3VCTUACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_ARREST_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "ARREST Biobank";
+  dc:description "ARREST Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKMVPYIACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_BBMRI-Omics a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "BBMRI-Omics";
+  dc:description "BBMRI-Omics";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaaczxoioaeoacqk2mo6qaaae> .
+
+fg:Imaging_Study_Affiliated_Institution_Binnenstebuiten_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Binnenstebuiten Biobank";
+  dc:description "Binnenstebuiten Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJXQJHAACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Biobank_Hemoglobinopathy a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Biobank Hemoglobinopathy";
+  dc:description "Biobank Hemoglobinopathy";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaac2dvrk2baacqk2mpm4yaae> .
+
+fg:Imaging_Study_Affiliated_Institution_Biobank_Interstitial_Lung_Disease a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Biobank Interstitial Lung Disease";
+  dc:description "Biobank Interstitial Lung Disease";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJX4UB6ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_BioBank_Maastricht_UMC a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "BioBank Maastricht UMC";
+  dc:description "BioBank Maastricht UMC";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACVKPKFJ4CZSUAVNCZ2AAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Biobank_of_the_department_gerontology_and_nephrology_-_LUMC
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Biobank of the department gerontology and nephrology - LUMC";
+  dc:description "Biobank of the department gerontology and nephrology - LUMC";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaaczxoatpr2acqk2mo6qaaae> .
+
+fg:Imaging_Study_Affiliated_Institution_Biobank_Reproduction_and_Development a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Biobank Reproduction and Development";
+  dc:description "Biobank Reproduction and Development";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPF7SEQEACQK2ME25QAAE> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Biobank+NKI>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Biobank+NKI";
+  dc:description "Biobank+NKI";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXSW447PSACQK2MBZ5YAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_BOSOM_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "BOSOM Biobank";
+  dc:description "BOSOM Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKPSTGWACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_CDDSS_Knowledge_base a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "CDDSS Knowledge base";
+  dc:description "CDDSS Knowledge base";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACYAIDV754ACQK2MBZ5YAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_Centrale_Biobank_UMC_Utrecht a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Centrale Biobank UMC Utrecht";
+  dc:description "Centrale Biobank UMC Utrecht";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_CBB> .
+
+fg:Imaging_Study_Affiliated_Institution_Cluster_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Cluster Biobank";
+  dc:description "Cluster Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAPP4NIACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_CuraSAB_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "CuraSAB Biobank";
+  dc:description "CuraSAB Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPASYLVKACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Databiobank_OncoLifeS a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Databiobank OncoLifeS";
+  dc:description "Databiobank OncoLifeS";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaac2rbppbqeacqk2mpm4yaae> .
+
+fg:Imaging_Study_Affiliated_Institution_Diabetes_care_system_West-Friesland_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Diabetes care system West-Friesland Biobank";
+  dc:description "Diabetes care system West-Friesland Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJW5GJ6ACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_DIPAK a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "DIPAK";
+  dc:description "DIPAK";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaac2dvrk2auacqk2mpm4yabe> .
+
+fg:Imaging_Study_Affiliated_Institution_Durrer_Center a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Durrer Center";
+  dc:description "Durrer Center";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACVOEPHI3IZSUAVNCZ2AAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Dutch_Hunger_Winter_Families_Study_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Dutch Hunger Winter Families Study Biobank";
+  dc:description "Dutch Hunger Winter Families Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKCENKIACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Early_Arthitis_Clinic_cohort a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Early Arthitis Clinic cohort";
+  dc:description "Early Arthitis Clinic cohort";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAUCGZWACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_EORTC a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "EORTC";
+  dc:description "EORTC";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXJR5GDHKACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_EPIC_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "EPIC Biobank";
+  dc:description "EPIC Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACYWZHZP6SACQK2MDM4QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_EPOZ_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "EPOZ Biobank";
+  dc:description "EPOZ Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRDI7YOACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Erasmus_MC_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Erasmus MC Biobank";
+  dc:description "Erasmus MC Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACW5FCXM3MZSUAVNCZ2AAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Erasmus_MC_Tissue_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Erasmus MC Tissue Biobank";
+  dc:description "Erasmus MC Tissue Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPF2POVSACQK2ME25QAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_Erasmus_Rucphen_Family_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Erasmus Rucphen Family Study Biobank";
+  dc:description "Erasmus Rucphen Family Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKEZGNYACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_ERGO_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "ERGO Biobank";
+  dc:description "ERGO Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKHAQOYACQK2ME25QAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_EUGENDA_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "EUGENDA Biobank";
+  dc:description "EUGENDA Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRDNXUMACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Family_and_Health_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Family and Health Biobank";
+  dc:description "Family and Health Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRDRIO6ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Fetal_Aneuploidy_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Fetal Aneuploidy Biobank";
+  dc:description "Fetal Aneuploidy Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaac2dvrk2a6acqk2mpm4yaai> .
+
+fg:Imaging_Study_Affiliated_Institution_Fronto-temporal_Dementia_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Fronto-temporal Dementia Biobank";
+  dc:description "Fronto-temporal Dementia Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFW2H7KACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Generation_R_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Generation R Biobank";
+  dc:description "Generation R Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKEJXLSACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Genetic_risk_factors_in_Familial_Hypercholesterolemia
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Genetic risk factors in Familial Hypercholesterolemia";
+  dc:description "Genetic risk factors in Familial Hypercholesterolemia";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXS4EZXBQACQK2MBZ5YAAE> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Genetics,_Arthrosis_and_Progression_Biobank>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Genetics, Arthrosis and Progression Biobank";
+  dc:description "Genetics, Arthrosis and Progression Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPATMOWYACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_GenoMEL_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "GenoMEL Biobank";
+  dc:description "GenoMEL Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKTCIZGACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Ghana_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ghana Study Biobank";
+  dc:description "Ghana Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJYUZMIACQK2ME25QAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_Healthy_LIfe_in_an_Urban_Setting_Biobank a
+    <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Healthy LIfe in an Urban Setting Biobank";
+  dc:description "Healthy LIfe in an Urban Setting Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPF2EYBEACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Hemochromatosis_family_study_biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Hemochromatosis family study biobank";
+  dc:description "Hemochromatosis family study biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAPKLICACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_HIV_Host_genetics_cohort_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "HIV Host genetics cohort Biobank";
+  dc:description "HIV Host genetics cohort Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFWJPCYACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Hoofd-halskanker_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Hoofd-halskanker Biobank";
+  dc:description "Hoofd-halskanker Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaac2dvrk2baacqk2mpm4yaai> .
+
+fg:Imaging_Study_Affiliated_Institution_Hoorn_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Hoorn Study Biobank";
+  dc:description "Hoorn Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPK6TQCOACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Hyperlipidemia_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Hyperlipidemia Biobank";
+  dc:description "Hyperlipidemia Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXTCGNZLWACQK2MBZ5YAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_ID1000_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "ID1000 Biobank";
+  dc:description "ID1000 Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJZNKPOACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Inflammatory_Bowel_Disease_Zuid_Limburg_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Inflammatory Bowel Disease Zuid Limburg Biobank";
+  dc:description "Inflammatory Bowel Disease Zuid Limburg Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFVEJHAACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_KNOOPGenetic_and_Asthma_together a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "KNOOPGenetic and Asthma together";
+  dc:description "KNOOPGenetic and Asthma together";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAWIJHOACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_LASA_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "LASA Biobank";
+  dc:description "LASA Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRCP2M6ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Leiden_University_Medical_Center_Biobank a
+    <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Leiden University Medical Center Biobank";
+  dc:description "Leiden University Medical Center Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXJQEK6I4ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Leidsche_Rijn_Gezondheid_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Leidsche Rijn Gezondheid Study Biobank";
+  dc:description "Leidsche Rijn Gezondheid Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFROFN6ACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Lifelines_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Lifelines Biobank";
+  dc:description "Lifelines Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAWTUFCACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Lipidpoli_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Lipidpoli Biobank";
+  dc:description "Lipidpoli Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPLAX4VSACQK2ME25QAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_LUMINA_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "LUMINA Biobank";
+  dc:description "LUMINA Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFXCFPSACQK2ME25QAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_MeninGene_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "MeninGene Biobank";
+  dc:description "MeninGene Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACW7MF7WRMACQK2MD37AAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_MINDACT_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "MINDACT Biobank";
+  dc:description "MINDACT Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKTOQW6ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Myopia_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Myopia Study Biobank";
+  dc:description "Myopia Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJYFQTKACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_National_Twin_Registry_and_Netherlands_Study_of_Depression_and_Anxiety_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "National Twin Registry and Netherlands Study of Depression and Anxiety Biobank";
+  dc:description "National Twin Registry and Netherlands Study of Depression and Anxiety Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAVQE52ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_NELSON_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "NELSON Biobank";
+  dc:description "NELSON Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKSH53MACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_NEO_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "NEO Study Biobank";
+  dc:description "NEO Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKCIJ6KACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_NESCOG_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "NESCOG Biobank";
+  dc:description "NESCOG Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKGLJLKACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Netherlands_Brain_Bank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Netherlands Brain Bank";
+  dc:description "Netherlands Brain Bank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXAVZYY2YACQK2MD37AAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Netherlands_Study_Depression_and_Anxiety_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Netherlands Study Depression and Anxiety Biobank";
+  dc:description "Netherlands Study Depression and Anxiety Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAVYJOOACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Netherlands_Twin_Register_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Netherlands Twin Register Biobank";
+  dc:description "Netherlands Twin Register Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKDOM6AACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_NeuroUnit_Biomarkers_for_Inflammation_and_Neurodegeneration
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "NeuroUnit Biomarkers for Inflammation and Neurodegeneration";
+  dc:description "NeuroUnit Biomarkers for Inflammation and Neurodegeneration";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAJZC52ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_New_Hoorn_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "New Hoorn Study Biobank";
+  dc:description "New Hoorn Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPF4VZU4ACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_NL_Perinatal_Screening_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "NL Perinatal Screening Biobank";
+  dc:description "NL Perinatal Screening Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPF3FZEAACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_NOAC_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "NOAC Biobank";
+  dc:description "NOAC Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACYWZIFEXYACQK2MDM4QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Obesity_Center_CGG_biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Obesity Center CGG biobank";
+  dc:description "Obesity Center CGG biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaac2dvrk2baacqk2mpm4yaam> .
+
+fg:Imaging_Study_Affiliated_Institution_Occupational_asthma_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Occupational asthma Biobank";
+  dc:description "Occupational asthma Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKSBQFGACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Oogziekenhuis_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Oogziekenhuis Biobank";
+  dc:description "Oogziekenhuis Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPJXYJXSACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_ORIGO_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "ORIGO Biobank";
+  dc:description "ORIGO Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKM4ZVGACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_PACMAN_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "PACMAN Biobank";
+  dc:description "PACMAN Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRARQ4KACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_PALGA a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "PALGA";
+  dc:description "PALGA";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaacz5gvxsieacqk2mgyyqaae> .
+
+fg:Imaging_Study_Affiliated_Institution_Parelsnoer a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Parelsnoer";
+  dc:description "Parelsnoer";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaacz5nbabrsacqk2mgyyqaae> .
+
+fg:Imaging_Study_Affiliated_Institution_PARISK a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "PARISK";
+  dc:description "PARISK";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaacz5nb2ytqacqk2mgyyqaae> .
+
+fg:Imaging_Study_Affiliated_Institution_PAS_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "PAS Biobank";
+  dc:description "PAS Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXS4EWC6CACQK2MBZ5YAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_PIAMA_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "PIAMA Biobank";
+  dc:description "PIAMA Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKKEALKACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_POPS_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "POPS Biobank";
+  dc:description "POPS Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKFIXU4ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Postpartum_psychosis_biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Postpartum psychosis biobank";
+  dc:description "Postpartum psychosis biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaac2dvrk2baacqk2mpm4yaau> .
+
+fg:Imaging_Study_Affiliated_Institution_PPHVZ_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "PPHVZ Biobank";
+  dc:description "PPHVZ Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKT6T6WACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_PRECISION_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "PRECISION Biobank";
+  dc:description "PRECISION Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACYWYFU3V4ACQK2MDM4QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Radboud_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Radboud Biobank";
+  dc:description "Radboud Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_RBB> .
+
+fg:Imaging_Study_Affiliated_Institution_RECOGIDAS_MUESTRAS_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "RECOGIDAS MUESTRAS Biobank";
+  dc:description "RECOGIDAS MUESTRAS Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFMQJ7WACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Research_Arthritis_and_Articular_Cartilage_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Research Arthritis and Articular Cartilage Biobank";
+  dc:description "Research Arthritis and Articular Cartilage Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPF4GVAEACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Rijksdienst_voor_Volksgezondheid_en_Milieu
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Rijksdienst voor Volksgezondheid en Milieu";
+  dc:description "Rijksdienst voor Volksgezondheid en Milieu";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRA5XCUACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Severely_Obese_Individuals_Maastricht a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Severely Obese Individuals Maastricht";
+  dc:description "Severely Obese Individuals Maastricht";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFU3BUUACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_SIMPEL_trials_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "SIMPEL trials Biobank";
+  dc:description "SIMPEL trials Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaaczwp435cwacqk2mo6qaaae> .
+
+fg:Imaging_Study_Affiliated_Institution_SMART_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "SMART Biobank";
+  dc:description "SMART Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKUTPDUACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_SMILE_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "SMILE Biobank";
+  dc:description "SMILE Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRAZEXWACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Surinamese_in_the_netherlands:_study_on_ethnicity_and_health_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Surinamese in the netherlands: study on ethnicity and health Biobank";
+  dc:description "Surinamese in the netherlands: study on ethnicity and health Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFMLKW2ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Tamoxifen_Exemestane_Adjuvant_Multinational_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Tamoxifen Exemestane Adjuvant Multinational Biobank";
+  dc:description "Tamoxifen Exemestane Adjuvant Multinational Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPF3ZSUWACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_The_Nightingale_Study_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "The Nightingale Study Biobank";
+  dc:description "The Nightingale Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPLBYGYCACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_TRAILS_biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "TRAILS biobank";
+  dc:description "TRAILS biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXO74P6CWACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Tuberculosis_Indonesia_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Tuberculosis Indonesia Biobank";
+  dc:description "Tuberculosis Indonesia Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFV6EUKACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_UMCG_Research_Data_and_Biobanking_Team a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "UMCG Research Data and Biobanking Team";
+  dc:description "UMCG Research Data and Biobanking Team";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPASAS2AACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Utrecht_Clamp_Cohort_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Utrecht Clamp Cohort Biobank";
+  dc:description "Utrecht Clamp Cohort Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFOKGE6ACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Utrecht_Coronary_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Utrecht Coronary Biobank";
+  dc:description "Utrecht Coronary Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_aaaaczwpyvddcacqk2mo6qaaae> .
+
+fg:Imaging_Study_Affiliated_Institution_Utrecht_Depression_Epidemiology_Study_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Utrecht Depression Epidemiology Study Biobank";
+  dc:description "Utrecht Depression Epidemiology Study Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFPWGMSACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_U-TWIN_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "U-TWIN Biobank";
+  dc:description "U-TWIN Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKIFC32ACQK2ME25QAAM> .
+
+fg:Imaging_Study_Affiliated_Institution_Vascular_Disease_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Vascular Disease Biobank";
+  dc:description "Vascular Disease Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRAIR7CACQK2ME25QAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_Vrije_Unversiteit_Medisch_Centrum_Bacteriele_Meningitis
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Vrije Unversiteit Medisch Centrum Bacteriele Meningitis";
+  dc:description "Vrije Unversiteit Medisch Centrum Bacteriele Meningitis";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPAGSMBGACQK2ME25QAAI> .
+
+fg:Imaging_Study_Affiliated_Institution_Vrije_Unversiteit_Medisch_Centrum_Bacteriele_Meningitis_Biobank
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Vrije Unversiteit Medisch Centrum Bacteriele Meningitis Biobank";
+  dc:description "Vrije Unversiteit Medisch Centrum Bacteriele Meningitis Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPFX7P3EACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Wageningen_University_Research_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Wageningen University Research Biobank";
+  dc:description "Wageningen University Research Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACW5ELBQ4WZSUAVNCZ2AAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_WHISTLER_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "WHISTLER Biobank";
+  dc:description "WHISTLER Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPKLWV6CACQK2ME25QAAE> .
+
+fg:Imaging_Study_Affiliated_Institution_Zutphen_Biobank a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Zutphen Biobank";
+  dc:description "Zutphen Biobank";
+  rdfs:isDefinedBy <https://directory.bbmri-eric.eu/menu/main/app-molgenis-app-biobank-explorer/biobank/bbmri-eric:ID:NL_AAAACXPRBD7XQACQK2ME25QAAE> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_VU_medisch_centrum_(VUMC),_Amsterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "VU medisch centrum (VUMC), Amsterdam";
+  dc:description "VU medisch centrum (VUMC), Amsterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000015> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Academisch_Medisch_Centrum_(AMC),_Amsterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Academisch Medisch Centrum (AMC), Amsterdam";
+  dc:description "Academisch Medisch Centrum (AMC), Amsterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000016> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Universitair_Medisch_Centrum_Groningen_(UMCG),_Groningen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Universitair Medisch Centrum Groningen (UMCG), Groningen";
+  dc:description "Universitair Medisch Centrum Groningen (UMCG), Groningen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000017> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Universitair_Medisch_Centrum_Utrecht_(UMCU),_Utrecht>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Universitair Medisch Centrum Utrecht (UMCU), Utrecht";
+  dc:description "Universitair Medisch Centrum Utrecht (UMCU), Utrecht";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000018> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Leids_Universitair_Medisch_Centrum_(LUMC),_Leiden>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Leids Universitair Medisch Centrum (LUMC), Leiden";
+  dc:description "Leids Universitair Medisch Centrum (LUMC), Leiden";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000019> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Radboud_University_Nijmegen_Medical_Centre,_Nijmegen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Radboud University Nijmegen Medical Centre, Nijmegen";
+  dc:description "Radboud University Nijmegen Medical Centre, Nijmegen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000020> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Maastricht_Universitair_Medisch_Centrum_(MUMC+)_Maastricht>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Maastricht Universitair Medisch Centrum (MUMC+) Maastricht";
+  dc:description "Maastricht Universitair Medisch Centrum (MUMC+) Maastricht";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000021> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Erasmus_MC,_Rotterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Erasmus MC, Rotterdam";
+  dc:description "Erasmus MC, Rotterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000022> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Albert_Schweitzer_Ziekenhuis,_Dordrecht>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Albert Schweitzer Ziekenhuis, Dordrecht";
+  dc:description "Albert Schweitzer Ziekenhuis, Dordrecht";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000023> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Amphia_Ziekenhuis,_Breda>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Amphia Ziekenhuis, Breda";
+  dc:description "Amphia Ziekenhuis, Breda";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000024> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Canisius-Wilhelemina_Ziekenhuis,_Nijmegen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Canisius-Wilhelemina Ziekenhuis, Nijmegen";
+  dc:description "Canisius-Wilhelemina Ziekenhuis, Nijmegen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000025> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Catharina_Ziekenhuis,_Eindhoven>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Catharina Ziekenhuis, Eindhoven";
+  dc:description "Catharina Ziekenhuis, Eindhoven";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000026> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Deventer_Ziekenhuis,_Deventer>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Deventer Ziekenhuis, Deventer";
+  dc:description "Deventer Ziekenhuis, Deventer";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000027> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Elisabeth-TweeSteden_Ziekenhuis_Tilburg,_Tilburg>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Elisabeth-TweeSteden Ziekenhuis Tilburg, Tilburg";
+  dc:description "Elisabeth-TweeSteden Ziekenhuis Tilburg, Tilburg";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000028> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Franciscus_Gasthuis_&_Vlietland,_Rotterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Franciscus Gasthuis & Vlietland, Rotterdam";
+  dc:description "Franciscus Gasthuis & Vlietland, Rotterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000029> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Gelre_ziekenhuizen,_Apeldoorn>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Gelre ziekenhuizen, Apeldoorn";
+  dc:description "Gelre ziekenhuizen, Apeldoorn";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000030> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Haaglanden_Medisch_Centrum_(Westeinde_location),_The_Hague>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Haaglanden Medisch Centrum (Westeinde location), The Hague";
+  dc:description "Haaglanden Medisch Centrum (Westeinde location), The Hague";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000031> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_HagaZiekenhuis,_The_Hague>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "HagaZiekenhuis, The Hague";
+  dc:description "HagaZiekenhuis, The Hague";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000032> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Isala_Klinieken,_Zwolle>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Isala Klinieken, Zwolle";
+  dc:description "Isala Klinieken, Zwolle";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000033> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Jeroen_Bosch_Ziekenhuis,_Den_Bosch>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Jeroen Bosch Ziekenhuis, Den Bosch";
+  dc:description "Jeroen Bosch Ziekenhuis, Den Bosch";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000034> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Maasstad_Ziekenhuis,_Rotterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Maasstad Ziekenhuis, Rotterdam";
+  dc:description "Maasstad Ziekenhuis, Rotterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000035> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Martini_Ziekenhuis,_Groningen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Martini Ziekenhuis, Groningen";
+  dc:description "Martini Ziekenhuis, Groningen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000036> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Maxima_Medisch_Centrum,_Veldhoven>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Maxima Medisch Centrum, Veldhoven";
+  dc:description "Maxima Medisch Centrum, Veldhoven";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000037> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Meander_Medisch_Centrum,_Amersfoort>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Meander Medisch Centrum, Amersfoort";
+  dc:description "Meander Medisch Centrum, Amersfoort";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000038> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Medisch_Centrum_Leeuwarden,_Leeuwarden>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Medisch Centrum Leeuwarden, Leeuwarden";
+  dc:description "Medisch Centrum Leeuwarden, Leeuwarden";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000039> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Medisch_Spectrum_Twente,_Enschede>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Medisch Spectrum Twente, Enschede";
+  dc:description "Medisch Spectrum Twente, Enschede";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000040> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Noordwest_Ziekenhuisgroep,_Alkmaar>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Noordwest Ziekenhuisgroep, Alkmaar";
+  dc:description "Noordwest Ziekenhuisgroep, Alkmaar";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000041> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_OLVG,_Amsterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "OLVG, Amsterdam";
+  dc:description "OLVG, Amsterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000042> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Reinier_de_Graaf_ziekenhuis,_Delft>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Reinier de Graaf ziekenhuis, Delft";
+  dc:description "Reinier de Graaf ziekenhuis, Delft";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000043> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Rijnstate,_Arnhem>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Rijnstate, Arnhem";
+  dc:description "Rijnstate, Arnhem";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000044> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Spaarne_Gasthuis,_Haarlem>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Spaarne Gasthuis, Haarlem";
+  dc:description "Spaarne Gasthuis, Haarlem";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000045> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_St._Antonius_Ziekenhuis,_Nieuwegein_and_Utrecht>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "St. Antonius Ziekenhuis, Nieuwegein and Utrecht";
+  dc:description "St. Antonius Ziekenhuis, Nieuwegein and Utrecht";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000046> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_VieCurie_Medisch_centrum_voor_Noord_Limburg,_Venlo>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "VieCurie Medisch centrum voor Noord Limburg, Venlo";
+  dc:description "VieCurie Medisch centrum voor Noord Limburg, Venlo";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000047> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Zuyderland_Medisch_Centrum,_Heerlen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Zuyderland Medisch Centrum, Heerlen";
+  dc:description "Zuyderland Medisch Centrum, Heerlen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000048> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Scheperziekenhuis,_Emmen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Scheperziekenhuis, Emmen";
+  dc:description "Scheperziekenhuis, Emmen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000049> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Wilhelminaziekenhuis,_Assen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Wilhelminaziekenhuis, Assen";
+  dc:description "Wilhelminaziekenhuis, Assen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000050> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Bethesda,_Hoogeveen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Bethesda, Hoogeveen";
+  dc:description "Ziekenhuis Bethesda, Hoogeveen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000051> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Diaconessenhuis,_Meppel>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Diaconessenhuis, Meppel";
+  dc:description "Diaconessenhuis, Meppel";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000052> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Flevoziekenhuis,_Almere>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Flevoziekenhuis, Almere";
+  dc:description "Flevoziekenhuis, Almere";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000053> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Zuiderzeeziekenhuis,_Lelystad>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Zuiderzeeziekenhuis, Lelystad";
+  dc:description "Zuiderzeeziekenhuis, Lelystad";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000054> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Dokter_J.H._Jansenziekenhuis,_Emmeloord>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Dokter J.H. Jansenziekenhuis, Emmeloord";
+  dc:description "Dokter J.H. Jansenziekenhuis, Emmeloord";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000055> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Nijsmellinghe_Ziekenhuis,_Drachten>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Nijsmellinghe Ziekenhuis, Drachten";
+  dc:description "Nijsmellinghe Ziekenhuis, Drachten";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000056> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_De_Tjongerschans,_Heerenveen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis De Tjongerschans, Heerenveen";
+  dc:description "Ziekenhuis De Tjongerschans, Heerenveen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000057> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Medisch_Centrum_Leeuwarden_(MCL),_Leeuwarden>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Medisch Centrum Leeuwarden (MCL), Leeuwarden";
+  dc:description "Medisch Centrum Leeuwarden (MCL), Leeuwarden";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000058> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Antonius_Ziekenhuis,_Sneek>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Antonius Ziekenhuis, Sneek";
+  dc:description "Antonius Ziekenhuis, Sneek";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000059> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Gelre_Hospitals_Gelre_Ziekenhuizen,_Spittaal,_Zutphen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Gelre Hospitals|Gelre Ziekenhuizen, Spittaal, Zutphen";
+  dc:description "Gelre Hospitals|Gelre Ziekenhuizen, Spittaal, Zutphen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000060> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Slingeland_Ziekenhuis,_Doetinchem>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Slingeland Ziekenhuis, Doetinchem";
+  dc:description "Slingeland Ziekenhuis, Doetinchem";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000061> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Streekziekenhuis_Koningin_Beatrix,_Winterswijk>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Streekziekenhuis Koningin Beatrix, Winterswijk";
+  dc:description "Streekziekenhuis Koningin Beatrix, Winterswijk";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000062> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Streekziekenhuis_Rivierenland,_Tiel>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Streekziekenhuis Rivierenland, Tiel";
+  dc:description "Streekziekenhuis Rivierenland, Tiel";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000063> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Velp,_Velp>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Velp, Velp";
+  dc:description "Ziekenhuis Velp, Velp";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000064> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Zevenaar,_Zevenaar>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Zevenaar, Zevenaar";
+  dc:description "Ziekenhuis Zevenaar, Zevenaar";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000065> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Gelderse_Vallei,_Ede>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Gelderse Vallei, Ede";
+  dc:description "Ziekenhuis Gelderse Vallei, Ede";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000066> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Sint_Jansdal,_Harderwijk>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Sint Jansdal, Harderwijk";
+  dc:description "Ziekenhuis Sint Jansdal, Harderwijk";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000067> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Delfzicht_Ziekenhuis,_Delfzijl>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Delfzicht Ziekenhuis, Delfzijl";
+  dc:description "Delfzicht Ziekenhuis, Delfzijl";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000068> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Refaja_Ziekenhuis,_Stadskanaal>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Refaja Ziekenhuis, Stadskanaal";
+  dc:description "Refaja Ziekenhuis, Stadskanaal";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000069> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Martiniziekenhuis,_Groningen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Martiniziekenhuis, Groningen";
+  dc:description "Martiniziekenhuis, Groningen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000070> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Sint_Lucas_Ziekenhuis,_Winschoten>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Sint Lucas Ziekenhuis, Winschoten";
+  dc:description "Sint Lucas Ziekenhuis, Winschoten";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000071> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Atrium_Medisch_Centrum,_Heerlen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Atrium Medisch Centrum, Heerlen";
+  dc:description "Atrium Medisch Centrum, Heerlen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000072> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Vie_Curie_Medisch_Centrum,_Venlo/Venray>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Vie Curie Medisch Centrum, Venlo/Venray";
+  dc:description "Vie Curie Medisch Centrum, Venlo/Venray";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000073> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Orbis_Medisch_Centrum,_Sittard>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Orbis Medisch Centrum, Sittard";
+  dc:description "Orbis Medisch Centrum, Sittard";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000074> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_St._Jans_Gasthuis,_Weert>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "St. Jans Gasthuis, Weert";
+  dc:description "St. Jans Gasthuis, Weert";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000075> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Laurentius_Ziekenhuis,_Roermond>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Laurentius Ziekenhuis, Roermond";
+  dc:description "Laurentius Ziekenhuis, Roermond";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000076> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Lievensberg,_Bergen_op_Zoom>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Lievensberg, Bergen op Zoom";
+  dc:description "Ziekenhuis Lievensberg, Bergen op Zoom";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000077> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Amphia_Hospital,_Breda>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Amphia Hospital, Breda";
+  dc:description "Amphia Hospital, Breda";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000078> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Catharina-Ziekenhuis,_Eindhoven>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Catharina-Ziekenhuis, Eindhoven";
+  dc:description "Catharina-Ziekenhuis, Eindhoven";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000079> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Máxima_Medisch_Centrum,_Eindhoven>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Máxima Medisch Centrum, Eindhoven";
+  dc:description "Máxima Medisch Centrum, Eindhoven";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000080> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Elkerliek_ziekenhuis,_Helmond>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Elkerliek ziekenhuis, Helmond";
+  dc:description "Elkerliek ziekenhuis, Helmond";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000081> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Jeroen_Bosch_Ziekenhuis,_'s-Hertogenbosch>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Jeroen Bosch Ziekenhuis, 's-Hertogenbosch";
+  dc:description "Jeroen Bosch Ziekenhuis, 's-Hertogenbosch";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000082> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Franciscus_Ziekenhuis,_Roosendaal>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Franciscus Ziekenhuis, Roosendaal";
+  dc:description "Franciscus Ziekenhuis, Roosendaal";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000083> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_St._Elisabeth_Hospital,_Tilburg>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "St. Elisabeth Hospital, Tilburg";
+  dc:description "St. Elisabeth Hospital, Tilburg";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000084> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_TweeSteden_Hospital,_Tilburg>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "TweeSteden Hospital, Tilburg";
+  dc:description "TweeSteden Hospital, Tilburg";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000085> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Maasziekenhuis,_Boxmeer>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Maasziekenhuis, Boxmeer";
+  dc:description "Maasziekenhuis, Boxmeer";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000086> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Bernhoven_Ziekenhuis,_Uden>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Bernhoven Ziekenhuis, Uden";
+  dc:description "Bernhoven Ziekenhuis, Uden";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000087> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Antoni_van_Leeuwenhoekziekenhuis_(AVL)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Antoni van Leeuwenhoekziekenhuis (AVL)";
+  dc:description "Antoni van Leeuwenhoekziekenhuis (AVL)";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000088> .
+
+fg:Imaging_Study_Affiliated_Institution_Onze_Lieve_Vrouwe_Gasthuis a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Onze Lieve Vrouwe Gasthuis";
+  dc:description "Onze Lieve Vrouwe Gasthuis";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000089> .
+
+fg:Imaging_Study_Affiliated_Institution_BovenIJ_Ziekenhuis a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "BovenIJ Ziekenhuis";
+  dc:description "BovenIJ Ziekenhuis";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000090> .
+
+fg:Imaging_Study_Affiliated_Institution_Sint_Lucas_Andreas_Ziekenhuis a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Sint Lucas Andreas Ziekenhuis";
+  dc:description "Sint Lucas Andreas Ziekenhuis";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000091> .
+
+fg:Imaging_Study_Affiliated_Institution_Slotervaartziekenhuis a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Slotervaartziekenhuis";
+  dc:description "Slotervaartziekenhuis";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000092> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Amstelland,_Amstelveen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Amstelland, Amstelveen";
+  dc:description "Ziekenhuis Amstelland, Amstelveen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000093> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Medical_Center_Alkmaar_(MCA),_Alkmaar>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Medical Center Alkmaar (MCA), Alkmaar";
+  dc:description "Medical Center Alkmaar (MCA), Alkmaar";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000094> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Rode_Kruis_Ziekenhuis,_Beverwijk>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Rode Kruis Ziekenhuis, Beverwijk";
+  dc:description "Rode Kruis Ziekenhuis, Beverwijk";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000095> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Gemini_Ziekenhuis,_Den_Helder>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Gemini Ziekenhuis, Den Helder";
+  dc:description "Gemini Ziekenhuis, Den Helder";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000096> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Kennemer_Gasthuis,_Haarlem>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Kennemer Gasthuis, Haarlem";
+  dc:description "Kennemer Gasthuis, Haarlem";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000097> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Tergooi,_Blaricum>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Tergooi, Blaricum";
+  dc:description "Tergooi, Blaricum";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000098> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Tergooi,_Hilversum>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Tergooi, Hilversum";
+  dc:description "Tergooi, Hilversum";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000099> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Spaarne_Ziekenhuis,_Heemstede_and_Hoofddorp>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Spaarne Ziekenhuis, Heemstede and Hoofddorp";
+  dc:description "Spaarne Ziekenhuis, Heemstede and Hoofddorp";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000100> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Westfries_Gasthuis,_Hoorn>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Westfries Gasthuis, Hoorn";
+  dc:description "Westfries Gasthuis, Hoorn";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000101> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Waterlandziekenhuis,_Purmerend>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Waterlandziekenhuis, Purmerend";
+  dc:description "Waterlandziekenhuis, Purmerend";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000102> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Zaans_Medisch_Centrum,_Zaandam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Zaans Medisch Centrum, Zaandam";
+  dc:description "Zaans Medisch Centrum, Zaandam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000103> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuisgroep_Twente,_Almelo>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuisgroep Twente, Almelo";
+  dc:description "Ziekenhuisgroep Twente, Almelo";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000104> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuisgroep_Twente,_Hengelo>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuisgroep Twente, Hengelo";
+  dc:description "Ziekenhuisgroep Twente, Hengelo";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000105> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Röpcke-Zweers_Ziekenhuis,_Hardenberg>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Röpcke-Zweers Ziekenhuis, Hardenberg";
+  dc:description "Röpcke-Zweers Ziekenhuis, Hardenberg";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000106> .
+
+fg:Imaging_Study_Affiliated_Institution_St._Antonius_Ziekenhuis_Nieuwegein a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "St. Antonius Ziekenhuis Nieuwegein";
+  dc:description "St. Antonius Ziekenhuis Nieuwegein";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000107> .
+
+fg:Imaging_Study_Affiliated_Institution_St._Antonius_Ziekenhuis_Utrecht a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "St. Antonius Ziekenhuis Utrecht";
+  dc:description "St. Antonius Ziekenhuis Utrecht";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000108> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Diakonessenhuis,_Utrecht>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Diakonessenhuis, Utrecht";
+  dc:description "Diakonessenhuis, Utrecht";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000109> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Diakonessenhuis,_Zeist>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Diakonessenhuis, Zeist";
+  dc:description "Diakonessenhuis, Zeist";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000110> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Zuwe_Hofpoort_Ziekenhuis,_Woerden>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Zuwe Hofpoort Ziekenhuis, Woerden";
+  dc:description "Zuwe Hofpoort Ziekenhuis, Woerden";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000111> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Admiral_de_Ruyter_Ziekenhuis,_Goes_Vlissingen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Admiral de Ruyter Ziekenhuis, Goes Vlissingen";
+  dc:description "Admiral de Ruyter Ziekenhuis, Goes Vlissingen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000112> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Ziekenhuis_Walcheren,_Vlissingen>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Ziekenhuis Walcheren, Vlissingen";
+  dc:description "Ziekenhuis Walcheren, Vlissingen";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000113> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Bronovo_Hospital,_The_Hague>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Bronovo Hospital, The Hague";
+  dc:description "Bronovo Hospital, The Hague";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000114> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Beatrix_Ziekenhuis,_Gorinchem>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Beatrix Ziekenhuis, Gorinchem";
+  dc:description "Beatrix Ziekenhuis, Gorinchem";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000115> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Diaconessenhuis,_Leiden>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Diaconessenhuis, Leiden";
+  dc:description "Diaconessenhuis, Leiden";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000116> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Groene_Hart_Ziekenhuis,_Gouda>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Groene Hart Ziekenhuis, Gouda";
+  dc:description "Groene Hart Ziekenhuis, Gouda";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000117> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Havenziekenhuis,_Rotterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Havenziekenhuis, Rotterdam";
+  dc:description "Havenziekenhuis, Rotterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000118> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_IJsselland_Ziekenhuis,_Capelle_aan_den_IJssel>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "IJsselland Ziekenhuis, Capelle aan den IJssel";
+  dc:description "IJsselland Ziekenhuis, Capelle aan den IJssel";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000119> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Medisch_Centrum_Haaglanden,_The_Hague>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Medisch Centrum Haaglanden, The Hague";
+  dc:description "Medisch Centrum Haaglanden, The Hague";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000120> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Reinier_de_Graaf_Gasthuis,_Delft>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Reinier de Graaf Gasthuis, Delft";
+  dc:description "Reinier de Graaf Gasthuis, Delft";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000121> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Sint_Franciscus_Gasthuis,_Rotterdam>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Sint Franciscus Gasthuis, Rotterdam";
+  dc:description "Sint Franciscus Gasthuis, Rotterdam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000122> .
+
+fg:Imaging_Study_Affiliated_Institution_Vlietland_Ziekenhuis_Schiedam a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Vlietland Ziekenhuis Schiedam";
+  dc:description "Vlietland Ziekenhuis Schiedam";
+  rdfs:isDefinedBy <https://w3id.org/fair-genomes/resource/FG_0000123> .
+
+fg:Imaging_Study_Affiliated_Institution_Masaryk_Memorial_Cancer_Institute a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Masaryk Memorial Cancer Institute";
+  dc:description "Masaryk Memorial Cancer Institute";
+  rdfs:isDefinedBy <https://ror.org/0270ceh40> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_NoInformation_(NI,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "NoInformation (NI, nullflavor)";
+  dc:description "The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Invalid_(INV,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Invalid (INV, nullflavor)";
+  dc:description "The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Derived_(DER,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Derived (DER, nullflavor)";
+  dc:description "An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Other_(OTH,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Other (OTH, nullflavor)";
+  dc:description "The actual value is not a member of the set of permitted data values in the constrained value domain of a variable.The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#OTH> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Negative_infinity_(NINF,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Negative infinity (NINF, nullflavor)";
+  dc:description "Negative infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NINF> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Positive_infinity_(PINF,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Positive infinity (PINF, nullflavor)";
+  dc:description "Positive infinity of numbers.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#PINF> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Un-encoded_(UNC,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Un-encoded (UNC, nullflavor)";
+  dc:description "The actual value has not yet been encoded within the approved value domain.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNC> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Masked_(MSK,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Masked (MSK, nullflavor)";
+  dc:description "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#MSK> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Not_applicable_(NA,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Not applicable (NA, nullflavor)";
+  dc:description "Known to have no proper value (e.g., last menstrual period for a male).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NA> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Unknown_(UNK,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Unknown (UNK, nullflavor)";
+  dc:description "A proper value is applicable, but not known.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#UNK> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Asked_but_unknown_(ASKU,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Asked but unknown (ASKU, nullflavor)";
+  dc:description "Information was sought but not found (e.g., patient was asked but didn't know)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#ASKU> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Temporarily_unavailable_(NAV,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Temporarily unavailable (NAV, nullflavor)";
+  dc:description "Information is not available at this time but it is expected that it will be available later.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAV> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Not_asked_(NASK,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Not asked (NASK, nullflavor)";
+  dc:description "This information has not been sought. (e.g., patient was not asked)";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NASK> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Not_available_(NAVU,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Not available (NAVU, nullflavor)";
+  dc:description "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NAVU> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Sufficient_quantity_(QS,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Sufficient quantity (QS, nullflavor)";
+  dc:description "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#QS> .
+
+<https://w3id.org/fair-genomes/ontology/Imaging_Study_Affiliated_Institution_Trace_(TRC,_nullflavor)>
+  a <http://semanticscience.org/resource/SIO_000688>;
+  rdfs:label "Trace (TRC, nullflavor)";
+  dc:description "The content is greater than zero, but too small to be quantified.";
+  rdfs:isDefinedBy <http://terminology.hl7.org/CodeSystem/v3-NullFlavor#TRC> .

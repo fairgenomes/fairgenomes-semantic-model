@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	ImageInstance_ImageType	Value (English)	String	TRUE	FALSE
+description	ImageInstance_ImageType	Description (English)	Text	FALSE	TRUE
+codesystem	ImageInstance_ImageType	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	ImageInstance_ImageType	The code within the code system	String	FALSE	TRUE
+iri	ImageInstance_ImageType	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

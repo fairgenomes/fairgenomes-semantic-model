@@ -1,0 +1,6 @@
+value	description	codesystem	code	iri
+Complete response	Complete response	FG	0000761	https://w3id.org/fair-genomes/resource/FG_0000761
+Disease progression	Disease progression	FG	0000762	https://w3id.org/fair-genomes/resource/FG_0000762
+No Evidence of Disease	No Evidence of Disease	FG	0000763	https://w3id.org/fair-genomes/resource/FG_0000763
+Partial response	Partial response	FG	0000764	https://w3id.org/fair-genomes/resource/FG_0000764
+Stable disease	Stable disease	FG	0000765	https://w3id.org/fair-genomes/resource/FG_0000765

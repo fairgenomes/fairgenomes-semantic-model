@@ -1,0 +1,4 @@
+value	description	codesystem	code	iri
+Adjuvant	TODO	NCIT	C15675	http://purl.obolibrary.org/obo/NCIT_C15675
+Advanced/Metastatic	TODO	FG	0000760	https://w3id.org/fair-genomes/resource/FG_0000760
+Neoadjuvant	TODO	NCIT	C15665	http://purl.obolibrary.org/obo/NCIT_C15665

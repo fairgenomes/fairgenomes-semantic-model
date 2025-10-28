@@ -1,0 +1,11 @@
+value	description	codesystem	code	iri
+Abdomen	Abdomen	SNOMED_CT	85856004	http://snomed.info/id/85856004
+Thorax	Thorax	SNOMED_CT	344001	http://snomed.info/id/344001
+Head	Head	SNOMED_CT	128617001	http://snomed.info/id/128617001
+Brain	Brain	SNOMED_CT	89837001	http://snomed.info/id/89837001
+Heart structure	Heart structure	SNOMED_CT	80144004	http://snomed.info/id/80144004
+Kidney structure	Kidney structure	SNOMED_CT	51299004	http://snomed.info/id/51299004
+Eye structure	Eye structure	SNOMED_CT	41801008	http://snomed.info/id/41801008
+Liver structure	Liver structure	SNOMED_CT	127949000	http://snomed.info/id/127949000
+Lung structure	Lung structure	SNOMED_CT	32849002	http://snomed.info/id/32849002
+Skin structure	Skin structure	SNOMED_CT	71341001	http://snomed.info/id/71341001

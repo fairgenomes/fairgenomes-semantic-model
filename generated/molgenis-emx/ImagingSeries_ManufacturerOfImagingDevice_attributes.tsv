@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	ImagingSeries_ManufacturerOfImagingDevice	Value (English)	String	TRUE	FALSE
+description	ImagingSeries_ManufacturerOfImagingDevice	Description (English)	Text	FALSE	TRUE
+codesystem	ImagingSeries_ManufacturerOfImagingDevice	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	ImagingSeries_ManufacturerOfImagingDevice	The code within the code system	String	FALSE	TRUE
+iri	ImagingSeries_ManufacturerOfImagingDevice	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

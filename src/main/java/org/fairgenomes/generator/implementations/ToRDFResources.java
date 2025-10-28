@@ -37,16 +37,18 @@ public class ToRDFResources extends AbstractGenerator {
                 String term = m.parsedOntology.codeSystem + "_" + m.parsedOntology.code;
                 if(uniqueTerms.contains(term))
                 {
-                    throw new Exception("Term already in use: " + term);
+                    System.out.println("WARNING: Term already in use: " + term + ". If you are trying to define a new term, you must adopt an unused identifier. Ignore this warning if you are linking to a term that was newly defined in the FG namespace earlier in the model.");
                 }
-                uniqueTerms.add(term);
-                FileWriter fw = new FileWriter(new File(outputFolder, term + ".xml"));
-                BufferedWriter bw = new BufferedWriter(fw);
-                IRI type = OWL.CLASS;
-                String srcTTL = fg.fileName + ".ttl";
-                bw.write(toRDF(m.parsedOntology.codeSystem, m.parsedOntology.code, type, m.name, m.description, iri(m.parsedOntology.iri), m.description, srcTTL));
-                bw.flush();
-                bw.close();
+                else {
+                    uniqueTerms.add(term);
+                    FileWriter fw = new FileWriter(new File(outputFolder, term + ".xml"));
+                    BufferedWriter bw = new BufferedWriter(fw);
+                    IRI type = OWL.CLASS;
+                    String srcTTL = fg.fileName + ".ttl";
+                    bw.write(toRDF(m.parsedOntology.codeSystem, m.parsedOntology.code, type, m.name, m.description, iri(m.parsedOntology.iri), m.description, srcTTL));
+                    bw.flush();
+                    bw.close();
+                }
             }
 
                 for(Element e : m.elements) {
@@ -56,16 +58,18 @@ public class ToRDFResources extends AbstractGenerator {
                     String term = e.parsedOntology.codeSystem + "_" + e.parsedOntology.code;
                     if(uniqueTerms.contains(term))
                     {
-                        throw new Exception("Term already in use: " + term);
+                        System.out.println("WARNING: Term already in use: " + term + ". If you are trying to define a new term, you must adopt an unused identifier. Ignore this warning if you are linking to a term that was newly defined in the FG namespace earlier in the model.");
                     }
-                    uniqueTerms.add(term);
-                    FileWriter fw = new FileWriter(new File(outputFolder, term + ".xml"));
-                    BufferedWriter bw = new BufferedWriter(fw);
-                    IRI type = e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY;
-                    String srcTTL = fg.fileName + ".ttl";
-                    bw.write(toRDF(e.parsedOntology.codeSystem, e.parsedOntology.code, type, e.name, e.description, iri(m.parsedOntology.iri), m.description, srcTTL));
-                    bw.flush();
-                    bw.close();
+                    else {
+                        uniqueTerms.add(term);
+                        FileWriter fw = new FileWriter(new File(outputFolder, term + ".xml"));
+                        BufferedWriter bw = new BufferedWriter(fw);
+                        IRI type = e.isLookup() || e.isReference() ? OWL.OBJECTPROPERTY : OWL.DATATYPEPROPERTY;
+                        String srcTTL = fg.fileName + ".ttl";
+                        bw.write(toRDF(e.parsedOntology.codeSystem, e.parsedOntology.code, type, e.name, e.description, iri(m.parsedOntology.iri), m.description, srcTTL));
+                        bw.flush();
+                        bw.close();
+                    }
                 }
 
                 if(e.isLookup()) {

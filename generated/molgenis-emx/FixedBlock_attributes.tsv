@@ -1,0 +1,2 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+BlockIdentifier	Block identifier	A unique proper name or character sequence that identifies this fixed block. (NCIT:C93400)	FixedBlock	string	TRUE	TRUE	TRUE	FALSE	

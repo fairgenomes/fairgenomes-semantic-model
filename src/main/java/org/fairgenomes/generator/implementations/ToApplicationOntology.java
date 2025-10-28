@@ -99,6 +99,9 @@ public class ToApplicationOntology extends AbstractGenerator {
                 //bw.write("\t\trdfs:Datatype xsd:" + e.valueTypeToRDF() + " ;" + LE);
 
                 if(e.isLookup()){
+                    if(e.type == null){
+                        throw new Exception("type is null for " + e);
+                    }
                     builder.add(moduleProperty, RDFS.RANGE, iri(e.type));
 
                     // Group together elements with the same lookup list

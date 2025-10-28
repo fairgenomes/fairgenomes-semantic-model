@@ -1,0 +1,3 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+Type	Type	What type is the biomarker classified as. (NCIT:C164707)	Biomarker	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_Biomarker_Type
+Subtype_molecular	Subtype_Molecular	Subtype of the molecular biomarker. (FG:0000766)	Biomarker	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_Biomarker_Subtype_molecular

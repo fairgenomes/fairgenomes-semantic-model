@@ -7,11 +7,16 @@
   xmlns:ns0="http://purl.org/dc/elements/1.1/"
   xmlns:owl="http://www.w3.org/2002/07/owl#">
 
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C49236">
+    <rdfs:label xml:lang="en">An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process.</rdfs:label>
+  </rdf:Description>
+
   <rdf:Description rdf:about="https://w3id.org/fair-genomes/resource/FG_0000759">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0000081"/>
-    <rdfs:label xml:lang="en">KAPA HyperChoice</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes-ngskits.ttl"/>
-    <dc:description xml:lang="en">KAPA HyperChoice</dc:description>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="en">Dose Units</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://w3id.org/fair-genomes/ontology/fair-genomes.ttl"/>
+    <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49236"/>
+    <dc:description xml:lang="en">Indicates the total dose given in units (e.g. of Gray (Gy) when radiation, Millimeters/24hours for medication)</dc:description>
     <dc:identifier>FG:0000759</dc:identifier>
     <ns0:identifier>FG_0000759</ns0:identifier>
   </rdf:Description>

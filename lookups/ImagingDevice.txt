@@ -1,0 +1,2 @@
+value	description	codesystem	code	iri
+Siemens MAGNETOM Skyra	3T MRI scanner Siemens MAGNETOM Skyra	SNOMED_CT	10902003	http://snomed.info/id/10902003

@@ -6,7 +6,7 @@
 \textbf{FAIR Genomes metadata schema}
 \newline
 
-The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2022-02-28. This model consists of 10 modules that contain 120 metadata elements and 290155 lookups in total (excluding null flavors).
+The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare. Version 1.3-SNAPSHOT, 2025-10-21. This model consists of 16 modules that contain 152 metadata elements and 290452 lookups in total (excluding null flavors).
 
 \begin{table}[htb]
 \begin{tabular}{lll}
@@ -18,10 +18,16 @@ Leaflet and consent form & NCIT:C16468 & 9 \\
 Individual consent & NCIT:C16735 & 12 \\
 Clinical & NCIT:C25398 & 19 \\
 Material & NCIT:C43376 & 17 \\
+Fixed Block & NCIT:C25436 & 1 \\
 Sample preparation & OBI:0001902 & 9 \\
 Sequencing & EDAM:topic\_3168 & 12 \\
 Analysis & EDAM:operation\_2945 & 11 \\
 HMD Submission & FG:0000750 & 8 \\
+Treatment & NCIT:C49236 & 3 \\
+Biomarker & NCIT:C16342 & 2 \\
+Imaging Study & DICOM:113014 & 10 \\
+Imaging Series & DICOM:113015 & 11 \\
+Image Instance & NCIT:C48179 & 5 \\
 \hline
 \end{tabular}
 \caption[Module overview]{\label{table:table1} FAIR Genomes metadata schema v1.3-SNAPSHOT overview of all modules.}
@@ -165,6 +171,16 @@ Derived from & NCIT:C28355 & String \\
 \begin{tabular}{lll}
 Name & Ontology & Values \\
 \hline
+Block identifier & NCIT:C93400 & UniqueID \\
+\hline
+\end{tabular}
+\caption[Module: Fixed Block]{\label{table:table8} Module: Fixed Block. Refers to preserved specimens embedded in support material. These are typically cut into thin slices for microscopic examination, with or without an enhancement such as staining. Ontology: NCIT:C25436. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
 Sampleprep identifier & NCIT:C132299 & UniqueID \\
 Belongs to material & NCIT:C25683 & Reference to Material \\
 Input amount & AFRL:0000010 & Integer \\
@@ -176,7 +192,7 @@ Intended insert size & FG:0000001 & Integer \\
 Intended read length & NCIT:C153362 & Integer \\
 \hline
 \end{tabular}
-\caption[Module: Sample preparation]{\label{table:table8} Module: Sample preparation. A sample preparation for a nucleic acids sequencing assay. Ontology: OBI:0001902. }
+\caption[Module: Sample preparation]{\label{table:table9} Module: Sample preparation. A sample preparation for a nucleic acids sequencing assay. Ontology: OBI:0001902. }
 \end{table}
 
 \begin{table}[htb]
@@ -197,7 +213,7 @@ Percentage TR20 & FG:0000003 & Decimal \\
 Other quality metrics & EDAM:data\_3914 & Text \\
 \hline
 \end{tabular}
-\caption[Module: Sequencing]{\label{table:table9} Module: Sequencing. The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. Ontology: EDAM:topic\_3168. }
+\caption[Module: Sequencing]{\label{table:table10} Module: Sequencing. The determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes. Ontology: EDAM:topic\_3168. }
 \end{table}
 
 \begin{table}[htb]
@@ -217,7 +233,7 @@ Reason for bioinformatic protocol deviation & NCIT:C93529 & String \\
 WGS guideline followed & NCIT:C17564 & String \\
 \hline
 \end{tabular}
-\caption[Module: Analysis]{\label{table:table10} Module: Analysis. An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output. Ontology: EDAM:operation\_2945. }
+\caption[Module: Analysis]{\label{table:table11} Module: Analysis. An analysis applies analytical (often computational) methods to existing data of a specific type to produce some desired output. Ontology: EDAM:operation\_2945. }
 \end{table}
 
 \begin{table}[htb]
@@ -234,7 +250,83 @@ Collection & FG:0000751 & String \\
 Research Consortia & FG:0000758 & String \\
 \hline
 \end{tabular}
-\caption[Module: HMD Submission]{\label{table:table11} Module: HMD Submission. A class specific for the 1+MG GDI project containing items for metadata submission. Ontology: FG:0000750. }
+\caption[Module: HMD Submission]{\label{table:table12} Module: HMD Submission. A class specific for the 1+MG GDI project containing items for metadata submission. Ontology: FG:0000750. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
+Dose Units & FG:0000759 & String \\
+Setting & NCIT:C124308 & TreatmentSettings lookup (3 choices) \\
+Response to Treatment & SNOMEDCT:182985004 & TreatmentResponse lookup (5 choices) \\
+\hline
+\end{tabular}
+\caption[Module: Treatment]{\label{table:table13} Module: Treatment. An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process. Ontology: NCIT:C49236. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
+Type & NCIT:C164707 & BiomarkerType lookup (5 choices) \\
+Subtype_Molecular & FG:0000766 & BiomarkerMolecular lookup (7 choices) \\
+\hline
+\end{tabular}
+\caption[Module: Biomarker]{\label{table:table14} Module: Biomarker. TODO Ontology: NCIT:C16342. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
+Imaging Study identifier & NCIT:C164493 & UniqueID \\
+Belongs to person & NCIT:C164337 & Reference to Personal \\
+Imaging Technique (Modality) & NCIT:C17369 & Modality lookup (5 choices) \\
+Body Region & NCIT:C12680 & AnatomicFocus lookup (10 choices) \\
+Imaging Procedure & NCIT:C17369 & ImagingProcedure lookup (3 choices) \\
+Reason for Imaging Procedure & NCIT:C69216 & ReasonForImagingProcedure lookup (1 choices) \\
+Study Start Date & NCIT:C69208 & Date \\
+DICOM Series Count & NCIT:C164492 & Integer \\
+DICOM Images Count & NCIT:C164540 & Integer \\
+Affiliated Institution & NCIT:C25412 & Institutes lookup (219 choices) \\
+\hline
+\end{tabular}
+\caption[Module: Imaging Study]{\label{table:table15} Module: Imaging Study. The Study IE defines the characteristics of a medical Study performed on a Patient. A Study is a collection of one or more Series of medical images, presentation states, and/or SR documents that are logically related for the purpose of diagnosing a Patient. Each Study is associated with exactly one Patient. A Study may include Composite Instances that are created by a single modality, multiple modalities or by multiple devices of the same modality. The Study IE is modality independent. Ontology: DICOM:113014. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
+Series Instance UID & NCIT:C69219 & UniqueID \\
+Belongs to Imaging Study & NCIT:C164493 & Reference to Imaging Study \\
+DICOM Images Count & NCIT:C164540 & Integer \\
+Imaging Technique (Modality) & NCIT:C17369 & Modality lookup (5 choices) \\
+Imaging Procedure & NCIT:C17369 & ImagingProcedure lookup (3 choices) \\
+Series Start Date & NCIT:C68616 & Date \\
+Body Region & NCIT:C12680 & AnatomicFocus lookup (10 choices) \\
+Laterality & NCIT:C25185 & Laterality lookup (4 choices) \\
+Imaging Device & NCIT:C19747 & ImagingDevice lookup (1 choices) \\
+Manufacturer of Imaging Device & NCIT:C25392 & ManufacturerOfID lookup (14 choices) \\
+Software Version & NCIT:C111093 & ImagingDeviceSoftwareVersion lookup (1 choices) \\
+\hline
+\end{tabular}
+\caption[Module: Imaging Series]{\label{table:table16} Module: Imaging Series. A distinct logical set used to group composite instances. All instances within a Series are of the same modality, in the same Frame of Reference (if any), and created by the same equipment. Ontology: DICOM:113015. }
+\end{table}
+
+\begin{table}[htb]
+\begin{tabular}{lll}
+Name & Ontology & Values \\
+\hline
+Image Instance Identifier & NCIT:C81289 & UniqueID \\
+Belongs to Imaging Study & NCIT:C164493 & Reference to Imaging Study \\
+Belongs to Imaging Series & NCIT:C69219 & Reference to Imaging Series \\
+Image Instance Date & NCIT:C68616 & Date \\
+Image Type & NCIT:C69268 & ImageType lookup (1 choices) \\
+\hline
+\end{tabular}
+\caption[Module: Image Instance]{\label{table:table17} Module: Image Instance. Any record of an imaging event whether physical or electronic. Ontology: NCIT:C48179. }
 \end{table}
 
 \begin{table}[htb]
@@ -259,7 +351,7 @@ Sufficient quantity & HL7:QS \\
 Trace & HL7:TRC \\
 \hline
 \end{tabular}
-\caption[NullFlavors]{\label{table:table12} Overview of null flavors. Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }
+\caption[NullFlavors]{\label{table:table18} Overview of null flavors. Each lookup is supplemented with so-called 'null flavors' from HL7. These can be used to indicate precisely why a particular value could not be entered into the system, providing substantially more insight than simply leaving a field empty. }
 \end{table}
 
 \end{document}

@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	ImagingSeries_ImagingTechnique(modality)	Value (English)	String	TRUE	FALSE
+description	ImagingSeries_ImagingTechnique(modality)	Description (English)	Text	FALSE	TRUE
+codesystem	ImagingSeries_ImagingTechnique(modality)	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	ImagingSeries_ImagingTechnique(modality)	The code within the code system	String	FALSE	TRUE
+iri	ImagingSeries_ImagingTechnique(modality)	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

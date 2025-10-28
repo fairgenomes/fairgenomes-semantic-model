@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	ImagingStudy_BodyRegion	Value (English)	String	TRUE	FALSE
+description	ImagingStudy_BodyRegion	Description (English)	Text	FALSE	TRUE
+codesystem	ImagingStudy_BodyRegion	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	ImagingStudy_BodyRegion	The code within the code system	String	FALSE	TRUE
+iri	ImagingStudy_BodyRegion	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

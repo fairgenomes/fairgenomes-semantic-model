@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	ImagingStudy_AffiliatedInstitution	Value (English)	String	TRUE	FALSE
+description	ImagingStudy_AffiliatedInstitution	Description (English)	Text	FALSE	TRUE
+codesystem	ImagingStudy_AffiliatedInstitution	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	ImagingStudy_AffiliatedInstitution	The code within the code system	String	FALSE	TRUE
+iri	ImagingStudy_AffiliatedInstitution	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

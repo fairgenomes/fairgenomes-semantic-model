@@ -1,0 +1,6 @@
+name	entity	label	dataType	idAttribute	nillable
+value	ImagingStudy_ImagingProcedure	Value (English)	String	TRUE	FALSE
+description	ImagingStudy_ImagingProcedure	Description (English)	Text	FALSE	TRUE
+codesystem	ImagingStudy_ImagingProcedure	The code system (e.g. ontology) this term belongs to	String	FALSE	TRUE
+code	ImagingStudy_ImagingProcedure	The code within the code system	String	FALSE	TRUE
+iri	ImagingStudy_ImagingProcedure	The Internationalized Resource Identifier for this term	String	FALSE	TRUE

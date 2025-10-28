@@ -1,0 +1,2 @@
+value	description	codesystem	code	iri
+syngo.via VB60A	Syngo.via VB60A software version by Siemens Healthineers	SNOMED_CT	111234000	http://snomed.info/id/111234000

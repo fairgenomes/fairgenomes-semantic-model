@@ -1,0 +1,4 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+DoseUnits	Dose Units	Indicates the total dose given in units (e.g. of Gray (Gy) when radiation, Millimeters/24hours for medication) (FG:0000759)	Treatment	string	FALSE	FALSE	TRUE	TRUE	
+Setting	Setting	Indicate the treatment setting, which describes the treatment's purpose in relation to the primary treatment. (NCIT:C124308)	Treatment	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_Treatment_Setting
+ResponseToTreatment	Response to Treatment	The patients' response to the applied treatment regimen. (SNOMEDCT:182985004)	Treatment	mref	FALSE	FALSE	TRUE	TRUE	fair-genomes_Treatment_ResponseToTreatment
