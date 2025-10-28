@@ -3,7 +3,7 @@ name: FAIR Genomes metadata schema
 description: The FAIR Genomes semantic metadata schema to power reuse of NGS data in research and healthcare.
 version: 1.3
 releaseType: SNAPSHOT
-date: 2022-02-28
+date: 2025-10-21
 lookupGlobalOptions: lookups/NullFlavors.txt
 authors:
     - name: K. Joeri van der Velde
@@ -425,6 +425,17 @@ modules:
             ontology: NCIT:C28355 [http://purl.obolibrary.org/obo/NCIT_C28355]
             values: String #[WORK IN PROGRESS. This field should be proper ReferenceOne to Material, but this is technically problematic due to circular dependencies.]
           # values: ReferenceOne [Material]
+    - name: Fixed Block
+      description: Refers to preserved specimens embedded in support material. These are typically cut into thin slices for microscopic examination, with or without an enhancement such as staining.
+      ontology: NCIT:C25436 [http://purl.obolibrary.org/obo/NCIT_C25436]
+      relationWith:
+        - module: Personal
+          relation: HSO:0000242 [http://purl.obolibrary.org/obo/HSO_0000242]
+      elements:
+        - name: Block identifier
+          description: A unique proper name or character sequence that identifies this fixed block.
+          ontology: NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]
+          values: UniqueID
     - name: Sample preparation
       description: A sample preparation for a nucleic acids sequencing assay.
       ontology: OBI:0001902 [http://purl.obolibrary.org/obo/OBI_0001902]
@@ -611,3 +622,130 @@ modules:
             description: Identifies Research Consortia Involved.
             ontology: FG:0000758 [https://w3id.org/fair-genomes/resource/FG_0000758]
             values: String
+    - name: Imaging Study
+      description: The Study IE defines the characteristics of a medical Study performed on a Patient. A Study is a collection of one or more Series of medical images, presentation states, and/or SR documents that are logically related for the purpose of diagnosing a Patient. Each Study is associated with exactly one Patient. A Study may include Composite Instances that are created by a single modality, multiple modalities or by multiple devices of the same modality. The Study IE is modality independent.
+      ontology: DICOM:113014 [http://dicom.nema.org/resources/ontology/DCM/113014]
+      relationWith:
+        - module: Patient
+          relation: RO:0000056 [http://purl.obolibrary.org/obo/RO_0000056]
+      elements:
+        - name: Imaging Study identifier
+          description: The user- or equipment-generated identifier of an instance of a DICOM study entity.
+          ontology: NCIT:C164493 [http://purl.obolibrary.org/obo/NCIT_C164493]
+          values: UniqueID
+        - name: Belongs to person
+          description: Reference to the person whom this imaging study is about.
+          ontology: NCIT:C164337 [http://purl.obolibrary.org/obo/NCIT_C164337]
+          values: ReferenceOne [Personal]
+        - name: Imaging Technique (Modality)
+          description: Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.
+          ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
+          values: LookupMany [lookups/Modality.txt]
+        - name: Body Region
+          description: Named areas of the body.
+          ontology: NCIT:C12680 [http://purl.obolibrary.org/obo/NCIT_C12680]
+          values: LookupMany [lookups/AnatomicFocus.txt]
+        - name: Imaging Procedure
+          description: An imaging procedure as defined by SNOMED CT, representing a specific diagnostic or acquisition procedure (e.g., 'CT of breast', 'MRI of head', or 'Whole Slide Imaging'), rather than the general modality or technique alone. The general modality or technique (e.g., 'CT', 'MR', 'SM') is captured separately in the 'Imaging Technique' field.
+          ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
+          values: LookupMany [lookups/ImagingProcedure.txt]
+        - name: Reason for Imaging Procedure
+          description: The clinical or research rationale for performing the imaging procedure. This field captures why the procedure was indicated for the patient, such as screening, diagnosis, treatment planning, or research purposes. It should express the intent or medical reason, not the technical details of the procedure itself.
+          ontology: NCIT:C69216 [http://purl.obolibrary.org/obo/NCIT_C69216]
+          values: LookupMany [lookups/ReasonForImagingProcedure.txt]
+        - name: Study Start Date
+          description: The date on which a study began.
+          ontology: NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]
+          values: Date
+        - name: DICOM Series Count
+          description: The number of DICOM series.
+          ontology: NCIT:C164492 [http://purl.obolibrary.org/obo/NCIT_C164492]
+          values: Integer
+        - name: DICOM Images Count
+          description: The number of DICOM instances in the imaging study.
+          ontology: NCIT:C164540 [http://purl.obolibrary.org/obo/NCIT_C164540]
+          values: Integer
+        - name: Affiliated Institution
+          description: The organisation or institution responsible for performing the imaging study.
+          ontology: NCIT:C25412 [http://purl.obolibrary.org/obo/NCIT_C25412]
+          values: LookupOne [lookups/Institutes.txt], ofType [http://semanticscience.org/resource/SIO_000688]
+    - name: Imaging Series
+      description: A distinct logical set used to group composite instances. All instances within a Series are of the same modality, in the same Frame of Reference (if any), and created by the same equipment.
+      ontology: DICOM:113015 [http://dicom.nema.org/resources/ontology/DCM/113015]
+      relationWith:
+      - module: Imaging Study
+        relation: SIO:000068 [http://semanticscience.org/resource/SIO_000068]
+      elements:
+        - name: Series Instance UID
+          description: A unique identifier for series of images.
+          ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
+          values: UniqueID
+        - name: Belongs to Imaging Study
+          description: Reference to the parent imaging study of which this series is a part, linking the series to the overall study context.
+          ontology: NCIT:C164493 [http://purl.obolibrary.org/obo/NCIT_C164493]
+          values: ReferenceOne [Imaging Study]
+        - name: DICOM Images Count
+          description: The number of DICOM instances in the imaging study.
+          ontology: NCIT:C164540 [http://purl.obolibrary.org/obo/NCIT_C164540]
+          values: Integer
+        - name: Imaging Technique (Modality)
+          description: Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.
+          ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
+          values: LookupMany [lookups/Modality.txt]
+        - name: Imaging Procedure
+          description: An imaging procedure as defined by SNOMED CT, representing a specific diagnostic or acquisition procedure (e.g., 'CT of breast', 'MRI of head', or 'Whole Slide Imaging'), rather than the general modality or technique alone. The general modality or technique (e.g., 'CT', 'MR', 'SM') is captured separately in the 'Imaging Technique' field.
+          ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
+          values: LookupOne [lookups/ImagingProcedure.txt]
+        - name: Series Start Date
+          description: The date when this imaging series started within the parent study.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
+        - name: Body Region
+          description: Named areas of the body.
+          ontology: NCIT:C12680 [http://purl.obolibrary.org/obo/NCIT_C12680]
+          values: LookupOne [lookups/AnatomicFocus.txt]
+        - name: Laterality
+          description: Indicates the side of the body examined within the imaging series. This field specifies whether the imaging procedure focused on the right side, left side, both sides, or an unpaired (midline) structure.
+          ontology: NCIT:C25185 [http://purl.obolibrary.org/obo/NCIT_C25185]
+          values: LookupOne [lookups/Laterality.txt]
+        - name: Imaging Device
+          description: A device for producing a representation or picture, usually of a part of the body, to aid in diagnosis and evaluation.
+          ontology: NCIT:C19747 [http://purl.obolibrary.org/obo/NCIT_C19747]
+          values: LookupOne [lookups/ImagingDevice.txt]
+        - name: Manufacturer of Imaging Device
+          description: The company or organization that produces or supplies an imaging device, such as MRI, CT, X-ray, ultrasound, or whole-slide scanners, used to generate visual representations of anatomical structures or tissue samples for diagnostic, research, or clinical evaluation purposes.
+          ontology: NCIT:C25392 [http://purl.obolibrary.org/obo/NCIT_C25392]
+          values: LookupOne [lookups/ManufacturerOfID.txt]
+        - name: Software Version
+          description: A form or variant of software; one of a sequence of copies of a software program, each incorporating new modifications.
+          ontology: NCIT:C111093 [http://purl.obolibrary.org/obo/NCIT_C111093]
+          values: LookupOne [lookups/ImagingDeviceSoftwareVersion.txt]
+    - name: Image Instance
+      description: Any record of an imaging event whether physical or electronic.
+      ontology: NCIT:C48179 [http://purl.obolibrary.org/obo/NCIT_C48179]
+      relationWith:
+        - module: Imaging Study
+          relation: SIO:000068 [http://semanticscience.org/resource/SIO_000068]
+        - module: Imaging Series
+          relation: SIO:000068 [http://semanticscience.org/resource/SIO_000068]
+      elements:
+        - name: Image Instance Identifier
+          description: A sequence of letters, numbers, or other characters that specifically identifies a particular image.
+          ontology: NCIT:C81289 [http://purl.obolibrary.org/obo/NCIT_C81289]
+          values: UniqueID
+        - name: Belongs to Imaging Study
+          description: Reference to the parent imaging study of which this image is a part, linking the series to the overall study context.
+          ontology: NCIT:C164493 [http://purl.obolibrary.org/obo/NCIT_C164493]
+          values: ReferenceOne [Imaging Study]
+        - name: Belongs to Imaging Series
+          description: Reference to the parent imaging series of which this image is a part, linking the series to the overall study context.
+          ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
+          values: ReferenceOne [Imaging Series]
+        - name: Image Instance Date
+          description: The date when this image was generated.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
+        - name: Image Type
+          description: Indicates the characteristics and derivation of the image, e.g., whether it is a primary acquisition or a derived image.
+          ontology: NCIT:C69268 [http://purl.obolibrary.org/obo/NCIT_C69268]
+          values: LookupOne [lookups/ImageType.txt]
