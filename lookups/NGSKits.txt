@@ -618,5 +618,5 @@ Illumina TruSeq DNA PCR-Free	Illumina TruSeq DNA PCR-Free provides simple, all-i
 Accel-Amplicon Plus Panel by Swift Biosciences	Accel-Amplicon Plus Panel by Swift Biosciences	FG	0000747	https://w3id.org/fair-genomes/resource/FG_0000747
 TruSight Oncology 500 by Illumina	TruSight Oncology 500 by Illumina	FG	0000748	https://w3id.org/fair-genomes/resource/FG_0000748
 SeqCap EZ Choice Library SR by Roche NimbleGen	SeqCap EZ Choice Library SR by Roche NimbleGen	FG	0000749	https://w3id.org/fair-genomes/resource/FG_0000749
-KAPA HyperChoice	KAPA HyperChoice	FG	0000778	https://w3id.org/fair-genomes/resource/FG_0000759
-Accel Amplicon Custom Core Kit	Accel Amplicon Custom Core Kit	FG	0000779	https://w3id.org/fair-genomes/resource/FG_0000760
+KAPA HyperChoice	KAPA HyperChoice	FG	0000778	https://w3id.org/fair-genomes/resource/FG_0000778
+Accel Amplicon Custom Core Kit	Accel Amplicon Custom Core Kit	FG	0000779	https://w3id.org/fair-genomes/resource/FG_0000779
