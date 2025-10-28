@@ -618,8 +618,8 @@ Illumina TruSeq DNA PCR-Free	Illumina TruSeq DNA PCR-Free provides simple, all-i
 Accel-Amplicon Plus Panel by Swift Biosciences	Accel-Amplicon Plus Panel by Swift Biosciences	FG	0000747	https://w3id.org/fair-genomes/resource/FG_0000747
 TruSight Oncology 500 by Illumina	TruSight Oncology 500 by Illumina	FG	0000748	https://w3id.org/fair-genomes/resource/FG_0000748
 SeqCap EZ Choice Library SR by Roche NimbleGen	SeqCap EZ Choice Library SR by Roche NimbleGen	FG	0000749	https://w3id.org/fair-genomes/resource/FG_0000749
-KAPA HyperChoice	KAPA HyperChoice	FG	0000778	https://w3id.org/fair-genomes/resource/FG_0000759
-Accel Amplicon Custom Core Kit	Accel Amplicon Custom Core Kit	FG	0000779	https://w3id.org/fair-genomes/resource/FG_0000760
+KAPA HyperChoice	KAPA HyperChoice	FG	0000778	https://w3id.org/fair-genomes/resource/FG_0000778
+Accel Amplicon Custom Core Kit	Accel Amplicon Custom Core Kit	FG	0000779	https://w3id.org/fair-genomes/resource/FG_0000779
 NoInformation (NI, nullflavor)	The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.	HL7	NI	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#NI
 Invalid (INV, nullflavor)	The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.	HL7	INV	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#INV
 Derived (DER, nullflavor)	An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expression .	HL7	DER	http://terminology.hl7.org/CodeSystem/v3-NullFlavor#DER
