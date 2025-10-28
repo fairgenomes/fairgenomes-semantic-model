@@ -668,19 +668,19 @@ modules:
         - name: Imaging Technique (Modality)
           description: Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.
           ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
-          values: LookupMany [lookups/Modality.txt]
+          values: LookupMany [lookups/Modality.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C17369]
         - name: Body Region
           description: Named areas of the body.
           ontology: NCIT:C12680 [http://purl.obolibrary.org/obo/NCIT_C12680]
-          values: LookupMany [lookups/AnatomicFocus.txt]
+          values: LookupMany [lookups/AnatomicFocus.txt], ofType [http://snomed.info/id/52530000]
         - name: Imaging Procedure
           description: An imaging procedure as defined by SNOMED CT, representing a specific diagnostic or acquisition procedure (e.g., 'CT of breast', 'MRI of head', or 'Whole Slide Imaging'), rather than the general modality or technique alone. The general modality or technique (e.g., 'CT', 'MR', 'SM') is captured separately in the 'Imaging Technique' field.
           ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
-          values: LookupMany [lookups/ImagingProcedure.txt]
+          values: LookupMany [lookups/ImagingProcedure.txt], ofType [http://snomed.info/id/15220000]
         - name: Reason for Imaging Procedure
           description: The clinical or research rationale for performing the imaging procedure. This field captures why the procedure was indicated for the patient, such as screening, diagnosis, treatment planning, or research purposes. It should express the intent or medical reason, not the technical details of the procedure itself.
           ontology: NCIT:C69216 [http://purl.obolibrary.org/obo/NCIT_C69216]
-          values: LookupMany [lookups/ReasonForImagingProcedure.txt]
+          values: LookupMany [lookups/ReasonForImagingProcedure.txt], ofType [http://snomed.info/id/138875005]
         - name: Study Start Date
           description: The date on which a study began.
           ontology: NCIT:C69208 [http://purl.obolibrary.org/obo/NCIT_C69208]
@@ -719,11 +719,11 @@ modules:
         - name: Imaging Technique (Modality)
           description: Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.
           ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
-          values: LookupMany [lookups/Modality.txt]
+          values: LookupMany [lookups/Modality.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C17369]
         - name: Imaging Procedure
           description: An imaging procedure as defined by SNOMED CT, representing a specific diagnostic or acquisition procedure (e.g., 'CT of breast', 'MRI of head', or 'Whole Slide Imaging'), rather than the general modality or technique alone. The general modality or technique (e.g., 'CT', 'MR', 'SM') is captured separately in the 'Imaging Technique' field.
           ontology: NCIT:C17369 [http://purl.obolibrary.org/obo/NCIT_C17369]
-          values: LookupOne [lookups/ImagingProcedure.txt]
+          values: LookupOne [lookups/ImagingProcedure.txt], ofType [http://snomed.info/id/15220000]
         - name: Series Start Date
           description: The date when this imaging series started within the parent study.
           ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
@@ -731,23 +731,23 @@ modules:
         - name: Body Region
           description: Named areas of the body.
           ontology: NCIT:C12680 [http://purl.obolibrary.org/obo/NCIT_C12680]
-          values: LookupOne [lookups/AnatomicFocus.txt]
+          values: LookupOne [lookups/AnatomicFocus.txt], ofType [http://snomed.info/id/52530000]
         - name: Laterality
           description: Indicates the side of the body examined within the imaging series. This field specifies whether the imaging procedure focused on the right side, left side, both sides, or an unpaired (midline) structure.
           ontology: NCIT:C25185 [http://purl.obolibrary.org/obo/NCIT_C25185]
-          values: LookupOne [lookups/Laterality.txt]
+          values: LookupOne [lookups/Laterality.txt], ofType [http://snomed.info/id/106233006]
         - name: Imaging Device
           description: A device for producing a representation or picture, usually of a part of the body, to aid in diagnosis and evaluation.
           ontology: NCIT:C19747 [http://purl.obolibrary.org/obo/NCIT_C19747]
-          values: LookupOne [lookups/ImagingDevice.txt]
+          values: LookupOne [lookups/ImagingDevice.txt], ofType [http://snomed.info/id/314789007]
         - name: Manufacturer of Imaging Device
           description: The company or organization that produces or supplies an imaging device, such as MRI, CT, X-ray, ultrasound, or whole-slide scanners, used to generate visual representations of anatomical structures or tissue samples for diagnostic, research, or clinical evaluation purposes.
           ontology: NCIT:C25392 [http://purl.obolibrary.org/obo/NCIT_C25392]
-          values: LookupOne [lookups/ManufacturerOfID.txt]
+          values: LookupOne [lookups/ManufacturerOfID.txt], ofType [http://purl.obolibrary.org/obo/OBI_0000835]
         - name: Software Version
           description: A form or variant of software; one of a sequence of copies of a software program, each incorporating new modifications.
           ontology: NCIT:C111093 [http://purl.obolibrary.org/obo/NCIT_C111093]
-          values: LookupOne [lookups/ImagingDeviceSoftwareVersion.txt]
+          values: LookupOne [lookups/ImagingDeviceSoftwareVersion.txt], ofType [http://snomed.info/id/706687001]
     - name: Image Instance
       description: Any record of an imaging event whether physical or electronic.
       ontology: NCIT:C48179 [http://purl.obolibrary.org/obo/NCIT_C48179]
@@ -776,4 +776,4 @@ modules:
         - name: Image Type
           description: Indicates the characteristics and derivation of the image, e.g., whether it is a primary acquisition or a derived image.
           ontology: NCIT:C69268 [http://purl.obolibrary.org/obo/NCIT_C69268]
-          values: LookupOne [lookups/ImageType.txt]
+          values: LookupOne [lookups/ImageType.txt], ofType [http://snomed.info/id/363679005]
