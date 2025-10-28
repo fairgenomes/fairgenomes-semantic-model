@@ -1,0 +1,6 @@
+name	label	description	entity	dataType	idAttribute	labelAttribute	visible	nillable	refEntity
+ImageInstanceIdentifier	Image Instance Identifier	A sequence of letters, numbers, or other characters that specifically identifies a particular image. (NCIT:C81289)	ImageInstance	string	TRUE	TRUE	TRUE	FALSE	
+BelongsToImagingStudy	Belongs to Imaging Study	Reference to the parent imaging study of which this image is a part, linking the series to the overall study context. (NCIT:C164493)	ImageInstance	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_ImagingStudy
+BelongsToImagingSeries	Belongs to Imaging Series	Reference to the parent imaging series of which this image is a part, linking the series to the overall study context. (NCIT:C69219)	ImageInstance	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_ImagingSeries
+ImageInstanceDate	Image Instance Date	The date when this image was generated. (NCIT:C68616)	ImageInstance	date	FALSE	FALSE	TRUE	TRUE	
+ImageType	Image Type	Indicates the characteristics and derivation of the image, e.g., whether it is a primary acquisition or a derived image. (NCIT:C69268)	ImageInstance	xref	FALSE	FALSE	TRUE	TRUE	fair-genomes_ImageInstance_ImageType

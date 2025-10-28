@@ -42,6 +42,19 @@ mcmd import -p Treatment_Setting_attributes.tsv --as attributes --in fair-genome
 mcmd import -p Treatment_ResponseToTreatment_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Biomarker_Type_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Biomarker_Subtype_molecular_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingStudy_ImagingTechnique(modality)_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingStudy_BodyRegion_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingStudy_ImagingProcedure_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingStudy_ReasonForImagingProcedure_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingStudy_AffiliatedInstitution_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_ImagingTechnique(modality)_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_ImagingProcedure_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_BodyRegion_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_Laterality_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_ImagingDevice_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_ManufacturerOfImagingDevice_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_SoftwareVersion_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImageInstance_ImageType_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Study_InclusionCriteria.tsv --as fair-genomes_Study_InclusionCriteria --in fair-genomes
 mcmd import -p Personal_GenderIdentity.tsv --as fair-genomes_Personal_GenderIdentity --in fair-genomes
 mcmd import -p Personal_GenderAtBirth.tsv --as fair-genomes_Personal_GenderAtBirth --in fair-genomes
@@ -85,18 +98,35 @@ mcmd import -p Treatment_Setting.tsv --as fair-genomes_Treatment_Setting --in fa
 mcmd import -p Treatment_ResponseToTreatment.tsv --as fair-genomes_Treatment_ResponseToTreatment --in fair-genomes
 mcmd import -p Biomarker_Type.tsv --as fair-genomes_Biomarker_Type --in fair-genomes
 mcmd import -p Biomarker_Subtype_molecular.tsv --as fair-genomes_Biomarker_Subtype_molecular --in fair-genomes
+mcmd import -p ImagingStudy_ImagingTechnique(modality).tsv --as fair-genomes_ImagingStudy_ImagingTechnique(modality) --in fair-genomes
+mcmd import -p ImagingStudy_BodyRegion.tsv --as fair-genomes_ImagingStudy_BodyRegion --in fair-genomes
+mcmd import -p ImagingStudy_ImagingProcedure.tsv --as fair-genomes_ImagingStudy_ImagingProcedure --in fair-genomes
+mcmd import -p ImagingStudy_ReasonForImagingProcedure.tsv --as fair-genomes_ImagingStudy_ReasonForImagingProcedure --in fair-genomes
+mcmd import -p ImagingStudy_AffiliatedInstitution.tsv --as fair-genomes_ImagingStudy_AffiliatedInstitution --in fair-genomes
+mcmd import -p ImagingSeries_ImagingTechnique(modality).tsv --as fair-genomes_ImagingSeries_ImagingTechnique(modality) --in fair-genomes
+mcmd import -p ImagingSeries_ImagingProcedure.tsv --as fair-genomes_ImagingSeries_ImagingProcedure --in fair-genomes
+mcmd import -p ImagingSeries_BodyRegion.tsv --as fair-genomes_ImagingSeries_BodyRegion --in fair-genomes
+mcmd import -p ImagingSeries_Laterality.tsv --as fair-genomes_ImagingSeries_Laterality --in fair-genomes
+mcmd import -p ImagingSeries_ImagingDevice.tsv --as fair-genomes_ImagingSeries_ImagingDevice --in fair-genomes
+mcmd import -p ImagingSeries_ManufacturerOfImagingDevice.tsv --as fair-genomes_ImagingSeries_ManufacturerOfImagingDevice --in fair-genomes
+mcmd import -p ImagingSeries_SoftwareVersion.tsv --as fair-genomes_ImagingSeries_SoftwareVersion --in fair-genomes
+mcmd import -p ImageInstance_ImageType.tsv --as fair-genomes_ImageInstance_ImageType --in fair-genomes
 mcmd import -p Study_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Personal_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p LeafletAndConsentForm_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p IndividualConsent_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Clinical_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Material_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p FixedBlock_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p SamplePreparation_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Sequencing_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Analysis_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p HmdSubmission_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Treatment_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p Biomarker_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingStudy_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImagingSeries_attributes.tsv --as attributes --in fair-genomes
+mcmd import -p ImageInstance_attributes.tsv --as attributes --in fair-genomes
 mcmd import -p ../../misc/molgenis/other/sys_StaticContent.tsv -a add_update_existing
 mcmd add logo -p ../../misc/molgenis/img/analysis.png
 mcmd add logo -p ../../misc/molgenis/img/lookups.png
