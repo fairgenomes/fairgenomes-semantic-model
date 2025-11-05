@@ -1,7 +1,6 @@
 package org.fairgenomes.generator.datastructures;
 
 import org.apache.commons.text.CaseUtils;
-import org.yaml.snakeyaml.Yaml;
 
 import java.io.File;
 import java.time.LocalDate;
@@ -290,7 +289,7 @@ public class YamlModel {
     public void setElementModules() throws Exception {
         for (Module m : modules) {
             for (Element e : m.elements) {
-                e.m = m;
+                e.fromModule = m;
             }
         }
     }
@@ -302,8 +301,9 @@ public class YamlModel {
      */
     public static String toTechName(String in)
     {
-        return CaseUtils.toCamelCase(in, true, ' ');
-        //previously: return in.replace(" ", "").toLowerCase();
+        String out = in.replace("(", " ").replace(")", " ").trim();
+        out = CaseUtils.toCamelCase(out, true, ' ');
+        return out;
     }
 
     @Override

@@ -8,7 +8,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Generate MOLGENIS-EMX2 database template ready for import into molgenis-emx2, see https://github.com/molgenis/molgenis-emx2
@@ -40,6 +42,29 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
                 String required = e.valueTypeEnum.equals(ValueType.UniqueID) ? "TRUE" : "";
                 bw.write("\"" + entityName + "\",\"\",\"" + e.technicalName + "\",\"" + e.valueTypeToEMX2() + "\",\"" + key + "\",\"" + required + "\",\"\",\"" + e.lookupOrReferencetoEMX2() + "\",\"\",\"\",\"\",\"" + e.parsedOntology.iri + "\",\"" + e.description + "\",\"" + "FAIR Genomes" + "\"" + LE);
             }
+
+            // find modules that have references to this one to make ref-backs
+            List<Element> refBackFields = new ArrayList<>();
+            for (Module m2 : fg.modules) {
+                if(m2.technicalName.equals(m.technicalName)){
+                    continue;
+                }
+                for (Element e2 : m2.elements) {
+                    // NOTE: here name, not technical name to reference things in the YAML schema
+                    if (e2.isReference() && e2.referenceTo.equals(m.name)) {
+                        refBackFields.add(e2);
+                    }
+                }
+            }
+            for(Element e : refBackFields){
+                String key = e.valueTypeEnum.equals(ValueType.UniqueID) ? "1" : "";
+                String required = e.valueTypeEnum.equals(ValueType.UniqueID) ? "TRUE" : "";
+                bw.write("\"" + entityName + "\",\"\",\"" + e.fromModule.technicalName + "_" + e.technicalName + "\",\"" + "refback" + "\",\"" + key + "\",\"" + required + "\",\"\",\"" + e.fromModule.technicalName + "\",\"\",\""+e.technicalName+"\",\"\",\"" + e.parsedOntology.iri + "\",\"" + e.description + "\",\"" + "FAIR Genomes" + "\"" + LE);
+            }
+
+
+
+
         }
 
         //end molgenis.tsv
