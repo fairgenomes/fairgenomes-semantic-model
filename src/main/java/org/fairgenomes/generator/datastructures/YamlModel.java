@@ -98,15 +98,46 @@ public class YamlModel {
     }
 
     /**
+     * Parse module subclassing, i.e. copy superclass fields to its subclasses
+     * @throws Exception
+     */
+    public void parseModuleSubclassing() throws Exception {
+        for(Module m: modules)
+        {
+            if(m.subclassOf != null)
+            {
+
+                System.out.println("m.subclassOf : " + m.subclassOf);
+                System.out.println("moduleMap : " + moduleMap);
+
+
+                Module superClass = moduleMap.get(m.subclassOf);
+                m.elements.addAll(superClass.elements);
+            }
+        }
+    }
+
+    /**
+     * Make map of modules by their (technical) name
+     * @throws Exception
+     */
+    public void makeModuleMap() throws Exception {
+        totalNrOfLookupsWithoutGlobals = 0;
+        moduleMap = new HashMap<String, Module>();
+        for (Module m : modules) {
+            moduleMap.put(m.technicalName, m);
+            System.out.println("put:" + m.technicalName);
+        }
+    }
+
+    /**
      * Load the lookups for each element
      * @throws Exception
      */
     public void loadElementLookups() throws Exception {
         totalNrOfLookupsWithoutGlobals = 0;
-        moduleMap = new HashMap<String, Module>();
         for(Module m: modules)
         {
-            moduleMap.put(m.technicalName, m);
             m.elementMap = new HashMap<String, Element>();
             for(Element e : m.elements)
             {

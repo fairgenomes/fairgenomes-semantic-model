@@ -54,6 +54,7 @@ The FAIR Genomes metadata schema is expressed in a YAML file with a particular s
 | Attribute                     | Description                                                                           |
 |-------------------------------|---------------------------------------------------------------------------------------|
 | name                          | Name of this module                                                                   |
+| subclassOf                    | Make this module a subclass of another module, copying its elements to this module.   |
 | description                   | Description of this module, usually adapted from an ontology.                         |
 | ontology                      | Ontology term that best described this module.                                        |
 | [relationWith](#relationWith) | Described the relationship with one or more other modules in the schema.              |
