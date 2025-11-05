@@ -39,6 +39,9 @@ public class GenerateOutputs {
         YamlModel y = mapper.readValue(inputF, YamlModel.class);
         System.out.println("Loading lookups and value types...");
         y.fileName = inputF.getName().replace(".yml","");
+        y.createElementTechnicalNames();
+        y.makeModuleMap();
+        y.parseModuleSubclassing();
         y.loadLookupGlobalOptions();
         y.parseElementValueTypes();
         y.parseElementUnits();
@@ -47,7 +50,6 @@ public class GenerateOutputs {
         y.parseReferences();
         y.loadElementLookups();
         y.setElementModules();
-        y.createElementTechnicalNames();
         y.parseModuleRelations();
         return y;
     }

@@ -1,7 +1,5 @@
 package org.fairgenomes.generator.datastructures;
 
-import org.fairgenomes.generator.implementations.ToMOLGENISEMX;
-
 import java.util.List;
 import java.util.Map;
 
@@ -23,7 +21,7 @@ public class Element {
     /*
     Variables that may be loaded afterwards
      */
-    public Module m;
+    public Module fromModule;
     public String technicalName;
     public ValueType valueTypeEnum;
     public LookupList lookup;
@@ -233,7 +231,7 @@ public class Element {
         if (isReference()) {
             return pkgName + "_" + YamlModel.toTechName(referenceTo);
         } else if (isLookup()) {
-            return pkgName + "_" + m.technicalName + "_" + technicalName;
+            return pkgName + "_" + fromModule.technicalName + "_" + technicalName;
         } else {
             return "";
         }
