@@ -1105,34 +1105,87 @@ modules:
           description: A unique proper name or character sequence that identifies this particular person.
           ontology: NCIT:C164337 [http://purl.obolibrary.org/obo/NCIT_C164337]
           values: ReferenceOne [Personal]
+        - name: Year of birth
+          description: The year in which this person was born.
+          ontology: NCIT:C83164 [http://purl.obolibrary.org/obo/NCIT_C83164]
+          values: Integer
+        - name: Clinical diagnosis
+          description: A diagnosis made from a study of the signs and symptoms of a disease.
+          ontology: NCIT:C15607 [http://purl.obolibrary.org/obo/NCIT_C15607]
+          values: LookupMany [lookups/Diseases.txt], ofType [http://edamontology.org/data_3667]
         - name: Material identifier
           description: A unique proper name or character sequence that identifies this particular material.
           ontology: NCIT:C93400 [http://purl.obolibrary.org/obo/NCIT_C93400]
           values: ReferenceOne [Material]
+        - name: Sampling timestamp
+          description: Date and time at which this material was collected.
+          ontology: EFO:0000689 [http://www.ebi.ac.uk/efo/EFO_0000689]
+          values: DateTime
+        - name: Anatomical source of sample
+          description: Biological entity that constitutes the structural organization of an individual member of a biological species from which this material was taken.
+          ontology: NCIT:C103264 [http://purl.obolibrary.org/obo/NCIT_C103264]
+          values: LookupOne [lookups/AnatomicalSources.txt], ofType [http://purl.obolibrary.org/obo/UBERON_0001062]
+        - name: Pathological state
+          description: The pathological state of the tissue from which this material was derived.
+          ontology: NCIT:C28257 [http://purl.obolibrary.org/obo/NCIT_C28257]
+          values: LookupOne [lookups/PathologicalState.txt], ofType [http://purl.obolibrary.org/obo/NCIT_C164617]
         - name: Sequencing identifier
           description: A unique proper name or character sequence that identifies this particular nucleic acid sequencing assay.
           ontology: NCIT:C171337 [http://purl.obolibrary.org/obo/NCIT_C171337]
-          values: ReferenceMany [Sequencing]
+          values: ReferenceOne [Sequencing]
+        - name: Sequencing date
+          description: Date on which this sequencing assay was performed.
+          ontology: GENEPIO:0000069 [http://purl.obolibrary.org/obo/GENEPIO_0000069]
+          values: Date
         - name: WSI identifier
           description: A unique identifier for WSI series of images.
           ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
-          values: ReferenceMany [Whole slide imaging (WSI)]
+          values: ReferenceOne [Whole slide imaging (WSI)]
+        - name: WSI series start date
+          description: The date on which a study began.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
         - name: CT identifier
           description: A unique identifier for CT series of images.
           ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
-          values: ReferenceMany [Computed tomography (CT)]
+          values: ReferenceOne [Computed tomography (CT)]
+        - name: CT series start date
+          description: The date on which a study began.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
         - name: MR identifier
           description: A unique identifier for MR series of images.
           ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
-          values: ReferenceMany [Magnetic resonance (MR)]
+          values: ReferenceOne [Magnetic resonance (MR)]
+        - name: MR series start date
+          description: The date on which a study began.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
         - name: DX identifier
           description: A unique identifier for DX series of images.
           ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
-          values: ReferenceMany [Digital radiography (DX)]
-
-
-
-
-
-
-
+          values: ReferenceOne [Digital radiography (DX)]
+        - name: DX series start date
+          description: The date on which a study began.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
+        - name: MG identifier
+          description: A unique identifier for MG series of images.
+          ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
+          values: ReferenceOne [Digital mammography (MG)]
+        - name: MG series start date
+          description: The date on which a study began.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
+        - name: US identifier
+          description: A unique identifier for US series of images.
+          ontology: NCIT:C69219 [http://purl.obolibrary.org/obo/NCIT_C69219]
+          values: ReferenceOne [Ultrasound Imaging (US)]
+        - name: US series start date
+          description: The date on which a study began.
+          ontology: NCIT:C68616 [http://purl.obolibrary.org/obo/NCIT_C68616]
+          values: Date
+        - name: Body region
+          description: Named areas of the body.
+          ontology: NCIT:C12680 [http://purl.obolibrary.org/obo/NCIT_C12680]
+          values: LookupOne [lookups/AnatomicFocus.txt], ofType [http://snomed.info/id/52530000]
