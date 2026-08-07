@@ -1,0 +1,12 @@
+value	description	codesystem	code	iri
+Baseline	Initial assessment or sampling performed at the time of primary diagnosis prior to any treatment	NCIT	C25213	http://purl.obolibrary.org/obo/NCIT_C25213
+Pre-treatment	Assessment or sample collection performed immediately before initiating a specific therapeutic regimen	NCIT	C160920	http://purl.obolibrary.org/obo/NCIT_C160920
+Post-treatment	Assessment or sample collection performed after completing or during a specific treatment interval	NCIT	C160921	http://purl.obolibrary.org/obo/NCIT_C160921
+Interim	Mid-treatment assessment performed to evaluate early therapeutic response or toxicity	NCIT	C156557	http://purl.obolibrary.org/obo/NCIT_C156557
+Follow-up	Routine monitoring assessment performed at defined intervals during the post-treatment period	NCIT	C16033	http://purl.obolibrary.org/obo/NCIT_C16033
+Relapse / Progression	Assessment or sampling performed upon clinical, radiological, or molecular disease recurrence or progression	NCIT	C15681	http://purl.obolibrary.org/obo/NCIT_C15681
+Day 0	The baseline reference day, typically marking the start of treatment or trial enrollment	NCIT	C142664	http://purl.obolibrary.org/obo/NCIT_C142664
+Month 3	Assessment performed approximately 3 months after baseline or treatment initiation	NCIT	C142669	http://purl.obolibrary.org/obo/NCIT_C142669
+Month 6	Assessment performed approximately 6 months after baseline or treatment initiation	NCIT	C142670	http://purl.obolibrary.org/obo/NCIT_C142670
+Year 1	Assessment performed approximately 1 year after baseline or treatment initiation	NCIT	C142672	http://purl.obolibrary.org/obo/NCIT_C142672
+End of study	Final clinical evaluation or sampling at the completion of a patient's participation in a study or protocol	NCIT	C142698	http://purl.obolibrary.org/obo/NCIT_C142698

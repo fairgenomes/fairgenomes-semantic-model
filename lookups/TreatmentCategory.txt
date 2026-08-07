@@ -1,0 +1,11 @@
+value	description	codesystem	code	iri
+Chemotherapy	Treatment using chemical agents or drugs to destroy cancer cells or inhibit their growth	NCIT	C15632	http://purl.obolibrary.org/obo/NCIT_C15632
+Immunotherapy	Treatment designed to induce, enhance, or suppress an immune response against disease	NCIT	C15262	http://purl.obolibrary.org/obo/NCIT_C15262
+Targeted therapy	Treatment using drugs or other substances to precisely identify and attack specific cancer cells	NCIT	C93273	http://purl.obolibrary.org/obo/NCIT_C93273
+Hormonotherapy	Treatment that adds, blocks, or removes hormones to slow or stop the growth of certain cells	NCIT	C15445	http://purl.obolibrary.org/obo/NCIT_C15445
+Radiotherapy	Treatment of disease using high-energy ionizing radiation to destroy targeted cells	NCIT	C15313	http://purl.obolibrary.org/obo/NCIT_C15313
+Surgery	Therapeutic surgical procedure performed to remove tissue, organs, or tumors	NCIT	C17176	http://purl.obolibrary.org/obo/NCIT_C17176
+Stem cell transplantation	Procedures involving the infusion of stem cells to restore blood-forming cells	NCIT	C15431	http://purl.obolibrary.org/obo/NCIT_C15431
+Untreated	No prior disease-specific therapeutic intervention has been administered	NCIT	C102431	http://purl.obolibrary.org/obo/NCIT_C102431
+Other	A therapy modality not covered by the standard defined categories	NCIT	C17649	http://purl.obolibrary.org/obo/NCIT_C17649
+Unknown	Information regarding the treatment category is not available or documented	NCIT	C17998	http://purl.obolibrary.org/obo/NCIT_C17998

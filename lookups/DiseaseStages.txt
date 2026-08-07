@@ -1,0 +1,13 @@
+value	description	codesystem	code	iri
+Stage 0	Carcinoma in situ or pre-invasive disease with no evidence of regional lymph node involvement or distant metastasis	NCIT	C27967	http://purl.obolibrary.org/obo/NCIT_C27967
+Stage I	Early-stage disease characterised by a localized primary tumor without lymph node involvement or distant metastasis	NCIT	C27966	http://purl.obolibrary.org/obo/NCIT_C27966
+Stage II	Locally invasive disease with larger tumor size or limited regional lymph node involvement	NCIT	C28054	http://purl.obolibrary.org/obo/NCIT_C28054
+Stage III	Locally advanced disease characterised by extensive regional tumor spread or extensive lymph node involvement	NCIT	C27970	http://purl.obolibrary.org/obo/NCIT_C27970
+Stage IV	Advanced disease characterised by distant metastasis beyond the primary organ or regional lymph nodes	NCIT	C27971	http://purl.obolibrary.org/obo/NCIT_C27971
+Localised	Disease confined entirely to the organ of origin without spread to regional lymph nodes or distant sites	NCIT	C38134	http://purl.obolibrary.org/obo/NCIT_C38134
+Regional	Disease that has spread beyond the primary site to adjacent tissue or regional lymph nodes	NCIT	C38135	http://purl.obolibrary.org/obo/NCIT_C38135
+Metastatic	Disease that has spread to distant organs, anatomical regions, or distant lymph nodes	NCIT	C19151	http://purl.obolibrary.org/obo/NCIT_C19151
+Early stage	Broad categorisation for disease in its initial phases, typically encompassing Stages 0 through II	NCIT	C85623	http://purl.obolibrary.org/obo/NCIT_C85623
+Advanced stage	Broad categorisation for disease that has progressed significantly, typically encompassing Stages III and IV	NCIT	C85624	http://purl.obolibrary.org/obo/NCIT_C85624
+Recurrent	Reappearance of disease after a period of remission or complete therapeutic response	NCIT	C38155	http://purl.obolibrary.org/obo/NCIT_C38155
+Unknown	Disease stage cannot be assessed or is not documented in the clinical record	NCIT	C17998	http://purl.obolibrary.org/obo/NCIT_C17998

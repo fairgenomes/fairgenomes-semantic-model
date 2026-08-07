@@ -1,0 +1,5 @@
+value	description	codesystem	code	iri
+Available	Sample is in stock and available for research allocation or usage.	NCIt	C25429	http://purl.obolibrary.org/obo/NCIT_C25429
+Reserved	Sample is allocated or set aside for a specific study, project, or recipient.	NCIt	C165656	http://purl.obolibrary.org/obo/NCIT_C165656
+Depleted	Sample volume or quantity has been entirely used up with none remaining.	NCIt	C164843	http://purl.obolibrary.org/obo/NCIT_C164843
+Destroyed	Sample has been destroyed, disposed of, or discarded due to processing failure, quality degradation, or protocol requirement.	NCIt	C70841	http://purl.obolibrary.org/obo/NCIT_C70841
