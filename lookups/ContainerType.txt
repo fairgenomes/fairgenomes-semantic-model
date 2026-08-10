@@ -1,0 +1,8 @@
+value	description	codesystem	code	iri
+Tissue Cassette	Tissue Cassette	SNOMED_CT	434464009	http://snomed.info/id/434464009
+Tissue Microarray Cassette	Tissue Microarray Cassette	SNOMED_CT	434708008	http://snomed.info/id/434708008
+Microscope Slide	Microscope Slide	OBI	0400170	http://purl.obolibrary.org/obo/OBI_0400170
+Specimen Container	Specimen Container	OBI	0002088	http://purl.obolibrary.org/obo/OBI_0002088
+Specimen Vial	Specimen Vial	EFO	0005535	http://www.ebi.ac.uk/efo/EFO_0005535
+Specimen Well	Specimen Well	SNOMED_CT	434822004	http://snomed.info/id/434822004
+Electron Microscopy Grid	Electron Microscopy Grid	SNOMED_CT	434533009	http://snomed.info/id/434533009

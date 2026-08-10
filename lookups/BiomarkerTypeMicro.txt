@@ -1,0 +1,4 @@
+value	description	codesystem	code	iri
+Protein biomarker	Protein biomarker	OPMI	0000460	http://purl.obolibrary.org/obo/OPMI_0000460
+DNA biomarker	DNA biomarker	OPMI	0000458	http://purl.obolibrary.org/obo/OPMI_0000458
+RNA biomarker	RNA biomarker	OPMI	0000459	http://purl.obolibrary.org/obo/OPMI_0000459

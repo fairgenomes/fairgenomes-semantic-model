@@ -1,0 +1,5 @@
+value	description	codesystem	code	iri
+Extracellular matrix	Extracellular matrix	GO	0031012	http://purl.obolibrary.org/obo/GO_0031012
+Cell Membrane	Cell Membrane	MESH	D002462	http://id.nlm.nih.gov/mesh/D002462
+Cytoplasm	Cytoplasm	GO	0005737	http://purl.obolibrary.org/obo/GO_0005737
+Nucleus	Nucleus	GO	0005634	http://purl.obolibrary.org/obo/GO_0005634

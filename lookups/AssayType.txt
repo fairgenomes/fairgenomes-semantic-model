@@ -1,0 +1,3 @@
+value	description	codesystem	code	iri
+Hematoxylin and Eosin Staining Method	Hematoxylin and Eosin Staining Method	NCIT	C23011	http://purl.obolibrary.org/obo/NCIT_C23011
+Special Histology Staining Method	Special Histology Staining Method	NCIT	C23044	http://purl.obolibrary.org/obo/NCIT_C23044
