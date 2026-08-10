@@ -1,0 +1,4 @@
+value	description	codesystem	code	iri
+Bacterial pathogen	Bacterial pathogen	XCO	0000475	http://purl.obolibrary.org/obo/XCO_0000475
+Eukaryotic pathogen	Eukaryotic pathogen	XCO	0000363	http://purl.obolibrary.org/obo/XCO_0000363
+Viral pathogen	Viral pathogen	XCO	0000237	http://purl.obolibrary.org/obo/XCO_0000237

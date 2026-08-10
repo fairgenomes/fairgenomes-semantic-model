@@ -1,0 +1,9 @@
+value	description	codesystem	code	iri
+Anti-MHC Class II Antibody-PE labeled	Anti-MHC Class II Antibody-PE labeled	RRID	AB_3717891	https://antibodyregistry.org/AB_3717891
+MARK1/2/3/4 Rabbit pAb	MARK1/2/3/4 Rabbit pAb	RRID	AB_3717889	https://antibodyregistry.org/AB_3717889
+NMDAR2B Mouse Monoclonal Antibody	NMDAR2B Mouse Monoclonal Antibody	RRID	AB_3717885	https://antibodyregistry.org/AB_3717885
+TAK1 Recombinant Rabbit mAb	TAK1 Recombinant Rabbit mAb	RRID	AB_3717884	https://antibodyregistry.org/AB_3717884
+Phospho-ACC(S79) Rabbit monoclonal antibody	Phospho-ACC(S79) Rabbit monoclonal antibody	RRID	AB_3717881	https://antibodyregistry.org/AB_3717881
+PSMB8 polyclonal antibody	PSMB8 polyclonal antibody	RRID	AB_3717880	https://antibodyregistry.org/AB_3717880
+LIAS Antibody	LIAS Antibody	RRID	AB_3717879	https://antibodyregistry.org/AB_3717879
+Neutrophil Elastase (ELANE) Rabbit mAb	Neutrophil Elastase (ELANE) Rabbit mAb	RRID	AB_3717878	https://antibodyregistry.org/AB_3717878

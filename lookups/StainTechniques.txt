@@ -1,0 +1,153 @@
+value	description	codesystem	code	iri
+acid phosphatase stain	acid phosphatase stain	SNOMED-CT	255792001	http://snomed.info/id/255792001
+Albert's stain	Albert's stain	SNOMED-CT	255793006	http://snomed.info/id/255793006
+alcian blue 8GX stain	alcian blue 8GX stain	SNOMED-CT	4656000	http://snomed.info/id/4656000
+alcohol soluble nigrosine stain	alcohol soluble nigrosine stain	SNOMED-CT	47795002	http://snomed.info/id/47795002
+aldehyde fuchsin stain	aldehyde fuchsin stain	SNOMED-CT	406981005	http://snomed.info/id/406981005
+alizarin blue S stain	alizarin blue S stain	SNOMED-CT	54432009	http://snomed.info/id/54432009
+alizarin cyanine green stain	alizarin cyanine green stain	SNOMED-CT	21951008	http://snomed.info/id/21951008
+alizarin red S stain	alizarin red S stain	SNOMED-CT	65580004	http://snomed.info/id/65580004
+alizarin yellow GG stain	alizarin yellow GG stain	SNOMED-CT	27016007	http://snomed.info/id/27016007
+alizarin yellow R stain	alizarin yellow R stain	SNOMED-CT	28622002	http://snomed.info/id/28622002
+alkaline phosphatase stain	alkaline phosphatase stain	SNOMED-CT	406971006	http://snomed.info/id/406971006
+aniline blue stain	aniline blue stain	SNOMED-CT	406990003	http://snomed.info/id/406990003
+auramine stain	auramine stain	SNOMED-CT	255794000	http://snomed.info/id/255794000
+azo black stain	azo black stain	SNOMED-CT	85066006	http://snomed.info/id/85066006
+azocarmine G stain	azocarmine G stain	SNOMED-CT	76048000	http://snomed.info/id/76048000
+azophloxin stain	azophloxin stain	SNOMED-CT	35609001	http://snomed.info/id/35609001
+azorubin S stain	azorubin S stain	SNOMED-CT	2159007	http://snomed.info/id/2159007
+azure A stain	azure A stain	SNOMED-CT	16836001	http://snomed.info/id/16836001
+azure B stain	azure B stain	SNOMED-CT	8926000	http://snomed.info/id/8926000
+azure C stain	azure C stain	SNOMED-CT	11069001	http://snomed.info/id/11069001
+bauers chromic acid leucofuchsin stain	bauers chromic acid leucofuchsin stain	SNOMED-CT	406982003	http://snomed.info/id/406982003
+benzo fast scarlet stain	benzo fast scarlet stain	SNOMED-CT	27844007	http://snomed.info/id/27844007
+beta-glucuronidase stain	beta-glucuronidase stain	SNOMED-CT	255795004	http://snomed.info/id/255795004
+biebrich scarlet stain	biebrich scarlet stain	SNOMED-CT	76605005	http://snomed.info/id/76605005
+bismark brown R stain	bismark brown R stain	SNOMED-CT	41448008	http://snomed.info/id/41448008
+bismark brown Y stain	bismark brown Y stain	SNOMED-CT	85190005	http://snomed.info/id/85190005
+blue shade eosin stain	blue shade eosin stain	SNOMED-CT	1346008	http://snomed.info/id/1346008
+brazilin stain	brazilin stain	SNOMED-CT	41750006	http://snomed.info/id/41750006
+brilliant cresyl blue stain	brilliant cresyl blue stain	SNOMED-CT	8342001	http://snomed.info/id/8342001
+brilliant crocein stain	brilliant crocein stain	SNOMED-CT	86541009	http://snomed.info/id/86541009
+brilliant orange stain	brilliant orange stain	SNOMED-CT	8429000	http://snomed.info/id/8429000
+brilliant yellow stain	brilliant yellow stain	SNOMED-CT	57753006	http://snomed.info/id/57753006
+butyrate esterase stain	butyrate esterase stain	SNOMED-CT	406955006	http://snomed.info/id/406955006
+carbol fuchsin stain	carbol fuchsin stain	SNOMED-CT	764166003	http://snomed.info/id/764166003
+carmine stain	carmine stain	SNOMED-CT	73892005	http://snomed.info/id/73892005
+carmimic acid stain	carmimic acid stain	SNOMED-CT	432003	http://snomed.info/id/432003
+carmoisine A stain	carmoisine A stain	SNOMED-CT	37575004	http://snomed.info/id/37575004
+celestine blue B stain	celestine blue B stain	SNOMED-CT	38707008	http://snomed.info/id/38707008
+chloroacetate esterase stain	chloroacetate esterase stain	SNOMED-CT	255796003	http://snomed.info/id/255796003
+chromic acid stain	chromic acid stain	SNOMED-CT	406986000	http://snomed.info/id/406986000
+chromotrope 2R stain	chromotrope 2R stain	SNOMED-CT	85981002	http://snomed.info/id/85981002
+chrysoidine R stain	chrysoidine R stain	SNOMED-CT	10247008	http://snomed.info/id/10247008
+chrysoidine Y stain	chrysoidine Y stain	SNOMED-CT	16943008	http://snomed.info/id/16943008
+colloidal iron stain	colloidal iron stain	SNOMED-CT	406952009	http://snomed.info/id/406952009
+Congo red stain	Congo red stain	SNOMED-CT	45106005	http://snomed.info/id/45106005
+cresyl echt violet stain	cresyl echt violet stain	SNOMED-CT	406960005	http://snomed.info/id/406960005
+cresyl violet stain	cresyl violet stain	SNOMED-CT	406959000	http://snomed.info/id/406959000
+crystal ponceau stain	crystal ponceau stain	SNOMED-CT	68459007	http://snomed.info/id/68459007
+curcumin stain	curcumin stain	SNOMED-CT	89082002	http://snomed.info/id/89082002
+diamond black stain	diamond black stain	SNOMED-CT	72572003	http://snomed.info/id/72572003
+durazol red stain	durazol red stain	SNOMED-CT	11780008	http://snomed.info/id/11780008
+erie garnet stain	erie garnet stain	SNOMED-CT	40076005	http://snomed.info/id/40076005
+eriochrome blue black SE stain	eriochrome blue black SE stain	SNOMED-CT	58631000	http://snomed.info/id/58631000
+erythrosin B stain	erythrosin B stain	SNOMED-CT	7434003	http://snomed.info/id/7434003
+erythrosin Y stain	erythrosin Y stain	SNOMED-CT	5043000	http://snomed.info/id/5043000
+Evans blue stain	Evans blue stain	SNOMED-CT	22931006	http://snomed.info/id/22931006
+fast blue B salt stain	fast blue B salt stain	SNOMED-CT	34700000	http://snomed.info/id/34700000
+fast blue BB salt stain	fast blue BB salt stain	SNOMED-CT	91295002	http://snomed.info/id/91295002
+fast blue RR salt stain	fast blue RR salt stain	SNOMED-CT	64112001	http://snomed.info/id/64112001
+fast garnet GBC salt stain	fast garnet GBC salt stain	SNOMED-CT	89148006	http://snomed.info/id/89148006
+fast green FCF stain	fast green FCF stain	SNOMED-CT	24167004	http://snomed.info/id/24167004
+fast red B salt stain	fast red B salt stain	SNOMED-CT	40718007	http://snomed.info/id/40718007
+fast red ITR stain	fast red ITR stain	SNOMED-CT	47486002	http://snomed.info/id/47486002
+fast red TR salt stain	fast red TR salt stain	SNOMED-CT	76633005	http://snomed.info/id/76633005
+fast sulfon black F stain	fast sulfon black F stain	SNOMED-CT	88660000	http://snomed.info/id/88660000
+fast violet B salt stain	fast violet B salt stain	SNOMED-CT	72371006	http://snomed.info/id/72371006
+fat red 7B stain	fat red 7B stain	SNOMED-CT	76439002	http://snomed.info/id/76439002
+Feulgen reaction stain	Feulgen reaction stain	SNOMED-CT	255797007	http://snomed.info/id/255797007
+field's stain	field's stain	SNOMED-CT	255798002	http://snomed.info/id/255798002
+Flagellar stain	Flagellar stain	SNOMED-CT	255799005	http://snomed.info/id/255799005
+fluorescent stain	fluorescent stain	SNOMED-CT	35352008	http://snomed.info/id/35352008
+fouchet stain	fouchet stain	SNOMED-CT	406980006	http://snomed.info/id/406980006
+fuchsin acid stain	fuchsin acid stain	SNOMED-CT	60920007	http://snomed.info/id/60920007
+fuchsin basic stain	fuchsin basic stain	SNOMED-CT	50062004	http://snomed.info/id/50062004
+gallocyanine stain	gallocyanine stain	SNOMED-CT	8836009	http://snomed.info/id/8836009
+giemsa stain	giemsa stain	SNOMED-CT	373646006	http://snomed.info/id/373646006
+gram stain	gram stain	SNOMED-CT	385484003	http://snomed.info/id/385484003
+hansel stain	hansel stain	SNOMED-CT	406983008	http://snomed.info/id/406983008
+hematein stain	hematein stain	SNOMED-CT	75956008	http://snomed.info/id/75956008
+hematoxylin stain	hematoxylin stain	SNOMED-CT	12710003	http://snomed.info/id/12710003
+immunofluorescent stain	immunofluorescent stain	SNOMED-CT	255800009	http://snomed.info/id/255800009
+India ink stain	India ink stain	SNOMED-CT	406972004	http://snomed.info/id/406972004
+indigo carmine	indigo carmine	SNOMED-CT	412548006	http://snomed.info/id/412548006
+indophenol from naphthol stain	indophenol from naphthol stain	SNOMED-CT	11727009	http://snomed.info/id/11727009
+insoluble berlin blue stain	insoluble berlin blue stain	SNOMED-CT	47030008	http://snomed.info/id/47030008
+janus green B stain	janus green B stain	SNOMED-CT	68263003	http://snomed.info/id/68263003
+Jenner-Giemsa stain	Jenner-Giemsa stain	SNOMED-CT	255801008	http://snomed.info/id/255801008
+kenacid blue R stain	kenacid blue R stain	SNOMED-CT	29342009	http://snomed.info/id/29342009
+lacmoid stain	lacmoid stain	SNOMED-CT	35724001	http://snomed.info/id/35724001
+Leishman stain	Leishman stain	SNOMED-CT	255802001	http://snomed.info/id/255802001
+light green SF stain	light green SF stain	SNOMED-CT	89139001	http://snomed.info/id/89139001
+lissamine fast red B stain	lissamine fast red B stain	SNOMED-CT	6701008	http://snomed.info/id/6701008
+lissamine fast yellow stain	lissamine fast yellow stain	SNOMED-CT	25079009	http://snomed.info/id/25079009
+lissamine green B stain	lissamine green B stain	SNOMED-CT	38543004	http://snomed.info/id/38543004
+lissamine rhodamine stain	lissamine rhodamine stain	SNOMED-CT	111102009	http://snomed.info/id/111102009
+luxol fast blue stain	luxol fast blue stain	SNOMED-CT	406958008	http://snomed.info/id/406958008
+malachite green stain	malachite green stain	SNOMED-CT	27120008	http://snomed.info/id/27120008
+Mallory bleach stain	Mallory bleach stain	SNOMED-CT	406953004	http://snomed.info/id/406953004
+martius yellow stain	martius yellow stain	SNOMED-CT	46139004	http://snomed.info/id/46139004
+may-Grunwald giemsa stain	may-Grunwald giemsa stain	SNOMED-CT	255803006	http://snomed.info/id/255803006
+meldola blue stain	meldola blue stain	SNOMED-CT	24516006	http://snomed.info/id/24516006
+metanil yellow stain	metanil yellow stain	SNOMED-CT	54791001	http://snomed.info/id/54791001
+methyl blue stain	methyl blue stain	SNOMED-CT	9010006	http://snomed.info/id/9010006
+methyl green pyronin stain	methyl green pyronin stain	SNOMED-CT	255804000	http://snomed.info/id/255804000
+methyl orange stain	methyl orange stain	SNOMED-CT	42248000	http://snomed.info/id/42248000
+methyl red stain	methyl red stain	SNOMED-CT	13744001	http://snomed.info/id/13744001
+methyl violet stain	methyl violet stain	SNOMED-CT	387239001	http://snomed.info/id/387239001
+methylene blue stain	methylene blue stain	SNOMED-CT	6725000	http://snomed.info/id/6725000
+methylene violet stain	methylene violet stain	SNOMED-CT	406961009	http://snomed.info/id/406961009
+methylene violet stain (Bernthsen)	methylene violet stain (Bernthsen)	SNOMED-CT	31260003	http://snomed.info/id/31260003
+modified trichrome stain	modified trichrome stain	SNOMED-CT	406991004	http://snomed.info/id/406991004
+mucicarmine stain	mucicarmine stain	SNOMED-CT	406964001	http://snomed.info/id/406964001
+myeloperoxidase stain	myeloperoxidase stain	SNOMED-CT	255805004	http://snomed.info/id/255805004
+naphthalene black 12B stain	naphthalene black 12B stain	SNOMED-CT	16788000	http://snomed.info/id/16788000
+naphthol green B stain	naphthol green B stain	SNOMED-CT	14958002	http://snomed.info/id/14958002
+naphthol yellow S stain	naphthol yellow S stain	SNOMED-CT	111101002	http://snomed.info/id/111101002
+naphthol-AS-D-chloracetate esterase stain	naphthol-AS-D-chloracetate esterase stain	SNOMED-CT	406973009	http://snomed.info/id/406973009
+neutral red stain	neutral red stain	SNOMED-CT	67956008	http://snomed.info/id/67956008
+neutrophil alkaline phosphatase stain	neutrophil alkaline phosphatase stain	SNOMED-CT	255806003	http://snomed.info/id/255806003
+new fuchsin stain	new fuchsin stain	SNOMED-CT	37174001	http://snomed.info/id/37174001
+night blue stain	night blue stain	SNOMED-CT	406965000	http://snomed.info/id/406965000
+nile blue stain	nile blue stain	SNOMED-CT	77073008	http://snomed.info/id/77073008
+nitrazine yellow stain	nitrazine yellow stain	SNOMED-CT	86750008	http://snomed.info/id/86750008
+nonspecific esterase stain	nonspecific esterase stain	SNOMED-CT	255807007	http://snomed.info/id/255807007
+nuclear fast red stain	nuclear fast red stain	SNOMED-CT	78869007	http://snomed.info/id/78869007
+oil red O stain	oil red O stain	SNOMED-CT	408008006	http://snomed.info/id/408008006
+orange G stain	orange G stain	SNOMED-CT	54221006	http://snomed.info/id/54221006
+orcein stain	orcein stain	SNOMED-CT	406966004	http://snomed.info/id/406966004
+paraldehyde fuchsin stain	paraldehyde fuchsin stain	SNOMED-CT	38542001	http://snomed.info/id/38542001
+pararosaniline stain	pararosaniline stain	SNOMED-CT	41755001	http://snomed.info/id/41755001
+PAS stain	PAS stain (Periodic Acid–Schiff)	SNOMED-CT	10490007	http://snomed.info/id/10490007
+pentachrome stain	pentachrome stain	SNOMED-CT	16736000	http://snomed.info/id/16736000
+perls’ Prussian blue stain	perls’ Prussian blue stain	SNOMED-CT	30874003	http://snomed.info/id/30874003
+Ponceau S stain	Ponceau S stain	SNOMED-CT	39859004	http://snomed.info/id/39859004
+papanicolaou stain	papanicolaou stain	SNOMED-CT	16798007	http://snomed.info/id/16798007
+pyronin stain	pyronin stain	SNOMED-CT	27412003	http://snomed.info/id/27412003
+resorcin fuchsin stain	resorcin fuchsin stain	SNOMED-CT	38453007	http://snomed.info/id/38453007
+rhodamine stain	rhodamine stain	SNOMED-CT	86399001	http://snomed.info/id/86399001
+Romanowsky stain	Romanowsky stain	SNOMED-CT	12278009	http://snomed.info/id/12278009
+Safranin O stain	Safranin O stain	SNOMED-CT	37254005	http://snomed.info/id/37254005
+Sirius red stain	Sirius red stain	SNOMED-CT	67314006	http://snomed.info/id/67314006
+silver nitrate stain	silver nitrate stain	SNOMED-CT	90963000	http://snomed.info/id/90963000
+Sudan black stain	Sudan black stain	SNOMED-CT	16178005	http://snomed.info/id/16178005
+Sudan III stain	Sudan III stain	SNOMED-CT	15945005	http://snomed.info/id/15945005
+Sudan IV stain	Sudan IV stain	SNOMED-CT	31389005	http://snomed.info/id/31389005
+Sudan red 7B stain	Sudan red 7B stain	SNOMED-CT	76439002	http://snomed.info/id/76439002
+toluidine blue stain	toluidine blue stain	SNOMED-CT	38543005	http://snomed.info/id/38543005
+trichrome stain	trichrome stain	SNOMED-CT	6410008	http://snomed.info/id/6410008
+van Gieson stain	van Gieson stain	SNOMED-CT	85525005	http://snomed.info/id/85525005
+Victoria blue stain	Victoria blue stain	SNOMED-CT	38585005	http://snomed.info/id/38585005
+Wright stain	Wright stain	SNOMED-CT	38620003	http://snomed.info/id/38620003
+Ziehl-Neelsen stain	Ziehl-Neelsen stain	SNOMED-CT	65520002	http://snomed.info/id/65520002

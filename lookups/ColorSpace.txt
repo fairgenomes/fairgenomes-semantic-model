@@ -1,0 +1,6 @@
+value	description	codesystem	code	iri
+RGB	RGB	EDAM	3600	http://edamontology.org/format_3600
+Grayscale Image	Grayscale Image	NCIT	C85845	http://purl.obolibrary.org/obo/NCIT_C85845
+MONOCHROME1	MONOCHROME1	FG	0000824	https://w3id.org/fair-genomes/resource/0000824
+MONOCHROME2	MONOCHROME2	FG	0000825	https://w3id.org/fair-genomes/resource/0000825
+PALETTE COLOR	PALETTE COLOR	FG	0000826	https://w3id.org/fair-genomes/resource/0000826

@@ -1,0 +1,4 @@
+value	description	codesystem	code	iri
+Automatic	Digitization without any interference from the personnel responsible.	FG	0000783	https://w3id.org/fair-genomes/resource/0000783
+Semi-automatic	Digitization with minimal interference from the personnel responsible.	FG	0000784	https://w3id.org/fair-genomes/resource/0000784
+Manual	The personnel responsible adjust several parameters during the digitization procedure.	FG	0000785	https://w3id.org/fair-genomes/resource/0000785

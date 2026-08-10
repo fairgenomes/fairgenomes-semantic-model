@@ -1,1 +1,3 @@
 value	description	codesystem	code	iri
+Paraffin	Paraffin	MeSH	D010232	http://id.nlm.nih.gov/mesh/D010232
+Optimal Cutting Temperature Compound	Optimal Cutting Temperature Compound	NCIT	C63523	http://purl.obolibrary.org/obo/NCIT_C63523

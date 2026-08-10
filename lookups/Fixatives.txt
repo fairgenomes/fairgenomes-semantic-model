@@ -1,1 +1,10 @@
 value	description	codesystem	code	iri
+Neutral Buffered Formalin	Neutral Buffered Formalin	OBIB	0000213	http://purl.obolibrary.org/obo/OBIB_0000213
+Formaldehyde	Formaldehyde	CHEBI	16842	http://purl.obolibrary.org/obo/CHEBI_16842
+Alcohol/Polyethylene Glycol-based Cytology Fixative	Alcohol/Polyethylene Glycol-based Cytology Fixative	NCIT	C113703	http://purl.obolibrary.org/obo/NCIT_C113703
+Bouin's Fixative	Bouin's Fixative	NCIT	C63349	http://purl.obolibrary.org/obo/NCIT_C63349
+Carnoy's Solution	Carnoy's Solution	NCIT	C178534	http://purl.obolibrary.org/obo/NCIT_C178534
+Diimidoester	Diimidoester	NCIT	C185112	http://purl.obolibrary.org/obo/NCIT_C185112
+Methacarn	Methacarn	NCIT	C63344	http://purl.obolibrary.org/obo/NCIT_C63344
+Methanol/Water-based Buffered Preservative Solution	Methanol/Water-based Buffered Preservative Solution	NCIT	C113702	http://purl.obolibrary.org/obo/NCIT_C113702
+PAXgene Tissue System	PAXgene Tissue System	NCIT	C185113	http://purl.obolibrary.org/obo/NCIT_C185113

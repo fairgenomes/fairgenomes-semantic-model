@@ -1,0 +1,6 @@
+value	description	codesystem	code	iri
+OME-TIFF	OME-TIFF	EDAM	3727	http://edamontology.org/format_3727
+TIFF	TIFF	EDAM	3591	http://edamontology.org/format_3591
+DICOM	DICOM	NCIT	C49059	http://purl.obolibrary.org/obo/NCIT_C49059
+JPEG	JPEG	NCIT	C48230	http://purl.obolibrary.org/obo/NCIT_C48230
+MRXS	Mirax	FG	0000786	https://w3id.org/fair-genomes/resource/0000786

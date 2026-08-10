@@ -1,0 +1,6 @@
+value	description	codesystem	code	iri
+Oblique illumination	Oblique illumination	FBBI	00000285	http://purl.obolibrary.org/obo/FBbi_00000285
+Epifluorescence illumination	Epifluorescence illumination	SNOMED-CT	698790009	http://snomed.info/id/698790009
+Reflection illumination	Reflection illumination	SNOMED-CT	698789000	http://snomed.info/id/698789000
+Darkfield illumination	Darkfield illumination	SNOMED-CT	698793006	http://snomed.info/id/698793006
+Transmission illumination	Transmission illumination	SNOMED-CT	698788008	http://snomed.info/id/698788008

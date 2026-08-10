@@ -1,0 +1,24 @@
+value	description	codesystem	code	iri
+Artery	Artery	SNOMED-CT	51114001	http://snomed.info/id/51114001
+Blood	Blood	SNOMED-CT	87612001	http://snomed.info/id/87612001
+Blood vessel	Blood vessel	SNOMED-CT	59820001	http://snomed.info/id/59820001
+Body fat	Body fat	SNOMED-CT	248300009	http://snomed.info/id/248300009
+Bone	Bone	SNOMED-CT	272673000	http://snomed.info/id/272673000
+Capillary	Capillary	SNOMED-CT	20982000	http://snomed.info/id/20982000
+Cartilage	Cartilage	SNOMED-CT	309312004	http://snomed.info/id/309312004
+Connective tissue	Connective tissue	SNOMED-CT	21793004	http://snomed.info/id/21793004
+Ligament	Ligament	SNOMED-CT	52082005	http://snomed.info/id/52082005
+Lymph node	Lymph node	SNOMED-CT	59441001	http://snomed.info/id/59441001
+Lymphatic system	Lymphatic system	SNOMED-CT	89890002	http://snomed.info/id/89890002
+Lymphatic vessel	Lymphatic vessel	SNOMED-CT	83555006	http://snomed.info/id/83555006
+Lymphoid tissue	Lymphoid tissue	SNOMED-CT	6969002	http://snomed.info/id/6969002
+Meniscus	Meniscus	SNOMED-CT	74135004	http://snomed.info/id/74135004
+Muscle	Muscle	SNOMED-CT	71616004	http://snomed.info/id/71616004
+Nerve	Nerve	SNOMED-CT	119410002	http://snomed.info/id/119410002
+Organ	Organ	SNOMED-CT	11334008	http://snomed.info/id/11334008
+Skin	Skin	SNOMED-CT	39937001	http://snomed.info/id/39937001
+Soft tissue	Soft tissue	SNOMED-CT	87784001	http://snomed.info/id/87784001
+Subcutaneous tissue	Subcutaneous tissue	SNOMED-CT	71966008	http://snomed.info/id/71966008
+Tendon	Tendon	SNOMED-CT	13024002	http://snomed.info/id/13024002
+Tissue	Tissue	SNOMED-CT	85756007	http://snomed.info/id/85756007
+Vein	Vein	SNOMED-CT	29092000	http://snomed.info/id/29092000

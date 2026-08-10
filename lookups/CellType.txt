@@ -1,0 +1,5 @@
+value	description	codesystem	code	iri
+Epithelial Cell	Epithelial Cell	CL	0000066	http://purl.obolibrary.org/obo/CL_0000066
+Stromal cell	Stromal cell	CL	0000499	http://purl.obolibrary.org/obo/CL_0000499
+Osteoblast	Osteoblast	CL	0000062	http://purl.obolibrary.org/obo/CL_0000062
+Disease cell type	Disease cell type	EFO	0005934	http://www.ebi.ac.uk/efo/EFO_0005934

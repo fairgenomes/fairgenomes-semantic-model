@@ -1,0 +1,4 @@
+value	description	codesystem	code	iri
+anti-glomerular basement membrane antibody	anti-glomerular basement membrane antibody	XCO	0000255	http://purl.obolibrary.org/obo/XCO_0000255
+anti-rh-VEGF165 monoclonal antibody	anti-rh-VEGF165 monoclonal antibody	XCO	0000860	http://purl.obolibrary.org/obo/XCO_0000860
+anti-RT6.1 antibody	anti-RT6.1 antibody	XCO	0000231	http://purl.obolibrary.org/obo/XCO_0000231
