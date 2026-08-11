@@ -32,6 +32,28 @@ public class Element {
     public int nrOfLookupsWithoutGlobals;
     public Map<Match, List<Ontology>> matches;
 
+    /**
+     * Default constructor (required for Jackson YAML deserialization)
+     */
+    public Element() {
+    }
+
+    /**
+     * Copy constructor (deep copies an existing Element)
+     */
+    public Element(Element other) {
+        this.name = other.name;
+        this.description = other.description;
+        this.ontology = other.ontology;
+        this.values = other.values;
+        this.unit = other.unit;
+        this.exactMatch = other.exactMatch;
+        this.closeMatch = other.closeMatch;
+        this.relatedMatch = other.relatedMatch;
+        this.broadMatch = other.broadMatch;
+        this.narrowMatch = other.narrowMatch;
+    }
+
     @Override
     public String toString() {
         return "Attribute{" +

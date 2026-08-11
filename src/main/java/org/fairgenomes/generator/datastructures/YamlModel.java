@@ -105,15 +105,13 @@ public class YamlModel {
         {
             if(m.subclassOf != null)
             {
-
-                System.out.println("m.subclassOf : " + m.subclassOf);
-                System.out.println("moduleMap : " + moduleMap);
-
-
                 Module superClass = moduleMap.get(m.subclassOf);
-                m.elements.addAll(superClass.elements);
+                for (Element parentElement : superClass.elements) {
+                    m.elements.add(new Element(parentElement)); // new instance
+                }
             }
         }
+        this.createElementTechnicalNames(); //refresh technical names
     }
 
     /**
@@ -125,7 +123,6 @@ public class YamlModel {
         moduleMap = new HashMap<String, Module>();
         for (Module m : modules) {
             moduleMap.put(m.technicalName, m);
-            System.out.println("put:" + m.technicalName);
         }
     }
 
