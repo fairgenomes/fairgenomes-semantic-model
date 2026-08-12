@@ -21,6 +21,7 @@ public class Element {
     /*
     Variables that may be loaded afterwards
      */
+    public boolean copiedFromSuperClass;
     public Module fromModule;
     public String technicalName;
     public ValueType valueTypeEnum;
@@ -36,12 +37,13 @@ public class Element {
      * Default constructor (required for Jackson YAML deserialization)
      */
     public Element() {
+        this.copiedFromSuperClass = false;
     }
 
     /**
      * Copy constructor (deep copies an existing Element)
      */
-    public Element(Element other) {
+    public Element(Element other, boolean copiedFromSuperClass) {
         this.name = other.name;
         this.description = other.description;
         this.ontology = other.ontology;
@@ -52,6 +54,7 @@ public class Element {
         this.relatedMatch = other.relatedMatch;
         this.broadMatch = other.broadMatch;
         this.narrowMatch = other.narrowMatch;
+        this.copiedFromSuperClass = copiedFromSuperClass;
     }
 
     @Override

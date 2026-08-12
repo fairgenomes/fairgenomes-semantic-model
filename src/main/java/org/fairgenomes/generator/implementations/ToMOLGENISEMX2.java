@@ -35,11 +35,19 @@ public class ToMOLGENISEMX2 extends AbstractGenerator {
         for (Module m : fg.modules) {
 
             String entityName = m.technicalName;
-            bw.write("\"" +entityName + "\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"" + m.parsedOntology.iri + "\",\"" + m.description + "\",\"" + "FAIR Genomes" + "\"" + LE);
+            String tableExtends = m.subclassOf == null ? "" : m.subclassOf;
+            bw.write("\"" +entityName + "\",\"" + tableExtends + "\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"" + m.parsedOntology.iri + "\",\"" + m.description + "\",\"" + "FAIR Genomes" + "\"" + LE);
 
             for (Element e : m.elements) {
+                if(e.copiedFromSuperClass){
+                    continue;
+                }
                 String key = e.valueTypeEnum.equals(ValueType.UniqueID) ? "1" : "";
                 String required = e.valueTypeEnum.equals(ValueType.UniqueID) ? "TRUE" : "";
+                if(key.equals("1") &&  m.subclassOf != null){
+                    // subclass tables cannot have PKs
+                    continue;
+                }
                 bw.write("\"" + entityName + "\",\"\",\"" + e.technicalName + "\",\"" + e.valueTypeToEMX2() + "\",\"" + key + "\",\"" + required + "\",\"\",\"" + e.lookupOrReferencetoEMX2() + "\",\"\",\"\",\"\",\"" + e.parsedOntology.iri + "\",\"" + e.description + "\",\"" + "FAIR Genomes" + "\"" + LE);
             }
 

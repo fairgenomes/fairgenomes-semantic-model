@@ -107,7 +107,7 @@ public class YamlModel {
             {
                 Module superClass = moduleMap.get(m.subclassOf);
                 for (Element parentElement : superClass.elements) {
-                    m.elements.add(new Element(parentElement)); // new instance
+                    m.elements.add(new Element(parentElement, true)); // new instance
                 }
             }
         }
